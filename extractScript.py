@@ -111,6 +111,9 @@ def translate_string(byte_sequence, trans_table, alt=False):
 	e.g. 0x1A 0x5F 0x76 0x61 0x62 0x63 0x64 0x65 0x00 = <control><control>vabcde<end>
 	"""
 
+	if VERBOSE:
+		print hex(byte_sequence["start_pos"])
+					
 	# method1 has two leading control bytes and a null byte as terminator
 	text_key = "text"
 	previous_b = ""
@@ -134,18 +137,16 @@ def translate_string(byte_sequence, trans_table, alt=False):
 		
 	byte_sequence[text_key] = []
 	already_i = 0
-	for i in range(offset, len(byte_sequence["bytes"]) - trailing_bytes):
-		b = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
-		#Don't process dakuten/handakuten
-		#if b not in DAKUTEN_ALL:
+	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
+		b = str(binascii.hexlify(byte_sequence["bytes"][i-1])).upper()
+		# Don't process dakuten/handakuten
 		# Is the next byte a dakuten/handakuten?
-		b2 = str(binascii.hexlify(byte_sequence["bytes"][i+1])).upper()
+		b2 = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
 		if b2 == "81":
 			b2 = DAKUTEN_REPLACE
 		if b2 in DAKUTEN:
 			# Use a composite byte instead
 			b = b + b2
-			# Skip to next position
 			already_i = i + 1
 		bt = ""
 		if i != already_i:

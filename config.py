@@ -18,9 +18,9 @@ METHOD_1_OFFSET = 2
 METHOD_2_OFFSET = 1
 METHOD_3_OFFSET = 0
 
-METHOD_1_TRAILING_BYTES = 1
-METHOD_2_TRAILING_BYTES = 2
-METHOD_3_TRAILING_BYTES = 1
+METHOD_1_TRAILING_BYTES = 0
+METHOD_2_TRAILING_BYTES = 1
+METHOD_3_TRAILING_BYTES = 0
 
 # Define the areas of the ROM file we are wanting to extract
 # text from.
@@ -36,9 +36,9 @@ METHOD_3_TRAILING_BYTES = 1
 #	A: textual description of what this block of text represents, if known
 
 BYTES = [
-	#(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options."),
-	#(METHOD_3, 0x28086, 0x28949, "Unknown."),
-	#(METHOD_2, 0x1b8d6, 0x1bca6, "Scrolling intro text after cinematics."),
-	#(METHOD_1, 0x1defc, 0x1e0a5, "Possible ship dialogue for first world."),
+	(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options."),
+	(METHOD_3, 0x28086, 0x28949, "Unknown."),
+	(METHOD_3, 0x1b8d6, 0x1bca6, "Scrolling intro text after cinematics."),
+	(METHOD_1, 0x1defc, 0x1e0a5, "Possible ship dialogue for first world."),
 	(METHOD_2, 0x29eff, 0x2a1ad, "Introductory cinematics."),
 ]
