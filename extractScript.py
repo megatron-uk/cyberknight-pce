@@ -104,7 +104,7 @@ def load_table():
 	
 ######################################################
 
-def translate_string(byte_sequence, trans_table):
+def translate_string(byte_sequence, trans_table, alt=False):
 	"""
 	translate_string - construct the actual text, using multi-byte characters
 	where appropriate, that represent the hex codes found in the rom.
@@ -112,7 +112,7 @@ def translate_string(byte_sequence, trans_table):
 	"""
 
 	# method1 has two leading control bytes and a null byte as terminator
-	byte_sequence["text"] = []
+	text_key = "text"
 	previous_b = ""
 	switch_mode = False
 	# Record the start bytes
@@ -124,10 +124,15 @@ def translate_string(byte_sequence, trans_table):
 		offset = METHOD_2_OFFSET
 		trailing_bytes = METHOD_2_TRAILING_BYTES
 		switch_mode = True
+		if alt:
+			switch_mode = False
+			text_key = "alt_text"
+			
 	if (byte_sequence["method"] == METHOD_3):
 		offset = METHOD_3_OFFSET
 		trailing_bytes = METHOD_3_TRAILING_BYTES
 		
+	byte_sequence[text_key] = []
 	already_i = 0
 	for i in range(offset, len(byte_sequence["bytes"]) - trailing_bytes):
 		b = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
@@ -150,11 +155,11 @@ def translate_string(byte_sequence, trans_table):
 				else:
 					if b in trans_table.keys():
 						bt = trans_table[b]["post_shift"]
-						byte_sequence["text"].append(bt)
+						byte_sequence[text_key].append(bt)
 					else:
 						# warning - byte sequence not in table
 						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
-						byte_sequence["text"].append("<%s>" % b)
+						byte_sequence[text_key].append("<%s>" % b)
 					if VERBOSE:
 						print "%6s %2s %6s %5s" % (b, i, bt, switch_mode)
 			else:
@@ -163,11 +168,11 @@ def translate_string(byte_sequence, trans_table):
 				else:
 					if b in trans_table.keys():
 						bt = trans_table[b]["pre_shift"]
-						byte_sequence["text"].append(bt)
+						byte_sequence[text_key].append(bt)
 					else:
 						# warning - byte sequence not in table
 						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
-						byte_sequence["text"].append("<%s>" % b)
+						byte_sequence[text_key].append("<%s>" % b)
 					if VERBOSE:
 						print "%6s %2s %6s %5s" % (b, i, bt, switch_mode)
 	return byte_sequence
@@ -307,6 +312,7 @@ def method2(rom_start_address, rom_end_address, description):
 				
 				# Generate the actual text string (which we will print for translation)s
 				byte_sequence = translate_string(byte_sequence, ttable)
+				byte_sequence = translate_string(byte_sequence, ttable, alt=True)
 				
 				# Record the data
 				byte_strings.append(byte_sequence)
@@ -441,6 +447,13 @@ def write_export(byte_strings):
 		for c in b["text"]:
 			f.write(c)
 		f.write("\",\n")
+		
+		if b["method"] == METHOD_2:
+			f.write("        \"alt_text\" : \"")	
+			for c in b["alt_text"]:
+				f.write(c)
+			f.write("\",\n")
+				
 		f.write("        \"trans_size\" : 0,\n")
 		f.write("        \"trans_text\" : \"\"\n")
 		f.write("    },\n\n")
