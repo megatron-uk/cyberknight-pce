@@ -45,17 +45,6 @@ OUT_NAME = "out.sjs"
 OVERWRITE = False
 VERBOSE = False
 
-# Text extraction method
-# Method 1 = 2 control bytes + string + 0x00 as terminator
-# Method 2 = text wrapped in 0x04 and 0x3c bytes
-# Method 3 = no control bytes, + 0x00 as terminator
-METHOD_1 = 1
-METHOD_2 = 2
-METHOD_3 = 3
-
-METHOD_1_OFFSET = 2
-METHOD_2_OFFSET = 1
-METHOD_3_OFFSET = 0
 
 # The byte which determines which translation table to use
 SWITCH_MODE = '5C'
@@ -70,26 +59,11 @@ DAKUTEN_REPLACE = "DE"
 # Holds all missing translation characters encountered
 MISSING_BYTES = {}
 
-# Define the areas of the ROM file we are wanting to extract
-# text from.
-# A list of tuples, each tuple identifying the type of dialogue
-# extract that should be used, and the start/end region of the ROM
-# in hexadecimal notation.
-# Note: a headerless rom file is assumed.
-#
-# Syntax: (X, Y, Z, A)
-#	X: extraction method (METHOD_1, METHOD_2, METHOD_3)
-#	Y: start address
-#	Z: end address
-#	A: textual description of what this block of text represents, if known
-
-BYTES = [
-	(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options, start, continue, load, stereo/mono etc"),
-	(METHOD_3, 0x28086, 0x28949, "Unknown"),
-	(METHOD_2, 0x1b8d6, 0x1bca6, "Scrolling intro text after cinematics"),
-	(METHOD_1, 0x1defc, 0x1e0a5, "Unknown, possible ship dialogue for first world"),
-	(METHOD_2, 0x29f1a, 0x2a1ad, "Introductory cinematics"),
-]
+# Load the definitions of which ranges in the files to examine
+from config import BYTES
+from config import METHOD_1, METHOD_2, METHOD_3
+from config import METHOD_1_OFFSET, METHOD_2_OFFSET, METHOD_3_OFFSET
+from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TRAILING_BYTES
 
 ######################################################
 ############ < Code starts here > ####################
@@ -145,42 +119,57 @@ def translate_string(byte_sequence, trans_table):
 	# TO DO!
 	if (byte_sequence["method"] == METHOD_1):
 		offset = METHOD_1_OFFSET
+		trailing_bytes = METHOD_1_TRAILING_BYTES
 	if (byte_sequence["method"] == METHOD_2):
 		offset = METHOD_2_OFFSET
+		trailing_bytes = METHOD_2_TRAILING_BYTES
+		switch_mode = True
 	if (byte_sequence["method"] == METHOD_3):
 		offset = METHOD_3_OFFSET
+		trailing_bytes = METHOD_3_TRAILING_BYTES
 		
-	for i in range(offset, len(byte_sequence["bytes"]) - 1):
+	already_i = 0
+	for i in range(offset, len(byte_sequence["bytes"]) - trailing_bytes):
 		b = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
 		#Don't process dakuten/handakuten
-		if b not in DAKUTEN_ALL:
-			# Is the next byte a dakuten/handakuten?
-			b2 = str(binascii.hexlify(byte_sequence["bytes"][i+1])).upper()
-			if b2 == "81":
-				b2 = DAKUTEN_REPLACE
-			if b2 in DAKUTEN:
-				# Use a composite byte instead
-				b = b + b2
+		#if b not in DAKUTEN_ALL:
+		# Is the next byte a dakuten/handakuten?
+		b2 = str(binascii.hexlify(byte_sequence["bytes"][i+1])).upper()
+		if b2 == "81":
+			b2 = DAKUTEN_REPLACE
+		if b2 in DAKUTEN:
+			# Use a composite byte instead
+			b = b + b2
+			# Skip to next position
+			already_i = i + 1
+		bt = ""
+		if i != already_i:
 			if switch_mode:
 				if b == SWITCH_MODE:
 					switch_mode = False
 				else:
 					if b in trans_table.keys():
-						byte_sequence["text"].append(trans_table[b]["post_shift"])
+						bt = trans_table[b]["post_shift"]
+						byte_sequence["text"].append(bt)
 					else:
 						# warning - byte sequence not in table
 						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 						byte_sequence["text"].append("<%s>" % b)
+					if VERBOSE:
+						print "%6s %2s %6s %5s" % (b, i, bt, switch_mode)
 			else:
 				if b == SWITCH_MODE:
 					switch_mode = True
 				else:
 					if b in trans_table.keys():
-						byte_sequence["text"].append(trans_table[b]["pre_shift"])
+						bt = trans_table[b]["pre_shift"]
+						byte_sequence["text"].append(bt)
 					else:
 						# warning - byte sequence not in table
 						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 						byte_sequence["text"].append("<%s>" % b)
+					if VERBOSE:
+						print "%6s %2s %6s %5s" % (b, i, bt, switch_mode)
 	return byte_sequence
 
 ######################################################
@@ -268,13 +257,12 @@ def method1(rom_start_address, rom_end_address, description):
 	
 ######################################################
 	
-def method2(rom_start_address, rom_end_address):
+def method2(rom_start_address, rom_end_address, description):
 	"""
 	method2 - extract text from a given byte range using
-	the notation of each string being wrapped in a single 
-	control byte to start (0x3c), and a single control byte to end (0x04).
+	the notation of each string being delimited by (0x04 0x3c).
 	This format is used during the introductory cinematics.
-	e.g. 0x3C 0x60 0x61 0x62 0x63 0x64 0x65 0x04
+	e.g. 0x60 0x61 0x62 0x63 0x64 0x65 0x04 0x3C 
 	"""
 	
 	ttable = load_table()
@@ -291,8 +279,11 @@ def method2(rom_start_address, rom_end_address):
 	byte_sequence["start_pos"] = rom_addr
 	byte_sequence["bytes"] = []
 	byte_sequence["size"] = 0
-	byte_sequence["method"] = METHOD_3
+	byte_sequence["method"] = METHOD_2
 	byte_sequence["start_bytes"] = []
+	
+	end_byte1 = False
+	end_byte2 = False
 	
 	while (rom_addr <= rom_end_address):
 		# Read a byte from the file at the current position
@@ -300,11 +291,17 @@ def method2(rom_start_address, rom_end_address):
 			# Increment position ID
 			rom_addr += 1
 			byte = struct.unpack('c', f.read(1))[0]
-			if (byte != "\x04") and (byte != "\x3c"):
-				# Add the byte
-				byte_sequence["bytes"].append(byte)
-			else:
-				# Add the end byte and record the string
+			
+			# Add the end byte and record the string
+			if byte == "\x04":
+				end_byte1 = True
+				
+			if byte == "\x3c":
+				end_byte2 = True
+			
+			# Have both end byte1 and 2 been seen?
+			if end_byte1 and end_byte2:
+			
 				byte_sequence["bytes"].append(byte)
 				byte_sequence["size"] = len(byte_sequence["bytes"])
 				
@@ -319,10 +316,14 @@ def method2(rom_start_address, rom_end_address):
 				byte_sequence["start_pos"] = rom_addr
 				byte_sequence["bytes"] = []
 				byte_sequence["size"] = 0
-				byte_sequence["method"] = METHOD_3
+				byte_sequence["method"] = METHOD_2
 				byte_sequence["block_start"] = rom_start_address
 				byte_sequence["block_end"] = rom_end_address
 				byte_sequence["block_description"] = description
+				end_byte1 = False
+				end_byte2 = False
+			else:
+				byte_sequence["bytes"].append(byte)
 				
 		except Exception as e:
 			print e
@@ -556,15 +557,15 @@ found_byte_strings = []
 SORTED_BYTES = sorted(BYTES, key=lambda t: t[1])
 for byte_range in SORTED_BYTES:
 	if byte_range[0] == METHOD_1:
-		print "Method 1 : %s - %s" % (hex(byte_range[1]), hex(byte_range[2]))
+		print "%s - %s (Method 1) : %s" % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
 		found_byte_strings += method1(byte_range[1], byte_range[2], byte_range[3])
 		
 	if byte_range[0] == METHOD_2:
-		print "Method 2 : %s - %s" % (hex(byte_range[1]), hex(byte_range[2]))
-		found_byte_strings += method3(byte_range[1], byte_range[2], byte_range[3])
+		print "%s - %s (Method 2) : %s" % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
+		found_byte_strings += method2(byte_range[1], byte_range[2], byte_range[3])
 
 	if byte_range[0] == METHOD_3:
-		print "Method 3 : %s - %s" % (hex(byte_range[1]), hex(byte_range[2]))
+		print "%s - %s (Method 3) : %s " % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
 		found_byte_strings += method3(byte_range[1], byte_range[2], byte_range[3])
 print "Done"
 
