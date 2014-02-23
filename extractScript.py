@@ -27,6 +27,7 @@ John Snowdon <john@target-earth.net>
 
 import os
 import sys
+import traceback
 import getopt
 import struct
 import binascii
@@ -43,6 +44,11 @@ OUT_NAME = "out.sjs"
 
 OVERWRITE = False
 VERBOSE = False
+
+# Text extraction method
+# Method 1 = 2 control bytes + string + 0x00 as terminator
+# Method 2 = text wrapped in 0x04 and 0x3c bytes
+# Method 3 = no control bytes, + 0x00 as terminator
 METHOD_1 = 1
 METHOD_2 = 2
 METHOD_3 = 3
@@ -79,7 +85,10 @@ MISSING_BYTES = {}
 
 BYTES = [
 	(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options, start, continue, load, stereo/mono etc"),
+	(METHOD_3, 0x28086, 0x28949, "Unknown"),
+	(METHOD_2, 0x1b8d6, 0x1bca6, "Scrolling intro text after cinematics"),
 	(METHOD_1, 0x1defc, 0x1e0a5, "Unknown, possible ship dialogue for first world"),
+	(METHOD_2, 0x29f1a, 0x2a1ad, "Introductory cinematics"),
 ]
 
 ######################################################
@@ -99,18 +108,24 @@ def load_table():
 	"""
 	trans_table = {}
 	
-	f = open(TABLE_NAME, "r")
-	for line in f:
-		columns = line.split('\t')
-		byte_code = columns[0].replace('"', '')
-		trans_table[byte_code] = {}
-		trans_table[byte_code]["byte_code"] = byte_code
-		trans_table[byte_code]["pre_shift"] = columns[1].replace('"', '')
-		trans_table[byte_code]["pre_shift_type"] = columns[2].replace('"', '')
-		trans_table[byte_code]["post_shift"] = columns[3].replace('"', '')
-		trans_table[byte_code]["post_shift_type"] = columns[4].replace('"', '')
-		trans_table[byte_code]["notes"] = columns[5].replace('"', '')
-	f.close()
+	try:
+		f = open(TABLE_NAME, "r")
+		for line in f:
+			columns = line.split('\t')
+			byte_code = columns[0].replace('"', '')
+			trans_table[byte_code] = {}
+			trans_table[byte_code]["byte_code"] = byte_code
+			trans_table[byte_code]["pre_shift"] = columns[1].replace('"', '')
+			trans_table[byte_code]["pre_shift_type"] = columns[2].replace('"', '')
+			trans_table[byte_code]["post_shift"] = columns[3].replace('"', '')
+			trans_table[byte_code]["post_shift_type"] = columns[4].replace('"', '')
+			if len(columns) > 5:
+				trans_table[byte_code]["notes"] = columns[5].replace('"', '')
+		f.close()
+	except Exception as e:
+		print traceback.format_exc()
+		print line
+		sys.exit(2)
 	return trans_table
 	
 ######################################################
@@ -232,8 +247,8 @@ def method1(rom_start_address, rom_end_address, description):
 					byte_sequence["start_bytes"].append(byte_sequence["bytes"][0])
 					byte_sequence["start_bytes"].append(byte_sequence["bytes"][1])
 				
-					# Record the data
-					byte_strings.append(byte_sequence)
+				# Record the data
+				byte_strings.append(byte_sequence)
 				
 				# Start a new byte sequence
 				byte_sequence = {}
@@ -261,7 +276,58 @@ def method2(rom_start_address, rom_end_address):
 	This format is used during the introductory cinematics.
 	e.g. 0x3C 0x60 0x61 0x62 0x63 0x64 0x65 0x04
 	"""
-	pass
+	
+	ttable = load_table()
+		
+	f = open(ROM_NAME, "rb")
+	f.seek(rom_start_address, 0)
+	rom_addr = rom_start_address
+	
+	byte_strings = []
+	byte_sequence = {}
+	byte_sequence["block_start"] = rom_start_address
+	byte_sequence["block_end"] = rom_end_address
+	byte_sequence["block_description"] = description
+	byte_sequence["start_pos"] = rom_addr
+	byte_sequence["bytes"] = []
+	byte_sequence["size"] = 0
+	byte_sequence["method"] = METHOD_3
+	byte_sequence["start_bytes"] = []
+	
+	while (rom_addr <= rom_end_address):
+		# Read a byte from the file at the current position
+		try:
+			# Increment position ID
+			rom_addr += 1
+			byte = struct.unpack('c', f.read(1))[0]
+			if (byte != "\x04") and (byte != "\x3c"):
+				# Add the byte
+				byte_sequence["bytes"].append(byte)
+			else:
+				# Add the end byte and record the string
+				byte_sequence["bytes"].append(byte)
+				byte_sequence["size"] = len(byte_sequence["bytes"])
+				
+				# Generate the actual text string (which we will print for translation)s
+				byte_sequence = translate_string(byte_sequence, ttable)
+				
+				# Record the data
+				byte_strings.append(byte_sequence)
+				
+				# Start a new byte sequence
+				byte_sequence = {}
+				byte_sequence["start_pos"] = rom_addr
+				byte_sequence["bytes"] = []
+				byte_sequence["size"] = 0
+				byte_sequence["method"] = METHOD_3
+				byte_sequence["block_start"] = rom_start_address
+				byte_sequence["block_end"] = rom_end_address
+				byte_sequence["block_description"] = description
+				
+		except Exception as e:
+			print e
+	f.close()
+	return byte_strings
 
 ######################################################
 	
@@ -367,8 +433,8 @@ def write_export(byte_strings):
 		for c in b["bytes"]:
 			f.write("\"")
 			f.write(str(binascii.hexlify(c)))
-			f.write("\",")
-		f.seek(-1, 1)
+			f.write("\", ")
+		f.seek(-2, 1)
 		f.write("],\n")
 		f.write("        \"raw_text\" : \"")	
 		for c in b["text"]:
@@ -486,7 +552,9 @@ print ""
 print "Extracting dialogue"
 print "==================="
 found_byte_strings = []
-for byte_range in BYTES:
+# Sort dialogue ranges by starting address
+SORTED_BYTES = sorted(BYTES, key=lambda t: t[1])
+for byte_range in SORTED_BYTES:
 	if byte_range[0] == METHOD_1:
 		print "Method 1 : %s - %s" % (hex(byte_range[1]), hex(byte_range[2]))
 		found_byte_strings += method1(byte_range[1], byte_range[2], byte_range[3])
