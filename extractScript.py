@@ -37,27 +37,14 @@ import json
 ############ < User configuration > ##################
 ######################################################
 
-# Defaults for input, translation and output file name
-ROM_NAME = "Cyber Knight (J).pce"
-TABLE_NAME = "CyberKnightTranslation.csv"
-OUT_NAME = "out.sjs"
-
-OVERWRITE = False
-VERBOSE = False
-
-
-# The byte which determines which translation table to use
-SWITCH_MODE = '5C'
-
-# All possible dakuten bytes
-DAKUTEN_ALL = ["DE", "DF", "81"]
-# The bytes which are mapped to composite chars
-DAKUTEN = ["DE", "DF"]
-# What "81" should be converted to
-DAKUTEN_REPLACE = "DE"
-
 # Holds all missing translation characters encountered
 MISSING_BYTES = {}
+
+# Default values
+from config import ROM_NAME, TABLE_NAME, OUT_NAME
+from config import OVERWRITE, VERBOSE
+from config import SWITCH_MODE
+from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE
 
 # Load the definitions of which ranges in the files to examine
 from config import BYTES
@@ -502,11 +489,13 @@ except getopt.GetoptError as err:
 	print err
 	sys.exit(2)
 
+print ""
+print "extractScript.py - Script extractor for Cyber Knight"
+print "----------------"
+print ""
+
 for o, a in opts:
 	if o == "-h":
-		print ""
-		print "extractScript.py"
-		print "----------------"
 		print "A simple tool from extracting text dialogue from the game 'Cyber Knight' for the PC-Engine."
 		print "The tool scans a number of locations within the input ROM file and extracts dialogue strings"
 		print "in one of several known formats."
