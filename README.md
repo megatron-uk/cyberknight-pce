@@ -17,6 +17,6 @@ For example:
 
 python extractScript.py -i "Cyber Knight (J).pce" -o "Script.json" -t "CyberKnightTranslation.csv"
 
-....edit Script.json to add in your translations....
+....edit Script.json to add in your translations and then copy in to the patches folder....
 
 python injectScript.py -i "Cyber Knight (J).pce" -o "Cyber Knight (E).pce" -d ./patches/
