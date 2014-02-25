@@ -40,6 +40,9 @@ import json
 # Holds all missing translation characters encountered
 MISSING_BYTES = {}
 
+# Translation table loader
+from Table import load_table
+
 # Default values
 from config import ROM_NAME, TABLE_NAME, OUT_NAME
 from config import OVERWRITE, VERBOSE
@@ -54,41 +57,6 @@ from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TR
 
 ######################################################
 ############ < Code starts here > ####################
-######################################################
-
-def load_table():
-	"""
-	load_table - load the translation table.
-	The translation table is a tab delimited data file
-	with the following columns:
-	hex code, actual char pre-0x5c byte, char set type (A/K/H/S), post-0x5c byte, char set type, notes
-	
-	where A/S/H/K = ASCII, Symbol, Hiragana, Katakana
-	pre-0x5c = the character shown if the byte come before a 0x5c control byte
-	post-0x5c = the character shown if the byte comes after a 0x5c control byte
-	"""
-	trans_table = {}
-	
-	try:
-		f = open(TABLE_NAME, "r")
-		for line in f:
-			columns = line.split('\t')
-			byte_code = columns[0].replace('"', '')
-			trans_table[byte_code] = {}
-			trans_table[byte_code]["byte_code"] = byte_code
-			trans_table[byte_code]["pre_shift"] = columns[1].replace('"', '')
-			trans_table[byte_code]["pre_shift_type"] = columns[2].replace('"', '')
-			trans_table[byte_code]["post_shift"] = columns[3].replace('"', '')
-			trans_table[byte_code]["post_shift_type"] = columns[4].replace('"', '')
-			if len(columns) > 5:
-				trans_table[byte_code]["notes"] = columns[5].replace('"', '')
-		f.close()
-	except Exception as e:
-		print traceback.format_exc()
-		print line
-		sys.exit(2)
-	return trans_table
-	
 ######################################################
 
 def translate_string(byte_sequence, trans_table, alt=False):
@@ -206,6 +174,8 @@ def method1(rom_start_address, rom_end_address, description):
 	byte_sequence["block_start"] = rom_start_address
 	byte_sequence["block_end"] = rom_end_address
 	byte_sequence["block_description"] = description
+	byte_sequence["start_bytes"] = []
+	byte_sequence["end_bytes"] = []
 				
 	while (rom_addr <= rom_end_address):
 		# Read a byte from the file at the current position
@@ -228,6 +198,8 @@ def method1(rom_start_address, rom_end_address, description):
 				if len(byte_sequence["bytes"]) > 1:
 					byte_sequence["start_bytes"].append(byte_sequence["bytes"][0])
 					byte_sequence["start_bytes"].append(byte_sequence["bytes"][1])
+					
+				byte_sequence["end_bytes"].append(byte)
 				
 				# Record the data
 				byte_strings.append(byte_sequence)
@@ -242,6 +214,8 @@ def method1(rom_start_address, rom_end_address, description):
 				byte_sequence["block_start"] = rom_start_address
 				byte_sequence["block_end"] = rom_end_address
 				byte_sequence["block_description"] = description
+				byte_sequence["start_bytes"] = []
+				byte_sequence["end_bytes"] = []
 			
 		except Exception as e:
 			print e
@@ -274,6 +248,7 @@ def method2(rom_start_address, rom_end_address, description):
 	byte_sequence["size"] = 0
 	byte_sequence["method"] = METHOD_2
 	byte_sequence["start_bytes"] = []
+	byte_sequence["end_bytes"] = []
 	
 	end_byte1 = False
 	end_byte2 = False
@@ -298,6 +273,11 @@ def method2(rom_start_address, rom_end_address, description):
 				byte_sequence["bytes"].append(byte)
 				byte_sequence["size"] = len(byte_sequence["bytes"])
 				
+				# Record just the start bytes
+				if len(byte_sequence["bytes"]) > 1:
+					byte_sequence["end_bytes"].append(byte_sequence["bytes"][-2])
+					byte_sequence["end_bytes"].append(byte_sequence["bytes"][-1])
+				
 				# Generate the actual text string (which we will print for translation)s
 				byte_sequence = translate_string(byte_sequence, ttable)
 				byte_sequence = translate_string(byte_sequence, ttable, alt=True)
@@ -314,6 +294,8 @@ def method2(rom_start_address, rom_end_address, description):
 				byte_sequence["block_start"] = rom_start_address
 				byte_sequence["block_end"] = rom_end_address
 				byte_sequence["block_description"] = description
+				byte_sequence["start_bytes"] = []
+				byte_sequence["end_bytes"] = []
 				end_byte1 = False
 				end_byte2 = False
 			else:
@@ -350,6 +332,7 @@ def method3(rom_start_address, rom_end_address, description):
 	byte_sequence["size"] = 0
 	byte_sequence["method"] = METHOD_3
 	byte_sequence["start_bytes"] = []
+	byte_sequence["end_bytes"] = []
 	
 	while (rom_addr <= rom_end_address):
 		# Read a byte from the file at the current position
@@ -368,6 +351,8 @@ def method3(rom_start_address, rom_end_address, description):
 				# Generate the actual text string (which we will print for translation)s
 				byte_sequence = translate_string(byte_sequence, ttable)
 				
+				byte_sequence["end_bytes"].append(byte)
+				
 				# Record the data
 				byte_strings.append(byte_sequence)
 				
@@ -380,6 +365,8 @@ def method3(rom_start_address, rom_end_address, description):
 				byte_sequence["block_start"] = rom_start_address
 				byte_sequence["block_end"] = rom_end_address
 				byte_sequence["block_description"] = description
+				byte_sequence["start_bytes"] = []
+				byte_sequence["end_bytes"] = []
 				
 		except Exception as e:
 			print e
@@ -414,15 +401,22 @@ def write_export(byte_strings):
 		f.write("        \"block_description\" : \"%s\",\n" % b["block_description"])
 		f.write("        \"position\" : \"%s\",\n" % hex(b["start_pos"]))
 		f.write("        \"method\" : %s,\n" % b["method"])
-		if "start_bytes" in b.keys():
-			f.write("        \"start_bytes\" : [")
-			for c in b["start_bytes"]:
-				f.write("\"")
-				f.write(str(binascii.hexlify(c)))
-				f.write("\",")
-			if len(b["start_bytes"]) > 0:
-				f.seek(-1, 1)
-			f.write("],\n")
+		f.write("        \"start_bytes\" : [")
+		for c in b["start_bytes"]:
+			f.write("\"")
+			f.write(str(binascii.hexlify(c)))
+			f.write("\",")
+		if len(b["start_bytes"]) > 0:
+			f.seek(-1, 1)
+		f.write("],\n")
+		f.write("        \"end_bytes\" : [")
+		for c in b["end_bytes"]:
+			f.write("\"")
+			f.write(str(binascii.hexlify(c)))
+			f.write("\",")
+		if len(b["end_bytes"]) > 0:
+			f.seek(-1, 1)
+		f.write("],\n")
 		f.write("        \"raw_size\" : %s,\n" % b["size"])	
 		f.write("        \"raw\" : [")
 		for c in b["bytes"]:

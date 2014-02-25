@@ -48,6 +48,9 @@ PATCH_FILES = {}
 
 MISMATCH_OK = False
 
+# Translation table loader
+from Table import load_table
+
 # Default values
 from config import ROM_NAME, PATCH_DIR_NAME, PATCH_EXTENSION, OUT_ROM_NAME
 from config import OVERWRITE, VERBOSE
@@ -68,6 +71,9 @@ def patch_file(patchfile, patch, romfile):
 	"""
 	Load, encode and apply a translation patch segment to a file.
 	"""
+	
+	ttable = load_table()
+	
 	for patch_segment in patch["data"]:
 		apply_patch = True
 		patch_segment["trans_size"] = len(patch_segment["trans_text"]) + len(patch_segment["start_bytes"]) + len(patch_segment["end_bytes"])
@@ -75,22 +81,73 @@ def patch_file(patchfile, patch, romfile):
 			print "%s - Skipping zero-length translation" % patch_segment["position"]
 		else:
 			if patch_segment["trans_size"] != patch_segment["raw_size"]:
+				apply_patch = False
 				if MISMATCH_OK:
 					print "%s - INFO! Applying, but string sizes are mismatched! (%s != %s)" % (patch_segment["position"], patch_segment["trans_size"], patch_segment["raw_size"])
+					apply_patch = True
 				else:
 					print "%s - WARNING! Not applying, string size mismatch! (%s != %s)" % (patch_segment["position"], patch_segment["trans_size"], patch_segment["raw_size"])
 					apply_patch = False
 			else:
 				"%s - Applying" % patch_segment["position"]
+				
 			if apply_patch:
-				# add start bytes
-				# encode main text
-				# if string + end bytes < raw text
-				# 	pad with 0x5c bytes
-				# add end bytes
-				pass
+				FILE.seek(int(patch_segment["position"], 16), 0)
+				s = []
+				
+				# Add start bytes
+				for sb in patch_segment["start_bytes"]:
+					s.append(sb)
+				
+				# Encode main text
+				encoded_string = encode_text(patch_segment["trans_text"], ttable)
+				for b in encoded_string:
+					s.append(b)
+					
+				# Pad with switch bytes until long enough
+				while (len(s) < (patch_segment["raw_size"] - len(patch_segment["end_bytes"]))):
+					s.append(SWITCH_MODE)
+					
+				# Add end bytes
+				for eb in patch_segment["end_bytes"]:
+					s.append(eb)
+					
+				print "Untranslated length: %s" % patch_segment["raw_size"]
+				print "Translated length: %s" % len(s)
+				print patch_segment["raw_text"]
+				print patch_segment["trans_text"]
+				write_text(s)
 			
 	return True
+
+def write_text(encoded_string):
+	"""
+	Write the encoded character list back as their literal hex equivalents back to the in-memory file.
+	"""
+	for hex_byte in encoded_string:
+		FILE.write(binascii.unhexlify(hex_byte))
+	return True
+
+def encode_text(string, ttable):
+	"""
+	Encode a string using the translation table to set the hex equivalent of the given characters.
+	"""
+	encoded_as_hex = []
+	for s in string:
+		s_found = False
+		if (s == "\n"):
+			hex_byte = "02"
+			encoded_as_hex.append(hex_byte.lower().encode('utf8'))
+			s_found = True
+		else:
+			for hex_byte in ttable.keys():
+				if s == ttable[hex_byte]["pre_shift"]:
+					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
+					s_found = True
+					break
+		if s_found is False:
+			print "WARNING! No lookup for <%s>" % s
+	return encoded_as_hex
 
 ######################################################
 ########## < Run-time code start here > ##############
@@ -189,7 +246,14 @@ print ""
 #################################################
 print "Applying Translation Patches"
 print "============================"
-FILE = StringIO.StringIO(open(ROM_NAME).read())
+FILE = StringIO.StringIO()
+romfile = open(ROM_NAME).read()
+FILE.write(romfile)
 for f in PATCH_FILES.keys():
 	print "Applying %s" % f
 	patch_file(f, PATCH_FILES[f], FILE) 
+	
+FILE.seek(0, 0)
+newfile = open(OUT_ROM_NAME, "wb")
+newfile.write(FILE.read())
+newfile.close()
