@@ -64,7 +64,9 @@ METHOD_3_TRAILING_BYTES = 0
 #	A: textual description of what this block of text represents, if known
 
 BYTES = [
-	(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options."),
+	#(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options."),
+	#(METHOD_3, 0x1c098, 0x1c0ac, "Player name entry screen."),
+	#(METHOD_3, 0x1cbad, 0x1ccac, "NPC character names."),
 	#(METHOD_3, 0x28086, 0x28949, "Unknown."),
 	#(METHOD_3, 0x1b8d6, 0x1bca6, "Scrolling intro text after cinematics."),
 	#(METHOD_1, 0x1defc, 0x1e0a5, "Possible ship dialogue for first world."),

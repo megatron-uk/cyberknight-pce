@@ -1,0 +1,589 @@
+[
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbad",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbae",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "b8", "da", "b2", "dd", "00"],
+        "raw_text" : "クレイン",
+        "trans_size" : 0,
+        "trans_text" : "Crane"
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbb4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["5c", "b7", "d8", "00"],
+        "raw_text" : "キリ",
+        "trans_size" : 0,
+        "trans_text" : "Ki"
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbb8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "bc", "ac", "b2", "dd", "00"],
+        "raw_text" : "シイン",
+        "trans_size" : 0,
+        "trans_text" : "Shiin"
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbbe",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "b3", "de", "a8", "dd", "c4", "de", "00"],
+        "raw_text" : "ヴィンド",
+        "trans_size" : 0,
+        "trans_text" : "Vynd"
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbc6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "c6", "bc", "de", "b0", "c5", "00"],
+        "raw_text" : "ニジ‐ナ",
+        "trans_size" : 0,
+        "trans_text" : "Nijina"
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbcd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbce",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbcf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 5,
+        "raw" : ["4d", "49", "43", "41", "00"],
+        "raw_text" : "MICA",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbd4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbd5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "b7", "ac", "cc", "df", "c3", "dd", "5c", "00"],
+        "raw_text" : "キプテン",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbde",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "ca", "df", "b2", "db", "af", "c4", "5c", "00"],
+        "raw_text" : "パイロット",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbe7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "cc", "df", "db", "cc", "aa", "af", "bb", "b0", "5c", "00"],
+        "raw_text" : "プロフェッサ‐",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbf2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "c4", "de", "b8", "c0", "b0", "5c", "00"],
+        "raw_text" : "ドクタ‐",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cbfa",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "b4", "dd", "bc", "de", "c6", "b1", "5c", "00"],
+        "raw_text" : "エンジニア",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc03",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc04",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc05",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc06",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc07",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["5c", "ca", "de", "af", "b8", "b1", "af", "cc", "df", "d2", "d3", "d8", "00"],
+        "raw_text" : "バックアップメモリ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc14",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["b7", "ae", "b3", "bc", "de", "ad", "00"],
+        "raw_text" : "きぉうじ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc1b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "00"],
+        "raw_text" : "だいとうりぉう",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc24",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "cc", "bc", "de", "dd", "00"],
+        "raw_text" : "だいとうりぉうふじん",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc31",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "c4", "da", "b0", "c0", "de", "b0", "00"],
+        "raw_text" : "トレ‐ダ‐",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc39",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "db", "ce", "de", "af", "c4", "00"],
+        "raw_text" : "ロボット",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc40",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "bc", "b0", "b8", "d7", "dd", "00"],
+        "raw_text" : "シ‐クラン",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc47",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["c1", "ae", "b3", "db", "b3", "00"],
+        "raw_text" : "ちぉうろう",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc4d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["b9", "de", "dd", "bc", "bc", "de", "dd", "00"],
+        "raw_text" : "げんしじん",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc55",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["bc", "ad", "b3", "c1", "ae", "b3", "00"],
+        "raw_text" : "しうちぉう",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc5c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 3,
+        "raw" : ["b2", "dc", "00"],
+        "raw_text" : "いわ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc5f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "bc", "d8", "ba", "dd", "5c", "be", "b2", "cc", "de", "c2", "00"],
+        "raw_text" : "シリコンせいぶつ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc6b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "b8", "bc", "de", "d7", "00"],
+        "raw_text" : "クジラ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc71",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 5,
+        "raw" : ["5c", "bb", "bf", "d8", "00"],
+        "raw_text" : "サソリ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc76",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["b6", "b2", "bf", "de", "b8", "00"],
+        "raw_text" : "かいぞく",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc7c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["b7", "b6", "b2", "00"],
+        "raw_text" : "きかい",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc80",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["cd", "b2", "bc", "00"],
+        "raw_text" : "へいし",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc84",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["bc", "ae", "b3", "b8", "de", "dd", "00"],
+        "raw_text" : "しぉうぐん",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc8b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["bc", "da", "b2", "b6", "dd", "00"],
+        "raw_text" : "しれいかん",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc91",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "b6", "de", "d7", "b2", "bc", "b1", "dd", "00"],
+        "raw_text" : "ガライシアン",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cc9a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "bd", "d7", "b3", "da", "00"],
+        "raw_text" : "スラウレ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cca0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "b8", "b2", "b0", "dd", "00"],
+        "raw_text" : "クイ‐ン",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "block_range" : "0x1cbad-0x1ccac",
+        "block_description" : "NPC character names.",
+        "position" : "0x1cca6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "d2", "dd", "c0", "b0", "c5", "00"],
+        "raw_text" : "メンタ‐ナ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]
