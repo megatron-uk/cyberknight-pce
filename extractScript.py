@@ -490,7 +490,7 @@ print ""
 
 for o, a in opts:
 	if o == "-h":
-		print "A simple tool from extracting text dialogue from the game 'Cyber Knight' for the PC-Engine."
+		print "A simple tool for extracting text dialogue from the game 'Cyber Knight' for the PC-Engine."
 		print "The tool scans a number of locations within the input ROM file and extracts dialogue strings"
 		print "in one of several known formats."
 		print "The output is then written to a well-formatted JSON file for translation and later insertion."
@@ -502,6 +502,11 @@ for o, a in opts:
 		print "-t	Translation file name (e.g. 'CyberKnightTranslation.csv')"
 		print "-o	Output file name (e.g. 'Cyber Knight.json')"
 		print "-f	Force overwite of output file even if it already exists"
+		print ""
+		print "Edit config.py to your needs (rom hex locations, string type, etc) and then run the script."
+		print ""
+		print "Example:"
+		print "extractScript.py -i 'Cyber Knight (J).pce' -t 'table.csv' -o 'patches/script.json'"
 		print ""
 		sys.exit(0)
 		

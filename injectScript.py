@@ -140,7 +140,6 @@ def encode_text(string, ttable):
 	i = 0
 	while i < len(string):
 		s = string[i]
-		print i, s
 		s_found = False
 		s_code = False
 		s_byte = False
@@ -149,7 +148,7 @@ def encode_text(string, ttable):
 			# yes - this might be a control byte
 			s_byte = s
 			# is there a matching right chevron?
-			for extra_char in string[pos + 1:-1]:
+			for extra_char in string[i + 1:-1]:
 				s_byte += extra_char
 				if extra_char == ">":
 					s_code = True
@@ -171,12 +170,8 @@ def encode_text(string, ttable):
 				match_s = s_byte
 			else:
 				match_s = s
-			if VERBOSE:
-				print "searching for %s" % match_s
 			for hex_byte in ttable.keys():				
 				if match_s == ttable[hex_byte]["pre_shift"]:
-					if VERBOSE:
-						print "match! %s" % hex_byte
 					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 					s_found = True
 					i += 1
@@ -199,7 +194,7 @@ def encode_text(string, ttable):
 ######################################################
 
 try:
-	opts, args = getopt.getopt(sys.argv[1:], "hvi:d:o:fm")
+	opts, args = getopt.getopt(sys.argv[1:], "hvt:i:d:o:fm")
 except getopt.GetoptError as err:
 	print err
 	sys.exit(2)
@@ -218,10 +213,14 @@ for o, a in opts:
 		print "-h	Show help text"
 		print "-v	Enable verbose output"
 		print "-i	Input file name (e.g. 'Cyber Knight (J).pce')"
+		print "-t	Translation file name (e.g. 'CyberKnightTranslation.csv')"
 		print "-d	Directory containing translation patches (.json files) (e.g. './patches/')"
 		print "-o	Output file name (e.g. 'Cyber Knight (E).pce')"
 		print "-f	Force overwite of output file even if it already exists"
 		print "-m	Attempt to patch file, even if translation string sizes are mismatched to originals."
+		print ""
+		print "Example:"
+		print "injectScript.py -i 'Cyber Knight (J).pce' -t 'table.csv' -d './patches/' -o 'CyberEnglish.pce'"
 		print ""
 		sys.exit(0)
 		
@@ -243,6 +242,9 @@ for o, a in opts:
 	if o == "-m":
 		MISMATCH_OK = True
 		
+	if o == "-t":
+		TABLE_NAME = a
+		
 #############################################
 # Print configuration
 #############################################
@@ -255,6 +257,12 @@ if os.path.isfile(ROM_NAME):
 	print "Input ROM File: %s <- OK" % ROM_NAME
 else:
 	print "Input ROM File: %s <- ERROR, input file not found!" % ROM_NAME
+	sys.exit(2)
+	
+if os.path.isfile(TABLE_NAME):
+	print "Translation Table File: %s <- OK" % TABLE_NAME
+else:
+	print "Translation Table File: %s <- ERROR, translation table not found!" % TABLE_NAME
 	sys.exit(2)
 	
 if os.path.isdir(PATCH_DIR_NAME):
