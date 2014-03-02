@@ -10,7 +10,7 @@
         "raw" : ["20", "ca", "bc", "de", "d2", "b6", "d7", "02", "20", "c2", "c2", "de", "b7", "b6", "d7", "02", "20", "5c", "b8", "db", "b0", "dd", "5c", "bb", "b2", "be", "b2", "02", "20", "b6", "dd", "b7", "ae", "b3", "be", "af", "c3", "b2", "00"],
         "raw_text" : " はじめから\n つづきから\n クロ‐ンさいせい\n かんきぉうせってい",
         "trans_size" : 0,
-        "trans_text" : " Start\n Retry\n Load    \n Settings "
+        "trans_text" : " <04><3c>art\n Retry\n Load\n Settings "
     },
 
     {
@@ -22,7 +22,7 @@
         "end_bytes" : ["00"],
         "raw_size" : 27,
         "raw" : ["20", "5c", "ca", "de", "af", "b8", "b1", "af", "cc", "df", "d2", "d3", "d8", "02", "20", "ba", "b0", "c4", "de", "5c", "c6", "ad", "b3", "d8", "ae", "b8", "00"],
-        "raw_text" : " バックアップメモリ\n コ‐ドにうりぉく",
+        "raw_text" : " バックアップメモリ\n コ‐ドにゅうりょく",
         "trans_size" : 0,
         "trans_text" : " Load Save\n Password"
     },

@@ -112,10 +112,13 @@ def patch_file(patchfile, patch, romfile):
 				for eb in patch_segment["end_bytes"]:
 					s.append(eb)
 					
-				print "Untranslated length: %s" % patch_segment["raw_size"]
-				print "Translated length: %s" % len(s)
-				print patch_segment["raw_text"]
-				print patch_segment["trans_text"]
+				if VERBOSE:
+					print "---"
+					print "Untranslated length: %s" % patch_segment["raw_size"]
+					print "Translated length: %s" % len(s)
+					print patch_segment["raw_text"]
+					print patch_segment["trans_text"]
+					print encoded_string
 				write_text(s)
 			
 	return True
@@ -133,20 +136,62 @@ def encode_text(string, ttable):
 	Encode a string using the translation table to set the hex equivalent of the given characters.
 	"""
 	encoded_as_hex = []
-	for s in string:
+	pos = 0
+	i = 0
+	while i < len(string):
+		s = string[i]
+		print i, s
 		s_found = False
+		s_code = False
+		s_byte = False
+		# is this a left chevron?
+		if (s == "<"):
+			# yes - this might be a control byte
+			s_byte = s
+			# is there a matching right chevron?
+			for extra_char in string[pos + 1:-1]:
+				s_byte += extra_char
+				if extra_char == ">":
+					s_code = True
+					break
+			if s_code:
+				if VERBOSE:
+					print "INFO: Got a control byte: %s" % s_byte
+				# jump to the end pos within input string
+				i = i + len(s_byte)
+				
 		if (s == "\n"):
 			hex_byte = "02"
 			encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 			s_found = True
+			i += 1
 		else:
-			for hex_byte in ttable.keys():
-				if s == ttable[hex_byte]["pre_shift"]:
+			
+			if s_code:
+				match_s = s_byte
+			else:
+				match_s = s
+			if VERBOSE:
+				print "searching for %s" % match_s
+			for hex_byte in ttable.keys():				
+				if match_s == ttable[hex_byte]["pre_shift"]:
+					if VERBOSE:
+						print "match! %s" % hex_byte
 					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 					s_found = True
+					i += 1
 					break
+			# If we didn't find it then just add the literal
+			if ((s_found is False) and (s_code is True)) and (len(s_byte) == 4):
+				print "WARNING! No lookup for control byte %s - adding %s" % (s_byte, s_byte[1:-1])
+				encoded_as_hex.append(s_byte[1:-1].lower().encode('utf8'))
+				s_found = True
+				
 		if s_found is False:
 			print "WARNING! No lookup for <%s>" % s
+			i += 1
+		pos += 1
+		
 	return encoded_as_hex
 
 ######################################################
@@ -252,6 +297,7 @@ FILE.write(romfile)
 for f in PATCH_FILES.keys():
 	print "Applying %s" % f
 	patch_file(f, PATCH_FILES[f], FILE) 
+	print ""
 	
 FILE.seek(0, 0)
 newfile = open(OUT_ROM_NAME, "wb")

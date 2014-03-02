@@ -1,0 +1,361 @@
+[
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29efe",
+        "method" : 2,
+        "start_bytes" : ["00", "11", "16", "1a", "72"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 30,
+        "raw" : ["00", "11", "16", "1a", "72", "5c", "c5", "dd", "ca", "de", "b0", "34", "cc", "de", "db", "af", "b8", "5c", "c6", "a4", "5c", "c0", "de", "d2", "b0", "bc", "de", "21", "04", "3c"],
+        "raw_text" : "<end><11><16><1A>rなんば―4ぶろっくニ、だめ―じ!",
+        "alt_text" : "<end><11><16><1A>rナンバ‐4ブロックに、ダメ‐ジ!",
+        "trans_size" : 0,
+        "trans_text" : "Damage to block 4!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29f1c",
+        "method" : 2,
+        "start_bytes" : ["0c"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 19,
+        "raw" : ["0c", "5c", "b7", "b1", "c2", "b6", "de", "20", "bb", "b6", "de", "af", "c3", "b2", "cf", "bd", "21", "04", "3c"],
+        "raw_text" : "<0C>きおつが さがっています!",
+        "alt_text" : "<0C>キアツガ サガッテイマス!",
+        "trans_size" : 0,
+        "trans_text" : "Power failing!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29f2f",
+        "method" : 2,
+        "start_bytes" : ["1a", "73"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 20,
+        "raw" : ["1a", "73", "ba", "c1", "d7", "20", "5c", "d2", "c3", "de", "a8", "b6", "d9", "a5", "d9", "b0", "d1", "21", "04", "3c"],
+        "raw_text" : "<1A>sコチラ めでぃかる・る―む!",
+        "alt_text" : "<1A>sこちら メディカル・ル‐ム!",
+        "trans_size" : 0,
+        "trans_text" : "Med bay was hit!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29f43",
+        "method" : 2,
+        "start_bytes" : ["0c"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 21,
+        "raw" : ["0c", "bc", "bd", "c3", "d1", "5c", "c6", "20", "45", "4d", "50", "5c", "c0", "de", "d2", "b0", "bc", "de", "21", "04", "3c"],
+        "raw_text" : "<0C>システムに EMPダメ‐ジ!",
+        "alt_text" : "<0C>しすてむニ EMPだめ―じ!",
+        "trans_size" : 0,
+        "trans_text" : "System EMP damage!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29f58",
+        "method" : 2,
+        "start_bytes" : ["1b", "00", "00", "11", "16", "1a", "73"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 28,
+        "raw" : ["1b", "00", "00", "11", "16", "1a", "73", "5c", "cc", "de", "d8", "af", "bc", "de", "5c", "c6", "20", "b6", "bb", "b2", "20", "ca", "af", "be", "b2", "21", "04", "3c"],
+        "raw_text" : "<1B><end><end><11><16><1A>sぶりっじニ カサイ ハッセイ!",
+        "alt_text" : "<1B><end><end><11><16><1A>sブリッジに かさい はっせい!",
+        "trans_size" : 0,
+        "trans_text" : "Fire on the bridge!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29f74",
+        "method" : 2,
+        "start_bytes" : ["1a", "72"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 37,
+        "raw" : ["1a", "72", "5c", "ba", "cf", "dd", "c0", "de", "b0", "21", "20", "b7", "ac", "cc", "df", "c3", "dd", "5c", "b6", "de", "3b", "3b", "3b", "3b", "5c", "b7", "ac", "cc", "df", "c3", "dd", "5c", "b6", "de", "21", "04", "3c"],
+        "raw_text" : "<1A>rこまんだ―! きゃぷてんガ‥‥‥‥きゃぷてんガ!",
+        "alt_text" : "<1A>rコマンダ‐! キャプテンが‥‥‥‥キャプテンが!",
+        "trans_size" : 0,
+        "trans_text" : "Commander! The Captain..."
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29f99",
+        "method" : 2,
+        "start_bytes" : ["1b", "00", "00", "11", "16", "1a", "72"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 38,
+        "raw" : ["1b", "00", "00", "11", "16", "1a", "72", "bc", "bc", "ae", "b3", "bc", "ac", "20", "c0", "bd", "b3", "21", "20", "ba", "c9", "cf", "cf", "c3", "de", "ca", "20", "be", "de", "dd", "d2", "c2", "c3", "de", "bd", "21", "04", "3c"],
+        "raw_text" : "<1B><end><end><11><16><1A>rシショウシャ タスウ! コノママデハ ゼンメツデス!",
+        "alt_text" : "<1B><end><end><11><16><1A>rししょうしゃ たすう! このままでは ぜんめつです!",
+        "trans_size" : 0,
+        "trans_text" : "They've got us surrounded!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29fbf",
+        "method" : 2,
+        "start_bytes" : ["1a", "73"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 17,
+        "raw" : ["1a", "73", "b8", "bf", "a4", "b6", "b2", "bf", "de", "b8", "c4", "de", "d3", "d2", "21", "04", "3c"],
+        "raw_text" : "<1A>sクソ、カイゾクドモメ!",
+        "alt_text" : "<1A>sくそ、かいぞくどもめ!",
+        "trans_size" : 0,
+        "trans_text" : "Damn pirates!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29fd0",
+        "method" : 2,
+        "start_bytes" : ["0c"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 24,
+        "raw" : ["0c", "b5", "da", "c0", "c1", "a6", "20", "c5", "cc", "de", "d8", "ba", "de", "db", "bc", "c6", "20", "bd", "d9", "b7", "b6", "21", "04", "3c"],
+        "raw_text" : "<0C>オレタチヲ ナブリゴロシニ スルキカ!",
+        "alt_text" : "<0C>おれたちを なぶりごろしに するきか!",
+        "trans_size" : 0,
+        "trans_text" : "They'll kill us all!!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x29fe8",
+        "method" : 2,
+        "start_bytes" : ["1b", "00", "00", "1a", "71"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 28,
+        "raw" : ["1b", "00", "00", "1a", "71", "ba", "b3", "c5", "af", "c3", "ca", "20", "c0", "de", "af", "bc", "ad", "c2", "bd", "d9", "20", "bc", "b6", "c5", "b2", "a1", "04", "3c"],
+        "raw_text" : "<1B><end><end><1A>qコウナッテハ ダッシュツスル シカナイ。",
+        "alt_text" : "<1B><end><end><1A>qこうなっては だっしゅつする しかない。",
+        "trans_size" : 0,
+        "trans_text" : "No way out: Retreat!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a004",
+        "method" : 2,
+        "start_bytes" : ["0c"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 24,
+        "raw" : ["0c", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "c4", "de", "d7", "b2", "cc", "de", "5c", "a6", "20", "c2", "b6", "b3", "21", "04", "3c"],
+        "raw_text" : "<0C>じゃんぷ・どらいぶヲ ツカウ!",
+        "alt_text" : "<0C>ジャンプ・ドライブを つかう!",
+        "trans_size" : 0,
+        "trans_text" : "Use the jumpdrive!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a01c",
+        "method" : 2,
+        "start_bytes" : ["1a", "73"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 17,
+        "raw" : ["1a", "73", "bc", "b6", "bc", "a4", "5c", "ba", "cf", "dd", "c0", "de", "b0", "5c", "21", "04", "3c"],
+        "raw_text" : "<1A>sシカシ、こまんだ―!",
+        "alt_text" : "<1A>sしかし、コマンダ‐!",
+        "trans_size" : 0,
+        "trans_text" : "Commander!!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a02d",
+        "method" : 2,
+        "start_bytes" : ["0c"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 37,
+        "raw" : ["0c", "b2", "cf", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "bc", "c0", "d7", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c9", "b7", "b9", "dd", "b6", "de", "3b", "3b", "04", "3c"],
+        "raw_text" : "<0C>イマ じゃんぷシタラ じゃんぷ・みすノキケンガ‥‥",
+        "alt_text" : "<0C>いま ジャンプしたら ジャンプ・ミスのきけんが‥‥",
+        "trans_size" : 0,
+        "trans_text" : "..but we could jump-miss!!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a052",
+        "method" : 2,
+        "start_bytes" : ["1a", "72"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 33,
+        "raw" : ["1a", "72", "bf", "b3", "c3", "de", "bd", "21", "20", "b3", "c1", "ad", "b3", "c9", "ca", "c3", "cf", "c3", "de", "20", "cc", "af", "c4", "dd", "c3", "de", "d5", "b8", "b6", "d3", "3f", "04", "3c"],
+        "raw_text" : "<1A>rソウデス! ウチュウノハテマデ フットンデユクカモ?",
+        "alt_text" : "<1A>rそうです! うちゅうのはてまで ふっとんでゆくかも?",
+        "trans_size" : 0,
+        "trans_text" : "..and appear anywhere!!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a073",
+        "method" : 2,
+        "start_bytes" : ["19", "71"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 25,
+        "raw" : ["19", "71", "c0", "de", "b6", "de", "20", "ba", "c9", "cf", "cf", "c3", "de", "ca", "20", "d4", "d7", "da", "c3", "bc", "cf", "b3", "a1", "04", "3c"],
+        "raw_text" : "<19>qダガ コノママデハ ヤラレテシマウ。",
+        "alt_text" : "<19>qだが このままでは やられてしまう。",
+        "trans_size" : 0,
+        "trans_text" : "But we have to jump!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a08c",
+        "method" : 2,
+        "start_bytes" : ["0c"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 20,
+        "raw" : ["0c", "d0", "c1", "c9", "20", "b6", "c9", "b3", "be", "b2", "c6", "20", "b6", "b9", "c3", "d0", "d6", "b3", "04", "3c"],
+        "raw_text" : "<0C>ミチノ カノウセイニ カケテミヨウ",
+        "alt_text" : "<0C>みちの かのうせいに かけてみよう",
+        "trans_size" : 0,
+        "trans_text" : "We'll need luck.."
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a0a0",
+        "method" : 2,
+        "start_bytes" : ["0c"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 39,
+        "raw" : ["0c", "5c", "ca", "df", "dc", "b0", "5c", "a6", "20", "bd", "cd", "de", "c3", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c6", "cf", "dc", "be", "21", "05", "1e", "04", "3c"],
+        "raw_text" : "<0C>ぱわ―ヲ スベテじゃんぷ・じぇねれ―た―ニマワセ!<05><1E>",
+        "alt_text" : "<0C>パワ‐を すべてジャンプ・ジェネレ‐タ‐にまわせ!<05><1E>",
+        "trans_size" : 0,
+        "trans_text" : "All power to  jumpdrive!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a0c7",
+        "method" : 2,
+        "start_bytes" : ["19", "73"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 22,
+        "raw" : ["19", "73", "5c", "b4", "c8", "d9", "b7", "de", "b0", "a5", "b9", "de", "b2", "dd", "5c", "20", "4d", "41", "58", "21", "04", "3c"],
+        "raw_text" : "<19>sえねるぎ―・げいん MAX!",
+        "alt_text" : "<19>sエネルギ‐・ゲイン MAX!",
+        "trans_size" : 0,
+        "trans_text" : "Jumpdrive at MAX!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a0dd",
+        "method" : 2,
+        "start_bytes" : ["05", "37", "19", "72"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 32,
+        "raw" : ["05", "37", "19", "72", "5c", "b5", "b0", "d9", "a5", "bc", "bd", "c3", "d1", "20", "b4", "cf", "bc", "de", "aa", "dd", "bc", "b0", "a5", "d3", "b0", "c4", "de", "5c", "cd", "21", "04", "3c"],
+        "raw_text" : "<05>7<19>rお―る・しすてむ えまじぇんし―・も―どヘ!",
+        "alt_text" : "<05>7<19>rオ‐ル・システム エマジェンシ‐・モ‐ドへ!",
+        "trans_size" : 0,
+        "trans_text" : "Systems to emergency mode!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a0fd",
+        "method" : 2,
+        "start_bytes" : ["00", "19", "73"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 37,
+        "raw" : ["00", "19", "73", "ce", "de", "b3", "b7", "de", "ae", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "c9", "20", "5c", "ca", "df", "dc", "b0", "5c", "b6", "de", "20", "b5", "c1", "c3", "b2", "cf", "bd", "21", "04", "3c"],
+        "raw_text" : "<end><19>sボウギョふぃ―るどノ ぱわ―ガ オチテイマス!",
+        "alt_text" : "<end><19>sぼうぎぉフィ‐ルドの パワ‐が おちています!",
+        "trans_size" : 0,
+        "trans_text" : "Our shields are failing!!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a122",
+        "method" : 2,
+        "start_bytes" : ["19", "71"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 22,
+        "raw" : ["19", "71", "b1", "c4", "20", "31", "30", "cb", "de", "ae", "b3", "c0", "de", "b9", "20", "d3", "c0", "be", "db", "21", "04", "3c"],
+        "raw_text" : "<19>qアト 10ビョウダケ モタセロ!",
+        "alt_text" : "<19>qおと 10びぉうだけ もたせろ!",
+        "trans_size" : 0,
+        "trans_text" : "Just 10 seconds..."
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a138",
+        "method" : 2,
+        "start_bytes" : ["19", "73"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 25,
+        "raw" : ["19", "73", "5c", "bc", "bd", "c3", "d1", "a5", "ba", "dd", "c3", "de", "bc", "ae", "dd", "20", "b5", "da", "dd", "bc", "de", "21", "5c", "04", "3c"],
+        "raw_text" : "<19>sしすてむ・こんでしぉん おれんじ!",
+        "alt_text" : "<19>sシステム・コンデション オレンジ!",
+        "trans_size" : 0,
+        "trans_text" : "System code orange!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a151",
+        "method" : 2,
+        "start_bytes" : ["19", "72"],
+        "end_bytes" : ["04","3c"],
+        "raw_size" : 30,
+        "raw" : ["19", "72", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "bb", "de", "cb", "ae", "b3", "a6", "20", "be", "af", "c3", "b2", "c3", "de", "b7", "cf", "be", "dd", "21", "04", "3c"],
+        "raw_text" : "<19>rじゃんぷザヒョウヲ セッテイデキマセン!",
+        "alt_text" : "<19>rジャンプざひょうを せっていできません!",
+        "trans_size" : 0,
+        "trans_text" : "Cannot set jump locations!"
+    },
+
+    {
+        "block_range" : "0x29efe-0x2a1af",
+        "block_description" : "Intro cinema",
+        "position" : "0x2a16f",
+        "method" : 2,
+        "start_bytes" : ["19", "71"],
+        "end_bytes" : ["1a", "74", "3b", "3b", "3b", "3b", "33", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "32", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "31", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "30", "0b", "0e", "05", "5c", "bc", "de", "ac", "dd", "cc", "df", "21", "04","3c"],
+        "raw_size" : 63,
+        "raw" : ["19", "71", "b6", "cf", "dc", "dd", "21", "20", "b2", "b8", "bf", "de", "21", "1a", "74", "3b", "3b", "3b", "3b", "33", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "32", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "31", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "30", "0b", "0e", "05", "5c", "bc", "de", "ac", "dd", "cc", "df", "21", "04", "3c"],
+        "raw_text" : "<19>qカマワン! イクゾ!<1A>t‥‥‥‥3‥‥‥‥<0C>‥‥‥‥2‥‥‥‥<0C>‥‥‥‥1‥‥‥‥<0C>‥‥‥‥0<0B><0E><05>じゃんぷ!",
+        "alt_text" : "<19>qかまわん! いくぞ!<1A>t‥‥‥‥3‥‥‥‥<0C>‥‥‥‥2‥‥‥‥<0C>‥‥‥‥1‥‥‥‥<0C>‥‥‥‥0<0B><0E><05>ジャンプ!",
+        "trans_size" : 0,
+        "trans_text" : "Damn. Go!!"
+    }
+]

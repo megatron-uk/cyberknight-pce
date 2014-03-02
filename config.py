@@ -20,7 +20,7 @@ PATCH_EXTENSION = ".json"
 OVERWRITE = False
 
 # Additional, verbose output about the process
-VERBOSE = False
+VERBOSE = True
 
 # The byte which determines which translation table to use
 SWITCH_MODE = '5C'
@@ -64,7 +64,13 @@ METHOD_3_TRAILING_BYTES = 0
 #	A: textual description of what this block of text represents, if known
 
 BYTES = [
-	#(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options."),
+	#(METHOD_3, 0x1c740, 0x1c87d, "unknown 1"),
+	#(METHOD_3, 0x1c79a, 0x1c7b1, "unknown 2"),
+	#(METHOD_3, 0x1cc06, 0x1ccac, "unknown 3"),
+	#(METHOD_3, 0x1ccbf, 0x1cda0, "unknown 4"),
+	#(METHOD_2, 0x29efe, 0x2a1af, "Introductory Cinematics"),
+	
+	(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options."),
 	#(METHOD_3, 0x1c098, 0x1c0ac, "Player name entry screen."),
 	#(METHOD_3, 0x1cbad, 0x1ccac, "NPC character names."),
 	#(METHOD_3, 0x28086, 0x28949, "Unknown."),

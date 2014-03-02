@@ -24,7 +24,7 @@
         "raw" : ["5c", "b8", "da", "b2", "dd", "00"],
         "raw_text" : "クレイン",
         "trans_size" : 0,
-        "trans_text" : "Crane"
+        "trans_text" : "Klein"
     },
 
     {
@@ -38,7 +38,7 @@
         "raw" : ["5c", "b7", "d8", "00"],
         "raw_text" : "キリ",
         "trans_size" : 0,
-        "trans_text" : "Ki"
+        "trans_text" : "Kir"
     },
 
     {
@@ -50,9 +50,9 @@
         "end_bytes" : ["00"],
         "raw_size" : 6,
         "raw" : ["5c", "bc", "ac", "b2", "dd", "00"],
-        "raw_text" : "シイン",
+        "raw_text" : "シャイン",
         "trans_size" : 0,
-        "trans_text" : "Shiin"
+        "trans_text" : "Shine"
     },
 
     {
@@ -80,7 +80,7 @@
         "raw" : ["5c", "c6", "bc", "de", "b0", "c5", "00"],
         "raw_text" : "ニジ‐ナ",
         "trans_size" : 0,
-        "trans_text" : "Nijina"
+        "trans_text" : "Nejena"
     },
 
     {
