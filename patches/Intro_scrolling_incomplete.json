@@ -46,9 +46,22 @@
         "raw_text" : "キャプテンだいり コマンダ‐ <10>(キロク",
         "alt_text" : "きゃぷてんダイリ こまんだ― <10>(きろく",
         "trans_size" : 0,
-        "trans_text" : "Recorded by Commander <10><28>\nship's acting captain."
+        "trans_text" : "Report by Commander <10><28>,"
     },
-
+    {
+        "block_range" : "0x1b8d6-0x1bfdf",
+        "block_description" : "Scrolling intro text after cinematics.",
+        "string_start" : "0x1b8f0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00", "00"],
+        "raw_size" : 27,
+        "raw" : [],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : "ship's acting Captain."
+    },
     {
         "block_range" : "0x1b8d6-0x1bfdf",
         "block_description" : "Scrolling intro text after cinematics.",
@@ -61,7 +74,7 @@
         "raw_text" : "わが うちゅうせんかん ソ‐ドフィッシュは",
         "alt_text" : "ワガ ウチュウセンカン そ―どふぃっしゅハ",
         "trans_size" : 0,
-        "trans_text" : "My ship, the SS-Swordfish,"
+        "trans_text" : "While on our mission,"
     },
 
     {
@@ -76,7 +89,7 @@
         "raw_text" : "さくせんこうどうちゅう、うちゅうかいぞくの",
         "alt_text" : "サクセンコウドウチュウ、ウチュウカイゾクノ",
         "trans_size" : 0,
-        "trans_text" : "was attacked by pirates"
+        "trans_text" : "the Swordfish was attacked"
     },
 
     {
@@ -85,15 +98,14 @@
         "string_start" : "0x1b93d",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00"],
         "raw_size" : 16,
         "raw" : ["b7", "bc", "ad", "b3", "ba", "b3", "b9", "de", "b7", "a6", "20", "b3", "b9", "c0", "a1", "00"],
         "raw_text" : "きしゅうこうげきを うけた。",
         "alt_text" : "キシュウコウゲキヲ ウケタ。",
         "trans_size" : 0,
-        "trans_text" : "while we were on our mission."
+        "trans_text" : "by space pirates."
     },
-
     {
         "block_range" : "0x1b8d6-0x1bfdf",
         "block_description" : "Scrolling intro text after cinematics.",
@@ -106,7 +118,7 @@
         "raw_text" : "はげしいバトルにより、ソ‐ドフィッシュは",
         "alt_text" : "ハゲシイばとるニヨリ、そ―どふぃっしゅハ",
         "trans_size" : 0,
-        "trans_text" : "The battle was intense and the ship"
+        "trans_text" : "The battle was intense and"
     },
 
     {
@@ -121,7 +133,7 @@
         "raw_text" : "おおきなダメ‐ジをうけた。",
         "alt_text" : "オオキナだめ―じヲウケタ。",
         "trans_size" : 0,
-        "trans_text" : "sustained heavy damage during\nthe attack."
+        "trans_text" : "the ship sustained heavy"
     },
 
     {
@@ -136,7 +148,7 @@
         "raw_text" : "エンジンのいちぶを はそんしたため、パワ‐がおち、",
         "alt_text" : "えんじんノイチブヲ ハソンシタタメ、ぱわ―ガオチ、",
         "trans_size" : 0,
-        "trans_text" : "The engines were damaged and we lost power,"
+        "trans_text" : "damage during the attack."
     },
 
     {
@@ -151,7 +163,7 @@
         "raw_text" : "てきの ついげきを ふりきることが できなかった。",
         "alt_text" : "テキノ ツイゲキヲ フリキルコトガ デキナカッタ。",
         "trans_size" : 0,
-        "trans_text" : "unable to outmanoevre the enemy\nwe were forced to retreat."
+        "trans_text" : "Unable to escape and having"
     },
 
     {
@@ -166,7 +178,7 @@
         "raw_text" : "わたしは きけんを しょうちのうえで、くうかんを",
         "alt_text" : "ワタシハ キケンヲ ショウチノウエデ、クウカンヲ",
         "trans_size" : 0,
-        "trans_text" : "Having no other options, and despite\nknowing the risk"
+        "trans_text" : "no options, I took the risk"
     },
 
     {
@@ -181,7 +193,7 @@
         "raw_text" : "とびこえる ジャンプ・ドライブの しようを めいじた。",
         "alt_text" : "トビコエル じゃんぷ・どらいぶノ シヨウヲ メイジタ。",
         "trans_size" : 0,
-        "trans_text" : "I ordered the use of the jump drive."
+        "trans_text" : "of ordering the use of the"
     },
 
     {
@@ -190,13 +202,13 @@
         "string_start" : "0x1b9f8",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00"],
         "raw_size" : 21,
         "raw" : ["bb", "b2", "ba", "de", "c9", "5c", "c1", "ac", "dd", "bd", "5c", "c6", "20", "b6", "b9", "c0", "c9", "c0", "de", "a1", "00"],
         "raw_text" : "さいごのチャンスに かけたのだ。",
         "alt_text" : "サイゴノちゃんすニ カケタノダ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "jumpdrive - our last chance."
     },
 
     {
@@ -211,7 +223,7 @@
         "raw_text" : "そのけっか、ジャンプ・ミスが はっせいし、",
         "alt_text" : "ソノケッカ、じゃんぷ・みすガ ハッセイシ、",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "A jump-miss occurred and"
     },
 
     {
@@ -226,9 +238,22 @@
         "raw_text" : "ソ‐ドフィッシュは なじみぶかい うちゅうから",
         "alt_text" : "そ―どふぃっしゅハ ナジミブカイ ウチュウカラ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "the Swordfish warped to.."
     },
-
+    {
+        "block_range" : "0x1b8d6-0x1bfdf",
+        "block_description" : "Scrolling intro text after cinematics.",
+        "string_start" : "0x1ba28",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 29,
+        "raw" : [],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : "..I, I don't know where."
+    },
     {
         "block_range" : "0x1b8d6-0x1bfdf",
         "block_description" : "Scrolling intro text after cinematics.",
@@ -241,7 +266,7 @@
         "raw_text" : "とおくはなれた みしらぬ わくせいの ちかくに",
         "alt_text" : "トオクハナレタ ミシラヌ ワクセイノ チカクニ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "We've been thrown to a"
     },
 
     {
@@ -256,7 +281,7 @@
         "raw_text" : "なげだされた。",
         "alt_text" : "ナゲダサレタ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "strange location - close"
     },
 
     {
@@ -271,7 +296,7 @@
         "raw_text" : "おそらく ぎんがけいの ちゅうしんにちかい",
         "alt_text" : "オソラク ギンガケイノ チュウシンニチカイ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "to the galactic core."
     },
 
     {
@@ -286,7 +311,7 @@
         "raw_text" : "ばしょでおろうと おもわれる。",
         "alt_text" : "バショデアロウト オモワレル。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -301,9 +326,22 @@
         "raw_text" : "ちきゅうは はるか8500パ‐セクの かなただ。",
         "alt_text" : "チキュウハ ハルカ8500ぱ―せくノ カナタダ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Earth is over 85 billion"
     },
-
+    {
+        "block_range" : "0x1b8d6-0x1bfdf",
+        "block_description" : "Scrolling intro text after cinematics.",
+        "string_start" : "0x1ba91",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00", "00"],
+        "raw_size" : 29,
+        "raw" : [],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : "km away. Beyond our reach.."
+    },
     {
         "block_range" : "0x1b8d6-0x1bfdf",
         "block_description" : "Scrolling intro text after cinematics.",
@@ -316,7 +354,7 @@
         "raw_text" : "せんとうによって クル‐のおおくが しぼうした。",
         "alt_text" : "セントウニヨッテ くる―ノオオクガ シボウシタ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Many were killed in the"
     },
 
     {
@@ -331,7 +369,7 @@
         "raw_text" : "そのなかには、このふねの しきかん キャプテン・",
         "alt_text" : "ソノナカニハ、コノフネノ シキカン きゃぷてん・",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "attack including our"
     },
 
     {
@@ -340,13 +378,13 @@
         "string_start" : "0x1bae6",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00"],
         "raw_size" : 21,
         "raw" : ["5c", "c4", "de", "c6", "b4", "cc", "df", "db", "cc", "5c", "d3", "20", "cc", "b8", "cf", "da", "c3", "b2", "d9", "a1", "00"],
         "raw_text" : "ドニエプロフも ふくまれている。",
         "alt_text" : "どにえぷろふモ フクマレテイル。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "captain, Doniprof."
     },
 
     {
@@ -361,7 +399,7 @@
         "raw_text" : "メディカル・ル‐ムに きろくされていた",
         "alt_text" : "めでぃかる・る―むニ キロクサレテイタ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "The med bay was damaged and"
     },
 
     {
@@ -376,7 +414,7 @@
         "raw_text" : "クロ‐ン・コ‐ドも はかいされ、",
         "alt_text" : "くろ―ん・こ―どモ ハカイサレ、",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "the clone codes were lost,"
     },
 
     {
@@ -385,13 +423,13 @@
         "string_start" : "0x1bb26",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00"],
         "raw_size" : 27,
         "raw" : ["b6", "da", "d7", "c9", "20", "5c", "b8", "db", "b0", "dd", "5c", "bb", "b2", "be", "b2", "ca", "20", "cc", "b6", "c9", "b3", "c3", "de", "b1", "d9", "a1", "00"],
         "raw_text" : "かれらの クロ‐ンさいせいは ふかのうでおる。",
         "alt_text" : "カレラノ くろ―んサイセイハ フカノウデアル。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "we cannot clone the dead."
     },
 
     {
@@ -406,7 +444,7 @@
         "raw_text" : "いきのこったクル‐は、わずか23めい。",
         "alt_text" : "イキノコッタくる―ハ、ワズカ23メイ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "23 of us have survived, but"
     },
 
     {
@@ -421,7 +459,7 @@
         "raw_text" : "そのうち、バトル・モジュ‐ルの くんれんを",
         "alt_text" : "ソノウチ、ばとる・もじゅ―るノ クンレンヲ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "only 6 of us have the"
     },
 
     {
@@ -436,9 +474,22 @@
         "raw_text" : "うけているものは、わたしをふくめて 6めいしかいない。",
         "alt_text" : "ウケテイルモノハ、ワタシヲフクメテ 6メイシカイナイ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "training to use the battle"
     },
-
+    {
+        "block_range" : "0x1b8d6-0x1bfdf",
+        "block_description" : "Scrolling intro text after cinematics.",
+        "string_start" : "0x1bb72",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 28,
+        "raw" : [],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : "modules in combat."
+    },
     {
         "block_range" : "0x1b8d6-0x1bfdf",
         "block_description" : "Scrolling intro text after cinematics.",
@@ -451,9 +502,22 @@
         "raw_text" : "さいわい メイン・コンピュ‐タ‐:MICA は",
         "alt_text" : "サイワイ めいん・こんぴゅ―た―:MICA ハ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Fortunately the ship AI,"
     },
-
+    {
+        "block_range" : "0x1b8d6-0x1bfdf",
+        "block_description" : "Scrolling intro text after cinematics.",
+        "string_start" : "0x1bb8e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 27,
+        "raw" : [],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : "MICA, is safe & undamaged."
+    },
     {
         "block_range" : "0x1b8d6-0x1bfdf",
         "block_description" : "Scrolling intro text after cinematics.",
@@ -466,9 +530,22 @@
         "raw_text" : "ぶじなので このふねを うごかすのに もんだいはない。",
         "alt_text" : "ブジナノデ コノフネヲ ウゴカスノニ モンダイハナイ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "We should be able to control"
     },
-
+    {
+        "block_range" : "0x1b8d6-0x1bfdf",
+        "block_description" : "Scrolling intro text after cinematics.",
+        "string_start" : "0x1bba9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 33,
+        "raw" : [],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : "the ship without difficulty."
+    },
     {
         "block_range" : "0x1b8d6-0x1bfdf",
         "block_description" : "Scrolling intro text after cinematics.",
@@ -481,7 +558,7 @@
         "raw_text" : "しかし、ジャンプ・ジェネレ‐タ‐は",
         "alt_text" : "シカシ、じゃんぷ・じぇねれ―た―ハ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "But the jumpdrive is"
     },
 
     {
@@ -496,7 +573,7 @@
         "raw_text" : "しんぞうぶの モノポ‐ル・コイルがこわれており、",
         "alt_text" : "シンゾウブノ ものぽ―る・こいるガコワレテオリ、",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "trashed, as the monopole"
     },
 
     {
@@ -511,7 +588,7 @@
         "raw_text" : "ジャンプ・ドライブは ふかのうでおる。",
         "alt_text" : "じゃんぷ・どらいぶハ フカノウデアル。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "coil is beyond repair."
     },
 
     {
@@ -526,7 +603,7 @@
         "raw_text" : "ひかりより はやくとぶことが できないなら",
         "alt_text" : "ヒカリヨリ ハヤクトブコトガ デキナイナラ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "If we cannot exceed lightspeed"
     },
 
     {
@@ -541,7 +618,7 @@
         "raw_text" : "ちきゅうに もどるのに なんまんねんも",
         "alt_text" : "チキュウニ モドルノニ ナンマンネンモ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "we'll never be able to"
     },
 
     {
@@ -550,13 +627,13 @@
         "string_start" : "0x1bc49",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00"],
         "raw_size" : 9,
         "raw" : ["b6", "b6", "af", "c3", "bc", "cf", "b3", "a1", "00"],
         "raw_text" : "かかってしまう。",
         "alt_text" : "カカッテシマウ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "return to Earth."
     },
 
     {
@@ -571,7 +648,7 @@
         "raw_text" : "はたして われわれだけで いきのびてゆくことが",
         "alt_text" : "ハタシテ ワレワレダケデ イキノビテユクコトガ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "I wonder if we will be"
     },
 
     {
@@ -586,7 +663,7 @@
         "raw_text" : "できるだろうか。",
         "alt_text" : "デキルダロウカ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "able to survive out here?"
     },
 
     {
@@ -616,7 +693,7 @@
         "raw_text" : "ちきゅうに かえることが できるのだろうか‥‥‥‥",
         "alt_text" : "チキュウニ カエルコトガ デキルノダロウカ‥‥‥‥",
         "trans_size" : 0,
-        "trans_text" : "Will we ever be able to\nget back... to Earth?"
+        "trans_text" : "I wonder if we will we"
     },
 
     {
@@ -631,7 +708,7 @@
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "ever be able to get back?"
     },
 
     {
@@ -646,7 +723,7 @@
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "... to Earth?"
     },
 
     {
