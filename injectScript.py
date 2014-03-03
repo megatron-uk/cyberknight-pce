@@ -59,6 +59,7 @@ from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE
 
 # Load the definitions of which ranges in the files to examine
 from config import BYTES
+from config import METHOD_SIMPLE, METHOD_CONTIGUOUS
 from config import METHOD_1, METHOD_2, METHOD_3
 from config import METHOD_1_OFFSET, METHOD_2_OFFSET, METHOD_3_OFFSET
 from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TRAILING_BYTES
@@ -74,33 +75,50 @@ def patch_file(patchfile, patch, romfile):
 	
 	ttable = load_table()
 	
-	for patch_segment in patch["data"]:
+	contiguous_patch = []
+	contiguous_text = ""
+	
+	for patch_segment in patch["data"]["data"]:
 		apply_patch = True
 		patch_segment["trans_size"] = len(patch_segment["trans_text"]) + len(patch_segment["start_bytes"]) + len(patch_segment["end_bytes"])
+		s = []
 		if len(patch_segment["trans_text"]) == 0:
-			print "%s - Skipping zero-length translation" % patch_segment["position"]
+			#print "%s - Skipping zero-length translation - reusing untranslated string" % patch_segment["string_start"]
+			for sb in patch_segment["start_bytes"]:
+				contiguous_text += "<" + sb + ">"
+			contiguous_text += patch_segment["raw_text"]			
+			for b in patch_segment["raw"]:
+				s.append(b)
+			for eb in patch_segment["end_bytes"]:
+				contiguous_text += "<" + eb + ">"
 		else:
 			if patch_segment["trans_size"] != patch_segment["raw_size"]:
 				apply_patch = False
+				
 				if MISMATCH_OK:
-					print "%s - INFO! Applying, but string sizes are mismatched! (%s != %s)" % (patch_segment["position"], patch_segment["trans_size"], patch_segment["raw_size"])
+					if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
+						print "%s - INFO! Applying, but string sizes are mismatched! (%s != %s)" % (patch_segment["string_start"], patch_segment["trans_size"], patch_segment["raw_size"])
 					apply_patch = True
 				else:
-					print "%s - WARNING! Not applying, string size mismatch! (%s != %s)" % (patch_segment["position"], patch_segment["trans_size"], patch_segment["raw_size"])
+					if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
+						print "%s - WARNING! Not applying, string size mismatch! (%s != %s)" % (patch_segment["string_start"], patch_segment["trans_size"], patch_segment["raw_size"])
 					apply_patch = False
 			else:
-				"%s - Applying" % patch_segment["position"]
+				if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
+					print "%s - Applying" % patch_segment["string_start"]
 				
 			if apply_patch:
-				FILE.seek(int(patch_segment["position"], 16), 0)
+				FILE.seek(int(patch_segment["string_start"], 16), 0)
 				s = []
 				
 				# Add start bytes
 				for sb in patch_segment["start_bytes"]:
 					s.append(sb)
+					contiguous_text += "<" + sb + ">"
 				
 				# Encode main text
 				encoded_string = encode_text(patch_segment["trans_text"], ttable)
+				contiguous_text += patch_segment["trans_text"]
 				for b in encoded_string:
 					s.append(b)
 					
@@ -111,16 +129,39 @@ def patch_file(patchfile, patch, romfile):
 				# Add end bytes
 				for eb in patch_segment["end_bytes"]:
 					s.append(eb)
+					contiguous_text += "<" + eb + ">"
 					
 				if VERBOSE:
-					print "---"
-					print "Untranslated length: %s" % patch_segment["raw_size"]
-					print "Translated length: %s" % len(s)
-					print patch_segment["raw_text"]
-					print patch_segment["trans_text"]
-					print encoded_string
-				write_text(s)
+					if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
+						print "---"
+						print "Untranslated length: %s" % patch_segment["raw_size"]
+						print "Translated length: %s" % len(s)
+						print patch_segment["raw_text"]
+						print patch_segment["trans_text"]
+						#print encoded_string
+					
+		# Are we simple patching? i.e. a fixed number of characters?
+		if patch["data"]["insert_method"] == METHOD_SIMPLE:
+			write_text(s)
+		
+		if patch["data"]["insert_method"] == METHOD_CONTIGUOUS:
+			contiguous_patch += s
 			
+	if patch["data"]["insert_method"] == METHOD_CONTIGUOUS:
+		print "Contiguous patch method"
+		available_space = int(patch["data"]["block_end"], 16) - int(patch["data"]["block_start"], 16)
+		used_space = len(contiguous_patch)
+		print "Available space: %s" % available_space
+		print "Patch size: %s" % used_space
+		print ""
+		contiguous_text = contiguous_text.replace("<00>", "<00>\n")
+		print contiguous_text
+		print ""				
+		if used_space > available_space:
+			print "ERROR! Cannot use patch larger than available space!"
+		else:		
+			FILE.seek(int(patch["data"]["block_start"], 16))
+			write_text(contiguous_patch)
 	return True
 
 def write_text(encoded_string):
@@ -280,10 +321,10 @@ if os.path.isdir(PATCH_DIR_NAME):
 				PATCH_FILES[d]["json"] = open(PATCH_DIR_NAME + "/" + d).read()
 				PATCH_FILES[d]["data"] = json.loads(PATCH_FILES[d]["json"])
 				t = 0
-				for b in PATCH_FILES[d]["data"]:
+				for b in PATCH_FILES[d]["data"]["data"]:
 					if len(b["trans_text"]) > 0:
 						t += 1
-				print "- %16s : %4s strings : %4s translations" % (d, len(PATCH_FILES[d]["data"]), t)
+				print "- %16s : %4s strings : %4s translations" % (d, len(PATCH_FILES[d]["data"]["data"]), t)
 			except Exception as e:
 				print "- %s <- ERROR, not a valid JSON file" % d
 				print e
@@ -303,7 +344,9 @@ FILE = StringIO.StringIO()
 romfile = open(ROM_NAME).read()
 FILE.write(romfile)
 for f in PATCH_FILES.keys():
+	print "================="
 	print "Applying %s" % f
+	print "-----------------"
 	patch_file(f, PATCH_FILES[f], FILE) 
 	print ""
 	

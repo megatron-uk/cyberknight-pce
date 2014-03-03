@@ -26,7 +26,7 @@ VERBOSE = True
 SWITCH_MODE = '5C'
 
 # All possible dakuten bytes
-DAKUTEN_ALL = ["DE", "DF", "81"]
+DAKUTEN_ALL = ["DE", "DF"]
 
 # The bytes which are mapped to composite chars
 DAKUTEN = ["DE", "DF"]
@@ -45,10 +45,21 @@ METHOD_3 = 3
 METHOD_1_OFFSET = 2
 METHOD_2_OFFSET = 1
 METHOD_3_OFFSET = 0
-
+ 
 METHOD_1_TRAILING_BYTES = 0
 METHOD_2_TRAILING_BYTES = 1
 METHOD_3_TRAILING_BYTES = 0
+
+# Insertion methods
+# SIMPLE = exact string length insertion, padding with no-op (0x5c)
+# bytes if the translated string is shorter.
+# CONTIGUOUS = Treat the entire range (start/end) as one long string,
+# as long as the last string does not exceed the end address, all strings
+# between the start and end can be whatever legth desired (useful if the end
+# address contains many empty null bytes so that a number of string can be
+# extended if desired).
+METHOD_SIMPLE = 1
+METHOD_CONTIGUOUS = 2
 
 # Define the areas of the ROM file we are wanting to extract
 # text from.
@@ -57,24 +68,25 @@ METHOD_3_TRAILING_BYTES = 0
 # in hexadecimal notation.
 # Note: a headerless rom file is assumed.
 #
-# Syntax: (X, Y, Z, A)
-#	X: extraction method (METHOD_1, METHOD_2, METHOD_3)
-#	Y: start address
-#	Z: end address
-#	A: textual description of what this block of text represents, if known
+# Syntax: (A, B, C, D, E)
+#	A: extraction method (METHOD_1, METHOD_2, METHOD_3)
+#	B: start address
+#	C: end address
+#	D: insertion type (SIMPLE, CONTIGUOUS)
+#	E: textual description of what this block of text represents, if known
 
 BYTES = [
-	#(METHOD_3, 0x1c740, 0x1c87d, "unknown 1"),
-	#(METHOD_3, 0x1c79a, 0x1c7b1, "unknown 2"),
-	#(METHOD_3, 0x1cc06, 0x1ccac, "unknown 3"),
-	#(METHOD_3, 0x1ccbf, 0x1cda0, "unknown 4"),
-	#(METHOD_2, 0x29efe, 0x2a1af, "Introductory Cinematics"),
+	#(METHOD_3, 0x1c740, 0x1c87d, METHOD_SIMPLE, "unknown 1"),
+	#(METHOD_3, 0x1c79a, 0x1c7b1, METHOD_SIMPLE, "unknown 2"),
+	#(METHOD_3, 0x1cc06, 0x1ccac, METHOD_SIMPLE, "unknown 3"),
+	#(METHOD_3, 0x1ccbf, 0x1cda0, METHOD_SIMPLE, "unknown 4"),
+	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),
 	
-	(METHOD_3, 0x1c87e, 0x1c90d, "Main menu text and configuration options."),
-	#(METHOD_3, 0x1c098, 0x1c0ac, "Player name entry screen."),
-	#(METHOD_3, 0x1cbad, 0x1ccac, "NPC character names."),
-	#(METHOD_3, 0x28086, 0x28949, "Unknown."),
-	#(METHOD_3, 0x1b8d6, 0x1bca6, "Scrolling intro text after cinematics."),
-	#(METHOD_1, 0x1defc, 0x1e0a5, "Possible ship dialogue for first world."),
-	#(METHOD_2, 0x29eff, 0x2a1ad, "Introductory cinematics."),
+	#(METHOD_3, 0x1c87e, 0x1c90d, METHOD_SIMPLE, "Main menu text and configuration options."),
+	#(METHOD_3, 0x1c098, 0x1c0ac, METHOD_SIMPLE, "Player name entry screen."),
+	#(METHOD_3, 0x1cbad, 0x1ccac, METHOD_SIMPLE, "NPC character names."),
+	#(METHOD_3, 0x28086, 0x28949, METHOD_SIMPLE, "Unknown."),
+	(METHOD_3, 0x1b8d6, 0x1bca6, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics."),
+	#(METHOD_1, 0x1defc, 0x1e0a5, METHOD_SIMPLE, "Possible ship dialogue for first world."),
+	#(METHOD_2, 0x29eff, 0x2a1ad, METHOD_SIMPLE, "Introductory cinematics."),
 ]

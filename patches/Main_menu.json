@@ -1,8 +1,13 @@
-[
+{
+"block_description" : "Main menu text and configuration options.",
+"block_start" : "0x1c87e",
+"block_end" : "0x1c90d",
+"insert_method" : 1,
+"data" : [
     {
         "block_range" : "0x1c87e-0x1c90d",
         "block_description" : "Main menu text and configuration options.",
-        "position" : "0x1c87e",
+        "string_start" : "0x1c87e",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -16,7 +21,7 @@
     {
         "block_range" : "0x1c87e-0x1c90d",
         "block_description" : "Main menu text and configuration options.",
-        "position" : "0x1c8a5",
+        "string_start" : "0x1c8a5",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -30,7 +35,7 @@
     {
         "block_range" : "0x1c87e-0x1c90d",
         "block_description" : "Main menu text and configuration options.",
-        "position" : "0x1c8c0",
+        "string_start" : "0x1c8c0",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -44,7 +49,7 @@
     {
         "block_range" : "0x1c87e-0x1c90d",
         "block_description" : "Main menu text and configuration options.",
-        "position" : "0x1c8da",
+        "string_start" : "0x1c8da",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -58,7 +63,7 @@
     {
         "block_range" : "0x1c87e-0x1c90d",
         "block_description" : "Main menu text and configuration options.",
-        "position" : "0x1c8f1",
+        "string_start" : "0x1c8f1",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -72,7 +77,7 @@
     {
         "block_range" : "0x1c87e-0x1c90d",
         "block_description" : "Main menu text and configuration options.",
-        "position" : "0x1c8ff",
+        "string_start" : "0x1c8ff",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -82,4 +87,4 @@
         "trans_size" : 0,
         "trans_text" : ""
     }
-]
+]}

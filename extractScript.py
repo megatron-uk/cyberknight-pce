@@ -78,18 +78,23 @@ def translate_string(byte_sequence, trans_table, alt=False):
 	if (byte_sequence["method"] == METHOD_1):
 		offset = METHOD_1_OFFSET
 		trailing_bytes = METHOD_1_TRAILING_BYTES
+		switch_mode = False
+	
 	if (byte_sequence["method"] == METHOD_2):
 		offset = METHOD_2_OFFSET
 		trailing_bytes = METHOD_2_TRAILING_BYTES
 		switch_mode = True
-		if alt:
-			switch_mode = False
-			text_key = "alt_text"
 			
 	if (byte_sequence["method"] == METHOD_3):
+		switch_mode = False
 		offset = METHOD_3_OFFSET
 		trailing_bytes = METHOD_3_TRAILING_BYTES
-		
+	
+	if alt:
+		switch_mode = not switch_mode
+		text_key = "alt_text"
+	
+	
 	byte_sequence[text_key] = []
 	already_i = 0
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
@@ -97,8 +102,6 @@ def translate_string(byte_sequence, trans_table, alt=False):
 		# Don't process dakuten/handakuten
 		# Is the next byte a dakuten/handakuten?
 		b2 = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
-		if b2 == "81":
-			b2 = DAKUTEN_REPLACE
 		if b2 in DAKUTEN:
 			# Use a composite byte instead
 			b = b + b2
@@ -148,7 +151,7 @@ def record_missing(b, missing_bytes, pos):
 
 ######################################################
 
-def method1(rom_start_address, rom_end_address, description):
+def method1(rom_start_address, rom_end_address, insert_method, description):
 	""" 
 	method1 - extract text from a given byte range using
 	the notation of 2 control bytes, a variable number of
@@ -193,6 +196,7 @@ def method1(rom_start_address, rom_end_address, description):
 				
 				# Generate the actual text string (which we will print for translation)s
 				byte_sequence = translate_string(byte_sequence, ttable)
+				byte_sequence = translate_string(byte_sequence, ttable, alt=True)
 				
 				# Record just the start bytes
 				if len(byte_sequence["bytes"]) > 1:
@@ -224,7 +228,7 @@ def method1(rom_start_address, rom_end_address, description):
 	
 ######################################################
 	
-def method2(rom_start_address, rom_end_address, description):
+def method2(rom_start_address, rom_end_address, insert_method, description):
 	"""
 	method2 - extract text from a given byte range using
 	the notation of each string being delimited by (0x04 0x3c).
@@ -308,7 +312,7 @@ def method2(rom_start_address, rom_end_address, description):
 
 ######################################################
 	
-def method3(rom_start_address, rom_end_address, description):
+def method3(rom_start_address, rom_end_address, insert_method, description):
 	"""
 	method3 - extract text from a given byte range using
 	the notation of each string has no start control bytes
@@ -350,6 +354,7 @@ def method3(rom_start_address, rom_end_address, description):
 				
 				# Generate the actual text string (which we will print for translation)s
 				byte_sequence = translate_string(byte_sequence, ttable)
+				byte_sequence = translate_string(byte_sequence, ttable, alt=True)
 				
 				byte_sequence["end_bytes"].append(byte)
 				
@@ -394,53 +399,61 @@ def write_export(byte_strings):
 	else:
 		f = open(OUT_NAME, "w")
 		
-	f.write("[\n")
-	for b in byte_strings:
-		f.write("    {\n")
-		f.write("        \"block_range\" : \"%s-%s\",\n" % (hex(b["block_start"]), hex(b["block_end"])))
-		f.write("        \"block_description\" : \"%s\",\n" % b["block_description"])
-		f.write("        \"position\" : \"%s\",\n" % hex(b["start_pos"]))
-		f.write("        \"method\" : %s,\n" % b["method"])
-		f.write("        \"start_bytes\" : [")
-		for c in b["start_bytes"]:
-			f.write("\"")
-			f.write(str(binascii.hexlify(c)))
-			f.write("\",")
-		if len(b["start_bytes"]) > 0:
-			f.seek(-1, 1)
-		f.write("],\n")
-		f.write("        \"end_bytes\" : [")
-		for c in b["end_bytes"]:
-			f.write("\"")
-			f.write(str(binascii.hexlify(c)))
-			f.write("\",")
-		if len(b["end_bytes"]) > 0:
-			f.seek(-1, 1)
-		f.write("],\n")
-		f.write("        \"raw_size\" : %s,\n" % b["size"])	
-		f.write("        \"raw\" : [")
-		for c in b["bytes"]:
-			f.write("\"")
-			f.write(str(binascii.hexlify(c)))
-			f.write("\", ")
-		f.seek(-2, 1)
-		f.write("],\n")
-		f.write("        \"raw_text\" : \"")	
-		for c in b["text"]:
-			f.write(c)
-		f.write("\",\n")
-		
-		if b["method"] == METHOD_2:
+	for byte_range in byte_strings:
+		print byte_range.keys()
+		f.write("{\n")
+		f.write("\"block_description\" : \"%s\",\n" % byte_range["block_description"])
+		f.write("\"block_start\" : \"%s\",\n" % hex(byte_range["block_start"]))
+		f.write("\"block_end\" : \"%s\",\n" % hex(byte_range["block_end"]))
+		f.write("\"insert_method\" : %s,\n" % byte_range["insert_method"])
+		f.write("\"data\" : [\n")
+		for b in byte_range["data"]:
+			f.write("    {\n")
+			f.write("        \"string_description\" : \"%s\",\n" % b["block_description"])
+			f.write("        \"string_start\" : \"%s\",\n" % hex(b["start_pos"]))
+			f.write("        \"method\" : %s,\n" % b["method"])
+			f.write("        \"start_bytes\" : [")
+			for c in b["start_bytes"]:
+				f.write("\"")
+				f.write(str(binascii.hexlify(c)))
+				f.write("\",")
+			if len(b["start_bytes"]) > 0:
+				f.seek(-1, 1)
+			f.write("],\n")
+			f.write("        \"end_bytes\" : [")
+			for c in b["end_bytes"]:
+				f.write("\"")
+				f.write(str(binascii.hexlify(c)))
+				f.write("\",")
+			if len(b["end_bytes"]) > 0:
+				f.seek(-1, 1)
+			f.write("],\n")
+			f.write("        \"raw_size\" : %s,\n" % b["size"])	
+			f.write("        \"raw\" : [")
+			for c in b["bytes"]:
+				f.write("\"")
+				f.write(str(binascii.hexlify(c)))
+				f.write("\", ")
+			f.seek(-2, 1)
+			f.write("],\n")
+			f.write("        \"raw_text\" : \"")	
+			for c in b["text"]:
+				f.write(c)
+			f.write("\",\n")
+			
 			f.write("        \"alt_text\" : \"")	
 			for c in b["alt_text"]:
 				f.write(c)
 			f.write("\",\n")
-				
-		f.write("        \"trans_size\" : 0,\n")
-		f.write("        \"trans_text\" : \"\"\n")
-		f.write("    },\n\n")
+					
+			f.write("        \"trans_size\" : 0,\n")
+			f.write("        \"trans_text\" : \"\"\n")
+			f.write("    },\n\n")
+		f.seek(-3, 1)
+		f.write("\n]")
+		f.write("},\n")
 	f.seek(-3, 1)
-	f.write("\n]")
+	f.write("")
 	f.close()
 
 	stats["filesize"] = os.path.getsize(OUT_NAME)
@@ -560,15 +573,31 @@ SORTED_BYTES = sorted(BYTES, key=lambda t: t[1])
 for byte_range in SORTED_BYTES:
 	if byte_range[0] == METHOD_1:
 		print "%s - %s (Method 1) : %s" % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
-		found_byte_strings += method1(byte_range[1], byte_range[2], byte_range[3])
-		
+		data = {}
+		data["block_description"] = byte_range[4]
+		data["block_start"] = byte_range[1]
+		data["block_end"] = byte_range[2]
+		data["insert_method"] = byte_range[3]
+		data["data"] = method1(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
+		found_byte_strings.append(data)
 	if byte_range[0] == METHOD_2:
 		print "%s - %s (Method 2) : %s" % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
-		found_byte_strings += method2(byte_range[1], byte_range[2], byte_range[3])
-
+		data = {}
+		data["block_description"] = byte_range[4]
+		data["block_start"] = byte_range[1]
+		data["block_end"] = byte_range[2]
+		data["insert_method"] = byte_range[3]
+		data["data"] = method2(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
+		found_byte_strings.append(data)
 	if byte_range[0] == METHOD_3:
 		print "%s - %s (Method 3) : %s " % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
-		found_byte_strings += method3(byte_range[1], byte_range[2], byte_range[3])
+		data = {}
+		data["block_description"] = byte_range[4]
+		data["block_start"] = byte_range[1]
+		data["block_end"] = byte_range[2]
+		data["insert_method"] = byte_range[3]
+		data["data"] = method3(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
+		found_byte_strings.append(data)
 print "Done"
 
 #############################################
