@@ -47,7 +47,7 @@ from Table import load_table
 from config import ROM_NAME, TABLE_NAME, OUT_NAME
 from config import OVERWRITE, VERBOSE
 from config import SWITCH_MODE
-from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE
+from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE, PC_NAME, PC_NAMES
 
 # Load the definitions of which ranges in the files to examine
 from config import BYTES
@@ -98,14 +98,19 @@ def translate_string(byte_sequence, trans_table, alt=False):
 	byte_sequence[text_key] = []
 	already_i = 0
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
-		b = str(binascii.hexlify(byte_sequence["bytes"][i-1])).upper()
+		b1 = str(binascii.hexlify(byte_sequence["bytes"][i-1])).upper()
 		# Don't process dakuten/handakuten
 		# Is the next byte a dakuten/handakuten?
 		b2 = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
 		if b2 in DAKUTEN:
 			# Use a composite byte instead
-			b = b + b2
+			b = b1 + b2
 			already_i = i + 1
+		elif (b1 == PC_NAME) and (b2 in PC_NAMES):
+			b = b1 + b2
+			already_i = i + 1
+		else:
+			b = b1
 		bt = ""
 		if i != already_i:
 			if switch_mode:
@@ -312,7 +317,7 @@ def method2(rom_start_address, rom_end_address, insert_method, description):
 
 ######################################################
 	
-def method3(rom_start_address, rom_end_address, insert_method, description):
+def method3(rom_start_address, rom_end_address, insert_method, description, end_byte = "\x00"):
 	"""
 	method3 - extract text from a given byte range using
 	the notation of each string has no start control bytes
@@ -344,7 +349,7 @@ def method3(rom_start_address, rom_end_address, insert_method, description):
 			# Increment position ID
 			rom_addr += 1
 			byte = struct.unpack('c', f.read(1))[0]
-			if byte != "\x00":
+			if byte != end_byte:
 				# Add the byte
 				byte_sequence["bytes"].append(byte)
 			else:
@@ -596,7 +601,8 @@ for byte_range in SORTED_BYTES:
 		data["block_start"] = byte_range[1]
 		data["block_end"] = byte_range[2]
 		data["insert_method"] = byte_range[3]
-		data["data"] = method3(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
+		data["end_byte"] = byte_range[5]
+		data["data"] = method3(data["block_start"], data["block_end"], data["insert_method"], data["block_description"], data["end_byte"])
 		found_byte_strings.append(data)
 print "Done"
 
