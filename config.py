@@ -10,6 +10,7 @@
 # Required for extractScript
 ROM_NAME = "Cyber Knight (J).pce"
 TABLE_NAME = "CyberKnightTranslation.csv"
+TABLE_NAME_DOUBLE = "CyberKnightKanjiTranslation.csv"
 OUT_NAME = "Script.json"
 # Additional requirements for injectScript
 OUT_ROM_NAME = "Cyber Knight (E).pce"
@@ -24,6 +25,9 @@ VERBOSE = False
 
 # The byte which determines which translation table to use
 SWITCH_MODE = '5C'
+
+# The byte that tells us a double height char is next
+KANJI_CODE = '1D'
 
 # All possible dakuten bytes
 DAKUTEN_ALL = ["DE", "DF"]
@@ -83,18 +87,13 @@ METHOD_CONTIGUOUS = 2
 
 BYTES = [
 
-	(METHOD_3, 0x1c040, 0x1c87d, METHOD_SIMPLE, "unknown 1", "\x00"),
-	#(METHOD_3, 0x1c79a, 0x1c7b1, METHOD_SIMPLE, "unknown 2", "\x00"),
-	#(METHOD_3, 0x1cc06, 0x1ccac, METHOD_SIMPLE, "unknown 3", "\x00"),
-	#(METHOD_3, 0x1ccbf, 0x1cda0, METHOD_SIMPLE, "unknown 4", "\x00"),
+	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Everything!", "\x00"),
+
 	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),
 	
-	#(METHOD_3, 0x1c87e, 0x1c90d, METHOD_SIMPLE, "Main menu text and configuration options.", "\x00"),
-	#(METHOD_3, 0x1c098, 0x1c0ac, METHOD_SIMPLE, "Player name entry screen.", "\x00"),
+	#(METHOD_3, 0x1c040, 0x1c87d, METHOD_SIMPLE, "Main menu, Player name entry screen, load game screen, in-game stats screen.", "\x00"),
 	#(METHOD_3, 0x1cbad, 0x1ccac, METHOD_SIMPLE, "NPC character names.", "\x00"),
-	#(METHOD_3, 0x28086, 0x28949, METHOD_SIMPLE, "Unknown.", "\x00"),
 	#(METHOD_3, 0x1b8d6, 0x1bca6, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics.", "\x00"),
-	#(METHOD_1, 0x1defc, 0x1e0a5, METHOD_SIMPLE, "Possible ship dialogue for first world."),
 	#(METHOD_2, 0x29eff, 0x2a1ad, METHOD_SIMPLE, "Introductory cinematics."),
 	#(METHOD_3, 0x2a74c, 0x2a930, METHOD_SIMPLE, "Short scene after scrolling intro text.", "\x1c"),
 
