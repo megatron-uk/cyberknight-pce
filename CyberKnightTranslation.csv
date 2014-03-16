@@ -4,10 +4,11 @@
 "04"	"<pause>"	"C"	"<pause>"	"C"	"Adds a short pause before printing the next character"
 "08"	"<wait>"	"C"	"<wait>"	"C"	"Wait for player button press"
 "0C"	"<erase>"	"C"	"<erase>"	"C"	"Erase current line"
-"0D"	"<pad>"	"C"	"<pad>"	"C"	"Pad text with leading spaces (next byte is number of spaces)"
+"0D"	"<pad>"	"C"	"<pad>"	"C"	"Pad text with leading spaces (next byte is number of spaces))"
 1028	"<PC>"	"C"	"<PC>"	"C"	"Print player character name"
 1030	"<MICA>"	"C"	"<MICA>"	"C"	"Print MICA name"
 "1C"	"<endwait>"	"C"	"<endwait>"	"C"	"End of string with pause until next string is displayed"
+"1D"	"<kanji>"	"C"	"<kanji>"	"C"	"switch to Kanji/double height font (next byte is number of double height tiles to follow)
 "20"	" "	"A"	" "	"A"	"Space"
 "21"	"!"	"A"	"!"	"A"	
 "22"	"“"	"A"	"“"	"A"	

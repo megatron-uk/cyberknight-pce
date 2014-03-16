@@ -1,0 +1,90 @@
+{
+"block_description" : "Main menu text and configuration options.",
+"block_start" : "0x1c87e",
+"block_end" : "0x1c90d",
+"insert_method" : 1,
+"data" : [
+    {
+        "block_range" : "0x1c87e-0x1c90d",
+        "block_description" : "Main menu text and configuration options.",
+        "string_start" : "0x1c87e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 39,
+        "raw" : ["20", "ca", "bc", "de", "d2", "b6", "d7", "02", "20", "c2", "c2", "de", "b7", "b6", "d7", "02", "20", "5c", "b8", "db", "b0", "dd", "5c", "bb", "b2", "be", "b2", "02", "20", "b6", "dd", "b7", "ae", "b3", "be", "af", "c3", "b2", "00"],
+        "raw_text" : " はじめから\n つづきから\n クロ‐ンさいせい\n かんきぉうせってい",
+        "trans_size" : 0,
+        "trans_text" : " Start\n Retry\n Load\n Settings "
+    },
+
+    {
+        "block_range" : "0x1c87e-0x1c90d",
+        "block_description" : "Main menu text and configuration options.",
+        "string_start" : "0x1c8a5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 27,
+        "raw" : ["20", "5c", "ca", "de", "af", "b8", "b1", "af", "cc", "df", "d2", "d3", "d8", "02", "20", "ba", "b0", "c4", "de", "5c", "c6", "ad", "b3", "d8", "ae", "b8", "00"],
+        "raw_text" : " バックアップメモリ\n コ‐ドにゅうりょく",
+        "trans_size" : 0,
+        "trans_text" : " Load Save\n Password"
+    },
+
+    {
+        "block_range" : "0x1c87e-0x1c90d",
+        "block_description" : "Main menu text and configuration options.",
+        "string_start" : "0x1c8c0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 26,
+        "raw" : ["20", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "bf", "b8", "c4", "de", "02", "20", "5c", "bb", "b3", "dd", "c4", "de", "d3", "b0", "c4", "de", "00"],
+        "raw_text" : " メッセ‐ジそくど\n サウンドモ‐ド",
+        "trans_size" : 0,
+        "trans_text" : " Dialogue\n Audio  "
+    },
+
+    {
+        "block_range" : "0x1c87e-0x1c90d",
+        "block_description" : "Main menu text and configuration options.",
+        "string_start" : "0x1c8da",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 23,
+        "raw" : ["20", "20", "b5", "bf", "b2", "20", "20", "cc", "c2", "b3", "20", "20", "ca", "d4", "b2", "20", "20", "5c", "c0", "b0", "ce", "de", "00"],
+        "raw_text" : "  おそい  ふつう  はやい  タ‐ボ",
+        "trans_size" : 0,
+        "trans_text" : "  Slow Med. High Turbo"
+    },
+
+    {
+        "block_range" : "0x1c87e-0x1c90d",
+        "block_description" : "Main menu text and configuration options.",
+        "string_start" : "0x1c8f1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["20", "20", "5c", "bd", "c3", "da", "b5", "20", "20", "d3", "c9", "d7", "d9", "00"],
+        "raw_text" : "  ステレオ  モノラル",
+        "trans_size" : 0,
+        "trans_text" : "  Ster. Mono"
+    },
+
+    {
+        "block_range" : "0x1c87e-0x1c90d",
+        "block_description" : "Main menu text and configuration options.",
+        "string_start" : "0x1c8ff",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["0d", "06", "43", "59", "42", "45", "52", "20", "4b", "4e", "49", "47", "48", "54", "00"],
+        "raw_text" : "<pad><06>CYBER KNIGHT",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]}

@@ -80,10 +80,11 @@ def patch_file(patchfile, patch, romfile):
 	
 	for patch_segment in patch["data"]["data"]:
 		apply_patch = True
-		patch_segment["trans_size"] = len(patch_segment["trans_text"]) + len(patch_segment["start_bytes"]) + len(patch_segment["end_bytes"])
 		s = []
 		if len(patch_segment["trans_text"]) == 0:
-			#print "%s - Skipping zero-length translation - reusing untranslated string" % patch_segment["string_start"]
+			if VERBOSE:
+				print "---"
+				print "%s - Skipping zero-length translation - reusing untranslated string" % patch_segment["string_start"]
 			for sb in patch_segment["start_bytes"]:
 				contiguous_text += "<" + sb + ">"
 			contiguous_text += patch_segment["raw_text"]			
@@ -92,7 +93,8 @@ def patch_file(patchfile, patch, romfile):
 			for eb in patch_segment["end_bytes"]:
 				contiguous_text += "<" + eb + ">"
 		else:
-							
+			if VERBOSE:
+				print "---"				
 			FILE.seek(int(patch_segment["string_start"], 16), 0)
 			s = []
 			
@@ -119,15 +121,20 @@ def patch_file(patchfile, patch, romfile):
 				
 			if VERBOSE:
 				if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
-					print "---"
 					print "Untranslated length: %s" % patch_segment["raw_size"]
 					print "Translated length: %s header + %s body + %s end" % (len(patch_segment["start_bytes"]), len(encoded_string), len(patch_segment["end_bytes"]))
-					print patch_segment["raw_text"]
-					print patch_segment["trans_text"]
+					print "Untranslated:", patch_segment["raw_text"]
+					print "Translated:", patch_segment["trans_text"]
 					#print encoded_string
-					
+				else:
+
+					print "Untranslated length: %s" % patch_segment["raw_size"]
+					print "Translated length: %s header + %s body + %s end" % (len(patch_segment["start_bytes"]), len(encoded_string), len(patch_segment["end_bytes"]))
+					print "Untranslated:", patch_segment["raw_text"]
+					print "Translated:", patch_segment["trans_text"]
+					#print encoded_string					
 			patch_len = len(s)
-			
+			patch_segment["trans_size"] = patch_len
 			# Is the patch the same size as the original string?
 			if patch_len != patch_segment["raw_size"]:
 				# No
@@ -363,6 +370,7 @@ if os.path.isdir(PATCH_DIR_NAME):
 						t += 1
 				print "- %16s : %4s strings : %4s translations" % (d, len(PATCH_FILES[d]["data"]["data"]), t)
 			except Exception as e:
+				print traceback.format_exc()
 				print "- %s <- ERROR, not a valid JSON file" % d
 				print e
 else:

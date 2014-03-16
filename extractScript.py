@@ -26,6 +26,7 @@ John Snowdon <john@target-earth.net>
 """
 
 import os
+import codecs
 import sys
 import traceback
 import getopt
@@ -41,12 +42,12 @@ import json
 MISSING_BYTES = {}
 
 # Translation table loader
-from Table import load_table
+from Table import load_table, load_table_double
 
 # Default values
-from config import ROM_NAME, TABLE_NAME, OUT_NAME
+from config import ROM_NAME, TABLE_NAME, TABLE_NAME_DOUBLE, OUT_NAME
 from config import OVERWRITE, VERBOSE
-from config import SWITCH_MODE
+from config import SWITCH_MODE, KANJI_CODE
 from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE, PC_NAME, PC_NAMES
 
 # Load the definitions of which ranges in the files to examine
@@ -59,7 +60,58 @@ from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TR
 ############ < Code starts here > ####################
 ######################################################
 
-def translate_string(byte_sequence, trans_table, alt=False):
+def translate_double_string(bytes, trans_table_double, alt=False):
+	"""
+	translate_double_string - construct the actual text, using multi-byte, double height (aka Kanji ideograms)
+	where appropriate.
+	"""
+
+	new_bytes = []
+	print bytes
+	# Can only work with even string lengths
+	if (len(bytes)%2==0):
+		if VERBOSE:
+			print ""
+		check_bytes = []
+		b_pos_start = 0
+		b_pos_end = 2
+		while b_pos_end <= len(bytes):
+			b = ""
+			b_range = bytes[b_pos_start:b_pos_end]
+
+			for ch in b_range:
+
+				b += str(binascii.hexlify(ch))
+			if VERBOSE:
+				print "Searching for <%s>" % str(b.upper())
+			# Double height strings are only ever an even number
+			if b.upper() in trans_table_double.keys():
+				
+				bt = trans_table_double[b.upper()]["pre_shift"]
+				if VERBOSE:
+					print "Found %s" % bt
+				new_bytes.append("%s" % bt)
+				b_pos_start = b_pos_end
+				b_pos_end = b_pos_start + 2
+			else:
+				#print "Not Found"
+				# warning - byte sequence not in table
+				b_pos_end += 2
+				b_range = bytes[b_pos_start:b_pos_end]
+				if b_pos_end > len(bytes):
+					for ch in b_range:
+						new_bytes.append("<" + str(binascii.hexlify(ch)) + ">")
+		if len(new_bytes) == 0:
+			new_bytes = bytes
+		if VERBOSE:
+			print "End <%s>" % new_bytes
+		return new_bytes
+	else:
+		if VERBOSE:
+			print "Not a valid double height string"
+		return bytes
+
+def translate_string(byte_sequence, trans_table, trans_table_double, alt=False):
 	"""
 	translate_string - construct the actual text, using multi-byte characters
 	where appropriate, that represent the hex codes found in the rom.
@@ -97,28 +149,69 @@ def translate_string(byte_sequence, trans_table, alt=False):
 	
 	byte_sequence[text_key] = []
 	already_i = 0
+	if VERBOSE:
+		print ""
+		print "String @ %s (%s bytes)" % (hex(byte_sequence["start_pos"]), len(byte_sequence["bytes"]))
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
+		#print "Index %s" % i
+		already_decoded = False
 		b1 = str(binascii.hexlify(byte_sequence["bytes"][i-1])).upper()
 		# Don't process dakuten/handakuten
 		# Is the next byte a dakuten/handakuten?
 		b2 = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
 		if b2 in DAKUTEN:
-			# Use a composite byte instead
-			b = b1 + b2
-			already_i = i + 1
+			if i > already_i:
+				#print "Processing Index %s" % i
+				# Use a composite byte instead
+				b = b1 + b2
+				already_i = i + 1
 		elif (b1 == PC_NAME) and (b2 in PC_NAMES):
-			b = b1 + b2
-			already_i = i + 1
+			if i > already_i:
+				#print "Processing Index %s" % i
+				b = b1 + b2
+				already_i = i + 1
+		elif (b1 == KANJI_CODE):
+			if VERBOSE:
+				print "Index %s" % i
+			if i > already_i:
+				double_byte_pos = byte_sequence["start_pos"] + i
+				
+				try:
+					if len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]) >= int(b2, 16):
+						if VERBOSE:
+							print "Processing Index %s" % i					
+							print "Double height lookup @ %s (%s %s)" % (hex(double_byte_pos), b1, b2)
+						
+						
+						br = byte_sequence["bytes"][i+1:i+int(b2, 16)+1]
+						
+						already_i = i + int(b2, 16) + 1
+						translated_chars = translate_double_string(br, trans_table_double)
+						for c in translated_chars:
+							byte_sequence[text_key].append(c)
+						already_decoded = True
+						if VERBOSE:
+							print "Jump to %s" % already_i
+					else:
+						if VERBOSE:
+							print "Not a Kanji code @ %s (%s %s, but only %s bytes)" % (hex(double_byte_pos), b1, b2, len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]))
+						b = b1
+				except Exception as e:
+					print traceback.format_exc()
+					print e
+					b = b1
 		else:
-			b = b1
+			if i > already_i:
+				#print "Processing Index %s" % i
+				b = b1		
 		bt = ""
-		if i != already_i:
+		if (i > already_i) and (already_decoded == False):
 			if switch_mode:
 				if b == SWITCH_MODE:
 					switch_mode = False
 				else:
-					if b in trans_table.keys():
-						bt = trans_table[b]["post_shift"]
+					if b.upper() in trans_table.keys():
+						bt = trans_table[b.upper()]["post_shift"]
 						byte_sequence[text_key].append(bt)
 					else:
 						# warning - byte sequence not in table
@@ -130,8 +223,8 @@ def translate_string(byte_sequence, trans_table, alt=False):
 				if b == SWITCH_MODE:
 					switch_mode = True
 				else:
-					if b in trans_table.keys():
-						bt = trans_table[b]["pre_shift"]
+					if b.upper() in trans_table.keys():
+						bt = trans_table[b.upper()]["pre_shift"]
 						byte_sequence[text_key].append(bt)
 					else:
 						# warning - byte sequence not in table
@@ -167,7 +260,8 @@ def method1(rom_start_address, rom_end_address, insert_method, description):
 	"""
 		
 	ttable = load_table()
-		
+	ttable2 = load_table_double()
+	
 	f = open(ROM_NAME, "rb")
 	f.seek(rom_start_address, 0)
 	rom_addr = rom_start_address
@@ -200,8 +294,8 @@ def method1(rom_start_address, rom_end_address, insert_method, description):
 				byte_sequence["size"] = len(byte_sequence["bytes"])
 				
 				# Generate the actual text string (which we will print for translation)s
-				byte_sequence = translate_string(byte_sequence, ttable)
-				byte_sequence = translate_string(byte_sequence, ttable, alt=True)
+				byte_sequence = translate_string(byte_sequence, ttable, ttable2)
+				byte_sequence = translate_string(byte_sequence, ttable, ttable2, alt=True)
 				
 				# Record just the start bytes
 				if len(byte_sequence["bytes"]) > 1:
@@ -242,6 +336,7 @@ def method2(rom_start_address, rom_end_address, insert_method, description):
 	"""
 	
 	ttable = load_table()
+	ttable2 = load_table_double()
 		
 	f = open(ROM_NAME, "rb")
 	f.seek(rom_start_address, 0)
@@ -288,8 +383,8 @@ def method2(rom_start_address, rom_end_address, insert_method, description):
 					byte_sequence["end_bytes"].append(byte_sequence["bytes"][-1])
 				
 				# Generate the actual text string (which we will print for translation)s
-				byte_sequence = translate_string(byte_sequence, ttable)
-				byte_sequence = translate_string(byte_sequence, ttable, alt=True)
+				byte_sequence = translate_string(byte_sequence, ttable, ttable2)
+				byte_sequence = translate_string(byte_sequence, ttable, ttable2, alt=True)
 				
 				# Record the data
 				byte_strings.append(byte_sequence)
@@ -326,7 +421,8 @@ def method3(rom_start_address, rom_end_address, insert_method, description, end_
 	e.g. 0x60 0x61 0x62 0x63 0x64 0x65 0x00
 	"""
 	ttable = load_table()
-		
+	ttable2 = load_table_double()
+	
 	f = open(ROM_NAME, "rb")
 	f.seek(rom_start_address, 0)
 	rom_addr = rom_start_address
@@ -358,8 +454,8 @@ def method3(rom_start_address, rom_end_address, insert_method, description, end_
 				byte_sequence["size"] = len(byte_sequence["bytes"])
 				
 				# Generate the actual text string (which we will print for translation)s
-				byte_sequence = translate_string(byte_sequence, ttable)
-				byte_sequence = translate_string(byte_sequence, ttable, alt=True)
+				byte_sequence = translate_string(byte_sequence, ttable, ttable2)
+				byte_sequence = translate_string(byte_sequence, ttable, ttable2, alt=True)
 				
 				byte_sequence["end_bytes"].append(byte)
 				
@@ -403,7 +499,8 @@ def write_export(byte_strings):
 			sys.exit(2)
 	else:
 		f = open(OUT_NAME, "w")
-		
+				
+
 	for byte_range in byte_strings:
 		print byte_range.keys()
 		f.write("{\n")
@@ -441,7 +538,7 @@ def write_export(byte_strings):
 				f.write("\", ")
 			f.seek(-2, 1)
 			f.write("],\n")
-			f.write("        \"raw_text\" : \"")	
+			f.write("        \"raw_text\" : \"")
 			for c in b["text"]:
 				f.write(c)
 			f.write("\",\n")
