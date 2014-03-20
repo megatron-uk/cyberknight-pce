@@ -1,0 +1,1140 @@
+{
+"block_description" : "MICA, player, npc text",
+"block_start" : "0x28086",
+"block_end" : "0x29efe",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "MICA, player, npc text - surface temperature",
+        "string_start" : "0x28086",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 60,
+        "raw" : ["1a", "4f", "10", "30", "a2", "cb", "ae", "b3", "d2", "dd", "b5", "dd", "c4", "de", "20", "31", "30", "30", "30", "20", "df", "43", "20", "b2", "bc", "de", "ae", "b3", "a1", "03", "d6", "b3", "b6", "de", "dd", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "03", "c3", "de", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『ひょうめんおんど 1000<20DF>C いじょう。\nようがんに おおわれた ちいさな わくせい\nです。』<wait>",
+        "alt_text" : "<1A>O<MICA>『ヒョウメンオンド 1000<20DF>C イジョウ。\nヨウガンニ オオワレタ チイサナ ワクセイ\nデス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x280c2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 56,
+        "raw" : ["1a", "4f", "10", "30", "a2", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "cb", "ae", "b3", "d2", "dd", "ca", "03", "ba", "b3", "b5", "dd", "c3", "de", "20", "c0", "b2", "b7", "d3", "20", "d0", "bd", "de", "d3", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『ちいさな わくせいです。ひょうめんは\nこうおんで たいきも みずも そんざい\nしません。』<wait>",
+        "alt_text" : "<1A>O<MICA>『チイサナ ワクセイデス。ヒョウメンハ\nコウオンデ タイキモ ミズモ ソンザイ\nシマセン。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x280fa",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 40,
+        "raw" : ["1a", "4d", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです。』<wait>",
+        "alt_text" : "<1A>M<MICA>『ユウドクノ タイキニ ツツマレタ\nコウオンノ ワクセイデス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28122",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 49,
+        "raw" : ["1a", "4d", "10", "30", "a2", "b3", "d0", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c1", "ac", "b8", "d8", "b8", "c3", "de", "b7", "d9", "20", "c4", "ba", "db", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『うみに おおわれた わくせいです。\nちゃくりくできる ところが おりません。』<wait>",
+        "alt_text" : "<1A>M<MICA>『ウミニ オオワレタ ワクセイデス。\nチャクリクデキル トコロガ アリマセン。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28153",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 61,
+        "raw" : ["1a", "4f", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "c6", "c0", "20", "b5", "b5", "b7", "bb", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "bc", "b6", "bc", "20", "be", "b2", "d2", "b2", "ca", "20", "bf", "dd", "bb", "de", "b2", "be", "bd", "de", "20", "bb", "dd", "bf", "d3", "03", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『ちきゅうににた おおきさの わくせいです。\nしかし せいめいは そんざいせず さんそも\nおりません。』<wait>",
+        "alt_text" : "<1A>O<MICA>『チキュウニニタ オオキサノ ワクセイデス。\nシカシ セイメイハ ソンザイセズ サンソモ\nアリマセン。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28190",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 58,
+        "raw" : ["1a", "4f", "10", "30", "a2", "bb", "ca", "de", "b8", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b6", "c4", "b3", "c5", "20", "bc", "ae", "b8", "cc", "de", "c2", "bc", "b6", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "c5", "b2", "d6", "b3", "c3", "de", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『さばくに おおわれた わくせいです。\nかとうな しょくぶつしか そんざい\nしないようです。』<wait>",
+        "alt_text" : "<1A>O<MICA>『サバクニ オオワレタ ワクセイデス。\nカトウナ ショクブツシカ ソンザイ\nシナイヨウデス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x281ca",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 35,
+        "raw" : ["1a", "4d", "10", "30", "a2", "bc", "ae", "b3", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "ca", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『しょうわくせいです。たいきは そんざい\nしません。』<wait>",
+        "alt_text" : "<1A>M<MICA>『ショウワクセイデス。タイキハ ソンザイ\nシマセン。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x281ed",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 56,
+        "raw" : ["1a", "4d", "10", "30", "a2", "b5", "b5", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "20", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "a4", "bd", "b2", "bf", "c4", "20", "5c", "cd", "d8", "b3", "d1", "5c", "c3", "de", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『おおがたの ガスわくせいです。 たいきの\nせいぶんは、すいそと ヘリウムです。』<wait>",
+        "alt_text" : "<1A>M<MICA>『オオガタノ がすワクセイデス。 タイキノ\nセイブンハ、スイソト へりうむデス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28225",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 54,
+        "raw" : ["1a", "4d", "10", "30", "a2", "c1", "ad", "b3", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "ba", "b5", "d8", "c9", "20", "c2", "cc", "de", "c3", "de", "c3", "de", "b7", "c0", "20", "dc", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『ちゅうがたの ガスわくせいです。\nこおりの つぶでできた わが おります。』<wait>",
+        "alt_text" : "<1A>M<MICA>『チュウガタノ がすワクセイデス。\nコオリノ ツブデデキタ ワガ アリマス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2825b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 33,
+        "raw" : ["1a", "4c", "10", "30", "a2", "ba", "b6", "de", "c0", "c3", "de", "20", "c3", "b2", "b5", "dd", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>L<MICA>『こがたで ていおんの ガスわくせいです』<wait>",
+        "alt_text" : "<1A>L<MICA>『コガタデ テイオンノ がすワクセイデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2827c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 40,
+        "raw" : ["1a", "4d", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『たいようから とおいため、こおりに\nおおわれた わくせいです。』<wait>",
+        "alt_text" : "<1A>M<MICA>『タイヨウカラ トオイタメ、コオリニ\nオオワレタ ワクセイデス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x282a4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x282a5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x282a6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x282a7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x282a8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 30,
+        "raw" : ["1a", "48", "10", "30", "a2", "ba", "da", "b2", "bc", "de", "ae", "b3", "20", "c1", "b6", "c2", "de", "b8", "c9", "ca", "20", "b7", "b9", "dd", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>H<MICA>『これいじょう ちかづくのは きけんです』<wait>",
+        "alt_text" : "<1A>H<MICA>『コレイジョウ チカヅクノハ キケンデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x282c6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 30,
+        "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "c3", "de", "b7", "d9", "20", "ca", "de", "bc", "ae", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a3", "08", "00"],
+        "raw_text" : "<1A>H<MICA>『ちゃくりくできる ばしょが おりません』<wait>",
+        "alt_text" : "<1A>H<MICA>『チャクリクデキル バショガ アリマセン』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x282e4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 31,
+        "raw" : ["1a", "48", "10", "30", "a2", "d8", "b8", "c1", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "c1", "ac", "b8", "d8", "b8", "20", "c3", "de", "b7", "cf", "be", "dd", "a3", "08", "00"],
+        "raw_text" : "<1A>H<MICA>『りくちがないので ちゃくりく できません』<wait>",
+        "alt_text" : "<1A>H<MICA>『リクチガナイノデ チャクリク デキマセン』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28303",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 28,
+        "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "bd", "d9", "20", "d8", "d5", "b3", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>H<MICA>『ちゃくりくする りゆうが おりません。』<wait>",
+        "alt_text" : "<1A>H<MICA>『チャクリクスル リユウガ アリマセン。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2831f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 28,
+        "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "20", "cc", "b6", "c9", "b3", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>H<MICA>『ちゃくりく ふかのうな わくせいです。』<wait>",
+        "alt_text" : "<1A>H<MICA>『チャクリク フカノウナ ワクセイデス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2833b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 172,
+        "raw" : ["1a", "51", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "20", "c6", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "20", "bb", "dd", "bf", "20", "c1", "af", "bf", "20", "c5", "c4", "de", "c3", "de", "a4", "ba", "b7", "ad", "b3", "03", "b6", "c9", "b3", "a1", "cb", "ae", "b3", "d2", "dd", "c9", "20", "36", "30", "5c", "ca", "df", "b0", "be", "dd", "c4", "5c", "ca", "03", "b3", "d0", "c3", "de", "a4", "c0", "b2", "d8", "b8", "c6", "ca", "20", "d3", "d8", "c4", "20", "bf", "b3", "b9", "de", "dd", "b6", "de", "03", "cb", "db", "b6", "de", "af", "c3", "b2", "cf", "bd", "a1", "a3", "08", "0c", "10", "30", "a2", "b7", "c0", "ca", "dd", "b7", "ad", "b3", "c6", "20", "c1", "b2", "bb", "c5", "20", "c4", "bc", "b6", "de", "b1", "d8", "03", "c6", "dd", "b9", "de", "dd", "c4", "20", "b5", "d3", "dc", "da", "d9", "20", "be", "b2", "d2", "b2", "c0", "b2", "c9", "03", "ca", "dd", "c9", "b3", "b6", "de", "20", "b1", "d8", "cf", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『ちきゅうに にた わくせいです。たいきの\nせいぶんは さんそ ちっそ などで、こきゅう\nかのう。ひょうめんの 60パ‐セントは\nうみで、たいりくには もりと そうげんが\nひろがっています。』<wait><erase><MICA>『きたはんきゅうに ちいさな としがおり\nにんげんと おもわれる せいめいたいの\nはんのうが おります』<wait>",
+        "alt_text" : "<1A>Q<MICA>『チキュウニ ニタ ワクセイデス。タイキノ\nセイブンハ サンソ チッソ ナドデ、コキュウ\nカノウ。ヒョウメンノ 60ぱ―せんとハ\nウミデ、タイリクニハ モリト ソウゲンガ\nヒロガッテイマス。』<wait><erase><MICA>『キタハンキュウニ チイサナ トシガアリ\nニンゲント オモワレル セイメイタイノ\nハンノウガ アリマス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x283e7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 382,
+        "raw" : ["1b", "01", "1a", "4e", "10", "2d", "a2", "d0", "c4", "de", "d8", "c9", "ce", "bc", "3b", "3b", "3b", "3b", "b3", "c2", "b8", "bc", "b2", "dc", "a3", "08", "1a", "52", "10", "29", "a2", "ba", "c9", "ce", "bc", "c6", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "b6", "de", "20", "b2", "d9", "af", "c3", "c9", "03", "b6", "b2", "3f", "a3", "08", "1b", "02", "1a", "53", "10", "2b", "a2", "b2", "d4", "a4", "bc", "de", "ae", "b3", "b8", "b3", "b6", "d7", "c9", "20", "b6", "dd", "bf", "b8", "c3", "de", "ca", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "20", "c6", "dd", "b9", "de", "dd", "c9", "d6", "b3", "c0", "de", "a3", "08", "1a", "52", "10", "2c", "a2", "ba", "dd", "c5", "c4", "ba", "db", "c6", "20", "c6", "dd", "b9", "de", "dd", "b6", "de", "3f", "03", "bc", "dd", "bc", "de", "d7", "da", "c5", "b2", "c5", "a3", "08", "1b", "01", "1a", "55", "10", "2a", "a2", "bf", "b3", "c5", "dd", "bc", "c0", "20", "b3", "c1", "ad", "b3", "be", "dd", "c9", "20", "5c", "b8", "d9", "b0", "5c", "c9", "20", "bc", "bf", "dd", "03", "b6", "d3", "20", "bc", "da", "c5", "b2", "dc", "a1", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "d6", "b3", "c6", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c3", "de", "03", "c4", "ca", "de", "bb", "da", "c0", "c9", "b6", "d3", "3b", "3b", "3b", "3b", "a3", "08", "1b", "01", "1a", "52", "10", "2c", "a2", "c5", "dd", "c6", "bc", "c3", "d3", "a4", "5c", "d7", "af", "b7", "b0", "5c", "c0", "de", "a3", "08", "0c", "10", "2c", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "20", "bc", "ad", "b3", "d8", "c6", "03", "b7", "ae", "b3", "d8", "ae", "b8", "20", "bc", "c3", "b8", "da", "d9", "b6", "d3", "20", "bc", "da", "c5", "b2", "a3", "08", "19", "53", "10", "2b", "a2", "bf", "da", "ca", "20", "c9", "bf", "de", "d0", "b3", "bd", "c0", "de", "c5", "a1", "cc", "de", "dd", "d2", "b2", "c9", "5c", "da", "cd", "de", "d9", "5c", "ca", "03", "c1", "b7", "ad", "b3", "c9", "20", "32", "30", "be", "b2", "b7", "20", "c3", "b2", "c4", "de", "c9", "d6", "b3", "c0", "de", "a3", "08", "1a", "4e", "10", "2a", "a2", "b5", "d8", "c3", "d0", "c3", "20", "c0", "bc", "b6", "d2", "c0", "b2", "dc", "c8", "a3", "08", "00"],
+        "raw_text" : "<1B><01><1A>N<10>-『みどりのほし‥‥‥‥うつくしいわ』<wait><1A>R<NPCa>『このほしに エイリアンが いるっての\nかい?』<wait><1B>\n<1A>S<10>+『いや、じょうくうからの かんそくでは\nわたしたちと おなじ にんげんのようだ』<wait><1A>R<10>,『こんなところに にんげんが?\nしんじられないな』<wait><1B><01><1A>U<10>*『そうなんした うちゅうせんの クル‐の しそん\nかも しれないわ。\nわたしたちと おなじように、ジャンプ・ミスで\nとばされたのかも‥‥‥‥』<wait><1B><01><1A>R<10>,『なんにしても、ラッキ‐だ』<wait><erase><10>,『ジャンプ・ジェネレ‐タ‐の しゅうりに\nきょうりょく してくれるかも しれない』<wait><19>S<10>+『それは のぞみうすだな。ぶんめいのレベルは\nちきゅうの 20せいき ていどのようだ』<wait><1A>N<10>*『おりてみて たしかめたいわね』<wait>",
+        "alt_text" : "<1B><01><1A>N<10>-『ミドリノホシ‥‥‥‥ウツクシイワ』<wait><1A>R<NPCa>『コノホシニ えいりおんガ イルッテノ\nカイ?』<wait><1B>\n<1A>S<10>+『イヤ、ジョウクウカラノ カンソクデハ\nワタシタチト オナジ ニンゲンノヨウダ』<wait><1A>R<10>,『コンナトコロニ ニンゲンガ?\nシンジラレナイナ』<wait><1B><01><1A>U<10>*『ソウナンシタ ウチュウセンノ くる―ノ シソン\nカモ シレナイワ。\nワタシタチト オナジヨウニ、じゃんぷ・みすデ\nトバサレタノカモ‥‥‥‥』<wait><1B><01><1A>R<10>,『ナンニシテモ、らっき―ダ』<wait><erase><10>,『じゃんぷ・じぇねれ―た―ノ シュウリニ\nキョウリョク シテクレルカモ シレナイ』<wait><19>S<10>+『ソレハ ノゾミウスダナ。ブンメイノれべるハ\nチキュウノ 20セイキ テイドノヨウダ』<wait><1A>N<10>*『オリテミテ タシカメタイワネ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28565",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 62,
+        "raw" : ["13", "e4", "69", "03", "a2", "d0", "c5", "d0", "ca", "dd", "b7", "ad", "b3", "c6", "20", "b7", "dd", "bf", "de", "b8", "c9", "20", "5c", "c4", "de", "b0", "d1", "5c", "a6", "03", "ca", "af", "b9", "dd", "bc", "cf", "bc", "c0", "a1", "cf", "c0", "de", "20", "b9", "dd", "bf", "de", "b3", "c1", "ad", "b3", "c4", "03", "b5", "d3", "dc", "da", "cf", "bd", "a3", "08", "00"],
+        "raw_text" : "<13>トi\n『みなみはんきゅうに きんぞくの ド‐ムを\nはっけんしました。まだ けんぞうちゅうと\nおもわれます』<wait>",
+        "alt_text" : "<13>とi\n『ミナミハンキュウニ キンゾクノ ど―むヲ\nハッケンシマシタ。マダ ケンゾウチュウト\nオモワレマス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x285a3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x285a5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 139,
+        "raw" : ["1a", "4e", "10", "29", "a2", "5c", "c4", "de", "b0", "d1", "5c", "c0", "de", "af", "c3", "3f", "a3", "08", "1a", "53", "10", "2b", "a2", "b3", "d1", "a4", "ba", "c9", "ce", "bc", "c9", "20", "c6", "dd", "b9", "de", "dd", "c9", "20", "c2", "b8", "af", "c0", "d3", "c9", "03", "c3", "de", "ca", "20", "c5", "b2", "d6", "b3", "c0", "de", "a3", "08", "1a", "52", "10", "2a", "a2", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "c9", "20", "b2", "af", "c3", "b2", "c0", "20", "c5", "bf", "de", "c9", "03", "5c", "db", "ce", "de", "af", "c4", "5c", "c4", "20", "b6", "dd", "b9", "b2", "20", "b1", "d9", "c9", "c3", "de", "ca", "3f", "a3", "08", "1a", "57", "10", "28", "a2", "bc", "d7", "cd", "de", "c3", "d0", "d9", "20", "cb", "c2", "d6", "b3", "b6", "de", "20", "b1", "d9", "b6", "d3", "03", "bc", "da", "dd", "c5", "a3", "08", "00"],
+        "raw_text" : "<1A>N<NPCa>『ド‐ムだって?』<wait><1A>S<10>+『うむ、このほしの にんげんの つくったもの\nでは ないようだ』<wait><1A>R<10>*『だいとうりょうの いっていた なぞの\nロボットと かんけい おるのでは?』<wait><1A>W<PLAYER>『しらべてみる ひつようが おるかも\nしれんな』<wait>",
+        "alt_text" : "<1A>N<NPCa>『ど―むダッテ?』<wait><1A>S<10>+『ウム、コノホシノ ニンゲンノ ツクッタモノ\nデハ ナイヨウダ』<wait><1A>R<10>*『ダイトウリョウノ イッテイタ ナゾノ\nろぼっとト カンケイ アルノデハ?』<wait><1A>W<PLAYER>『シラベテミル ヒツヨウガ アルカモ\nシレンナ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28630",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 54,
+        "raw" : ["1a", "53", "10", "2a", "a2", "bc", "b6", "bc", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "b6", "de", "03", "ba", "dc", "da", "c3", "d9", "dd", "bc", "de", "ac", "a4", "c4", "de", "ba", "cd", "d3", "20", "b2", "b9", "cf", "be", "dd", "d6", "a3", "08", "00"],
+        "raw_text" : "<1A>S<10>*『しかし、ジャンプ・ジェネレ‐タ‐が\nこわれてるんじゃ、どこへも いけませんよ』<wait>",
+        "alt_text" : "<1A>S<10>*『シカシ、じゃんぷ・じぇねれ―た―ガ\nコワレテルンジャ、ドコヘモ イケマセンヨ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28666",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28668",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 214,
+        "raw" : ["1a", "55", "10", "2a", "a2", "bf", "b3", "c0", "de", "dc", "21", "04", "3c", "03", "b1", "c9", "20", "b7", "ae", "b3", "bc", "de", "ad", "b6", "de", "20", "b2", "af", "c3", "b2", "c0", "c3", "de", "bc", "ae", "b3", "a1", "03", "b1", "c9", "cf", "c1", "c9", "20", "b7", "c0", "c9", "20", "d3", "d8", "c9", "c5", "b6", "c6", "20", "b2", "d0", "dd", "be", "dd", "03", "5c", "d5", "b0", "db", "ca", "df", "5c", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "de", "20", "b1", "d9", "af", "c3", "a1", "a3", "08", "1a", "53", "10", "2c", "a2", "d3", "bc", "b6", "bc", "c0", "d7", "20", "bf", "c9", "c5", "b6", "c6", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "03", "ba", "b2", "d9", "5c", "b6", "de", "20", "c9", "ba", "af", "c3", "b2", "d9", "b6", "d3", "bc", "da", "c5", "b2", "21", "a3", "08", "1a", "52", "10", "29", "a2", "bc", "b6", "bc", "20", "32", "35", "30", "c8", "dd", "d3", "20", "cf", "b4", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "03", "c0", "de", "be", "de", "a1", "5c", "bb", "cb", "de", "5c", "c2", "b2", "c1", "cf", "af", "c3", "d9", "dd", "bc", "de", "ac", "c5", "b2", "b6", "3f", "a3", "08", "19", "53", "10", "2c", "a2", "bc", "d7", "cd", "de", "c3", "d0", "c5", "b9", "d8", "ac", "20", "dc", "b6", "d7", "c5", "b2", "bb", "a3", "08", "00"],
+        "raw_text" : "<1A>U<10>*『そうだわ!<pause><\nおの きょうじゅが いっていたでしょう。\nおのまちの きたの もりのなかに いみんせん\nユ‐ロパの ざんがいが おるって。』<wait><1A>S<10>,『もしかしたら そのなかに モノポ‐ル・\nコイルが のこっているかもしれない!』<wait><1A>R<NPCa>『しかし 250ねんも まえの うちゅうせん\nだぜ。サビついちまってるんじゃないか?』<wait><19>S<10>,『しらべてみなけりゃ わからないさ』<wait>",
+        "alt_text" : "<1A>U<10>*『ソウダワ!<pause><\nアノ キョウジュガ イッテイタデショウ。\nアノマチノ キタノ モリノナカニ イミンセン\nゆ―ろぱノ ザンガイガ アルッテ。』<wait><1A>S<10>,『モシカシタラ ソノナカニ ものぽ―る・\nこいるガ ノコッテイルカモシレナイ!』<wait><1A>R<NPCa>『シカシ 250ネンモ マエノ ウチュウセン\nダゼ。さびツイチマッテルンジャナイカ?』<wait><19>S<10>,『シラベテミナケリャ ワカラナイサ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2873e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 60,
+        "raw" : ["1a", "52", "10", "2c", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "bc", "ad", "b3", "d8", "a4", "03", "b6", "dd", "d8", "ae", "b3", "c3", "de", "bd", "a1", "b2", "c2", "c3", "de", "d3", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "c3", "de", "b7", "cf", "bd", "d6", "a3", "08", "00"],
+        "raw_text" : "<1A>R<10>,『ジャンプ・ジェネレ‐タ‐のしゅうり、\nかんりょうです。いつでもジャンプできますよ』<wait>",
+        "alt_text" : "<1A>R<10>,『じゃんぷ・じぇねれ―た―ノシュウリ、\nカンリョウデス。イツデモじゃんぷデキマスヨ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2877a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 122,
+        "raw" : ["1a", "51", "10", "30", "a2", "bc", "ae", "b3", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c0", "b2", "b7", "ca", "20", "bf", "dd", "bb", "de", "b2", "bc", "cf", "be", "dd", "a1", "03", "cb", "ae", "b3", "d2", "dd", "c6", "20", "bc", "de", "dd", "ba", "b3", "c3", "b7", "c5", "20", "5c", "c4", "de", "b0", "d1", "5c", "b6", "de", "03", "b1", "d8", "a4", "b1", "d7", "d5", "d9", "20", "ca", "c1", "ae", "b3", "c9", "20", "c3", "de", "dd", "ca", "df", "b6", "de", "03", "c4", "cb", "de", "b6", "af", "c3", "b2", "cf", "bd", "a1", "ba", "b3", "c4", "de", "c5", "5c", "c3", "b8", "c9", "db", "bc", "de", "b0", "5c", "b6", "de", "03", "bf", "dd", "bb", "de", "b2", "bd", "d9", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『しょうわくせいです。\nたいきは そんざいしません。\nひょうめんに じんこうてきな ド‐ムが\nおり、おらゆる はちょうの でんぱが\nとびかっています。こうどなテクノロジ‐が\nそんざいするようです』<wait>",
+        "alt_text" : "<1A>Q<MICA>『ショウワクセイデス。\nタイキハ ソンザイシマセン。\nヒョウメンニ ジンコウテキナ ど―むガ\nアリ、アラユル ハチョウノ デンパガ\nトビカッテイマス。コウドナてくのろじ―ガ\nソンザイスルヨウデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x287f4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 217,
+        "raw" : ["1b", "01", "1a", "53", "10", "29", "a2", "ba", "dd", "c4", "de", "ba", "bf", "20", "ce", "dd", "d3", "c9", "c9", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "03", "d7", "bc", "b2", "be", "de", "21", "a3", "08", "1a", "54", "10", "2b", "a2", "bc", "b6", "d3", "20", "dc", "da", "dc", "da", "bc", "de", "dd", "d9", "b2", "d6", "d8", "20", "bc", "dd", "ce", "df", "bc", "c0", "03", "bc", "ad", "bf", "de", "b8", "c9", "d6", "b3", "c0", "de", "a1", "bc", "dd", "c1", "ae", "b3", "c6", "20", "5c", "ba", "dd", "c0", "b8", "c4", "5c", "03", "bc", "c5", "b8", "c3", "ca", "3b", "3b", "3b", "3b", "a3", "08", "1a", "48", "10", "28", "a2", "c3", "de", "dd", "ca", "df", "ca", "20", "b6", "b2", "c4", "de", "b8", "20", "c3", "de", "b7", "d9", "b6", "3f", "a3", "08", "19", "54", "10", "2b", "a2", "dc", "b9", "c9", "dc", "b6", "d7", "c5", "b2", "20", "ba", "c4", "ca", "de", "b6", "de", "20", "c4", "cb", "de", "b6", "af", "c3", "03", "b2", "cf", "bd", "a1", "20", "c1", "b2", "bb", "b2", "b9", "da", "c4", "de", "20", "c6", "b7", "de", "d4", "b6", "c5", "20", "ce", "bc", "c9", "03", "d6", "b3", "c3", "de", "bd", "c8", "a3", "08", "19", "53", "10", "29", "a2", "b5", "da", "c0", "c1", "20", "b6", "dd", "b9", "de", "b2", "bc", "c3", "20", "d3", "d7", "b4", "d9", "b6", "c8", "b4", "3f", "a3", "08", "00"],
+        "raw_text" : "<1B><01><1A>S<NPCa>『こんどこそ ほんものの エイリアン\nらしいぜ!』<wait><1A>T<10>+『しかも われわれじんるいより しんぽした\nしゅぞくのようだ。しんちょうに コンタクト\nしなくては‥‥‥‥』<wait><1A>H<PLAYER>『でんぱは かいどく できるか?』<wait><19>T<10>+『わけのわからない ことばが とびかって\nいます。 ちいさいけれど にぎやかな ほしの\nようですね』<wait><19>S<NPCa>『おれたち かんげいして もらえるかねえ?』<wait>",
+        "alt_text" : "<1B><01><1A>S<NPCa>『コンドコソ ホンモノノ えいりおん\nラシイゼ!』<wait><1A>T<10>+『シカモ ワレワレジンルイヨリ シンポシタ\nシュゾクノヨウダ。シンチョウニ こんたくと\nシナクテハ‥‥‥‥』<wait><1A>H<PLAYER>『デンパハ カイドク デキルカ?』<wait><19>T<10>+『ワケノワカラナイ コトバガ トビカッテ\nイマス。 チイサイケレド ニギヤカナ ホシノ\nヨウデスネ』<wait><19>S<NPCa>『オレタチ カンゲイシテ モラエルカネエ?』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x288cd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 126,
+        "raw" : ["1a", "51", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "bc", "c2", "c4", "de", "b6", "de", "20", "c0", "b6", "b8", "20", "dc", "b8", "be", "b2", "be", "de", "dd", "c0", "b2", "b6", "de", "03", "c4", "de", "db", "c7", "cf", "c6", "20", "b5", "b5", "dc", "da", "c3", "b2", "cf", "bd", "a1", "03", "b9", "de", "dd", "bc", "c3", "b7", "c5", "20", "be", "b2", "d2", "b2", "b6", "de", "20", "bf", "dd", "bb", "de", "b2", "bd", "d9", "d6", "b3", "03", "c3", "de", "bd", "b6", "de", "a4", "cc", "de", "dd", "d2", "b2", "ca", "20", "d0", "b1", "c0", "d8", "cf", "be", "dd", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです。\nしつどが たかく わくせいぜんたいが\nどろぬまに おおわれています。\nげんしてきな せいめいが そんざいするよう\nですが、ぶんめいは みおたりません』<wait>",
+        "alt_text" : "<1A>Q<MICA>『ユウドクノ タイキニ ツツマレタ\nコウオンノ ワクセイデス。\nシツドガ タカク ワクセイゼンタイガ\nドロヌマニ オオワレテイマス。\nゲンシテキナ セイメイガ ソンザイスルヨウ\nデスガ、ブンメイハ ミアタリマセン』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2894b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 139,
+        "raw" : ["1a", "48", "10", "28", "a2", "d3", "af", "c4", "b8", "dc", "bc", "b8", "20", "bc", "d7", "cd", "de", "c3", "d0", "db", "a3", "08", "19", "51", "10", "30", "a2", "dc", "b6", "d8", "cf", "bc", "c0", "a3", "03", "13", "bf", "69", "13", "bf", "69", "13", "bf", "69", "42", "30", "35", "2d", "59", "31", "39", "20", "3d", "20", "6d", "25", "74", "72", "69", "02", "10", "30", "a2", "c1", "cb", "ae", "b3", "a6", "20", "b8", "dc", "bc", "b8", "20", "5c", "bd", "b7", "ac", "dd", "5c", "bc", "c0", "c4", "ba", "db", "03", "c0", "b6", "bb", "20", "d4", "b8", "35", "5c", "d2", "b0", "c4", "d9", "5c", "c9", "20", "bc", "de", "dd", "ba", "b3", "cc", "de", "c2", "c4", "03", "b5", "d3", "dc", "da", "d9", "20", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "5c", "a6", "20", "ca", "af", "b9", "dd", "03", "bc", "cf", "bc", "c0", "a3", "08", "00"],
+        "raw_text" : "<1A>H<PLAYER>『もっとくわしく しらべてみろ』<wait><19>Q<MICA>『わかりました』\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<MICA>『ちひょうを くわしく スキャンしたところ\nたかさ やく5メ‐トルの じんこうぶつと\nおもわれる モニュメントを はっけん\nしました』<wait>",
+        "alt_text" : "<1A>H<PLAYER>『モットクワシク シラベテミロ』<wait><19>Q<MICA>『ワカリマシタ』\n<13>ソi<13>ソi<13>ソiB05-Y19 = m%tri\n<MICA>『チヒョウヲ クワシク すきゃんシタトコロ\nタカサ ヤク5め―とるノ ジンコウブツト\nオモワレル もにゅめんとヲ ハッケン\nシマシタ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x289d6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x289d8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 118,
+        "raw" : ["1a", "48", "10", "28", "a2", "bc", "ad", "b3", "d8", "20", "c3", "de", "b7", "c5", "b2", "c9", "b6", "3f", "a3", "08", "1a", "54", "10", "2c", "a2", "5c", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "20", "bc", "dd", "bf", "de", "b3", "cc", "de", "c9", "03", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "de", "20", "ba", "dc", "da", "c3", "d9", "dd", "c3", "de", "bd", "a1", "03", "5c", "bd", "cd", "df", "b1", "5c", "cc", "de", "cb", "dd", "d3", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "1a", "4c", "10", "29", "a2", "c4", "de", "ba", "b6", "c3", "de", "20", "c3", "c6", "b2", "da", "c5", "b2", "c4", "3b", "3b", "3b", "3b", "a3", "08", "00"],
+        "raw_text" : "<1A>H<PLAYER>『しゅうり できないのか?』<wait><1A>T<10>,『ジェネレ‐タ‐の しんぞうぶの\nモノポ‐ル・コイルが こわれてるんです。\nスペアぶひんも おりません。』<wait><1A>L<NPCa>『どこかで てにいれないと‥‥‥‥』<wait>",
+        "alt_text" : "<1A>H<PLAYER>『シュウリ デキナイノカ?』<wait><1A>T<10>,『じぇねれ―た―ノ シンゾウブノ\nものぽ―る・こいるガ コワレテルンデス。\nすぺおブヒンモ アリマセン。』<wait><1A>L<NPCa>『ドコカデ テニイレナイト‥‥‥‥』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28a4e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 222,
+        "raw" : ["1a", "51", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c0", "b2", "b7", "c9", "20", "be", "b2", "cc", "de", "dd", "ca", "20", "bd", "b2", "bf", "c4", "20", "5c", "cd", "d8", "b3", "d1", "a1", "03", "5c", "cb", "ae", "b3", "d2", "dd", "c9", "20", "b5", "dd", "c4", "de", "ca", "20", "5c", "cf", "b2", "c5", "bd", "5c", "32", "30", "30", "df", "43", "03", "c3", "de", "bd", "a3", "08", "0c", "10", "30", "a2", "dc", "b8", "be", "b2", "c9", "20", "cb", "ae", "b3", "d2", "dd", "c6", "20", "5c", "c4", "de", "b0", "d1", "5c", "a6", "03", "ca", "af", "b9", "dd", "a1", "03", "c4", "bc", "20", "c9", "d6", "b3", "c3", "de", "bd", "b6", "de", "20", "b6", "c2", "c4", "de", "b3", "bc", "c3", "b2", "d9", "03", "d6", "b3", "bd", "ca", "b1", "d8", "cf", "be", "dd", "a3", "08", "0c", "13", "e4", "69", "10", "30", "a2", "b9", "b2", "ba", "b8", "21", "03", "20", "b9", "b2", "ba", "b8", "21", "03", "dc", "b8", "be", "b2", "c9", "20", "bc", "ad", "b3", "b2", "c6", "20", "bc", "de", "ad", "b3", "d8", "ae", "b8", "c9", "03", "b2", "bc", "de", "ae", "b3", "b1", "d8", "21", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "21", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『たいようから とおいため、こおりに\nおおわれた わくせいです。\nたいきの せいぶんは すいそと ヘリウム。\nひょうめんの おんどは マイナス20<30DF>C\nです』<wait><erase><MICA>『わくせいの ひょうめんに ド‐ムを\nはっけん。\nとし のようですが かつどうしている\nようすはおりません』<wait><erase><13>トi<MICA>『けいこく!\n けいこく!\nわくせいの しゅういに じゅうりょくの\nいじょうおり! ちゅういしてください!』<wait>",
+        "alt_text" : "<1A>Q<MICA>『タイヨウカラ トオイタメ、コオリニ\nオオワレタ ワクセイデス。\nタイキノ セイブンハ スイソト へりうむ。\nヒョウメンノ オンドハ まいなす20<30DF>C\nデス』<wait><erase><MICA>『ワクセイノ ヒョウメンニ ど―むヲ\nハッケン。\nトシ ノヨウデスガ カツドウシテイル\nヨウスハアリマセン』<wait><erase><13>とi<MICA>『ケイコク!\n ケイコク!\nワクセイノ シュウイニ ジュウリョクノ\nイジョウアリ! チュウイシテクダサイ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28b2c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28b2e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 291,
+        "raw" : ["1a", "48", "10", "28", "a2", "bc", "de", "ad", "b3", "d8", "ae", "b8", "20", "b2", "bc", "de", "ae", "b3", "c9", "20", "b9", "de", "dd", "b2", "dd", "ca", "3f", "a3", "08", "1a", "50", "10", "2b", "a2", "bc", "c2", "d8", "ae", "b3", "31", "30", "30", "30", "c1", "ae", "b3", "5c", "c4", "dd", "a4", "5c", "c1", "ae", "af", "b9", "b2", "03", "33", "30", "5c", "b5", "dd", "b8", "de", "bd", "c4", "db", "b0", "d1", "5c", "c9", "20", "5c", "cf", "b2", "b8", "db", "a5", "cc", "de", "d7", "af", "b8", "03", "ce", "b0", "d9", "5c", "b6", "de", "20", "dc", "b8", "be", "b2", "c9", "20", "bc", "ad", "b3", "b2", "a6", "20", "cf", "dc", "af", "c3", "03", "b2", "cf", "bd", "a1", "bc", "de", "dd", "ba", "b3", "c3", "b7", "c6", "20", "c2", "b8", "d7", "da", "c0", "d3", "c9", "c9", "03", "d6", "b3", "c3", "de", "bd", "a3", "08", "19", "48", "10", "28", "a2", "bc", "de", "dd", "ba", "b3", "c3", "b7", "c5", "20", "d3", "c9", "c0", "de", "af", "c3", "3f", "a3", "08", "19", "50", "10", "2b", "a2", "bc", "be", "de", "dd", "b6", "b2", "c6", "ca", "a4", "ba", "c9", "5c", "bb", "b2", "bd", "de", "5c", "c9", "20", "5c", "cf", "b2", "b8", "db", "a5", "03", "cc", "de", "d7", "af", "b8", "ce", "b0", "d9", "5c", "ca", "20", "bf", "dd", "bb", "de", "b2", "bc", "c5", "b2", "c9", "c3", "de", "bd", "a3", "08", "1a", "54", "10", "29", "a2", "d1", "bd", "de", "b6", "bc", "b2", "ba", "c4", "ca", "20", "dc", "b6", "d7", "c5", "b2", "b6", "de", "20", "c4", "c6", "b6", "b8", "03", "5c", "cc", "de", "d7", "af", "b8", "ce", "b0", "d9", "5c", "a6", "20", "c2", "b8", "af", "c1", "cf", "b3", "d6", "b3", "c5", "03", "bd", "ba", "de", "b2", "20", "cc", "de", "dd", "d2", "b2", "b6", "de", "20", "b1", "d9", "af", "c3", "ba", "c4", "c0", "de", "c5", "a3", "08", "00"],
+        "raw_text" : "<1A>H<PLAYER>『じゅうりょく いじょうの げんいんは?』<wait><1A>P<10>+『しつりょう1000ちょうトン、ちょっけい\n30オングストロ‐ムの マイクロ・ブラック\nホ‐ルが わくせいの しゅういを まわって\nいます。じんこうてきに つくられたものの\nようです』<wait><19>H<PLAYER>『じんこうてきな ものだって?』<wait><19>P<10>+『しぜんかいには、このサイズの マイクロ・\nブラックホ‐ルは そんざいしないのです』<wait><1A>T<NPCa>『むずかしいことは わからないが とにかく\nブラックホ‐ルを つくっちまうような\nすごい ぶんめいが おるってことだな』<wait>",
+        "alt_text" : "<1A>H<PLAYER>『ジュウリョク イジョウノ ゲンインハ?』<wait><1A>P<10>+『シツリョウ1000チョウとん、チョッケイ\n30おんぐすとろ―むノ まいくろ・ぶらっく\nほ―るガ ワクセイノ シュウイヲ マワッテ\nイマス。ジンコウテキニ ツクラレタモノノ\nヨウデス』<wait><19>H<PLAYER>『ジンコウテキナ モノダッテ?』<wait><19>P<10>+『シゼンカイニハ、コノさいずノ まいくろ・\nぶらっくほ―るハ ソンザイシナイノデス』<wait><1A>T<NPCa>『ムズカシイコトハ ワカラナイガ トニカク\nぶらっくほ―るヲ ツクッチマウヨウナ\nスゴイ ブンメイガ アルッテコトダナ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28c51",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 193,
+        "raw" : ["1a", "51", "10", "30", "a2", "ba", "b5", "d8", "b6", "de", "20", "c4", "de", "dd", "c4", "de", "dd", "c4", "b9", "a4", "d0", "c4", "de", "d8", "b6", "de", "03", "bd", "ba", "bc", "bd", "de", "c2", "20", "d6", "d0", "b6", "de", "b4", "af", "c3", "b2", "cf", "bd", "a3", "08", "0c", "10", "30", "a2", "5c", "cc", "de", "d7", "af", "b8", "a5", "b8", "de", "db", "b0", "cc", "de", "5c", "c6", "d6", "af", "c3", "20", "5c", "ba", "dd", "c4", "db", "b0", "d9", "5c", "03", "bb", "da", "c0", "20", "5c", "cf", "b2", "b8", "db", "a5", "cc", "de", "d7", "af", "b8", "ce", "b0", "d9", "5c", "b6", "de", "20", "c0", "b2", "b7", "03", "c1", "ad", "b3", "c9", "20", "bd", "b2", "bf", "a6", "20", "bd", "b2", "b1", "b9", "de", "a4", "b1", "af", "bc", "ad", "b8", "bc", "c3", "03", "b6", "b8", "d5", "b3", "ba", "de", "b3", "20", "ca", "dd", "c9", "b3", "a6", "20", "b5", "ba", "bc", "c3", "b2", "cf", "bd", "a1", "03", "bf", "c9", "20", "cb", "b6", "d8", "c4", "20", "c8", "c2", "b6", "de", "20", "dc", "b8", "be", "b2", "a6", "b1", "c0", "c0", "d2", "03", "ba", "b5", "d8", "a6", "20", "c4", "b6", "bc", "c3", "b2", "d9", "c9", "c3", "de", "bd", "a3", "08", "1b", "00"],
+        "raw_text" : "<1A>Q<MICA>『こおりが どんどんとけ、みどりが\nすこしずつ よみがえっています』<wait><erase><MICA>『ブラック・グロ‐ブによって コントロ‐ル\nされた マイクロ・ブラックホ‐ルが たいき\nちゅうの すいそを すいおげ、おっしゅくして\nかくゆうごう はんのうを おこしています。\nその ひかりと ねつが わくせいをおたため\nこおりを とかしているのです』<wait><1B>",
+        "alt_text" : "<1A>Q<MICA>『コオリガ ドンドントケ、ミドリガ\nスコシズツ ヨミガエッテイマス』<wait><erase><MICA>『ぶらっく・ぐろ―ぶニヨッテ こんとろ―る\nサレタ まいくろ・ぶらっくほ―るガ タイキ\nチュウノ スイソヲ スイアゲ、アッシュクシテ\nカクユウゴウ ハンノウヲ オコシテイマス。\nソノ ヒカリト ネツガ ワクセイヲアタタメ\nコオリヲ トカシテイルノデス』<wait><1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28d12",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 62,
+        "raw" : ["1a", "4e", "10", "2a", "a2", "c8", "d1", "af", "c3", "b2", "c0", "20", "dc", "b8", "be", "b2", "b6", "de", "20", "cc", "af", "b6", "c2", "bc", "c0", "c9", "c8", "21", "a3", "08", "1a", "52", "10", "29", "a2", "b1", "b1", "a4", "b5", "da", "c0", "c1", "b6", "de", "20", "ba", "c9", "ce", "bc", "a6", "03", "bd", "b8", "af", "c0", "dd", "c0", "de", "21", "a3", "08", "00"],
+        "raw_text" : "<1A>N<10>*『ねむっていた わくせいが ふっかつしたのね!』<wait><1A>R<NPCa>『おお、おれたちが このほしを\nすくったんだ!』<wait>",
+        "alt_text" : "<1A>N<10>*『ネムッテイタ ワクセイガ フッカツシタノネ!』<wait><1A>R<NPCa>『アア、オレタチガ コノホシヲ\nスクッタンダ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28d50",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 203,
+        "raw" : ["1a", "51", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "20", "c6", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c0", "b2", "b7", "be", "b2", "cc", "de", "dd", "a4", "b7", "b5", "dd", "a4", "bc", "de", "ad", "b3", "d8", "ae", "b8", "a4", "03", "b2", "bd", "de", "da", "d3", "20", "c6", "dd", "b9", "de", "dd", "c9", "20", "be", "b2", "bf", "de", "dd", "c6", "20", "c3", "b7", "bc", "c3", "03", "b2", "cf", "bd", "a3", "08", "0c", "10", "30", "a2", "c0", "b2", "d8", "b8", "ca", "20", "cc", "b6", "b2", "5c", "bc", "de", "ac", "dd", "b8", "de", "d9", "5c", "c6", "20", "b5", "b5", "dc", "da", "c3", "03", "b5", "d8", "a4", "bd", "b3", "be", "dd", "cf", "dd", "c8", "dd", "cf", "b4", "c9", "20", "c1", "b7", "ad", "b3", "c6", "03", "c1", "b6", "b2", "20", "b6", "dd", "b7", "ae", "b3", "c3", "de", "bd", "a3", "08", "0c", "10", "30", "a2", "5c", "bc", "de", "ac", "dd", "b8", "de", "d9", "5c", "c9", "20", "c5", "b6", "c6", "20", "b7", "dd", "bf", "de", "b8", "ca", "dd", "c9", "b3", "03", "b1", "d8", "a1", "20", "ba", "b6", "de", "c0", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "c9", "03", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『ちきゅうに にた わくせいです。\nたいきせいぶん、きおん、じゅうりょく、\nいずれも にんげんの せいぞんに てきして\nいます』<wait><erase><MICA>『たいりくは ふかいジャングルに おおわれて\nおり、すうせんまんねんまえの ちきゅうに\nちかい かんきょうです』<wait><erase><MICA>『ジャングルの なかに きんぞくはんのう\nおり。 こがたの うちゅうせんの ざんがいの\nようです』<wait>",
+        "alt_text" : "<1A>Q<MICA>『チキュウニ ニタ ワクセイデス。\nタイキセイブン、キオン、ジュウリョク、\nイズレモ ニンゲンノ セイゾンニ テキシテ\nイマス』<wait><erase><MICA>『タイリクハ フカイじゃんぐるニ オオワレテ\nオリ、スウセンマンネンマエノ チキュウニ\nチカイ カンキョウデス』<wait><erase><MICA>『じゃんぐるノ ナカニ キンゾクハンノウ\nアリ。 コガタノ ウチュウセンノ ザンガイノ\nヨウデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28e1b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28e1d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 136,
+        "raw" : ["1a", "4e", "10", "2a", "a2", "b1", "c9", "cb", "c4", "c0", "c1", "a4", "cc", "de", "bc", "de", "c3", "de", "b2", "d9", "b6", "bc", "d7", "3f", "a3", "08", "1a", "52", "10", "29", "a2", "c5", "b1", "c6", "a4", "c0", "de", "b2", "bc", "de", "ae", "b3", "cc", "de", "bb", "a1", "d6", "b3", "b7", "c3", "de", "20", "5c", "c0", "cc", "5c", "c5", "03", "da", "dd", "c1", "ad", "b3", "c0", "de", "af", "c0", "b6", "d7", "c5", "21", "a3", "08", "1a", "56", "10", "2d", "a2", "ba", "c9", "20", "b9", "de", "dd", "bc", "c9", "ce", "bc", "c6", "d3", "20", "b1", "c4", "20", "c5", "dd", "cb", "de", "ac", "b8", "03", "c8", "dd", "b6", "bc", "c0", "d7", "20", "cc", "de", "dd", "d2", "b2", "b6", "de", "20", "b3", "cf", "da", "d9", "b6", "d3", "03", "bc", "da", "c5", "b2", "dc", "c8", "3b", "3b", "3b", "3b", "a3", "08", "00"],
+        "raw_text" : "<1A>N<10>*『おのひとたち、ぶじでいるかしら?』<wait><1A>R<NPCa>『なおに、だいじょうぶさ。ようきで タフな\nれんちゅうだったからな!』<wait><1A>V<10>-『この げんしのほしにも おと なんびゃく\nねんかしたら ぶんめいが うまれるかも\nしれないわね‥‥‥‥』<wait>",
+        "alt_text" : "<1A>N<10>*『アノヒトタチ、ブジデイルカシラ?』<wait><1A>R<NPCa>『ナアニ、ダイジョウブサ。ヨウキデ たふナ\nレンチュウダッタカラナ!』<wait><1A>V<10>-『コノ ゲンシノホシニモ アト ナンビャク\nネンカシタラ ブンメイガ ウマレルカモ\nシレナイワネ‥‥‥‥』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28ea5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 109,
+        "raw" : ["1a", "51", "10", "30", "a2", "cb", "ae", "b3", "d2", "dd", "b5", "dd", "c4", "de", "20", "38", "30", "30", "df", "43", "20", "b2", "bc", "de", "ae", "b3", "a1", "03", "d6", "b3", "b6", "de", "dd", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "03", "c3", "de", "bd", "a1", "03", "b5", "d8", "d9", "c5", "d7", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "a1", "03", "ba", "b3", "b5", "dd", "c9", "c0", "d2", "20", "c1", "ae", "b3", "bc", "de", "b6", "dd", "c9", "20", "b6", "c2", "c4", "de", "b3", "ca", "03", "b7", "b9", "dd", "c3", "de", "bd", "21", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『ひょうめんおんど 80<30DF>C いじょう。\nようがんに おおわれた ちいさな わくせい\nです。\nおりるなら ちゅういしてください。\nこうおんのため ちょうじかんの かつどうは\nきけんです!』<wait>",
+        "alt_text" : "<1A>Q<MICA>『ヒョウメンオンド 80<30DF>C イジョウ。\nヨウガンニ オオワレタ チイサナ ワクセイ\nデス。\nオリルナラ チュウイシテクダサイ。\nコウオンノタメ チョウジカンノ カツドウハ\nキケンデス!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28f12",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 113,
+        "raw" : ["1a", "51", "10", "30", "a2", "b3", "d0", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b2", "b8", "c2", "b6", "20", "bc", "cf", "b6", "de", "b1", "d9", "c0", "de", "b9", "c3", "de", "bd", "a1", "03", "be", "b2", "cc", "de", "c2", "b6", "de", "20", "d8", "b8", "c6", "20", "b1", "b6", "de", "d9", "cf", "b4", "c9", "20", "c1", "b7", "ad", "b3", "c6", "03", "c6", "c3", "b2", "cf", "bd", "a1", "03", "b6", "b2", "c1", "ad", "b3", "c6", "ca", "20", "c0", "bd", "b3", "c9", "20", "be", "b2", "cc", "de", "c2", "b6", "de", "03", "bf", "dd", "bb", "de", "b2", "bd", "d9", "20", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『うみに おおわれた わくせいです。\nいくつか しまがおるだけです。\nせいぶつが りくに おがるまえの ちきゅうに\nにています。\nかいちゅうには たすうの せいぶつが\nそんざいする ようです』<wait>",
+        "alt_text" : "<1A>Q<MICA>『ウミニ オオワレタ ワクセイデス。\nイクツカ シマガアルダケデス。\nセイブツガ リクニ アガルマエノ チキュウニ\nニテイマス。\nカイチュウニハ タスウノ セイブツガ\nソンザイスル ヨウデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x28f83",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 197,
+        "raw" : ["1a", "51", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a3", "03", "20", "bc", "de", "ad", "b3", "d8", "ae", "b8", "20", "3b", "3b", "3b", "20", "33", "a5", "33", "47", "03", "20", "b7", "b5", "dd", "20", "3b", "3b", "3b", "3b", "3b", "3b", "20", "33", "30", "30", "43", "df", "b2", "bc", "de", "ae", "b3", "03", "20", "c0", "b2", "b7", "be", "b2", "cc", "de", "dd", "20", "3b", "3b", "20", "c6", "bb", "dd", "b6", "c0", "dd", "bf", "08", "0c", "10", "30", "a2", "b7", "dd", "be", "b2", "c9", "20", "d6", "b3", "c5", "20", "c9", "b3", "d8", "ad", "b3", "bb", "dd", "c9", "03", "b8", "d3", "c6", "20", "c2", "c2", "cf", "da", "c3", "b2", "cf", "bd", "a1", "03", "c5", "b6", "de", "b8", "b2", "d9", "c4", "20", "b7", "dd", "bf", "de", "b8", "b6", "de", "20", "cc", "bc", "ae", "b8", "bd", "d9", "03", "b7", "b9", "dd", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "c1", "ac", "b8", "d8", "b8", "ca", "20", "bb", "b9", "c0", "03", "ce", "b3", "b6", "de", "20", "b2", "b2", "c3", "de", "bc", "ae", "b3", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです』\n じゅうりょく ‥‥‥ 3・3G\n きおん ‥‥‥‥‥‥ 300<43DF>いじょう\n たいきせいぶん ‥‥ にさんかたんそ<wait><erase><MICA>『きんせいの ような のうりゅうさんの\nくもに つつまれています。\nながくいると きんぞくが ふしょくする\nきけんが おります。ちゃくりくは さけた\nほうが いいでしょう』<wait>",
+        "alt_text" : "<1A>Q<MICA>『ユウドクノ タイキニ ツツマレタ\nコウオンノ ワクセイデス』\n ジュウリョク ‥‥‥ 3・3G\n キオン ‥‥‥‥‥‥ 300<43DF>イジョウ\n タイキセイブン ‥‥ ニサンカタンソ<wait><erase><MICA>『キンセイノ ヨウナ ノウリュウサンノ\nクモニ ツツマレテイマス。\nナガクイルト キンゾクガ フショクスル\nキケンガ アリマス。チャクリクハ サケタ\nホウガ イイデショウ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29048",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 57,
+        "raw" : ["1a", "51", "10", "30", "a2", "bb", "ca", "de", "b8", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b6", "c4", "b3", "c5", "20", "bc", "ae", "b8", "cc", "de", "c2", "bc", "b6", "20", "bf", "dd", "bb", "de", "b2", "bc", "c5", "b2", "03", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>Q<MICA>『さばくに おおわれた わくせいです。\nかとうな しょくぶつしか そんざいしない\nようです』<wait>",
+        "alt_text" : "<1A>Q<MICA>『サバクニ オオワレタ ワクセイデス。\nカトウナ ショクブツシカ ソンザイシナイ\nヨウデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29081",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 120,
+        "raw" : ["03", "a2", "c0", "b2", "b7", "a4", "b7", "b5", "dd", "a4", "bc", "de", "ad", "b3", "d8", "ae", "b8", "a4", "b2", "bd", "de", "da", "d3", "03", "c1", "b7", "ad", "b3", "c6", "20", "c6", "c3", "b2", "cf", "bd", "b6", "de", "20", "cb", "c4", "de", "b8", "b1", "da", "ca", "c3", "c3", "03", "b2", "cf", "bd", "a3", "08", "1a", "4a", "10", "2b", "a2", "c4", "bc", "c9", "20", "b2", "be", "b7", "20", "d7", "bc", "b2", "d3", "c9", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "03", "b6", "ba", "c6", "20", "b5", "b5", "b7", "c5", "bb", "b2", "b6", "de", "b2", "b6", "20", "b6", "b8", "be", "dd", "bf", "b3", "b6", "de", "03", "b1", "af", "c0", "c9", "b6", "d3", "20", "bc", "da", "cf", "be", "dd", "c8", "a3", "08", "00"],
+        "raw_text" : "\n『たいき、きおん、じゅうりょく、いずれも\nちきゅうに にていますが ひどくおれはてて\nいます』<wait><1A>J<10>+『としの いせき らしいものが おります。\nかこに おおきなさいがいか かくせんそうが\nおったのかも しれませんね』<wait>",
+        "alt_text" : "\n『タイキ、キオン、ジュウリョク、イズレモ\nチキュウニ ニテイマスガ ヒドクアレハテテ\nイマス』<wait><1A>J<10>+『トシノ イセキ ラシイモノガ アリマス。\nカコニ オオキナサイガイカ カクセンソウガ\nアッタノカモ シレマセンネ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x290f9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 121,
+        "raw" : ["0c", "13", "e4", "69", "10", "30", "a2", "b7", "ad", "b3", "c5", "dd", "20", "bc", "dd", "ba", "de", "b3", "a6", "20", "bc", "de", "ad", "bc", "dd", "21", "03", "5c", "c4", "da", "b0", "c0", "de", "b0", "5c", "bf", "de", "b8", "c9", "20", "ba", "c4", "ca", "de", "c3", "de", "bd", "a1", "03", "ce", "dd", "d4", "b8", "b7", "c6", "20", "b6", "b9", "c3", "d0", "cf", "bd", "a3", "08", "1a", "49", "a2", "c0", "de", "da", "b6", "20", "c0", "bd", "b9", "c3", "b5", "b8", "dd", "c5", "ca", "da", "21", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c6", "02", "20", "b5", "bf", "dc", "da", "c3", "20", "c6", "af", "c1", "d3", "bb", "af", "c1", "d3", "20", "b2", "b6", "dd", "c9", "d4", "21", "a3", "08", "1b", "00"],
+        "raw_text" : "<erase><13>トi<MICA>『きゅうなん しんごうを じゅしん!\nトレ‐ダ‐ぞくの ことばです。\nほんやくきに かけてみます』<wait><1A>I『だれか たすけておくんなはれ! バ‐サ‐カ‐に\n おそわれて にっちもさっちも いかんのや!』<wait><1B>",
+        "alt_text" : "<erase><13>とi<MICA>『キュウナン シンゴウヲ ジュシン!\nとれ―だ―ゾクノ コトバデス。\nホンヤクキニ カケテミマス』<wait><1A>I『ダレカ タスケテオクンナハレ! ば―さ―か―ニ\n オソワレテ ニッチモサッチモ イカンノヤ!』<wait><1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29172",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 223,
+        "raw" : ["1a", "53", "10", "2d", "a2", "c0", "b6", "d7", "bb", "b6", "de", "bc", "c6", "b7", "c3", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c0", "c1", "c6", "03", "b5", "bf", "dc", "da", "c0", "c9", "b6", "bc", "d7", "21", "a3", "08", "1a", "52", "10", "30", "a2", "cd", "de", "c2", "c9", "20", "bc", "dd", "ba", "de", "b3", "d3", "20", "ca", "b2", "af", "c3", "b7", "cf", "bc", "c0", "a1", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "20", "c2", "b3", "bc", "dd", "c9", "d6", "b3", "c3", "de", "bd", "a3", "08", "1a", "4a", "a2", "5c", "b8", "db", "b2", "5c", "b7", "ad", "b0", "cc", "de", "5c", "ca", "20", "ba", "c9", "ce", "bc", "c9", "b2", "be", "b7", "c6", "20", "b1", "d9", "ca", "bd", "de", "c0", "de", "a1", "02", "20", "ce", "b6", "c9", "20", "bc", "ad", "bf", "de", "b8", "c6", "20", "bb", "b7", "a6", "20", "ba", "bb", "da", "c7", "d6", "b3", "c6", "20", "b2", "bf", "b2", "c3", "de", "02", "20", "bb", "b6", "de", "bd", "c9", "c0", "de", "3b", "3b", "3b", "3b", "3b", "a3", "08", "1a", "4e", "10", "2a", "a2", "ba", "da", "ca", "20", "c0", "b2", "cd", "dd", "c5", "ba", "c4", "c6", "20", "c5", "af", "c0", "dc", "21", "a3", "08", "19", "53", "10", "2b", "a2", "c4", "c6", "b6", "b8", "20", "b2", "be", "b7", "c6", "20", "b5", "d8", "c3", "d0", "cf", "bc", "ae", "b3", "21", "a3", "08", "00"],
+        "raw_text" : "<1A>S<10>-『たからさがしにきて バ‐サ‐カ‐たちに\nおそわれたのかしら!』<wait><1A>R<MICA>『べつの しんごうも はいってきました。\nバ‐サ‐カ‐の つうしんのようです』<wait><1A>J『クロイきゅ―ぶハ コノホシノイセキニ アルハズダ。\n ホカノ シュゾクニ サキヲ コサレヌヨウニ イソイデ\n サガスノダ‥‥‥‥‥』<wait><1A>N<10>*『コレハ タイヘンナコトニ ナッタワ!』<wait><19>S<10>+『トニカク イセキニ オリテミマショウ!』<wait>",
+        "alt_text" : "<1A>S<10>-『タカラサガシニキテ ば―さ―か―タチニ\nオソワレタノカシラ!』<wait><1A>R<MICA>『ベツノ シンゴウモ ハイッテキマシタ。\nば―さ―か―ノ ツウシンノヨウデス』<wait><1A>J『くろいキュ‐ブは このほしのいせきに おるはずだ。\n ほかの しゅぞくに さきを こされぬように いそいで\n さがすのだ‥‥‥‥‥』<wait><1A>N<10>*『これは たいへんなことに なったわ!』<wait><19>S<10>+『とにかく いせきに おりてみましょう!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29251",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 57,
+        "raw" : ["1a", "4f", "10", "30", "a2", "bb", "ca", "de", "b8", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b6", "c4", "b3", "c5", "20", "bc", "ae", "b8", "cc", "de", "c2", "bc", "b6", "20", "bf", "dd", "bb", "de", "b2", "bc", "c5", "b2", "03", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『さばくに おおわれた わくせいです。\nかとうな しょくぶつしか そんざいしない\nようです』<wait>",
+        "alt_text" : "<1A>O<MICA>『サバクニ オオワレタ ワクセイデス。\nカトウナ ショクブツシカ ソンザイシナイ\nヨウデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2928a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 282,
+        "raw" : ["0c", "13", "e4", "69", "10", "30", "a2", "bc", "ae", "b3", "c0", "b2", "cc", "d2", "b2", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "b6", "de", "03", "dc", "b8", "be", "b2", "c6", "20", "be", "af", "b7", "dd", "bc", "c3", "20", "d5", "b7", "cf", "bd", "a1", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "d3", "c9", "c3", "de", "d3", "20", "5c", "c4", "da", "b0", "c0", "de", "b0", "5c", "bf", "de", "b8", "c9", "03", "d3", "c9", "c3", "de", "d3", "20", "b1", "d8", "cf", "be", "dd", "a3", "08", "1a", "48", "10", "29", "a2", "b1", "da", "ca", "20", "d3", "bc", "b6", "bc", "c3", "3b", "3b", "3b", "3b", "a3", "08", "1a", "4e", "10", "2a", "a2", "b6", "b2", "bf", "de", "b8", "be", "dd", "c0", "de", "dc", "21", "a3", "08", "1b", "02", "19", "4f", "10", "30", "a2", "b6", "b2", "bf", "de", "b8", "be", "dd", "ca", "20", "dc", "b8", "be", "b2", "c9", "20", "c0", "b2", "b7", "b9", "dd", "c6", "03", "c4", "c2", "c6", "ad", "b3", "bc", "cf", "bc", "c0", "a1", "03", "c0", "c6", "cf", "c6", "20", "c1", "ac", "b8", "d8", "b8", "bd", "d9", "d6", "b3", "c3", "de", "bd", "a3", "08", "1a", "54", "10", "2b", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "21", "20", "5c", "b6", "b2", "bf", "de", "b8", "be", "dd", "c9", "20", "c1", "ac", "b8", "d8", "b8", "03", "c1", "c3", "dd", "c6", "20", "b7", "dd", "bf", "de", "b8", "c4", "20", "5c", "b4", "c8", "d9", "b7", "de", "b0", "5c", "c9", "03", "ca", "dd", "c9", "b3", "b6", "de", "3b", "3b", "3b", "3b", "21", "a3", "08", "1a", "48", "10", "28", "a2", "b3", "d1", "a1", "bf", "ba", "b6", "de", "20", "b6", "b2", "bf", "de", "b8", "c9", "20", "b7", "c1", "c6", "20", "c1", "b6", "de", "b2", "c5", "b2", "a3", "08", "00"],
+        "raw_text" : "<erase><13>トi<MICA>『しょうたいふめいの うちゅうせんが\nわくせいに せっきんして ゆきます。\nバ‐サ‐カ‐のものでも トレ‐ダ‐ぞくの\nものでも おりません』<wait><1A>H<NPCa>『おれは もしかして‥‥‥‥』<wait><1A>N<10>*『かいぞくせんだわ!』<wait><1B>\n<19>O<MICA>『かいぞくせんは わくせいの たいきけんに\nとつにゅうしました。\nたにまに ちゃくりくするようです』<wait><1A>T<10>+『コマンダ‐! かいぞくせんの ちゃくりく\nちてんに きんぞくと エネルギ‐の\nはんのうが‥‥‥‥!』<wait><1A>H<PLAYER>『うむ。そこが かいぞくの きちに ちがいない』<wait>",
+        "alt_text" : "<erase><13>とi<MICA>『ショウタイフメイノ ウチュウセンガ\nワクセイニ セッキンシテ ユキマス。\nば―さ―か―ノモノデモ とれ―だ―ゾクノ\nモノデモ アリマセン』<wait><1A>H<NPCa>『アレハ モシカシテ‥‥‥‥』<wait><1A>N<10>*『カイゾクセンダワ!』<wait><1B>\n<19>O<MICA>『カイゾクセンハ ワクセイノ タイキケンニ\nトツニュウシマシタ。\nタニマニ チャクリクスルヨウデス』<wait><1A>T<10>+『こまんだ―! カイゾクセンノ チャクリク\nチテンニ キンゾクト えねるぎ―ノ\nハンノウガ‥‥‥‥!』<wait><1A>H<PLAYER>『ウム。ソコガ カイゾクノ キチニ チガイナイ』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x293a4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 84,
+        "raw" : ["1a", "4f", "10", "30", "a2", "bc", "dd", "b8", "b3", "c3", "de", "a4", "be", "b2", "d2", "b2", "b6", "de", "20", "bf", "dd", "bb", "de", "b2", "c3", "de", "b7", "d9", "03", "b6", "dd", "b7", "ae", "b3", "c3", "de", "ca", "20", "b1", "d8", "cf", "be", "dd", "a1", "03", "bc", "b6", "bc", "20", "dc", "b8", "be", "b2", "be", "de", "dd", "c4", "de", "b6", "de", "20", "b7", "dd", "bf", "de", "b8", "c4", "03", "b7", "b6", "b2", "c6", "20", "b5", "b5", "dc", "da", "c3", "b2", "cf", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『しんくうで、せいめいが そんざいできる\nかんきょうでは おりません。\nしかし わくせいぜんどが きんぞくと\nきかいに おおわれています』<wait>",
+        "alt_text" : "<1A>O<MICA>『シンクウデ、セイメイガ ソンザイデキル\nカンキョウデハ アリマセン。\nシカシ ワクセイゼンドガ キンゾクト\nキカイニ オオワレテイマス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x293f8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 170,
+        "raw" : ["1a", "4b", "10", "2b", "a2", "bd", "ba", "de", "b2", "21", "04", "1e", "dc", "b8", "be", "b2", "be", "de", "dd", "c0", "b2", "b6", "de", "20", "b7", "ae", "c0", "de", "b2", "c5", "03", "ba", "b3", "bc", "de", "ae", "b3", "c9", "20", "d6", "b3", "c0", "de", "a1", "03", "5c", "db", "ce", "de", "af", "c4", "5c", "b6", "de", "20", "d1", "bd", "b3", "c6", "20", "ca", "c0", "d7", "b2", "c3", "b2", "d9", "b6", "de", "03", "b2", "b7", "d3", "c9", "c9", "20", "bd", "b6", "de", "c0", "ca", "20", "d0", "b4", "c5", "b2", "c5", "a3", "08", "1a", "52", "10", "29", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "5c", "d3", "bc", "b6", "bc", "c0", "d7", "20", "ba", "c9", "ce", "bc", "b6", "de", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c4", "de", "d3", "c9", "20", "ce", "dd", "b7", "ae", "c1", "c3", "de", "ca", "3f", "a3", "08", "1a", "4e", "10", "2a", "a2", "c0", "de", "c4", "bc", "c0", "d7", "20", "b5", "d8", "d9", "c9", "ca", "20", "b7", "b9", "dd", "c0", "de", "dc", "21", "a3", "08", "00"],
+        "raw_text" : "<1A>K<10>+『すごい!<pause><1E>わくせいぜんたいが きょだいな\nこうじょうの ようだ。\nロボットが むすうに はたらいているが\nいきものの すがたは みえないな』<wait><1A>R<NPCa>『コマンダ‐、もしかしたら このほしが\nバ‐サ‐カ‐どもの ほんきょちでは?』<wait><1A>N<10>*『だとしたら おりるのは きけんだわ!』<wait>",
+        "alt_text" : "<1A>K<10>+『スゴイ!<pause><1E>ワクセイゼンタイガ キョダイナ\nコウジョウノ ヨウダ。\nろぼっとガ ムスウニ ハタライテイルガ\nイキモノノ スガタハ ミエナイナ』<wait><1A>R<NPCa>『こまんだ―、モシカシタラ コノホシガ\nば―さ―か―ドモノ ホンキョチデハ?』<wait><1A>N<10>*『ダトシタラ オリルノハ キケンダワ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x294a2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 56,
+        "raw" : ["1a", "4f", "10", "30", "a2", "c0", "b2", "b7", "20", "b7", "b5", "dd", "20", "c4", "d3", "c6", "20", "c1", "b7", "ad", "b3", "c6", "03", "d6", "b8", "c6", "c3", "b2", "cf", "bd", "a1", "03", "cc", "de", "dd", "d2", "b2", "d3", "20", "ca", "af", "c0", "c2", "bc", "c3", "b2", "d9", "20", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『たいき きおん ともに ちきゅうに\nよくにています。\nぶんめいも はったつしている ようです』<wait>",
+        "alt_text" : "<1A>O<MICA>『タイキ キオン トモニ チキュウニ\nヨクニテイマス。\nブンメイモ ハッタツシテイル ヨウデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x294da",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 63,
+        "raw" : ["0c", "10", "30", "a2", "ca", "de", "b8", "ca", "c2", "c4", "20", "b6", "bb", "b2", "a6", "20", "b6", "b8", "c6", "dd", "a1", "03", "c4", "bc", "c9", "c5", "b6", "c3", "de", "20", "c0", "de", "b2", "b7", "ce", "de", "c5", "20", "be", "dd", "c4", "b3", "b6", "de", "03", "b5", "ba", "c5", "dc", "da", "c3", "20", "b2", "d9", "d6", "b3", "c3", "de", "bd", "a3", "08", "1b", "00"],
+        "raw_text" : "<erase><MICA>『ばくはつと かさいを かくにん。\nとしのなかで だいきぼな せんとうが\nおこなわれて いるようです』<wait><1B>",
+        "alt_text" : "<erase><MICA>『バクハツト カサイヲ カクニン。\nトシノナカデ ダイキボナ セントウガ\nオコナワレテ イルヨウデス』<wait><1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29519",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 136,
+        "raw" : ["1a", "54", "10", "2b", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c3", "de", "bd", "21", "03", "ba", "c9", "ce", "bc", "c9", "20", "bc", "de", "ad", "b3", "c6", "dd", "ca", "a4", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "03", "c0", "de", "b2", "b8", "de", "dd", "c0", "de", "dd", "c4", "20", "c0", "c0", "b6", "af", "c3", "b2", "d9", "dd", "c3", "de", "bd", "21", "a3", "08", "1a", "53", "10", "29", "07", "02", "a2", "c1", "b8", "bc", "ae", "b3", "21", "04", "1e", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "d4", "c2", "d7", "d2", "21", "04", "1e", "03", "07", "ff", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "5c", "bd", "b9", "c0", "de", "c1", "20", "bc", "cf", "bc", "ae", "b3", "21", "a3", "08", "00"],
+        "raw_text" : "<1A>T<10>+『コマンダ‐、バ‐サ‐カ‐です!\nこのほしの じゅうにんは、バ‐サ‐カ‐の\nだいぐんだんと たたかっているんです!』<wait><1A>S<NPCa><07>\n『ちくしょう!<pause><1E> バ‐サ‐カ‐のやつらめ!<pause><1E>\n<07>゜コマンダ‐、すけだち しましょう!』<wait>",
+        "alt_text" : "<1A>T<10>+『こまんだ―、ば―さ―か―デス!\nコノホシノ ジュウニンハ、ば―さ―か―ノ\nダイグンダント タタカッテイルンデス!』<wait><1A>S<NPCa><07>\n『チクショウ!<pause><1E> ば―さ―か―ノヤツラメ!<pause><1E>\n<07>゜こまんだ―、スケダチ シマショウ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x295a1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 57,
+        "raw" : ["1a", "4f", "10", "30", "a2", "bb", "ca", "de", "b8", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b6", "c4", "b3", "c5", "20", "bc", "ae", "b8", "cc", "de", "c2", "bc", "b6", "20", "bf", "dd", "bb", "de", "b2", "bc", "c5", "b2", "03", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『さばくに おおわれた わくせいです。\nかとうな しょくぶつしか そんざいしない\nようです』<wait>",
+        "alt_text" : "<1A>O<MICA>『サバクニ オオワレタ ワクセイデス。\nカトウナ ショクブツシカ ソンザイシナイ\nヨウデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x295da",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 39,
+        "raw" : ["1a", "4d", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『たいようから とおいため、こおりに\nおおわれた わくせいです』<wait>",
+        "alt_text" : "<1A>M<MICA>『タイヨウカラ トオイタメ、コオリニ\nオオワレタ ワクセイデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29601",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 200,
+        "raw" : ["1b", "01", "1a", "4a", "10", "28", "a2", "5c", "ba", "de", "b0", "c3", "de", "a8", "b8", "5c", "bc", "de", "dd", "c9", "20", "ca", "c5", "bc", "c3", "de", "ca", "20", "ba", "c9", "ce", "bc", "c6", "ca", "03", "bc", "de", "ad", "b3", "c6", "dd", "b6", "de", "20", "b2", "d9", "ca", "bd", "de", "c0", "de", "a1", "03", "d3", "af", "c4", "20", "b8", "dc", "bc", "b8", "20", "c0", "dd", "bb", "bc", "c3", "d0", "db", "a3", "08", "1a", "50", "13", "bf", "69", "42", "30", "30", "2d", "38", "31", "58", "20", "3d", "20", "64", "25", "68", "65", "61", "13", "e4", "69", "02", "10", "2b", "a2", "ca", "af", "b9", "dd", "20", "bc", "cf", "bc", "c0", "a1", "dc", "b8", "be", "b2", "c9", "20", "ce", "af", "b7", "ae", "b8", "03", "c3", "dd", "c6", "20", "b5", "b5", "b7", "c5", "20", "c4", "de", "b3", "b8", "c2", "b6", "de", "b1", "d8", "20", "bf", "c9", "03", "c5", "b2", "cc", "de", "c6", "20", "c8", "c2", "b9", "de", "dd", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "03", "b6", "bb", "de", "dd", "d4", "20", "b5", "dd", "be", "dd", "c3", "de", "ca", "20", "b1", "d8", "cf", "be", "dd", "a3", "08", "19", "4a", "10", "28", "a2", "d4", "af", "ca", "df", "d8", "bf", "b3", "b6", "21", "a3", "08", "00"],
+        "raw_text" : "<1B><01><1A>J<PLAYER>『ゴ‐ディクじんの はなしでは このほしには\nじゅうにんが いるはずだ。\nもっと くわしく たんさしてみろ』<wait><1A>P<13>そiB00-81X = d%hea<13>トi\n<10>+『はっけん しました。わくせいの ほっきょく\nてんに おおきな どうくつがおり その\nないぶに ねつげんが おります。\nかざんや おんせんでは おりません』<wait><19>J<PLAYER>『やっぱりそうか!』<wait>",
+        "alt_text" : "<1B><01><1A>J<PLAYER>『ご―でぃくジンノ ハナシデハ コノホシニハ\nジュウニンガ イルハズダ。\nモット クワシク タンサシテミロ』<wait><1A>P<13>ソiB00-81X = d%hea<13>とi\n<10>+『ハッケン シマシタ。ワクセイノ ホッキョク\nテンニ オオキナ ドウクツガアリ ソノ\nナイブニ ネツゲンガ アリマス。\nカザンヤ オンセンデハ アリマセン』<wait><19>J<PLAYER>『ヤッパリソウカ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x296c9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 56,
+        "raw" : ["1a", "4d", "10", "30", "a2", "dc", "b8", "be", "b2", "be", "de", "dd", "c0", "b2", "b6", "de", "20", "c4", "de", "db", "c4", "de", "db", "bc", "c0", "20", "d5", "b3", "b7", "03", "cc", "de", "c2", "c9", "20", "5c", "bd", "b0", "cc", "df", "5c", "c3", "de", "20", "b5", "b5", "dc", "da", "c3", "b2", "cf", "bd", "a1", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『わくせいぜんたいが どろどろした ゆうき\nぶつの ス‐プで おおわれています。』<wait>",
+        "alt_text" : "<1A>M<MICA>『ワクセイゼンタイガ ドロドロシタ ユウキ\nブツノ す―ぷデ オオワレテイマス。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29701",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29703",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 172,
+        "raw" : ["1a", "52", "10", "2a", "a2", "bc", "dd", "bc", "de", "d7", "da", "c5", "b2", "dc", "a1", "ba", "c9", "ce", "bc", "be", "de", "dd", "c0", "b2", "b6", "de", "03", "b5", "b5", "b7", "c5", "20", "be", "b2", "cc", "de", "c2", "c0", "de", "c5", "dd", "c3", "3b", "3b", "3b", "3b", "a3", "08", "1a", "57", "10", "28", "a2", "5c", "b3", "de", "a8", "dd", "c4", "de", "a4", "5c", "c2", "b3", "bc", "dd", "b7", "20", "5c", "bd", "c0", "dd", "ca", "de", "b2", "5c", "a1", "a3", "08", "0c", "10", "28", "a2", "b3", "d0", "c6", "d1", "b9", "c3", "20", "bb", "b2", "c0", "de", "b2", "5c", "ca", "df", "dc", "b0", "5c", "c3", "de", "20", "c3", "de", "dd", "ca", "df", "a6", "03", "bf", "b3", "bc", "dd", "bc", "db", "a3", "08", "19", "57", "10", "28", "a2", "11", "02", "06", "23", "dc", "b8", "be", "b2", "5c", "bd", "d7", "b3", "da", "20", "06", "23", "5c", "b5", "b3", "c4", "b3", "be", "d6", "a1", "03", "06", "23", "dc", "b8", "be", "b2", "5c", "bd", "d7", "b3", "da", "06", "23", "3b", "3b", "3b", "3b", "a3", "08", "1a", "4e", "11", "00"],
+        "raw_text" : "<1A>R<10>*『しんじられないわ。このほしぜんたいが\nおおきな せいぶつだなんて‥‥‥‥』<wait><1A>W<PLAYER>『ヴィンド、つうしんき スタンバイ。』<wait><erase><PLAYER>『うみにむけて さいだいパワ‐で でんぱを\nそうしんしろ』<wait><19>W<PLAYER>『<11>\n<06>#わくせいスラウレ <06>#おうとうせよ。\n<06>#わくせいスラウレ<06>#‥‥‥‥』<wait><1A>N<11>",
+        "alt_text" : "<1A>R<10>*『シンジラレナイワ。コノホシゼンタイガ\nオオキナ セイブツダナンテ‥‥‥‥』<wait><1A>W<PLAYER>『ぃんど、ツウシンキ すたんばい。』<wait><erase><PLAYER>『ウミニムケテ サイダイぱわ―デ デンパヲ\nソウシンシロ』<wait><19>W<PLAYER>『<11>\n<06>#ワクセイすらうれ <06>#オウトウセヨ。\n<06>#ワクセイすらうれ<06>#‥‥‥‥』<wait><1A>N<11>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x297af",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 180,
+        "raw" : ["10", "29", "a2", "ba", "c0", "b4", "b6", "de", "c5", "b2", "c5", "a1", "d4", "af", "ca", "df", "d8", "c0", "de", "d2", "b6", "3b", "3b", "3b", "3b", "a3", "08", "1a", "53", "10", "2b", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "5c", "dc", "b8", "be", "b2", "c9", "20", "cb", "ae", "b3", "d2", "dd", "c6", "03", "cd", "dd", "b6", "b6", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "2b", "a2", "b3", "d0", "c9", "c5", "b6", "c6", "20", "bc", "cf", "b6", "de", "20", "b3", "cf", "da", "c3", "b2", "cf", "bd", "21", "a3", "08", "19", "57", "10", "28", "a2", "c5", "dd", "c0", "de", "af", "c3", "21", "a3", "08", "1a", "54", "10", "2d", "a2", "bc", "dd", "bc", "de", "d7", "da", "c5", "b2", "a1", "d0", "c4", "de", "d8", "c9", "20", "bc", "cf", "c0", "de", "dc", "21", "03", "b7", "d4", "20", "b8", "bb", "b6", "de", "ca", "b4", "c3", "b2", "c3", "20", "c0", "c3", "d3", "c9", "cf", "c3", "de", "b1", "d9", "21", "a3", "08", "1b", "01", "19", "4e", "10", "29", "a2", "b5", "d8", "c3", "ba", "b2", "af", "c3", "20", "ba", "c4", "b6", "c5", "3f", "a3", "08", "00"],
+        "raw_text" : "<NPCa>『こたえがないな。やっぱりだめか‥‥‥‥』<wait><1A>S<10>+『コマンダ‐、わくせいの ひょうめんに\nへんかが‥‥‥‥』<wait><erase><10>+『うみのなかに しまが うまれています!』<wait><19>W<PLAYER>『なんだって!』<wait><1A>T<10>-『しんじられない。みどりの しまだわ!\nきや くさがはえていて たてものまでおる!』<wait><1B><01><19>N<NPCa>『おりてこいって ことかな?』<wait>",
+        "alt_text" : "<NPCa>『コタエガナイナ。ヤッパリダメカ‥‥‥‥』<wait><1A>S<10>+『こまんだ―、ワクセイノ ヒョウメンニ\nヘンカガ‥‥‥‥』<wait><erase><10>+『ウミノナカニ シマガ ウマレテイマス!』<wait><19>W<PLAYER>『ナンダッテ!』<wait><1A>T<10>-『シンジラレナイ。ミドリノ シマダワ!\nキヤ クサガハエテイテ タテモノマデアル!』<wait><1B><01><19>N<NPCa>『オリテコイッテ コトカナ?』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29863",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 63,
+        "raw" : ["1a", "4f", "10", "30", "a2", "b1", "dd", "ba", "b8", "be", "b2", "b3", "dd", "c3", "de", "bd", "a1", "5c", "b6", "de", "bd", "5c", "b6", "de", "b1", "c2", "cf", "af", "c3", "03", "b1", "c0", "d7", "bc", "b2", "20", "ce", "bc", "b6", "de", "20", "c0", "dd", "bc", "de", "ae", "b3", "bc", "c2", "c2", "b1", "d9", "03", "ca", "de", "bc", "ae", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『おんこくせいうんです。ガスがおつまって\nおたらしい ほしが たんじょうしつつおる\nばしょです』<wait>",
+        "alt_text" : "<1A>O<MICA>『アンコクセイウンデス。がすガアツマッテ\nアタラシイ ホシガ タンジョウシツツアル\nバショデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x298a2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x298a4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 230,
+        "raw" : ["13", "e4", "69", "1a", "4b", "10", "2b", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "b6", "de", "bd", "5c", "c9", "b8", "d3", "c9", "20", "c5", "b6", "c6", "20", "c0", "bd", "b3", "c9", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "a5", "bc", "af", "cc", "df", "5c", "d7", "bc", "b7", "20", "ca", "dd", "c9", "b3", "a6", "03", "5c", "b7", "ac", "af", "c1", "5c", "bc", "cf", "bc", "c0", "21", "03", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c9", "20", "b2", "af", "c0", "c4", "b5", "d8", "c3", "de", "bd", "21", "a3", "08", "1a", "4c", "10", "28", "a2", "c3", "b7", "c9", "20", "b6", "bd", "de", "ca", "3f", "a3", "08", "19", "4b", "10", "2b", "a2", "be", "dd", "b6", "dd", "5c", "b8", "d7", "bd", "5c", "b6", "de", "20", "b5", "d6", "bf", "38", "30", "30", "3b", "3b", "3b", "3b", "04", "1e", "03", "ba", "b6", "de", "c0", "5c", "b8", "d7", "bd", "5c", "b6", "de", "32", "30", "30", "30", "3b", "3b", "3b", "3b", "04", "1e", "03", "c1", "ad", "b3", "b5", "b3", "c6", "ca", "20", "b7", "ae", "c0", "de", "b2", "c5", "20", "5c", "cf", "bb", "de", "b0", "a5", "bc", "af", "cc", "df", "5c", "b6", "de", "03", "b2", "cf", "bd", "a3", "08", "1a", "52", "10", "29", "a2", "b8", "bf", "b0", "af", "a4", "ba", "c9", "cc", "c8", "20", "31", "be", "b7", "bc", "de", "ac", "a4", "c4", "c3", "d3", "03", "b6", "c1", "d2", "ca", "c5", "b2", "c5", "21", "a3", "08", "00"],
+        "raw_text" : "<13>トi<1A>K<10>+『コマンダ‐、ガスのくもの なかに たすうの\nバ‐サ‐カ‐・シップらしき はんのうを\nキャッチしました!\nメンタ‐ナの いったとおりです!』<wait><1A>L<PLAYER>『てきの かずは?』<wait><19>K<10>+『せんかんクラスが およそ800‥‥‥‥<pause><1E>\nこがたクラスが2000‥‥‥‥<pause><1E>\nちゅうおうには きょだいな マザ‐・シップが\nいます』<wait><1A>R<NPCa>『くそ―っ、このふね 1せきじゃ、とても\nかちめはないな!』<wait>",
+        "alt_text" : "<13>とi<1A>K<10>+『こまんだ―、がすノクモノ ナカニ タスウノ\nば―さ―か―・しっぷラシキ ハンノウヲ\nきゃっちシマシタ!\nめんた―なノ イッタトオリデス!』<wait><1A>L<PLAYER>『テキノ カズハ?』<wait><19>K<10>+『センカンくらすガ オヨソ800‥‥‥‥<pause><1E>\nコガタくらすガ2000‥‥‥‥<pause><1E>\nチュウオウニハ キョダイナ まざ―・しっぷガ\nイマス』<wait><1A>R<NPCa>『クソ‐ッ、コノフネ 1セキジャ、トテモ\nカチメハナイナ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2998a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["1b", "00"],
+        "raw_text" : "<1B>",
+        "alt_text" : "<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x2998c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 141,
+        "raw" : ["13", "e4", "69", "1a", "53", "10", "2a", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "5c", "ca", "dd", "c0", "b2", "ce", "b3", "ba", "b3", "b6", "d7", "20", "cd", "de", "c2", "c9", "03", "c0", "de", "b2", "b6", "dd", "c0", "b2", "b6", "de", "20", "be", "af", "b7", "dd", "c1", "ad", "b3", "21", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "2a", "a2", "b1", "af", "a4", "b1", "da", "ca", "5c", "ba", "de", "b0", "c3", "de", "a8", "b8", "5c", "c9", "20", "b6", "dd", "c0", "b2", "c3", "de", "bd", "21", "a3", "08", "1a", "49", "10", "30", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "ba", "de", "b0", "c3", "de", "a8", "b8", "5c", "b6", "dd", "c0", "b2", "20", "bc", "da", "b2", "b6", "dd", "03", "b6", "d7", "a4", "c2", "b3", "bc", "dd", "b6", "de", "20", "ca", "b2", "af", "c3", "b2", "cf", "bd", "a3", "08", "1b", "00"],
+        "raw_text" : "<13>トi<1A>S<10>*『コマンダ‐、はんたいほうこうから べつの\nだいかんたいが せっきんちゅう!‥‥‥‥』<wait><erase><10>*『おっ、おれはゴ‐ディクの かんたいです!』<wait><1A>I<MICA>『コマンダ‐、ゴ‐ディクかんたい しれいかん\nから、つうしんが はいっています』<wait><1B>",
+        "alt_text" : "<13>とi<1A>S<10>*『こまんだ―、ハンタイホウコウカラ ベツノ\nダイカンタイガ セッキンチュウ!‥‥‥‥』<wait><erase><10>*『アッ、アレハご―でぃくノ カンタイデス!』<wait><1A>I<MICA>『こまんだ―、ご―でぃくカンタイ シレイカン\nカラ、ツウシンガ ハイッテイマス』<wait><1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29a19",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 512,
+        "raw" : ["1a", "57", "10", "4d", "a2", "b5", "b0", "b2", "a4", "c1", "b7", "ad", "b3", "bc", "de", "dd", "d6", "20", "b7", "ba", "b4", "c1", "ae", "d9", "b6", "3f", "a3", "08", "0c", "10", "4d", "a2", "b2", "d6", "b2", "d6", "20", "bb", "b2", "ba", "de", "c9", "20", "b9", "af", "be", "dd", "ca", "de", "b2", "21", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "a6", "20", "b9", "c1", "d7", "bc", "c3", "d4", "d9", "ca", "de", "b2", "21", "a3", "08", "0c", "10", "4d", "a2", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c4", "de", "d3", "ca", "20", "5c", "cf", "bb", "de", "b0", "a5", "bc", "af", "cc", "df", "5c", "b6", "d7", "03", "bc", "da", "b2", "a6", "b3", "b9", "c3", "20", "b3", "ba", "de", "b2", "c4", "d9", "ca", "de", "b2", "a1", "a3", "08", "0c", "10", "4d", "a2", "5c", "cf", "bb", "de", "b0", "a5", "bc", "af", "cc", "df", "5c", "bb", "b4", "20", "bc", "bd", "de", "d2", "da", "ca", "de", "20", "ba", "af", "c1", "c9", "03", "d3", "dd", "ca", "de", "b2", "21", "a3", "08", "1b", "01", "1a", "54", "10", "2b", "a2", "bc", "b6", "bc", "a4", "5c", "cf", "bb", "de", "b0", "a5", "bc", "af", "cc", "df", "5c", "ca", "20", "c4", "ce", "b3", "d3", "c5", "b8", "03", "b7", "ae", "c0", "de", "b2", "c3", "de", "bd", "a1", "cc", "c2", "b3", "c9", "20", "cc", "de", "b7", "ca", "20", "c2", "b3", "d6", "b3", "03", "bc", "bf", "b3", "c6", "20", "b1", "d8", "cf", "be", "dd", "a3", "08", "1a", "57", "10", "4d", "a2", "b3", "c7", "c7", "3b", "3b", "3b", "04", "3c", "c3", "de", "ca", "20", "c4", "de", "b3", "bd", "da", "ca", "de", "20", "d6", "b6", "c4", "3f", "a3", "08", "1a", "4e", "10", "28", "a2", "bf", "da", "ca", "3b", "3b", "3b", "3b", "a3", "08", "1a", "4f", "10", "29", "a2", "bf", "c4", "b6", "d7", "20", "ba", "b3", "b9", "de", "b7", "bc", "c3", "d3", "20", "c0", "de", "d2", "c5", "d7", "a4", "03", "b3", "c1", "b6", "de", "dc", "b6", "d7", "20", "cc", "de", "af", "ba", "dc", "be", "ca", "de", "b2", "b2", "dd", "c0", "de", "21", "03", "b5", "da", "c0", "c1", "b6", "de", "20", "5c", "cf", "bb", "de", "b0", "a5", "bc", "af", "cc", "df", "5c", "c6", "20", "c9", "d8", "ba", "dd", "c3", "de", "03", "5c", "ba", "dd", "c4", "db", "b0", "d9", "a5", "be", "dd", "c0", "b0", "5c", "a6", "20", "ca", "b6", "b2", "bc", "c3", "d4", "d9", "21", "a3", "08", "19", "57", "10", "4d", "a2", "b5", "b5", "a4", "c0", "b2", "bc", "c0", "20", "ba", "dd", "bc", "de", "ae", "b3", "ca", "de", "b2", "21", "03", "dc", "b6", "af", "c0", "a4", "5c", "bb", "de", "ba", "5c", "c4", "de", "d3", "ca", "20", "dc", "bc", "d7", "b6", "de", "20", "cb", "b7", "b3", "b9", "d9", "21", "a3", "08", "0c", "10", "4d", "a2", "b5", "cf", "dd", "d7", "a4", "b5", "d3", "b3", "bf", "de", "dd", "cc", "de", "dd", "20", "c0", "c0", "b6", "b3", "03", "b6", "de", "d6", "b6", "21", "a3", "08", "1a", "52", "10", "2b", "a2", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "b6", "de", "20", "ba", "c1", "d7", "c6", "20", "b7", "c2", "de", "b7", "cf", "bc", "c0", "21", "03", "ba", "b3", "b9", "de", "b7", "bc", "c3", "b7", "cf", "bd", "21", "a3", "08", "11", "02", "1b", "00"],
+        "raw_text" : "<1A>W<10>M『お―い、ちきゅうじんよ きこえちょるか?』<wait><erase><10>M『いよいよ さいごの けっせんばい!\nバ‐サ‐カ‐を けちらしてやるばい!』<wait><erase><10>M『バ‐サ‐カ‐どもは マザ‐・シップから\nしれいをうけて うごいとるばい。』<wait><erase><10>M『マザ‐・シップさえ しずめれば こっちの\nもんばい!』<wait><1B><01><1A>T<10>+『しかし、マザ‐・シップは とほうもなく\nきょだいです。ふつうの ぶきは つうよう\nしそうに おりません』<wait><1A>W<10>M『うぬぬ‥‥‥<pause><では どうすれば よかと?』<wait><1A>N<PLAYER>『それは‥‥‥‥』<wait><1A>O<NPCa>『そとから こうげきしても だめなら、\nうちがわから ぶっこわせばいいんだ!\nおれたちが マザ‐・シップに のりこんで\nコントロ‐ル・センタ‐を はかいしてやる!』<wait><19>W<10>M『おお、たいした こんじょうばい!\nわかった、ザコどもは わしらが ひきうける!』<wait><erase><10>M『おまんら、おもうぞんぶん たたかう\nがよか!』<wait><1A>R<10>+『バ‐サ‐カ‐が こちらに きづきました!\nこうげきしてきます!』<wait><11>\n<1B>",
+        "alt_text" : "<1A>W<10>M『オ‐イ、チキュウジンヨ キコエチョルカ?』<wait><erase><10>M『イヨイヨ サイゴノ ケッセンバイ!\nば―さ―か―ヲ ケチラシテヤルバイ!』<wait><erase><10>M『ば―さ―か―ドモハ まざ―・しっぷカラ\nシレイヲウケテ ウゴイトルバイ。』<wait><erase><10>M『まざ―・しっぷサエ シズメレバ コッチノ\nモンバイ!』<wait><1B><01><1A>T<10>+『シカシ、まざ―・しっぷハ トホウモナク\nキョダイデス。フツウノ ブキハ ツウヨウ\nシソウニ アリマセン』<wait><1A>W<10>M『ウヌヌ‥‥‥<pause><デハ ドウスレバ ヨカト?』<wait><1A>N<PLAYER>『ソレハ‥‥‥‥』<wait><1A>O<NPCa>『ソトカラ コウゲキシテモ ダメナラ、\nウチガワカラ ブッコワセバイインダ!\nオレタチガ まざ―・しっぷニ ノリコンデ\nこんとろ―る・せんた―ヲ ハカイシテヤル!』<wait><19>W<10>M『オオ、タイシタ コンジョウバイ!\nワカッタ、ざこドモハ ワシラガ ヒキウケル!』<wait><erase><10>M『オマンラ、オモウゾンブン タタカウ\nガヨカ!』<wait><1A>R<10>+『ば―さ―か―ガ コチラニ キヅキマシタ!\nコウゲキシテキマス!』<wait><11>\n<1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29c19",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 3,
+        "raw" : ["05", "ac", "00"],
+        "raw_text" : "<05>ゃ",
+        "alt_text" : "<05>ャ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29c1c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["1a", "49", "11", "00"],
+        "raw_text" : "<1A>I<11>",
+        "alt_text" : "<1A>I<11>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29c20",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 64,
+        "raw" : ["10", "28", "07", "02", "a2", "b2", "b8", "bf", "de", "a4", "d0", "dd", "c5", "21", "04", "14", "20", "bb", "b2", "ba", "de", "c9", "20", "b9", "af", "be", "dd", "c0", "de", "21", "04", "14", "03", "5c", "bb", "b2", "ca", "de", "b0", "c5", "b2", "c4", "5c", "c9", "20", "ce", "ba", "d8", "a6", "20", "d0", "be", "c3", "d4", "da", "21", "a3", "08", "11", "02", "1a", "50", "07", "00"],
+        "raw_text" : "<PLAYER><07>\n『いくぞ、みんな!<pause><14> さいごの けっせんだ!<pause><14>\nサイバ‐ナイトの ほこりを みせてやれ!』<wait><11>\n<1A>P<07>",
+        "alt_text" : "<PLAYER><07>\n『イクゾ、ミンナ!<pause><14> サイゴノ ケッセンダ!<pause><14>\nさいば―ないとノ ホコリヲ ミセテヤレ!』<wait><11>\n<1A>P<07>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29c60",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 51,
+        "raw" : ["06", "1b", "10", "29", "a2", "ca", "b2", "21", "a3", "02", "0d", "04", "10", "2a", "a2", "ca", "b2", "21", "a3", "02", "0d", "08", "10", "2b", "a2", "ca", "b2", "21", "a3", "02", "0d", "0c", "10", "2c", "a2", "ca", "b2", "21", "a3", "02", "0d", "10", "10", "2d", "a2", "ca", "b2", "21", "a3", "11", "00"],
+        "raw_text" : "<06><1B><NPCa>『はい!』\n<pad><pause><10>*『はい!』\n<pad><wait><10>+『はい!』\n<pad><erase><10>,『はい!』\n<pad><10><10>-『はい!』<11>",
+        "alt_text" : "<06><1B><NPCa>『ハイ!』\n<pad><pause><10>*『ハイ!』\n<pad><wait><10>+『ハイ!』\n<pad><erase><10>,『ハイ!』\n<pad><10><10>-『ハイ!』<11>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29c93",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["08", "00"],
+        "raw_text" : "<wait>",
+        "alt_text" : "<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29c95",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 100,
+        "raw" : ["1a", "4f", "10", "30", "a2", "c0", "b2", "d6", "b3", "c9", "20", "33", "30", "30", "cf", "dd", "ca", "de", "b2", "c9", "20", "bc", "c2", "d8", "ae", "b3", "a6", "03", "d3", "c2", "20", "b7", "ae", "c0", "de", "b2", "c5", "20", "5c", "cc", "de", "d7", "af", "b8", "ce", "b0", "d9", "5c", "c3", "de", "bd", "a1", "03", "c1", "ae", "af", "b9", "b2", "31", "38", "30", "30", "cf", "dd", "5c", "b7", "db", "5c", "a1", "bc", "de", "b8", "b3", "ba", "b3", "bf", "de", "b3", "ca", "03", "5c", "c4", "d0", "cf", "c2", "3d", "bb", "c4", "b3", "5c", "b6", "de", "c0", "20", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>O<MICA>『たいようの 300まんばいの しつりょうを\nもつ きょだいな ブラックホ‐ルです。\nちょっけい1800まんキロ。じくうこうぞうは\nトミマツ=サトウがた です』<wait>",
+        "alt_text" : "<1A>O<MICA>『タイヨウノ 300マンバイノ シツリョウヲ\nモツ キョダイナ ぶらっくほ―るデス。\nチョッケイ1800マンきろ。ジクウコウゾウハ\nとみまつ=さとうガタ デス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29cf9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 99,
+        "raw" : ["1b", "01", "1a", "54", "10", "28", "a2", "5c", "bc", "ac", "b2", "dd", "a4", "47", "b3", "aa", "b0", "cc", "de", "5c", "c2", "b3", "bc", "dd", "b7", "a6", "03", "bb", "c4", "de", "b3", "bb", "be", "c3", "b8", "da", "a1", "b2", "d6", "b2", "d6", "20", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c4", "03", "ca", "c5", "bd", "ba", "c4", "b6", "de", "20", "c3", "de", "b7", "d9", "bf", "de", "a3", "08", "1a", "4c", "10", "2b", "a2", "dc", "b6", "d8", "cf", "bc", "c0", "3b", "3b", "3b", "3b", "5c", "bd", "b2", "af", "c1", "5c", "a6", "b2", "da", "cf", "bd", "a3", "08", "11", "0e", "1b", "00"],
+        "raw_text" : "<1B><01><1A>T<PLAYER>『シャイン、Gウェ‐ブつうしんきを\nさどうさせてくれ。いよいよ メンタ‐ナと\nはなすことが できるぞ』<wait><1A>L<10>+『わかりました‥‥‥‥スイッチをいれます』<wait><11><0E><1B>",
+        "alt_text" : "<1B><01><1A>T<PLAYER>『しゃいん、Gうぇ―ぶツウシンキヲ\nサドウサセテクレ。イヨイヨ めんた―なト\nハナスコトガ デキルゾ』<wait><1A>L<10>+『ワカリマシタ‥‥‥‥すいっちヲイレマス』<wait><11><0E><1B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29d5c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["06", "23", "04", "28", "06", "23", "04", "28", "06", "23", "04", "28", "06", "23", "04", "28", "00"],
+        "raw_text" : "<06>#<pause>(<06>#<pause>(<06>#<pause>(<06>#<pause>(",
+        "alt_text" : "<06>#<pause>(<06>#<pause>(<06>#<pause>(<06>#<pause>(",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29d6d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 317,
+        "raw" : ["11", "06", "1a", "70", "10", "51", "a2", "d6", "b8", "d4", "af", "c3", "b8", "da", "c0", "a1", "ba", "da", "c3", "de", "20", "b3", "c1", "ad", "b3", "ca", "20", "cc", "c0", "c0", "cb", "de", "03", "c0", "c0", "de", "bc", "b2", "20", "bc", "dd", "b6", "c9", "d0", "c1", "a6", "20", "b1", "d5", "d0", "ca", "bc", "de", "d2", "c0", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "51", "a2", "bc", "b6", "bc", "20", "b5", "cf", "b4", "c0", "c1", "c9", "20", "c0", "c0", "b6", "b2", "ca", "20", "ba", "da", "b6", "d7", "d3", "03", "c2", "c2", "de", "b8", "3b", "3b", "3b", "a3", "08", "0c", "10", "51", "a2", "be", "b2", "d2", "b2", "c9", "20", "bc", "dd", "b6", "ca", "a4", "c5", "dd", "b5", "b8", "c8", "dd", "c6", "d3", "20", "b5", "d6", "cc", "de", "03", "ca", "c3", "bc", "c5", "b2", "20", "c0", "c0", "b6", "b2", "c9", "20", "d0", "c1", "c0", "de", "3b", "3b", "3b", "a3", "08", "0c", "10", "51", "a2", "bc", "b6", "bc", "20", "b5", "cf", "b4", "c0", "c1", "c5", "d7", "ca", "de", "20", "b7", "af", "c4", "20", "b2", "b7", "c9", "cb", "de", "c3", "03", "b1", "d7", "c0", "c5", "20", "c0", "de", "dd", "b6", "b2", "cd", "20", "bd", "bd", "d1", "ba", "c4", "b6", "de", "20", "c3", "de", "b7", "d9", "03", "c0", "de", "db", "b3", "3b", "3b", "3b", "a3", "08", "0c", "10", "51", "a2", "c4", "de", "c9", "d6", "b3", "c5", "20", "be", "de", "c2", "ce", "de", "b3", "c3", "b7", "c5", "20", "bc", "de", "ae", "b3", "b7", "ae", "b3", "c3", "de", "d3", "03", "b9", "af", "bc", "c3", "20", "b1", "b7", "d7", "d2", "c5", "b2", "20", "bf", "c9", "20", "c2", "d6", "b2", "ba", "ba", "db", "a6", "03", "dc", "bd", "da", "c7", "ba", "c4", "c0", "de", "3b", "3b", "3b", "a3", "08", "0c", "10", "51", "a2", "bb", "b1", "a4", "5c", "b9", "de", "b0", "c4", "5c", "a6", "cb", "d7", "ba", "b3", "a1", "03", "cc", "d9", "bb", "c4", "c6", "20", "b6", "b4", "d9", "b6", "de", "b2", "b2", "3b", "3b", "3b", "3b", "a3", "00"],
+        "raw_text" : "<11><06><1A>p<10>Q『よくやってくれた。これで うちゅうは ふたたび\nただしい しんかのみちを おゆみはじめた‥‥‥‥』<wait><erase><10>Q『しかし おまえたちの たたかいは これからも\nつづく‥‥‥』<wait><erase><10>Q『せいめいの しんかは、なんおくねんにも およぶ\nはてしない たたかいの みちだ‥‥‥』<wait><erase><10>Q『しかし おまえたちならば きっと いきのびて\nおらたな だんかいへ すすむことが できる\nだろう‥‥‥』<wait><erase><10>Q『どのような ぜつぼうてきな じょうきょうでも\nけっして おきらめない その つよいこころを\nわすれぬことだ‥‥‥』<wait><erase><10>Q『さお、ゲ‐トをひらこう。\nふるさとに かえるがいい‥‥‥‥』",
+        "alt_text" : "<11><06><1A>p<10>Q『ヨクヤッテクレタ。コレデ ウチュウハ フタタビ\nタダシイ シンカノミチヲ アユミハジメタ‥‥‥‥』<wait><erase><10>Q『シカシ オマエタチノ タタカイハ コレカラモ\nツヅク‥‥‥』<wait><erase><10>Q『セイメイノ シンカハ、ナンオクネンニモ オヨブ\nハテシナイ タタカイノ ミチダ‥‥‥』<wait><erase><10>Q『シカシ オマエタチナラバ キット イキノビテ\nアラタナ ダンカイヘ ススムコトガ デキル\nダロウ‥‥‥』<wait><erase><10>Q『ドノヨウナ ゼツボウテキナ ジョウキョウデモ\nケッシテ アキラメナイ ソノ ツヨイココロヲ\nワスレヌコトダ‥‥‥』<wait><erase><10>Q『サア、げ―とヲヒラコウ。\nフルサトニ カエルガイイ‥‥‥‥』",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29eaa",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 46,
+        "raw" : ["1a", "4d", "10", "30", "a2", "ca", "d4", "b8", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "bc", "c3", "20", "ba", "ba", "a6", "20", "c0", "c1", "bb", "af", "c0", "03", "ce", "b3", "b6", "de", "20", "b1", "dd", "be", "de", "dd", "c3", "de", "bd", "a3", "08", "00"],
+        "raw_text" : "<1A>M<MICA>『はやく ジャンプして ここを たちさった\nほうが おんぜんです』<wait>",
+        "alt_text" : "<1A>M<MICA>『ハヤク じゃんぷシテ ココヲ タチサッタ\nホウガ アンゼンデス』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "MICA, player, npc text",
+        "string_start" : "0x29ed8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 39,
+        "raw" : ["1a", "49", "10", "30", "a2", "be", "dd", "c4", "b3", "c1", "ad", "b3", "c3", "de", "bd", "a1", "03", "ba", "c9", "cf", "cf", "20", "c6", "b9", "de", "d9", "ba", "c4", "ca", "20", "c3", "de", "b7", "cf", "be", "dd", "a3", "08", "00"],
+        "raw_text" : "<1A>I<MICA>『せんとうちゅうです。\nこのまま にげることは できません』<wait>",
+        "alt_text" : "<1A>I<MICA>『セントウチュウデス。\nコノママ ニゲルコトハ デキマセン』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]},

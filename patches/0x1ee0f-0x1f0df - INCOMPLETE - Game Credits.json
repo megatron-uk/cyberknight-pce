@@ -1,12 +1,12 @@
 {
 "block_description" : "Staff credits",
-"block_start" : "0x1ee0f",
-"block_end" : "0x1f0df",
+"block_start" : "0x1f00f",
+"block_end" : "0x1f2f3",
 "insert_method" : 1,
 "data" : [
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee0f",
+        "string_start" : "0x1f00f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -20,7 +20,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee1d",
+        "string_start" : "0x1f01d",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -34,7 +34,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee1e",
+        "string_start" : "0x1f01e",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -48,7 +48,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee1f",
+        "string_start" : "0x1f01f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -62,7 +62,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee20",
+        "string_start" : "0x1f020",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -76,7 +76,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee21",
+        "string_start" : "0x1f021",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -90,7 +90,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee22",
+        "string_start" : "0x1f022",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -104,7 +104,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee23",
+        "string_start" : "0x1f023",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -118,7 +118,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee35",
+        "string_start" : "0x1f035",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -132,7 +132,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee42",
+        "string_start" : "0x1f042",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -146,7 +146,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee4e",
+        "string_start" : "0x1f04e",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -160,7 +160,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee4f",
+        "string_start" : "0x1f04f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -174,7 +174,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee50",
+        "string_start" : "0x1f050",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -188,7 +188,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee5f",
+        "string_start" : "0x1f05f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -202,7 +202,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee72",
+        "string_start" : "0x1f072",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -216,7 +216,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee7e",
+        "string_start" : "0x1f07e",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -230,7 +230,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee7f",
+        "string_start" : "0x1f07f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -244,7 +244,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee80",
+        "string_start" : "0x1f080",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -258,7 +258,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee81",
+        "string_start" : "0x1f081",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -272,7 +272,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ee97",
+        "string_start" : "0x1f097",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -286,7 +286,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eea8",
+        "string_start" : "0x1f0a8",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -300,7 +300,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eea9",
+        "string_start" : "0x1f0a9",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -314,7 +314,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eeaa",
+        "string_start" : "0x1f0aa",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -328,7 +328,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eeab",
+        "string_start" : "0x1f0ab",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -342,7 +342,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eeac",
+        "string_start" : "0x1f0ac",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -356,7 +356,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eeba",
+        "string_start" : "0x1f0ba",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -370,7 +370,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eecb",
+        "string_start" : "0x1f0cb",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -384,7 +384,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eecc",
+        "string_start" : "0x1f0cc",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -398,7 +398,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eecd",
+        "string_start" : "0x1f0cd",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -412,7 +412,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eedb",
+        "string_start" : "0x1f0db",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -426,7 +426,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eeee",
+        "string_start" : "0x1f0ee",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -440,7 +440,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1eeff",
+        "string_start" : "0x1f0ff",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -454,7 +454,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef0f",
+        "string_start" : "0x1f10f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -468,7 +468,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef1c",
+        "string_start" : "0x1f11c",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -482,7 +482,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef1d",
+        "string_start" : "0x1f11d",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -496,7 +496,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef1e",
+        "string_start" : "0x1f11e",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -510,7 +510,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef2a",
+        "string_start" : "0x1f12a",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -524,7 +524,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef37",
+        "string_start" : "0x1f137",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -538,7 +538,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef3f",
+        "string_start" : "0x1f13f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -552,7 +552,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef46",
+        "string_start" : "0x1f146",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -566,7 +566,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef51",
+        "string_start" : "0x1f151",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -580,7 +580,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef5b",
+        "string_start" : "0x1f15b",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -594,7 +594,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef66",
+        "string_start" : "0x1f166",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -608,7 +608,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef67",
+        "string_start" : "0x1f167",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -622,7 +622,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef7a",
+        "string_start" : "0x1f17a",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -636,7 +636,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef81",
+        "string_start" : "0x1f181",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -650,7 +650,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef82",
+        "string_start" : "0x1f182",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -664,7 +664,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1ef96",
+        "string_start" : "0x1f196",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -678,7 +678,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efa6",
+        "string_start" : "0x1f1a6",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -692,7 +692,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efa7",
+        "string_start" : "0x1f1a7",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -706,7 +706,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efa8",
+        "string_start" : "0x1f1a8",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -720,7 +720,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efa9",
+        "string_start" : "0x1f1a9",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -734,7 +734,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efc1",
+        "string_start" : "0x1f1c1",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -748,7 +748,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efcb",
+        "string_start" : "0x1f1cb",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -762,7 +762,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efda",
+        "string_start" : "0x1f1da",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -776,7 +776,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efe5",
+        "string_start" : "0x1f1e5",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -790,7 +790,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1efee",
+        "string_start" : "0x1f1ee",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -804,7 +804,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f000",
+        "string_start" : "0x1f200",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -818,7 +818,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f00f",
+        "string_start" : "0x1f20f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -832,7 +832,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f023",
+        "string_start" : "0x1f223",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -846,7 +846,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f027",
+        "string_start" : "0x1f227",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -860,7 +860,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f03c",
+        "string_start" : "0x1f23c",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -874,7 +874,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f03d",
+        "string_start" : "0x1f23d",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -888,7 +888,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f03e",
+        "string_start" : "0x1f23e",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -902,7 +902,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f03f",
+        "string_start" : "0x1f23f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -916,7 +916,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f040",
+        "string_start" : "0x1f240",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -930,7 +930,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f052",
+        "string_start" : "0x1f252",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -944,7 +944,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f063",
+        "string_start" : "0x1f263",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -958,7 +958,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f06f",
+        "string_start" : "0x1f26f",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -972,7 +972,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f070",
+        "string_start" : "0x1f270",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -986,7 +986,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f071",
+        "string_start" : "0x1f271",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1000,7 +1000,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f072",
+        "string_start" : "0x1f272",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1014,7 +1014,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f073",
+        "string_start" : "0x1f273",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1028,7 +1028,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f082",
+        "string_start" : "0x1f282",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1042,7 +1042,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f092",
+        "string_start" : "0x1f292",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1056,7 +1056,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f093",
+        "string_start" : "0x1f293",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1070,7 +1070,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f094",
+        "string_start" : "0x1f294",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1084,7 +1084,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0a3",
+        "string_start" : "0x1f2a3",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1098,7 +1098,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0b0",
+        "string_start" : "0x1f2b0",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1112,7 +1112,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0b1",
+        "string_start" : "0x1f2b1",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1126,7 +1126,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0b2",
+        "string_start" : "0x1f2b2",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1140,7 +1140,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0b3",
+        "string_start" : "0x1f2b3",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1154,7 +1154,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0b4",
+        "string_start" : "0x1f2b4",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1168,7 +1168,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0c9",
+        "string_start" : "0x1f2c9",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1182,7 +1182,7 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0ca",
+        "string_start" : "0x1f2ca",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
@@ -1196,7 +1196,217 @@
 
     {
         "string_description" : "Staff credits",
-        "string_start" : "0x1f0df",
+        "string_start" : "0x1f2df",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["0b", "00"],
+        "raw_text" : "<0B>",
+        "alt_text" : "<0B>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2e9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2ea",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2eb",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2ec",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2ed",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 3,
+        "raw" : ["1a", "80", "00"],
+        "raw_text" : "<1A> ",
+        "alt_text" : "<1A> ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2f0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 3,
+        "raw" : ["a3", "08", "00"],
+        "raw_text" : "』<wait>",
+        "alt_text" : "』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f2f3",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],

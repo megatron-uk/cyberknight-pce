@@ -88,7 +88,7 @@ METHOD_CONTIGUOUS = 2
 BYTES = [
 
 	# just use this one for looking at all strings
-	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
+	(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
 	
 	# interesting sections of the rom...
 	#(METHOD_3, 0x1b8d6, 0x1bfdf, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics.", "\x00"),
@@ -101,10 +101,10 @@ BYTES = [
 	#(METHOD_3, 0x1ea88, 0x1ec00, METHOD_SIMPLE, "Mecha overview screen", "\x20"),	
 	#(METHOD_3, 0x1ec08, 0x1edfa, METHOD_SIMPLE, "CLosing credits", "\x20"),
 	#(METHOD_3, 0x1ee0f, 0x1f0df, METHOD_SIMPLE, "Staff credits", "\x00"),
-	(METHOD_3, 0x1f0f4, 0x1ffe0, METHOD_CONTIGUOUS, "???", "\x00"),
-
-	#(METHOD_3, 0x28086, 0x28949, METHOD_SIMPLE, "Unknown.", "\x00"),
+	#(METHOD_3, 0x1f0f4, 0x1fb3f, METHOD_CONTIGUOUS, "Unknown dialogue", "\x00"),
+	#(METHOD_3, 0x28086, 0x29efe, METHOD_SIMPLE, "MICA, PLAYER, Planet scan text", "\x00"),
 	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),	
 	#(METHOD_3, 0x2a74c, 0x2a930, METHOD_SIMPLE, "Short scene after scrolling intro text.", "\x1c"),
+	#(METHOD_3, 0x2a934, ???????, METHOD_SIMPLE, "More text with MICA and PLAYER?", "\x00"),
 	
 ]
