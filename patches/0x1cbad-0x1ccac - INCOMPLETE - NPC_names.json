@@ -547,7 +547,7 @@
         "raw" : ["5c", "b6", "de", "d7", "b2", "bc", "b1", "dd", "00"],
         "raw_text" : "ガライシアン",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Garaian"
     },
 
     {
@@ -589,6 +589,6 @@
         "raw" : ["5c", "d2", "dd", "c0", "b0", "c5", "00"],
         "raw_text" : "メンタ‐ナ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Mentana"
     }
 ]}

@@ -354,59 +354,31 @@
     },
 
     {
-        "string_description" : "Name entry and misc game menus",
+        "string_description" : "Name entry and misc game menus - game world map pause screen",
         "string_start" : "0x1c197",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
-        "raw_size" : 6,
-        "raw" : ["20", "1d", "0a", "c8", "e6", "00"],
-        "raw_text" : " <1D><0A>ねニ",
-        "alt_text" : " <1D><0A>ネに",
+        "raw_size" : 52,
+        "raw" : ["20", "1d", "0a", "c8", "e6", "00", "f7", "cf", "f1", "c9", "e9", "ce", "ec", "20", "20", "1d", "08", "12", "32", "13", "33", "14", "34", "15", "35", "20", "20", "20", "1d", "08", "16", "36", "17", "37", "18", "38", "19", "39", "20", "20", "20", "1d", "08", "c8", "e6", "00", "f7", "fe", "f1", "c4", "ed", "00" ],
+        "raw_text"   : " キャラクタ  修理   治療   キャ<FEF1><C4ED>",
+        "alt_text"   : " キャラクタ  修理   治療   キャ<FEF1><C4ED>",
         "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Name entry and misc game menus",
-        "string_start" : "0x1c19d",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 40,
-        "raw" : ["f7", "cf", "f1", "c9", "e9", "ce", "ec", "20", "20", "1d", "08", "12", "32", "13", "33", "14", "34", "15", "35", "20", "20", "20", "1d", "08", "16", "36", "17", "37", "18", "38", "19", "39", "20", "20", "20", "1d", "08", "c8", "e6", "00"],
-        "raw_text" : "ラまムのノほフ  修理   治療   <kanji><wait>ねニ",
-        "alt_text" : "らマむノのホふ  修理   治療   <kanji><wait>ネに",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Name entry and misc game menus",
-        "string_start" : "0x1c1c5",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 6,
-        "raw" : ["f7", "fe", "f1", "c4", "ed", "00"],
-        "raw_text" : "ラ゛ムとヘ",
-        "alt_text" : "ら゛むトへ",
-        "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " Player Repair Heal    Items"
     },
 
     {
         "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c1cb",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["18", "42", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c"],
+        "end_bytes" : ["11", "00"],
         "raw_size" : 16,
         "raw" : ["18", "42", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c", "b7", "af", "c4", "11", "00"],
         "raw_text" : "<18>B.<13><11><01><pad>ン<0E>゜キット<11>",
         "alt_text" : "<18>B.<13><11><01><pad>ん<0E>゜きっと<11>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Kit"
     },
 
     {
@@ -427,14 +399,14 @@
         "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c1dc",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["18", "43", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c"],
+        "end_bytes" : ["11", "00"],
         "raw_size" : 16,
         "raw" : ["18", "43", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c", "b7", "af", "c4", "11", "00"],
         "raw_text" : "<18>C.<13><11><01><pad>ン<0E>゜キット<11>",
         "alt_text" : "<18>C.<13><11><01><pad>ん<0E>゜きっと<11>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Kit"
     },
 
     {
@@ -634,57 +606,15 @@
     },
 
     {
-        "string_description" : "Name entry and misc game menus - WEAPON?",
+        "string_description" : "Name entry and misc game menus - WEAPON, field item, ???",
         "string_start" : "0x1c2e7",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
-        "raw_size" : 21,
-        "raw" : ["0b", "0f", "05", "1d", "08", "1e", "3e", "1f", "3f", "40", "60", "41", "61", "0b", "03", "12", "1d", "0a", "d1", "f1", "00"],
-        "raw_text" : "<0B><0F><05>武器<0B>\n<12><kanji><0A>むム",
-        "alt_text" : "<0B><0F><05>武器<0B>\n<12><kanji><0A>ムむ",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Name entry and misc game menus",
-        "string_start" : "0x1c2fc",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 2,
-        "raw" : ["d6", "00"],
-        "raw_text" : "よ",
-        "alt_text" : "ヨ",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Name entry and misc game menus",
-        "string_start" : "0x1c2fe",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 17,
-        "raw" : ["ff", "d0", "fd", "da", "ee", "0b", "0f", "0d", "1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00"],
-        "raw_text" : "゜みンれホ<0B><0F><pad><kanji><0A>にトわムふハ",
-        "alt_text" : "゜ミんレほ<0B><0F><pad><kanji><0A>ニとワむフは",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Name entry and misc game menus",
-        "string_start" : "0x1c30f",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 4,
-        "raw" : ["f8", "d5", "f1", "00"],
-        "raw_text" : "リゆム",
-        "alt_text" : "りユむ",
+        "raw_size" : 44,
+        "raw" : ["0b", "0f", "05", "1d", "08", "1e", "3e", "1f", "3f", "40", "60", "41", "61", "0b", "03", "12", "1d", "0a", "d1", "f1", "00", "d6", "00", "ff", "d0", "fd", "da", "ee", "0b", "0f", "0d", "1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00", "f8", "d5", "f1", "00"],
+        "raw_text" : "<0B><0F><05>武器<0B>\n<12>フィ―ルド<0b><0f><0d>オプツョソ",
+        "alt_text" : "<0B><0F><05>武器<0B>\n<12>フィ―ルド<0b><0f><0d>オプツョソ",
         "trans_size" : 0,
         "trans_text" : ""
     },
