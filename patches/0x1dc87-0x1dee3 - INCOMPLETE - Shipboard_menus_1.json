@@ -1,0 +1,594 @@
+{
+"block_description" : "Shipboard menus",
+"block_start" : "0x1dc87",
+"block_end" : "0x1dee3",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "Shipboard menus - science lab",
+        "string_start" : "0x1dc87",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 8,
+        "raw" : ["20", "1d", "04", "cf", "f1", "db", "f2", "02"],
+        "raw_text" : " ラボ",
+        "alt_text" : " ラボ",
+        "trans_size" : 0,
+        "trans_text" : " Lab"
+    },
+
+    {
+        "string_description" : "Shipboard menus - medbay",
+        "string_start" : "0x1dc8f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "d3", "f3", "dd", "ed", "00", "d6", "c7", "e5", "d0", "fd", "02"],
+        "raw_text" : " メディカル",
+        "alt_text" : " メディカル",
+        "trans_size" : 0,
+        "trans_text" : " Medbay"
+    },
+
+    {
+        "string_description" : "Shipboard menus - lounge",
+        "string_start" : "0x1dc9d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "cf", "f1", "c5", "e9", "d5", "f1", "d9", "ea", "02"],
+        "raw_text" : " ラウソヅ",
+        "alt_text" : " ラウソヅ",
+        "trans_size" : 0,
+        "trans_text" : " Lounge"
+    },
+
+    {
+        "string_description" : "Shipboard menus - ",
+        "string_start" : "0x1dca9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "d0", "f0", "d5", "f1", "f9", "e5", "00", "ff", "02"],
+        "raw_text" : " ハソガ―",
+        "alt_text" : " ハソガ―",
+        "trans_size" : 0,
+        "trans_text" : " Mecha"
+    },
+
+    {
+        "string_description" : "Shipboard menus - med bay",
+        "string_start" : "0x1dcb5",
+        "method" : 3,
+        "start_bytes" : ["00"],
+        "end_bytes" : ["02"],
+        "raw_size" : 15,
+        "raw" : ["00", "20", "1d", "0a", "d3", "f3", "dd", "ed", "00", "d6", "c7", "e5", "d0", "fd", "02"],
+        "raw_text" : "<end> メディカル",
+        "alt_text" : "<end> メディカル",
+        "trans_size" : 0,
+        "trans_text" : " Medbay"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dcc4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "cf", "f1", "c5", "e9", "d5", "f1", "d9", "ea", "02"],
+        "raw_text" : " ラウソヅ",
+        "alt_text" : " ラウソヅ",
+        "trans_size" : 0,
+        "trans_text" : " Lounge"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dcd0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "d0", "f0", "d5", "f1", "f9", "e5", "00", "ff", "02"],
+        "raw_text" : " ハソガ―",
+        "alt_text" : " ハソガ―",
+        "trans_size" : 0,
+        "trans_text" : " Mecha"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dcdc",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "fb", "f1", "fe", "e9", "00", "d7", "d9", "ea", "02"],
+        "raw_text" : " ブリッヅ",
+        "alt_text" : " ブリッヅ",
+        "trans_size" : 0,
+        "trans_text" : " Bridge"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dce8",
+        "method" : 3,
+        "start_bytes" : ["00"],
+        "end_bytes" : ["02"],
+        "raw_size" : 13,
+        "raw" : ["00", "20", "1d", "08", "cf", "f1", "c5", "e9", "d5", "f1", "d9", "ea", "02"],
+        "raw_text" : "<end> ラウソヅ",
+        "alt_text" : "<end> ラウソヅ",
+        "trans_size" : 0,
+        "trans_text" : " Lounge"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dcf5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "d0", "f0", "d5", "f1", "f9", "e5", "00", "ff", "02"],
+        "raw_text" : " ハソガ―",
+        "alt_text" : " ハソガ―",
+        "trans_size" : 0,
+        "trans_text" : " Mecha"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd01",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "fb", "f1", "fe", "e9", "00", "d7", "d9", "ea", "02"],
+        "raw_text" : " ブリッヅ",
+        "alt_text" : " ブリッヅ",
+        "trans_size" : 0,
+        "trans_text" : " Bridge"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd0d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 8,
+        "raw" : ["20", "1d", "04", "cf", "f1", "db", "f2", "02"],
+        "raw_text" : " ラボ",
+        "alt_text" : " ラボ",
+        "trans_size" : 0,
+        "trans_text" : " Lab"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd15",
+        "method" : 3,
+        "start_bytes" : ["00"],
+        "end_bytes" : ["02"],
+        "raw_size" : 13,
+        "raw" : ["00", "20", "1d", "08", "d0", "f0", "d5", "f1", "f9", "e5", "00", "ff", "02"],
+        "raw_text" : "<end> ハソガ―",
+        "alt_text" : "<end> ハソガ―",
+        "trans_size" : 0,
+        "trans_text" : " Mecha"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd22",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "fb", "f1", "fe", "e9", "00", "d7", "d9", "ea", "02"],
+        "raw_text" : " ブリッヅ",
+        "alt_text" : " ブリッヅ",
+        "trans_size" : 0,
+        "trans_text" : " Bridge"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd2e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 8,
+        "raw" : ["20", "1d", "04", "cf", "f1", "db", "f2", "02"],
+        "raw_text" : " ラボ",
+        "alt_text" : " ラボ",
+        "trans_size" : 0,
+        "trans_text" : " Lab"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd36",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "d3", "f3", "dd", "ed", "00", "d6", "c7", "e5", "d0", "fd", "02"],
+        "raw_text" : " メディカル",
+        "alt_text" : " メディカル",
+        "trans_size" : 0,
+        "trans_text" : " Medbay"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd44",
+        "method" : 3,
+        "start_bytes" : ["00"],
+        "end_bytes" : ["02"],
+        "raw_size" : 13,
+        "raw" : ["00", "20", "1d", "08", "fb", "f1", "fe", "e9", "00", "d7", "d9", "ea", "02"],
+        "raw_text" : "<end> ブリッヅ",
+        "alt_text" : "<end> ブリッヅ",
+        "trans_size" : 0,
+        "trans_text" : " Bridge"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd51",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 8,
+        "raw" : ["20", "1d", "04", "cf", "f1", "db", "f2", "02"],
+        "raw_text" : " ラボ",
+        "alt_text" : " ラボ",
+        "trans_size" : 0,
+        "trans_text" : " Lab"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd59",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "d3", "f3", "dd", "ed", "00", "d6", "c7", "e5", "d0", "fd", "02"],
+        "raw_text" : " メディカル",
+        "alt_text" : " メディカル",
+        "trans_size" : 0,
+        "trans_text" : " Medbay"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dd67",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "cf", "f1", "c5", "e9", "d5", "f1", "d9", "ea", "02"],
+        "raw_text" : " ラウソヅ",
+        "alt_text" : " ラウソヅ",
+        "trans_size" : 0,
+        "trans_text" : " Lounge"
+    },
+
+    {
+        "string_description" : "Shipboard menus - survey",
+        "string_start" : "0x1dd73",
+        "method" : 3,
+        "start_bytes" : ["00"],
+        "end_bytes" : ["02"],
+        "raw_size" : 13,
+        "raw" : ["00", "20", "1d", "08", "5c", "7c", "5d", "7d", "5e", "7e", "5f", "7f", "02"],
+        "raw_text" : "<end> 調査",
+        "alt_text" : "<end> 調査",
+        "trans_size" : 0,
+        "trans_text" : " Scan"
+    },
+
+    {
+        "string_description" : "Shipboard menus - land",
+        "string_start" : "0x1dd80",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "80", "a0", "81", "a1", "82", "a2", "83", "a3", "02"],
+        "raw_text" : " 着陸",
+        "alt_text" : " 着陸",
+        "trans_size" : 0,
+        "trans_text" : " Land"
+    },
+
+    {
+        "string_description" : "Shipboard menus - Short jump",
+        "string_start" : "0x1dd8c",
+        "method" : 3,
+        "start_bytes" : ["20", "1d", "02", "9e", "be"],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "9e", "be", "d9", "ea", "00", "f7", "d5", "f1", "dc", "f1", "02"],
+        "raw_text" : " Sヅャソプ",
+        "alt_text" : " Sヅャソプ",
+        "trans_size" : 0,
+        "trans_text" : "Jump"
+    },
+
+    {
+        "string_description" : "Shipboard menus - Long jump",
+        "string_start" : "0x1dd9a",
+        "method" : 3,
+        "start_bytes" : ["20", "1d", "02", "9f", "bf"],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "9f", "bf", "d9", "ea", "00", "f7", "d5", "f1", "dc", "f1", "02"],
+        "raw_text" : " Lヅャソプ",
+        "alt_text" : " Lヅャソプ",
+        "trans_size" : 0,
+        "trans_text" : "Jump"
+    },
+
+    {
+        "string_description" : "Shipboard menus - move, launch to orbit",
+        "string_start" : "0x1dda8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 24,
+        "raw" : ["20", "1d", "08", "84", "a4", "85", "a5", "86", "a6", "87", "a7", "00", "20", "1d", "08", "9a", "ba", "9b", "bb", "82", "a2", "83", "a3", "02"],
+        "raw_text" : " 移動<end> 離陸",
+        "alt_text" : " 移動<end> 離陸",
+        "trans_size" : 0,
+        "trans_text" : " Move<00> Launch"
+    },
+
+    {
+        "string_description" : "Shipboard menus - move, analysis",
+        "string_start" : "0x1ddc0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 24,
+        "raw" : ["20", "1d", "08", "84", "a4", "85", "a5", "86", "a6", "87", "a7", "00", "20", "1d", "08", "88", "a8", "89", "a9", "8a", "aa", "8b", "ab", "02"],
+        "raw_text" : " 移動<end> 分析",
+        "alt_text" : " 移動<end> 分析",
+        "trans_size" : 0,
+        "trans_text" : " Move<00> Data"
+    },
+
+    {
+        "string_description" : "Shipboard menus - move, treatment",
+        "string_start" : "0x1ddd8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 24,
+        "raw" : ["20", "1d", "08", "84", "a4", "85", "a5", "86", "a6", "87", "a7", "00", "20", "1d", "08", "16", "36", "17", "37", "18", "38", "19", "39", "02"],
+        "raw_text" : " 移動<end> 治療",
+        "alt_text" : " 移動<end> 治療",
+        "trans_size" : 0,
+        "trans_text" : " Move<00> Heal"
+    },
+
+    {
+        "string_description" : "Shipboard menus - save game or generate password",
+        "string_start" : "0x1ddf0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 18,
+        "raw" : ["20", "1d", "0e", "c9", "e9", "ef", "f5", "00", "ff", "d5", "f1", "ca", "e8", "00", "ff", "da", "ee", "02"],
+        "raw_text" : " クロ―ソコ―ド",
+        "alt_text" : " クロ―ソコ―ド",
+        "trans_size" : 0,
+        "trans_text" : " Cloning"
+    },
+
+    {
+        "string_description" : "Shipboard menus - move, team stats",
+        "string_start" : "0x1de02",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 22,
+        "raw" : ["20", "1d", "08", "84", "a4", "85", "a5", "86", "a6", "87", "a7", "00", "20", "1d", "06", "dd", "ed", "00", "ff", "ce", "ec", "02"],
+        "raw_text" : " 移動<end> デ―タ",
+        "alt_text" : " 移動<end> デ―タ",
+        "trans_size" : 0,
+        "trans_text" : " Move<00> Stats"
+    },
+
+    {
+        "string_description" : "Shipboard menus - team swap menu",
+        "string_start" : "0x1de18",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "fa", "f0", "00", "ff", "cf", "ed", "00", "d6", "00", "ff", "02"],
+        "raw_text" : " パ―ティ―",
+        "alt_text" : " パ―ティ―",
+        "trans_size" : 0,
+        "trans_text" : " Team"
+    },
+
+    {
+        "string_description" : "Shipboard menus - move, repair",
+        "string_start" : "0x1de26",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 24,
+        "raw" : ["20", "1d", "08", "84", "a4", "85", "a5", "86", "a6", "87", "a7", "00", "20", "1d", "08", "12", "32", "13", "33", "14", "34", "15", "35", "02"],
+        "raw_text" : " 移動<end> 修理",
+        "alt_text" : " 移動<end> 修理",
+        "trans_size" : 0,
+        "trans_text" : " Move<00> Fix"
+    },
+
+    {
+        "string_description" : "Shipboard menus - weapons",
+        "string_start" : "0x1de3e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "98", "b8", "99", "b9", "40", "60", "41", "61", "02"],
+        "raw_text" : " 兵器",
+        "alt_text" : " 兵器",
+        "trans_size" : 0,
+        "trans_text" : " Arms"
+    },
+
+    {
+        "string_description" : "Shipboard menus - equipment",
+        "string_start" : "0x1de4a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "58", "78", "59", "79", "5a", "7a", "5b", "7b", "02"],
+        "raw_text" : " 装備",
+        "alt_text" : " 装備",
+        "trans_size" : 0,
+        "trans_text" : " Equip"
+    },
+
+    {
+        "string_description" : "Shipboard menus - modify",
+        "string_start" : "0x1de56",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "d4", "f4", "d9", "ea", "00", "d8", "00", "ff", "d0", "fd", "02"],
+        "raw_text" : " モヅュ―ル",
+        "alt_text" : " モヅュ―ル",
+        "trans_size" : 0,
+        "trans_text" : " Modify"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1de64",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "8c", "ac", "8d", "ad", "52", "72", "53", "73", "02"],
+        "raw_text" : " 出撃",
+        "alt_text" : " 出撃",
+        "trans_size" : 0,
+        "trans_text" : " Depart"
+    },
+
+    {
+        "string_description" : "Shipboard menus - move, weapons",
+        "string_start" : "0x1de70",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 24,
+        "raw" : ["20", "1d", "08", "84", "a4", "85", "a5", "86", "a6", "87", "a7", "00", "20", "1d", "08", "1e", "3e", "1f", "3f", "40", "60", "41", "61", "02"],
+        "raw_text" : " 移動<end> 武器",
+        "alt_text" : " 移動<end> 武器",
+        "trans_size" : 0,
+        "trans_text" : " Move<00> Hand"
+    },
+
+    {
+        "string_description" : "Shipboard menus - mecha options?",
+        "string_start" : "0x1de88",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00", "f8", "d5", "f1", "02"],
+        "raw_text" : " オプツョソ",
+        "alt_text" : " オプツョソ",
+        "trans_size" : 0,
+        "trans_text" : " Missl"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1de96",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "d1", "f1", "00", "d6", "00", "ff", "d0", "fd", "da", "ee", "02"],
+        "raw_text" : " フィ―ルド",
+        "alt_text" : " フィ―ルド",
+        "trans_size" : 0,
+        "trans_text" : " Field"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dea4",
+        "method" : 3,
+        "start_bytes" : ["00"],
+        "end_bytes" : ["02"],
+        "raw_size" : 13,
+        "raw" : ["00", "20", "1d", "08", "12", "32", "13", "33", "14", "34", "15", "35", "02"],
+        "raw_text" : "<end> 修理",
+        "alt_text" : "<end> 修理",
+        "trans_size" : 0,
+        "trans_text" : " Fix"
+    },
+
+    {
+        "string_description" : "Shipboard menus - Weapons",
+        "string_start" : "0x1deb1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "98", "b8", "99", "b9", "40", "60", "41", "61", "02"],
+        "raw_text" : " 兵器",
+        "alt_text" : " 兵器",
+        "trans_size" : 0,
+        "trans_text" : " Data"
+    },
+
+    {
+        "string_description" : "Shipboard menus - equipment",
+        "string_start" : "0x1debd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "58", "78", "59", "79", "5a", "7a", "5b", "7b", "02"],
+        "raw_text" : " 装備",
+        "alt_text" : " 装備",
+        "trans_size" : 0,
+        "trans_text" : " Equip"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1dec9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 14,
+        "raw" : ["20", "1d", "0a", "d4", "f4", "d9", "ea", "00", "d8", "00", "ff", "d0", "fd", "02"],
+        "raw_text" : " モヅュ―ル",
+        "alt_text" : " モヅュ―ル",
+        "trans_size" : 0,
+        "trans_text" : " Mecha"
+    }
+]}

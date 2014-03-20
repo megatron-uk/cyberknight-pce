@@ -1,0 +1,216 @@
+{
+"block_description" : "Shipboard menus 2?",
+"block_start" : "0x1e71c",
+"block_end" : "0x1ea86",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e71c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e71d",
+        "method" : 3,
+        "start_bytes" : ["10", "34"],
+        "end_bytes" : ["00"],
+        "raw_size" : 29,
+        "raw" : ["10", "34", "a2", "cc", "de", "dd", "be", "b7", "20", "b6", "dd", "d8", "ae", "b3", "21", "03", "0f", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "d7", "03", "00"],
+        "raw_text" : "<PROFESSOR>『ぶんせき かんりょう!\n<0F>の ざんがいから\n",
+        "alt_text" : "<PROFESSOR>『ブンセキ カンリョウ!\n<0F>ノ ザンガイカラ\n",
+        "trans_size" : 0,
+        "trans_text" : ": Wreckage scan complete!"
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e73a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 34,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "c0", "c0", "de", "c1", "c6", "20", "be", "b2", "bf", "de", "b3", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nただちに せいぞうに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nタダチニ セイゾウニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e75c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 67,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "d3", "bc", "de", "ad", "b0", "d9", "5c", "c9", "20", "c0", "b2", "b7", "ad", "b3", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nモジュ‐ルの たいきゅうりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nもじゅ―るノ タイキュウリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e79f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 70,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "c9", "20", "c0", "de", "b9", "de", "b7", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nインパクトへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nいんぱくとヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e7e5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 69,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "c9", "20", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nインパクトへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nいんぱくとヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e82a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 69,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "c9", "20", "c0", "de", "b9", "de", "b7", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nレ‐ザ‐へいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nれ―ざ―ヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e86f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 68,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "c9", "20", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nレ‐ザ‐へいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nれ―ざ―ヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e8b3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 68,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "cb", "de", "b0", "d1", "5c", "cd", "b2", "b7", "c9", "20", "c0", "de", "b9", "de", "b7", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nビ‐ムへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nび―むヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e8f7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 67,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "cb", "de", "b0", "d1", "5c", "cd", "b2", "b7", "c9", "20", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nビ‐ムへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nび―むヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e93a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 67,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "cb", "b0", "c4", "5c", "cd", "b2", "b7", "c9", "20", "c0", "de", "b9", "de", "b7", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nヒ‐トへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nひ―とヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e97d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 66,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "cb", "b0", "c4", "5c", "cd", "b2", "b7", "c9", "20", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nヒ‐トへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nひ―とヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1e9bf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 68,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "d0", "bb", "b2", "d9", "5c", "cd", "b2", "b7", "c9", "20", "c0", "de", "b9", "de", "b7", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nミサイルへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nみさいるヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1ea03",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 67,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "d0", "bb", "b2", "d9", "5c", "cd", "b2", "b7", "c9", "20", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nミサイルへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nみさいるヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 2?",
+        "string_start" : "0x1ea46",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 64,
+        "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "d3", "bc", "de", "ad", "b0", "d9", "5c", "c9", "20", "bf", "b3", "ba", "b3", "c1", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
+        "raw_text" : " を かいはつした。\nモジュ‐ルの そうこうちを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
+        "alt_text" : " ヲ カイハツシタ。\nもじゅ―るノ ソウコウチヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]}

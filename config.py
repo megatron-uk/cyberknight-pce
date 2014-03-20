@@ -10,6 +10,7 @@
 # Required for extractScript
 ROM_NAME = "Cyber Knight (J).pce"
 TABLE_NAME = "CyberKnightTranslation.csv"
+TABLE_NAME_DOUBLE = "CyberKnightKanjiTranslation.csv"
 OUT_NAME = "Script.json"
 # Additional requirements for injectScript
 OUT_ROM_NAME = "Cyber Knight (E).pce"
@@ -25,6 +26,9 @@ VERBOSE = False
 # The byte which determines which translation table to use
 SWITCH_MODE = '5C'
 
+# The byte that tells us a double height char is next
+KANJI_CODE = '1D'
+
 # All possible dakuten bytes
 DAKUTEN_ALL = ["DE", "DF"]
 
@@ -36,7 +40,7 @@ DAKUTEN_REPLACE = "DE"
 
 # Start byte of a PC/NPC name string
 PC_NAME = "10"
-PC_NAMES = ["28", "30"]
+PC_NAMES = ["28", "29", "2a", "2b", "2c", "30", "34"]
 
 
 # Text extraction method
@@ -79,23 +83,28 @@ METHOD_CONTIGUOUS = 2
 #	C: end address
 #	D: insertion type (SIMPLE, CONTIGUOUS)
 #	E: textual description of what this block of text represents, if known
-#	F: end byte
+#	F: string end byte delimiter
 
 BYTES = [
 
-	(METHOD_3, 0x1c040, 0x1c87d, METHOD_SIMPLE, "unknown 1", "\x00"),
-	#(METHOD_3, 0x1c79a, 0x1c7b1, METHOD_SIMPLE, "unknown 2", "\x00"),
-	#(METHOD_3, 0x1cc06, 0x1ccac, METHOD_SIMPLE, "unknown 3", "\x00"),
-	#(METHOD_3, 0x1ccbf, 0x1cda0, METHOD_SIMPLE, "unknown 4", "\x00"),
-	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),
+	# just use this one for looking at all strings
+	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
 	
-	#(METHOD_3, 0x1c87e, 0x1c90d, METHOD_SIMPLE, "Main menu text and configuration options.", "\x00"),
-	#(METHOD_3, 0x1c098, 0x1c0ac, METHOD_SIMPLE, "Player name entry screen.", "\x00"),
+	# interesting sections of the rom...
+	#(METHOD_3, 0x1b8d6, 0x1bfdf, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics.", "\x00"),
+	#(METHOD_3, 0x1c01c, 0x1c90d, METHOD_SIMPLE, "Main menu text and configuration options.", "\x00"),
+	#(METHOD_3, 0x1c952, 0x1ca2b, METHOD_SIMPLE, "Additional game menus.", "\x00"),
 	#(METHOD_3, 0x1cbad, 0x1ccac, METHOD_SIMPLE, "NPC character names.", "\x00"),
-	#(METHOD_3, 0x28086, 0x28949, METHOD_SIMPLE, "Unknown.", "\x00"),
-	#(METHOD_3, 0x1b8d6, 0x1bca6, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics.", "\x00"),
-	#(METHOD_1, 0x1defc, 0x1e0a5, METHOD_SIMPLE, "Possible ship dialogue for first world."),
-	#(METHOD_2, 0x29eff, 0x2a1ad, METHOD_SIMPLE, "Introductory cinematics."),
-	#(METHOD_3, 0x2a74c, 0x2a930, METHOD_SIMPLE, "Short scene after scrolling intro text.", "\x1c"),
+	#(METHOD_3, 0x1d59f, 0x1dc7a, METHOD_SIMPLE, "Weapon list", "\x00"),
+	#(METHOD_3, 0x1dc87, 0x1dee3, METHOD_SIMPLE, "Shipboard menus", "\x02"),
+	#(METHOD_3, 0x1e71c, 0x1ea86, METHOD_SIMPLE, "Professor lab screen", "\x00"),
+	#(METHOD_3, 0x1ea88, 0x1ec00, METHOD_SIMPLE, "Mecha overview screen", "\x20"),	
+	#(METHOD_3, 0x1ec08, 0x1edfa, METHOD_SIMPLE, "CLosing credits", "\x20"),
+	#(METHOD_3, 0x1ee0f, 0x1f0df, METHOD_SIMPLE, "Staff credits", "\x00"),
+	(METHOD_3, 0x1f0f4, 0x1ffe0, METHOD_CONTIGUOUS, "???", "\x00"),
 
+	#(METHOD_3, 0x28086, 0x28949, METHOD_SIMPLE, "Unknown.", "\x00"),
+	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),	
+	#(METHOD_3, 0x2a74c, 0x2a930, METHOD_SIMPLE, "Short scene after scrolling intro text.", "\x1c"),
+	
 ]

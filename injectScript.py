@@ -80,16 +80,19 @@ def patch_file(patchfile, patch, romfile):
 	
 	for patch_segment in patch["data"]["data"]:
 		apply_patch = True
+		raw = False
 		s = []
 		if len(patch_segment["trans_text"]) == 0:
+			raw = True
 			if VERBOSE:
 				print "---"
-				print "%s - Skipping zero-length translation - reusing untranslated string" % patch_segment["string_start"]
+				print "%s - Reusing untranslated string (%s calculated, %s actual)" % (patch_segment["string_start"], patch_segment["raw_size"], len(patch_segment["raw"]))
 			for sb in patch_segment["start_bytes"]:
 				contiguous_text += "<" + sb + ">"
 			contiguous_text += patch_segment["raw_text"]			
-			for b in patch_segment["raw"]:
-				s.append(b)
+			#for b in patch_segment["raw"]:
+			#	s.append(b)
+			s = patch_segment["raw"]
 			for eb in patch_segment["end_bytes"]:
 				contiguous_text += "<" + eb + ">"
 		else:
@@ -183,7 +186,13 @@ def patch_file(patchfile, patch, romfile):
 		# Are we simple patching? i.e. a fixed number of characters?
 		if patch["data"]["insert_method"] == METHOD_SIMPLE:
 			if apply_patch:
-				write_text(s)
+				# We shouldn't need to write unchanged strings back out,
+				# at least in simple mode, so just move the file pointer
+				# onwards by the size of this untranslated string...
+				if raw:
+					FILE.seek(patch_segment["raw_size"])
+				else:
+					write_text(s, patch_segment["string_start"], raw)
 		
 		if patch["data"]["insert_method"] == METHOD_CONTIGUOUS:
 			if apply_patch:
@@ -205,10 +214,10 @@ def patch_file(patchfile, patch, romfile):
 			print "ERROR! Cannot use patch larger than available space!"
 		else:		
 			FILE.seek(int(patch["data"]["block_start"], 16))
-			write_text(contiguous_patch)
+			write_text(contiguous_patch, patch["data"]["block_start"])
 	return True
 
-def write_text(encoded_string):
+def write_text(encoded_string, address, raw = False):
 	"""
 	Write the encoded character list back as their literal hex equivalents back to the in-memory file.
 	"""
@@ -360,7 +369,9 @@ if os.path.isdir(PATCH_DIR_NAME):
 		sys.exit(2)
 	else:
 		print "Patches Found: %s <- OK" % len(PATCH_FILES) 
-		for d in PATCH_FILES.keys():
+		keys = PATCH_FILES.keys()
+		keys.sort()
+		for d in keys:
 			try:
 				PATCH_FILES[d]["json"] = open(PATCH_DIR_NAME + "/" + d).read()
 				PATCH_FILES[d]["data"] = json.loads(PATCH_FILES[d]["json"])
@@ -388,7 +399,9 @@ print "============================"
 FILE = StringIO.StringIO()
 romfile = open(ROM_NAME).read()
 FILE.write(romfile)
-for f in PATCH_FILES.keys():
+keys = PATCH_FILES.keys()
+keys.sort()
+for f in keys:
 	print "================="
 	print "Applying %s" % f
 	print "-----------------"

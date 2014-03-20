@@ -67,7 +67,6 @@ def translate_double_string(bytes, trans_table_double, alt=False):
 	"""
 
 	new_bytes = []
-	print bytes
 	# Can only work with even string lengths
 	if (len(bytes)%2==0):
 		if VERBOSE:
@@ -155,24 +154,29 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False):
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
 		#print "Index %s" % i
 		already_decoded = False
+		decode_it = False
 		b1 = str(binascii.hexlify(byte_sequence["bytes"][i-1])).upper()
 		# Don't process dakuten/handakuten
 		# Is the next byte a dakuten/handakuten?
 		b2 = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
 		if b2 in DAKUTEN:
 			if i > already_i:
-				#print "Processing Index %s" % i
+				if VERBOSE:
+					print "Processing composite dakuten char at Index %s" % i
 				# Use a composite byte instead
 				b = b1 + b2
 				already_i = i + 1
-		elif (b1 == PC_NAME) and (b2 in PC_NAMES):
+				decode_it = True
+		elif (b1 == PC_NAME) and (b2.upper() in PC_NAMES):
 			if i > already_i:
-				#print "Processing Index %s" % i
+				if VERBOSE:
+					print "Processing PC name at Index %s" % i
 				b = b1 + b2
 				already_i = i + 1
+				decode_it = True
 		elif (b1 == KANJI_CODE):
 			if VERBOSE:
-				print "Index %s" % i
+				print "Processing double height char at Index %s" % i
 			if i > already_i:
 				double_byte_pos = byte_sequence["start_pos"] + i
 				
@@ -195,6 +199,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False):
 					else:
 						if VERBOSE:
 							print "Not a Kanji code @ %s (%s %s, but only %s bytes)" % (hex(double_byte_pos), b1, b2, len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]))
+						decode_it = True
 						b = b1
 				except Exception as e:
 					print traceback.format_exc()
@@ -205,7 +210,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False):
 				#print "Processing Index %s" % i
 				b = b1		
 		bt = ""
-		if (i > already_i) and (already_decoded == False):
+		if ((i > already_i) and (already_decoded == False)) or (decode_it == True):
 			if switch_mode:
 				if b == SWITCH_MODE:
 					switch_mode = False
@@ -669,12 +674,18 @@ print ""
 
 print "Extracting dialogue"
 print "==================="
+print ""
 found_byte_strings = []
 # Sort dialogue ranges by starting address
 SORTED_BYTES = sorted(BYTES, key=lambda t: t[1])
 for byte_range in SORTED_BYTES:
+	data = []
+	cnt = 0
+	print "================="
+	print "Extracting %s-%s" % (hex(byte_range[1]), hex(byte_range[2]))
+	print "-----------------"
 	if byte_range[0] == METHOD_1:
-		print "%s - %s (Method 1) : %s" % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
+		print "Extract Method 1 : Insert Method %s" % (byte_range[3])
 		data = {}
 		data["block_description"] = byte_range[4]
 		data["block_start"] = byte_range[1]
@@ -683,7 +694,7 @@ for byte_range in SORTED_BYTES:
 		data["data"] = method1(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
 		found_byte_strings.append(data)
 	if byte_range[0] == METHOD_2:
-		print "%s - %s (Method 2) : %s" % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
+		print "Extract Method 2 : Insert Method %s" % (byte_range[3])
 		data = {}
 		data["block_description"] = byte_range[4]
 		data["block_start"] = byte_range[1]
@@ -692,7 +703,7 @@ for byte_range in SORTED_BYTES:
 		data["data"] = method2(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
 		found_byte_strings.append(data)
 	if byte_range[0] == METHOD_3:
-		print "%s - %s (Method 3) : %s " % (hex(byte_range[1]), hex(byte_range[2]), byte_range[3])
+		print "Extract Method 3 : Insert Method %s " % (byte_range[3])
 		data = {}
 		data["block_description"] = byte_range[4]
 		data["block_start"] = byte_range[1]
@@ -701,28 +712,33 @@ for byte_range in SORTED_BYTES:
 		data["end_byte"] = byte_range[5]
 		data["data"] = method3(data["block_start"], data["block_end"], data["insert_method"], data["block_description"], data["end_byte"])
 		found_byte_strings.append(data)
+	print "Total Strings: %s" % len(data["data"])
+	for d in data["data"]:
+		cnt = cnt + d["size"]
+	print "Total Bytes: %s" % cnt
+	print ""
 print "Done"
-
-#############################################
-# Write strings to document
-#############################################
-
-print "\nWriting Document"
-print "=================="
-report_stats = write_export(found_byte_strings)
-
-#############################################
-# Show what we found
-#############################################
-
-print "\nDocument stats"
-print "================"
-document_stats(report_stats)
-
-#############################################
-# Show any missing characters
-#############################################
-
-print "\nMissing data stats"
-print "===================="
-missing_stats()
+if len(SORTED_BYTES) > 0:
+	#############################################
+	# Write strings to document
+	#############################################
+	
+	print "\nWriting Document"
+	print "=================="
+	report_stats = write_export(found_byte_strings)
+	
+	#############################################
+	# Show what we found
+	#############################################
+	
+	print "\nDocument stats"
+	print "================"
+	document_stats(report_stats)
+	
+	#############################################
+	# Show any missing characters
+	#############################################
+	
+	print "\nMissing data stats"
+	print "===================="
+	missing_stats()

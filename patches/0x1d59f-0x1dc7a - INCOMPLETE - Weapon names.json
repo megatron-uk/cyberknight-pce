@@ -1,0 +1,1980 @@
+{
+"block_description" : "Weapon list",
+"block_start" : "0x1d5b3",
+"block_end" : "0x1dc7a",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "Weapon list - Laser Gun",
+        "string_start" : "0x1d5b3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "da", "b2", "b6", "de", "dd", "00"],
+        "raw_text" : "レイガン",
+        "alt_text" : "れいがん",
+        "trans_size" : 0,
+        "trans_text" : "Laser"
+    },
+
+    {
+        "string_description" : "Weapon list - Laser Rifle",
+        "string_start" : "0x1d5ba",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "da", "b0", "bb", "de", "d7", "b2", "cc", "d9", "00"],
+        "raw_text" : "レ‐ザライフル",
+        "alt_text" : "れ―ざらいふる",
+        "trans_size" : 0,
+        "trans_text" : "LaserRfle"
+    },
+
+    {
+        "string_description" : "Weapon list - Laser Sword?",
+        "string_start" : "0x1d5c4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "da", "b2", "cc", "de", "da", "b0", "c4", "de", "00"],
+        "raw_text" : "レイブレ‐ド",
+        "alt_text" : "れいぶれ―ど",
+        "trans_size" : 0,
+        "trans_text" : "LaserSwrd"
+    },
+
+    {
+        "string_description" : "Weapon list - Laser pulse gun?",
+        "string_start" : "0x1d5ce",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "ca", "df", "d9", "bd", "da", "b0", "bb", "de", "b0", "00"],
+        "raw_text" : "パルスレ‐ザ‐",
+        "alt_text" : "ぱるすれ―ざ―",
+        "trans_size" : 0,
+        "trans_text" : "PulseLaser"
+    },
+
+    {
+        "string_description" : "Weapon list - Hyper laser?",
+        "string_start" : "0x1d5d9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "ca", "b2", "ca", "df", "b0", "da", "b0", "bb", "de", "b0", "00"],
+        "raw_text" : "ハイパ‐レ‐ザ‐",
+        "alt_text" : "はいぱ―れ―ざ―",
+        "trans_size" : 0,
+        "trans_text" : "HyperLaser"
+    },
+
+    {
+        "string_description" : "Weapon list - Plasma Gun",
+        "string_start" : "0x1d5e5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "cc", "df", "d7", "bd", "de", "cf", "b6", "de", "dd", "00"],
+        "raw_text" : "プラズマガン",
+        "alt_text" : "ぷらずまがん",
+        "trans_size" : 0,
+        "trans_text" : "PlasmaGun"
+    },
+
+    {
+        "string_description" : "Weapon list - Plasma Rfle",
+        "string_start" : "0x1d5f0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "cc", "df", "d7", "bd", "de", "cf", "d7", "b2", "cc", "d9", "00"],
+        "raw_text" : "プラズマライフル",
+        "alt_text" : "ぷらずまらいふる",
+        "trans_size" : 0,
+        "trans_text" : "PlasmaRfle"
+    },
+
+    {
+        "string_description" : "Weapon list - Plasma Cann",
+        "string_start" : "0x1d5fc",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "cc", "df", "d7", "bd", "de", "cf", "b7", "ac", "c9", "dd", "00"],
+        "raw_text" : "プラズマキャノン",
+        "alt_text" : "ぷらずまきゃのん",
+        "trans_size" : 0,
+        "trans_text" : "PlasmaCann"
+    },
+
+    {
+        "string_description" : "Weapon list - Heat Ray",
+        "string_start" : "0x1d608",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "cb", "b0", "c4", "b6", "de", "dd", "00"],
+        "raw_text" : "ヒ‐トガン",
+        "alt_text" : "ひ―とがん",
+        "trans_size" : 0,
+        "trans_text" : "HeatRay"
+    },
+
+    {
+        "string_description" : "Weapon list - Heat/Fire Blstr",
+        "string_start" : "0x1d610",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "cc", "a7", "b2", "b1", "cc", "de", "d7", "bd", "c0", "b0", "00"],
+        "raw_text" : "ファイアブラスタ‐",
+        "alt_text" : "ふぁいおぶらすた―",
+        "trans_size" : 0,
+        "trans_text" : "HeatBlast"
+    },
+
+    {
+        "string_description" : "Weapon list - NovaFlame/Blaster",
+        "string_start" : "0x1d61c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "c9", "b3", "de", "a7", "cc", "da", "b2", "d1", "00"],
+        "raw_text" : "ノヴァフレイム",
+        "alt_text" : "のぁふれいむ",
+        "trans_size" : 0,
+        "trans_text" : "NovaBlast"
+    },
+
+    {
+        "string_description" : "Weapon list - Vulcan-H",
+        "string_start" : "0x1d626",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "ca", "dd", "c4", "de", "ca", "de", "d9", "b6", "dd", "00"],
+        "raw_text" : "ハンドバルカン",
+        "alt_text" : "はんどばるかん",
+        "trans_size" : 0,
+        "trans_text" : "Vulcan-H"
+    },
+
+    {
+        "string_description" : "Weapon list - Missile-H",
+        "string_start" : "0x1d631",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "ca", "dd", "c4", "de", "d0", "bb", "b2", "d9", "00"],
+        "raw_text" : "ハンドミサイル",
+        "alt_text" : "はんどみさいる",
+        "trans_size" : 0,
+        "trans_text" : "Missile-H"
+    },
+
+    {
+        "string_description" : "Weapon list - buster knuckle",
+        "string_start" : "0x1d63b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "c5", "af", "b8", "d9", "ca", "de", "bd", "c0", "b0", "00"],
+        "raw_text" : "ナックルバスタ‐",
+        "alt_text" : "なっくるばすた―",
+        "trans_size" : 0,
+        "trans_text" : "Buster-H"
+    },
+
+    {
+        "string_description" : "Weapon list - sonic blaster",
+        "string_start" : "0x1d646",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "bf", "c6", "af", "b8", "cc", "de", "d7", "bd", "c0", "b0", "00"],
+        "raw_text" : "ソニックブラスタ‐",
+        "alt_text" : "そにっくぶらすた―",
+        "trans_size" : 0,
+        "trans_text" : "SonicBlast"
+    },
+
+    {
+        "string_description" : "Weapon list - grenade launcher",
+        "string_start" : "0x1d652",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["5c", "b8", "de", "da", "c8", "b0", "c4", "de", "d7", "dd", "c1", "ac", "b0", "00"],
+        "raw_text" : "グレネ‐ドランチャ‐",
+        "alt_text" : "ぐれね―どらんちゃ―",
+        "trans_size" : 0,
+        "trans_text" : "Grenade"
+    },
+
+    {
+        "string_description" : "Weapon list - napalm launcher",
+        "string_start" : "0x1d660",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "c5", "ca", "df", "b0", "d1", "d7", "dd", "c1", "ac", "b0", "00"],
+        "raw_text" : "ナパ‐ムランチャ‐",
+        "alt_text" : "なぱ―むらんちゃ―",
+        "trans_size" : 0,
+        "trans_text" : "Napalm"
+    },
+
+    {
+        "string_description" : "Weapon list - rocket launcher",
+        "string_start" : "0x1d66c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "db", "b9", "af", "c4", "d7", "dd", "c1", "ac", "b0", "00"],
+        "raw_text" : "ロケットランチャ‐",
+        "alt_text" : "ろけっとらんちゃ―",
+        "trans_size" : 0,
+        "trans_text" : "Rocket"
+    },
+
+    {
+        "string_description" : "Weapon list - small missile pod",
+        "string_start" : "0x1d677",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "53", "d0", "bb", "b2", "d9", "ce", "df", "af", "c4", "de", "00"],
+        "raw_text" : "Sミサイルポッド",
+        "alt_text" : "Sみさいるぽっど",
+        "trans_size" : 0,
+        "trans_text" : "M-Pod (S)"
+    },
+
+    {
+        "string_description" : "Weapon list - medium missile pod",
+        "string_start" : "0x1d683",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "4d", "d0", "bb", "b2", "d9", "ce", "df", "af", "c4", "de", "00"],
+        "raw_text" : "Mミサイルポッド",
+        "alt_text" : "Mみさいるぽっど",
+        "trans_size" : 0,
+        "trans_text" : "M-Pod (M)"
+    },
+
+    {
+        "string_description" : "Weapon list - large missile pod",
+        "string_start" : "0x1d68f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "4c", "d0", "bb", "b2", "d9", "ce", "df", "af", "c4", "de", "00"],
+        "raw_text" : "Lミサイルポッド",
+        "alt_text" : "Lみさいるぽっど",
+        "trans_size" : 0,
+        "trans_text" : "M-Pod (L)"
+    },
+
+    {
+        "string_description" : "Weapon list - multi missile pod",
+        "string_start" : "0x1d69b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["5c", "cf", "d9", "c1", "d0", "bb", "b2", "d9", "ce", "df", "af", "c4", "de", "00"],
+        "raw_text" : "マルチミサイルポッド",
+        "alt_text" : "まるちみさいるぽっど",
+        "trans_size" : 0,
+        "trans_text" : "M-Pod (Multi)"
+    },
+
+    {
+        "string_description" : "Weapon list - disk integrators / disintegrator?",
+        "string_start" : "0x1d6a9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["5c", "c3", "de", "a8", "bd", "b2", "dd", "c3", "b8", "de", "da", "b0", "c0", "00"],
+        "raw_text" : "ディスインテグレ‐タ",
+        "alt_text" : "でぃすいんてぐれ―た",
+        "trans_size" : 0,
+        "trans_text" : "Disintegrator"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d6b7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["5c", "b1", "dd", "c1", "cc", "df", "db", "c4", "dd", "cb", "de", "b0", "d1", "00"],
+        "raw_text" : "アンチプロトンビ‐ム",
+        "alt_text" : "おんちぷろとんび―む",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list - high energy gamma laser",
+        "string_start" : "0x1d6c5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "b6", "de", "dd", "cf", "da", "b0", "bb", "de", "b0", "00"],
+        "raw_text" : "ガンマレ‐ザ‐",
+        "alt_text" : "がんまれ―ざ―",
+        "trans_size" : 0,
+        "trans_text" : "GammaLaser"
+    },
+
+    {
+        "string_description" : "Weapon list - Negoboru / null ray",
+        "string_start" : "0x1d6d0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "c8", "b6", "de", "ce", "de", "b0", "d9", "00"],
+        "raw_text" : "ネガボ‐ル",
+        "alt_text" : "ねがぼ―る",
+        "trans_size" : 0,
+        "trans_text" : "Negoboru"
+    },
+
+    {
+        "string_description" : "Weapon list - machine gun",
+        "string_start" : "0x1d6d9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "cf", "bc", "dd", "b6", "de", "dd", "00"],
+        "raw_text" : "マシンガン",
+        "alt_text" : "ましんがん",
+        "trans_size" : 0,
+        "trans_text" : "Autogun"
+    },
+
+    {
+        "string_description" : "Weapon list - impact cannon",
+        "string_start" : "0x1d6e1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "b2", "dd", "ca", "df", "b8", "c4", "b7", "ac", "c9", "dd", "00"],
+        "raw_text" : "インパクトキャノン",
+        "alt_text" : "いんぱくときゃのん",
+        "trans_size" : 0,
+        "trans_text" : "Impact Cann"
+    },
+
+    {
+        "string_description" : "Weapon list - claw smasher",
+        "string_start" : "0x1d6ed",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "cf", "af", "bc", "ac", "b0", "b8", "db", "b0", "00"],
+        "raw_text" : "マッシャ‐クロ‐",
+        "alt_text" : "まっしゃ―くろ―",
+        "trans_size" : 0,
+        "trans_text" : "ClawSmash"
+    },
+
+    {
+        "string_description" : "Weapon list - claw smasher",
+        "string_start" : "0x1d6ed",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "cf", "af", "bc", "ac", "b0", "b8", "db", "b0", "00"],
+        "raw_text" : "マッシャ‐クロ‐",
+        "alt_text" : "まっしゃ―くろ―",
+        "trans_size" : 0,
+        "trans_text" : "ClawSmash"
+    },
+
+    {
+        "string_description" : "Weapon list - Acid blaster",
+        "string_start" : "0x1d6f7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "b1", "bc", "af", "c4", "de", "bc", "ad", "b0", "c0", "b0", "00"],
+        "raw_text" : "アシッドシュ‐タ‐",
+        "alt_text" : "おしっどしゅ―た―",
+        "trans_size" : 0,
+        "trans_text" : "AcidBlast"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d703",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["09", "0e", "18", "c7", "2d", "21", "7c", "02", "00"],
+        "raw_text" : "<09><0E><18>ぬ-!<sword>\n",
+        "alt_text" : "<09><0E><18>ヌ-!<sword>\n",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d70c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["09", "0e", "18", "c7", "2d", "21", "7b", "02", "00"],
+        "raw_text" : "<09><0E><18>ぬ-!<gun>\n",
+        "alt_text" : "<09><0E><18>ヌ-!<gun>\n",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d715",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "20", "2d", "2d", "00"],
+        "raw_text" : "---------- --",
+        "alt_text" : "---------- --",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d723",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "2d", "00"],
+        "raw_text" : "-------------",
+        "alt_text" : "-------------",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d731",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 3,
+        "raw" : ["09", "03", "00"],
+        "raw_text" : "<09>\n",
+        "alt_text" : "<09>\n",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d734",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list - shoulder location",
+        "string_start" : "0x1d735",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["1d", "04", "42", "62", "43", "63", "20", "00"],
+        "raw_text" : "肩 ",
+        "alt_text" : "肩 ",
+        "trans_size" : 0,
+        "trans_text" : "Shld"
+    },
+
+    {
+        "string_description" : "Weapon list - arm location",
+        "string_start" : "0x1d73d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["1d", "04", "44", "64", "45", "65", "20", "00"],
+        "raw_text" : "腕 ",
+        "alt_text" : "腕 ",
+        "trans_size" : 0,
+        "trans_text" : "Arm "
+    },
+
+    {
+        "string_description" : "Weapon list - leg location",
+        "string_start" : "0x1d745",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["1d", "04", "46", "66", "47", "67", "20", "00"],
+        "raw_text" : "脚 ",
+        "alt_text" : "脚 ",
+        "trans_size" : 0,
+        "trans_text" : "Leg "
+    },
+
+    {
+        "string_description" : "Weapon list - no field item added!",
+        "string_start" : "0x1d74d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["d6", "cb", "de", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "c5", "bc", "21", "00"],
+        "raw_text" : "よびフィ‐ルドなし!",
+        "alt_text" : "ヨビふぃ―るどナシ!",
+        "trans_size" : 0,
+        "trans_text" : "No Field!!"
+    },
+
+    {
+        "string_description" : "Weapon list - Scramble / Jammer?",
+        "string_start" : "0x1d75c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "b3", "aa", "b0", "cc", "de", "bc", "de", "ac", "cf", "b0", "00"],
+        "raw_text" : "ウェ‐ブジャマ‐",
+        "alt_text" : "うぇ―ぶじゃま―",
+        "trans_size" : 0,
+        "trans_text" : "EM Field"
+    },
+
+    {
+        "string_description" : "Weapon list - MHD Filter Field",
+        "string_start" : "0x1d768",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "4d", "48", "44", "cc", "a8", "b0", "d9", "c4", "de", "00"],
+        "raw_text" : "MHDフィ‐ルド",
+        "alt_text" : "MHDふぃ―るど",
+        "trans_size" : 0,
+        "trans_text" : "MHD Field"
+    },
+
+    {
+        "string_description" : "Weapon list - laser barrier",
+        "string_start" : "0x1d773",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["5c", "d7", "b2", "c4", "c3", "de", "a8", "cc", "da", "b8", "c0", "b0", "00"],
+        "raw_text" : "ライトディフレクタ‐",
+        "alt_text" : "らいとでぃふれくた―",
+        "trans_size" : 0,
+        "trans_text" : "LaserField"
+    },
+
+    {
+        "string_description" : "Weapon list - laser reflector",
+        "string_start" : "0x1d780",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["5c", "d0", "d7", "b0", "c3", "de", "a8", "cc", "da", "b8", "c0", "b0", "00"],
+        "raw_text" : "ミラ‐ディフレクタ‐",
+        "alt_text" : "みら―でぃふれくた―",
+        "trans_size" : 0,
+        "trans_text" : "ReflectField"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d78d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "b4", "c5", "bc", "de", "b0", "ca", "de", "d8", "b1", "b0", "00"],
+        "raw_text" : "エナジ‐バリア‐",
+        "alt_text" : "えなじ―ばりお―",
+        "trans_size" : 0,
+        "trans_text" : "EnergyField"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d799",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["5c", "b2", "c5", "b0", "bc", "b1", "cc", "a8", "b0", "d9", "c4", "de", "00"],
+        "raw_text" : "イナ‐シアフィ‐ルド",
+        "alt_text" : "いな―しおふぃ―るど",
+        "trans_size" : 0,
+        "trans_text" : "MegaField"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d7a6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["5c", "cc", "de", "d7", "af", "b8", "b8", "de", "db", "b0", "cc", "de", "00"],
+        "raw_text" : "ブラックグロ‐ブ",
+        "alt_text" : "ぶらっくぐろ―ぶ",
+        "trans_size" : 0,
+        "trans_text" : "Black Glove"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d7b3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d7b4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d7b5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["09", "0c", "20", "20", "02", "00"],
+        "raw_text" : "<09><erase>  \n",
+        "alt_text" : "<09><erase>  \n",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d7bb",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["09", "0c", "18", "c7", "2d", "21", "7c", "02", "00"],
+        "raw_text" : "<09><erase><18>ぬ-!<sword>\n",
+        "alt_text" : "<09><erase><18>ヌ-!<sword>\n",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d7c4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["09", "0c", "18", "c7", "2d", "21", "7b", "02", "00"],
+        "raw_text" : "<09><erase><18>ぬ-!<gun>\n",
+        "alt_text" : "<09><erase><18>ヌ-!<gun>\n",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list - mecha weapons selection dialogue boxes",
+        "string_start" : "0x1d7cd",
+        "method" : 3,
+        "start_bytes" : ["11", "01", "0b", "04", "12"],
+        "end_bytes" : ["11", "00"],
+        "raw_size" : 28,
+        "raw" : ["11", "01", "0b", "04", "12", "20", "bb", "de", "b2", "20", "ba", "20", "0b", "13", "05", "20", "5c", "ce", "df", "b9", "20", "af", "20", "c4", "5c", "20", "11", "00"],
+        "raw_text" : "<11><01><0B><pause><12> ざい こ <0B><13><05> ポケ ッ ト <11>",
+        "alt_text" : "<11><01><0B><pause><12> ザイ コ <0B><13><05> ぽけ っ と <11>",
+        "trans_size" : 0,
+        "trans_text" : "Armory<0b><13><05>Equipment"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d7e9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list - mecha missle selection dialogue boxes",
+        "string_start" : "0x1d7ea",
+        "method" : 3,
+        "start_bytes" : ["11", "01", "0b", "04", "12"],
+        "end_bytes" : ["11", "00"],
+        "raw_size" : 30,
+        "raw" : ["11", "01", "0b", "04", "12", "20", "bb", "de", "b2", "20", "ba", "20", "0b", "11", "03", "20", "5c", "d3", "20", "bc", "de", "ad", "20", "b0", "20", "d9", "5c", "20", "11", "00"],
+        "raw_text" : "<11><01><0B><pause><12> ざい こ <0B><11>\n モ ジュ ‐ ル <11>",
+        "alt_text" : "<11><01><0B><pause><12> ザイ コ <0B><11>\n も じゅ ― る <11>",
+        "trans_size" : 0,
+        "trans_text" : "Armory<0b><11><03>Location"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d808",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list - option item/field location",
+        "string_start" : "0x1d809",
+        "method" : 3,
+        "start_bytes" : ["11", "01", "0b", "04", "12"],
+        "end_bytes" : ["11", "00"],
+        "raw_size" : 30,
+        "raw" : ["11", "01", "0b", "04", "12", "20", "bb", "de", "b2", "20", "ba", "20", "0b", "12", "05", "20", "5c", "d3", "20", "bc", "de", "ad", "20", "b0", "20", "d9", "5c", "20", "11", "00"],
+        "raw_text" : "<11><01><0B><pause><12> ざい こ <0B><12><05> モ ジュ ‐ ル <11>",
+        "alt_text" : "<11><01><0B><pause><12> ザイ コ <0B><12><05> も じゅ ― る <11>",
+        "trans_size" : 0,
+        "trans_text" : "Armory<0b><12><05>Location"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d827",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d828",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["09", "0e", "18", "dd", "2d", "13", "00"],
+        "raw_text" : "<09><0E><18>ん-<13>",
+        "alt_text" : "<09><0E><18>ン-<13>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d82f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["09", "0b", "18", "dd", "2d", "13", "00"],
+        "raw_text" : "<09><0B><18>ん-<13>",
+        "alt_text" : "<09><0B><18>ン-<13>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d836",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d837",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d838",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d839",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d83a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d83b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d83c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d83d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d83e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d83f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d840",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d841",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d842",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d843",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d844",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d845",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d846",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d847",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d848",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d849",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d84a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d84b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d84c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d84d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 22,
+        "raw" : ["5c", "da", "b0", "bb", "de", "b0", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "5c", "cb", "df", "bd", "c4", "d9", "00"],
+        "raw_text" : "レ‐ザ‐を はっしゃするピストル",
+        "alt_text" : "れ―ざ―ヲ ハッシャスルぴすとる",
+        "trans_size" : 0,
+        "trans_text" : "A Laser beam pistol"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d863",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["5c", "da", "b0", "bb", "de", "b0", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "5c", "d7", "b2", "cc", "d9", "00"],
+        "raw_text" : "レ‐ザ‐を はっしゃするライフル",
+        "alt_text" : "れ―ざ―ヲ ハッシャスルらいふる",
+        "trans_size" : 0,
+        "trans_text" : "A heavy Laser rifle"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d878",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 31,
+        "raw" : ["5c", "da", "b0", "bb", "de", "b0", "5c", "c9", "20", "5c", "ca", "df", "dc", "b0", "5c", "a6", "20", "b9", "dd", "c9", "b6", "c0", "c1", "c6", "20", "bc", "c0", "cc", "de", "b7", "00"],
+        "raw_text" : "レ‐ザ‐の パワ‐を けんのかたちに したぶき",
+        "alt_text" : "れ―ざ―ノ ぱわ―ヲ ケンノカタチニ シタブキ",
+        "trans_size" : 0,
+        "trans_text" : "A powerful Laser sword"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d897",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 25,
+        "raw" : ["da", "dd", "bf", "de", "b8", "ca", "af", "bc", "ac", "c3", "de", "b7", "d9", "20", "5c", "da", "b0", "bb", "de", "b0", "d7", "b2", "cc", "d9", "00"],
+        "raw_text" : "れんぞくはっしゃできる レ‐ザ‐ライフル",
+        "alt_text" : "レンゾクハッシャデキル れ―ざ―らいふる",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d8b0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 22,
+        "raw" : ["ca", "b6", "b2", "d8", "ae", "b8", "a6", "c0", "b6", "d2", "c0", "20", "5c", "da", "b0", "bb", "de", "b0", "5c", "ce", "b3", "00"],
+        "raw_text" : "はかいりょくをたかめた レ‐ザ‐ほう",
+        "alt_text" : "ハカイリョクヲタカメタ れ―ざ―ホウ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d8c6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 28,
+        "raw" : ["ba", "b3", "b5", "dd", "c9", "5c", "cc", "df", "d7", "bd", "de", "cf", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "5c", "cb", "df", "bd", "c4", "d9", "00"],
+        "raw_text" : "こうおんのプラズマを はっしゃするピストル",
+        "alt_text" : "コウオンノぷらずまヲ ハッシャスルぴすとる",
+        "trans_size" : 0,
+        "trans_text" : "Pistol firing a Plasma bolt"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d8e2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 27,
+        "raw" : ["ba", "b3", "b5", "dd", "c9", "5c", "cc", "df", "d7", "bd", "de", "cf", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "5c", "d7", "b2", "cc", "d9", "00"],
+        "raw_text" : "こうおんのプラズマを はっしゃするライフル",
+        "alt_text" : "コウオンノぷらずまヲ ハッシャスルらいふる",
+        "trans_size" : 0,
+        "trans_text" : "A heavy Plasma bolt rifle"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d8fd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 29,
+        "raw" : ["5c", "cc", "df", "d7", "bd", "de", "cf", "5c", "c9", "b5", "dd", "c4", "de", "a6", "20", "c0", "b6", "d2", "c0", "20", "5c", "cb", "de", "b0", "d1", "5c", "ce", "b3", "00"],
+        "raw_text" : "プラズマのおんどを たかめた ビ‐ムほう",
+        "alt_text" : "ぷらずまノオンドヲ タカメタ び―むホウ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d91a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["ba", "b6", "de", "c0", "c9", "20", "b6", "b4", "dd", "ce", "b3", "bc", "ac", "b7", "00"],
+        "raw_text" : "こがたの かえんほうしゃき",
+        "alt_text" : "コガタノ カエンホウシャキ",
+        "trans_size" : 0,
+        "trans_text" : "Small Flamer"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d929",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 24,
+        "raw" : ["bd", "b2", "bf", "5c", "b6", "de", "bd", "5c", "a6", "20", "c2", "b6", "af", "c0", "20", "b6", "b4", "dd", "ce", "b3", "bc", "ac", "b7", "00"],
+        "raw_text" : "すいそガスを つかった かえんほうしゃき",
+        "alt_text" : "スイソがすヲ ツカッタ カエンホウシャキ",
+        "trans_size" : 0,
+        "trans_text" : "Gas-powered Flamer gun"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d941",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 24,
+        "raw" : ["b6", "b8", "d5", "b3", "ba", "de", "b3", "c9", "20", "ce", "c9", "b3", "a6", "20", "ce", "b3", "bc", "ac", "bd", "d9", "cc", "de", "b7", "00"],
+        "raw_text" : "かくゆうごうの ほのうを ほうしゃするぶき",
+        "alt_text" : "カクユウゴウノ ホノウヲ ホウシャスルブキ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d959",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["b6", "c0", "c3", "c3", "de", "20", "d3", "c3", "d9", "20", "5c", "cf", "bc", "dd", "b6", "de", "dd", "00"],
+        "raw_text" : "かたてで もてる マシンガン",
+        "alt_text" : "カタテデ モテル ましんがん",
+        "trans_size" : 0,
+        "trans_text" : "Vulcan autogun"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d96b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 25,
+        "raw" : ["ba", "b6", "de", "c0", "c9", "20", "5c", "db", "b9", "af", "c4", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "bc", "de", "ad", "b3", "00"],
+        "raw_text" : "こがたの ロケットを はっしゃするじゅう",
+        "alt_text" : "コガタノ ろけっとヲ ハッシャスルジュウ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d984",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 27,
+        "raw" : ["c5", "b8", "de", "af", "c0", "b1", "b2", "c3", "c6", "20", "c3", "de", "dd", "b7", "5c", "bc", "ae", "af", "b8", "5c", "a6", "20", "b1", "c0", "b4", "d9", "00"],
+        "raw_text" : "なぐったおいてに でんきショックを おたえる",
+        "alt_text" : "ナグッタアイテニ デンキしょっくヲ アタエル",
+        "trans_size" : 0,
+        "trans_text" : "Electro-shock hand weapon"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d99f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["c1", "ae", "b3", "b5", "dd", "ca", "df", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "cc", "de", "b7", "00"],
+        "raw_text" : "ちょうおんぱを はっしゃするぶき",
+        "alt_text" : "チョウオンパヲ ハッシャスルブキ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d9b2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["ba", "b6", "de", "c0", "ca", "de", "b8", "c0", "de", "dd", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "こがたばくだんを はっしゃする",
+        "alt_text" : "コガタバクダンヲ ハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : "Grenade launcher"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d9c5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 25,
+        "raw" : ["ba", "b3", "b5", "dd", "c9", "20", "5c", "c5", "ca", "df", "b0", "d1", "5c", "c0", "de", "dd", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "こうおんの ナパ‐ムだんを はっしゃする",
+        "alt_text" : "コウオンノ なぱ―むダンヲ ハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : "Napalm Launcher"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d9de",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 25,
+        "raw" : ["ba", "b6", "de", "c0", "c9", "5c", "db", "b9", "af", "c4", "5c", "a6", "20", "da", "dd", "bf", "de", "b8", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "こがたのロケットを れんぞくはっしゃする",
+        "alt_text" : "コガタノろけっとヲ レンゾクハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : "Fires multiple explosive"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1d9f7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["ba", "b6", "de", "c0", "c9", "20", "5c", "d0", "bb", "b2", "d9", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "こがたの ミサイルを はっしゃする",
+        "alt_text" : "コガタノ みさいるヲ ハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : "Small missiles"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1da0c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 22,
+        "raw" : ["c1", "ad", "b3", "b6", "de", "c0", "c9", "5c", "d0", "bb", "b2", "d9", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "ちゅうがたのミサイルを はっしゃする",
+        "alt_text" : "チュウガタノみさいるヲ ハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : "Medium sized missiles"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1da22",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["b5", "b5", "b6", "de", "c0", "c9", "5c", "d0", "bb", "b2", "d9", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "おおがたのミサイルを はっしゃする",
+        "alt_text" : "オオガタノみさいるヲ ハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : "High power missiles"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1da37",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 26,
+        "raw" : ["cc", "b8", "bd", "b3", "c9", "20", "c0", "de", "dd", "c4", "b3", "5c", "d0", "bb", "b2", "d9", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "ふくすうの だんとうミサイルを はっしゃする",
+        "alt_text" : "フクスウノ ダントウみさいるヲ ハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1da51",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["b9", "de", "dd", "bc", "a6", "20", "cc", "de", "dd", "b6", "b2", "bd", "d9", "20", "c1", "ae", "b3", "cd", "b2", "b7", "00"],
+        "raw_text" : "げんしを ぶんかいする ちょうへいき",
+        "alt_text" : "ゲンシヲ ブンカイスル チョウヘイキ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1da66",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["bd", "cd", "de", "c3", "a6", "20", "ca", "b6", "b2", "bd", "d9", "20", "ca", "dd", "d6", "b3", "bc", "20", "ce", "b3", "00"],
+        "raw_text" : "すべてを はかいする はんようし ほう",
+        "alt_text" : "スベテヲ ハカイスル ハンヨウシ ホウ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1da7b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 27,
+        "raw" : ["5c", "b6", "de", "dd", "cf", "5c", "be", "dd", "5c", "da", "b0", "bb", "de", "b0", "5c", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "cc", "de", "b7", "00"],
+        "raw_text" : "ガンマせんレ‐ザ‐を はっしゃするぶき",
+        "alt_text" : "がんまセンれ―ざ―ヲ ハッシャスルブキ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1da96",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 22,
+        "raw" : ["cc", "da", "c0", "cc", "de", "af", "bc", "c2", "a6", "20", "b9", "bc", "bb", "d9", "20", "c1", "ae", "b3", "cd", "b2", "b7", "00"],
+        "raw_text" : "ふれたぶっしつを けしさる ちょうへいき",
+        "alt_text" : "フレタブッシツヲ ケシサル チョウヘイキ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1daac",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["b7", "b6", "dd", "bc", "de", "ad", "b3", "00"],
+        "raw_text" : "きかんじゅう",
+        "alt_text" : "キカンジュウ",
+        "trans_size" : 0,
+        "trans_text" : "Rifle"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dab4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 27,
+        "raw" : ["ba", "b3", "bf", "b8", "c3", "de", "20", "c0", "de", "dd", "b6", "de", "dd", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "20", "c0", "b2", "ce", "b3", "00"],
+        "raw_text" : "こうそくで だんがんを はっしゃする たいほう",
+        "alt_text" : "コウソクデ ダンガンヲ ハッシャスル タイホウ",
+        "trans_size" : 0,
+        "trans_text" : "Large bore autocannon"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dacf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["b6", "b8", "c4", "b3", "d6", "b3", "c9", "20", "c2", "d2", "00"],
+        "raw_text" : "かくとうようの つめ",
+        "alt_text" : "カクトウヨウノ ツメ",
+        "trans_size" : 0,
+        "trans_text" : "Power Fist"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dada",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["b7", "ae", "b3", "d8", "ae", "b8", "c5", "20", "bb", "dd", "a6", "20", "ca", "af", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "きょうりょくな さんを はっしゃする",
+        "alt_text" : "キョウリョクナ サンヲ ハッシャスル",
+        "trans_size" : 0,
+        "trans_text" : "Acid spray attack"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1daed",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1daee",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "b5", "cc", "df", "bc", "ae", "dd", "5c", "00"],
+        "raw_text" : "オプション",
+        "alt_text" : "おぷしょん",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1daf7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "00"],
+        "raw_text" : "フィ‐ルド",
+        "alt_text" : "ふぃ―るど",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db00",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "00"],
+        "raw_text" : "インパクト",
+        "alt_text" : "いんぱくと",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db09",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "da", "b0", "bb", "de", "b0", "5c", "00"],
+        "raw_text" : "レ‐ザ‐",
+        "alt_text" : "れ―ざ―",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db11",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "cb", "de", "b0", "d1", "5c", "00"],
+        "raw_text" : "ビ‐ム",
+        "alt_text" : "び―む",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db18",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "cb", "b0", "c4", "5c", "00"],
+        "raw_text" : "ヒ‐ト",
+        "alt_text" : "ひ―と",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db1e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["13", "58", "28", "00"],
+        "raw_text" : "<13>X(",
+        "alt_text" : "<13>X(",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db22",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db23",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db24",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 27,
+        "raw" : ["c3", "de", "dd", "ca", "df", "c3", "de", "20", "5c", "d0", "bb", "b2", "d9", "5c", "c9", "20", "bc", "dd", "db", "a6", "20", "b8", "d9", "dc", "be", "d9", "00"],
+        "raw_text" : "でんぱで ミサイルの しんろを くるわせる",
+        "alt_text" : "デンパデ みさいるノ シンロヲ クルワセル",
+        "trans_size" : 0,
+        "trans_text" : "Jam incoming enemy missile"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db3f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 28,
+        "raw" : ["c3", "de", "dd", "bc", "de", "ca", "de", "c3", "de", "20", "5c", "cc", "df", "d7", "bd", "de", "cf", "5c", "a6", "20", "ca", "bc", "de", "b7", "b6", "b4", "bd", "00"],
+        "raw_text" : "でんじばで プラズマを はじきかえす",
+        "alt_text" : "デンジバデ ぷらずまヲ ハジキカエス",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db5b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 25,
+        "raw" : ["b8", "b3", "b6", "dd", "a6", "20", "d5", "b6", "de", "d2", "c3", "20", "5c", "da", "b0", "bb", "de", "b0", "5c", "a6", "20", "bf", "d7", "bd", "00"],
+        "raw_text" : "くうかんを ゆがめて レ‐ザ‐を そらす",
+        "alt_text" : "クウカンヲ ユガメテ れ―ざ―ヲ ソラス",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db74",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 28,
+        "raw" : ["b8", "b3", "b6", "dd", "a6", "20", "d5", "b6", "de", "d2", "c3", "20", "5c", "da", "b0", "bb", "de", "b0", "5c", "a6", "20", "ca", "dd", "bc", "ac", "bd", "d9", "00"],
+        "raw_text" : "くうかんを ゆがめて レ‐ザ‐を はんしゃする",
+        "alt_text" : "クウカンヲ ユガメテ れ―ざ―ヲ ハンシャスル",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1db90",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 28,
+        "raw" : ["5c", "b4", "c8", "d9", "b7", "de", "b0", "5c", "c9", "cf", "b8", "c3", "de", "20", "5c", "d0", "bb", "b2", "d9", "5c", "a6", "20", "ca", "b6", "b2", "bd", "d9", "00"],
+        "raw_text" : "エネルギ‐のまくで ミサイルを はかいする",
+        "alt_text" : "えねるぎ―ノマクデ みさいるヲ ハカイスル",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dbac",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 25,
+        "raw" : ["b6", "dd", "be", "b2", "a6", "20", "be", "b2", "b7", "de", "ae", "bc", "c3", "20", "5c", "d0", "bb", "b2", "d9", "5c", "a6", "c4", "d2", "d9", "00"],
+        "raw_text" : "かんせいを せいぎょして ミサイルをとめる",
+        "alt_text" : "カンセイヲ セイギョシテ みさいるヲトメル",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dbc5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 26,
+        "raw" : ["bc", "de", "ad", "b3", "d8", "ae", "b8", "c9", "20", "b6", "cd", "de", "c3", "de", "20", "bd", "cd", "de", "c3", "a6", "bb", "b4", "b7", "de", "d9", "00"],
+        "raw_text" : "じゅうりょくの かべで すべてをさえぎる",
+        "alt_text" : "ジュウリョクノ カベデ スベテヲサエギル",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dbdf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["bc", "ac", "b9", "de", "b7", "00"],
+        "raw_text" : "しゃげき",
+        "alt_text" : "シャゲキ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dbe5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 5,
+        "raw" : ["b6", "b8", "c4", "b3", "00"],
+        "raw_text" : "かくとう",
+        "alt_text" : "カクトウ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dbea",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list - missile accuracy",
+        "string_start" : "0x1dbeb",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["5c", "d0", "bb", "b2", "d9", "5c", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "20", "2d", "39", "30", "25", "00"],
+        "raw_text" : "ミサイルめいちゅうりつ -90%",
+        "alt_text" : "みさいるメイチュウリツ -90%",
+        "trans_size" : 0,
+        "trans_text" : "Missile acc. -90%"
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dbfe",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["5c", "cb", "de", "b0", "d1", "20", "c0", "de", "d2", "b0", "bc", "de", "20", "2d", "39", "30", "25", "00"],
+        "raw_text" : "ビ‐ム ダメ‐ジ -90%",
+        "alt_text" : "び―む だめ―じ -90%",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dc10",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["5c", "da", "b0", "bb", "de", "b0", "5c", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "20", "2d", "31", "30", "30", "25", "00"],
+        "raw_text" : "レ‐ザ‐めいちゅうりつ -100%",
+        "alt_text" : "れ―ざ―メイチュウリツ -100%",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dc25",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["5c", "da", "b0", "bb", "de", "b0", "20", "c0", "de", "d2", "b0", "bc", "de", "20", "b0", "39", "30", "25", "00"],
+        "raw_text" : "レ‐ザ‐ ダメ‐ジ ‐90%",
+        "alt_text" : "れ―ざ― だめ―じ ―90%",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dc38",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["5c", "b2", "dd", "ca", "df", "b8", "c4", "20", "c0", "de", "d2", "b0", "bc", "de", "20", "2d", "35", "30", "25", "00"],
+        "raw_text" : "インパクト ダメ‐ジ -50%",
+        "alt_text" : "いんぱくと だめ―じ -50%",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dc4c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["5c", "b2", "dd", "ca", "df", "b8", "c4", "20", "c0", "de", "d2", "b0", "bc", "de", "20", "2d", "31", "30", "30", "25", "00"],
+        "raw_text" : "インパクト ダメ‐ジ -100%",
+        "alt_text" : "いんぱくと だめ―じ -100%",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Weapon list",
+        "string_start" : "0x1dc61",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 25,
+        "raw" : ["c0", "b2", "5c", "da", "b0", "bb", "de", "b0", "a5", "cb", "de", "b0", "d1", "a5", "cb", "b0", "c4", "5c", "20", "2d", "31", "30", "30", "25", "00"],
+        "raw_text" : "たいレ‐ザ‐・ビ‐ム・ヒ‐ト -100%",
+        "alt_text" : "タイれ―ざ―・び―む・ひ―と -100%",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]}

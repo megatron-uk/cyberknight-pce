@@ -1,0 +1,566 @@
+{
+"block_description" : "Shipboard menus 4?",
+"block_start" : "0x1ec08",
+"block_end" : "0x1edfa",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec08",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 8,
+        "raw" : ["c8", "dd", "b6", "de", "af", "cb", "df", "20"],
+        "raw_text" : "ねんがっぴ",
+        "alt_text" : "ネンガッピ",
+        "trans_size" : 0,
+        "trans_text" : "Date"
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec10",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 30,
+        "raw" : ["cc", "d2", "b2", "00", "53", "53", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "00", "5c", "b7", "ac", "cc", "df", "c3", "dd", "5c", "c0", "de", "b2", "d8", "20"],
+        "raw_text" : "ふめい<end>SSソ‐ドフィッシュ<end>きゃぷてんダイリ",
+        "alt_text" : "フメイ<end>SSそ―どふぃっしゅ<end>キャプテンだいり",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec2e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 9,
+        "raw" : ["5c", "ba", "cf", "dd", "c0", "de", "b0", "5c", "20"],
+        "raw_text" : "コマンダ‐",
+        "alt_text" : "こまんだ―",
+        "trans_size" : 0,
+        "trans_text" : "Cmmdr"
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec37",
+        "method" : 3,
+        "start_bytes" : ["10", "28"],
+        "end_bytes" : ["20"],
+        "raw_size" : 14,
+        "raw" : ["10", "28", "b7", "db", "b8", "00", "00", "b3", "c1", "ad", "b3", "be", "dd", "20"],
+        "raw_text" : "<PLAYER>きろく<end><end>うちゅうせん",
+        "alt_text" : "<PLAYER>キロク<end><end>ウチュウセン",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec45",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 13,
+        "raw" : ["5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "ca", "20"],
+        "raw_text" : "ソ‐ドフィッシュは",
+        "alt_text" : "そ―どふぃっしゅハ",
+        "trans_size" : 0,
+        "trans_text" : "Swordfish"
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec52",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 24,
+        "raw" : ["c5", "b6", "de", "b2", "c0", "cb", "de", "a6", "00", "b5", "b4", "c0", "a1", "00", "dc", "da", "dc", "da", "c6", "c4", "af", "c3", "ca", "20"],
+        "raw_text" : "ながいたびを<end>おえた。<end>われわれにとっては",
+        "alt_text" : "ナガイタビヲ<end>オエタ。<end>ワレワレニトッテハ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec6a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 8,
+        "raw" : ["bd", "b3", "b6", "b9", "de", "c2", "c9", "20"],
+        "raw_text" : "すうかげつの",
+        "alt_text" : "スウカゲツノ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec72",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 15,
+        "raw" : ["c3", "de", "b7", "ba", "de", "c4", "00", "c0", "de", "af", "c0", "b6", "de", "a4", "20"],
+        "raw_text" : "できごと<end>だったが、",
+        "alt_text" : "デキゴト<end>ダッタガ、",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec81",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 8,
+        "raw" : ["c1", "b7", "ad", "b3", "c3", "de", "ca", "20"],
+        "raw_text" : "ちきゅうでは",
+        "alt_text" : "チキュウデハ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec89",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 8,
+        "raw" : ["c4", "de", "da", "c0", "de", "b9", "c9", "20"],
+        "raw_text" : "どれだけの",
+        "alt_text" : "ドレダケノ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec91",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 13,
+        "raw" : ["c2", "b7", "cb", "b6", "de", "00", "bd", "b7", "de", "bb", "af", "c0", "20"],
+        "raw_text" : "つきひが<end>すぎさった",
+        "alt_text" : "ツキヒガ<end>スギサッタ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ec9e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 15,
+        "raw" : ["ba", "c4", "c0", "de", "db", "b3", "b6", "3b", "3b", "3b", "00", "bf", "bc", "c3", "20"],
+        "raw_text" : "ことだろうか‥‥‥<end>そして",
+        "alt_text" : "コトダロウカ‥‥‥<end>ソシテ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ecad",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 6,
+        "raw" : ["dc", "da", "dc", "da", "c9", "20"],
+        "raw_text" : "われわれの",
+        "alt_text" : "ワレワレノ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ecb3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 7,
+        "raw" : ["d3", "c1", "b6", "b4", "af", "c0", "20"],
+        "raw_text" : "もちかえった",
+        "alt_text" : "モチカエッタ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ecba",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 10,
+        "raw" : ["b5", "b5", "b8", "c9", "00", "c1", "bc", "b7", "d4", "20"],
+        "raw_text" : "おおくの<end>ちしきや",
+        "alt_text" : "オオクノ<end>チシキヤ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ecc4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 16,
+        "raw" : ["5c", "c3", "b8", "c9", "db", "bc", "de", "b0", "5c", "ca", "a4", "be", "b6", "b2", "c6", "20"],
+        "raw_text" : "テクノロジ‐は、せかいに",
+        "alt_text" : "てくのろじ―ハ、セカイニ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ecd4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 12,
+        "raw" : ["c4", "de", "dd", "c5", "00", "b5", "c4", "de", "db", "b7", "c4", "20"],
+        "raw_text" : "どんな<end>おどろきと",
+        "alt_text" : "ドンナ<end>オドロキト",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ece0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 6,
+        "raw" : ["ba", "dd", "d7", "dd", "a6", "20"],
+        "raw_text" : "こんらんを",
+        "alt_text" : "コンランヲ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ece6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 20,
+        "raw" : ["cb", "b7", "b5", "ba", "bd", "c9", "c0", "de", "db", "b3", "b6", "3f", "00", "bc", "dd", "cd", "b2", "b7", "a6", "20"],
+        "raw_text" : "ひきおこすのだろうか?<end>しんへいきを",
+        "alt_text" : "ヒキオコスノダロウカ?<end>シンヘイキヲ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ecfa",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 6,
+        "raw" : ["d2", "b8", "de", "af", "c3", "20"],
+        "raw_text" : "めぐって",
+        "alt_text" : "メグッテ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed00",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 5,
+        "raw" : ["d0", "c6", "b8", "b2", "20"],
+        "raw_text" : "みにくい",
+        "alt_text" : "ミニクイ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed05",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 27,
+        "raw" : ["b3", "ca", "de", "b2", "b1", "b2", "b6", "de", "00", "b5", "b7", "d9", "b6", "d3", "bc", "da", "c5", "b2", "a1", "00", "d3", "bc", "b6", "bc", "c0", "d7", "20"],
+        "raw_text" : "うばいおいが<end>おきるかもしれない。<end>もしかしたら",
+        "alt_text" : "ウバイアイガ<end>オキルカモシレナイ。<end>モシカシタラ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed20",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 4,
+        "raw" : ["bf", "da", "ca", "20"],
+        "raw_text" : "それは",
+        "alt_text" : "ソレハ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed24",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 5,
+        "raw" : ["b1", "d7", "c0", "c5", "20"],
+        "raw_text" : "おらたな",
+        "alt_text" : "アラタナ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed29",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 12,
+        "raw" : ["be", "dd", "bf", "b3", "c9", "00", "cb", "c0", "de", "c8", "c6", "20"],
+        "raw_text" : "せんそうの<end>ひだねに",
+        "alt_text" : "センソウノ<end>ヒダネニ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed35",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 19,
+        "raw" : ["c5", "d9", "b6", "d3", "bc", "da", "c5", "b2", "a1", "00", "31", "30", "30", "b5", "b8", "c8", "dd", "d3", "20"],
+        "raw_text" : "なるかもしれない。<end>100おくねんも",
+        "alt_text" : "ナルカモシレナイ。<end>100オクネンモ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed48",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 27,
+        "raw" : ["b2", "b7", "c3", "b7", "c0", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c6", "00", "b8", "d7", "cd", "de", "da", "ca", "de", "a4", "dc", "da", "dc", "da", "20"],
+        "raw_text" : "いきてきたメンタ‐ナに<end>くらべれば、われわれ",
+        "alt_text" : "イキテキタめんた―なニ<end>クラベレバ、ワレワレ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed63",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 11,
+        "raw" : ["bc", "de", "dd", "d9", "b2", "ca", "00", "cf", "c0", "de", "20"],
+        "raw_text" : "じんるいは<end>まだ",
+        "alt_text" : "ジンルイハ<end>マダ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed6e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 10,
+        "raw" : ["b3", "cf", "da", "c0", "ca", "de", "b6", "d8", "c9", "20"],
+        "raw_text" : "うまれたばかりの",
+        "alt_text" : "ウマレタバカリノ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed78",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 6,
+        "raw" : ["ba", "c4", "de", "d3", "c6", "20"],
+        "raw_text" : "こどもに",
+        "alt_text" : "コドモニ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed7e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 12,
+        "raw" : ["bd", "b7", "de", "c5", "b2", "a1", "00", "d6", "b3", "c1", "c5", "20"],
+        "raw_text" : "すぎない。<end>ようちな",
+        "alt_text" : "スギナイ。<end>ヨウチナ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed8a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 6,
+        "raw" : ["b1", "d7", "bf", "b2", "a6", "20"],
+        "raw_text" : "おらそいを",
+        "alt_text" : "アラソイヲ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed90",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 10,
+        "raw" : ["c9", "d8", "ba", "b4", "a4", "b1", "d7", "c0", "c5", "20"],
+        "raw_text" : "のりこえ、おらたな",
+        "alt_text" : "ノリコエ、アラタナ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ed9a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 12,
+        "raw" : ["bc", "dd", "b6", "c9", "00", "c0", "de", "dd", "b6", "b2", "c6", "20"],
+        "raw_text" : "しんかの<end>だんかいに",
+        "alt_text" : "シンカノ<end>ダンカイニ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1eda6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 10,
+        "raw" : ["bd", "bd", "d1", "c6", "ca", "a4", "cf", "c0", "de", "20"],
+        "raw_text" : "すすむには、まだ",
+        "alt_text" : "ススムニハ、マダ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1edb0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 17,
+        "raw" : ["c5", "b6", "de", "b2", "d0", "c1", "c9", "d8", "a6", "00", "b1", "d5", "cf", "c8", "ca", "de", "20"],
+        "raw_text" : "ながいみちのりを<end>おゆまねば",
+        "alt_text" : "ナガイミチノリヲ<end>アユマネバ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1edc1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 20,
+        "raw" : ["c5", "d7", "c5", "b2", "c9", "c0", "de", "db", "b3", "a1", "00", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c9", "20"],
+        "raw_text" : "ならないのだろう。<end>メンタ‐ナの",
+        "alt_text" : "ナラナイノダロウ。<end>めんた―なノ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1edd5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 19,
+        "raw" : ["b2", "af", "c0", "c4", "b5", "d8", "a4", "dc", "da", "dc", "da", "c9", "00", "c0", "c0", "b6", "b2", "ca", "20"],
+        "raw_text" : "いったとおり、われわれの<end>たたかいは",
+        "alt_text" : "イッタトオリ、ワレワレノ<end>タタカイハ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1ede8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 4,
+        "raw" : ["cf", "c0", "de", "20"],
+        "raw_text" : "まだ",
+        "alt_text" : "マダ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Shipboard menus 4?",
+        "string_start" : "0x1edec",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["20"],
+        "raw_size" : 6,
+        "raw" : ["b5", "dc", "af", "c3", "ca", "20"],
+        "raw_text" : "おわっては",
+        "alt_text" : "オワッテハ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]}

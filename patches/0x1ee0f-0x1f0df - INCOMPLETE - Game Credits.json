@@ -1,0 +1,1210 @@
+{
+"block_description" : "Staff credits",
+"block_start" : "0x1ee0f",
+"block_end" : "0x1f0df",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee0f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["0d", "07", "1e", "21", "53", "20", "54", "20", "41", "20", "46", "20", "46", "00"],
+        "raw_text" : "<pad><07><1E>!S T A F F",
+        "alt_text" : "<pad><07><1E>!S T A F F",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee1d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee1e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee1f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee20",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee21",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee22",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee23",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["1e", "24", "2a", "20", "47", "61", "6d", "65", "20", "44", "65", "73", "69", "67", "6e", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Game Design *",
+        "alt_text" : "<1E>$* Game Design *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee35",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["0d", "06", "52", "79", "6f", "20", "4d", "69", "7a", "75", "6e", "6f", "00"],
+        "raw_text" : "<pad><06>Ryo Mizuno",
+        "alt_text" : "<pad><06>Ryo Mizuno",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee42",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["0d", "0e", "47", "72", "6f", "75", "70", "20", "53", "4e", "45", "00"],
+        "raw_text" : "<pad><0E>Group SNE",
+        "alt_text" : "<pad><0E>Group SNE",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee4e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee4f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee50",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["1e", "24", "2a", "20", "53", "63", "65", "6e", "61", "72", "69", "6f", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Scenario *",
+        "alt_text" : "<1E>$* Scenario *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee5f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["0d", "06", "48", "69", "72", "6f", "73", "68", "69", "20", "59", "61", "6d", "61", "6d", "6f", "74", "6f", "00"],
+        "raw_text" : "<pad><06>Hiroshi Yamamoto",
+        "alt_text" : "<pad><06>Hiroshi Yamamoto",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee72",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["0d", "0e", "47", "72", "6f", "75", "70", "20", "53", "4e", "45", "00"],
+        "raw_text" : "<pad><0E>Group SNE",
+        "alt_text" : "<pad><0E>Group SNE",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee7e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee7f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee80",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee81",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 22,
+        "raw" : ["1e", "24", "2a", "20", "4d", "65", "63", "68", "61", "6e", "69", "63", "20", "44", "65", "73", "69", "67", "6e", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Mechanic Design *",
+        "alt_text" : "<1E>$* Mechanic Design *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ee97",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["0d", "06", "4b", "75", "6e", "69", "6f", "20", "4f", "68", "67", "61", "77", "61", "72", "61", "00"],
+        "raw_text" : "<pad><06>Kunio Ohgawara",
+        "alt_text" : "<pad><06>Kunio Ohgawara",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eea8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eea9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eeaa",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eeab",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eeac",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["1e", "24", "2a", "20", "50", "72", "6f", "67", "72", "61", "6d", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Program *",
+        "alt_text" : "<1E>$* Program *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eeba",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["0d", "06", "50", "6f", "63", "68", "69", "20", "4e", "61", "6b", "61", "6d", "6f", "72", "69", "00"],
+        "raw_text" : "<pad><06>Pochi Nakamori",
+        "alt_text" : "<pad><06>Pochi Nakamori",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eecb",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eecc",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eecd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["1e", "24", "2a", "20", "47", "72", "61", "70", "68", "69", "63", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Graphic *",
+        "alt_text" : "<1E>$* Graphic *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eedb",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["0d", "06", "48", "69", "72", "6f", "73", "68", "69", "20", "52", "79", "75", "6f", "68", "2d", "69", "6e", "00"],
+        "raw_text" : "<pad><06>Hiroshi Ryuoh-in",
+        "alt_text" : "<pad><06>Hiroshi Ryuoh-in",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eeee",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["0d", "06", "4a", "61", "6e", "75", "73", "20", "54", "65", "72", "61", "6d", "6f", "74", "6f", "00"],
+        "raw_text" : "<pad><06>Janus Teramoto",
+        "alt_text" : "<pad><06>Janus Teramoto",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1eeff",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 16,
+        "raw" : ["0d", "06", "44", "6f", "74", "20", "6e", "6f", "20", "4f", "68", "73", "61", "6d", "61", "00"],
+        "raw_text" : "<pad><06>Dot no Ohsama",
+        "alt_text" : "<pad><06>Dot no Ohsama",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef0f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["0d", "06", "48", "79", "6f", "68", "6a", "75", "20", "4d", "75", "2d", "00"],
+        "raw_text" : "<pad><06>Hyohju Mu-",
+        "alt_text" : "<pad><06>Hyohju Mu-",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef1c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef1d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef1e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["1e", "24", "2a", "20", "4d", "75", "73", "69", "63", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Music *",
+        "alt_text" : "<1E>$* Music *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef2a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["0d", "06", "4d", "72", "2e", "20", "53", "61", "6b", "6f", "64", "61", "00"],
+        "raw_text" : "<pad><06>Mr. Sakoda",
+        "alt_text" : "<pad><06>Mr. Sakoda",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef37",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["0d", "06", "4d", "79", "61", "6d", "6f", "00"],
+        "raw_text" : "<pad><06>Myamo",
+        "alt_text" : "<pad><06>Myamo",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef3f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["0d", "06", "4d", "41", "54", "53", "00"],
+        "raw_text" : "<pad><06>MATS",
+        "alt_text" : "<pad><06>MATS",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef46",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["0d", "06", "41", "74", "61", "72", "61", "73", "68", "69", "00"],
+        "raw_text" : "<pad><06>Atarashi",
+        "alt_text" : "<pad><06>Atarashi",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef51",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["0d", "06", "44", "61", "76", "69", "64", "a5", "31", "00"],
+        "raw_text" : "<pad><06>David・1",
+        "alt_text" : "<pad><06>David・1",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef5b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["0d", "06", "54", "61", "6b", "65", "75", "63", "68", "69", "00"],
+        "raw_text" : "<pad><06>Takeuchi",
+        "alt_text" : "<pad><06>Takeuchi",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef66",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef67",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["1e", "24", "2a", "20", "53", "6f", "75", "6e", "64", "20", "45", "66", "66", "65", "63", "74", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Sound Effect *",
+        "alt_text" : "<1E>$* Sound Effect *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef7a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["0d", "06", "4d", "41", "54", "53", "00"],
+        "raw_text" : "<pad><06>MATS",
+        "alt_text" : "<pad><06>MATS",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef81",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef82",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["1e", "24", "2a", "20", "53", "6f", "75", "6e", "64", "20", "50", "72", "6f", "67", "72", "61", "6d", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Sound Program *",
+        "alt_text" : "<1E>$* Sound Program *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1ef96",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 16,
+        "raw" : ["0d", "06", "4a", "65", "6d", "69", "6e", "69", "20", "48", "69", "72", "6f", "6e", "6f", "00"],
+        "raw_text" : "<pad><06>Jemini Hirono",
+        "alt_text" : "<pad><06>Jemini Hirono",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efa6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efa7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efa8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efa9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 24,
+        "raw" : ["1e", "24", "2a", "20", "53", "70", "65", "63", "69", "61", "6c", "20", "54", "68", "61", "6e", "6b", "73", "20", "74", "6f", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Special Thanks to *",
+        "alt_text" : "<1E>$* Special Thanks to *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efc1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["0d", "06", "4b", "61", "6e", "74", "61", "a5", "55", "00"],
+        "raw_text" : "<pad><06>Kanta・U",
+        "alt_text" : "<pad><06>Kanta・U",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efcb",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["0d", "06", "4d", "61", "67", "6e", "75", "6d", "20", "4d", "61", "74", "73", "75", "00"],
+        "raw_text" : "<pad><06>Magnum Matsu",
+        "alt_text" : "<pad><06>Magnum Matsu",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efda",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["0d", "06", "54", "6f", "6e", "79", "20", "49", "77", "61", "00"],
+        "raw_text" : "<pad><06>Tony Iwa",
+        "alt_text" : "<pad><06>Tony Iwa",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efe5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["0d", "06", "45", "6d", "61", "72", "69", "6e", "00"],
+        "raw_text" : "<pad><06>Emarin",
+        "alt_text" : "<pad><06>Emarin",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1efee",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["0d", "06", "4a", "69", "6e", "1e", "22", "2a", "1e", "21", "43", "68", "69", "68", "61", "72", "75", "00"],
+        "raw_text" : "<pad><06>Jin<1E>“*<1E>!Chiharu",
+        "alt_text" : "<pad><06>Jin<1E>“*<1E>!Chiharu",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f000",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["0d", "06", "41", "73", "74", "69", "6e", "61", "20", "4d", "61", "74", "73", "75", "00"],
+        "raw_text" : "<pad><06>Astina Matsu",
+        "alt_text" : "<pad><06>Astina Matsu",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f00f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["0d", "06", "53", "74", "72", "61", "77", "62", "65", "72", "72", "79", "20", "4e", "6f", "72", "69", "6b", "6f", "00"],
+        "raw_text" : "<pad><06>Strawberry Noriko",
+        "alt_text" : "<pad><06>Strawberry Noriko",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f023",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["0d", "0a", "26", "00"],
+        "raw_text" : "<pad><0A>&",
+        "alt_text" : "<pad><0A>&",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f027",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["0d", "06", "4f", "75", "72", "20", "43", "6f", "6d", "6d", "61", "6e", "64", "65", "72", "20", "1e", "24", "10", "28", "00"],
+        "raw_text" : "<pad><06>Our Commander <1E>$<PLAYER>",
+        "alt_text" : "<pad><06>Our Commander <1E>$<PLAYER>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f03c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f03d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f03e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f03f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f040",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["1e", "24", "2a", "20", "53", "75", "70", "65", "72", "76", "69", "73", "6f", "72", "20", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Supervisor  *",
+        "alt_text" : "<1E>$* Supervisor  *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f052",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["0d", "06", "48", "69", "74", "6f", "73", "68", "69", "20", "59", "61", "73", "75", "64", "61", "00"],
+        "raw_text" : "<pad><06>Hitoshi Yasuda",
+        "alt_text" : "<pad><06>Hitoshi Yasuda",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f063",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["0d", "0e", "47", "72", "6f", "75", "70", "20", "53", "4e", "45", "00"],
+        "raw_text" : "<pad><0E>Group SNE",
+        "alt_text" : "<pad><0E>Group SNE",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f06f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f070",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f071",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f072",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f073",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["1e", "24", "2a", "20", "44", "69", "72", "65", "63", "74", "6f", "72", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Director *",
+        "alt_text" : "<1E>$* Director *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f082",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 16,
+        "raw" : ["0d", "06", "4d", "69", "6e", "6d", "69", "6e", "20", "4d", "69", "79", "61", "74", "61", "00"],
+        "raw_text" : "<pad><06>Minmin Miyata",
+        "alt_text" : "<pad><06>Minmin Miyata",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f092",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f093",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f094",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["1e", "24", "2a", "20", "50", "72", "6f", "64", "75", "63", "65", "72", "20", "2a", "00"],
+        "raw_text" : "<1E>$* Producer *",
+        "alt_text" : "<1E>$* Producer *",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0a3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["0d", "06", "49", "6b", "75", "72", "6f", "20", "55", "72", "61", "69", "00"],
+        "raw_text" : "<pad><06>Ikuro Urai",
+        "alt_text" : "<pad><06>Ikuro Urai",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0b0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0b1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0b2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0b3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0b4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["0d", "02", "1e", "23", "20", "20", "70", "72", "65", "73", "65", "6e", "74", "65", "64", "20", "62", "79", "20", "20", "00"],
+        "raw_text" : "<pad>\n<1E>#  presented by  ",
+        "alt_text" : "<pad>\n<1E>#  presented by  ",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0c9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0ca",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["0d", "02", "1e", "23", "20", "20", "20", "20", "54", "4f", "4e", "4b", "49", "4e", "20", "48", "4f", "55", "53", "45", "00"],
+        "raw_text" : "<pad>\n<1E>#    TONKIN HOUSE",
+        "alt_text" : "<pad>\n<1E>#    TONKIN HOUSE",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Staff credits",
+        "string_start" : "0x1f0df",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]},
