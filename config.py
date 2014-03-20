@@ -87,6 +87,7 @@ METHOD_CONTIGUOUS = 2
 
 BYTES = [
 
+<<<<<<< HEAD
 	# just use this one for looking at all strings
 	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
 	
@@ -105,6 +106,16 @@ BYTES = [
 
 	#(METHOD_3, 0x28086, 0x28949, METHOD_SIMPLE, "Unknown.", "\x00"),
 	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),	
+=======
+	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Everything!", "\x00"),
+
+	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),
+	
+	#(METHOD_3, 0x1c040, 0x1c87d, METHOD_SIMPLE, "Main menu, Player name entry screen, load game screen, in-game stats screen.", "\x00"),
+	#(METHOD_3, 0x1cbad, 0x1ccac, METHOD_SIMPLE, "NPC character names.", "\x00"),
+	#(METHOD_3, 0x1b8d6, 0x1bca6, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics.", "\x00"),
+	#(METHOD_2, 0x29eff, 0x2a1ad, METHOD_SIMPLE, "Introductory cinematics."),
+>>>>>>> 3471bc066f194dcb05f1a97028bf27dbdb7fce37
 	#(METHOD_3, 0x2a74c, 0x2a930, METHOD_SIMPLE, "Short scene after scrolling intro text.", "\x1c"),
 	
 ]
