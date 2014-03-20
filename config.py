@@ -87,10 +87,12 @@ METHOD_CONTIGUOUS = 2
 
 BYTES = [
 
-	# just use this one for looking at all strings
+	# just use this one for looking at all strings - not a good way of translating
+	# that are some sections use different delimiters, handy to scan through
+	# looking for possible dialogue though...
 	(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
 	
-	# interesting sections of the rom...
+	# interesting sections of the rom...	
 	#(METHOD_3, 0x1b8d6, 0x1bfdf, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics.", "\x00"),
 	#(METHOD_3, 0x1c01c, 0x1c90d, METHOD_SIMPLE, "Main menu text and configuration options.", "\x00"),
 	#(METHOD_3, 0x1c952, 0x1ca2b, METHOD_SIMPLE, "Additional game menus.", "\x00"),
@@ -105,6 +107,9 @@ BYTES = [
 	#(METHOD_3, 0x28086, 0x29efe, METHOD_SIMPLE, "MICA, PLAYER, Planet scan text", "\x00"),
 	#(METHOD_2, 0x29efe, 0x2a1af, METHOD_SIMPLE, "Introductory Cinematics"),	
 	#(METHOD_3, 0x2a74c, 0x2a930, METHOD_SIMPLE, "Short scene after scrolling intro text.", "\x1c"),
+	
+	# Some text, but unknown start or end points
+	#(METHOD_3, 0x1400c, 0x1b8cd, METHOD_SIMPLE, "Main game dialogue", "\x00"),
 	#(METHOD_3, 0x2a934, ???????, METHOD_SIMPLE, "More text with MICA and PLAYER?", "\x00"),
 	
 ]
