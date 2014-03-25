@@ -113,7 +113,7 @@
         "raw_text" : "\n<erase><MICA><07><01>『まってください!<07>゜<pause><\nちかくにおる わくせいから でんぱが\nでています!』",
         "alt_text" : "\n<erase><MICA><07><01>『マッテクダサイ!<07>゜<pause><\nチカクニアル ワクセイカラ デンパガ\nデテイマス!』",
         "trans_size" : 0,
-        "trans_text" : ":Wait!\n<07><ff><pause><\nI detect EM waves from a\nplanet!"
+        "trans_text" : ":Wait!\n<07><ff><04><\nI detect EM waves from a\nplanet!"
     },
 
     {

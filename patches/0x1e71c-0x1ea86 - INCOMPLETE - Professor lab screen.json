@@ -19,7 +19,7 @@
     },
 
     {
-        "string_description" : "Shipboard menus 2?",
+        "string_description" : "scan of enemy wreckage complete",
         "string_start" : "0x1e71d",
         "method" : 3,
         "start_bytes" : ["10", "34"],
@@ -29,21 +29,21 @@
         "raw_text" : "<PROFESSOR>『ぶんせき かんりょう!\n<0F>の ざんがいから\n",
         "alt_text" : "<PROFESSOR>『ブンセキ カンリョウ!\n<0F>ノ ザンガイカラ\n",
         "trans_size" : 0,
-        "trans_text" : ": Wreckage scan complete!"
+        "trans_text" : ":Wreckage scan\ncomplete!\n"
     },
 
     {
-        "string_description" : "Shipboard menus 2?",
+        "string_description" : "i have developed some new technology, lets get it in production now",
         "string_start" : "0x1e73a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 34,
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "c0", "c0", "de", "c1", "c6", "20", "be", "b2", "bf", "de", "b3", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nただちに せいぞうに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nタダチニ セイゾウニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is now\navailable for us to use!"
     },
 
     {
@@ -57,7 +57,7 @@
         "raw_text" : " を かいはつした。\nモジュ‐ルの たいきゅうりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nもじゅ―るノ タイキュウリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is available.\nIt can boost mecha\ndurability - lets put it\nto use!"
     },
 
     {

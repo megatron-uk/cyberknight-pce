@@ -1,7 +1,7 @@
 {
 "block_description" : "Shipboard menus",
 "block_start" : "0x1dc87",
-"block_end" : "0x1dee3",
+"block_end" : "0x1defb",
 "insert_method" : 1,
 "data" : [
     {
@@ -15,7 +15,7 @@
         "raw_text" : " ラボ",
         "alt_text" : " ラボ",
         "trans_size" : 0,
-        "trans_text" : " Lab"
+        "trans_text" : " Sci."
     },
 
     {
@@ -29,7 +29,7 @@
         "raw_text" : " メディカル",
         "alt_text" : " メディカル",
         "trans_size" : 0,
-        "trans_text" : " Medbay"
+        "trans_text" : " Med."
     },
 
     {
@@ -43,7 +43,7 @@
         "raw_text" : " ラウソヅ",
         "alt_text" : " ラウソヅ",
         "trans_size" : 0,
-        "trans_text" : " Lounge"
+        "trans_text" : " Team"
     },
 
     {
@@ -57,7 +57,7 @@
         "raw_text" : " ハソガ―",
         "alt_text" : " ハソガ―",
         "trans_size" : 0,
-        "trans_text" : " Mecha"
+        "trans_text" : " Tech."
     },
 
     {
@@ -71,7 +71,7 @@
         "raw_text" : "<end> メディカル",
         "alt_text" : "<end> メディカル",
         "trans_size" : 0,
-        "trans_text" : " Medbay"
+        "trans_text" : " Med."
     },
 
     {
@@ -85,7 +85,7 @@
         "raw_text" : " ラウソヅ",
         "alt_text" : " ラウソヅ",
         "trans_size" : 0,
-        "trans_text" : " Lounge"
+        "trans_text" : " Team"
     },
 
     {
@@ -99,7 +99,7 @@
         "raw_text" : " ハソガ―",
         "alt_text" : " ハソガ―",
         "trans_size" : 0,
-        "trans_text" : " Mecha"
+        "trans_text" : " Tech."
     },
 
     {
@@ -113,7 +113,7 @@
         "raw_text" : " ブリッヅ",
         "alt_text" : " ブリッヅ",
         "trans_size" : 0,
-        "trans_text" : " Bridge"
+        "trans_text" : " Nav."
     },
 
     {
@@ -127,7 +127,7 @@
         "raw_text" : "<end> ラウソヅ",
         "alt_text" : "<end> ラウソヅ",
         "trans_size" : 0,
-        "trans_text" : " Lounge"
+        "trans_text" : " Team"
     },
 
     {
@@ -141,7 +141,7 @@
         "raw_text" : " ハソガ―",
         "alt_text" : " ハソガ―",
         "trans_size" : 0,
-        "trans_text" : " Mecha"
+        "trans_text" : " Tech."
     },
 
     {
@@ -155,7 +155,7 @@
         "raw_text" : " ブリッヅ",
         "alt_text" : " ブリッヅ",
         "trans_size" : 0,
-        "trans_text" : " Bridge"
+        "trans_text" : " Nav."
     },
 
     {
@@ -169,7 +169,7 @@
         "raw_text" : " ラボ",
         "alt_text" : " ラボ",
         "trans_size" : 0,
-        "trans_text" : " Lab"
+        "trans_text" : " Sci."
     },
 
     {
@@ -183,7 +183,7 @@
         "raw_text" : "<end> ハソガ―",
         "alt_text" : "<end> ハソガ―",
         "trans_size" : 0,
-        "trans_text" : " Mecha"
+        "trans_text" : " Tech."
     },
 
     {
@@ -197,7 +197,7 @@
         "raw_text" : " ブリッヅ",
         "alt_text" : " ブリッヅ",
         "trans_size" : 0,
-        "trans_text" : " Bridge"
+        "trans_text" : " Nav."
     },
 
     {
@@ -211,7 +211,7 @@
         "raw_text" : " ラボ",
         "alt_text" : " ラボ",
         "trans_size" : 0,
-        "trans_text" : " Lab"
+        "trans_text" : " Sci."
     },
 
     {
@@ -225,7 +225,7 @@
         "raw_text" : " メディカル",
         "alt_text" : " メディカル",
         "trans_size" : 0,
-        "trans_text" : " Medbay"
+        "trans_text" : " Med."
     },
 
     {
@@ -239,7 +239,7 @@
         "raw_text" : "<end> ブリッヅ",
         "alt_text" : "<end> ブリッヅ",
         "trans_size" : 0,
-        "trans_text" : " Bridge"
+        "trans_text" : " Nav."
     },
 
     {
@@ -253,7 +253,7 @@
         "raw_text" : " ラボ",
         "alt_text" : " ラボ",
         "trans_size" : 0,
-        "trans_text" : " Lab"
+        "trans_text" : " Sci."
     },
 
     {
@@ -267,7 +267,7 @@
         "raw_text" : " メディカル",
         "alt_text" : " メディカル",
         "trans_size" : 0,
-        "trans_text" : " Medbay"
+        "trans_text" : " Med."
     },
 
     {
@@ -281,7 +281,7 @@
         "raw_text" : " ラウソヅ",
         "alt_text" : " ラウソヅ",
         "trans_size" : 0,
-        "trans_text" : " Lounge"
+        "trans_text" : " Team"
     },
 
     {
@@ -351,7 +351,7 @@
         "raw_text" : " 移動<end> 離陸",
         "alt_text" : " 移動<end> 離陸",
         "trans_size" : 0,
-        "trans_text" : " Move<00> Launch"
+        "trans_text" : " Move<00> Orbit"
     },
 
     {
@@ -449,7 +449,7 @@
         "raw_text" : " 兵器",
         "alt_text" : " 兵器",
         "trans_size" : 0,
-        "trans_text" : " Arms"
+        "trans_text" : " Data"
     },
 
     {
@@ -467,7 +467,7 @@
     },
 
     {
-        "string_description" : "Shipboard menus - modify",
+        "string_description" : "Shipboard menus - mecha",
         "string_start" : "0x1de56",
         "method" : 3,
         "start_bytes" : [],
@@ -477,7 +477,7 @@
         "raw_text" : " モヅュ―ル",
         "alt_text" : " モヅュ―ル",
         "trans_size" : 0,
-        "trans_text" : " Modify"
+        "trans_text" : " Mecha"
     },
 
     {
@@ -491,7 +491,7 @@
         "raw_text" : " 出撃",
         "alt_text" : " 出撃",
         "trans_size" : 0,
-        "trans_text" : " Depart"
+        "trans_text" : " World"
     },
 
     {
@@ -505,7 +505,7 @@
         "raw_text" : " 移動<end> 武器",
         "alt_text" : " 移動<end> 武器",
         "trans_size" : 0,
-        "trans_text" : " Move<00> Hand"
+        "trans_text" : " Move<00> Shoot"
     },
 
     {
@@ -590,5 +590,33 @@
         "alt_text" : " モヅュ―ル",
         "trans_size" : 0,
         "trans_text" : " Mecha"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1ded7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 24,
+        "raw" : ["20", "1d", "08", "84", "a4", "85", "a5", "86", "a6", "87", "a7", "00", "20", "1d", "08", "48", "68", "49", "69", "4a", "6a", "4b", "6b", "02"],
+        "raw_text" : " 移動<end> 保存",
+        "alt_text" : " 移動<end> 保存",
+        "trans_size" : 0,
+        "trans_text" : " Move<00> Save"
+    },
+
+    {
+        "string_description" : "Shipboard menus",
+        "string_start" : "0x1deef",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["02"],
+        "raw_size" : 12,
+        "raw" : ["20", "1d", "08", "4c", "6c", "4d", "6d", "4e", "6e", "4f", "6f", "02"],
+        "raw_text" : " 表示",
+        "alt_text" : " 表示",
+        "trans_size" : 0,
+        "trans_text" : " Pass"
     }
 ]}

@@ -1,7 +1,7 @@
 {
-"block_description" : "Unknown dialogue",
+"block_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
 "block_start" : "0x1f0f4",
-"block_end" : "0x1fb3f",
+"block_end" : "0x1fcc0",
 "insert_method" : 2,
 "data" : [
     {
@@ -1713,7 +1713,7 @@
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - tactics commander???",
         "string_start" : "0x1faf9",
         "method" : 3,
         "start_bytes" : [],
@@ -1741,17 +1741,17 @@
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - shown in battle screen - contact with enemy?",
         "string_start" : "0x1fb1c",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 16,
         "raw" : ["10", "30", "a2", "c3", "b2", "bc", "de", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00"],
         "raw_text" : "<MICA>『ていじれんらく <chevron> <10>",
         "alt_text" : "<MICA>『テイジレンラク <chevron> <10>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Emergency contact"
     },
 
     {
@@ -1778,6 +1778,20 @@
         "raw" : ["10", "30", "a2", "b7", "dd", "b7", "ad", "b3", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00"],
         "raw_text" : "<MICA>『きんきゅうれんらく <chevron> <10>",
         "alt_text" : "<MICA>『キンキュウレンラク <chevron> <10>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "unknown dialogue",
+        "string_start" : "0x1fb3f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 2,
+        "raw" : ["03", "00"],
+        "raw_text" : "\n",
+        "alt_text" : "\n",
         "trans_size" : 0,
         "trans_text" : ""
     }

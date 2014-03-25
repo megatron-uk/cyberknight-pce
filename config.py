@@ -90,16 +90,18 @@ BYTES = [
 	# just use this one for looking at all strings - not a good way of translating
 	# that are some sections use different delimiters, handy to scan through
 	# looking for possible dialogue though...
+	(METHOD_3, 0x1defc, 0x1e71c , METHOD_SIMPLE, "test", "\x00"),
 	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
 	
 	# interesting sections of the rom...	
-	(METHOD_3, 0x1400c, 0x1b8cd, METHOD_SIMPLE, "Main game dialogue", "\x00"),
+	#(METHOD_3, 0x1400c, 0x1b8cd, METHOD_SIMPLE, "Main game dialogue", "\x00"),
 	#(METHOD_3, 0x1b8d6, 0x1bfdf, METHOD_CONTIGUOUS, "Scrolling intro text after cinematics.", "\x00"),
 	#(METHOD_3, 0x1c01c, 0x1c90d, METHOD_SIMPLE, "Main menu text and configuration options.", "\x00"),
-	#(METHOD_3, 0x1c952, 0x1ca2b, METHOD_SIMPLE, "Additional game menus.", "\x00"),
+	#(METHOD_3, 0x1c952, 0x1ca2b, METHOD_SIMPLE, "Additional game menus.", "\x00"),	
 	#(METHOD_3, 0x1cbad, 0x1ccac, METHOD_SIMPLE, "NPC character names.", "\x00"),
+	#(METHOD_3, 0x1ccbf, 0x1d59f, METHOD_SIMPLE, "Names - possible battle text", "\x00"),
 	#(METHOD_3, 0x1d59f, 0x1dc7a, METHOD_SIMPLE, "Weapon list", "\x00"),
-	#(METHOD_3, 0x1dc87, 0x1dee3, METHOD_SIMPLE, "Shipboard menus", "\x02"),
+	#(METHOD_3, 0x1dc87, 0x1defb, METHOD_SIMPLE, "Shipboard menus", "\x02"),
 	#(METHOD_3, 0x1e71c, 0x1ea86, METHOD_SIMPLE, "Professor lab screen", "\x00"),
 	#(METHOD_3, 0x1ea88, 0x1ec00, METHOD_SIMPLE, "Mecha overview screen", "\x20"),	
 	#(METHOD_3, 0x1ec08, 0x1edfa, METHOD_SIMPLE, "CLosing credits", "\x20"),

@@ -61,8 +61,11 @@ def load_table_double():
 			trans_table[byte_code]["byte_code"] = byte_code.upper()
 			trans_table[byte_code]["pre_shift"] = columns[1].replace('"', '')
 			trans_table[byte_code]["pre_shift_type"] = columns[2].replace('"', '')
+			trans_table[byte_code]["post_shift"] = columns[3].replace('"', '')
+			trans_table[byte_code]["post_shift_type"] = columns[4].replace('"', '')
+			
 			if len(columns) > 3:
-				trans_table[byte_code]["notes"] = columns[3].replace('"', '')
+				trans_table[byte_code]["notes"] = columns[5].replace('"', '')
 
 		f.close()
 	except Exception as e:

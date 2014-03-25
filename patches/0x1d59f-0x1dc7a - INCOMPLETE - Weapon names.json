@@ -327,7 +327,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - anti proton beam",
         "string_start" : "0x1d6b7",
         "method" : 3,
         "start_bytes" : [],
@@ -337,7 +337,7 @@
         "raw_text" : "アンチプロトンビ‐ム",
         "alt_text" : "おんちぷろとんび―む",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Proton Beam"
     },
 
     {
@@ -533,7 +533,7 @@
         "raw_text" : "肩 ",
         "alt_text" : "肩 ",
         "trans_size" : 0,
-        "trans_text" : "Shld"
+        "trans_text" : "Sld "
     },
 
     {
@@ -635,7 +635,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - Energy field",
         "string_start" : "0x1d78d",
         "method" : 3,
         "start_bytes" : [],
@@ -649,7 +649,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - mega field",
         "string_start" : "0x1d799",
         "method" : 3,
         "start_bytes" : [],
@@ -663,7 +663,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list -black glove",
         "string_start" : "0x1d7a6",
         "method" : 3,
         "start_bytes" : [],
@@ -1181,7 +1181,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - laser pistol",
         "string_start" : "0x1d84d",
         "method" : 3,
         "start_bytes" : [],
@@ -1195,7 +1195,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - laser rifle",
         "string_start" : "0x1d863",
         "method" : 3,
         "start_bytes" : [],
@@ -1209,7 +1209,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - laser sword",
         "string_start" : "0x1d878",
         "method" : 3,
         "start_bytes" : [],
@@ -1223,7 +1223,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - pulse laser",
         "string_start" : "0x1d897",
         "method" : 3,
         "start_bytes" : [],
@@ -1233,11 +1233,11 @@
         "raw_text" : "れんぞくはっしゃできる レ‐ザ‐ライフル",
         "alt_text" : "レンゾクハッシャデキル れ―ざ―らいふる",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Rapid firing Laser rifle"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - hyper laser",
         "string_start" : "0x1d8b0",
         "method" : 3,
         "start_bytes" : [],
@@ -1247,11 +1247,11 @@
         "raw_text" : "はかいりょくをたかめた レ‐ザ‐ほう",
         "alt_text" : "ハカイリョクヲタカメタ れ―ざ―ホウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Ultimate Laser weapon"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - plasma pistol",
         "string_start" : "0x1d8c6",
         "method" : 3,
         "start_bytes" : [],
@@ -1265,7 +1265,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - plasma rifle",
         "string_start" : "0x1d8e2",
         "method" : 3,
         "start_bytes" : [],
@@ -1279,7 +1279,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - plasma cannon",
         "string_start" : "0x1d8fd",
         "method" : 3,
         "start_bytes" : [],
@@ -1289,11 +1289,11 @@
         "raw_text" : "プラズマのおんどを たかめた ビ‐ムほう",
         "alt_text" : "ぷらずまノオンドヲ タカメタ び―むホウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Powerful heavy plasma weapon"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - heat ray",
         "string_start" : "0x1d91a",
         "method" : 3,
         "start_bytes" : [],
@@ -1307,7 +1307,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - heat blaster",
         "string_start" : "0x1d929",
         "method" : 3,
         "start_bytes" : [],
@@ -1321,7 +1321,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - nova blaster",
         "string_start" : "0x1d941",
         "method" : 3,
         "start_bytes" : [],
@@ -1331,11 +1331,11 @@
         "raw_text" : "かくゆうごうの ほのうを ほうしゃするぶき",
         "alt_text" : "カクユウゴウノ ホノウヲ ホウシャスルブキ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Fusion powered heatray"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - vulcan gun",
         "string_start" : "0x1d959",
         "method" : 3,
         "start_bytes" : [],
@@ -1349,7 +1349,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - missile h",
         "string_start" : "0x1d96b",
         "method" : 3,
         "start_bytes" : [],
@@ -1359,11 +1359,11 @@
         "raw_text" : "こがたの ロケットを はっしゃするじゅう",
         "alt_text" : "コガタノ ろけっとヲ ハッシャスルジュウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Handheld rocket launcher"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - buster",
         "string_start" : "0x1d984",
         "method" : 3,
         "start_bytes" : [],
@@ -1377,7 +1377,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - sonic blaster",
         "string_start" : "0x1d99f",
         "method" : 3,
         "start_bytes" : [],
@@ -1387,11 +1387,11 @@
         "raw_text" : "ちょうおんぱを はっしゃするぶき",
         "alt_text" : "チョウオンパヲ ハッシャスルブキ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Sound-wave weapon"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - grenade launcher",
         "string_start" : "0x1d9b2",
         "method" : 3,
         "start_bytes" : [],
@@ -1405,7 +1405,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - napalm launcher",
         "string_start" : "0x1d9c5",
         "method" : 3,
         "start_bytes" : [],
@@ -1419,7 +1419,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - rocket",
         "string_start" : "0x1d9de",
         "method" : 3,
         "start_bytes" : [],
@@ -1433,7 +1433,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - m-pod small",
         "string_start" : "0x1d9f7",
         "method" : 3,
         "start_bytes" : [],
@@ -1447,7 +1447,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - m-pod medium",
         "string_start" : "0x1da0c",
         "method" : 3,
         "start_bytes" : [],
@@ -1461,7 +1461,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - m-pod large",
         "string_start" : "0x1da22",
         "method" : 3,
         "start_bytes" : [],
@@ -1475,7 +1475,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - mm-pod",
         "string_start" : "0x1da37",
         "method" : 3,
         "start_bytes" : [],
@@ -1485,11 +1485,11 @@
         "raw_text" : "ふくすうの だんとうミサイルを はっしゃする",
         "alt_text" : "フクスウノ ダントウみさいるヲ ハッシャスル",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Fires multiple warheads"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - disintegrator",
         "string_start" : "0x1da51",
         "method" : 3,
         "start_bytes" : [],
@@ -1499,11 +1499,11 @@
         "raw_text" : "げんしを ぶんかいする ちょうへいき",
         "alt_text" : "ゲンシヲ ブンカイスル チョウヘイキ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Atomic destabiliser"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - anti proton beam",
         "string_start" : "0x1da66",
         "method" : 3,
         "start_bytes" : [],
@@ -1513,11 +1513,11 @@
         "raw_text" : "すべてを はかいする はんようし ほう",
         "alt_text" : "スベテヲ ハカイスル ハンヨウシ ホウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Destroys everthing"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - gamma laser",
         "string_start" : "0x1da7b",
         "method" : 3,
         "start_bytes" : [],
@@ -1527,11 +1527,11 @@
         "raw_text" : "ガンマせんレ‐ザ‐を はっしゃするぶき",
         "alt_text" : "がんまセンれ―ざ―ヲ ハッシャスルブキ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Fires a gamma ray pulse"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - negoboru",
         "string_start" : "0x1da96",
         "method" : 3,
         "start_bytes" : [],
@@ -1541,11 +1541,11 @@
         "raw_text" : "ふれたぶっしつを けしさる ちょうへいき",
         "alt_text" : "フレタブッシツヲ ケシサル チョウヘイキ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Alien superweapon"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - autogun / machine gun",
         "string_start" : "0x1daac",
         "method" : 3,
         "start_bytes" : [],
@@ -1559,7 +1559,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - impact cannon",
         "string_start" : "0x1dab4",
         "method" : 3,
         "start_bytes" : [],
@@ -1573,7 +1573,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - power fist",
         "string_start" : "0x1dacf",
         "method" : 3,
         "start_bytes" : [],
@@ -1587,7 +1587,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - acid blaster",
         "string_start" : "0x1dada",
         "method" : 3,
         "start_bytes" : [],
@@ -1625,7 +1625,7 @@
         "raw_text" : "オプション",
         "alt_text" : "おぷしょん",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Missl"
     },
 
     {
@@ -1639,7 +1639,7 @@
         "raw_text" : "フィ‐ルド",
         "alt_text" : "ふぃ―るど",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Field"
     },
 
     {
@@ -1653,7 +1653,7 @@
         "raw_text" : "インパクト",
         "alt_text" : "いんぱくと",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Impact"
     },
 
     {
@@ -1667,7 +1667,7 @@
         "raw_text" : "レ‐ザ‐",
         "alt_text" : "れ―ざ―",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Laser"
     },
 
     {
@@ -1681,7 +1681,7 @@
         "raw_text" : "ビ‐ム",
         "alt_text" : "び―む",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Beam"
     },
 
     {
@@ -1695,7 +1695,7 @@
         "raw_text" : "ヒ‐ト",
         "alt_text" : "ひ―と",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Heat"
     },
 
     {
@@ -1741,7 +1741,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - em jammer",
         "string_start" : "0x1db24",
         "method" : 3,
         "start_bytes" : [],
@@ -1755,7 +1755,7 @@
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - mhd field",
         "string_start" : "0x1db3f",
         "method" : 3,
         "start_bytes" : [],
@@ -1765,11 +1765,11 @@
         "raw_text" : "でんじばで プラズマを はじきかえす",
         "alt_text" : "デンジバデ ぷらずまヲ ハジキカエス",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Plasma-magnetic field"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - laser field",
         "string_start" : "0x1db5b",
         "method" : 3,
         "start_bytes" : [],
@@ -1779,11 +1779,11 @@
         "raw_text" : "くうかんを ゆがめて レ‐ザ‐を そらす",
         "alt_text" : "クウカンヲ ユガメテ れ―ざ―ヲ ソラス",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Distort enemy Lasers"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - laser reflector",
         "string_start" : "0x1db74",
         "method" : 3,
         "start_bytes" : [],
@@ -1793,11 +1793,11 @@
         "raw_text" : "くうかんを ゆがめて レ‐ザ‐を はんしゃする",
         "alt_text" : "クウカンヲ ユガメテ れ―ざ―ヲ ハンシャスル",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Reflect enemy Lasers"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - energy field",
         "string_start" : "0x1db90",
         "method" : 3,
         "start_bytes" : [],
@@ -1807,11 +1807,11 @@
         "raw_text" : "エネルギ‐のまくで ミサイルを はかいする",
         "alt_text" : "えねるぎ―ノマクデ みさいるヲ ハカイスル",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Blocks incoming missiles"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - mega field",
         "string_start" : "0x1dbac",
         "method" : 3,
         "start_bytes" : [],
@@ -1821,11 +1821,11 @@
         "raw_text" : "かんせいを せいぎょして ミサイルをとめる",
         "alt_text" : "カンセイヲ セイギョシテ みさいるヲトメル",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Disable missile guidance"
     },
 
     {
-        "string_description" : "Weapon list",
+        "string_description" : "Weapon list - black glove",
         "string_start" : "0x1dbc5",
         "method" : 3,
         "start_bytes" : [],
@@ -1835,7 +1835,7 @@
         "raw_text" : "じゅうりょくの かべで すべてをさえぎる",
         "alt_text" : "ジュウリョクノ カベデ スベテヲサエギル",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Anti-gravity null field"
     },
 
     {
@@ -1849,7 +1849,7 @@
         "raw_text" : "しゃげき",
         "alt_text" : "シャゲキ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Shoot"
     },
 
     {
@@ -1863,7 +1863,7 @@
         "raw_text" : "かくとう",
         "alt_text" : "カクトウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Mele"
     },
 
     {
@@ -1905,7 +1905,7 @@
         "raw_text" : "ビ‐ム ダメ‐ジ -90%",
         "alt_text" : "び―む だめ―じ -90%",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Laser acc. -90%"
     },
 
     {
@@ -1919,7 +1919,7 @@
         "raw_text" : "レ‐ザ‐めいちゅうりつ -100%",
         "alt_text" : "れ―ざ―メイチュウリツ -100%",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Laser acc. -100%"
     },
 
     {
@@ -1933,7 +1933,7 @@
         "raw_text" : "レ‐ザ‐ ダメ‐ジ ‐90%",
         "alt_text" : "れ―ざ― だめ―じ ―90%",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Laser Dam. -90%"
     },
 
     {
@@ -1947,7 +1947,7 @@
         "raw_text" : "インパクト ダメ‐ジ -50%",
         "alt_text" : "いんぱくと だめ―じ -50%",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Impact Dam. -50%"
     },
 
     {
@@ -1961,7 +1961,7 @@
         "raw_text" : "インパクト ダメ‐ジ -100%",
         "alt_text" : "いんぱくと だめ―じ -100%",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Impact Dam. -100%"
     },
 
     {
@@ -1975,6 +1975,6 @@
         "raw_text" : "たいレ‐ザ‐・ビ‐ム・ヒ‐ト -100%",
         "alt_text" : "タイれ―ざ―・び―む・ひ―と -100%",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "???/Beam/Heat -100%"
     }
 ]}

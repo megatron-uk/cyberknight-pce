@@ -74,15 +74,17 @@ def patch_file(patchfile, patch, romfile):
 	"""
 	
 	ttable = load_table()
-	
 	contiguous_patch = []
 	contiguous_text = ""
 	
 	for patch_segment in patch["data"]["data"]:
+		patch_segment["applied"] = 0
 		apply_patch = True
 		raw = False
 		s = []
+		# Is this translated, or is it the original, unaltered string?
 		if len(patch_segment["trans_text"]) == 0:
+			# Unaltered
 			raw = True
 			if VERBOSE:
 				print "---"
@@ -90,12 +92,11 @@ def patch_file(patchfile, patch, romfile):
 			for sb in patch_segment["start_bytes"]:
 				contiguous_text += "<" + sb + ">"
 			contiguous_text += patch_segment["raw_text"]			
-			#for b in patch_segment["raw"]:
-			#	s.append(b)
 			s = patch_segment["raw"]
 			for eb in patch_segment["end_bytes"]:
 				contiguous_text += "<" + eb + ">"
 		else:
+			# Translation
 			if VERBOSE:
 				print "---"				
 			FILE.seek(int(patch_segment["string_start"], 16), 0)
@@ -107,10 +108,10 @@ def patch_file(patchfile, patch, romfile):
 				contiguous_text += "<" + sb + ">"
 			
 			# Encode main text
-			encoded_string = encode_text(patch_segment["trans_text"], ttable)
+			encoded_string = encode_text(patch_segment["trans_text"], ttable, patch_segment["string_start"])
 			contiguous_text += patch_segment["trans_text"]
 			for b in encoded_string:
-				s.append(b)
+				s.append(b.decode('utf-8'))
 				
 			# Pad with switch bytes until long enough
 			if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
@@ -126,14 +127,14 @@ def patch_file(patchfile, patch, romfile):
 				if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
 					print "Untranslated length: %s" % patch_segment["raw_size"]
 					print "Translated length: %s header + %s body + %s end" % (len(patch_segment["start_bytes"]), len(encoded_string), len(patch_segment["end_bytes"]))
-					print "Untranslated:", patch_segment["raw_text"]
+					print "Untranslated:", patch_segment["raw_text"].encode('utf-8')
 					print "Translated:", patch_segment["trans_text"]
 					#print encoded_string
 				else:
 
 					print "Untranslated length: %s" % patch_segment["raw_size"]
 					print "Translated length: %s header + %s body + %s end" % (len(patch_segment["start_bytes"]), len(encoded_string), len(patch_segment["end_bytes"]))
-					print "Untranslated:", patch_segment["raw_text"]
+					print "Untranslated:", patch_segment["raw_text"].encode('utf-8')
 					print "Translated:", patch_segment["trans_text"]
 					#print encoded_string					
 			patch_len = len(s)
@@ -174,14 +175,17 @@ def patch_file(patchfile, patch, romfile):
 						# No
 						print "%s - WARNING! Not applying, string size mismatch! (%s != %s)" % (
 							patch_segment["string_start"], patch_segment["trans_size"], patch_segment["raw_size"]
-						)					
+						)	
+						#print patch_segment["raw"]		
+						#print s		
 						apply_patch = False
 					else:
 						# Yes
 						apply_patch = True
 			else:
 				if patch["data"]["insert_method"] != METHOD_CONTIGUOUS:
-					print "%s - Applying %s bytes" % (patch_segment["string_start"], patch_len)
+					if VERBOSE:
+						print "%s - Applying %s bytes" % (patch_segment["string_start"], patch_len)
 					
 		# Are we simple patching? i.e. a fixed number of characters?
 		if patch["data"]["insert_method"] == METHOD_SIMPLE:
@@ -190,13 +194,19 @@ def patch_file(patchfile, patch, romfile):
 				# at least in simple mode, so just move the file pointer
 				# onwards by the size of this untranslated string...
 				if raw:
-					FILE.seek(patch_segment["raw_size"])
+					FILE.seek(int(patch_segment["string_start"], 16))
+					patch_segment["applied"] = 2					
 				else:
 					write_text(s, patch_segment["string_start"], raw)
+					patch_segment["applied"] = 1
 		
 		if patch["data"]["insert_method"] == METHOD_CONTIGUOUS:
 			if apply_patch:
 				contiguous_patch += s
+				if raw:
+					patch_segment["applied"] = 2
+				else:
+					patch_segment["applied"] = 1
 			
 	if patch["data"]["insert_method"] == METHOD_CONTIGUOUS:
 		print "Contiguous patch method"
@@ -207,7 +217,7 @@ def patch_file(patchfile, patch, romfile):
 		if VERBOSE:
 			print ""
 			contiguous_text = contiguous_text.replace("<00>", "<00>\n")
-			print contiguous_text
+			print contiguous_text.encode('utf-8')
 			print contiguous_patch
 			print ""				
 		if used_space > available_space:
@@ -215,6 +225,35 @@ def patch_file(patchfile, patch, romfile):
 		else:		
 			FILE.seek(int(patch["data"]["block_start"], 16))
 			write_text(contiguous_patch, patch["data"]["block_start"])
+
+	################
+	# Patch stats
+	total_patches = len(patch["data"]["data"])
+	applied_patches = 0
+	untranslated_patches = 0
+	untranslated_bytes = 0
+	total_bytes = 0
+	applied_bytes = 0
+	for patch_segment in patch["data"]["data"]:
+		if patch_segment["applied"] == 1:
+			applied_patches += 1
+			applied_bytes += patch_segment["raw_size"] 
+		if patch_segment["applied"] == 2:
+			untranslated_patches += 1
+			untranslated_bytes += patch_segment["raw_size"] 
+		
+		total_bytes += patch_segment["raw_size"]
+
+	print ""
+	print "**** Patch Summary ****"
+	print "- Total Patches        : %s" % total_patches
+	print "- Total Patch Bytes    : %s" % total_bytes
+	print "- Applied Patches      : %s" % applied_patches
+	print "- Applied Bytes        : %s" % applied_bytes
+	print "- Untranslated Patches : %s" % untranslated_patches
+	print "- Untranslated Bytes   : %s" % untranslated_bytes
+
+	print ""	
 	return True
 
 def write_text(encoded_string, address, raw = False):
@@ -225,7 +264,7 @@ def write_text(encoded_string, address, raw = False):
 		FILE.write(binascii.unhexlify(hex_byte))
 	return True
 
-def encode_text(string, ttable):
+def encode_text(string, ttable, string_pos):
 	"""
 	Encode a string using the translation table to set the hex equivalent of the given characters.
 	"""
@@ -260,25 +299,32 @@ def encode_text(string, ttable):
 			i += 1
 		else:
 			if s_code:
-				match_s = s_byte
+				match_s = s_byte#[1:-1]
+				# control codes can be uppercase
 			else:
 				match_s = s
+				# normal text is case sensitive
+
 			# Search for the matching hex code for this character to encode it
-			for hex_byte in ttable.keys():				
-				if match_s == ttable[hex_byte]["pre_shift"]:
+			for hex_byte in ttable.keys():					
+				if (match_s == ttable[hex_byte]["pre_shift"]) or (match_s == ttable[hex_byte]["post_shift"]) or (match_s == hex_byte):
 					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 					s_found = True
 					i += 1
 					break
-			# If we didn't find it then just add the literal
+
+			# If we didn't find a control code lookup then just add the literal
 			if ((s_found is False) and (s_code is True)) and (len(s_byte) == 4):
-				print "WARNING! No lookup for control byte %s - adding %s" % (s_byte, s_byte[1:-1])
+				if VERBOSE:
+					print "%s - WARNING! No lookup for control byte %s - adding %s" % (hex(int(string_pos, 16)), s_byte, s_byte[1:-1])
 				encoded_as_hex.append(s_byte[1:-1].lower().encode('utf8'))
 				s_found = True
+				#i += 1
 				
-		if s_found is False:
-			print "WARNING! No lookup for <%s>" % s
-			i += 1
+			# If we didn't find a character lookup, then... erm... I don't know!
+			if s_found is False:
+				print "%s - WARNING! No lookup for [%s]" % (hex(int(string_pos, 16)), s)
+				i += 1
 		pos += 1
 		
 	return encoded_as_hex
@@ -379,7 +425,7 @@ if os.path.isdir(PATCH_DIR_NAME):
 				for b in PATCH_FILES[d]["data"]["data"]:
 					if len(b["trans_text"]) > 0:
 						t += 1
-				print "- %16s : %4s strings : %4s translations" % (d, len(PATCH_FILES[d]["data"]["data"]), t)
+				print "- %4s strings %4s translations | %s" % (len(PATCH_FILES[d]["data"]["data"]), t, d)
 			except Exception as e:
 				print traceback.format_exc()
 				print "- %s <- ERROR, not a valid JSON file" % d
@@ -406,6 +452,7 @@ for f in keys:
 	print "Applying %s" % f
 	print "-----------------"
 	patch_file(f, PATCH_FILES[f], FILE) 
+	
 	print ""
 	
 FILE.seek(0, 0)

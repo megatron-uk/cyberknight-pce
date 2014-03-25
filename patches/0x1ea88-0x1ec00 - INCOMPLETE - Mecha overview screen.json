@@ -71,7 +71,7 @@
         "raw_text" : "<0B><0E><0A>武器<0B><0F><erase>1H:",
         "alt_text" : "<0B><0E><0A>武器<0B><0F><erase>1H:",
         "trans_size" : 0,
-        "trans_text" : "Weapon<0b><0e><0c>1H"
+        "trans_text" : "Weapon<0b><0e><0c> 1H"
     },
 
     {
@@ -85,7 +85,7 @@
         "raw_text" : "<0B><0F><0E>2H:",
         "alt_text" : "<0B><0F><0E>2H:",
         "trans_size" : 0,
-        "trans_text" : "<0b><0e><0e>2H"
+        "trans_text" : "<0b><0e><0e> 2H"
     },
 
     {
@@ -99,7 +99,7 @@
         "raw_text" : "<0B><0E><10>オプツョソ<0B><0F><12>肩:",
         "alt_text" : "<0B><0E><10>オプツョソ<0B><0F><12>肩:",
         "trans_size" : 0,
-        "trans_text" : "Mounts<0b><0e><12>Shld"
+        "trans_text" : "Mounts<0b><0e><12>Sld"
     },
 
     {
@@ -134,14 +134,14 @@
         "string_description" : "Shipboard menus 3?",
         "string_start" : "0x1eb58",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "start_bytes" : ["0b", "0e", "18"],
+        "end_bytes" : ["0b", "0e", "1a", "20"],
         "raw_size" : 23,
         "raw" : ["0b", "0e", "18", "1d", "0e", "50", "70", "51", "71", "52", "72", "53", "73", "ce", "ec", "e3", "e4", "dc", "f1", "0b", "0e", "1a", "20"],
-        "raw_text" : "<0B><0E><18>攻撃タ<e3><e4><dc><f1><0B><0E><1A>",
-        "alt_text" : "<0B><0E><18>攻撃タ<e3><e4><dc><f1><0B><0E><1A>",
+        "raw_text" : "<0B><0E><18>攻撃タイプ<0B><0E><1A>",
+        "alt_text" : "<0B><0E><18>攻撃タイプ<0B><0E><1A>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Weapon Type"
     },
 
     {
@@ -400,14 +400,14 @@
         "string_description" : "Shipboard menus 3?",
         "string_start" : "0x1eb8b",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0b", "15", "0b"],
         "end_bytes" : ["20"],
         "raw_size" : 21,
         "raw" : ["0b", "15", "0b", "1d", "0e", "fc", "f2", "e7", "e9", "00", "d7", "8d", "ee", "cb", "e9", "e3", "e4", "fb", "eb", "3a", "20"],
-        "raw_text" : "<0B><15><0B><fc><f2><e7><e9><00><d7><8d><ee><cb><e9><e3><e4><fb><eb>:",
-        "alt_text" : "<0B><15><0B><fc><f2><e7><e9><00><d7><8d><ee><cb><e9><e3><e4><fb><eb>:",
+        "raw_text" : "<0B><15><0B>ポケットサイズ:",
+        "alt_text" : "<0B><15><0B>ポケットサイズ:",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Storage:"
     },
 
     {
@@ -421,7 +421,7 @@
         "raw_text" : "<0B><15><0E>防御",
         "alt_text" : "<0B><15><0E>防御",
         "trans_size" : 0,
-        "trans_text" : "Def"
+        "trans_text" : "Def."
     },
 
     {
@@ -491,7 +491,7 @@
         "raw_text" : "<0B><15><10>装甲",
         "alt_text" : "<0B><15><10>装甲",
         "trans_size" : 0,
-        "trans_text" : "Arm"
+        "trans_text" : "Armr"
     },
 
     {
@@ -561,7 +561,7 @@
         "raw_text" : "<0B><15><12>回避",
         "alt_text" : "<0B><15><12>回避",
         "trans_size" : 0,
-        "trans_text" : "Eva"
+        "trans_text" : "Evad"
     },
 
     {
@@ -631,7 +631,7 @@
         "raw_text" : "<0B><15><14>移動",
         "alt_text" : "<0B><15><14>移動",
         "trans_size" : 0,
-        "trans_text" : "Spd"
+        "trans_text" : "Spd."
     },
 
     {
@@ -691,17 +691,17 @@
     },
 
     {
-        "string_description" : "Shipboard menus 3?",
+        "string_description" : "Shipboard menus 3? - deposit ???",
         "string_start" : "0x1ebe8",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0b", "15", "16"],
         "end_bytes" : ["20"],
         "raw_size" : 14,
         "raw" : ["0b", "15", "16", "1d", "08", "96", "b6", "97", "b7", "4a", "6a", "4b", "6b", "20"],
         "raw_text" : "<0B><15><16>格存",
         "alt_text" : "<0B><15><16>格存",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Mele"
     },
 
     {

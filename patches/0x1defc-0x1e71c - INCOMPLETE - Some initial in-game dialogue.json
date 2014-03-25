@@ -1,0 +1,1966 @@
+{
+"block_description" : "Some initial messages and in-game dialogue",
+"block_start" : "0x1defc",
+"block_end" : "0x1e71c",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "mica warning not to leave the area",
+        "string_start" : "0x1defc",
+        "method" : 3,
+        "start_bytes" : ["1a", "5f", "10", "30"],
+        "end_bytes" : ["08", "1b", "01", "00"],
+        "raw_size" : 32,
+        "raw" : ["1a", "5f", "4d", "49", "43", "41", "a2", "bb", "b8", "be", "dd", "5c", "b4", "d8", "b1", "5c", "b6", "d7", "20", "ca", "bd", "de", "da", "c3", "b2", "cf", "bd", "a3", "08", "1b", "01", "00"],
+        "raw_text" : "<1A>_MICA『さくせんエリアから はずれています』<wait><1B><01>",
+        "alt_text" : "<1A>_MICA『サクセンえりおカラ ハズレテイマス』<wait><1B><01>",
+        "trans_size" : 0,
+        "trans_text" : ":Stay within the area!"
+    },
+
+    {
+        "string_description" : "professor - nothing to analyse",
+        "string_start" : "0x1df1c",
+        "method" : 3,
+        "start_bytes" : ["10", "34"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 27,
+        "raw" : ["10", "34", "03", "a2", "b6", "b2", "be", "b7", "20", "bd", "d9", "d3", "c9", "ca", "20", "c5", "c6", "d3", "20", "c5", "b2", "bf", "de", "21", "a3", "08", "00"],
+        "raw_text" : "<Professor>\n『かいせき するものは なにも ないぞ!』<wait>",
+        "alt_text" : "<Professor>\n『カイセキ スルモノハ ナニモ ナイゾ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":\nNothing to analyse!"
+    },
+
+    {
+        "string_description" : "i healed you, but take it easy for a while!",
+        "string_start" : "0x1df37",
+        "method" : 3,
+        "start_bytes" : ["10", "35"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 37,
+        "raw" : ["10", "35", "a2", "b9", "b6", "de", "ca", "20", "c5", "b5", "af", "c0", "dc", "d6", "a1", "03", "b1", "cf", "d8", "20", "d1", "c1", "ac", "a6", "20", "bc", "c1", "ac", "20", "c0", "de", "d2", "d6", "21", "a3", "08", "00"],
+        "raw_text" : "<Doctor>『けがは なおったわよ。\nおまり むちゃを しちゃ だめよ!』<wait>",
+        "alt_text" : "<Doctor>『ケガハ ナオッタワヨ。\nアマリ ムチャヲ シチャ ダメヨ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":All healed!\nBut take it easy!"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1df5c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 29,
+        "raw" : ["10", "35", "a2", "ba", "da", "b6", "de", "20", "b1", "c5", "c0", "c0", "c1", "c9", "20", "5c", "b8", "db", "b0", "dd", "ba", "b0", "c4", "de", "5c", "d6", "a1", "a3", "00"],
+        "raw_text" : "<Doctor>『これが おなたたちの クロ‐ンコ‐ドよ。』",
+        "alt_text" : "<Doctor>『コレガ アナタタチノ くろ―んこ―どヨ。』",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "nothing to heal right now",
+        "string_start" : "0x1df79",
+        "method" : 3,
+        "start_bytes" : ["10", "35"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 31,
+        "raw" : ["10", "35", "a2", "ba", "b2", "c9", "d4", "cf", "b2", "ca", "20", "dc", "c0", "bc", "c9", "20", "c0", "dd", "c4", "b3", "bc", "de", "ac", "03", "c5", "b2", "c9", "a1", "a3", "08", "00"],
+        "raw_text" : "<Doctor>『こいのやまいは わたしの たんとうじゃ\nないの。』<wait>",
+        "alt_text" : "<Doctor>『コイノヤマイハ ワタシノ タントウジャ\nナイノ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":You dont need my help\n now"
+    },
+
+    {
+        "string_description" : "fixed mecha - dont go breaking it again",
+        "string_start" : "0x1df98",
+        "method" : 3,
+        "start_bytes" : ["10", "36"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 34,
+        "raw" : ["10", "36", "a2", "bc", "ad", "b3", "d8", "20", "b6", "dd", "d8", "ae", "b3", "a1", "03", "0d", "04", "d3", "b3", "20", "ba", "dc", "bc", "c3", "20", "b8", "da", "d9", "c5", "d6", "21", "a3", "08", "00"],
+        "raw_text" : "<Engineer>『しゅうり かんりょう。\n<pad><pause>もう こわして くれるなよ!』<wait>",
+        "alt_text" : "<Engineer>『シュウリ カンリョウ。\n<pad><pause>モウ コワシテ クレルナヨ!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":Fixed. Dont ruin\nit again!"
+    },
+
+    {
+        "string_description" : "engineer restocks medkit and repkit",
+        "string_start" : "0x1dfba",
+        "method" : 3,
+        "start_bytes" : ["0c", "10", "36"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 38,
+        "raw" : ["0c", "10", "36", "a2", "5c", "d8", "cd", "df", "b1", "b7", "af", "c4", "a5", "b7", "ad", "b1", "b7", "af", "c4", "5c", "a6", "20", "ce", "bc", "de", "ad", "b3", "03", "bc", "c4", "b2", "c0", "be", "de", "a1", "a3", "08", "00"],
+        "raw_text" : "<erase><Engineer>『リペアキット・キュアキットを ほじゅう\nしといたぜ。』<wait>",
+        "alt_text" : "<erase><Engineer>『りぺおきっと・きゅおきっとヲ ホジュウ\nシトイタゼ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":Repkits & Medkits\nare restocked"
+    },
+
+    {
+        "string_description" : "engineer - nothing needs fixing",
+        "string_start" : "0x1dfe0",
+        "method" : 3,
+        "start_bytes" : ["10", "36"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 45,
+        "raw" : ["10", "36", "a2", "c4", "de", "ba", "d3", "20", "ba", "dc", "da", "c3", "c5", "b2", "be", "de", "a1", "03", "0d", "04", "5c", "c1", "ad", "b0", "dd", "5c", "ca", "20", "5c", "b7", "de", "dd", "b7", "de", "dd", "5c", "c0", "de", "be", "de", "21", "21", "a3", "08", "00"],
+        "raw_text" : "<Engineer>『どこも こわれてないぜ。\n<pad><pause>チュ‐ンは ギンギンだぜ!!』<wait>",
+        "alt_text" : "<Engineer>『ドコモ コワレテナイゼ。\n<pad><pause>ちゅ―んハ ぎんぎんダゼ!!』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":Quit bothering\nme, nothing needs fixing!"
+    },
+
+    {
+        "string_description" : "engineer-let fix the mecha before that",
+        "string_start" : "0x1e00d",
+        "method" : 3,
+        "start_bytes" : ["10", "36"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 27,
+        "raw" : ["10", "36", "a2", "bf", "c9", "cf", "b4", "c6", "20", "5c", "d3", "bc", "de", "ad", "b0", "d9", "5c", "a6", "20", "b7", "c3", "b8", "da", "a1", "a3", "08", "00"],
+        "raw_text" : "<Engineer>『そのまえに モジュ‐ルを きてくれ。』<wait>",
+        "alt_text" : "<Engineer>『ソノマエニ もじゅ―るヲ キテクレ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":I'll fix the mecha now"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e028",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["20", "10", "ff", "09", "05", "02", "00"],
+        "raw_text" : " <10>゜<09><05>\n",
+        "alt_text" : " <10>゜<09><05>\n",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "good luck on starting a mission",
+        "string_start" : "0x1e02f",
+        "method" : 3,
+        "start_bytes" : ["10", "36"],
+        "end_bytes" : ["1c", "01", "00"],
+        "raw_size" : 19,
+        "raw" : ["10", "36", "a2", "5c", "b8", "de", "af", "c4", "de", "20", "d7", "af", "b8", "21", "21", "a3", "1c", "01", "00"],
+        "raw_text" : "<Engineer>『グッド ラック!!』<endwait><01>",
+        "alt_text" : "<Engineer>『ぐっど らっく!!』<endwait><01>",
+        "trans_size" : 0,
+        "trans_text" : ":Stay safe!"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e042",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 5,
+        "raw" : ["10", "ff", "09", "04", "00"],
+        "raw_text" : "<10>゜<09><pause>",
+        "alt_text" : "<10>゜<09><pause>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "mica welcome back after mission",
+        "string_start" : "0x1e047",
+        "method" : 3,
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["02", "00"],
+        "raw_size" : 38,
+        "raw" : ["10", "30", "a2", "b5", "b6", "b4", "d8", "c5", "bb", "b2", "21", "21", "03", "0d", "04", "5c", "d0", "af", "bc", "ae", "dd", "5c", "20", "ba", "de", "b8", "db", "b3", "bb", "cf", "c3", "de", "bc", "c0", "a1", "a3", "02", "00"],
+        "raw_text" : "<Mica>『おかえりなさい!!\n<pad><pause>ミッション ごくろうさまでした。』\n",
+        "alt_text" : "<Mica>『オカエリナサイ!!\n<pad><pause>みっしょん ゴクロウサマデシタ。』\n",
+        "trans_size" : 0,
+        "trans_text" : ":Well done!\n<0d><05>Mission complete!"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e06d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 35,
+        "raw" : ["10", "35", "a2", "cf", "c0", "bc", "dd", "c0", "de", "c9", "a1", "03", "b2", "bf", "b2", "c3", "de", "20", "5c", "b8", "db", "b0", "dd", "5c", "bb", "b2", "be", "b2", "20", "bd", "d9", "dc", "a1", "a3", "00"],
+        "raw_text" : "<Doctor>『またしんだの。\nいそいで クロ‐ンさいせい するわ。』",
+        "alt_text" : "<Doctor>『マタシンダノ。\nイソイデ くろ―んサイセイ スルワ。』",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e090",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["0c", "10", "35", "a2", "c2", "b7", "de", "ca", "20", "b7", "a6", "c2", "b9", "c5", "bb", "b2", "d6", "a1", "a3", "08", "00"],
+        "raw_text" : "<erase><Doctor>『つぎは きをつけなさいよ。』<wait>",
+        "alt_text" : "<erase><Doctor>『ツギハ キヲツケナサイヨ。』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e0a5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e0a6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["13", "f9", "6a", "0b", "12", "08", "10", "21", "0b", "1b", "08", "18", "dd", "2d", "00"],
+        "raw_text" : "<13>ルj<0B><12><wait><10>!<0B><1B><wait><18>ん-",
+        "alt_text" : "<13>るj<0B><12><wait><10>!<0B><1B><wait><18>ン-",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "prints mecha stats def: 3, armr: 3, evad:3, spd:3, mele:2 / attack type impact/laser/beam",
+        "string_start" : "0x1e0b5",
+        "method" : 3,
+        "start_bytes" : ["0b", "1d", "0b", "34", "0b", "12", "0c", "53", "0b", "12", "0e", "53", "0b", "12", "12", "4d", "0b", "12", "14", "58", "0b", "12", "16", "4d", "0b", "19", "0e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "7e", "0b", "19", "12", "7e", "7e", "7e", "0b", "19", "14", "7e", "7e", "7e", "0b", "19", "16", "7e", "7e", "0b", "0e", "1a"],
+        "end_bytes" : ["00"],
+        "raw_size" : 75,
+        "raw" : ["0b", "1d", "0b", "34", "0b", "12", "0c", "53", "0b", "12", "0e", "53", "0b", "12", "12", "4d", "0b", "12", "14", "58", "0b", "12", "16", "4d", "0b", "19", "0e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "7e", "0b", "19", "12", "7e", "7e", "7e", "0b", "19", "14", "7e", "7e", "7e", "0b", "19", "16", "7e", "7e", "0b", "0f", "1a", "5c", "b2", "dd", "ca", "df", "b8", "c4", "2f", "da", "b0", "bb", "de", "b0", "2f", "cb", "de", "b0", "d1", "00"],
+        "raw_text" : "インパクト/レ‐ザ‐/ビ‐ム",
+        "alt_text" : "いんぱくと/れ―ざ―/び―む",
+        "trans_size" : 0,
+        "trans_text" : "Impact/Lasr/Beam"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e100",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["13", "f9", "6a", "0b", "12", "08", "10", "22", "0b", "1b", "08", "18", "dd", "2d", "00"],
+        "raw_text" : "<13>ルj<0B><12><wait><10>“<0B><1B><wait><18>ん-",
+        "alt_text" : "<13>るj<0B><12><wait><10>“<0B><1B><wait><18>ン-",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "prints mecha stats def: 3, armr: 2, evad:3, spd:3, mele:2 / attack type impact/beam/heat",
+        "string_start" : "0x1e10f",
+        "method" : 3,
+        "start_bytes" : ["0b", "1d", "0b", "34", "0b", "12", "0c", "53", "0b", "12", "0e", "53", "0b", "12", "12", "53", "0b", "12", "14", "53", "0b", "12", "16", "58", "0b", "19", "0e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "0b", "19", "12", "7e", "7e", "7e", "0b", "19", "14", "7e", "7e", "7e", "0b", "19", "16", "7e", "7e", "0b", "0e", "1a"],
+        "end_bytes" : ["00"],
+        "raw_size" : 72,
+        "raw" : ["0b", "1d", "0b", "34", "0b", "12", "0c", "53", "0b", "12", "0e", "53", "0b", "12", "12", "53", "0b", "12", "14", "53", "0b", "12", "16", "58", "0b", "19", "0e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "0b", "19", "12", "7e", "7e", "7e", "0b", "19", "14", "7e", "7e", "7e", "0b", "19", "16", "7e", "7e", "0b", "0f", "1a", "5c", "b2", "dd", "ca", "df", "b8", "c4", "2f", "cb", "de", "b0", "d1", "2f", "cb", "b0", "c4", "00"],
+        "raw_text" : "インパクト/ビ‐ム/ヒ‐ト",
+        "alt_text" : "いんぱくと/び―む/ひ―と",
+        "trans_size" : 0,
+        "trans_text" : "Impact/Beam/Heat"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e157",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["13", "f9", "6a", "0b", "12", "08", "10", "23", "0b", "1b", "08", "18", "dd", "2d", "00"],
+        "raw_text" : "<13>ルj<0B><12><wait><10>#<0B><1B><wait><18>ん-",
+        "alt_text" : "<13>るj<0B><12><wait><10>#<0B><1B><wait><18>ン-",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "prints mecha stats def: 2, armr: 1, evad:5, spd:5, mele:1 / attack type impact",
+        "string_start" : "0x1e166",
+        "method" : 3,
+        "start_bytes" : ["0b", "1d", "0b", "34", "0b", "12", "0c", "53", "0b", "12", "0e", "53", "0b", "12", "12", "4c", "0b", "12", "14", "58", "0b", "12", "16", "58", "0b", "19", "0e", "7e", "7e", "0b", "19", "10", "7e", "0b", "19", "12", "7e", "7e", "7e", "7e", "7e", "0b", "19", "14", "7e", "7e", "7e", "7e", "7e", "0b", "19", "16", "7e", "0b", "0e", "1a"],
+        "end_bytes" : ["00"],
+        "raw_size" : 64,
+        "raw" : ["0b", "1d", "0b", "34", "0b", "12", "0c", "53", "0b", "12", "0e", "53", "0b", "12", "12", "4c", "0b", "12", "14", "58", "0b", "12", "16", "58", "0b", "19", "0e", "7e", "7e", "0b", "19", "10", "7e", "0b", "19", "12", "7e", "7e", "7e", "7e", "7e", "0b", "19", "14", "7e", "7e", "7e", "7e", "7e", "0b", "19", "16", "7e", "0b", "0f", "1a", "5c", "b2", "dd", "ca", "df", "b8", "c4", "00"],
+        "raw_text" : "インパクト",
+        "alt_text" : "いんぱくと",
+        "trans_size" : 0,
+        "trans_text" : "Impact"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e1a6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["13", "f9", "6a", "0b", "12", "08", "10", "24", "0b", "1b", "08", "18", "dd", "2d", "00"],
+        "raw_text" : "<13>ルj<0B><12><wait><10>$<0B><1B><wait><18>ん-",
+        "alt_text" : "<13>るj<0B><12><wait><10>$<0B><1B><wait><18>ン-",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "prints mecha stats def: 4, armr: 4, evad:1, spd:1, mele:1 / attack impact/laser/beam",
+        "string_start" : "0x1e1b5",
+        "method" : 3,
+        "start_bytes" : ["0b", "1d", "0b", "35", "0b", "12", "0c", "53", "0b", "12", "0e", "4c", "0b", "12", "12", "4c", "0b", "12", "14", "4c", "0b", "12", "16", "4c", "0b", "19", "0e", "7e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "7e", "7e", "0b", "19", "12", "7e", "0b", "19", "14", "7e", "0b", "19", "16", "7e", "0b", "0e", "1a"],
+        "end_bytes" : ["00"],
+        "raw_size" : 72,
+        "raw" : ["0b", "1d", "0b", "35", "0b", "12", "0c", "53", "0b", "12", "0e", "4c", "0b", "12", "12", "4c", "0b", "12", "14", "4c", "0b", "12", "16", "4c", "0b", "19", "0e", "7e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "7e", "7e", "0b", "19", "12", "7e", "0b", "19", "14", "7e", "0b", "19", "16", "7e", "0b", "0f", "1a", "5c", "b2", "dd", "ca", "df", "b8", "c4", "2f", "da", "b0", "bb", "de", "b0", "2f", "cb", "de", "b0", "d1", "00"],
+        "raw_text" : "インパクト/レ‐ザ‐/ビ‐ム",
+        "alt_text" : "いんぱくと/れ―ざ―/び―む",
+        "trans_size" : 0,
+        "trans_text" : "Impact/Lasr/Beam"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e1fd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["13", "f9", "6a", "0b", "12", "08", "10", "25", "0b", "1b", "08", "18", "dd", "2d", "00"],
+        "raw_text" : "<13>ルj<0B><12><wait><10>%<0B><1B><wait><18>ん-",
+        "alt_text" : "<13>るj<0B><12><wait><10>%<0B><1B><wait><18>ン-",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "prints mecha stats def: 5, armr: 5, evad:1, spd:1, mele:5 / attack type impact",
+        "string_start" : "0x1e20c",
+        "method" : 3,
+        "start_bytes" : ["0b", "1d", "0b", "33", "0b", "12", "0c", "4c", "0b", "12", "0e", "4c", "0b", "12", "12", "53", "0b", "12", "14", "58", "0b", "12", "16", "58", "0b", "19", "0e", "7e", "7e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "7e", "7e", "7e", "0b", "19", "12", "7e", "0b", "19", "14", "7e", "0b", "19", "16", "7e", "7e", "7e", "7e", "7e", "0b", "0e", "1a"],
+        "end_bytes" : ["00"],
+        "raw_size" : 67,
+        "raw" : ["0b", "1d", "0b", "33", "0b", "12", "0c", "4c", "0b", "12", "0e", "4c", "0b", "12", "12", "53", "0b", "12", "14", "58", "0b", "12", "16", "58", "0b", "19", "0e", "7e", "7e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "7e", "7e", "7e", "0b", "19", "12", "7e", "0b", "19", "14", "7e", "0b", "19", "16", "7e", "7e", "7e", "7e", "7e", "0b", "0f", "1a", "5c", "b2", "dd", "ca", "df", "b8", "c4", "00"],
+        "raw_text" : "インパクト",
+        "alt_text" : "いんぱくと",
+        "trans_size" : 0,
+        "trans_text" : "Impact"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e24f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["20", "10", "21", "20", "20", "10", "22", "20", "20", "10", "23", "20", "20", "10", "24", "20", "20", "10", "25", "00"],
+        "raw_text" : " <10>!  <10>“  <10>#  <10>$  <10>%",
+        "alt_text" : " <10>!  <10>“  <10>#  <10>$  <10>%",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e263",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 5,
+        "raw" : ["0b", "02", "08", "10", "00"],
+        "raw_text" : "<0B>\n<wait><10>",
+        "alt_text" : "<0B>\n<wait><10>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e268",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 26,
+        "raw" : ["09", "05", "3a", "10", "0c", "0b", "02", "0a", "10", "01", "09", "05", "3a", "10", "0d", "0b", "02", "0c", "10", "02", "09", "05", "3a", "10", "0e", "00"],
+        "raw_text" : "<09><05>:<10><erase><0B>\n<0A><10><01><09><05>:<10><pad><0B>\n<erase><10>\n<09><05>:<10><0E>",
+        "alt_text" : "<09><05>:<10><erase><0B>\n<0A><10><01><09><05>:<10><pad><0B>\n<erase><10>\n<09><05>:<10><0E>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e282",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["13", "86", "6a", "00"],
+        "raw_text" : "<13>ヲj",
+        "alt_text" : "<13>ヲj",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e286",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["13", "f9", "6a", "00"],
+        "raw_text" : "<13>ルj",
+        "alt_text" : "<13>るj",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "show current and jump coordinates",
+        "string_start" : "0x1e28a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 45,
+        "raw" : ["b9", "de", "dd", "bb", "de", "b2", "bb", "de", "cb", "ae", "b3", "20", "3a", "20", "14", "01", "ff", "09", "13", "02", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "bb", "de", "cb", "ae", "b3", "20", "3a", "20", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "20", "00"],
+        "raw_text" : "げんざいざひょう : <14><01>゜<09><13>\nジャンプざひょう : ‥‥‥‥‥‥‥ ",
+        "alt_text" : "ゲンザイザヒョウ : <14><01>゜<09><13>\nじゃんぷザヒョウ : ‥‥‥‥‥‥‥ ",
+        "trans_size" : 0,
+        "trans_text" : "Coords : <14><01> <09><13>\nJump Coords : <3b><3b><3b><3b><3b><3b><3b> "
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e2b7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["0b", "16", "18", "14", "01", "ff", "09", "13", "00"],
+        "raw_text" : "<0B><16><18><14><01>゜<09><13>",
+        "alt_text" : "<0B><16><18><14><01>゜<09><13>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e2c0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 65,
+        "raw" : ["ba", "b3", "be", "b2", "d2", "b2", "3a", "14", "01", "ff", "02", "20", "20", "b9", "de", "dd", "bb", "de", "b2", "bb", "de", "cb", "ae", "b3", "20", "3a", "20", "c0", "de", "b2", "18", "98", "28", "21", "dc", "b8", "be", "b2", "02", "20", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "bb", "de", "cb", "ae", "b3", "20", "3a", "20", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "00"],
+        "raw_text" : "こうせいめい:<14><01>゜\n  げんざいざひょう : だい<18>ク(!わくせい\n  ジャンプざひょう : ‥‥‥‥‥‥‥",
+        "alt_text" : "コウセイメイ:<14><01>゜\n  ゲンザイザヒョウ : ダイ<18>ク(!ワクセイ\n  じゃんぷザヒョウ : ‥‥‥‥‥‥‥",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e301",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["0b", "13", "15", "c0", "de", "b2", "18", "98", "28", "21", "dc", "b8", "be", "b2", "09", "14", "00"],
+        "raw_text" : "<0B><13><15>だい<18>ク(!わくせい<09><14>",
+        "alt_text" : "<0B><13><15>ダイ<18>ク(!ワクセイ<09><14>",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "doctor reviving a clone",
+        "string_start" : "0x1e312",
+        "method" : 3,
+        "start_bytes" : ["10", "35"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 34,
+        "raw" : ["10", "35", "a2", "04", "14", "b5", "a5", "04", "14", "ca", "a5", "04", "14", "d6", "a5", "20", "04", "3c", "07", "ff", "b5", "d2", "bb", "de", "d2", "20", "b2", "b6", "b6", "de", "3f", "a3", "08", "00"],
+        "raw_text" : "<Doctor>『<pause><14>お・<pause><14>は・<pause><14>よ・ <pause><<07>゜おめざめ いかが?』<wait>",
+        "alt_text" : "<Doctor>『<pause><14>オ・<pause><14>ハ・<pause><14>ヨ・ <pause><<07>゜オメザメ イカガ?』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":<04><14>3-<04><14>2-<04><14>1 are you ok?"
+    },
+
+    {
+        "string_description" : "doctor reviving a clone",
+        "string_start" : "0x1e334",
+        "method" : 3,
+        "start_bytes" : ["10", "35"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 34,
+        "raw" : ["10", "35", "a2", "04", "14", "b5", "a5", "04", "14", "ca", "a5", "04", "14", "d6", "a5", "20", "04", "3c", "07", "ff", "b5", "d2", "bb", "de", "d2", "20", "b2", "b6", "b6", "de", "3f", "a3", "08", "00"],
+        "raw_text" : "<Doctor>『<pause><14>お・<pause><14>は・<pause><14>よ・ <pause><<07>゜おめざめ いかが?』<wait>",
+        "alt_text" : "<Doctor>『<pause><14>オ・<pause><14>ハ・<pause><14>ヨ・ <pause><<07>゜オメザメ イカガ?』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":<04><14>3-<04><14>2-<04><14>1 are you ok?"
+    },
+
+    {
+        "string_description" : "doctor reviving a clone",
+        "string_start" : "0x1e356",
+        "method" : 3,
+        "start_bytes" : ["10", "35"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 34,
+        "raw" : ["10", "35", "a2", "04", "14", "b5", "a5", "04", "14", "ca", "a5", "04", "14", "d6", "a5", "20", "04", "3c", "07", "ff", "b5", "d2", "bb", "de", "d2", "20", "b2", "b6", "b6", "de", "3f", "a3", "08", "00"],
+        "raw_text" : "<Doctor>『<pause><14>お・<pause><14>は・<pause><14>よ・ <pause><<07>゜おめざめ いかが?』<wait>",
+        "alt_text" : "<Doctor>『<pause><14>オ・<pause><14>ハ・<pause><14>ヨ・ <pause><<07>゜オメザメ イカガ?』<wait>",
+        "trans_size" : 0,
+        "trans_text" : ":<04><14>3-<04><14>2-<04><14>1 are you ok?"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e378",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e379",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e37a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e37b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e37c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e37d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e37e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e37f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e380",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e381",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e382",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e383",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e384",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e385",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e386",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e387",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e388",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e389",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e38a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e38b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e38c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e38d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e38e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e38f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e390",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e391",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e392",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e393",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e394",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e395",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e396",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e397",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e398",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e399",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e39a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e39b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e39c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e39d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e39e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e39f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a6",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3a9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3aa",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3ab",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3ac",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3ad",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3ae",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3bf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3d0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3e1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e3f2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e403",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e414",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e425",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "20", "ba", "de", "b3", "b7", "dd", "13", "5c", "67", "00"],
+        "raw_text" : "<13><kanji>gとくしゅ ごうきん<13>g",
+        "alt_text" : "<13><kanji>gトクシュ ゴウキン<13>g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e436",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "5c", "ba", "b0", "c3", "a8", "dd", "b8", "de", "5c", "13", "46", "6a", "00"],
+        "raw_text" : "<13><kanji>gとくしゅコ‐ティング<13>Fj",
+        "alt_text" : "<13><kanji>gトクシュこ―てぃんぐ<13>Fj",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e44a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "5c", "ba", "b0", "c3", "a8", "dd", "b8", "de", "5c", "13", "46", "6a", "00"],
+        "raw_text" : "<13><kanji>gとくしゅコ‐ティング<13>Fj",
+        "alt_text" : "<13><kanji>gトクシュこ―てぃんぐ<13>Fj",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e45e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "c4", "b8", "bc", "ad", "5c", "ba", "b0", "c3", "a8", "dd", "b8", "de", "5c", "13", "46", "6a", "00"],
+        "raw_text" : "<13><kanji>gとくしゅコ‐ティング<13>Fj",
+        "alt_text" : "<13><kanji>gトクシュこ―てぃんぐ<13>Fj",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e472",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "e5", "67", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13>ナg",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13>なg",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e485",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "e5", "67", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13>ナg",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13>なg",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e498",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "e5", "67", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13>ナg",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13>なg",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e4ab",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "6f", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13>oh",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13>oh",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e4be",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "6f", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13>oh",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13>oh",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e4d1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "f7", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13>ラh",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13>らh",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e4e4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "f7", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13>ラh",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13>らh",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e4f7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "7d", "69", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13><chevron>i",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13><chevron>i",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e50a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "7d", "69", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13><chevron>i",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13><chevron>i",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e51d",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "5c", "bd", "ba", "b0", "cc", "df", "5c", "13", "7d", "69", "00"],
+        "raw_text" : "<13><kanji>gしんがたスコ‐プ<13><chevron>i",
+        "alt_text" : "<13><kanji>gシンガタすこ―ぷ<13><chevron>i",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e530",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "ca", "de", "b8", "d4", "b8", "13", "9f", "67", "00"],
+        "raw_text" : "<13><kanji>gしんがた ばくやく<13>ソg",
+        "alt_text" : "<13><kanji>gシンガタ バクヤク<13>ソg",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e542",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "ca", "de", "b8", "d4", "b8", "13", "9f", "67", "00"],
+        "raw_text" : "<13><kanji>gしんがた ばくやく<13>ソg",
+        "alt_text" : "<13><kanji>gシンガタ バクヤク<13>ソg",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e554",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "ca", "de", "b8", "d4", "b8", "13", "9f", "67", "00"],
+        "raw_text" : "<13><kanji>gしんがた ばくやく<13>ソg",
+        "alt_text" : "<13><kanji>gシンガタ バクヤク<13>ソg",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e566",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "5c", "da", "dd", "bd", "de", "5c", "13", "2a", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがた レンズ<13>*h",
+        "alt_text" : "<13><kanji>gシンガタ れんず<13>*h",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e579",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "5c", "da", "dd", "bd", "de", "5c", "13", "2a", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがた レンズ<13>*h",
+        "alt_text" : "<13><kanji>gシンガタ れんず<13>*h",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e58c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "5c", "da", "dd", "bd", "de", "5c", "13", "2a", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがた レンズ<13>*h",
+        "alt_text" : "<13><kanji>gシンガタ れんず<13>*h",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e59f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "5c", "ba", "b2", "d9", "5c", "13", "b3", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがた コイル<13>うh",
+        "alt_text" : "<13><kanji>gシンガタ こいる<13>ウh",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e5b1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "5c", "ba", "b2", "d9", "5c", "13", "b3", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがた コイル<13>うh",
+        "alt_text" : "<13><kanji>gシンガタ こいる<13>ウh",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e5c3",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "b3", "68", "00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "5c", "ba", "b2", "d9", "5c", "13", "b3", "68", "00"],
+        "raw_text" : "<13><kanji>gしんがた コイル<13>うh",
+        "alt_text" : "<13><kanji>gシンガタ こいる<13>ウh",
+        "trans_size" : 0,
+        "trans_text" : "NeoMetal"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e5d5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "b6", "ba", "de", "b3", "cc", "de", "c2", "13", "3a", "69", "00"],
+        "raw_text" : "<13><kanji>gしんがた かごうぶつ<13>:i",
+        "alt_text" : "<13><kanji>gシンガタ カゴウブツ<13>:i",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e5e9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "b6", "ba", "de", "b3", "cc", "de", "c2", "13", "3a", "69", "00"],
+        "raw_text" : "<13><kanji>gしんがた かごうぶつ<13>:i",
+        "alt_text" : "<13><kanji>gシンガタ カゴウブツ<13>:i",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e5fd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "bc", "dd", "b6", "de", "c0", "20", "b6", "ba", "de", "b3", "cc", "de", "c2", "13", "3a", "69", "00"],
+        "raw_text" : "<13><kanji>gしんがた かごうぶつ<13>:i",
+        "alt_text" : "<13><kanji>gシンガタ カゴウブツ<13>:i",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e611",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "5c", "bf", "c6", "af", "b8", "cc", "de", "d7", "bd", "c0", "b0", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gソニックブラスタ‐<13>:g",
+        "alt_text" : "<13><kanji>gそにっくぶらすた―<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "SonicBlast"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e624",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "5c", "ca", "df", "d9", "bd", "da", "b0", "bb", "de", "b0", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gパルスレ‐ザ‐<13>:g",
+        "alt_text" : "<13><kanji>gぱるすれ―ざ―<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "PulseLaser"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e636",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "5c", "ca", "b2", "ca", "df", "b0", "da", "b0", "bb", "de", "b0", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gハイパ‐レ‐ザ‐<13>:g",
+        "alt_text" : "<13><kanji>gはいぱ―れ―ざ―<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "HyperLaser"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e649",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "5c", "b6", "de", "dd", "cf", "b0", "da", "b0", "bb", "de", "b0", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gガンマ‐レ‐ザ‐<13>:g",
+        "alt_text" : "<13><kanji>gがんま―れ―ざ―<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "GammaLaser"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e65c",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "5c", "cc", "df", "d7", "bd", "de", "cf", "b7", "ac", "c9", "dd", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gプラズマキャノン<13>:g",
+        "alt_text" : "<13><kanji>gぷらずまきゃのん<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "PlasmaCann"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e66f",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 21,
+        "raw" : ["13", "1d", "67", "5c", "b1", "dd", "c1", "cc", "df", "db", "c4", "dd", "cb", "de", "b0", "d1", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gアンチプロトンビ‐ム<13>:g",
+        "alt_text" : "<13><kanji>gおんちぷろとんび―む<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "Proton Beam"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e684",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "5c", "c9", "b3", "de", "a7", "cc", "da", "b2", "d1", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gノヴァフレイム<13>:g",
+        "alt_text" : "<13><kanji>gのぁふれいむ<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "NovaBlast"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e695",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 18,
+        "raw" : ["13", "1d", "67", "4d", "48", "44", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gMHDフィ‐ルド<13>:g",
+        "alt_text" : "<13><kanji>gMHDふぃ―るど<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "MHD Field"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e6a7",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "5c", "d0", "d7", "b0", "c3", "de", "a8", "cc", "da", "b8", "c0", "b0", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gミラ‐ディフレクタ‐<13>:g",
+        "alt_text" : "<13><kanji>gみら―でぃふれくた―<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "ReflectField"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e6bb",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 19,
+        "raw" : ["13", "1d", "67", "5c", "b4", "c5", "bc", "de", "b0", "ca", "de", "d8", "d4", "b0", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gエナジ‐バリヤ‐<13>:g",
+        "alt_text" : "<13><kanji>gえなじ―ばりや―<13>:g",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e6ce",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "5c", "b2", "c5", "b0", "bc", "b1", "cc", "a8", "b0", "d9", "c4", "de", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gイナ‐シアフィ‐ルド<13>:g",
+        "alt_text" : "<13><kanji>gいな―しおふぃ―るど<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "MegaField"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e6e2",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 20,
+        "raw" : ["13", "1d", "67", "5c", "d7", "b2", "c4", "c3", "de", "a8", "cc", "da", "b8", "c0", "b0", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gライトディフレクタ‐<13>:g",
+        "alt_text" : "<13><kanji>gらいとでぃふれくた―<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "LaserField"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e6f6",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 17,
+        "raw" : ["13", "1d", "67", "5c", "ca", "dd", "c4", "de", "d0", "bb", "b2", "d9", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gハンドミサイル<13>:g",
+        "alt_text" : "<13><kanji>gはんどみさいる<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "Missile-H"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e707",
+        "method" : 3,
+        "start_bytes" : ["13", "1d", "67"],
+        "end_bytes" : ["13", "3a", "67", "00"],
+        "raw_size" : 21,
+        "raw" : ["13", "1d", "67", "5c", "cf", "d9", "c1", "d0", "bb", "b2", "d9", "ce", "df", "af", "c4", "de", "5c", "13", "3a", "67", "00"],
+        "raw_text" : "<13><kanji>gマルチミサイルポッド<13>:g",
+        "alt_text" : "<13><kanji>gまるちみさいるぽっど<13>:g",
+        "trans_size" : 0,
+        "trans_text" : "M-Pod (Multi)"
+    },
+
+    {
+        "string_description" : "test",
+        "string_start" : "0x1e71c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]}
