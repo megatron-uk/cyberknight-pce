@@ -368,7 +368,7 @@
     },
 
     {
-        "string_description" : "Name entry and misc game menus",
+        "string_description" : "Name entry and misc game menus - kit?",
         "string_start" : "0x1c1cb",
         "method" : 3,
         "start_bytes" : ["18", "42", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c"],
@@ -396,7 +396,7 @@
     },
 
     {
-        "string_description" : "Name entry and misc game menus",
+        "string_description" : "Name entry and misc game menus - kit?",
         "string_start" : "0x1c1dc",
         "method" : 3,
         "start_bytes" : ["18", "43", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c"],

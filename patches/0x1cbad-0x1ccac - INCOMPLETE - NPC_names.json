@@ -2,7 +2,7 @@
 "block_description" : "NPC character names.",
 "block_start" : "0x1cbad",
 "block_end" : "0x1ccac",
-"insert_method" : 1,
+"insert_method" : 2,
 "data" : [
     {
         "block_range" : "0x1cbad-0x1ccac",
@@ -183,7 +183,7 @@
         "raw" : ["5c", "cc", "df", "db", "cc", "aa", "af", "bb", "b0", "5c", "00"],
         "raw_text" : "プロフェッサ‐",
         "trans_size" : 0,
-        "trans_text" : "Professor"
+        "trans_text" : "Prof."
     },
 
     {
@@ -285,7 +285,7 @@
     },
 
     {
-        "block_range" : "0x1cbad-0x1ccac",
+        "block_range" : "0x1cbad-0x1ccac - Uji?",
         "block_description" : "NPC character names.",
         "string_start" : "0x1cc14",
         "method" : 3,
@@ -299,7 +299,7 @@
     },
 
     {
-        "block_range" : "0x1cbad-0x1ccac",
+        "block_range" : "0x1cbad-0x1ccac - Daito otoh?",
         "block_description" : "NPC character names.",
         "string_start" : "0x1cc1b",
         "method" : 3,
