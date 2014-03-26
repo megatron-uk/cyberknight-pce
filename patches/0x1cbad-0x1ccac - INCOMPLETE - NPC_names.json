@@ -43,7 +43,7 @@
         "raw" : ["5c", "b7", "d8", "00"],
         "raw_text" : "キリ",
         "trans_size" : 0,
-        "trans_text" : "Kir"
+        "trans_text" : "Kiri"
     },
 
     {
@@ -295,7 +295,7 @@
         "raw" : ["b7", "ae", "b3", "bc", "de", "ad", "00"],
         "raw_text" : "きぉうじ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Ouji"
     },
 
     {
@@ -309,7 +309,7 @@
         "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "00"],
         "raw_text" : "だいとうりぉう",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Daito"
     },
 
     {
@@ -323,7 +323,7 @@
         "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "cc", "bc", "de", "dd", "00"],
         "raw_text" : "だいとうりぉうふじん",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Mrs Daito"
     },
 
     {
@@ -337,7 +337,7 @@
         "raw" : ["5c", "c4", "da", "b0", "c0", "de", "b0", "00"],
         "raw_text" : "トレ‐ダ‐",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Trader"
     },
 
     {
@@ -505,7 +505,7 @@
         "raw" : ["cd", "b2", "bc", "00"],
         "raw_text" : "へいし",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Soldier"
     },
 
     {
@@ -519,7 +519,7 @@
         "raw" : ["bc", "ae", "b3", "b8", "de", "dd", "00"],
         "raw_text" : "しぉうぐん",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Shogun"
     },
 
     {
@@ -533,7 +533,7 @@
         "raw" : ["bc", "da", "b2", "b6", "dd", "00"],
         "raw_text" : "しれいかん",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Cmmdr"
     },
 
     {
@@ -561,7 +561,7 @@
         "raw" : ["5c", "bd", "d7", "b3", "da", "00"],
         "raw_text" : "スラウレ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Suraure"
     },
 
     {
