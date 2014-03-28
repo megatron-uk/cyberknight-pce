@@ -1,0 +1,98 @@
+0x1d5b3,レイガン,Laser
+0x1d5ba,レ‐ザライフル,LaserRfle
+0x1d5c4,レイブレ‐ド,LaserSwrd
+0x1d5ce,パルスレ‐ザ‐,PulseLaser
+0x1d5d9,ハイパ‐レ‐ザ‐,HyperLaser
+0x1d5e5,プラズマガン,PlasmaGun
+0x1d5f0,プラズマライフル,PlasmaRfle
+0x1d5fc,プラズマキャノン,PlasmaCann
+0x1d608,ヒ‐トガン,HeatRay
+0x1d610,ファイアブラスタ‐,HeatBlast
+0x1d61c,ノヴァフレイム,NovaBlast
+0x1d626,ハンドバルカン,Vulcan-H
+0x1d631,ハンドミサイル,Missile-H
+0x1d63b,ナックルバスタ‐,Buster-H
+0x1d646,ソニックブラスタ‐,SonicBlast
+0x1d652,グレネ‐ドランチャ‐,Grenade
+0x1d660,ナパ‐ムランチャ‐,Napalm
+0x1d66c,ロケットランチャ‐,Rocket
+0x1d677,Sミサイルポッド,M-Pod (S)
+0x1d683,Mミサイルポッド,M-Pod (M)
+0x1d68f,Lミサイルポッド,M-Pod (L)
+0x1d69b,マルチミサイルポッド,M-Pod (Multi)
+0x1d6a9,ディスインテグレ‐タ,Disintegrator
+0x1d6b7,アンチプロトンビ‐ム,Proton Beam
+0x1d6c5,ガンマレ‐ザ‐,GammaLaser
+0x1d6d0,ネガボ‐ル,Negoboru
+0x1d6d9,マシンガン,Autogun
+0x1d6e1,インパクトキャノン,Impact Cann
+0x1d6ed,マッシャ‐クロ‐,ClawSmash
+0x1d6ed,マッシャ‐クロ‐,ClawSmash
+0x1d6f7,アシッドシュ‐タ‐,AcidBlast
+0x1d735,肩 ,Sld 
+0x1d73d,腕 ,Arm 
+0x1d745,脚 ,Leg 
+0x1d74d,よびフィ‐ルドなし!,No Field!!
+0x1d75c,ウェ‐ブジャマ‐,EM Field
+0x1d768,MHDフィ‐ルド,MHD Field
+0x1d773,ライトディフレクタ‐,LaserField
+0x1d780,ミラ‐ディフレクタ‐,ReflectField
+0x1d78d,エナジ‐バリア‐,EnergyField
+0x1d799,イナ‐シアフィ‐ルド,MegaField
+0x1d7a6,ブラックグロ‐ブ,Black Glove
+0x1d7cd,<11><01><0B><pause><12> ざい こ <0B><13><05> ポケ ッ ト <11>,Armory<0b><13><05>Equipment
+0x1d7ea,<11><01><0B><pause><12> ざい こ <0B><11>\n モ ジュ ‐ ル <11>,Armory<0b><11><03>Location
+0x1d809,<11><01><0B><pause><12> ざい こ <0B><12><05> モ ジュ ‐ ル <11>,Armory<0b><12><05>Location
+0x1d84d,レ‐ザ‐を はっしゃするピストル,A Laser beam pistol
+0x1d863,レ‐ザ‐を はっしゃするライフル,A heavy Laser rifle
+0x1d878,レ‐ザ‐の パワ‐を けんのかたちに したぶき,A powerful Laser sword
+0x1d897,れんぞくはっしゃできる レ‐ザ‐ライフル,Rapid firing Laser rifle
+0x1d8b0,はかいりょくをたかめた レ‐ザ‐ほう,Ultimate Laser weapon
+0x1d8c6,こうおんのプラズマを はっしゃするピストル,Pistol firing a Plasma bolt
+0x1d8e2,こうおんのプラズマを はっしゃするライフル,A heavy Plasma bolt rifle
+0x1d8fd,プラズマのおんどを たかめた ビ‐ムほう,Powerful heavy plasma weapon
+0x1d91a,こがたの かえんほうしゃき,Small Flamer
+0x1d929,すいそガスを つかった かえんほうしゃき,Gas-powered Flamer gun
+0x1d941,かくゆうごうの ほのうを ほうしゃするぶき,Fusion powered heatray
+0x1d959,かたてで もてる マシンガン,Vulcan autogun
+0x1d96b,こがたの ロケットを はっしゃするじゅう,Handheld rocket launcher
+0x1d984,なぐったおいてに でんきショックを おたえる,Electro-shock hand weapon
+0x1d99f,ちょうおんぱを はっしゃするぶき,Sound-wave weapon
+0x1d9b2,こがたばくだんを はっしゃする,Grenade launcher
+0x1d9c5,こうおんの ナパ‐ムだんを はっしゃする,Napalm Launcher
+0x1d9de,こがたのロケットを れんぞくはっしゃする,Fires multiple explosive
+0x1d9f7,こがたの ミサイルを はっしゃする,Small missiles
+0x1da0c,ちゅうがたのミサイルを はっしゃする,Medium sized missiles
+0x1da22,おおがたのミサイルを はっしゃする,High power missiles
+0x1da37,ふくすうの だんとうミサイルを はっしゃする,Fires multiple warheads
+0x1da51,げんしを ぶんかいする ちょうへいき,Atomic destabiliser
+0x1da66,すべてを はかいする はんようし ほう,Destroys everthing
+0x1da7b,ガンマせんレ‐ザ‐を はっしゃするぶき,Fires a gamma ray pulse
+0x1da96,ふれたぶっしつを けしさる ちょうへいき,Alien superweapon
+0x1daac,きかんじゅう,Rifle
+0x1dab4,こうそくで だんがんを はっしゃする たいほう,Large bore autocannon
+0x1dacf,かくとうようの つめ,Power Fist
+0x1dada,きょうりょくな さんを はっしゃする,Acid spray attack
+0x1daee,オプション,Missl
+0x1daf7,フィ‐ルド,Field
+0x1db00,インパクト,Impact
+0x1db09,レ‐ザ‐,Laser
+0x1db11,ビ‐ム,Beam
+0x1db18,ヒ‐ト,Heat
+0x1db1e,<13>X(,
+0x1db24,でんぱで ミサイルの しんろを くるわせる,Jam incoming enemy missile
+0x1db3f,でんじばで プラズマを はじきかえす,Plasma-magnetic field
+0x1db5b,くうかんを ゆがめて レ‐ザ‐を そらす,Distort enemy Lasers
+0x1db74,くうかんを ゆがめて レ‐ザ‐を はんしゃする,Reflect enemy Lasers
+0x1db90,エネルギ‐のまくで ミサイルを はかいする,Blocks incoming missiles
+0x1dbac,かんせいを せいぎょして ミサイルをとめる,Disable missile guidance
+0x1dbc5,じゅうりょくの かべで すべてをさえぎる,Anti-gravity null field
+0x1dbdf,しゃげき,Shoot
+0x1dbe5,かくとう,Mele
+0x1dbeb,ミサイルめいちゅうりつ -90%,Missile acc. -90%
+0x1dbfe,ビ‐ム ダメ‐ジ -90%,Laser acc. -90%
+0x1dc10,レ‐ザ‐めいちゅうりつ -100%,Laser acc. -100%
+0x1dc25,レ‐ザ‐ ダメ‐ジ ‐90%,Laser Dam. -90%
+0x1dc38,インパクト ダメ‐ジ -50%,Impact Dam. -50%
+0x1dc4c,インパクト ダメ‐ジ -100%,Impact Dam. -100%
+0x1dc61,たいレ‐ザ‐・ビ‐ム・ヒ‐ト -100%,???/Beam/Heat -100%

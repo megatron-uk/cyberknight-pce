@@ -365,7 +365,7 @@
         "raw" : ["5c", "bc", "b0", "b8", "d7", "dd", "00"],
         "raw_text" : "シ‐クラン",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Shi Clan"
     },
 
     {
@@ -393,7 +393,7 @@
         "raw" : ["b9", "de", "dd", "bc", "bc", "de", "dd", "00"],
         "raw_text" : "げんしじん",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Atom Man"
     },
 
     {
@@ -491,7 +491,7 @@
         "raw" : ["b7", "b6", "b2", "00"],
         "raw_text" : "きかい",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Opportunity"
     },
 
     {
@@ -575,7 +575,7 @@
         "raw" : ["5c", "b8", "b2", "b0", "dd", "00"],
         "raw_text" : "クイ‐ン",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Queen"
     },
 
     {

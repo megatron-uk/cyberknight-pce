@@ -561,7 +561,7 @@
         "raw_text" : "バ‐サ‐カ‐クイ‐ン",
         "alt_text" : "ば―さ―か―くい―ん",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Berzerker Queen"
     },
 
     {
@@ -617,7 +617,7 @@
         "raw_text" : "サンドクロ‐ラ‐",
         "alt_text" : "さんどくろ―ら―",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Sandcrawler"
     },
 
     {
@@ -631,7 +631,7 @@
         "raw_text" : "ロッククロ‐ラ‐",
         "alt_text" : "ろっくくろ―ら―",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Rockcrawler"
     },
 
     {
@@ -645,7 +645,7 @@
         "raw_text" : "パイロワ‐ム",
         "alt_text" : "ぱいろわ―む",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Bilewurm"
     },
 
     {
@@ -771,7 +771,7 @@
         "raw_text" : "レプタントスカウト",
         "alt_text" : "れぷたんとすかうと",
         "trans_size" : 0,
-        "trans_text" : "Replicant"
+        "trans_text" : "Replicant Scout"
     },
 
     {
@@ -785,7 +785,7 @@
         "raw_text" : "レプタントレイバ‐",
         "alt_text" : "れぷたんとれいば―",
         "trans_size" : 0,
-        "trans_text" : "Replicant Leyvia"
+        "trans_text" : "Replicant Worker"
     },
 
     {
@@ -799,7 +799,7 @@
         "raw_text" : "レプタントロイヤル",
         "alt_text" : "れぷたんとろいやる",
         "trans_size" : 0,
-        "trans_text" : "Replicant Lord"
+        "trans_text" : "Replicant Royal"
     },
 
     {
