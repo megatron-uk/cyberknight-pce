@@ -127,7 +127,7 @@
         "raw_text" : "ヒ‐トガン",
         "alt_text" : "ひ―とがん",
         "trans_size" : 0,
-        "trans_text" : "HeatRay"
+        "trans_text" : "HeatGun"
     },
 
     {
@@ -141,7 +141,7 @@
         "raw_text" : "ファイアブラスタ‐",
         "alt_text" : "ふぁいおぶらすた―",
         "trans_size" : 0,
-        "trans_text" : "HeatBlast"
+        "trans_text" : "FireBlast"
     },
 
     {
@@ -155,7 +155,7 @@
         "raw_text" : "ノヴァフレイム",
         "alt_text" : "のぁふれいむ",
         "trans_size" : 0,
-        "trans_text" : "NovaBlast"
+        "trans_text" : "NovaFlame"
     },
 
     {
@@ -365,7 +365,7 @@
         "raw_text" : "ネガボ‐ル",
         "alt_text" : "ねがぼ―る",
         "trans_size" : 0,
-        "trans_text" : "Negoboru"
+        "trans_text" : "Negoball"
     },
 
     {
@@ -663,7 +663,7 @@
     },
 
     {
-        "string_description" : "Weapon list -black glove",
+        "string_description" : "Weapon list -black globe",
         "string_start" : "0x1d7a6",
         "method" : 3,
         "start_bytes" : [],
@@ -673,7 +673,7 @@
         "raw_text" : "ブラックグロ‐ブ",
         "alt_text" : "ぶらっくぐろ―ぶ",
         "trans_size" : 0,
-        "trans_text" : "Black Glove"
+        "trans_text" : "Black Globe"
     },
 
     {
@@ -1531,7 +1531,7 @@
     },
 
     {
-        "string_description" : "Weapon list - negoboru",
+        "string_description" : "Weapon list - negoboru/negaball",
         "string_start" : "0x1da96",
         "method" : 3,
         "start_bytes" : [],
@@ -1825,7 +1825,7 @@
     },
 
     {
-        "string_description" : "Weapon list - black glove",
+        "string_description" : "Weapon list - black globe",
         "string_start" : "0x1dbc5",
         "method" : 3,
         "start_bytes" : [],

@@ -8,196 +8,168 @@
         "string_description" : "Main game dialogue",
         "string_start" : "0x1400c",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 35,
         "raw" : ["1a", "22", "d6", "b8", "c3", "de", "b7", "c0", "20", "c7", "b2", "b8", "de", "d9", "d0", "c0", "de", "c5", "b1", "a1", "04", "1e", "20", "b4", "3f", "04", "1e", "20", "ce", "dd", "d3", "c9", "3f", "08", "00"],
         "raw_text" : "<1A>“よくできた ぬいぐるみだなお。<pause><1E> え?<pause><1E> ほんもの?<wait>",
         "alt_text" : "<1A>“ヨクデキタ ヌイグルミダナア。<pause><1E> エ?<pause><1E> ホンモノ?<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "That robot outfit looks\nreal!<04><1e> Wait, it IS real?!!"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x1402f",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "2b"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 15,
         "raw" : ["1a", "2b", "dc", "b0", "a4", "cb", "c4", "bb", "d7", "b2", "c0", "de", "b0", "08", "00"],
         "raw_text" : "<1A>+わ―、ひとさらいだ―<wait>",
         "alt_text" : "<1A>+ワ‐、ヒトサライダ‐<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Help! Kidnapper!"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x1403e",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "20"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 36,
         "raw" : ["1a", "20", "dc", "c0", "bc", "c0", "c1", "ca", "20", "ba", "c9", "ce", "bc", "a6", "02", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c4", "d6", "dd", "c3", "de", "b2", "cf", "bd", "a1", "08", "00"],
         "raw_text" : "<1A> わたしたちは このほしを\nファ‐ワ‐ルドとよんでいます。<wait>",
         "alt_text" : "<1A> ワタシタチハ コノホシヲ\nふぁ―わ―るどトヨンデイマス。<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "This planet is\ncalled FarWorld"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x14062",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 56,
         "raw" : ["1a", "1e", "bb", "b2", "b7", "dd", "20", "cd", "dd", "c5", "5c", "db", "ce", "de", "af", "c4", "5c", "c9", "d6", "b3", "c5", "20", "d4", "c2", "d7", "b6", "de", "02", "cb", "c4", "a6", "20", "bb", "d7", "af", "c3", "d9", "dd", "c0", "de", "a1", "b1", "dd", "c0", "d7", "bc", "de", "ac", "c5", "b2", "c9", "b6", "b2", "3f", "08", "00"],
         "raw_text" : "<1A><1E>さいきん へんなロボットのような やつらが\nひとを さらってるんだ。おんたらじゃないのかい?<wait>",
         "alt_text" : "<1A><1E>サイキン ヘンナろぼっとノヨウナ ヤツラガ\nヒトヲ サラッテルンダ。アンタラジャナイノカイ?<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "There are weird robots\nkidnapping people.<08><0c>Are you one of them?"
     },
 
     {
-        "string_description" : "Main game dialogue",
+        "string_description" : "Main game dialogue - eek, you scared me! (this dialogue originally vertical)",
         "string_start" : "0x1409a",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 14,
-        "raw" : ["1a", "2c", "11", "01", "b7", "01", "ac", "01", "a7", "01", "20", "02", "11", "00"],
-        "raw_text" : "<1A>,<11><01>き<01>ゃ<01>ぁ<01> \n<11>",
-        "alt_text" : "<1A>,<11><01>キ<01>ャ<01>ァ<01> \n<11>",
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
+        "raw_size" : 35,
+        "raw" : ["1a", "2c", "11", "01", "b7", "01", "ac", "01", "a7", "01", "20", "02", "11", "00", "cb", "de", "01", "11", "01", "af", "01", "b8", "01", "d8", "01", "bc", "01", "c0", "01", "21", "01", "11", "00", "08", "00"],
+        "raw_text" : "<1A>,<11><01>き<01>ゃ<01>ぁ<01> \n<11>び<01><11><01>っ<01>く<01>り<01>し<01>た<01>!<01><11><wait>",
+        "alt_text" : "<1A>,<11><01>キ<01>ャ<01>ァ<01> \n<11>ビ<01><11><01>ッ<01>ク<01>リ<01>シ<01>タ<01>!<01><11><wait>",
         "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Main game dialogue",
-        "string_start" : "0x140a8",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 19,
-        "raw" : ["cb", "de", "01", "11", "01", "af", "01", "b8", "01", "d8", "01", "bc", "01", "c0", "01", "21", "01", "11", "00"],
-        "raw_text" : "び<01><11><01>っ<01>く<01>り<01>し<01>た<01>!<01><11>",
-        "alt_text" : "ビ<01><11><01>ッ<01>ク<01>リ<01>シ<01>タ<01>!<01><11>",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Main game dialogue",
-        "string_start" : "0x140bb",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 2,
-        "raw" : ["08", "00"],
-        "raw_text" : "<wait>",
-        "alt_text" : "<wait>",
-        "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Eek!\nYou scared me!"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x140bd",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 33,
         "raw" : ["1a", "22", "c3", "de", "dd", "be", "c2", "c9", "c1", "b7", "ad", "b3", "a6", "20", "bc", "af", "c3", "d9", "c9", "3f", "08", "0c", "b2", "af", "c3", "d0", "c0", "b2", "dc", "b1", "a1", "08", "00"],
         "raw_text" : "<1A>“でんせつのちきゅうを しってるの?<wait><erase>いってみたいわお。<wait>",
         "alt_text" : "<1A>“デンセツノチキュウヲ シッテルノ?<wait><erase>イッテミタイワア。<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Do you know the legend of\nold Earth?<08><0c>SOMETHING"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x140de",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 31,
         "raw" : ["1a", "20", "bf", "da", "b6", "de", "20", "b1", "c5", "c0", "c0", "c1", "c9", "20", "ce", "bc", "c9", "02", "5c", "cc", "a7", "af", "bc", "ae", "dd", "5c", "c5", "c9", "3f", "08", "00"],
         "raw_text" : "<1A> それが おなたたちの ほしの\nファッションなの?<wait>",
         "alt_text" : "<1A> ソレガ アナタタチノ ホシノ\nふぁっしょんナノ?<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Is that the fashion\non your planet?"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x140fd",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 33,
         "raw" : ["1a", "20", "bc", "d8", "c0", "b2", "ba", "c4", "b6", "de", "20", "b1", "d9", "c5", "d7", "02", "c0", "de", "b2", "b6", "de", "b8", "c6", "20", "b2", "af", "c3", "d0", "c0", "d7", "3f", "08", "00"],
         "raw_text" : "<1A> しりたいことが おるなら\nだいがくに いってみたら?<wait>",
         "alt_text" : "<1A> シリタイコトガ アルナラ\nダイガクニ イッテミタラ?<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Have you visited the\nUniversity?<08><0c>The Professor teaches\nhistory there"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x1411e",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "1e"],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["1a", "20", "b1", "c5", "c0", "c0", "c1", "c9", "20", "b6", "c2", "d4", "b8", "a6", "02", "be", "de", "cb", "20", "b4", "b2", "b6", "de", "c6", "bc", "c0", "b2", "21", "08", "00"],
         "raw_text" : "<1A> おなたたちの かつやくを\nぜひ えいがにしたい!<wait>",
         "alt_text" : "<1A> アナタタチノ カツヤクヲ\nゼヒ エイガニシタイ!<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "I want to film what you\nguys do!<08>"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x1413c",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 51,
         "raw" : ["1a", "1e", "5c", "bb", "b2", "ca", "de", "b0", "c5", "b2", "c4", "5c", "c9", "20", "b5", "d3", "c1", "ac", "a6", "20", "c2", "b8", "af", "c0", "d7", "02", "b3", "da", "c3", "b3", "da", "c3", "20", "b5", "b5", "d3", "b3", "b9", "c3", "de", "bd", "dc", "a1", "20", "dc", "af", "ca", "af", "ca", "08", "00"],
         "raw_text" : "<1A><1E>サイバ‐ナイトの おもちゃを つくったら\nうれてうれて おおもうけですわ。 わっはっは<wait>",
         "alt_text" : "<1A><1E>さいば―ないとノ オモチャヲ ツクッタラ\nウレテウレテ オオモウケデスワ。 ワッハッハ<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "A toy of your Cyber Knight\nwould earn you a fortune, ha ha!"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x1416f",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 52,
         "raw" : ["1a", "1e", "b2", "d4", "a4", "c1", "b7", "ad", "b3", "c6", "20", "b2", "b7", "c0", "b2", "c4", "ca", "20", "b5", "d3", "b2", "cf", "be", "dd", "c8", "a1", "02", "ba", "c9", "ce", "bc", "b6", "de", "20", "dc", "c0", "bc", "c0", "c1", "c9", "20", "cc", "d9", "bb", "c4", "c3", "de", "bd", "b6", "d7", "08", "00"],
         "raw_text" : "<1A><1E>いや、ちきゅうに いきたいとは おもいませんね。\nこのほしが わたしたちの ふるさとですから<wait>",
         "alt_text" : "<1A><1E>イヤ、チキュウニ イキタイトハ オモイマセンネ。\nコノホシガ ワタシタチノ フルサトデスカラ<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "No, we dont want to go back\nto Earth. This star system is our home now"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x141a3",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "22"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 27,
         "raw" : ["1a", "22", "ba", "c9", "cf", "b4", "ca", "20", "bc", "c2", "da", "b2", "c5", "ba", "c4", "a6", "b2", "af", "c3", "20", "bd", "d0", "cf", "be", "dd", "08", "00"],
         "raw_text" : "<1A>“このまえは しつれいなことをいって すみません<wait>",
         "alt_text" : "<1A>“コノマエハ シツレイナコトヲイッテ スミマセン<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "I'm sorry I was so rude before"
     },
 
     {
@@ -316,14 +288,14 @@
         "string_description" : "Main game dialogue",
         "string_start" : "0x14253",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "24", "10", "3c"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 53,
         "raw" : ["1a", "24", "10", "3c", "a2", "cb", "cf", "b6", "de", "b1", "af", "c0", "d7", "a4", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "c6", "03", "b1", "b3", "c4", "b2", "b2", "a1", "03", "b1", "c9", "b5", "c4", "ba", "ca", "a4", "dc", "bc", "c9", "20", "b5", "bc", "b4", "ba", "de", "bc", "de", "ac", "a3", "08", "00"],
         "raw_text" : "<1A>$<10><『ひまがおったら、だいとうりょうに\nおうといい。\nおのおとこは、わしの おしえごじゃ』<wait>",
         "alt_text" : "<1A>$<10><『ヒマガアッタラ、ダイトウリョウニ\nアウトイイ。\nアノオトコハ、ワシノ オシエゴジャ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":The President was a\nstudent of mine,\nyou should speak to him"
     },
 
     {
@@ -533,35 +505,35 @@
         "raw_text" : "<1A><1F><10><1E>『これが ユ‐ロパか。\nずいぶん おれはててますね』<wait>",
         "alt_text" : "<1A><1F><10><1E>『コレガ ゆ―ろぱカ。\nズイブン アレハテテマスネ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "This is the Europa."
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x14688",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "22", "10", "28"],
         "end_bytes" : ["00"],
         "raw_size" : 104,
         "raw" : ["1a", "22", "10", "28", "a2", "5c", "b3", "de", "a8", "dd", "c4", "de", "a4", "5c", "b7", "d0", "c9", "20", "c3", "de", "ca", "de", "dd", "c0", "de", "bf", "de", "a3", "08", "19", "1f", "10", "2c", "a2", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "de", "20", "b1", "d9", "c4", "bd", "da", "ca", "de", "03", "5c", "b4", "dd", "bc", "de", "dd", "a5", "d9", "b0", "d1", "5c", "c3", "de", "bc", "ae", "b3", "a1", "a3", "08", "0c", "10", "2c", "a2", "5c", "b4", "dd", "bc", "de", "dd", "a5", "d9", "b0", "d1", "5c", "a6", "20", "bb", "b6", "de", "bc", "cf", "bc", "ae", "b3", "a3", "08", "00"],
-        "raw_text" : "<1A>“<PLAYER>『ヴィンド、きみの でばんだぞ』<wait><19><1F><10>,『モノポ‐ル・コイルが おるとすれば\nエンジン・ル‐ムでしょう。』<wait><erase><10>,『エンジン・ル‐ムを さがしましょう』<wait>",
-        "alt_text" : "<1A>“<PLAYER>『ぃんど、キミノ デバンダゾ』<wait><19><1F><10>,『ものぽ―る・こいるガ アルトスレバ\nえんじん・る―むデショウ。』<wait><erase><10>,『えんじん・る―むヲ サガシマショウ』<wait>",
+        "raw_text" : "<1A>“<PLAYER>『ヴィンド、きみの でばんだぞ』<wait><19><1F><VYND>『モノポ‐ル・コイルが おるとすれば\nエンジン・ル‐ムでしょう。』<wait><erase><VYND>『エンジン・ル‐ムを さがしましょう』<wait>",
+        "alt_text" : "<1A>“<PLAYER>『ぃんど、キミノ デバンダゾ』<wait><19><1F><VYND>『ものぽ―る・こいるガ アルトスレバ\nえんじん・る―むデショウ。』<wait><erase><VYND>『えんじん・る―むヲ サガシマショウ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Vynd, its up to you.<08><19><1f><10><2c>:If the ship had a Drive\nCoil, it would near the engines<08><0c><10><2c>:Lets look for the ships engine<08>"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x146f0",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "23", "10", "1f"],
         "end_bytes" : ["00"],
         "raw_size" : 33,
         "raw" : ["1a", "23", "10", "1f", "a2", "cc", "d9", "b2", "5c", "c0", "b2", "cc", "df", "5c", "c9", "20", "5c", "cb", "de", "c3", "de", "b5", "c3", "de", "af", "b7", "5c", "c0", "de", "c5", "a3", "08", "00"],
         "raw_text" : "<1A>#<10><1F>『ふるいタイプの ビデオデッキだな』<wait>",
         "alt_text" : "<1A>#<10><1F>『フルイたいぷノ びでおでっきダナ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Thats a really old AV recorder<08>"
     },
 
     {
@@ -582,14 +554,14 @@
         "string_description" : "Main game dialogue",
         "string_start" : "0x14712",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "23", "10", "1f"],
         "end_bytes" : ["00"],
         "raw_size" : 26,
         "raw" : ["1a", "23", "10", "1f", "a2", "ba", "c9", "cc", "c8", "c9", "20", "5c", "cc", "de", "d8", "af", "bc", "de", "5c", "d7", "bc", "b2", "c5", "a3", "08", "00"],
         "raw_text" : "<1A>#<10><1F>『このふねの ブリッジらしいな』<wait>",
         "alt_text" : "<1A>#<10><1F>『コノフネノ ぶりっじラシイナ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":I think this was the bridge<08>"
     },
 
     {
@@ -600,8 +572,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 100,
         "raw" : ["1a", "25", "10", "2c", "a2", "b1", "af", "c0", "21", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "c0", "de", "21", "03", "bb", "af", "bf", "b8", "20", "cc", "c8", "c6", "20", "d3", "c1", "b6", "b4", "af", "c3", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "03", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "a6", "20", "bc", "ad", "b3", "d8", "bc", "d6", "b3", "a3", "08", "13", "2f", "6a", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08", "13", "3a", "6a", "00"],
-        "raw_text" : "<1A>%<10>,『おった! モノポ‐ル・コイルだ!\nさっそく ふねに もちかえって ジャンプ\n・ジェネレ‐タ‐を しゅうりしよう』<wait><13>/jモノポ‐ル・コイル を てにいれた!<wait><13>:j",
-        "alt_text" : "<1A>%<10>,『アッタ! ものぽ―る・こいるダ!\nサッソク フネニ モチカエッテ じゃんぷ\n・じぇねれ―た―ヲ シュウリシヨウ』<wait><13>/jものぽ―る・こいる ヲ テニイレタ!<wait><13>:j",
+        "raw_text" : "<1A>%<VYND>『おった! モノポ‐ル・コイルだ!\nさっそく ふねに もちかえって ジャンプ\n・ジェネレ‐タ‐を しゅうりしよう』<wait><13>/jモノポ‐ル・コイル を てにいれた!<wait><13>:j",
+        "alt_text" : "<1A>%<VYND>『アッタ! ものぽ―る・こいるダ!\nサッソク フネニ モチカエッテ じゃんぷ\n・じぇねれ―た―ヲ シュウリシヨウ』<wait><13>/jものぽ―る・こいる ヲ テニイレタ!<wait><13>:j",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -628,8 +600,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 56,
         "raw" : ["1a", "25", "10", "2c", "a2", "c0", "de", "d2", "c0", "de", "21", "20", "ba", "c9", "5c", "ba", "b2", "d9", "5c", "ca", "20", "ba", "dc", "da", "c3", "d9", "21", "03", "c2", "b6", "b2", "d3", "c9", "c6", "20", "c5", "d7", "c5", "b2", "a1", "03", "ce", "b6", "a6", "20", "bb", "b6", "de", "bc", "c3", "d0", "d6", "b3", "a3", "08", "00"],
-        "raw_text" : "<1A>%<10>,『だめだ! このコイルは こわれてる!\nつかいものに ならない。\nほかを さがしてみよう』<wait>",
-        "alt_text" : "<1A>%<10>,『ダメダ! コノこいるハ コワレテル!\nツカイモノニ ナラナイ。\nホカヲ サガシテミヨウ』<wait>",
+        "raw_text" : "<1A>%<VYND>『だめだ! このコイルは こわれてる!\nつかいものに ならない。\nほかを さがしてみよう』<wait>",
+        "alt_text" : "<1A>%<VYND>『ダメダ! コノこいるハ コワレテル!\nツカイモノニ ナラナイ。\nホカヲ サガシテミヨウ』<wait>",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -663,17 +635,17 @@
     },
 
     {
-        "string_description" : "Main game dialogue",
+        "string_description" : "Main game dialogue - guards text",
         "string_start" : "0x1487c",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "24"],
+        "end_bytes" : ["08", "1a", "2b", "11", "16", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "11", "06", "00"],
         "raw_size" : 137,
         "raw" : ["1a", "24", "a2", "cf", "c3", "21", "20", "ba", "ba", "ca", "20", "b5", "bf", "da", "b5", "b5", "b8", "d3", "20", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c9", "02", "20", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "20", "b6", "dd", "c3", "b2", "c0", "de", "bf", "de", "21", "a3", "08", "0c", "a2", "b1", "d4", "bc", "b2", "d4", "c2", "d7", "c0", "de", "a1", "b6", "af", "c3", "c6", "c4", "b5", "bd", "20", "dc", "b9", "c6", "ca", "b2", "b6", "dd", "21", "a3", "08", "1a", "2b", "11", "16", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "11", "06", "00"],
         "raw_text" : "<1A>$『まて! ここは おそれおおくも ファ‐ワ‐ルドの\n だいとうりょう かんていだぞ!』<wait><erase>『おやしいやつらだ。かってにとおす わけにはいかん!』<wait><1A>+<11><16><06>/‥‥‥‥ ‥‥‥‥<pad>ラ         <pad>ラ<06>/‥‥‥‥ ‥‥‥‥<pad>ラ         <pad>ラ<11><06>",
         "alt_text" : "<1A>$『マテ! ココハ オソレオオクモ ふぁ―わ―るどノ\n ダイトウリョウ カンテイダゾ!』<wait><erase>『アヤシイヤツラダ。カッテニトオス ワケニハイカン!』<wait><1A>+<11><16><06>/‥‥‥‥ ‥‥‥‥<pad>ら         <pad>ら<06>/‥‥‥‥ ‥‥‥‥<pad>ら         <pad>ら<11><06>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Hey! Wait there!\nThis is the Presidential\nPalace<08><0c>Without authority you\ncannot enter!"
     },
 
     {
@@ -695,27 +667,27 @@
         "string_start" : "0x1490b",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 136,
         "raw" : ["a2", "ca", "b2", "a4", "d3", "bc", "d3", "bc", "a1", "20", "c0", "af", "c0", "b2", "cf", "a4", "b1", "d4", "bc", "b2", "d4", "c2", "d7", "a6", "02", "20", "07", "14", "c0", "b2", "ce", "3b", "3b", "3b", "07", "ff", "1a", "2b", "21", "21", "21", "21", "21", "21", "21", "21", "21", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "04", "3c", "1b", "01", "19", "24", "a2", "b4", "3f", "20", "04", "3c", "ba", "b2", "c2", "d7", "a6", "20", "c4", "b5", "bd", "dd", "c3", "de", "bd", "b6", "3f", "02", "04", "14", "20", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "20", "bc", "de", "b7", "bc", "de", "b7", "c9", "20", "ba", "de", "d2", "b2", "da", "b2", "3b", "3b", "3b", "3b", "3f", "02", "04", "0a", "20", "ca", "b2", "a1", "20", "dc", "b6", "d8", "cf", "bc", "c0", "a3", "08", "00"],
-        "raw_text" : "『はい、もしもし。 たったいま、おやしいやつらを\n <07><14>たいほ‥‥‥<07>゜<1A>+!!!!!!!!!<pad>ラ         <pad>ラ<pause><<1B><01><19>$『え? <pause><こいつらを とおすんですか?\n<pause><14> だいとうりょう じきじきの ごめいれい‥‥‥‥?\n<pause><0A> はい。 わかりました』<wait>",
+        "raw_text" : "『はい、もしもし。 \n <07><14>たいほ‥‥‥<07>゜<1A>+!!!!!!!!!<pad>ラ         <pad>ラ<pause><<1B><01><19>$『え? <pause><こいつらを とおすんですか?\n<pause><14> だいとうりょう じきじきの ごめいれい‥‥‥‥?\n<pause><0A> はい。 わかりました』<wait>",
         "alt_text" : "『ハイ、モシモシ。 タッタイマ、アヤシイヤツラヲ\n <07><14>タイホ‥‥‥<07>゜<1A>+!!!!!!!!!<pad>ら         <pad>ら<pause><<1B><01><19>$『エ? <pause><コイツラヲ トオスンデスカ?\n<pause><14> ダイトウリョウ ジキジキノ ゴメイレイ‥‥‥‥?\n<pause><0A> ハイ。 ワカリマシタ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Yes, hello.\n <07><14> Arrest<3b><3b><3b><07><ff><1a><2b>!!!!!!!!!<0d><f7>         <0d><f7><04><3c><1b><01><19><24>Let them pass??\n<04><14>On Presidential orders!?\n<04><0a>Yes, understood Sir!"
     },
 
     {
         "string_description" : "Main game dialogue",
         "string_start" : "0x14993",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c"],
         "end_bytes" : ["00"],
         "raw_size" : 48,
         "raw" : ["0c", "a2", "bc", "c2", "da", "b2", "bc", "cf", "bc", "c0", "a1", "c4", "de", "b3", "bf", "de", "20", "b5", "c4", "b5", "d8", "b8", "c0", "de", "bb", "b2", "a1", "02", "20", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "b6", "de", "20", "b5", "cf", "c1", "c3", "de", "bd", "a3", "00"],
         "raw_text" : "<erase>『しつれいしました。どうぞ おとおりください。\n だいとうりょうが おまちです』",
         "alt_text" : "<erase>『シツレイシマシタ。ドウゾ オトオリクダサイ。\n ダイトウリョウガ オマチデス』",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "I'm sorry, please enter...\nThe President is expecting\nyou"
     },
 
     {
@@ -778,14 +750,14 @@
         "string_description" : "Main game dialogue",
         "string_start" : "0x14bba",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["11", "02", "1a", "29", "07", "01", "06", "1b"],
+        "end_bytes" : ["08", "1b", "00"],
         "raw_size" : 28,
         "raw" : ["11", "02", "1a", "29", "07", "01", "06", "1b", "5c", "bd", "c0", "b0", "a5", "cf", "af", "cc", "df", "5c", "a6", "20", "c3", "c6", "b2", "da", "c0", "08", "1b", "00"],
         "raw_text" : "<11>\n<1A>)<07><01><06><1B>スタ‐・マップを てにいれた<wait><1B>",
         "alt_text" : "<11>\n<1A>)<07><01><06><1B>すた―・まっぷヲ テニイレタ<wait><1B>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Star Map found!"
     },
 
     {
@@ -806,14 +778,14 @@
         "string_description" : "Main game dialogue",
         "string_start" : "0x14bd8",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["07", "ff", "1a", "1f", "10", "1f"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 39,
         "raw" : ["07", "ff", "1a", "1f", "10", "1f", "a2", "ba", "da", "ca", "20", "b7", "c1", "ae", "b3", "c5", "d3", "c9", "c0", "de", "a1", "03", "b1", "d8", "b6", "de", "c4", "b3", "20", "ba", "de", "bb", "de", "b2", "cf", "bd", "a3", "08", "00"],
         "raw_text" : "<07>゜<1A><1F><10><1F>『これは きちょうなものだ。\nおりがとう ございます』<wait>",
         "alt_text" : "<07>゜<1A><1F><10><1F>『コレハ キチョウナモノダ。\nアリガトウ ゴザイマス』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":This is very helpful\nProfessor, thank you!"
     },
 
     {
@@ -2896,8 +2868,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 41,
         "raw" : ["1a", "1f", "10", "2c", "a2", "5c", "ca", "de", "d8", "b1", "b0", "a5", "bd", "b2", "af", "c1", "5c", "c9", "20", "5c", "be", "b7", "ad", "d8", "c3", "a8", "a5", "03", "bc", "bd", "c3", "d1", "5c", "c0", "de", "a3", "08", "11", "02", "1b", "00"],
-        "raw_text" : "<1A><1F><10>,『バリア‐・スイッチの セキュリティ・\nシステムだ』<wait><11>\n<1B>",
-        "alt_text" : "<1A><1F><10>,『ばりお―・すいっちノ せきゅりてぃ・\nしすてむダ』<wait><11>\n<1B>",
+        "raw_text" : "<1A><1F><VYND>『バリア‐・スイッチの セキュリティ・\nシステムだ』<wait><11>\n<1B>",
+        "alt_text" : "<1A><1F><VYND>『ばりお―・すいっちノ せきゅりてぃ・\nしすてむダ』<wait><11>\n<1B>",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2938,8 +2910,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 39,
         "raw" : ["1a", "1f", "10", "2c", "a2", "ba", "da", "c3", "de", "20", "5c", "ca", "de", "d8", "b1", "b0", "a5", "bd", "b2", "af", "c1", "5c", "a6", "20", "4f", "46", "46", "c6", "03", "c3", "de", "b7", "d9", "bf", "de", "a1", "a3", "08", "00"],
-        "raw_text" : "<1A><1F><10>,『これで バリア‐・スイッチを OFFに\nできるぞ。』<wait>",
-        "alt_text" : "<1A><1F><10>,『コレデ ばりお―・すいっちヲ OFFニ\nデキルゾ。』<wait>",
+        "raw_text" : "<1A><1F><VYND>『これで バリア‐・スイッチを OFFに\nできるぞ。』<wait>",
+        "alt_text" : "<1A><1F><VYND>『コレデ ばりお―・すいっちヲ OFFニ\nデキルゾ。』<wait>",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2966,8 +2938,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 69,
         "raw" : ["1a", "25", "10", "2c", "a2", "ba", "c9", "5c", "bd", "b2", "af", "c1", "5c", "ca", "20", "5c", "be", "b7", "ad", "d8", "c3", "a8", "a5", "bc", "bd", "c3", "d1", "5c", "c3", "de", "03", "5c", "b6", "de", "b0", "c4", "de", "5c", "bb", "da", "c3", "b2", "d9", "a1", "03", "cf", "bd", "de", "20", "bf", "da", "b6", "d7", "20", "b6", "b2", "bc", "de", "ae", "bc", "c5", "b9", "da", "ca", "de", "a1", "a3", "08", "00"],
-        "raw_text" : "<1A>%<10>,『このスイッチは セキュリティ・システムで\nガ‐ドされている。\nまず それから かいじょしなければ。』<wait>",
-        "alt_text" : "<1A>%<10>,『コノすいっちハ せきゅりてぃ・しすてむデ\nが―どサレテイル。\nマズ ソレカラ カイジョシナケレバ。』<wait>",
+        "raw_text" : "<1A>%<VYND>『このスイッチは セキュリティ・システムで\nガ‐ドされている。\nまず それから かいじょしなければ。』<wait>",
+        "alt_text" : "<1A>%<VYND>『コノすいっちハ せきゅりてぃ・しすてむデ\nが―どサレテイル。\nマズ ソレカラ カイジョシナケレバ。』<wait>",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2980,8 +2952,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 47,
         "raw" : ["1a", "1f", "10", "2c", "a2", "b6", "b2", "bc", "de", "ae", "bb", "da", "c3", "b2", "c5", "b2", "20", "5c", "be", "b7", "ad", "d8", "c3", "a8", "a5", "03", "bc", "bd", "c3", "d1", "5c", "b6", "de", "20", "cf", "c0", "de", "c9", "ba", "af", "c3", "b2", "d9", "a1", "a3", "08", "00"],
-        "raw_text" : "<1A><1F><10>,『かいじょされていない セキュリティ・\nシステムが まだのこっている。』<wait>",
-        "alt_text" : "<1A><1F><10>,『カイジョサレテイナイ せきゅりてぃ・\nしすてむガ マダノコッテイル。』<wait>",
+        "raw_text" : "<1A><1F><VYND>『かいじょされていない セキュリティ・\nシステムが まだのこっている。』<wait>",
+        "alt_text" : "<1A><1F><VYND>『カイジョサレテイナイ せきゅりてぃ・\nしすてむガ マダノコッテイル。』<wait>",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2994,8 +2966,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 59,
         "raw" : ["1a", "23", "10", "2c", "a2", "b1", "c4", "ca", "20", "ba", "c9", "5c", "ce", "de", "c0", "dd", "5c", "a6", "20", "b5", "bd", "c0", "de", "b9", "a1", "a3", "08", "13", "d0", "7e", "5c", "ca", "de", "d8", "b1", "b0", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "a5", "bd", "b2", "af", "c1", "20", "4f", "46", "46", "21", "08", "13", "3a", "6a", "00"],
-        "raw_text" : "<1A>#<10>,『おとは このボタンを おすだけ。』<wait><13>み<block>バリア‐ジェネレ‐タ‐・スイッチ OFF!<wait><13>:j",
-        "alt_text" : "<1A>#<10>,『アトハ コノぼたんヲ オスダケ。』<wait><13>ミ<block>ばりお―じぇねれ―た―・すいっち OFF!<wait><13>:j",
+        "raw_text" : "<1A>#<VYND>『おとは このボタンを おすだけ。』<wait><13>み<block>バリア‐ジェネレ‐タ‐・スイッチ OFF!<wait><13>:j",
+        "alt_text" : "<1A>#<VYND>『アトハ コノぼたんヲ オスダケ。』<wait><13>ミ<block>ばりお―じぇねれ―た―・すいっち OFF!<wait><13>:j",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3722,8 +3694,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 152,
         "raw" : ["1a", "2e", "10", "2c", "a2", "bf", "b3", "b6", "a4", "ba", "b2", "c2", "ca", "20", "5c", "bb", "b2", "ce", "de", "b0", "b8", "de", "5c", "ba", "b3", "bc", "de", "ae", "b3", "20", "c0", "de", "21", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "ca", "20", "b1", "c1", "ba", "c1", "c9", "ce", "bc", "c3", "de", "20", "c4", "d7", "b4", "c0", "03", "be", "b2", "cc", "de", "c2", "a6", "20", "b6", "b2", "bf", "de", "b3", "bc", "c3", "20", "be", "dd", "c4", "b3", "d6", "b3", "03", "5c", "bb", "b2", "ce", "de", "b0", "b8", "de", "5c", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c3", "d9", "dd", "c0", "de", "21", "1c", "04", "03", "b5", "bf", "d7", "b8", "a4", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "d4", "20", "5c", "bc", "de", "ac", "dd", "bd", "5c", "c3", "de", "03", "bb", "d7", "dc", "da", "c0", "20", "cb", "c4", "c0", "c1", "d3", "3b", "3b", "3b", "3b", "a3", "08", "00"],
-        "raw_text" : "<1A>.<10>,『そうか、こいつは サイボ‐グこうじょう だ!\nバ‐サ‐カ‐は おちこちのほしで とらえた\nせいぶつを かいぞうして せんとうよう\nサイボ‐グを かいはつしてるんだ!<endwait><pause>\nおそらく、ファ‐ワ‐ルドや ジャンスで\nさらわれた ひとたちも‥‥‥‥』<wait>",
-        "alt_text" : "<1A>.<10>,『ソウカ、コイツハ さいぼ―ぐコウジョウ ダ!\nば―さ―か―ハ アチコチノホシデ トラエタ\nセイブツヲ カイゾウシテ セントウヨウ\nさいぼ―ぐヲ カイハツシテルンダ!<endwait><pause>\nオソラク、ふぁ―わ―るどヤ じゃんすデ\nサラワレタ ヒトタチモ‥‥‥‥』<wait>",
+        "raw_text" : "<1A>.<VYND>『そうか、こいつは サイボ‐グこうじょう だ!\nバ‐サ‐カ‐は おちこちのほしで とらえた\nせいぶつを かいぞうして せんとうよう\nサイボ‐グを かいはつしてるんだ!<endwait><pause>\nおそらく、ファ‐ワ‐ルドや ジャンスで\nさらわれた ひとたちも‥‥‥‥』<wait>",
+        "alt_text" : "<1A>.<VYND>『ソウカ、コイツハ さいぼ―ぐコウジョウ ダ!\nば―さ―か―ハ アチコチノホシデ トラエタ\nセイブツヲ カイゾウシテ セントウヨウ\nさいぼ―ぐヲ カイハツシテルンダ!<endwait><pause>\nオソラク、ふぁ―わ―るどヤ じゃんすデ\nサラワレタ ヒトタチモ‥‥‥‥』<wait>",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4016,8 +3988,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 380,
         "raw" : ["1a", "25", "10", "2c", "a2", "ba", "c9", "bf", "b3", "c1", "ca", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "20", "5c", "c3", "de", "b0", "c0", "ca", "de", "dd", "b8", "5c", "c0", "de", "a1", "03", "b6", "b2", "c3", "b2", "b7", "c1", "c6", "20", "b1", "af", "c0", "c9", "c4", "20", "b5", "c5", "bc", "de", "5c", "c0", "b2", "cc", "df", "5c", "c0", "de", "c5", "a1", "03", "b4", "b4", "af", "c4", "3b", "3b", "3b", "3b", "a3", "08", "1a", "2a", "3b", "3b", "3b", "a5", "20", "3b", "a5", "3b", "3b", "a5", "a5", "3b", "20", "a5", "3b", "3b", "19", "25", "10", "2c", "a2", "c3", "de", "c0", "21", "20", "ce", "dd", "d4", "b8", "b7", "c6", "20", "b6", "b9", "c3", "d0", "cf", "bd", "a3", "08", "1a", "1a", "a2", "3b", "3b", "3b", "3b", "5c", "b6", "b2", "bf", "de", "b8", "c9", "06", "22", "3b", "3b", "3b", "3b", "bc", "ad", "b3", "b9", "de", "b7", "a6", "06", "26", "02", "20", "3b", "3b", "3b", "3b", "b3", "b9", "c0", "06", "28", "3b", "3b", "3b", "3b", "5c", "d2", "b2", "dd", "b4", "dd", "bc", "de", "dd", "06", "22", "02", "20", "5c", "cc", "c1", "ae", "b3", "3b", "3b", "3b", "3b", "06", "26", "cc", "bc", "de", "c1", "ac", "b8", "3b", "3b", "3b", "3b", "a3", "08", "0c", "a2", "3b", "3b", "3b", "3b", "5c", "ca", "de", "b2", "b5", "c1", "af", "cc", "df", "5c", "b6", "de", "06", "28", "3b", "3b", "3b", "3b", "02", "20", "d8", "ad", "b3", "bb", "dd", "c3", "de", "3b", "3b", "3b", "06", "22", "cc", "bc", "ae", "b8", "3b", "3b", "3b", "06", "22", "5c", "cf", "bc", "dd", "5c", "b6", "de", "06", "26", "02", "20", "3b", "3b", "3b", "3b", "d2", "b2", "da", "b2", "d1", "bc", "06", "28", "3b", "3b", "3b", "ce", "de", "b3", "bf", "b3", "06", "26", "3b", "3b", "3b", "a3", "08", "0c", "a2", "3b", "3b", "3b", "3b", "b3", "c1", "ad", "b3", "06", "28", "3b", "3b", "3b", "3b", "dc", "da", "d7", "3b", "3b", "3b", "3b", "06", "26", "02", "20", "3b", "3b", "3b", "5c", "b8", "b2", "b0", "dd", "5c", "06", "28", "3b", "3b", "3b", "3b", "bc", "ca", "b2", "bc", "ac", "06", "26", "3b", "3b", "3b", "a3", "08", "19", "25", "10", "2c", "a2", "c0", "de", "d2", "c0", "de", "a1", "5c", "d2", "d3", "d8", "b0", "5c", "b6", "de", "20", "bd", "af", "b6", "d8", "20", "d8", "ad", "b3", "bb", "dd", "c6", "03", "d4", "d7", "da", "c3", "b2", "d9", "21", "a3", "08", "00"],
-        "raw_text" : "<1A>%<10>,『このそうちは バ‐サ‐カ‐の デ‐タバンクだ。\nかいていきちに おったのと おなじタイプだな。\nええっと‥‥‥‥』<wait><1A>*‥‥‥・ ‥・‥‥・・‥ ・‥‥<19>%<10>,『でた! ほんやくきに かけてみます』<wait><1A><1A>『‥‥‥‥カイゾクノ<06>“‥‥‥‥シュウゲキヲ<06>&\n ‥‥‥‥ウケタ<06>(‥‥‥‥めいんえんじん<06>“\n フチョウ‥‥‥‥<06>&フジチャク‥‥‥‥』<wait><erase>『‥‥‥‥ばいおちっぷガ<06>(‥‥‥‥\n リュウサンデ‥‥‥<06>“フショク‥‥‥<06>“ましんガ<06>&\n ‥‥‥‥メイレイムシ<06>(‥‥‥ボウソウ<06>&‥‥‥』<wait><erase>『‥‥‥‥ウチュウ<06>(‥‥‥‥ワレラ‥‥‥‥<06>&\n ‥‥‥くい―ん<06>(‥‥‥‥シハイシャ<06>&‥‥‥』<wait><19>%<10>,『ダメダ。めもり―ガ スッカリ リュウサンニ\nヤラレテイル!』<wait>",
-        "alt_text" : "<1A>%<10>,『コノソウチハ ば―さ―か―ノ で―たばんくダ。\nカイテイキチニ アッタノト オナジたいぷダナ。\nエエット‥‥‥‥』<wait><1A>*‥‥‥・ ‥・‥‥・・‥ ・‥‥<19>%<10>,『デタ! ホンヤクキニ カケテミマス』<wait><1A><1A>『‥‥‥‥かいぞくの<06>“‥‥‥‥しゅうげきを<06>&\n ‥‥‥‥うけた<06>(‥‥‥‥メインエンジン<06>“\n ふちょう‥‥‥‥<06>&ふじちゃく‥‥‥‥』<wait><erase>『‥‥‥‥バイオチップが<06>(‥‥‥‥\n りゅうさんで‥‥‥<06>“ふしょく‥‥‥<06>“マシンが<06>&\n ‥‥‥‥めいれいむし<06>(‥‥‥ぼうそう<06>&‥‥‥』<wait><erase>『‥‥‥‥うちゅう<06>(‥‥‥‥われら‥‥‥‥<06>&\n ‥‥‥クイ‐ン<06>(‥‥‥‥しはいしゃ<06>&‥‥‥』<wait><19>%<10>,『だめだ。メモリ‐が すっかり りゅうさんに\nやられている!』<wait>",
+        "raw_text" : "<1A>%<VYND>『このそうちは バ‐サ‐カ‐の デ‐タバンクだ。\nかいていきちに おったのと おなじタイプだな。\nええっと‥‥‥‥』<wait><1A>*‥‥‥・ ‥・‥‥・・‥ ・‥‥<19>%<VYND>『でた! ほんやくきに かけてみます』<wait><1A><1A>『‥‥‥‥カイゾクノ<06>“‥‥‥‥シュウゲキヲ<06>&\n ‥‥‥‥ウケタ<06>(‥‥‥‥めいんえんじん<06>“\n フチョウ‥‥‥‥<06>&フジチャク‥‥‥‥』<wait><erase>『‥‥‥‥ばいおちっぷガ<06>(‥‥‥‥\n リュウサンデ‥‥‥<06>“フショク‥‥‥<06>“ましんガ<06>&\n ‥‥‥‥メイレイムシ<06>(‥‥‥ボウソウ<06>&‥‥‥』<wait><erase>『‥‥‥‥ウチュウ<06>(‥‥‥‥ワレラ‥‥‥‥<06>&\n ‥‥‥くい―ん<06>(‥‥‥‥シハイシャ<06>&‥‥‥』<wait><19>%<VYND>『ダメダ。めもり―ガ スッカリ リュウサンニ\nヤラレテイル!』<wait>",
+        "alt_text" : "<1A>%<VYND>『コノソウチハ ば―さ―か―ノ で―たばんくダ。\nカイテイキチニ アッタノト オナジたいぷダナ。\nエエット‥‥‥‥』<wait><1A>*‥‥‥・ ‥・‥‥・・‥ ・‥‥<19>%<VYND>『デタ! ホンヤクキニ カケテミマス』<wait><1A><1A>『‥‥‥‥かいぞくの<06>“‥‥‥‥しゅうげきを<06>&\n ‥‥‥‥うけた<06>(‥‥‥‥メインエンジン<06>“\n ふちょう‥‥‥‥<06>&ふじちゃく‥‥‥‥』<wait><erase>『‥‥‥‥バイオチップが<06>(‥‥‥‥\n りゅうさんで‥‥‥<06>“ふしょく‥‥‥<06>“マシンが<06>&\n ‥‥‥‥めいれいむし<06>(‥‥‥ぼうそう<06>&‥‥‥』<wait><erase>『‥‥‥‥うちゅう<06>(‥‥‥‥われら‥‥‥‥<06>&\n ‥‥‥クイ‐ン<06>(‥‥‥‥しはいしゃ<06>&‥‥‥』<wait><19>%<VYND>『だめだ。メモリ‐が すっかり りゅうさんに\nやられている!』<wait>",
         "trans_size" : 0,
         "trans_text" : ""
     },

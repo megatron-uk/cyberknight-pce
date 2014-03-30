@@ -2,7 +2,7 @@
 "block_description" : "Item names, enemy names, battle screen menus",
 "block_start" : "0x1ccbf",
 "block_end" : "0x1d373",
-"insert_method" : 2,
+"insert_method" : 1,
 "data" : [
     {
         "string_description" : "Item names, enemy names, battle screen menus",
@@ -1793,35 +1793,35 @@
         "raw_text" : "<0B><07>゜攻撃  ",
         "alt_text" : "<0B><07>゜攻撃  ",
         "trans_size" : 0,
-        "trans_text" : "Attack "
+        "trans_text" : "Attack  "
     },
 
     {
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d0d9",
         "method" : 3,
-        "start_bytes" : ["0b", "07"],
+        "start_bytes" : ["0b", "07", "ff"],
         "end_bytes" : ["00"],
         "raw_size" : 16,
         "raw" : ["0b", "07", "ff", "1d", "08", "54", "74", "55", "75", "56", "76", "57", "77", "20", "20", "00"],
         "raw_text" : "<0B><07>゜防御  ",
         "alt_text" : "<0B><07>゜防御  ",
         "trans_size" : 0,
-        "trans_text" : "Defend "
+        "trans_text" : "Defend  "
     },
 
     {
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d0e9",
         "method" : 3,
-        "start_bytes" : ["0b", "07"],
+        "start_bytes" : ["0b", "07", "ff"],
         "end_bytes" : ["00"],
         "raw_size" : 17,
         "raw" : ["0b", "07", "ff", "1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00", "f8", "d5", "f1", "20", "00"],
         "raw_text" : "<0B><07>゜オプツョソ ",
         "alt_text" : "<0B><07>゜オプツョソ ",
         "trans_size" : 0,
-        "trans_text" : "Option "
+        "trans_text" : "Option  "
     },
 
     {
@@ -1982,14 +1982,14 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d197",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["11", "0e", "0c", "06", "39", "04", "0a", "06", "39", "04", "0a", "06", "39", "04", "0a", "0e", "02", "0d", "05"],
+        "end_bytes" : ["04", "3c", "0c", "11", "00"],
         "raw_size" : 77,
         "raw" : ["11", "0e", "0c", "06", "39", "04", "0a", "06", "39", "04", "0a", "06", "39", "04", "0a", "0e", "02", "0d", "05", "4d", "49", "43", "41", "d6", "d8", "20", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "21", "21", "04", "1e", "0c", "06", "39", "04", "0a", "06", "39", "04", "0a", "06", "39", "04", "0a", "0e", "02", "0d", "05", "4d", "49", "43", "41", "d6", "d8", "20", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "21", "21", "04", "3c", "0c", "11", "00"],
         "raw_text" : "<11><0E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAより メッセ‐ジ!!<pause><1E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAより メッセ‐ジ!!<pause><<erase><11>",
         "alt_text" : "<11><0E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAヨリ めっせ―じ!!<pause><1E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAヨリ めっせ―じ!!<pause><<erase><11>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Message from MICA!<04><1e><0c><06><39><04><0a><06><39><04><0a><06><39><04><0a><0e><02><0d><05>Message from MICA!"
     },
 
     {
@@ -2017,7 +2017,7 @@
         "raw_text" : "<0B>\n<18> <10>゜を たおした!",
         "alt_text" : "<0B>\n<18> <10>゜ヲ タオシタ!",
         "trans_size" : 0,
-        "trans_text" : "I beat the <10>!"
+        "trans_text" : ""
     },
 
     {

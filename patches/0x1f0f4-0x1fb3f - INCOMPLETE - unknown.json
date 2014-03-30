@@ -344,7 +344,7 @@
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f3e4",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "8b", "7a", "4d", "49", "43", "41"],
         "end_bytes" : ["00"],
         "raw_size" : 48,
         "raw" : ["13", "8b", "7a", "4d", "49", "43", "41", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "ca", "20", "54", "45", "53", "54", "c1", "ad", "b3", "c3", "de", "bd", "03", "bc", "dd", "bc", "de", "d9", "c4", "20", "cb", "c4", "de", "b2", "d2", "c6", "20", "b1", "b2", "cf", "bd", "21", "00"],
@@ -1629,77 +1629,77 @@
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - structure analysis of enemy",
         "string_start" : "0x1fa8b",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "0f", "03", "00"],
         "raw_size" : 19,
         "raw" : ["10", "30", "a2", "ba", "b3", "bf", "de", "b3", "cc", "de", "dd", "be", "b7", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『こうぞうぶんせき <chevron> <0F>\n",
         "alt_text" : "<MICA>『コウゾウブンセキ <chevron> <0F>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Structure "
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - capability scan of enemy",
         "string_start" : "0x1fa9e",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "0f", "03", "00"],
         "raw_size" : 19,
         "raw" : ["10", "30", "a2", "c9", "b3", "d8", "ae", "b8", "cc", "de", "dd", "be", "b7", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『のうりょくぶんせき <chevron> <0F>\n",
         "alt_text" : "<MICA>『ノウリョクブンセキ <chevron> <0F>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Capability "
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - calm analysis ???",
         "string_start" : "0x1fab1",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "0f", "03", "00"],
         "raw_size" : 17,
         "raw" : ["10", "30", "a2", "cd", "b2", "b7", "cc", "de", "dd", "be", "b7", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『へいきぶんせき <chevron> <0F>\n",
         "alt_text" : "<MICA>『ヘイキブンセキ <chevron> <0F>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Calm "
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - componentry analsys",
         "string_start" : "0x1fac2",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "0f", "03", "00"],
         "raw_size" : 19,
         "raw" : ["10", "30", "a2", "be", "b2", "cc", "de", "dd", "cc", "de", "dd", "be", "b7", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『せいぶんぶんせき <chevron> <0F>\n",
         "alt_text" : "<MICA>『セイブンブンセキ <chevron> <0F>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Componentry "
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - behaviour analysis",
         "string_start" : "0x1fad5",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "0f", "03", "00"],
         "raw_size" : 19,
         "raw" : ["10", "30", "a2", "ba", "b3", "c4", "de", "b3", "cc", "de", "dd", "be", "b7", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『こうどうぶんせき <chevron> <0F>\n",
         "alt_text" : "<MICA>『コウドウブンセキ <chevron> <0F>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Behaviour "
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - oriented analysis???",
         "string_start" : "0x1fae8",
         "method" : 3,
         "start_bytes" : [],
@@ -1716,28 +1716,28 @@
         "string_description" : "Unknown dialogue - tactics commander???",
         "string_start" : "0x1faf9",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "0f", "03", "00"],
         "raw_size" : 18,
         "raw" : ["10", "30", "a2", "be", "dd", "bc", "de", "ad", "c2", "bc", "da", "b2", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『せんじゅつしれい <chevron> <0F>\n",
         "alt_text" : "<MICA>『センジュツシレイ <chevron> <0F>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Tactics scan "
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1fb0b",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "0f", "03", "00"],
         "raw_size" : 17,
         "raw" : ["10", "30", "a2", "ba", "b3", "b9", "de", "b7", "bc", "da", "b2", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『こうげきしれい <chevron> <0F>\n",
         "alt_text" : "<MICA>『コウゲキシレイ <chevron> <0F>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Attack scan "
     },
 
     {
@@ -1745,13 +1745,13 @@
         "string_start" : "0x1fb1c",
         "method" : 3,
         "start_bytes" : ["10", "30"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["7d", "20", "10", "00"],
         "raw_size" : 16,
         "raw" : ["10", "30", "a2", "c3", "b2", "bc", "de", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00"],
         "raw_text" : "<MICA>『ていじれんらく <chevron> <10>",
         "alt_text" : "<MICA>『テイジレンラク <chevron> <10>",
         "trans_size" : 0,
-        "trans_text" : ":Emergency contact"
+        "trans_text" : ":Emergency message "
     },
 
     {
@@ -1772,14 +1772,14 @@
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1fb2e",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["10", "30"],
+        "end_bytes" : ["7d", "20", "10", "00"],
         "raw_size" : 17,
         "raw" : ["10", "30", "a2", "b7", "dd", "b7", "ad", "b3", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00"],
         "raw_text" : "<MICA>『きんきゅうれんらく <chevron> <10>",
         "alt_text" : "<MICA>『キンキュウレンラク <chevron> <10>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Emergency contact "
     },
 
     {

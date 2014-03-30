@@ -2,7 +2,7 @@
 "block_description" : "Some initial messages and in-game dialogue",
 "block_start" : "0x1defc",
 "block_end" : "0x1e71c",
-"insert_method" : 1,
+"insert_method" : 2,
 "data" : [
     {
         "string_description" : "mica warning not to leave the area",
