@@ -153,7 +153,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 9,
         "raw" : ["5c", "b7", "ac", "cc", "df", "c3", "dd", "5c", "00"],
-        "raw_text" : "キプテン",
+        "raw_text" : "キャプテン",
+        "alt_text" : "きゃぷてん",
         "trans_size" : 0,
         "trans_text" : "Captain"
     },
@@ -285,7 +286,7 @@
     },
 
     {
-        "block_range" : "0x1cbad-0x1ccac - Uji?",
+        "block_range" : "0x1cbad-0x1ccac - Ouji? - professer/teacher in first world school",
         "block_description" : "NPC character names.",
         "string_start" : "0x1cc14",
         "method" : 3,
@@ -293,9 +294,10 @@
         "end_bytes" : ["00"],
         "raw_size" : 7,
         "raw" : ["b7", "ae", "b3", "bc", "de", "ad", "00"],
-        "raw_text" : "きぉうじ",
+        "raw_text" : "きょうじゅ",
+        "alt_text" : "キョウジュ",
         "trans_size" : 0,
-        "trans_text" : "Ouji"
+        "trans_text" : "Prof."
     },
 
     {
@@ -307,9 +309,10 @@
         "end_bytes" : ["00"],
         "raw_size" : 9,
         "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "00"],
-        "raw_text" : "だいとうりぉう",
+        "raw_text" : "だいとうりょう",
+        "alt_text" : "ダイトウリョウ",
         "trans_size" : 0,
-        "trans_text" : "Daito"
+        "trans_text" : "President"
     },
 
     {
@@ -321,9 +324,10 @@
         "end_bytes" : ["00"],
         "raw_size" : 13,
         "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "cc", "bc", "de", "dd", "00"],
-        "raw_text" : "だいとうりぉうふじん",
+        "raw_text" : "だいとうりょうふじん",
+        "alt_text" : "ダイトウリョウフジン",
         "trans_size" : 0,
-        "trans_text" : "Mrs Daito"
+        "trans_text" : "First Lady"
     },
 
     {
@@ -365,7 +369,7 @@
         "raw" : ["5c", "bc", "b0", "b8", "d7", "dd", "00"],
         "raw_text" : "シ‐クラン",
         "trans_size" : 0,
-        "trans_text" : "Shi Clan"
+        "trans_text" : "See Clan"
     },
 
     {
@@ -377,9 +381,10 @@
         "end_bytes" : ["00"],
         "raw_size" : 6,
         "raw" : ["c1", "ae", "b3", "db", "b3", "00"],
-        "raw_text" : "ちぉうろう",
+        "raw_text" : "ちょうろう",
+        "alt_text" : "チョウロウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Elder"
     },
 
     {
@@ -392,8 +397,9 @@
         "raw_size" : 8,
         "raw" : ["b9", "de", "dd", "bc", "bc", "de", "dd", "00"],
         "raw_text" : "げんしじん",
+        "alt_text" : "ゲンシジン",
         "trans_size" : 0,
-        "trans_text" : "Atom Man"
+        "trans_text" : "Caveman"
     },
 
     {
@@ -405,9 +411,10 @@
         "end_bytes" : ["00"],
         "raw_size" : 7,
         "raw" : ["bc", "ad", "b3", "c1", "ae", "b3", "00"],
-        "raw_text" : "しうちぉう",
+        "raw_text" : "しゅうちょう",
+        "alt_text" : "シュウチョウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Chief"
     },
 
     {
@@ -420,6 +427,7 @@
         "raw_size" : 3,
         "raw" : ["b2", "dc", "00"],
         "raw_text" : "いわ",
+        "alt_text" : "イワ",
         "trans_size" : 0,
         "trans_text" : "Rock"
     },
@@ -434,8 +442,9 @@
         "raw_size" : 12,
         "raw" : ["5c", "bc", "d8", "ba", "dd", "5c", "be", "b2", "cc", "de", "c2", "00"],
         "raw_text" : "シリコンせいぶつ",
+        "alt_text" : "しりこんセイブツ",
         "trans_size" : 0,
-        "trans_text" : "Silicon Life"
+        "trans_text" : "Silicon"
     },
 
     {
@@ -448,6 +457,7 @@
         "raw_size" : 6,
         "raw" : ["5c", "b8", "bc", "de", "d7", "00"],
         "raw_text" : "クジラ",
+        "alt_text" : "くじら",
         "trans_size" : 0,
         "trans_text" : "Whale"
     },
@@ -462,6 +472,7 @@
         "raw_size" : 5,
         "raw" : ["5c", "bb", "bf", "d8", "00"],
         "raw_text" : "サソリ",
+        "alt_text" : "さそり",
         "trans_size" : 0,
         "trans_text" : "Scorpion"
     },
@@ -476,6 +487,7 @@
         "raw_size" : 6,
         "raw" : ["b6", "b2", "bf", "de", "b8", "00"],
         "raw_text" : "かいぞく",
+        "alt_text" : "カイゾク",
         "trans_size" : 0,
         "trans_text" : "Pirate"
     },
@@ -490,8 +502,9 @@
         "raw_size" : 4,
         "raw" : ["b7", "b6", "b2", "00"],
         "raw_text" : "きかい",
+        "alt_text" : "キカイ",
         "trans_size" : 0,
-        "trans_text" : "Opportunity"
+        "trans_text" : "Machine"
     },
 
     {
@@ -504,6 +517,7 @@
         "raw_size" : 4,
         "raw" : ["cd", "b2", "bc", "00"],
         "raw_text" : "へいし",
+        "alt_text" : "ヘイシ",
         "trans_size" : 0,
         "trans_text" : "Soldier"
     },
@@ -517,7 +531,8 @@
         "end_bytes" : ["00"],
         "raw_size" : 7,
         "raw" : ["bc", "ae", "b3", "b8", "de", "dd", "00"],
-        "raw_text" : "しぉうぐん",
+        "raw_text" : "しょうぐん",
+        "alt_text" : "ショウグン",
         "trans_size" : 0,
         "trans_text" : "Shogun"
     },
@@ -561,7 +576,7 @@
         "raw" : ["5c", "bd", "d7", "b3", "da", "00"],
         "raw_text" : "スラウレ",
         "trans_size" : 0,
-        "trans_text" : "Suraure"
+        "trans_text" : "Sraule"
     },
 
     {

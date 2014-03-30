@@ -29,7 +29,7 @@
         "raw_text" : "サスカッチ",
         "alt_text" : "さすかっち",
         "trans_size" : 0,
-        "trans_text" : "Yeti"
+        "trans_text" : "Sasquatch"
     },
 
     {
@@ -71,7 +71,7 @@
         "raw_text" : "アルラウネ",
         "alt_text" : "おるらうね",
         "trans_size" : 0,
-        "trans_text" : "Arurune"
+        "trans_text" : "Alraune"
     },
 
     {
@@ -155,7 +155,7 @@
         "raw_text" : "ユ‐ウォ‐キ‐",
         "alt_text" : "ゆ―うぉ―き―",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Yuwocky"
     },
 
     {
@@ -211,7 +211,7 @@
         "raw_text" : "スパンジュ‐ル",
         "alt_text" : "すぱんじゅ―る",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Spangle"
     },
 
     {
@@ -253,7 +253,7 @@
         "raw_text" : "ガンカナ‐",
         "alt_text" : "がんかな―",
         "trans_size" : 0,
-        "trans_text" : "Gunner"
+        "trans_text" : "Guncanner"
     },
 
     {
@@ -267,7 +267,7 @@
         "raw_text" : "シ‐オ‐ク",
         "alt_text" : "し―お―く",
         "trans_size" : 0,
-        "trans_text" : "Shioku"
+        "trans_text" : "Sea Orc"
     },
 
     {
@@ -281,7 +281,7 @@
         "raw_text" : "メロウ",
         "alt_text" : "めろう",
         "trans_size" : 0,
-        "trans_text" : "Melo"
+        "trans_text" : "Mellow"
     },
 
     {
@@ -421,7 +421,7 @@
         "raw_text" : "ファ‐ジャルグ",
         "alt_text" : "ふぁ―じゃるぐ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Farjalg"
     },
 
     {
@@ -477,7 +477,7 @@
         "raw_text" : "クルラホ‐ン",
         "alt_text" : "くるらほ―ん",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Replahorn"
     },
 
     {
@@ -519,7 +519,7 @@
         "raw_text" : "ジャガナ‐タ",
         "alt_text" : "じゃがな―た",
         "trans_size" : 0,
-        "trans_text" : "Jaganata"
+        "trans_text" : "Juggernaut"
     },
 
     {
@@ -673,7 +673,7 @@
         "raw_text" : "シリコニ‐",
         "alt_text" : "しりこに―",
         "trans_size" : 0,
-        "trans_text" : "Shirikoni"
+        "trans_text" : "SiliconEye"
     },
 
     {
@@ -687,7 +687,7 @@
         "raw_text" : "デビルアイ",
         "alt_text" : "でびるおい",
         "trans_size" : 0,
-        "trans_text" : "DoubleEye"
+        "trans_text" : "DevilEye"
     },
 
     {
@@ -701,7 +701,7 @@
         "raw_text" : "イ‐ビルアイ",
         "alt_text" : "い―びるおい",
         "trans_size" : 0,
-        "trans_text" : "OneEye"
+        "trans_text" : "EvilEye"
     },
 
     {
@@ -743,7 +743,7 @@
         "raw_text" : "ダイモザウルス",
         "alt_text" : "だいもざうるす",
         "trans_size" : 0,
-        "trans_text" : "Dymo Saurus"
+        "trans_text" : "Dymosaurus"
     },
 
     {
@@ -757,7 +757,7 @@
         "raw_text" : "アラクニザウルス",
         "alt_text" : "おらくにざうるす",
         "trans_size" : 0,
-        "trans_text" : "Ara Kuni Saurus"
+        "trans_text" : "Arachnosaurus"
     },
 
     {
@@ -771,7 +771,7 @@
         "raw_text" : "レプタントスカウト",
         "alt_text" : "れぷたんとすかうと",
         "trans_size" : 0,
-        "trans_text" : "Replicant Scout"
+        "trans_text" : "Replicant"
     },
 
     {
@@ -785,7 +785,7 @@
         "raw_text" : "レプタントレイバ‐",
         "alt_text" : "れぷたんとれいば―",
         "trans_size" : 0,
-        "trans_text" : "Replicant Worker"
+        "trans_text" : "Rep.Worker"
     },
 
     {
@@ -799,7 +799,7 @@
         "raw_text" : "レプタントロイヤル",
         "alt_text" : "れぷたんとろいやる",
         "trans_size" : 0,
-        "trans_text" : "Replicant Royal"
+        "trans_text" : "Rep.Royal"
     },
 
     {
@@ -813,7 +813,7 @@
         "raw_text" : "パイレ‐ツガンナ‐",
         "alt_text" : "ぱいれ―つがんな―",
         "trans_size" : 0,
-        "trans_text" : "Pirate Gun"
+        "trans_text" : "Pirate"
     },
 
     {
@@ -827,7 +827,7 @@
         "raw_text" : "パイレ‐ツヘッド",
         "alt_text" : "ぱいれ―つへっど",
         "trans_size" : 0,
-        "trans_text" : "Pirate Head"
+        "trans_text" : "P.Leader"
     },
 
     {
@@ -841,6 +841,6 @@
         "raw_text" : "パイレ‐ツキング",
         "alt_text" : "ぱいれ―つきんぐ",
         "trans_size" : 0,
-        "trans_text" : "Pirate King"
+        "trans_text" : "P.King"
     }
 ]}

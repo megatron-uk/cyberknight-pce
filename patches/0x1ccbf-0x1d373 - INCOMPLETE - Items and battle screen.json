@@ -2,7 +2,7 @@
 "block_description" : "Item names, enemy names, battle screen menus",
 "block_start" : "0x1ccbf",
 "block_end" : "0x1d373",
-"insert_method" : 1,
+"insert_method" : 2,
 "data" : [
     {
         "string_description" : "Item names, enemy names, battle screen menus",
