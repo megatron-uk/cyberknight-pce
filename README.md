@@ -27,6 +27,8 @@ English language translation status
 How to use
 ==========
 
+## Extracting Text Regions
+
 Add the text regions you want to extract into the configuration file 'config.py'.
 Run extractScript.py on the rom file - you will need a headerless version of "Cyber Knight (J).pce". It should be 524288 bytes exactly in size, if you have a headered version simply remove it using a standard rom or hex editor.
 
@@ -38,7 +40,9 @@ For example:
 
     python extractScript.py -i "Cyber Knight (J).pce" -o "Script.json" -t "CyberKnightTranslation.csv"
 
-....edit Script.json to add in your translations and then copy in to the patches folder....
+....edit Script.json to add in your translations and then copy in to the patches folder.
+
+## Applying Patches / Injecting Text
 
     python injectScript.py -i "Cyber Knight (J).pce" -o "Cyber Knight (E).pce" -d ./patches/
 
