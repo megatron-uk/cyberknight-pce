@@ -47,3 +47,10 @@ If you download this entire git archive and drop in a 'Cyber Knight (J).pce' rom
 and...
 
     python injectScript.py
+    
+    
+Useful Links
+============
+
+  * http://translate.google.co.uk/translate?hl=en&sl=ja&tl=en&u=http%3A%2F%2Fwww.otv.ne.jp%2F~hidechus%2Fpcesknight%2Fdata%2Fenemi-neo.html
+  

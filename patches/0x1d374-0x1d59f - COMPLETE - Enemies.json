@@ -99,7 +99,7 @@
         "raw_text" : "タッツェルブルム",
         "alt_text" : "たっつぇるぶるむ",
         "trans_size" : 0,
-        "trans_text" : "Tatzelwurm"
+        "trans_text" : "Tatzelwyrm"
     },
 
     {
@@ -477,7 +477,7 @@
         "raw_text" : "クルラホ‐ン",
         "alt_text" : "くるらほ―ん",
         "trans_size" : 0,
-        "trans_text" : "Replahorn"
+        "trans_text" : "Clurichaun"
     },
 
     {
@@ -635,7 +635,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus - bilewurm / pyrowyrm",
         "string_start" : "0x1d4f5",
         "method" : 3,
         "start_bytes" : [],
@@ -645,7 +645,7 @@
         "raw_text" : "パイロワ‐ム",
         "alt_text" : "ぱいろわ―む",
         "trans_size" : 0,
-        "trans_text" : "Bilewurm"
+        "trans_text" : "Pyrowyrm"
     },
 
     {
@@ -663,7 +663,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus / Siliconny / Siliconi",
         "string_start" : "0x1d506",
         "method" : 3,
         "start_bytes" : [],
@@ -673,7 +673,7 @@
         "raw_text" : "シリコニ‐",
         "alt_text" : "しりこに―",
         "trans_size" : 0,
-        "trans_text" : "SiliconEye"
+        "trans_text" : "Siliconi"
     },
 
     {
@@ -715,7 +715,7 @@
         "raw_text" : "クアドケラトプス",
         "alt_text" : "くおどけらとぷす",
         "trans_size" : 0,
-        "trans_text" : "Quadceratops"
+        "trans_text" : "Quadratops"
     },
 
     {
@@ -729,7 +729,7 @@
         "raw_text" : "メガケラトプス",
         "alt_text" : "めがけらとぷす",
         "trans_size" : 0,
-        "trans_text" : "Megaceratops"
+        "trans_text" : "Megaratops"
     },
 
     {
@@ -761,7 +761,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus - replicant scout",
+        "string_description" : "Item names, enemy names, battle screen menus - replicant/reptant scout ??? Replica Ant???",
         "string_start" : "0x1d54c",
         "method" : 3,
         "start_bytes" : [],
@@ -785,7 +785,7 @@
         "raw_text" : "レプタントレイバ‐",
         "alt_text" : "れぷたんとれいば―",
         "trans_size" : 0,
-        "trans_text" : "Rep.Worker"
+        "trans_text" : "R.Worker"
     },
 
     {
@@ -799,7 +799,7 @@
         "raw_text" : "レプタントロイヤル",
         "alt_text" : "れぷたんとろいやる",
         "trans_size" : 0,
-        "trans_text" : "Rep.Royal"
+        "trans_text" : "R.Royal"
     },
 
     {

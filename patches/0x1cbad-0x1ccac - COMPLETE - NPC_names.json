@@ -369,7 +369,7 @@
         "raw" : ["5c", "bc", "b0", "b8", "d7", "dd", "00"],
         "raw_text" : "シ‐クラン",
         "trans_size" : 0,
-        "trans_text" : "See Clan"
+        "trans_text" : "Seeclan"
     },
 
     {
@@ -534,7 +534,7 @@
         "raw_text" : "しょうぐん",
         "alt_text" : "ショウグン",
         "trans_size" : 0,
-        "trans_text" : "Shogun"
+        "trans_text" : "General"
     },
 
     {
