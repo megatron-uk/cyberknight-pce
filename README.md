@@ -58,5 +58,7 @@ and...
 Useful Links
 ============
 
-  * http://translate.google.co.uk/translate?hl=en&sl=ja&tl=en&u=http%3A%2F%2Fwww.otv.ne.jp%2F~hidechus%2Fpcesknight%2Fdata%2Fenemi-neo.html
-  
+Old sites with information on enemy names, descripions, weapons, levels etc. (Japanese, load in Google translator)
+
+  * http://www.otv.ne.jp/~hidechus/pcesknight/data/enemi-neo.html
+  * http://ifs.nog.cc/aracnizauls.hp.infoseek.co.jp/CyberKnight_Top.html
