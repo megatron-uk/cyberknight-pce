@@ -59,7 +59,7 @@ from config import ROM_NAME, PATCH_DIR_NAME, PATCH_EXTENSION, OUT_ROM_NAME, TABL
 from config import OVERWRITE, VERBOSE
 from config import SWITCH_MODE
 from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE
-from config import FUZZY_LIMIT
+from config import FUZZY_LIMIT, FUZZY_BEST_LIMIT
 
 # Load the definitions of which ranges in the files to examine
 from config import BYTES
@@ -116,6 +116,7 @@ def mapScript(patchfile, patch, snes_table):
 				mt += 1
 			else:	
 				possible_matches = []
+				best_matches = []
 				# Attempt fuzzy match
 				for snes_text in snes_table.keys():
 					sm = difflib.SequenceMatcher(None, patch_segment["raw_text"].encode('utf-8'), snes_text)
@@ -126,14 +127,25 @@ def mapScript(patchfile, patch, snes_table):
 						# Do a more accurate check
 						#if sm.ratio() >= FUZZY_LIMIT:
 							d = {}
-							d["ratio"] = r
 							d["snes-e"] = snes_table[snes_text]
 							d["snes-j"] = snes_text
+							d["sm"] = sm
 							possible_matches.append(d)
 				# Sort list of possibles
 				if len(possible_matches) > 0:
 					if VERBOSE:
-						print "%s - %s Possible matches" % (patch_segment["string_start"], len(possible_matches))
+						sys.stdout.write("%s - " % (patch_segment["string_start"]))
+						sys.stdout.write( "Possibles: %s " % len(possible_matches))
+						sys.stdout.flush()
+					for d in possible_matches:
+						r = d["sm"].ratio()
+						if r >= FUZZY_BEST_LIMIT:
+							best_matches.append(d)
+        	                        if VERBOSE:
+                	                        sys.stdout.write("Best: %s\n" % len(best_matches))
+						sys.stdout.flush()
+						
+					
 				# Get highest 3
 				# Prompt for user action
 	if VERBOSE:
