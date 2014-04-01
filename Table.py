@@ -4,6 +4,31 @@ import traceback
 import sys
 from config import TABLE_NAME, TABLE_NAME_DOUBLE
 
+def load_snes_table(snes_name):
+	"""
+	load_snes_table - load the existing SNES script
+	The SNES script is a simple, two-column CSV file;
+	col 1 = Japanese text
+	col 2 = English text
+	"""
+
+	trans_table = {}
+	try:
+		line = ""
+		f = open(snes_name, "r")
+		for line in f:
+			columns = line.split(',')
+			key = columns[0]
+			value = columns[1]
+			trans_table[key] = value
+		f.close
+	except Exception as e:
+		print traceback.format_exc()
+		print e
+		print line
+		sys.exit(2)
+	return trans_table
+
 def load_table():
 	"""
 	load_table - load the translation table.

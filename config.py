@@ -12,8 +12,10 @@ ROM_NAME = "Cyber Knight (J).pce"
 TABLE_NAME = "CyberKnightTranslation.csv"
 TABLE_NAME_DOUBLE = "CyberKnightKanjiTranslation.csv"
 OUT_NAME = "Script.json"
-# Additional requirements for injectScript
+# Additional requirements for injectScript/mapScript
 OUT_ROM_NAME = "Cyber Knight (E).pce"
+SNES_SCRIPT = "CyberKnightSNES.csv"
+OUT_DIR_NAME = "./patches-processed/"
 PATCH_DIR_NAME = "./patches/"
 PATCH_EXTENSION = ".json"
 
