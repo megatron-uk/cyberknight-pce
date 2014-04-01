@@ -316,28 +316,28 @@
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f3b6",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "9e", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "9e", "7a", "c9", "b3", "d8", "ae", "b8", "20", "cc", "de", "dd", "be", "b7", "20", "c3", "de", "b7", "cf", "be", "dd", "21", "00"],
         "raw_text" : "<13>セzのうりょく ぶんせき できません!",
         "alt_text" : "<13>セzノウリョク ブンセキ デキマセン!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Unable to scan capability!"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f3cd",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "9e", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "9e", "7a", "c0", "b2", "bc", "c0", "20", "c3", "b7", "c3", "de", "ca", "20", "b1", "d8", "cf", "be", "dd", "c8", "3b", "3b", "00"],
         "raw_text" : "<13>セzたいした てきでは おりませんね‥‥",
         "alt_text" : "<13>セzタイシタ テキデハ アリマセンネ‥‥",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "I do not detect a high threat.."
     },
 
     {
@@ -358,14 +358,14 @@
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f414",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "b1", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 27,
         "raw" : ["13", "b1", "7a", "c3", "b7", "ca", "20", "b7", "ae", "b3", "d8", "ae", "b8", "c5", "20", "cc", "de", "b7", "a6", "20", "d3", "af", "c3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13>おzてきは きょうりょくな ぶきを もっています",
         "alt_text" : "<13>アzテキハ キョウリョクナ ブキヲ モッテイマス",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "The enemy has a powerful attack"
     },
 
     {
@@ -848,56 +848,56 @@
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f6b7",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "0b"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "0b", "7b", "5c", "b5", "cc", "df", "bc", "ae", "dd", "5c", "a6", "20", "c2", "b6", "b3", "cd", "de", "b7", "c3", "de", "bd", "00"],
         "raw_text" : "<13><0B><gun>オプションを つかうべきです",
         "alt_text" : "<13><0B><gun>おぷしょんヲ ツカウベキデス",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "You should use Option <7b> attack"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f6ce",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "f9", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "f9", "7a", "c6", "b9", "de", "c0", "ce", "b3", "b6", "de", "20", "b2", "b2", "b6", "d3", "bc", "da", "cf", "be", "dd", "00"],
         "raw_text" : "<13>ルzにげたほうが いいかもしれません",
         "alt_text" : "<13>るzニゲタホウガ イイカモシレマセン",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "You should flee"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f6e4",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "f9", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 32,
         "raw" : ["13", "f9", "7a", "c4", "de", "dd", "c5", "20", "bc", "ad", "c0", "de", "dd", "a6", "20", "c2", "b6", "af", "c3", "d3", "20", "b6", "c3", "d9", "c4", "03", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13>ルzどんな しゅだんを つかっても かてると\nおもいます",
         "alt_text" : "<13>るzドンナ シュダンヲ ツカッテモ カテルト\nオモイマス",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "You need to win,\nno matter the cost"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f704",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "0b"],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13><0B><gun>レ‐ザ‐へいきが ゆうこうだと おもいます",
         "alt_text" : "<13><0B><gun>れ―ざ―ヘイキガ ユウコウダト オモイマス",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Laser <7b> should be effective"
     },
 
     {
@@ -932,74 +932,74 @@
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f75b",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "0b"],
         "end_bytes" : ["00"],
         "raw_size" : 31,
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13><0B><gun>インパクトへいきが ゆうこうだと おもいます",
         "alt_text" : "<13><0B><gun>いんぱくとヘイキガ ユウコウダト オモイマス",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Impact <7b> should be effective"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f77a",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "0b"],
         "end_bytes" : ["00"],
         "raw_size" : 24,
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>レ‐ザ‐へいきが むこうです!",
         "alt_text" : "<13><0B><gun>れ―ざ―ヘイキガ ムコウデス!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Is armed with Laser <7b>"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f792",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "0b"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "0b", "7b", "5c", "cb", "de", "b0", "d1", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>ビ‐ムへいきが むこうです!",
         "alt_text" : "<13><0B><gun>び―むヘイキガ ムコウデス!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Is armed with Beam <7b>"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f7a9",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "0b"],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "0b", "7b", "5c", "cb", "b0", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>ヒ‐トへいきが むこうです!",
         "alt_text" : "<13><0B><gun>ひ―とヘイキガ ムコウデス!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Is armed with Heat <7b>"
     },
 
     {
         "string_description" : "Unknown dialogue",
         "string_start" : "0x1f7bf",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "0b"],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>インパクトへいきが むこうです!",
         "alt_text" : "<13><0B><gun>いんぱくとヘイキガ ムコウデス!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Is armed with Impact <7b>"
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - i do not know how to fight",
         "string_start" : "0x1f7d8",
         "method" : 3,
         "start_bytes" : [],
@@ -1013,7 +1013,7 @@
     },
 
     {
-        "string_description" : "Unknown dialogue",
+        "string_description" : "Unknown dialogue - fight per cent???",
         "string_start" : "0x1f7f5",
         "method" : 3,
         "start_bytes" : [],

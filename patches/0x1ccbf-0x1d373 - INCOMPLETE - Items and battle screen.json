@@ -449,7 +449,7 @@
         "raw_text" : "ラバ‐ズ",
         "alt_text" : "らば―ず",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Lovers"
     },
 
     {
@@ -463,7 +463,7 @@
         "raw_text" : "ワルドリング",
         "alt_text" : "わるどりんぐ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "WorldRing"
     },
 
     {
@@ -477,7 +477,7 @@
         "raw_text" : "メプシッド",
         "alt_text" : "めぷしっど",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Mepushiddo"
     },
 
     {
@@ -869,7 +869,7 @@
         "raw_text" : "ファ-ワ-ルド",
         "alt_text" : "ふぁ-わ-るど",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "FarWorld"
     },
 
     {
@@ -1989,7 +1989,7 @@
         "raw_text" : "<11><0E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAより メッセ‐ジ!!<pause><1E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAより メッセ‐ジ!!<pause><<erase><11>",
         "alt_text" : "<11><0E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAヨリ めっせ―じ!!<pause><1E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAヨリ めっせ―じ!!<pause><<erase><11>",
         "trans_size" : 0,
-        "trans_text" : "Message from MICA!<04><1e><0c><06><39><04><0a><06><39><04><0a><06><39><04><0a><0e><02><0d><05>Message from MICA!"
+        "trans_text" : "Data from MICA!<04><1e><0c><06><39><04><0a><06><39><04><0a><06><39><04><0a><0e><02><0d><05>Data from MICA!"
     },
 
     {

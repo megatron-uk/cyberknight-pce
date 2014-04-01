@@ -526,14 +526,14 @@
         "string_description" : "Main game dialogue",
         "string_start" : "0x146f0",
         "method" : 3,
-        "start_bytes" : ["1a", "23", "10", "1f"],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["1a", "1e", "10", "1f"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 33,
         "raw" : ["1a", "23", "10", "1f", "a2", "cc", "d9", "b2", "5c", "c0", "b2", "cc", "df", "5c", "c9", "20", "5c", "cb", "de", "c3", "de", "b5", "c3", "de", "af", "b7", "5c", "c0", "de", "c5", "a3", "08", "00"],
         "raw_text" : "<1A>#<10><1F>『ふるいタイプの ビデオデッキだな』<wait>",
         "alt_text" : "<1A>#<10><1F>『フルイたいぷノ びでおでっきダナ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ":Thats a really old AV recorder<08>"
+        "trans_text" : ":Thats a really old AV recorder!"
     },
 
     {
@@ -555,13 +555,13 @@
         "string_start" : "0x14712",
         "method" : 3,
         "start_bytes" : ["1a", "23", "10", "1f"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 26,
         "raw" : ["1a", "23", "10", "1f", "a2", "ba", "c9", "cc", "c8", "c9", "20", "5c", "cc", "de", "d8", "af", "bc", "de", "5c", "d7", "bc", "b2", "c5", "a3", "08", "00"],
         "raw_text" : "<1A>#<10><1F>『このふねの ブリッジらしいな』<wait>",
         "alt_text" : "<1A>#<10><1F>『コノフネノ ぶりっじラシイナ』<wait>",
         "trans_size" : 0,
-        "trans_text" : ":I think this was the bridge<08>"
+        "trans_text" : ":I think this was the bridge"
     },
 
     {
