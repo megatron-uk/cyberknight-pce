@@ -32,6 +32,7 @@ import getopt
 import struct
 import binascii
 import json
+import difflib
 
 try:
 	import cStringIO as StringIO
@@ -58,6 +59,7 @@ from config import ROM_NAME, PATCH_DIR_NAME, PATCH_EXTENSION, OUT_ROM_NAME, TABL
 from config import OVERWRITE, VERBOSE
 from config import SWITCH_MODE
 from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE
+from config import FUZZY_LIMIT
 
 # Load the definitions of which ranges in the files to examine
 from config import BYTES
@@ -92,6 +94,7 @@ def mapScript(patchfile, patch, snes_table):
 			else:
 				has_alt_text = False
 				
+			# Test for exact match
 			for snes_text in snes_table.keys():
 				if (snes_text == patch_segment["raw_text"].encode('utf-8')):
 					matched = True
@@ -111,6 +114,28 @@ def mapScript(patchfile, patch, snes_table):
 				patch_segment["trans_text"] = snes_table[snes_text]
 				patch_segment["snes_patched"] = 1
 				mt += 1
+			else:	
+				possible_matches = []
+				# Attempt fuzzy match
+				for snes_text in snes_table.keys():
+					sm = difflib.SequenceMatcher(None, patch_segment["raw_text"].encode('utf-8'), snes_text)
+					# Do a quick check
+					r = sm.quick_ratio()
+					
+					if r >= FUZZY_LIMIT:
+						# Do a more accurate check
+						#if sm.ratio() >= FUZZY_LIMIT:
+							d = {}
+							d["ratio"] = r
+							d["snes-e"] = snes_table[snes_text]
+							d["snes-j"] = snes_text
+							possible_matches.append(d)
+				# Sort list of possibles
+				if len(possible_matches) > 0:
+					if VERBOSE:
+						print "%s - %s Possible matches" % (patch_segment["string_start"], len(possible_matches))
+				# Get highest 3
+				# Prompt for user action
 	if VERBOSE:
 		print "---"
 	print "Mapping routine found %s matches" % mt
