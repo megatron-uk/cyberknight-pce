@@ -2,6 +2,7 @@
 
 import traceback
 import sys
+import re
 from config import TABLE_NAME, TABLE_NAME_DOUBLE
 
 def load_snes_table(snes_name):
@@ -18,9 +19,9 @@ def load_snes_table(snes_name):
 		f = open(snes_name, "r")
 		for line in f:
 			columns = line.split(',')
-			key = columns[0]
-			value = columns[1]
-			trans_table[key] = value
+			key = re.sub('{..}','' , columns[0])
+			value = columns[1].rstrip('\r\n')
+			trans_table[key] = re.sub('{..}','' , value)
 		f.close
 	except Exception as e:
 		print traceback.format_exc()

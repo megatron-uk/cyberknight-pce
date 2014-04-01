@@ -20,8 +20,8 @@ PATCH_DIR_NAME = "./patches/"
 PATCH_EXTENSION = ".json"
 
 # Fuzzy match trigger level
-FUZZY_LIMIT = 0.6
-FUZZY_BEST_LIMIT = 0.75
+FUZZY_LIMIT = 0.70
+FUZZY_BEST_LIMIT = 0.79
 # Whether to overwrite existing files
 OVERWRITE = False
 

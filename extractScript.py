@@ -507,7 +507,6 @@ def write_export(byte_strings):
 				
 
 	for byte_range in byte_strings:
-		print byte_range.keys()
 		f.write("{\n")
 		f.write("\"block_description\" : \"%s\",\n" % byte_range["block_description"])
 		f.write("\"block_start\" : \"%s\",\n" % hex(byte_range["block_start"]))

@@ -40,8 +40,6 @@ except:
 	print "cStringIO not available"
 	import StringIO
 
-
-
 ######################################################
 ############ < User configuration > ##################
 ######################################################
@@ -98,11 +96,13 @@ def mapScript(patchfile, patch, snes_table):
 			for snes_text in snes_table.keys():
 				if (snes_text == patch_segment["raw_text"].encode('utf-8')):
 					matched = True
+					patch_segment["trans_text"] = snes_table[snes_text]
 					break
 					
 				if has_alt_text:
 					if (snes_text == patch_segment["alt_text"].encode('utf-8')):
 						matched = True
+						patch_segment["trans_text"] = snes_table[snes_text]
 						break
 			if matched:
 				if VERBOSE:
@@ -111,7 +111,7 @@ def mapScript(patchfile, patch, snes_table):
 					#print "SNES-J:", snes_text
 					#print "SNES-E:", snes_table[snes_text]
 					#print "PCE:", patch_segment["raw_text"]
-				patch_segment["trans_text"] = snes_table[snes_text]
+				patch_segment["snes"] = { 'snes-e' : snes_table[snes_text], 'snes-j' : snes_text, 'ratio' : 1.0 }
 				patch_segment["snes_patched"] = 1
 				mt += 1
 			else:	
@@ -130,20 +130,59 @@ def mapScript(patchfile, patch, snes_table):
 							d["snes-e"] = snes_table[snes_text]
 							d["snes-j"] = snes_text
 							d["sm"] = sm
+							d["ratio"] = r
 							possible_matches.append(d)
 				# Sort list of possibles
 				if len(possible_matches) > 0:
 					if VERBOSE:
 						sys.stdout.write("%s - " % (patch_segment["string_start"]))
-						sys.stdout.write( "Possibles: %s " % len(possible_matches))
+						sys.stdout.write( "Possibles: %4s " % len(possible_matches))
 						sys.stdout.flush()
 					for d in possible_matches:
 						r = d["sm"].ratio()
 						if r >= FUZZY_BEST_LIMIT:
+							d["best"] = r
 							best_matches.append(d)
-        	                        if VERBOSE:
-                	                        sys.stdout.write("Best: %s\n" % len(best_matches))
+        	                        
+        	                        # Store the single best translation
+					if len(best_matches) == 1:
+        	                        	patch_segment["snes"] = { 'snes-e' : best_matches[0]["snes-e"], 'snes-j' : best_matches[0]["snes-j"], 'ratio' : best_matches[0]["best"] }
+						patch_segment["snes_patched"] = 1
+						mt += 1
+						
+					if VERBOSE:
+                	                        sys.stdout.write("Best: %2s " % len(best_matches))
+						if len(best_matches) == 1:
+							sys.stdout.write("Accuracy: %.5f\n" % best_matches[0]["best"])
+						else:
+							sys.stdout.write("\n")
 						sys.stdout.flush()
+							
+					# We got more than one best translation
+					if len(best_matches) > 1:
+						sorted_best_matches = sorted(best_matches, key=lambda k: k["best"])
+						sorted_best_matches.reverse()
+						cnt = 0
+						for d in sorted_best_matches:
+							print "%s." % cnt
+							print "Accuracy   : %.5f" % d["best"]
+							try:
+								print "PCE Raw    : %s" % patch_segment["raw_text"]
+							except:
+								print "PCE Raw    : %s" % patch_segment["raw_text"].decode('utf-8')
+							print "SNES Raw   : %s" % d["snes-j"].decode('utf-8')
+							print "SNES Trans : %s" % d["snes-e"]
+							cnt += 1
+						
+						# Allow user to choose translation
+						c = raw_input("Choice?")
+						if int(c) in range(0, cnt - 1):
+							print "Selected SNES translation %s" % c
+							patch_segment["snes"] = { 'snes-e' : best_matches[int(c)]["snes-e"], 'snes-j' : best_matches[int(c)]["snes-j"], 'ratio' : best_matches[int(c)]["best"] }
+							patch_segment["snes_patched"] = 1
+							mt += 1
+						else:
+							print "Skipped SNES translation"
 						
 					
 				# Get highest 3
@@ -151,8 +190,115 @@ def mapScript(patchfile, patch, snes_table):
 	if VERBOSE:
 		print "---"
 	print "Mapping routine found %s matches" % mt
+	print "Mapping routine left %s untranslated" % (ut - mt)
+	return patch
+	
+######################################################
+
+def write_export(patch, filename):
+	"""
+	Writes the document used for translation.
+	"""
+	
+	stats = {}
+	stats["filename"] = filename
+
+	if os.path.isfile(OUT_DIR_NAME + "/" + filename):
+		if OVERWRITE:
+			f = open(OUT_DIR_NAME + "/" + filename, "w")
+		else:
+			print "Sorry, refusing to overwrite existing output file. Perhaps use the '-f' flag" 
+			sys.exit(2)
+	else:
+		f = open(OUT_DIR_NAME + "/" + filename, "w")
+				
+
+
+	f.write("{\n")
+	if "block_description" in patch["data"].keys():
+		f.write("\"block_description\" : \"%s\",\n" % patch["data"]["block_description"])
+	else:
+		f.write("\"block_description\" : \"\",\n")
+	f.write("\"block_start\" : \"%s\",\n" % (patch["data"]["block_start"]))
+	f.write("\"block_end\" : \"%s\",\n" % (patch["data"]["block_end"]))
+	f.write("\"insert_method\" : %s,\n" % patch["data"]["insert_method"])
+	f.write("\"data\" : [\n")
+	for b in patch["data"]["data"]:
+		f.write("    {\n")
+		if "block_description" in patch["data"].keys():
+			f.write("        \"string_description\" : \"%s\",\n" % patch["data"]["block_description"])
+		else:
+			f.write("        \"string_description\" : \"\",\n")
+		f.write("        \"string_start\" : \"%s\",\n" % (b["string_start"]))
+		f.write("        \"method\" : %s,\n" % b["method"])
+		f.write("        \"start_bytes\" : [")
+		for c in b["start_bytes"]:
+			f.write("\"")
+			f.write(c)
+			f.write("\",")
+		if len(b["start_bytes"]) > 0:
+			f.seek(-1, 1)
+		f.write("],\n")
+		f.write("        \"end_bytes\" : [")
+		for c in b["end_bytes"]:
+			f.write("\"")
+			f.write(c)
+			f.write("\",")
+		if len(b["end_bytes"]) > 0:
+			f.seek(-1, 1)
+		f.write("],\n")
+		f.write("        \"raw_size\" : %s,\n" % b["raw_size"])	
+		f.write("        \"raw\" : [")
+		for c in b["raw"]:
+			f.write("\"")
+			f.write(c)
+			f.write("\", ")
+		f.seek(-2, 1)
+		f.write("],\n")
 		
-	return True
+		# Write japanese text
+		f.write("        \"raw_text\" : \"")
+		for c in b["raw_text"]:
+			if c == "\n":
+				c = "\\n"
+			f.write(c.encode('utf-8'))
+		f.write("\",\n")
+		
+		# Write alternate japanese text
+		if "alt_text" in b.keys():
+			f.write("        \"alt_text\" : \"")	
+			for c in b["alt_text"]:
+				if c == "\n":
+					c = "\\n"
+				f.write(c.encode('utf-8'))
+			f.write("\",\n")
+
+		# Write snes translation, if found
+		if "snes_patched" in b.keys():
+			f.write("        \"snes_size\" : %s,\n" % len(b["snes"]["snes-e"]))
+			f.write("        \"snes-j\" : \"")
+			for c in b["snes"]["snes-j"]:
+				f.write(c)
+			f.write("\",\n")
+			f.write("        \"snes-e\" : \"%s\",\n" % b["snes"]["snes-e"].rstrip('\r\n'))
+			f.write("        \"accuracy\" : %s,\n" % b["snes"]["ratio"])
+			
+		# Write translated text, either manual or automatically matched
+		f.write("        \"trans_size\" : %s,\n" % len(b["trans_text"]))
+		f.write("        \"trans_text\" : \"")
+		for c in b["trans_text"]:
+			if c == "\n":
+				c = "\\n"
+			f.write(c.encode('utf-8'))
+		f.write("\"\n")
+		f.write("    },\n\n")
+	f.seek(-3, 1)
+	f.write("\n]")
+	f.write("},\n")
+	f.close()
+
+	print "Done"
+	return stats
 	
 ######################################################
 ########## < Run-time code start here > ##############
@@ -283,7 +429,9 @@ for f in keys:
 	print "Ignoring %s existing translations" % t
 	if ut > 0:
 		print "Mapping %s untranslated strings"	% ut
-		mapScript(f, PATCH_FILES[f], snes_table)
+		patch = mapScript(f, PATCH_FILES[f], snes_table)
+		#write new patch to processed folder
+		write_export(patch, f)
 	else:
 		pass
 	print "-----------------"
