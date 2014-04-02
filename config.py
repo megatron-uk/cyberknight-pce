@@ -22,10 +22,13 @@ PATCH_EXTENSION = ".json"
 # Default pass level and fuzzy match trigger level
 PASS_NUMBER = 1
 FUZZY_LEVELS = {
-	"1" : { 'FUZZY_LIMIT' : 0.75, 'FUZZY_BEST_LIMIT' : 0.79 },
-	"2" : { 'FUZZY_LIMIT' : 0.70, 'FUZZY_BEST_LIMIT' : 0.75 },
-	"3" : { 'FUZZY_LIMIT' : 0.65, 'FUZZY_BEST_LIMIT' : 0.70 }
+	"1" : { 'FUZZY_LIMIT' : 0.70, 'FUZZY_BEST_LIMIT' : 0.79 },
+	"2" : { 'FUZZY_LIMIT' : 0.69, 'FUZZY_BEST_LIMIT' : 0.75 },
+	"3" : { 'FUZZY_LIMIT' : 0.60, 'FUZZY_BEST_LIMIT' : 0.65 }
 }
+# The limit at which best matches are auto selected
+# At lower than this level, the user is prompted
+FUZZY_AUTO_SELECT_LIMIT = 0.8
 
 # Whether to overwrite existing files
 OVERWRITE = False
