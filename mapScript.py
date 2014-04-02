@@ -56,8 +56,7 @@ from Table import load_snes_table
 from config import ROM_NAME, PATCH_DIR_NAME, PATCH_EXTENSION, OUT_ROM_NAME, TABLE_NAME, SNES_SCRIPT, OUT_DIR_NAME
 from config import OVERWRITE, VERBOSE
 from config import SWITCH_MODE
-from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE
-from config import FUZZY_LIMIT, FUZZY_BEST_LIMIT
+from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE, PASS_NUMBER, FUZZY_LEVELS
 
 # Load the definitions of which ranges in the files to examine
 from config import BYTES
@@ -96,21 +95,19 @@ def mapScript(patchfile, patch, snes_table):
 			for snes_text in snes_table.keys():
 				if (snes_text == patch_segment["raw_text"].encode('utf-8')):
 					matched = True
+					# Exact matches are autopatched
 					patch_segment["trans_text"] = snes_table[snes_text]
 					break
 					
 				if has_alt_text:
 					if (snes_text == patch_segment["alt_text"].encode('utf-8')):
 						matched = True
+						# Exact matches are autopatched
 						patch_segment["trans_text"] = snes_table[snes_text]
 						break
 			if matched:
 				if VERBOSE:
 					print "%s - Successfully mapped" % patch_segment["string_start"]
-					#print "MATCH!"
-					#print "SNES-J:", snes_text
-					#print "SNES-E:", snes_table[snes_text]
-					#print "PCE:", patch_segment["raw_text"]
 				patch_segment["snes"] = { 'snes-e' : snes_table[snes_text], 'snes-j' : snes_text, 'ratio' : 1.0 }
 				patch_segment["snes_patched"] = 1
 				mt += 1
@@ -163,19 +160,55 @@ def mapScript(patchfile, patch, snes_table):
 						sorted_best_matches = sorted(best_matches, key=lambda k: k["best"])
 						sorted_best_matches.reverse()
 						cnt = 0
+						print ""
 						for d in sorted_best_matches:
 							print "%s." % cnt
-							print "Accuracy   : %.5f" % d["best"]
+							print "    Accuracy   : %.5f" % d["best"]
+							
+							# Print out the PCE raw text
 							try:
-								print "PCE Raw    : %s" % patch_segment["raw_text"]
+								print "    PCE Raw    : %s" % unicode(patch_segment["raw_text"], 'shift-jis').replace('\n', '\\n')
 							except:
-								print "PCE Raw    : %s" % patch_segment["raw_text"].decode('utf-8')
-							print "SNES Raw   : %s" % d["snes-j"].decode('utf-8')
-							print "SNES Trans : %s" % d["snes-e"]
+								sys.stdout.write("    PCE Raw    : ")
+								for c in patch_segment["raw_text"].replace('\n', '\\n'):
+									try:
+										sys.stdout.write(c.decode('shift-jis'))
+									except:
+										try:
+											sys.stdout.write(c.encode('utf-8'))
+										except:
+											sys.stdout.write(c)
+								sys.stdout.write("\n")
+								sys.stdout.flush()
+								
+							# Print out the SNES raw text
+							try:
+								print "    SNES Raw    : %s" % unicode(d["snes-j"], 'shift-jis').replace('\n', '\\n')
+								sys.stdout.flush()
+							except:
+								sys.stdout.write("    SNES Raw   : ")
+								for c in d["snes-j"]:
+									try:
+										sys.stdout.write(c.decode('shift-jis'))
+									except:
+										try:
+											sys.stdout.write(c.encode('utf-8'))
+										except:
+											if c == "\n":
+												c == "\\n"
+											sys.stdout.write(c)
+								sys.stdout.write("\n")
+								sys.stdout.flush()
+
+							# Print out the SNES translation
+							print "    SNES Trans : %s" % d["snes-e"].replace('\n', '\\n')
+							print ""
+							sys.stdout.flush()
 							cnt += 1
 						
 						# Allow user to choose translation
-						c = raw_input("Choice?")
+						print "Select a choice: "
+						c = raw_input()
 						if int(c) in range(0, cnt - 1):
 							print "Selected SNES translation %s" % c
 							patch_segment["snes"] = { 'snes-e' : best_matches[int(c)]["snes-e"], 'snes-j' : best_matches[int(c)]["snes-j"], 'ratio' : best_matches[int(c)]["best"] }
@@ -216,7 +249,10 @@ def write_export(patch, filename):
 
 	f.write("{\n")
 	if "block_description" in patch["data"].keys():
-		f.write("\"block_description\" : \"%s\",\n" % patch["data"]["block_description"])
+		try:
+			f.write("\"block_description\" : \"%s\",\n" % patch["data"]["block_description"])
+		except:
+			f.write("\"block_description\" : \"%s\",\n" % patch["data"]["block_description"].encode('utf-8', 'ignore'))
 	else:
 		f.write("\"block_description\" : \"\",\n")
 	f.write("\"block_start\" : \"%s\",\n" % (patch["data"]["block_start"]))
@@ -294,7 +330,7 @@ def write_export(patch, filename):
 		f.write("    },\n\n")
 	f.seek(-3, 1)
 	f.write("\n]")
-	f.write("},\n")
+	f.write("}\n")
 	f.close()
 
 	print "Done"
@@ -305,7 +341,7 @@ def write_export(patch, filename):
 ######################################################
 
 try:
-	opts, args = getopt.getopt(sys.argv[1:], "hvs:d:o:f")
+	opts, args = getopt.getopt(sys.argv[1:], "hvs:d:o:p:f")
 except getopt.GetoptError as err:
 	print err
 	sys.exit(2)
@@ -329,9 +365,10 @@ for o, a in opts:
 		print "-d	Directory containing untranslated/partially translated patches (.json files) (e.g. './patches/')"
 		print "-o	Directory to write the modified translation patches (.json files) (e.g. './patches-processed/')"
 		print "-f	Overwrite existing files (otherwise dry-run)"
+		print "-p	Pass number (1 == strictest matching, 3 == least strict matching)"
 		print ""
 		print "Example:"
-		print "mapScript.py -s 'CyberKnightSNES.csv' -d './patches/' -o './patches-processed/'"
+		print "mapScript.py -s 'CyberKnightSNES.csv' -d './patches/' -o './patches-processed/' -p 1"
 		print ""
 		sys.exit(0)
 		
@@ -350,8 +387,15 @@ for o, a in opts:
 	if o == "-s":
 		SNES_SCRIPT = a
 		
+	if o == "-p":
+		PASS_NUMBER = a
+		
 	if o == "-f":
 		OVERWRITE = True
+		
+# Load match levels depending on pass number
+FUZZY_LIMIT = FUZZY_LEVELS[str(PASS_NUMBER)]["FUZZY_LIMIT"]
+FUZZY_BEST_LIMIT = FUZZY_LEVELS[str(PASS_NUMBER)]["FUZZY_BEST_LIMIT"]
 		
 #############################################
 # Print configuration
@@ -361,6 +405,7 @@ print "Configuration"
 print "============="
 print "Verbose: %s" % VERBOSE
 print "Over-write: %s" % OVERWRITE
+print "Pass Type: %s" % PASS_NUMBER
 	
 if os.path.isfile(SNES_SCRIPT):
 	print "SNES Script File: %s <- OK" % SNES_SCRIPT
@@ -427,12 +472,11 @@ for f in keys:
 		else:
 			ut += 1
 	print "Ignoring %s existing translations" % t
-	if ut > 0:
-		print "Mapping %s untranslated strings"	% ut
-		patch = mapScript(f, PATCH_FILES[f], snes_table)
-		#write new patch to processed folder
-		write_export(patch, f)
+	print "Mapping %s untranslated strings"	% ut
+	if (os.path.isfile(OUT_DIR_NAME + "/" + f)) and (OVERWRITE == False):
+		print "Skipped - an existing process file was found"
 	else:
-		pass
+		patch = mapScript(f, PATCH_FILES[f], snes_table)
+		write_export(patch, f)
 	print "-----------------"
 	print ""

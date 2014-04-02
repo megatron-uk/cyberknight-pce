@@ -559,7 +559,7 @@ def write_export(byte_strings):
 		f.write("\n]")
 		f.write("},\n")
 	f.seek(-3, 1)
-	f.write("")
+	f.write("  ")
 	f.close()
 
 	stats["filesize"] = os.path.getsize(OUT_NAME)

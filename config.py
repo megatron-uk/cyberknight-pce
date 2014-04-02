@@ -19,9 +19,14 @@ OUT_DIR_NAME = "./patches-processed/"
 PATCH_DIR_NAME = "./patches/"
 PATCH_EXTENSION = ".json"
 
-# Fuzzy match trigger level
-FUZZY_LIMIT = 0.70
-FUZZY_BEST_LIMIT = 0.79
+# Default pass level and fuzzy match trigger level
+PASS_NUMBER = 1
+FUZZY_LEVELS = {
+	"1" : { 'FUZZY_LIMIT' : 0.75, 'FUZZY_BEST_LIMIT' : 0.79 },
+	"2" : { 'FUZZY_LIMIT' : 0.70, 'FUZZY_BEST_LIMIT' : 0.75 },
+	"3" : { 'FUZZY_LIMIT' : 0.65, 'FUZZY_BEST_LIMIT' : 0.70 }
+}
+
 # Whether to overwrite existing files
 OVERWRITE = False
 
