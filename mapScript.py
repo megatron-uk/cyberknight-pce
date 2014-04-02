@@ -78,7 +78,73 @@ from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TR
 def selectMatch(patch_segment, possible_matches):
 	""" Display a menu of possible matches """
 	
-	pass
+	cnt = 0
+	print ""
+	for d in possible_matches:
+		print "%s." % cnt
+		print "    Accuracy   : %.5f" % d["best"]
+		
+		# Print out the PCE raw text
+		try:
+			print "    PCE Raw    : %s" % unicode(patch_segment["raw_text"], 'shift-jis').replace('\n', '\\n')
+		except:
+			sys.stdout.write("    PCE Raw    : ")
+			for c in patch_segment["raw_text"].replace('\n', '\\n'):
+				try:
+					sys.stdout.write(c.decode('utf-8'))
+				except:
+					try:
+						sys.stdout.write(c.decode('shift-jis'))
+					except:
+						sys.stdout.write(c)
+			sys.stdout.write("\n")
+			sys.stdout.flush()
+			
+		# Print out the SNES raw text
+		try:
+			print "    SNES Raw    : %s" % d["snes-j"].replace('\n', '\\n')
+			sys.stdout.flush()
+		except:
+			sys.stdout.write("    SNES Raw   : ")
+			for c in d["snes-j"]:
+				try:
+					sys.stdout.write(c.encode('utf-8'))
+				except:
+					try:
+						sys.stdout.write(c.encode('shift-jis'))
+					except:
+						if c == "\n":
+							c == "\\n"
+						sys.stdout.write(c)
+			sys.stdout.write("\n")
+			sys.stdout.flush()
+
+		# Print out the SNES translation
+		print "    SNES Trans : %s" % d["snes-e"].replace('\n', '\\n')
+		print ""
+		sys.stdout.flush()
+		cnt += 1
+	
+	# Allow user to choose translation
+	print "Select a choice: "
+	c = raw_input()
+	try:
+		ci = int(c)
+	except:
+		print "Skipped SNES translation"
+		return False
+	if ci in range(0, cnt):
+		print "Selected SNES translation %s" % ci
+		patch_segment["snes"] = { 
+			'snes-e' : possible_matches[ci]["snes-e"], 
+			'snes-j' : possible_matches[ci]["snes-j"], 
+			'ratio' : possible_matches[ci]["best"] 
+		}
+		patch_segment["snes_patched"] = 1
+		return int(c)
+	else:
+		print "Skipped SNES translation"
+		return False
 
 def mapScript(patchfile, patch, snes_table):
 	""" Attempt to map to SNES translation """
@@ -154,13 +220,15 @@ def mapScript(patchfile, patch, snes_table):
         	                        
         	                        # Store the single best translation
 					if len(best_matches) == 1:
-						#if best_matches[0]["best"] < FUZZY_AUTO_SELECT_LIMIT:
-						#	print "Not high enough to auto select"
-						#	show select menu
-						#else:
-        	                        	patch_segment["snes"] = { 'snes-e' : best_matches[0]["snes-e"], 'snes-j' : best_matches[0]["snes-j"], 'ratio' : best_matches[0]["best"] }
-						patch_segment["snes_patched"] = 1
-						mt += 1
+						if best_matches[0]["best"] < FUZZY_AUTO_SELECT_LIMIT:
+							print "Warning! Best match not high enough to auto select - confirm below:"
+							patch_number = selectMatch(patch_segment, best_matches)
+							if patch_number:
+								mt += 1
+						else:
+							patch_segment["snes"] = { 'snes-e' : best_matches[0]["snes-e"], 'snes-j' : best_matches[0]["snes-j"], 'ratio' : best_matches[0]["best"] }
+							patch_segment["snes_patched"] = 1
+							mt += 1
 						
 					if VERBOSE:
                 	                        sys.stdout.write("Best: %2s " % len(best_matches))
@@ -174,64 +242,9 @@ def mapScript(patchfile, patch, snes_table):
 					if len(best_matches) > 1:
 						sorted_best_matches = sorted(best_matches, key=lambda k: k["best"])
 						sorted_best_matches.reverse()
-						cnt = 0
-						print ""
-						for d in sorted_best_matches:
-							print "%s." % cnt
-							print "    Accuracy   : %.5f" % d["best"]
-							
-							# Print out the PCE raw text
-							try:
-								print "    PCE Raw    : %s" % unicode(patch_segment["raw_text"], 'shift-jis').replace('\n', '\\n')
-							except:
-								sys.stdout.write("    PCE Raw    : ")
-								for c in patch_segment["raw_text"].replace('\n', '\\n'):
-									try:
-										sys.stdout.write(c.decode('shift-jis'))
-									except:
-										try:
-											sys.stdout.write(c.decode('utf-8'))
-										except:
-											sys.stdout.write(c)
-								sys.stdout.write("\n")
-								sys.stdout.flush()
-								
-							# Print out the SNES raw text
-							try:
-								print "    SNES Raw    : %s" % unicode(d["snes-j"], 'shift-jis').replace('\n', '\\n')
-								sys.stdout.flush()
-							except:
-								sys.stdout.write("    SNES Raw   : ")
-								for c in d["snes-j"]:
-									try:
-										sys.stdout.write(c.encode('shift-jis'))
-									except:
-										try:
-											sys.stdout.write(c.encode('utf-8'))
-										except:
-											if c == "\n":
-												c == "\\n"
-											sys.stdout.write(c)
-								sys.stdout.write("\n")
-								sys.stdout.flush()
-
-							# Print out the SNES translation
-							print "    SNES Trans : %s" % d["snes-e"].replace('\n', '\\n')
-							print ""
-							sys.stdout.flush()
-							cnt += 1
-						
-						# Allow user to choose translation
-						print "Select a choice: "
-						c = raw_input()
-						if int(c) in range(0, cnt):
-							print "Selected SNES translation %s" % c
-							patch_segment["snes"] = { 'snes-e' : best_matches[int(c)]["snes-e"], 'snes-j' : best_matches[int(c)]["snes-j"], 'ratio' : best_matches[int(c)]["best"] }
-							patch_segment["snes_patched"] = 1
+						patch_number = selectMatch(patch_segment, sorted_best_matches)
+						if patch_number:
 							mt += 1
-						else:
-							print "Skipped SNES translation"
-						
 					
 				# Get highest 3
 				# Prompt for user action

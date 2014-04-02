@@ -27,6 +27,15 @@ English language translation status
 How to use
 ==========
 
+## General Principles
+
+  - Extract text regions from the PC-Engine Cyber Knight game rom to one or patch files - //extractScript.py//
+  - Map those patch files to existing SNES translations (optional) - //mapScript.py//
+  - Manually translate remaining text strings in the patch files.
+  - Inject patch files back into Cyber KNight rom file, creating a (partially/fully) English translation - //injectScript.py//
+  
+All python scripts can be run with a //-h// parameter to display a list of options and help.
+  
 ## Extracting Text Regions
 
 Add the text regions you want to extract into the configuration file 'config.py'.
