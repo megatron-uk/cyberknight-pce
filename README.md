@@ -42,7 +42,20 @@ For example:
 
 ....edit Script.json to add in your translations and then copy in to the patches folder.
 
+## (Optionally) Mapping to Existing SNES Translations
+
+You can use the optional Cyber Knight SNES translation file to match any existing text. Use the mapScript.py file to do this, any exact matches will be inserted as the translation text, any partial matches will be embedded in the patch file, but not used. Anytime more than one SNES string matches, the script will pause, print a list of choices and then prompt for one to use (or none).
+
+You can specifiy pass levels 1, 2 and 3. Level 1 requires the closest match (+80%), Level 2 is a bit easier (and will hence prompt a lot more, and Level 3 is the sloppiest match.
+
+To run a strict match:
+
+   python mapScript.py -d ./patches/ -o ./patches-processed/ -p 1 -v
+
+
 ## Applying Patches / Injecting Text
+
+Once you have some patch files with translations, you can then use injectScript to insert them back into the Japanese PC-Engine rom file:
 
     python injectScript.py -i "Cyber Knight (J).pce" -o "Cyber Knight (E).pce" -d ./patches/
 
