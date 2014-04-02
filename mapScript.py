@@ -135,13 +135,12 @@ def selectMatch(patch_segment, possible_matches):
 		return False
 	if ci in range(0, cnt):
 		print "Selected SNES translation %s" % ci
-		patch_segment["snes"] = { 
-			'snes-e' : possible_matches[ci]["snes-e"], 
-			'snes-j' : possible_matches[ci]["snes-j"], 
-			'ratio' : possible_matches[ci]["best"] 
-		}
+		patch_segment["snes-e"] = possible_matches[ci]["snes-e"]
+		patch_segment["snes-j"] = possible_matches[ci]["snes-j"]
+		patch_segment["accuracy"] = possible_matches[ci]["best"]
+		patch_segment["snes_size"] = len(possible_matches[ci]["snes-e"])
 		patch_segment["snes_patched"] = 1
-		return int(c)
+		return True
 	else:
 		print "Skipped SNES translation"
 		return False
@@ -226,7 +225,10 @@ def mapScript(patchfile, patch, snes_table):
 							if patch_number:
 								mt += 1
 						else:
-							patch_segment["snes"] = { 'snes-e' : best_matches[0]["snes-e"], 'snes-j' : best_matches[0]["snes-j"], 'ratio' : best_matches[0]["best"] }
+							patch_segment["snes-e"] = best_matches[0]["snes-e"]
+							patch_segment["snes-j"] = best_matches[0]["snes-j"]
+							patch_segment["accuracy"] = best_matches[0]["best"]
+							patch_segment["snes_size"] = len(best_matches[0]["snes-e"])
 							patch_segment["snes_patched"] = 1
 							mt += 1
 						
@@ -349,14 +351,20 @@ def write_export(patch, filename):
 				f.write("\",\n")
 
 		# Write snes translation, if found
-		if "snes_patched" in b.keys():
-			f.write("        \"snes_size\" : %s,\n" % len(b["snes"]["snes-e"]))
+		if "snes-e" in b.keys():
+			f.write("        \"snes_size\" : %s,\n" % len(b["snes-e"]))
 			f.write("        \"snes-j\" : \"")
-			for c in b["snes"]["snes-j"]:
-				f.write(c)
+			for c in b["snes-j"].replace('\n', '\\n').rstrip('\r\n'):
+				try:
+					f.write(c)
+				except:
+					try:
+						f.write(c.encode('utf-8'))
+					except:
+						f.write(c.encode('shift-jis'))
 			f.write("\",\n")
-			f.write("        \"snes-e\" : \"%s\",\n" % b["snes"]["snes-e"].rstrip('\r\n'))
-			f.write("        \"accuracy\" : %s,\n" % b["snes"]["ratio"])
+			f.write("        \"snes-e\" : \"%s\",\n" % b["snes-e"].replace('\n', '\\n').rstrip('\r\n'))
+			f.write("        \"accuracy\" : %s,\n" % b["accuracy"])
 			
 		# Write translated text, either manual or automatically matched
 		f.write("        \"trans_size\" : %s,\n" % len(b["trans_text"]))
@@ -475,10 +483,14 @@ if os.path.isdir(PATCH_DIR_NAME):
 				PATCH_FILES[d]["json"] = open(PATCH_DIR_NAME + "/" + d).read()
 				PATCH_FILES[d]["data"] = json.loads(PATCH_FILES[d]["json"])
 				t = 0
+				sm = 0
+				tot = len(PATCH_FILES[d]["data"]["data"])
 				for b in PATCH_FILES[d]["data"]["data"]:
 					if len(b["trans_text"]) > 0:
 						t += 1
-				print "- %4s strings %4s translations | %s" % (len(PATCH_FILES[d]["data"]["data"]), t, d)
+					if "snes-e" in b.keys():
+						sm += 1
+				print "- %4s Strings %4s Translations %4s SNES matches %4s Missing | %s" % (tot, t, sm, (tot - t - sm), d)
 			except Exception as e:
 				print traceback.format_exc()
 				print "- %s <- ERROR, not a valid JSON file" % d
