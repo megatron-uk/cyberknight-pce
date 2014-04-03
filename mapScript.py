@@ -32,6 +32,7 @@ import traceback
 import getopt
 import struct
 import binascii
+import re
 try:
 	import simplejson as json
 	#print "Loading simplejson"
@@ -71,9 +72,49 @@ from config import METHOD_1, METHOD_2, METHOD_3
 from config import METHOD_1_OFFSET, METHOD_2_OFFSET, METHOD_3_OFFSET
 from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TRAILING_BYTES
 
+squashed_pce_strings = {}
+squashed_snes_strings = {}
+
 ######################################################
 ############ < Code starts here > ####################
 ######################################################
+
+def squashPCEPatchSegment(raw_text):
+	""" Squash a section of japanese PCE text by removing spaces, control codes etc """
+
+	# Does a pre-squashed string already exist?
+	if raw_text in squashed_pce_strings.keys():
+		return squashed_pce_strings[raw_text]
+	else:
+	 	# Remove control bytes
+		text = re.sub('<..>','' , raw_text)
+
+		# For any control strings as found in the translation table, remove them
+		# for control_code in ttable:
+		# 	if (control_code[0] == "<") and (control_code[-1] == ">"):
+		#		text = re.sub(control_code, '', text)
+		text = text.replace('\n', '').replace('\\n', '')
+		text = text.replace(' ', '')
+		squashed_pce_strings[raw_text] = text
+		print "PCE", text
+	return text
+
+def squashSNESPatchSegment(snes_j_text):
+	""" Squash a section of japanese PCE text by removing spaces, control codes etc """
+
+	# Does a pre-squashed string already exist?
+        if snes_j_text in squashed_snes_strings.keys():
+               return squashed_snes_strings[snes_j_text]
+        else:
+		# Remove control bytes
+		text = re.sub('{..}', '', snes_j_text)
+		#text = re.sub(r'[\n\ ]', '', text)
+		#text = re.sub('\[*\]', '', text)
+		squashed_snes_strings[snes_j_text] = text
+		print "SNES", text
+	return text
+
+
 
 def selectMatch(patch_segment, possible_matches):
 	""" Display a menu of possible matches """
@@ -114,7 +155,7 @@ def selectMatch(patch_segment, possible_matches):
 						sys.stdout.write(c.encode('shift-jis'))
 					except:
 						if c == "\n":
-							c == "\\n"
+							c = "\\n"
 						sys.stdout.write(c)
 			sys.stdout.write("\n")
 			sys.stdout.flush()
@@ -192,7 +233,9 @@ def mapScript(patchfile, patch, snes_table):
 				best_matches = []
 				# Attempt fuzzy match
 				for snes_text in snes_table.keys():
-					sm = difflib.SequenceMatcher(None, patch_segment["raw_text"].encode('utf-8'), snes_text)
+					sm = difflib.SequenceMatcher(None, 
+						squashPCEPatchSegment(patch_segment["raw_text"]), 
+						squashSNESPatchSegment(snes_text))
 					# Do a quick check
 					r = sm.quick_ratio()
 					
@@ -204,6 +247,7 @@ def mapScript(patchfile, patch, snes_table):
 							d["snes-j"] = snes_text
 							d["sm"] = sm
 							d["ratio"] = r
+							print d
 							possible_matches.append(d)
 				# Sort list of possibles
 				if len(possible_matches) > 0:
