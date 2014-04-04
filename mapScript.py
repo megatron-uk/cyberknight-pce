@@ -175,6 +175,7 @@ def selectMatch(patch_segment, possible_matches):
 		print "%s." % cnt
 		print "    Accuracy   : %.5f" % d["best"]
 		
+		######################################################
 		# Print out the PCE raw text
 		try:
 			print "    PCE Raw    : %s" % unicode(patch_segment["raw_text"], 'shift-jis').replace('\n', '\\n')
@@ -190,8 +191,6 @@ def selectMatch(patch_segment, possible_matches):
 						sys.stdout.write(c)
 			sys.stdout.write("\n")
 			sys.stdout.flush()
-		print "    PCE Squash : %s" % d["pce-squashed"]
-			
 		# Print out the SNES raw text
 		try:
 			print "    SNES Raw   : %s" % d["snes-j"].replace('\n', '\\n')
@@ -210,10 +209,15 @@ def selectMatch(patch_segment, possible_matches):
 						sys.stdout.write(c)
 			sys.stdout.write("\n")
 			sys.stdout.flush()
-
+				
+		######################################################	
+		print ""
+		print "    PCE Squash : %s" % d["pce-squashed"]
 		print "    SNES Squash: %s" % d["snes-squashed"]
 
+		######################################################	
 		# Print out the SNES translation
+		print ""
 		print "    SNES Trans : %s" % d["snes-e"].replace('\n', '\\n')
 		print ""
 		sys.stdout.flush()
