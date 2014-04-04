@@ -32,6 +32,7 @@ import traceback
 import getopt
 import struct
 import binascii
+import hashlib
 import re
 try:
 	import simplejson as json
@@ -57,7 +58,7 @@ PATCH_FILES = {}
 MISMATCH_OK = False
 
 # Translation table loader
-from Table import load_snes_table
+from Table import load_snes_table, load_table
 
 # Default values
 from config import ROM_NAME, PATCH_DIR_NAME, PATCH_EXTENSION, OUT_ROM_NAME, TABLE_NAME, SNES_SCRIPT, OUT_DIR_NAME
@@ -83,35 +84,84 @@ def squashPCEPatchSegment(raw_text):
 	""" Squash a section of japanese PCE text by removing spaces, control codes etc """
 
 	# Does a pre-squashed string already exist?
-	if raw_text in squashed_pce_strings.keys():
-		return squashed_pce_strings[raw_text]
+	#print "PCE Squashing :",raw_text
+	h = hashlib.md5(raw_text.encode('utf-8')).hexdigest()
+	if h in squashed_pce_strings.keys():
+		t = squashed_pce_strings[h]
+		#print "PCE Found     :", t
+		return t
 	else:
 	 	# Remove control bytes
 		text = re.sub('<..>','' , raw_text)
-
+		ttable = load_table()
 		# For any control strings as found in the translation table, remove them
-		# for control_code in ttable:
-		# 	if (control_code[0] == "<") and (control_code[-1] == ">"):
-		#		text = re.sub(control_code, '', text)
-		text = text.replace('\n', '').replace('\\n', '')
+		for byte_code in ttable.keys():
+			try:
+				if ttable[byte_code]["pre_shift"].startswith("<") and ttable[byte_code]["pre_shift"].endswith(">"):
+					text = re.sub(ttable[byte_code]["pre_shift"], '', text)
+			except:
+				pass
+		text = text.replace('\n', '')
+		text = text.replace('\\n', '')
 		text = text.replace(' ', '')
-		squashed_pce_strings[raw_text] = text
-		print "PCE", text
+		if len(text) > 1:
+			squashed_pce_strings[h] = text
+			#print "PCE Squashed :", text
 	return text
 
 def squashSNESPatchSegment(snes_j_text):
-	""" Squash a section of japanese PCE text by removing spaces, control codes etc """
+	""" Squash a section of japanese SNES text by removing spaces, control codes etc """
 
 	# Does a pre-squashed string already exist?
-        if snes_j_text in squashed_snes_strings.keys():
-               return squashed_snes_strings[snes_j_text]
+	#print "SNES Squashing:", snes_j_text
+	h = hashlib.md5(snes_j_text).hexdigest()
+        if h in squashed_snes_strings.keys():
+		t = squashed_snes_strings[h]
+		#print "SNES Found    :", t
+		return t
         else:
 		# Remove control bytes
 		text = re.sub('{..}', '', snes_j_text)
-		#text = re.sub(r'[\n\ ]', '', text)
+		text = re.sub('\n', '', text)
+		
+		# Remove non printable characters
+		try:
+			text = re.sub('\n', '', text)
+		except:
+			try:
+				text = re.sub('\n', '', text.decode('utf-8'))
+			except:
+				try:
+					text = re.sub('\n', '', text.decode('shift-jis'))
+				except:
+					pass
+		try:
+			text = re.sub('\\n', '', text)
+		except:
+			try:
+				text = re.sub('\\n', '', text.decode('utf-8'))
+			except:
+				try:
+					text = re.sub('\\n', '', text.decode('shift-jis'))
+				except:
+					pass
+		try:
+			text = re.sub('\x32', '', text.decode('utf-8'))
+		except:
+			try:
+				text = re.sub('\x32', '', text.decode('shift-jis'))
+			except:
+				pass
+			
+		try:
+			text = re.sub(' ', '', text)
+		except:
+			pass
+	
 		#text = re.sub('\[*\]', '', text)
-		squashed_snes_strings[snes_j_text] = text
-		print "SNES", text
+		if len(text) > 1:
+			squashed_snes_strings[h] = text
+			#print "SNES Squashed :", text
 	return text
 
 
@@ -140,10 +190,11 @@ def selectMatch(patch_segment, possible_matches):
 						sys.stdout.write(c)
 			sys.stdout.write("\n")
 			sys.stdout.flush()
+		print "    PCE Squash : %s" % d["pce-squashed"]
 			
 		# Print out the SNES raw text
 		try:
-			print "    SNES Raw    : %s" % d["snes-j"].replace('\n', '\\n')
+			print "    SNES Raw   : %s" % d["snes-j"].replace('\n', '\\n')
 			sys.stdout.flush()
 		except:
 			sys.stdout.write("    SNES Raw   : ")
@@ -159,6 +210,8 @@ def selectMatch(patch_segment, possible_matches):
 						sys.stdout.write(c)
 			sys.stdout.write("\n")
 			sys.stdout.flush()
+
+		print "    SNES Squash: %s" % d["snes-squashed"]
 
 		# Print out the SNES translation
 		print "    SNES Trans : %s" % d["snes-e"].replace('\n', '\\n')
@@ -232,23 +285,21 @@ def mapScript(patchfile, patch, snes_table):
 				possible_matches = []
 				best_matches = []
 				# Attempt fuzzy match
+				s1 = squashPCEPatchSegment(patch_segment["raw_text"])
 				for snes_text in snes_table.keys():
-					sm = difflib.SequenceMatcher(None, 
-						squashPCEPatchSegment(patch_segment["raw_text"]), 
-						squashSNESPatchSegment(snes_text))
+					s2 = squashSNESPatchSegment(snes_text)
+					sm = difflib.SequenceMatcher(None, s1, s2)
 					# Do a quick check
 					r = sm.quick_ratio()
-					
 					if r >= FUZZY_LIMIT:
-						# Do a more accurate check
-						#if sm.ratio() >= FUZZY_LIMIT:
-							d = {}
-							d["snes-e"] = snes_table[snes_text]
-							d["snes-j"] = snes_text
-							d["sm"] = sm
-							d["ratio"] = r
-							print d
-							possible_matches.append(d)
+						d = {}
+						d["pce-squashed"] = s1
+						d["snes-squashed"] = s2
+						d["snes-e"] = snes_table[snes_text]
+						d["snes-j"] = snes_text
+						d["sm"] = sm
+						d["ratio"] = r
+						possible_matches.append(d)
 				# Sort list of possibles
 				if len(possible_matches) > 0:
 					if VERBOSE:
