@@ -20,7 +20,12 @@ def load_snes_table(snes_name):
 		for line in f:
 			columns = line.split(',')
 			key = re.sub('{..}','' , columns[0])
-			value = columns[1].rstrip('\r\n')
+			if len(columns)> 2:
+				value = ""
+				for i in columns[1:len(columns)]:
+					value += i		
+			else:
+				value = columns[1].rstrip('\r\n')
 			trans_table[key] = re.sub('{..}','' , value)
 		f.close
 	except Exception as e:

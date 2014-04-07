@@ -494,7 +494,11 @@ def write_export(patch, filename):
 					if c == '\n':
 						c = '\\n'
 				except:
-					pass
+					try:
+						if c.encode('utf-8') == '\n':
+							c = '\\n'
+					except:
+						pass
 				try:
 					f.write(c)
 				except:
@@ -503,7 +507,7 @@ def write_export(patch, filename):
 					except:
 						f.write(c.encode('shift-jis'))
 			f.write("\",\n")
-			f.write("        \"snes-e\" : \"%s\",\n" % b["snes-e"].replace('\n', '\\n').rstrip('\r\n'))
+			f.write("        \"snes-e\" : \"%s\",\n" % b["snes-e"].replace('\r\n', '').replace('\n', '\\n'))
 			f.write("        \"accuracy\" : %s,\n" % b["accuracy"])
 			
 		# Write translated text, either manual or automatically matched

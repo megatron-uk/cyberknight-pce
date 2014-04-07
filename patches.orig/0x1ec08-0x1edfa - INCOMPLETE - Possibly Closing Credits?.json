@@ -938,10 +938,6 @@
         "raw" : ["5c", "ba", "cf", "dd", "c0", "de", "b0", "5c", "20"],
         "raw_text" : "コマンダ‐",
         "alt_text" : "こまんだ―",
-        "snes_size" : 9,
-        "snes-j" : "コマンダー",
-        "snes-e" : "Commander",
-        "accuracy" : 0.8,
         "trans_size" : 0,
         "trans_text" : ""
     },

@@ -14,7 +14,7 @@
         "raw" : ["5c", "bd", "c0", "b0", "a5", "cf", "af", "cc", "df", "00"],
         "raw_text" : "スター・マップ",
         "alt_text" : "すた―・まっぷ",
-        "trans_size" : 8,
+        "trans_size" : 0,
         "trans_text" : "StarーMap"
     },
 
@@ -28,7 +28,7 @@
         "raw" : ["5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "00"],
         "raw_text" : "モノポール・コイル",
         "alt_text" : "ものぽ―る・こいる",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Drive Coil"
     },
 
@@ -42,12 +42,12 @@
         "raw" : ["5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "cc", "de", "b0", "bd", "c0", "b0", "00"],
         "raw_text" : "ジャンプ・ブースター",
         "alt_text" : "じゃんぷ・ぶ―すた―",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "JumpーDrive"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー the new jump???",
         "string_start" : "0x1cce4",
         "method" : 3,
         "start_bytes" : [],
@@ -56,12 +56,12 @@
         "raw" : ["bc", "dd", "b6", "de", "c0", "5c", "bc", "de", "ac", "dd", "cc", "df", "00"],
         "raw_text" : "しんがたジャンプ",
         "alt_text" : "シンガタじゃんぷ",
-        "trans_size" : 12,
-        "trans_text" : "New Jump Eng"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー auto translator???",
         "string_start" : "0x1ccf1",
         "method" : 3,
         "start_bytes" : [],
@@ -70,12 +70,12 @@
         "raw" : ["bc", "de", "c4", "de", "b3", "ce", "dd", "d4", "b8", "b7", "00"],
         "raw_text" : "じどうほんやくき",
         "alt_text" : "ジドウホンヤクキ",
-        "trans_size" : 13,
-        "trans_text" : "Autotranslatr"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー sculpture / statue",
         "string_start" : "0x1ccfc",
         "method" : 3,
         "start_bytes" : [],
@@ -84,7 +84,7 @@
         "raw" : ["c1", "ae", "b3", "ba", "b8", "00"],
         "raw_text" : "ちょうこく",
         "alt_text" : "チョウコク",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Statue"
     },
 
@@ -98,7 +98,7 @@
         "raw" : ["5c", "da", "af", "c4", "de", "a5", "b8", "d8", "bd", "c0", "d9", "00"],
         "raw_text" : "レッド・クリスタル",
         "alt_text" : "れっど・くりすたる",
-        "trans_size" : 11,
+        "trans_size" : 0,
         "trans_text" : "Red Crystal"
     },
 
@@ -112,10 +112,6 @@
         "raw" : ["5c", "ca", "df", "b2", "db", "dc", "b0", "d1", "5c", "c9", "b7", "ca", "de", "00"],
         "raw_text" : "パイロワームのきば",
         "alt_text" : "ぱいろわ―むノキバ",
-        "snes_size" : 13,
-        "snes-j" : "パイロワームの きば",
-        "snes-e" : "Pyroworm Fang",
-        "accuracy" : 0.888888888889,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -130,7 +126,7 @@
         "raw" : ["d6", "db", "ba", "cb", "de", "c9", "b3", "c0", "00"],
         "raw_text" : "よろこびのうた",
         "alt_text" : "ヨロコビノウタ",
-        "trans_size" : 4,
+        "trans_size" : 0,
         "trans_text" : "Song"
     },
 
@@ -144,8 +140,8 @@
         "raw" : ["5c", "cc", "de", "d7", "af", "b8", "a5", "b8", "de", "db", "b0", "cc", "de", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
         "raw_text" : "ブラック・グローブのデータ",
         "alt_text" : "ぶらっく・ぐろ―ぶノで―た",
-        "trans_size" : 16,
-        "trans_text" : "Black Globe Data"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -158,12 +154,12 @@
         "raw" : ["cc", "d9", "b2", "5c", "cb", "de", "c3", "de", "b5", "c3", "de", "a8", "bd", "b8", "00"],
         "raw_text" : "ふるいビデオディスク",
         "alt_text" : "フルイびでおでぃすく",
-        "trans_size" : 11,
+        "trans_size" : 0,
         "trans_text" : "Old AV Disc"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー Comms Device",
         "string_start" : "0x1cd49",
         "method" : 3,
         "start_bytes" : [],
@@ -172,8 +168,8 @@
         "raw" : ["5c", "47", "b3", "aa", "b0", "cc", "de", "5c", "c2", "b3", "bc", "dd", "b7", "00"],
         "raw_text" : "Gウェーブつうしんき",
         "alt_text" : "Gうぇ―ぶツウシンキ",
-        "trans_size" : 11,
-        "trans_text" : "G-Wave Comm"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -186,7 +182,7 @@
         "raw" : ["b8", "db", "b2", "5c", "b7", "ad", "b0", "cc", "de", "00"],
         "raw_text" : "くろいキューブ",
         "alt_text" : "クロイきゅ―ぶ",
-        "trans_size" : 9,
+        "trans_size" : 0,
         "trans_text" : "BlackCube"
     },
 
@@ -200,7 +196,7 @@
         "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "31", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
         "raw_text" : "モニュメント1のデータ",
         "alt_text" : "もにゅめんと1ノで―た",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Monument 1"
     },
 
@@ -214,7 +210,7 @@
         "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "32", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
         "raw_text" : "モニュメント2のデータ",
         "alt_text" : "もにゅめんと2ノで―た",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Monument 2"
     },
 
@@ -228,7 +224,7 @@
         "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "33", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
         "raw_text" : "モニュメント3のデータ",
         "alt_text" : "もにゅめんと3ノで―た",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Monument 3"
     },
 
@@ -242,7 +238,7 @@
         "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "34", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
         "raw_text" : "モニュメント4のデータ",
         "alt_text" : "もにゅめんと4ノで―た",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Monument 4"
     },
 
@@ -452,7 +448,7 @@
         "raw" : ["5c", "d7", "ca", "de", "b0", "bd", "de", "00"],
         "raw_text" : "ラバーズ",
         "alt_text" : "らば―ず",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Lovers"
     },
 
@@ -466,7 +462,7 @@
         "raw" : ["5c", "dc", "d9", "c4", "de", "d8", "dd", "b8", "de", "00"],
         "raw_text" : "ワルドリング",
         "alt_text" : "わるどりんぐ",
-        "trans_size" : 9,
+        "trans_size" : 0,
         "trans_text" : "WorldRing"
     },
 
@@ -480,7 +476,7 @@
         "raw" : ["5c", "d2", "cc", "df", "bc", "af", "c4", "de", "00"],
         "raw_text" : "メプシッド",
         "alt_text" : "めぷしっど",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Mepushiddo"
     },
 
@@ -494,8 +490,8 @@
         "raw" : ["5c", "b1", "d9", "cb", "de", "dd", "00"],
         "raw_text" : "アルビン",
         "alt_text" : "おるびん",
-        "trans_size" : 5,
-        "trans_text" : "Alvin"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -508,8 +504,8 @@
         "raw" : ["5c", "b8", "b0", "b9", "de", "d9", "00"],
         "raw_text" : "クーゲル",
         "alt_text" : "く―げる",
-        "trans_size" : 6,
-        "trans_text" : "Kurgel"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -522,8 +518,8 @@
         "raw" : ["5c", "b5", "d8", "ce", "de", "b0", "00"],
         "raw_text" : "オリボー",
         "alt_text" : "おりぼ―",
-        "trans_size" : 6,
-        "trans_text" : "Oribor"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -536,8 +532,8 @@
         "raw" : ["5c", "d7", "dd", "ba", "af", "c4", "de", "00"],
         "raw_text" : "ランコッド",
         "alt_text" : "らんこっど",
-        "trans_size" : 7,
-        "trans_text" : "Lancard"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -550,8 +546,8 @@
         "raw" : ["5c", "d2", "d8", "dd", "b8", "bd", "00"],
         "raw_text" : "メリンクス",
         "alt_text" : "めりんくす",
-        "trans_size" : 6,
-        "trans_text" : "Merinx"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -578,8 +574,8 @@
         "raw" : ["5c", "c0", "b0", "b7", "dd", "b8", "de", "bd", "00"],
         "raw_text" : "ターキングス",
         "alt_text" : "た―きんぐす",
-        "trans_size" : 8,
-        "trans_text" : "Tarkings"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -592,8 +588,8 @@
         "raw" : ["5c", "ca", "de", "b2", "c4", "dd", "00"],
         "raw_text" : "バイトン",
         "alt_text" : "ばいとん",
-        "trans_size" : 5,
-        "trans_text" : "Byton"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -606,8 +602,8 @@
         "raw" : ["5c", "be", "d9", "b2", "c4", "de", "00"],
         "raw_text" : "セルイド",
         "alt_text" : "せるいど",
-        "trans_size" : 6,
-        "trans_text" : "Selryd"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -620,8 +616,8 @@
         "raw" : ["5c", "cc", "b0", "00"],
         "raw_text" : "フー",
         "alt_text" : "ふ―",
-        "trans_size" : 3,
-        "trans_text" : "Hew"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -634,8 +630,8 @@
         "raw" : ["5c", "bb", "de", "dd", "c0", "b0", "00"],
         "raw_text" : "ザンター",
         "alt_text" : "ざんた―",
-        "trans_size" : 6,
-        "trans_text" : "Zanter"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -648,8 +644,8 @@
         "raw" : ["5c", "d6", "b0", "dd", "00"],
         "raw_text" : "ヨーン",
         "alt_text" : "よ―ん",
-        "trans_size" : 4,
-        "trans_text" : "Yorn"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -676,10 +672,6 @@
         "raw" : ["53", "67", "72", "41", "5c", "b3", "b4", "bd", "c4", "00"],
         "raw_text" : "SgrAウエスト",
         "alt_text" : "SgrAうえすと",
-        "snes_size" : 9,
-        "snes-j" : "SAウェスト",
-        "snes-e" : "SgrA West",
-        "accuracy" : 0.714285714286,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -694,8 +686,8 @@
         "raw" : ["5c", "bc", "ac", "cc", "de", "db", "b0", "dd", "00"],
         "raw_text" : "シャブローン",
         "alt_text" : "しゃぶろ―ん",
-        "trans_size" : 7,
-        "trans_text" : "Shavron"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -736,8 +728,8 @@
         "raw" : ["5c", "c6", "ad", "b0", "bb", "cf", "db", "dd", "00"],
         "raw_text" : "ニューサマロン",
         "alt_text" : "にゅ―さまろん",
-        "trans_size" : 11,
-        "trans_text" : "New Samaron"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -750,8 +742,8 @@
         "raw" : ["5c", "b6", "de", "dd", "be", "de", "dd", "00"],
         "raw_text" : "ガンゼン",
         "alt_text" : "がんぜん",
-        "trans_size" : 6,
-        "trans_text" : "Ganzen"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -764,8 +756,8 @@
         "raw" : ["5c", "cf", "dd", "bd", "de", "da", "dd", "00"],
         "raw_text" : "マンズレン",
         "alt_text" : "まんずれん",
-        "trans_size" : 7,
-        "trans_text" : "Manzlen"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -792,8 +784,8 @@
         "raw" : ["5c", "b6", "b0", "c4", "bd", "00"],
         "raw_text" : "カートス",
         "alt_text" : "か―とす",
-        "trans_size" : 6,
-        "trans_text" : "Cartos"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -806,8 +798,8 @@
         "raw" : ["5c", "cd", "de", "b2", "b8", "de", "da", "b1", "c4", "de", "00"],
         "raw_text" : "ベイグレアド",
         "alt_text" : "べいぐれおど",
-        "trans_size" : 9,
-        "trans_text" : "Belgrande"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -876,7 +868,7 @@
         "raw" : ["5c", "cc", "a7", "2d", "dc", "2d", "d9", "c4", "de", "00"],
         "raw_text" : "ファーワールド",
         "alt_text" : "ふぁーわーるど",
-        "trans_size" : 8,
+        "trans_size" : 0,
         "trans_text" : "FarWorld"
     },
 
@@ -890,8 +882,8 @@
         "raw" : ["5c", "d7", "b0", "cc", "de", "dd", "00"],
         "raw_text" : "ラーブン",
         "alt_text" : "ら―ぶん",
-        "trans_size" : 6,
-        "trans_text" : "Rarbun"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -904,8 +896,8 @@
         "raw" : ["5c", "da", "b2", "d7", "b2", "dd", "00"],
         "raw_text" : "レイライン",
         "alt_text" : "れいらいん",
-        "trans_size" : 7,
-        "trans_text" : "Rayline"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -918,8 +910,8 @@
         "raw" : ["5c", "bc", "b0", "b8", "d7", "b0", "00"],
         "raw_text" : "シークラー",
         "alt_text" : "し―くら―",
-        "trans_size" : 6,
-        "trans_text" : "Seecla"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -932,8 +924,8 @@
         "raw" : ["5c", "bc", "de", "ac", "dd", "bd", "00"],
         "raw_text" : "ジャンス",
         "alt_text" : "じゃんす",
-        "trans_size" : 5,
-        "trans_text" : "Janth"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -946,8 +938,8 @@
         "raw" : ["5c", "b8", "b1", "bc", "de", "00"],
         "raw_text" : "クアジ",
         "alt_text" : "くおじ",
-        "trans_size" : 5,
-        "trans_text" : "Kwaji"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -960,8 +952,8 @@
         "raw" : ["5c", "bc", "de", "ac", "b0", "be", "de", "d7", "00"],
         "raw_text" : "ジャーゼラ",
         "alt_text" : "じゃ―ぜら",
-        "trans_size" : 7,
-        "trans_text" : "Jarzela"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -974,8 +966,8 @@
         "raw" : ["5c", "ca", "d9", "b8", "00"],
         "raw_text" : "ハルク",
         "alt_text" : "はるく",
-        "trans_size" : 4,
-        "trans_text" : "Hark"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -988,8 +980,8 @@
         "raw" : ["5c", "b2", "cc", "de", "d7", "af", "c4", "de", "00"],
         "raw_text" : "イブラッド",
         "alt_text" : "いぶらっど",
-        "trans_size" : 6,
-        "trans_text" : "Ibrahd"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -1002,8 +994,8 @@
         "raw" : ["5c", "d3", "dd", "c4", "de", "d9", "c4", "dd", "00"],
         "raw_text" : "モンドルトン",
         "alt_text" : "もんどるとん",
-        "trans_size" : 9,
-        "trans_text" : "Mondolton"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -1016,8 +1008,8 @@
         "raw" : ["5c", "d8", "af", "b8", "d7", "af", "be", "00"],
         "raw_text" : "リックラッセ",
         "alt_text" : "りっくらっせ",
-        "trans_size" : 9,
-        "trans_text" : "Rickrasse"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -1030,8 +1022,8 @@
         "raw" : ["5c", "ba", "de", "b0", "c3", "de", "a8", "b8", "00"],
         "raw_text" : "ゴーディク",
         "alt_text" : "ご―でぃく",
-        "trans_size" : 6,
-        "trans_text" : "Gordik"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -1044,8 +1036,8 @@
         "raw" : ["5c", "b1", "d9", "ca", "de", "c4", "de", "bd", "00"],
         "raw_text" : "アルバドス",
         "alt_text" : "おるばどす",
-        "trans_size" : 7,
-        "trans_text" : "Albados"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -1058,8 +1050,8 @@
         "raw" : ["5c", "b6", "de", "d7", "b2", "bd", "00"],
         "raw_text" : "ガライス",
         "alt_text" : "がらいす",
-        "trans_size" : 6,
-        "trans_text" : "Garais"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -1072,8 +1064,8 @@
         "raw" : ["5c", "bd", "d7", "b3", "da", "00"],
         "raw_text" : "スラウレ",
         "alt_text" : "すらうれ",
-        "trans_size" : 6,
-        "trans_text" : "Sraule"
+        "trans_size" : 0,
+        "trans_text" : ""
     },
 
     {
@@ -1175,7 +1167,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー play or skipーturn menu",
         "string_start" : "0x1cef0",
         "method" : 3,
         "start_bytes" : [],
@@ -1184,7 +1176,7 @@
         "raw" : ["20", "1d", "08", "48", "68", "49", "69", "4a", "6a", "4b", "6b", "02", "20", "1d", "08", "4c", "6c", "4d", "6d", "4e", "6e", "4f", "6f", "00"],
         "raw_text" : " 保存\n 表示",
         "alt_text" : " 保存\n 表示",
-        "trans_size" : 14,
+        "trans_size" : 0,
         "trans_text" : " Turn<02> Skip"
     },
 
@@ -1217,7 +1209,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "test",
         "string_start" : "0x1cf1c",
         "method" : 3,
         "start_bytes" : [],
@@ -1231,60 +1223,60 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "test",
         "string_start" : "0x1cf1d",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["02","20"],
+        "end_bytes" : ["02", "20"],
         "raw_size" : 12,
         "raw" : ["1d", "08", "50", "70", "51", "71", "52", "72", "53", "73", "02", "20"],
         "raw_text" : "攻撃\n",
         "alt_text" : "攻撃\n",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Attack"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "test",
         "string_start" : "0x1cf29",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["02","20"],
+        "end_bytes" : ["02", "20"],
         "raw_size" : 12,
         "raw" : ["1d", "08", "54", "74", "55", "75", "56", "76", "57", "77", "02", "20"],
         "raw_text" : "防御\n",
         "alt_text" : "防御\n",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Defend"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "test",
         "string_start" : "0x1cf35",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["02","20"],
+        "end_bytes" : ["02", "20"],
         "raw_size" : 14,
         "raw" : ["1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00", "f8", "d5", "f1", "02", "20"],
         "raw_text" : "オプツョソ\n",
         "alt_text" : "オプツョソ\n",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Option"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "test",
         "string_start" : "0x1cf43",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00","20"],
+        "end_bytes" : ["00", "20"],
         "raw_size" : 12,
         "raw" : ["1d", "08", "58", "78", "59", "79", "5a", "7a", "5b", "7b", "00", "20"],
         "raw_text" : "装備<end>",
         "alt_text" : "装備<end>",
-        "trans_size" : 5,
+        "trans_size" : 0,
         "trans_text" : "Equip"
-    },
+    },    
 
     {
         "string_description" : "Item names, enemy names, battle screen menus",
@@ -1296,7 +1288,7 @@
         "raw" : ["20", "1d", "08", "1e", "3e", "1f", "3f", "40", "60", "41", "61", "02", "20", "1d", "0a", "d1", "f1", "00", "d6", "00", "ff", "d0", "fd", "da", "ee", "00"],
         "raw_text" : " 武器\n フィ―ルド",
         "alt_text" : " 武器\n フィ―ルド",
-        "trans_size" : 17,
+        "trans_size" : 0,
         "trans_text" : " Weapon<02> Field"
     },
 
@@ -1483,16 +1475,16 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー rewards after winning battle",
         "string_start" : "0x1cfcf",
         "method" : 3,
-        "start_bytes" : ["10","ff","09","04"],
+        "start_bytes" : ["10", "ff", "09", "04"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["10", "ff", "09", "04", "ca", "20", "17", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "b6", "b8", "c4", "b8", "bc", "c0", "a1", "00"],
         "raw_text" : "<10>゜<09><pause>は <17>ポイント かくとくした。",
         "alt_text" : "<10>゜<09><pause>ハ <17>ぽいんと カクトクシタ。",
-        "trans_size" : 17,
+        "trans_size" : 0,
         "trans_text" : " <17> Exp. gained"
     },
 
@@ -1534,10 +1526,6 @@
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "d2", "b6", "c6", "af", "b8", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は メカニックスキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ めかにっくすきるガ れべる<18>ンー",
-        "snes_size" : 35,
-        "snes-j" : "「は メカニックスキルが ない！」",
-        "snes-e" : " doesn't have\nany mechanic skills!",
-        "accuracy" : 0.666666666667,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -1798,13 +1786,13 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d0c9",
         "method" : 3,
-        "start_bytes" : ["0b","07","ff"],
+        "start_bytes" : ["0b", "07", "ff"],
         "end_bytes" : ["00"],
         "raw_size" : 16,
         "raw" : ["0b", "07", "ff", "1d", "08", "50", "70", "51", "71", "52", "72", "53", "73", "20", "20", "00"],
         "raw_text" : "<0B><07>゜攻撃  ",
         "alt_text" : "<0B><07>゜攻撃  ",
-        "trans_size" : 8,
+        "trans_size" : 0,
         "trans_text" : "Attack  "
     },
 
@@ -1812,13 +1800,13 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d0d9",
         "method" : 3,
-        "start_bytes" : ["0b","07","ff"],
+        "start_bytes" : ["0b", "07", "ff"],
         "end_bytes" : ["00"],
         "raw_size" : 16,
         "raw" : ["0b", "07", "ff", "1d", "08", "54", "74", "55", "75", "56", "76", "57", "77", "20", "20", "00"],
         "raw_text" : "<0B><07>゜防御  ",
         "alt_text" : "<0B><07>゜防御  ",
-        "trans_size" : 8,
+        "trans_size" : 0,
         "trans_text" : "Defend  "
     },
 
@@ -1826,13 +1814,13 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d0e9",
         "method" : 3,
-        "start_bytes" : ["0b","07","ff"],
+        "start_bytes" : ["0b", "07", "ff"],
         "end_bytes" : ["00"],
         "raw_size" : 17,
         "raw" : ["0b", "07", "ff", "1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00", "f8", "d5", "f1", "20", "00"],
         "raw_text" : "<0B><07>゜オプツョソ ",
         "alt_text" : "<0B><07>゜オプツョソ ",
-        "trans_size" : 8,
+        "trans_size" : 0,
         "trans_text" : "Option  "
     },
 
@@ -1840,13 +1828,13 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d0fa",
         "method" : 3,
-        "start_bytes" : ["0b","07"],
+        "start_bytes" : ["0b", "07"],
         "end_bytes" : ["00"],
         "raw_size" : 17,
         "raw" : ["0b", "07", "ff", "1d", "0a", "d1", "f1", "00", "d6", "00", "ff", "d0", "fd", "da", "ee", "20", "00"],
         "raw_text" : "<0B><07>゜フィ―ルド ",
         "alt_text" : "<0B><07>゜フィ―ルド ",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Field "
     },
 
@@ -1935,44 +1923,44 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー initial 'enemy encountered' message from MICA",
         "string_start" : "0x1d144",
         "method" : 3,
-        "start_bytes" : ["10","30"],
+        "start_bytes" : ["10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 36,
         "raw" : ["10", "30", "a2", "c3", "b7", "5c", "d5", "c6", "af", "c4", "5c", "c4", "20", "bf", "b3", "b8", "de", "b3", "21", "21", "03", "20", "20", "5c", "bd", "b7", "ac", "dd", "5c", "20", "bc", "cf", "bd", "a1", "a3", "00"],
         "raw_text" : "<MICA>『てきユニットと そうぐう!!\n  スキャン します。』",
         "alt_text" : "<MICA>『テキゆにっとト ソウグウ!!\n  すきゃん シマス。』",
-        "trans_size" : 31,
+        "trans_size" : 0,
         "trans_text" : ":Enemy encountered!\nScanning..."
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー MICA scan of enemy units",
         "string_start" : "0x1d168",
         "method" : 3,
-        "start_bytes" : ["10","30"],
+        "start_bytes" : ["10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["10", "30", "a2", "c3", "b7", "5c", "d5", "c6", "af", "c4", "20", "bd", "b7", "ac", "dd", "5c", "ce", "b3", "ba", "b8", "a3", "00"],
         "raw_text" : "<MICA>『てきユニット スキャンほうこく』",
         "alt_text" : "<MICA>『テキゆにっと すきゃんホウコク』",
-        "trans_size" : 18,
+        "trans_size" : 0,
         "trans_text" : ":Enemy scan result"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー enemy codename",
         "string_start" : "0x1d17e",
         "method" : 3,
         "start_bytes" : ["03"],
-        "end_bytes" : ["10","ff","20","78","20","18","c5","2d","00"],
+        "end_bytes" : ["10", "ff", "20", "78", "20", "18", "c5", "2d", "00"],
         "raw_size" : 22,
         "raw" : ["03", "5c", "ba", "b0", "c4", "de", "c8", "b0", "d1", "5c", "20", "3a", "20", "10", "ff", "20", "78", "20", "18", "c5", "2d", "00"],
         "raw_text" : "\nコードネーム : <10>゜ x <18>なー",
         "alt_text" : "\nこ―どね―む : <10>゜ x <18>ナー",
-        "trans_size" : 9,
+        "trans_size" : 0,
         "trans_text" : "Codename:"
     },
 
@@ -1994,13 +1982,13 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d197",
         "method" : 3,
-        "start_bytes" : ["11","0e","0c","06","39","04","0a","06","39","04","0a","06","39","04","0a","0e","02","0d","05"],
-        "end_bytes" : ["04","3c","0c","11","00"],
+        "start_bytes" : ["11", "0e", "0c", "06", "39", "04", "0a", "06", "39", "04", "0a", "06", "39", "04", "0a", "0e", "02", "0d", "05"],
+        "end_bytes" : ["04", "3c", "0c", "11", "00"],
         "raw_size" : 77,
         "raw" : ["11", "0e", "0c", "06", "39", "04", "0a", "06", "39", "04", "0a", "06", "39", "04", "0a", "0e", "02", "0d", "05", "4d", "49", "43", "41", "d6", "d8", "20", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "21", "21", "04", "1e", "0c", "06", "39", "04", "0a", "06", "39", "04", "0a", "06", "39", "04", "0a", "0e", "02", "0d", "05", "4d", "49", "43", "41", "d6", "d8", "20", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "21", "21", "04", "3c", "0c", "11", "00"],
         "raw_text" : "<11><0E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAより メッセージ!!<pause><1E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAより メッセージ!!<pause><<erase><11>",
         "alt_text" : "<11><0E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAヨリ めっせ―じ!!<pause><1E><erase><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><0E>\n<pad><05>MICAヨリ めっせ―じ!!<pause><<erase><11>",
-        "trans_size" : 106,
+        "trans_size" : 0,
         "trans_text" : "Data from MICA!<04><1e><0c><06><39><04><0a><06><39><04><0a><06><39><04><0a><0e><02><0d><05>Data from MICA!"
     },
 
@@ -2022,7 +2010,7 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d1e5",
         "method" : 3,
-        "start_bytes" : ["0b","02","18"],
+        "start_bytes" : ["0b", "02", "18"],
         "end_bytes" : ["00"],
         "raw_size" : 14,
         "raw" : ["0b", "02", "18", "20", "10", "ff", "a6", "20", "c0", "b5", "bc", "c0", "21", "00"],
@@ -2042,10 +2030,6 @@
         "raw" : ["0b", "08", "17", "20", "10", "ff", "ca", "20", "bc", "dd", "c3", "de", "bc", "cf", "af", "c0", "21", "00"],
         "raw_text" : "<0B><wait><17> <10>゜は しんでしまった!",
         "alt_text" : "<0B><wait><17> <10>゜ハ シンデシマッタ!",
-        "snes_size" : 7,
-        "snes-j" : "は しんでしまった。",
-        "snes-e" : " died. ",
-        "accuracy" : 0.842105263158,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2102,10 +2086,6 @@
         "raw" : ["c0", "c1", "ca", "20", "be", "de", "dd", "d2", "c2", "bc", "c0", "21", "1c", "02", "0c", "02", "10", "00"],
         "raw_text" : "たちは ぜんめつした!<endwait>\n<erase>\n<10>",
         "alt_text" : "タチハ ゼンメツシタ!<endwait>\n<erase>\n<10>",
-        "snes_size" : 23,
-        "snes-j" : "たちは ぜんめつした！",
-        "snes-e" : " and his group died... ",
-        "accuracy" : 0.9,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2120,10 +2100,6 @@
         "raw" : ["c0", "c1", "c9", "20", "bb", "b8", "be", "dd", "ca", "20", "bc", "af", "ca", "df", "b2", "c6", "20", "b5", "dc", "af", "c0", "3b", "3b", "1c", "04", "11", "00"],
         "raw_text" : "たちの さくせんは しっぱいに おわった‥‥<endwait><pause><11>",
         "alt_text" : "タチノ サクセンハ シッパイニ オワッタ‥‥<endwait><pause><11>",
-        "snes_size" : 18,
-        "snes-j" : "たちの さくせんは しっぱいにおわった。",
-        "snes-e" : "Mission failed....",
-        "accuracy" : 0.918918918919,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2152,10 +2128,6 @@
         "raw" : ["11", "02", "03", "c3", "b7", "5c", "d5", "c6", "af", "c4", "5c", "ca", "20", "be", "de", "dd", "d2", "c2", "bc", "c0", "21", "1c", "02", "11", "00"],
         "raw_text" : "<11>\n\nてきユニットは ぜんめつした!<endwait>\n<11>",
         "alt_text" : "<11>\n\nテキゆにっとハ ゼンメツシタ!<endwait>\n<11>",
-        "snes_size" : 32,
-        "snes-j" : "てきユニットは ぜんめつした！",
-        "snes-e" : "The enemy has been\nannihilated. ",
-        "accuracy" : 0.928571428571,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2259,16 +2231,16 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Item names, enemy names, battle screen menus ー found wreckage menu",
         "string_start" : "0x1d2b9",
         "method" : 3,
-        "start_bytes" : ["11","01","0b","05","04"],
-        "end_bytes" : ["11","00"],
+        "start_bytes" : ["11", "01", "0b", "05", "04"],
+        "end_bytes" : ["11", "00"],
         "raw_size" : 29,
         "raw" : ["11", "01", "0b", "05", "04", "20", "bb", "de", "dd", "20", "b6", "de", "b2", "20", "0b", "13", "05", "20", "5c", "b7", "20", "ac", "20", "d8", "20", "b1", "20", "11", "00"],
         "raw_text" : "<11><01><0B><05><pause> ざん がい <0B><13><05> キ ャ リ ア <11>",
         "alt_text" : "<11><01><0B><05><pause> ザン ガイ <0B><13><05> き ゃ り お <11>",
-        "trans_size" : 26,
+        "trans_size" : 0,
         "trans_text" : "Wreckage<0b><13><05>Stores"
     },
 
@@ -2324,10 +2296,6 @@
         "raw" : ["02", "0d", "02", "10", "ff", "ca", "20", "b1", "b2", "c3", "b6", "de", "20", "bc", "dd", "c3", "de", "bc", "cf", "af", "c0", "21", "02", "00"],
         "raw_text" : "\n<pad>\n<10>゜は おいてが しんでしまった!\n",
         "alt_text" : "\n<pad>\n<10>゜ハ アイテガ シンデシマッタ!\n",
-        "snes_size" : 21,
-        "snes-j" : "は あいてが しんでしまった。",
-        "snes-e" : "'s foe was defeated. ",
-        "accuracy" : 0.814814814815,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2336,13 +2304,13 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d30d",
         "method" : 3,
-        "start_bytes" : ["03","10"],
-        "end_bytes" : ["02","00"],
+        "start_bytes" : ["03", "10"],
+        "end_bytes" : ["02", "00"],
         "raw_size" : 19,
         "raw" : ["03", "10", "ff", "ca", "20", "ba", "b3", "b9", "de", "b7", "20", "c3", "de", "b7", "c5", "b2", "21", "02", "00"],
         "raw_text" : "\n<10>゜は こうげき できない!\n",
         "alt_text" : "\n<10>゜ハ コウゲキ デキナイ!\n",
-        "trans_size" : 15,
+        "trans_size" : 0,
         "trans_text" : " Cannot attack!"
     },
 
@@ -2356,10 +2324,6 @@
         "raw" : ["03", "10", "ff", "ca", "20", "cc", "de", "b7", "b6", "de", "20", "c5", "b2", "21", "02", "00"],
         "raw_text" : "\n<10>゜は ぶきが ない!\n",
         "alt_text" : "\n<10>゜ハ ブキガ ナイ!\n",
-        "snes_size" : 15,
-        "snes-j" : "は ぶきが ない！！",
-        "snes-e" : " is unequipped!",
-        "accuracy" : 0.75,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2368,13 +2332,13 @@
         "string_description" : "Item names, enemy names, battle screen menus",
         "string_start" : "0x1d330",
         "method" : 3,
-        "start_bytes" : ["03","10"],
-        "end_bytes" : ["02","00"],
+        "start_bytes" : ["03", "10"],
+        "end_bytes" : ["02", "00"],
         "raw_size" : 19,
         "raw" : ["03", "10", "ff", "ca", "20", "ba", "b3", "b9", "de", "b7", "20", "bc", "af", "ca", "df", "b2", "21", "02", "00"],
         "raw_text" : "\n<10>゜は こうげき しっぱい!\n",
         "alt_text" : "\n<10>゜ハ コウゲキ シッパイ!\n",
-        "trans_size" : 15,
+        "trans_size" : 0,
         "trans_text" : " Attack failed!"
     },
 
@@ -2402,10 +2366,6 @@
         "raw" : ["03", "10", "ff", "ca", "20", "ce", "de", "b3", "b7", "de", "ae", "bc", "c3", "b2", "d9", "a1", "02", "00"],
         "raw_text" : "\n<10>゜は ぼうぎょしている。\n",
         "alt_text" : "\n<10>゜ハ ボウギョシテイル。\n",
-        "snes_size" : 15,
-        "snes-j" : "は ぼうぎょしている。",
-        "snes-e" : " is defending. ",
-        "accuracy" : 0.952380952381,
         "trans_size" : 0,
         "trans_text" : ""
     },

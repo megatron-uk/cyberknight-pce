@@ -1,11 +1,10 @@
 {
-"block_description" : "",
 "block_start" : "0x1c01c",
 "block_end" : "0x1c90d",
 "insert_method" : 1,
 "data" : [
-    {
-        "string_description" : "",
+{
+        "string_description" : "unknown 1",
         "string_start" : "0x1c01c",
         "method" : 3,
         "start_bytes" : [],
@@ -14,12 +13,12 @@
         "raw" : ["20", "1d", "10", "08", "28", "09", "29", "06", "26", "07", "27", "0a", "2a", "0b", "2b", "0c", "2c", "0d", "2d", "00"],
         "raw_text" : " 能力設定",
         "alt_text" : " 能力設定",
-        "trans_size" : 9,
+        "trans_size" : 0,
         "trans_text" : "Abilities"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "unknown 1",
         "string_start" : "0x1c030",
         "method" : 3,
         "start_bytes" : [],
@@ -33,7 +32,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c040",
         "method" : 3,
         "start_bytes" : [],
@@ -47,7 +46,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c044",
         "method" : 3,
         "start_bytes" : [],
@@ -61,7 +60,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c04f",
         "method" : 3,
         "start_bytes" : [],
@@ -75,7 +74,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c050",
         "method" : 3,
         "start_bytes" : [],
@@ -89,7 +88,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c05d",
         "method" : 3,
         "start_bytes" : [],
@@ -103,7 +102,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c05e",
         "method" : 3,
         "start_bytes" : [],
@@ -112,12 +111,12 @@
         "raw" : ["20", "1d", "10", "01", "20", "02", "21", "03", "22", "04", "23", "05", "24", "00", "25", "06", "26", "07", "27", "00"],
         "raw_text" : " 名前入力",
         "alt_text" : " 名前入力",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Player"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c072",
         "method" : 3,
         "start_bytes" : [],
@@ -131,21 +130,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c073",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 13,
         "raw" : ["1d", "08", "01", "20", "02", "21", "03", "22", "04", "23", "20", "3a", "00"],
-        "raw_text" : "名前 :",
+	"raw_text" : "名前 :",
         "alt_text" : "名前 :",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Name :"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c080",
         "method" : 3,
         "start_bytes" : [],
@@ -159,7 +158,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c086",
         "method" : 3,
         "start_bytes" : [],
@@ -168,12 +167,12 @@
         "raw" : ["20", "20", "be", "b2", "cd", "de", "c2", "3a", "02", "20", "b5", "dd", "c5", "20", "20", "b5", "c4", "ba", "00"],
         "raw_text" : "  せいべつ:\n おんな  おとこ",
         "alt_text" : "  セイベツ:\n オンナ  オトコ",
-        "trans_size" : 15,
+        "trans_size" : 0,
         "trans_text" : "  Sex :\n F    M"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c099",
         "method" : 3,
         "start_bytes" : [],
@@ -182,12 +181,12 @@
         "raw" : ["d3", "bc", "de", "00"],
         "raw_text" : "もじ",
         "alt_text" : "モジ",
-        "trans_size" : 3,
+        "trans_size" : 0,
         "trans_text" : "Txt"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c09d",
         "method" : 3,
         "start_bytes" : [],
@@ -196,12 +195,12 @@
         "raw" : ["b9", "bd", "00"],
         "raw_text" : "けす",
         "alt_text" : "ケス",
-        "trans_size" : 2,
+        "trans_size" : 0,
         "trans_text" : "Rm"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c0a0",
         "method" : 3,
         "start_bytes" : [],
@@ -210,12 +209,12 @@
         "raw" : ["bd", "bd", "d1", "00"],
         "raw_text" : "すすむ",
         "alt_text" : "ススム",
-        "trans_size" : 2,
+        "trans_size" : 0,
         "trans_text" : "―>"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c0a4",
         "method" : 3,
         "start_bytes" : [],
@@ -224,12 +223,12 @@
         "raw" : ["d3", "c4", "de", "bd", "00"],
         "raw_text" : "もどす",
         "alt_text" : "モドス",
-        "trans_size" : 2,
+        "trans_size" : 0,
         "trans_text" : "<―"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c0a9",
         "method" : 3,
         "start_bytes" : [],
@@ -238,12 +237,12 @@
         "raw" : ["b5", "dc", "d8", "00"],
         "raw_text" : "おわり",
         "alt_text" : "オワリ",
-        "trans_size" : 3,
+        "trans_size" : 0,
         "trans_text" : "End"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c0ad",
         "method" : 3,
         "start_bytes" : [],
@@ -257,7 +256,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c0ae",
         "method" : 3,
         "start_bytes" : [],
@@ -271,7 +270,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c0c4",
         "method" : 3,
         "start_bytes" : [],
@@ -285,7 +284,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c14d",
         "method" : 3,
         "start_bytes" : [],
@@ -299,7 +298,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c159",
         "method" : 3,
         "start_bytes" : [],
@@ -313,7 +312,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c165",
         "method" : 3,
         "start_bytes" : [],
@@ -327,7 +326,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c189",
         "method" : 3,
         "start_bytes" : [],
@@ -341,7 +340,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c190",
         "method" : 3,
         "start_bytes" : [],
@@ -355,35 +354,35 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― game world map pause screen",
         "string_start" : "0x1c197",
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 52,
-        "raw" : ["20", "1d", "0a", "c8", "e6", "00", "f7", "cf", "f1", "c9", "e9", "ce", "ec", "20", "20", "1d", "08", "12", "32", "13", "33", "14", "34", "15", "35", "20", "20", "20", "1d", "08", "16", "36", "17", "37", "18", "38", "19", "39", "20", "20", "20", "1d", "08", "c8", "e6", "00", "f7", "fe", "f1", "c4", "ed", "00"],
-        "raw_text" : " キャラクタ  修理   治療   キャ<FEF1><C4ED>",
-        "alt_text" : " キャラクタ  修理   治療   キャ<FEF1><C4ED>",
-        "trans_size" : 27,
+        "raw" : ["20", "1d", "0a", "c8", "e6", "00", "f7", "cf", "f1", "c9", "e9", "ce", "ec", "20", "20", "1d", "08", "12", "32", "13", "33", "14", "34", "15", "35", "20", "20", "20", "1d", "08", "16", "36", "17", "37", "18", "38", "19", "39", "20", "20", "20", "1d", "08", "c8", "e6", "00", "f7", "fe", "f1", "c4", "ed", "00" ],
+        "raw_text"   : " キャラクタ  修理   治療   キャ<FEF1><C4ED>",
+        "alt_text"   : " キャラクタ  修理   治療   キャ<FEF1><C4ED>",
+        "trans_size" : 0,
         "trans_text" : " Player Repair Heal   Items"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― kit?",
         "string_start" : "0x1c1cb",
         "method" : 3,
-        "start_bytes" : ["18","42","2e","13","11","01","0d","fd","0e","ff","5c"],
-        "end_bytes" : ["11","00"],
+        "start_bytes" : ["18", "42", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c"],
+        "end_bytes" : ["11", "00"],
         "raw_size" : 16,
         "raw" : ["18", "42", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c", "b7", "af", "c4", "11", "00"],
         "raw_text" : "<18>B.<13><11><01><pad>ン<0E>゜キット<11>",
         "alt_text" : "<18>B.<13><11><01><pad>ん<0E>゜きっと<11>",
-        "trans_size" : 3,
+        "trans_size" : 0,
         "trans_text" : "Kit"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c1db",
         "method" : 3,
         "start_bytes" : [],
@@ -397,21 +396,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― kit?",
         "string_start" : "0x1c1dc",
         "method" : 3,
-        "start_bytes" : ["18","43","2e","13","11","01","0d","fd","0e","ff","5c"],
-        "end_bytes" : ["11","00"],
+        "start_bytes" : ["18", "43", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c"],
+        "end_bytes" : ["11", "00"],
         "raw_size" : 16,
         "raw" : ["18", "43", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c", "b7", "af", "c4", "11", "00"],
         "raw_text" : "<18>C.<13><11><01><pad>ン<0E>゜キット<11>",
         "alt_text" : "<18>C.<13><11><01><pad>ん<0E>゜きっと<11>",
-        "trans_size" : 3,
+        "trans_size" : 0,
         "trans_text" : "Kit"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c1ec",
         "method" : 3,
         "start_bytes" : [],
@@ -425,7 +424,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c1ee",
         "method" : 3,
         "start_bytes" : [],
@@ -439,7 +438,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c1ef",
         "method" : 3,
         "start_bytes" : [],
@@ -453,7 +452,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― prints PC/NPC str/int/dex stats",
         "string_start" : "0x1c1f0",
         "method" : 3,
         "start_bytes" : [],
@@ -462,12 +461,12 @@
         "raw" : ["20", "1d", "08", "0e", "2e", "0f", "2f", "06", "26", "07", "27", "3a", "18", "92", "28", "22", "20", "20", "1d", "08", "10", "30", "11", "31", "06", "26", "07", "27", "3a", "18", "93", "28", "22", "20", "20", "1d", "08", "c0", "de", "c1", "df", "c2", "e0", "c3", "e1", "3a", "18", "94", "28", "22", "02", "00"],
         "raw_text" : " 体力:<18>イ(“  知力:<18>ウ(“  すばやさ:<18>エ(“\n",
         "alt_text" : " 体力:<18>イ(“  知力:<18>ウ(“  すばやさ:<18>エ(“\n",
-        "trans_size" : 66,
+        "trans_size" : 0,
         "trans_text" : " Str:<18><92><28><22>  Int:<18><93><28><22>  Dex:<18><94><28><22>\n"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― prints male PC/NPC sex and type (engineer/doctor) ― MALE",
         "string_start" : "0x1c224",
         "method" : 3,
         "start_bytes" : [],
@@ -476,12 +475,12 @@
         "raw" : ["20", "1d", "08", "1a", "3a", "1b", "3b", "1c", "3c", "1d", "3d", "3a", "b5", "c4", "ba", "20", "1d", "06", "c9", "e9", "cf", "f1", "cd", "eb", "3a", "00"],
         "raw_text" : " 性別:おとこ クラス:",
         "alt_text" : " 性別:オトコ クラス:",
-        "trans_size" : 13,
+        "trans_size" : 0,
         "trans_text" : " Sex:M Class:"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― prints male PC/NPC sex and type (engineer/doctor) ― FEMALE",
         "string_start" : "0x1c23e",
         "method" : 3,
         "start_bytes" : [],
@@ -490,12 +489,12 @@
         "raw" : ["20", "1d", "08", "1a", "3a", "1b", "3b", "1c", "3c", "1d", "3d", "3a", "b5", "dd", "c5", "20", "1d", "06", "c9", "e9", "cf", "f1", "cd", "eb", "3a", "00"],
         "raw_text" : " 性別:おんな クラス:",
         "alt_text" : " 性別:オンナ クラス:",
-        "trans_size" : 13,
+        "trans_size" : 0,
         "trans_text" : " Sex:F Class:"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c258",
         "method" : 3,
         "start_bytes" : [],
@@ -504,12 +503,12 @@
         "raw" : ["5c", "ba", "cf", "dd", "c0", "de", "b0", "00"],
         "raw_text" : "コマンダ‐",
         "alt_text" : "こまんだ―",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Cmmdr."
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c260",
         "method" : 3,
         "start_bytes" : [],
@@ -518,12 +517,12 @@
         "raw" : ["5c", "bf", "d9", "bc", "de", "ac", "b0", "00"],
         "raw_text" : "ソルジャ‐",
         "alt_text" : "そるじゃ―",
-        "trans_size" : 7,
+        "trans_size" : 0,
         "trans_text" : "Soldier"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c268",
         "method" : 3,
         "start_bytes" : [],
@@ -532,12 +531,12 @@
         "raw" : ["5c", "d2", "b6", "c6", "af", "b8", "00"],
         "raw_text" : "メカニック",
         "alt_text" : "めかにっく",
-        "trans_size" : 4,
+        "trans_size" : 0,
         "trans_text" : "Tech"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c26f",
         "method" : 3,
         "start_bytes" : [],
@@ -546,12 +545,12 @@
         "raw" : ["5c", "c4", "de", "b8", "c0", "b0", "00"],
         "raw_text" : "ドクタ‐",
         "alt_text" : "どくた―",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Doctor"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c276",
         "method" : 3,
         "start_bytes" : [],
@@ -560,26 +559,26 @@
         "raw" : ["5c", "bb", "b2", "b4", "dd", "c3", "a8", "bd", "c4", "00"],
         "raw_text" : "サイエンティスト",
         "alt_text" : "さいえんてぃすと",
-        "trans_size" : 9,
+        "trans_size" : 0,
         "trans_text" : "Scientist"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c280",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["0e","fa","0d","02","00"],
+        "end_bytes" : ["0e", "fa", "0d", "02", "00"],
         "raw_size" : 78,
         "raw" : ["02", "01", "20", "20", "1d", "0c", "cd", "eb", "c8", "e6", "d0", "fd", "cf", "f1", "d5", "f1", "c9", "e9", "20", "20", "4c", "56", "20", "20", "20", "20", "20", "45", "58", "50", "20", "20", "20", "20", "4e", "45", "58", "54", "5c", "02", "09", "03", "ba", "dd", "ca", "de", "af", "c4", "02", "09", "03", "d2", "b6", "c6", "af", "b8", "02", "09", "03", "d2", "c3", "de", "a8", "af", "b8", "02", "09", "03", "bb", "b2", "b4", "dd", "bd", "0e", "fa", "0d", "02", "00"],
         "raw_text" : "\n<01>  スキルラソク  LV     EXP    NEXT\n<09>\nコンット\n<09>\nメカニック\n<09>\nメィック\n<09>\nサイエンス<0E>れ<pad>\n",
         "alt_text" : "\n<01>  スキルラソク  LV     EXP    NEXT\n<09>\nこんっと\n<09>\nめかにっく\n<09>\nめぃっく\n<09>\nさいえんす<0E>レ<pad>\n",
-        "trans_size" : 77,
+        "trans_size" : 0,
         "trans_text" : "\n<01>  Skill  Lvl     Exp    Next\n<09>\nCombat\n<09>\nTech.\n<09>\nMed. \n<09>\nSci."
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c2ce",
         "method" : 3,
         "start_bytes" : [],
@@ -593,7 +592,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c2d4",
         "method" : 3,
         "start_bytes" : [],
@@ -607,21 +606,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― WEAPON, field item, ???",
         "string_start" : "0x1c2e7",
         "method" : 3,
-        "start_bytes" : ["0b","0f","05"],
+        "start_bytes" : ["0b", "0f", "05"],
         "end_bytes" : ["00"],
         "raw_size" : 44,
         "raw" : ["0b", "0f", "05", "1d", "08", "1e", "3e", "1f", "3f", "40", "60", "41", "61", "0b", "03", "12", "1d", "0a", "d1", "f1", "00", "d6", "00", "ff", "d0", "fd", "da", "ee", "0b", "0f", "0d", "1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00", "f8", "d5", "f1", "00"],
         "raw_text" : "<0B><0F><05>武器<0B>\n<12>フィ―ルド<0b><0f><0d>オプツョソ",
         "alt_text" : "<0B><0F><05>武器<0B>\n<12>フィ―ルド<0b><0f><0d>オプツョソ",
-        "trans_size" : 40,
+        "trans_size" : 0,
         "trans_text" : "Shoot<0b><03><12>Field<0b><0f><0d>Option"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c313",
         "method" : 3,
         "start_bytes" : [],
@@ -630,12 +629,12 @@
         "raw" : ["c0", "dd", "c4", "b3", "5c", "d2", "b6", "c6", "af", "b8", "3f", "00"],
         "raw_text" : "たんとうメカニック?",
         "alt_text" : "タントウめかにっく?",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Use Tech.?"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c31f",
         "method" : 3,
         "start_bytes" : [],
@@ -644,54 +643,54 @@
         "raw" : ["bc", "ad", "b3", "d8", "5c", "d3", "bc", "de", "ad", "b0", "d9", "3f", "00"],
         "raw_text" : "しゅうりモジュ‐ル?",
         "alt_text" : "シュウリもじゅ―る?",
-        "trans_size" : 11,
+        "trans_size" : 0,
         "trans_text" : "Use Repkit?"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c32c",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["08","00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 20,
         "raw" : ["10", "ff", "ca", "20", "5c", "d2", "b6", "c6", "af", "b8", "bd", "b7", "d9", "5c", "b6", "de", "c5", "b2", "08", "00"],
         "raw_text" : "<10>゜は メカニックスキルがない<wait>",
         "alt_text" : "<10>゜ハ めかにっくすきるガナイ<wait>",
-        "trans_size" : 13,
+        "trans_size" : 0,
         "trans_text" : "No Tech skill"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c340",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["08","00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 26,
         "raw" : ["5c", "d8", "cd", "df", "b1", "b7", "af", "c4", "5c", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "bc", "ad", "b3", "d8", "cc", "c9", "b3", "08", "00"],
         "raw_text" : "リペアキットがないので しゅうりふのう<wait>",
         "alt_text" : "りぺおきっとガナイノデ シュウリフノウ<wait>",
-        "trans_size" : 19,
+        "trans_size" : 0,
         "trans_text" : "No Repkit available"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c35a",
         "method" : 3,
         "start_bytes" : ["18"],
-        "end_bytes" : ["08","00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 21,
         "raw" : ["18", "dd", "2d", "22", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "bc", "ad", "b3", "d8", "4f", "4b", "21", "08", "00"],
         "raw_text" : "<18>ん―“ポイント しゅうりOK!<wait>",
         "alt_text" : "<18>ン―“ぽいんと シュウリOK!<wait>",
-        "trans_size" : 13,
+        "trans_size" : 0,
         "trans_text" : "Using Repkit!"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c36f",
         "method" : 3,
         "start_bytes" : [],
@@ -700,16 +699,12 @@
         "raw" : ["bf", "c9", "5c", "d3", "bc", "de", "ad", "b0", "d9", "5c", "ca", "20", "bc", "dd", "cb", "df", "dd", "c4", "b6", "dc", "dd", "c5", "b2", "be", "de", "08", "00"],
         "raw_text" : "そのモジュ‐ルは しんぴんとかわんないぜ<wait>",
         "alt_text" : "ソノもじゅ―るハ シンピントカワンナイゼ<wait>",
-        "snes_size" : 26,
-        "snes-j" : "「そのモジュールは しんぴんと かわらないゼ。」",
-        "snes-e" : "That module isn't\ndamaged!",
-        "accuracy" : 0.8,
         "trans_size" : 0,
         "trans_text" : ""
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c38a",
         "method" : 3,
         "start_bytes" : [],
@@ -723,7 +718,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c391",
         "method" : 3,
         "start_bytes" : [],
@@ -737,7 +732,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c398",
         "method" : 3,
         "start_bytes" : [],
@@ -751,7 +746,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c39f",
         "method" : 3,
         "start_bytes" : [],
@@ -765,7 +760,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c3a6",
         "method" : 3,
         "start_bytes" : [],
@@ -779,7 +774,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c3ad",
         "method" : 3,
         "start_bytes" : [],
@@ -793,7 +788,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c3b4",
         "method" : 3,
         "start_bytes" : [],
@@ -807,7 +802,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c3d6",
         "method" : 3,
         "start_bytes" : [],
@@ -821,7 +816,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― doctor in charge?",
         "string_start" : "0x1c3d7",
         "method" : 3,
         "start_bytes" : [],
@@ -830,12 +825,12 @@
         "raw" : ["c0", "dd", "c4", "b3", "5c", "c4", "de", "b8", "c0", "b0", "3f", "00"],
         "raw_text" : "たんとうドクタ‐?",
         "alt_text" : "タントウどくた―?",
-        "trans_size" : 9,
+        "trans_size" : 0,
         "trans_text" : "Which Dr?"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― medical treatment?",
         "string_start" : "0x1c3e3",
         "method" : 3,
         "start_bytes" : [],
@@ -844,12 +839,12 @@
         "raw" : ["c0", "de", "da", "c9", "20", "c1", "d8", "ae", "b3", "a6", "bd", "d9", "3f", "00"],
         "raw_text" : "だれの ちりょうをする?",
         "alt_text" : "ダレノ チリョウヲスル?",
-        "trans_size" : 10,
+        "trans_size" : 0,
         "trans_text" : "Treatment?"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c3f1",
         "method" : 3,
         "start_bytes" : [],
@@ -858,12 +853,12 @@
         "raw" : ["10", "ff", "ca", "20", "5c", "c4", "de", "b8", "c0", "b0", "bd", "b7", "d9", "5c", "b6", "de", "c5", "b2", "08", "00"],
         "raw_text" : "<10>゜は ドクタ‐スキルがない<wait>",
         "alt_text" : "<10>゜ハ どくた―すきるガナイ<wait>",
-        "trans_size" : 17,
+        "trans_size" : 0,
         "trans_text" : "No med. skill<08>"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c405",
         "method" : 3,
         "start_bytes" : [],
@@ -872,12 +867,12 @@
         "raw" : ["5c", "b7", "ad", "b1", "b7", "af", "c4", "5c", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "c1", "d8", "ae", "b3", "cc", "c9", "b3", "08", "00"],
         "raw_text" : "キュアキットがないので ちりょうふのう<wait>",
         "alt_text" : "きゅおきっとガナイノデ チリョウフノウ<wait>",
-        "trans_size" : 23,
+        "trans_size" : 0,
         "trans_text" : "No Medkit available<08>"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― restore LP or EP after a repkit or medkit",
         "string_start" : "0x1c41e",
         "method" : 3,
         "start_bytes" : [],
@@ -886,12 +881,12 @@
         "raw" : ["18", "dd", "2d", "22", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "b6", "b2", "cc", "b8", "bc", "c0", "08", "00"],
         "raw_text" : "<18>ん―“ポイント かいふくした<wait>",
         "alt_text" : "<18>ン―“ぽいんと カイフクシタ<wait>",
-        "trans_size" : 22,
+        "trans_size" : 0,
         "trans_text" : "<18>pts recovered!<08>"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c432",
         "method" : 3,
         "start_bytes" : [],
@@ -900,16 +895,12 @@
         "raw" : ["b9", "de", "dd", "b7", "c5", "d4", "db", "b3", "c9", "20", "d2", "dd", "c4", "de", "b3", "ca", "d0", "c5", "b2", "be", "de", "08", "00"],
         "raw_text" : "げんきなやろうの めんどうはみないぜ<wait>",
         "alt_text" : "ゲンキナヤロウノ メンドウハミナイゼ<wait>",
-        "snes_size" : 27,
-        "snes-j" : "「げんきなヤツの めんどうは みないよ。」",
-        "snes-e" : "That person isn't\ninjured!",
-        "accuracy" : 0.742857142857,
         "trans_size" : 0,
         "trans_text" : ""
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c449",
         "method" : 3,
         "start_bytes" : [],
@@ -923,7 +914,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c44b",
         "method" : 3,
         "start_bytes" : [],
@@ -937,7 +928,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c45c",
         "method" : 3,
         "start_bytes" : [],
@@ -951,7 +942,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c46f",
         "method" : 3,
         "start_bytes" : [],
@@ -965,7 +956,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c482",
         "method" : 3,
         "start_bytes" : [],
@@ -979,7 +970,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c495",
         "method" : 3,
         "start_bytes" : [],
@@ -993,7 +984,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c4a8",
         "method" : 3,
         "start_bytes" : [],
@@ -1007,7 +998,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― repair kit, item, money menu",
         "string_start" : "0x1c4bb",
         "method" : 3,
         "start_bytes" : [],
@@ -1016,12 +1007,12 @@
         "raw" : ["0b", "03", "06", "5c", "d8", "cd", "df", "b1", "b7", "af", "c4", "18", "42", "2e", "13", "0b", "03", "08", "5c", "b7", "ad", "b1", "b7", "af", "c4", "18", "43", "2e", "13", "0b", "04", "04", "5c", "20", "b7", "20", "af", "20", "c4", "20", "0b", "12", "05", "20", "b1", "20", "b2", "20", "c3", "20", "d1", "20", "0b", "02", "0b", "20", "c4", "20", "da", "20", "bc", "de", "20", "ac", "20", "b0", "20", "00"],
         "raw_text" : "<0B>\n<06>リペアキット<18>B.<13><0B>\n<wait>きゅおきっと<18>C.<13><0B><pause><pause> キ ッ ト <0B><12><05> ア イ テ ム <0B>\n<0B> ト レ ジ ャ ‐ ",
         "alt_text" : "<0B>\n<06>りぺおきっと<18>B.<13><0B>\n<wait>キュアキット<18>C.<13><0B><pause><pause> き っ と <0B><12><05> お い て む <0B>\n<0B> と れ じ ゃ ― ",
-        "trans_size" : 107,
+        "trans_size" : 0,
         "trans_text" : "<0B><03><06>Repkit<18>B.<13><0B><03><08>Medkit<18>C.<13><0B><02><04>Kits<0B><10><05>Items<0B><02><0B>Stores"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c4ff",
         "method" : 3,
         "start_bytes" : [],
@@ -1035,21 +1026,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― i'm dead/deceased",
         "string_start" : "0x1c507",
         "method" : 3,
         "start_bytes" : ["10"],
-        "end_bytes" : ["08","00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 13,
         "raw" : ["10", "ff", "ca", "20", "bc", "dd", "c3", "de", "b2", "d9", "a1", "08", "00"],
         "raw_text" : "<10>゜は しんでいる。<wait>",
         "alt_text" : "<10>゜ハ シンデイル。<wait>",
-        "trans_size" : 8,
+        "trans_size" : 0,
         "trans_text" : "Deceased"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c514",
         "method" : 3,
         "start_bytes" : [],
@@ -1063,7 +1054,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c527",
         "method" : 3,
         "start_bytes" : [],
@@ -1077,7 +1068,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c53a",
         "method" : 3,
         "start_bytes" : [],
@@ -1091,7 +1082,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c54d",
         "method" : 3,
         "start_bytes" : [],
@@ -1105,7 +1096,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c560",
         "method" : 3,
         "start_bytes" : [],
@@ -1119,7 +1110,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c573",
         "method" : 3,
         "start_bytes" : [],
@@ -1133,35 +1124,35 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― enter clone password code",
         "string_start" : "0x1c586",
         "method" : 3,
-        "start_bytes" : ["0c","10","28"],
+        "start_bytes" : ["0c", "10", "28"],
         "end_bytes" : ["00"],
         "raw_size" : 18,
         "raw" : ["0c", "10", "28", "c9", "20", "5c", "b8", "db", "b0", "dd", "ba", "b0", "c4", "de", "5c", "ca", "3f", "00"],
         "raw_text" : "<erase><PC>の クロ‐ンコ‐ドは?",
         "alt_text" : "<erase><PC>ノ くろ―んこ―どハ?",
-        "trans_size" : 14,
+        "trans_size" : 0,
         "trans_text" : " cloning code?"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― error wrong clone password",
         "string_start" : "0x1c598",
         "method" : 3,
         "start_bytes" : ["0c"],
-        "end_bytes" : ["08","00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 23,
         "raw" : ["0c", "06", "1c", "5c", "b8", "db", "b0", "dd", "5c", "ca", "de", "b2", "d6", "b3", "20", "c3", "de", "b7", "cf", "be", "dd", "08", "00"],
         "raw_text" : "<erase><06><endwait>クロ‐ンばいよう できません<wait>",
         "alt_text" : "<erase><06><endwait>くろ―んバイヨウ デキマセン<wait>",
-        "trans_size" : 19,
+        "trans_size" : 0,
         "trans_text" : "Incorrect DNA code!"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c5af",
         "method" : 3,
         "start_bytes" : [],
@@ -1175,21 +1166,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― save a game ― show password",
         "string_start" : "0x1c5d4",
         "method" : 3,
-        "start_bytes" : ["0c","10","28"],
+        "start_bytes" : ["0c", "10", "28"],
         "end_bytes" : ["00"],
         "raw_size" : 24,
         "raw" : ["0c", "ba", "da", "b6", "de", "20", "10", "28", "c9", "20", "5c", "b8", "db", "b0", "dd", "ba", "b0", "c4", "de", "5c", "c3", "de", "bd", "00"],
         "raw_text" : "<erase>これが <PC>の クロ‐ンコ‐ドです",
         "alt_text" : "<erase>コレガ <PC>ノ くろ―んこ―どデス",
-        "trans_size" : 16,
+        "trans_size" : 0,
         "trans_text" : ", your DNA code!"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― save a game ― confirm/edit",
         "string_start" : "0x1c5ec",
         "method" : 3,
         "start_bytes" : ["0c"],
@@ -1198,12 +1189,12 @@
         "raw" : ["0c", "b6", "b8", "c6", "dd", "bc", "c3", "c8", "21", "00"],
         "raw_text" : "<erase>かくにんしてね!",
         "alt_text" : "<erase>カクニンシテネ!",
-        "trans_size" : 8,
+        "trans_size" : 0,
         "trans_text" : "Confirm!"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c5f6",
         "method" : 3,
         "start_bytes" : ["0c"],
@@ -1212,26 +1203,26 @@
         "raw" : ["0c", "5c", "b8", "db", "b0", "dd", "5c", "bb", "b2", "be", "b2", "20", "b6", "dd", "d8", "ae", "b3", "21", "00"],
         "raw_text" : "<erase>クロ‐ンさいせい かんりょう!",
         "alt_text" : "<erase>くろ―んサイセイ カンリョウ!",
-        "trans_size" : 17,
+        "trans_size" : 0,
         "trans_text" : "Reviving a clone!"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― bram not initialised ― do you want to initialise?",
         "string_start" : "0x1c609",
         "method" : 3,
-        "start_bytes" : ["0c","06","2f","10","3b"],
+        "start_bytes" : ["0c", "06", "2f", "10", "3b"],
         "end_bytes" : ["00"],
         "raw_size" : 42,
         "raw" : ["0c", "06", "2f", "10", "3b", "b6", "de", "20", "bc", "ae", "b7", "b6", "bb", "da", "c3", "02", "b2", "cf", "be", "dd", "a1", "08", "0c", "10", "3b", "c9", "20", "bc", "ae", "b7", "b6", "a6", "02", "b5", "ba", "c5", "b2", "cf", "bd", "b6", "3f", "00"],
         "raw_text" : "<erase><06>/<BackupRAM>が しょきかされて\nいません。<wait><erase><BackupRAM>の しょきかを\nおこないますか?",
         "alt_text" : "<erase><06>/<BackupRAM>ガ ショキカサレテ\nイマセン。<wait><erase><BackupRAM>ノ ショキカヲ\nオコナイマスカ?",
-        "trans_size" : 36,
+        "trans_size" : 0,
         "trans_text" : ": Not\nformatted<08><0c>Ok to format?"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c633",
         "method" : 3,
         "start_bytes" : [],
@@ -1245,7 +1236,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c642",
         "method" : 3,
         "start_bytes" : [],
@@ -1259,21 +1250,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― error in save game file",
         "string_start" : "0x1c661",
         "method" : 3,
-        "start_bytes" : ["0c","06","2f"],
+        "start_bytes" : ["0c", "06", "2f"],
         "end_bytes" : ["00"],
         "raw_size" : 79,
         "raw" : ["0c", "06", "2f", "5c", "bb", "b2", "ca", "de", "b0", "c5", "b2", "c4", "5c", "c9", "20", "5c", "b8", "db", "b0", "dd", "cc", "a7", "b2", "d9", "5c", "b6", "de", "02", "ba", "dc", "da", "c3", "b2", "cf", "bd", "a1", "08", "13", "52", "49", "0c", "5c", "bb", "b2", "ca", "de", "b0", "c5", "b2", "c4", "5c", "c9", "20", "5c", "b8", "db", "b0", "dd", "cc", "a7", "b2", "d9", "5c", "a6", "02", "bc", "dd", "b7", "bb", "b8", "be", "b2", "20", "bc", "cf", "bd", "b6", "3f", "00"],
         "raw_text" : "<erase><06>/サイバ‐ナイトの クロ‐ンファイルが\nこわれています。<wait><13>RI<erase>サイバ‐ナイトの クロ‐ンファイルを\nしんきさくせい しますか?",
         "alt_text" : "<erase><06>/さいば―ないとノ くろ―んふぁいるガ\nコワレテイマス。<wait><13>RI<erase>さいば―ないとノ くろ―んふぁいるヲ\nシンキサクセイ シマスカ?",
-        "trans_size" : 69,
+        "trans_size" : 0,
         "trans_text" : "Save file corrupt!<08>13>RI<0c>Do you want to create\na new save file?"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― not enough free space",
         "string_start" : "0x1c6b0",
         "method" : 3,
         "start_bytes" : [],
@@ -1287,63 +1278,63 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― error reading save",
         "string_start" : "0x1c6d2",
         "method" : 3,
-        "start_bytes" : ["0c","06","2f","10","3b"],
-        "end_bytes" : ["08","13","52","49","00"],
+        "start_bytes" : ["0c", "06", "2f", "10", "3b"],
+        "end_bytes" : ["08", "13", "52", "49", "00"],
         "raw_size" : 36,
         "raw" : ["0c", "06", "2f", "10", "3b", "c9", "20", "d6", "d0", "ba", "d0", "c3", "de", "02", "5c", "b4", "d7", "b0", "5c", "b6", "de", "20", "ca", "af", "be", "b2", "bc", "cf", "bc", "c0", "a1", "08", "13", "52", "49", "00"],
         "raw_text" : "<erase><06>/<BackupRAM>の よみこみで\nエラ‐が はっせいしました。<wait><13>RI",
         "alt_text" : "<erase><06>/<BackupRAM>ノ ヨミコミデ\nえら―ガ ハッセイシマシタ。<wait><13>RI",
-        "trans_size" : 25,
+        "trans_size" : 0,
         "trans_text" : ": ERROR!\nBRAM read error!"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― error writing save",
         "string_start" : "0x1c6f6",
         "method" : 3,
-        "start_bytes" : ["0c","06","2f","10","3b"],
-        "end_bytes" : ["08","13","52","49","00"],
+        "start_bytes" : ["0c", "06", "2f", "10", "3b"],
+        "end_bytes" : ["08", "13", "52", "49", "00"],
         "raw_size" : 36,
         "raw" : ["0c", "06", "2f", "10", "3b", "c9", "20", "b6", "b7", "ba", "d0", "c3", "de", "02", "5c", "b4", "d7", "b0", "5c", "b6", "de", "20", "ca", "af", "be", "b2", "bc", "cf", "bc", "c0", "a1", "08", "13", "52", "49", "00"],
         "raw_text" : "<erase><06>/<BackupRAM>の かきこみで\nエラ‐が はっせいしました。<wait><13>RI",
         "alt_text" : "<erase><06>/<BackupRAM>ノ カキコミデ\nえら―ガ ハッセイシマシタ。<wait><13>RI",
-        "trans_size" : 26,
+        "trans_size" : 0,
         "trans_text" : ": ERROR!\nBRAM write error!"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― save screen ― select a save slot",
         "string_start" : "0x1c71a",
         "method" : 3,
-        "start_bytes" : ["0c","10","3b"],
+        "start_bytes" : ["0c", "10", "3b"],
         "end_bytes" : ["00"],
         "raw_size" : 43,
         "raw" : ["0c", "10", "3b", "c6", "20", "5c", "be", "b0", "cc", "de", "5c", "bc", "cf", "bd", "a1", "02", "5c", "be", "b0", "cc", "de", "5c", "bd", "d9", "20", "ca", "de", "bc", "ae", "a6", "20", "b4", "d7", "dd", "c3", "de", "b8", "c0", "de", "bb", "b2", "a1", "00"],
         "raw_text" : "<erase><BackupRAM>に セ‐ブします。\nセ‐ブする ばしょを えらんでください。",
         "alt_text" : "<erase><BackupRAM>ニ せ―ぶシマス。\nせ―ぶスル バショヲ エランデクダサイ。",
-        "trans_size" : 30,
+        "trans_size" : 0,
         "trans_text" : ": Select a\nslot for your clone"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c745",
         "method" : 3,
-        "start_bytes" : ["0c","10","3b"],
+        "start_bytes" : ["0c", "10", "3b"],
         "end_bytes" : ["00"],
         "raw_size" : 46,
         "raw" : ["0c", "10", "3b", "b6", "d7", "20", "5c", "db", "b0", "c4", "de", "5c", "bc", "cf", "bd", "a1", "02", "5c", "db", "b0", "c4", "de", "5c", "bd", "d9", "20", "5c", "ba", "b0", "c4", "de", "5c", "a6", "20", "b4", "d7", "dd", "c3", "de", "b8", "c0", "de", "bb", "b2", "a1", "00"],
         "raw_text" : "<erase><BackupRAM>から ロ‐ドします。\nロ‐ドする コ‐ドを えらんでください。",
         "alt_text" : "<erase><BackupRAM>カラ ろ―どシマス。\nろ―どスル こ―どヲ エランデクダサイ。",
-        "trans_size" : 31,
+        "trans_size" : 0,
         "trans_text" : ": Revive a\nclone with saved DNA"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c773",
         "method" : 3,
         "start_bytes" : [],
@@ -1357,7 +1348,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c77c",
         "method" : 3,
         "start_bytes" : [],
@@ -1371,21 +1362,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― selected body line, before choosing save",
         "string_start" : "0x1c77d",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["10","28","09","0a","20","13","00"],
+        "end_bytes" : ["10", "28", "09", "0a", "20", "13", "00"],
         "raw_size" : 15,
         "raw" : ["20", "b9", "de", "dd", "bb", "de", "b2", "20", "10", "28", "09", "0a", "20", "13", "00"],
         "raw_text" : " げんざい <PC><09><0A> <13>",
         "alt_text" : " ゲンザイ <PC><09><0A> <13>",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Clone "
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c78c",
         "method" : 3,
         "start_bytes" : [],
@@ -1399,21 +1390,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c78e",
         "method" : 3,
-        "start_bytes" : ["0d","06"],
+        "start_bytes" : ["0d", "06"],
         "end_bytes" : ["00"],
-        "raw_size" : 83,
+        "raw_size" : 83 ,
         "raw" : ["0d", "06", "1d", "08", "01", "20", "02", "21", "03", "22", "04", "23", "20", "5c", "b8", "db", "b0", "dd", "5c", "bc", "de", "b6", "dd", "28", "4d", "64", "6e", "61", "29", "02", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "31", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "32", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "33", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "34", "13", "66", "49", "00"],
         "raw_text" : "<pad><06>名前 クロ‐ンかん(Mdna)\nコ―ド1<13>fI コ―ド2<13>fI コ―ド3<13>fI コ―ド4<13>fI<end>",
         "alt_text" : "<pad><06>名前 くろ―んカン(Mdna)\nコ―ド1<13>fI コ―ド2<13>fI コ―ド3<13>fI コ―ド4<13>fI<end>",
-        "trans_size" : 63,
+        "trans_size" : 0,
         "trans_text" : "Body Cloning(mDNA)\n DNA1<13>fI DNA2<13>fI DNA3<13>fI DNA4<13>fI"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c7e1",
         "method" : 3,
         "start_bytes" : [],
@@ -1427,7 +1418,7 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c7ec",
         "method" : 3,
         "start_bytes" : [],
@@ -1441,21 +1432,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c7ee",
         "method" : 3,
-        "start_bytes" : ["0c","06","1c"],
-        "end_bytes" : ["08","00"],
+        "start_bytes" : ["0c", "06", "1c"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 35,
         "raw" : ["0c", "06", "1c", "5c", "b8", "db", "b0", "dd", "ba", "b0", "c4", "de", "5c", "c9", "20", "5c", "db", "b0", "c4", "de", "5c", "a6", "20", "c1", "ad", "b3", "bc", "02", "bc", "cf", "bc", "c0", "a1", "08", "00"],
         "raw_text" : "<erase><06><endwait>クロ‐ンコ‐ドの ロ‐ドを ちゅうし\nしました。<wait>",
         "alt_text" : "<erase><06><endwait>くろ―んこ―どノ ろ―どヲ チュウシ\nシマシタ。<wait>",
-        "trans_size" : 30,
+        "trans_size" : 0,
         "trans_text" : "The clone will not\nbe revived."
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menu",
         "string_start" : "0x1c811",
         "method" : 3,
         "start_bytes" : [],
@@ -1469,21 +1460,21 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― save screen ― save successful",
         "string_start" : "0x1c834",
         "method" : 3,
-        "start_bytes" : ["0c","06","1b"],
-        "end_bytes" : ["08","00"],
+        "start_bytes" : ["0c", "06", "1b"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 37,
         "raw" : ["0c", "06", "1b", "5c", "b8", "db", "b0", "dd", "ba", "b0", "c4", "de", "5c", "c9", "20", "5c", "be", "b0", "cc", "de", "5c", "b6", "de", "20", "b6", "dd", "d8", "ae", "b3", "02", "bc", "cf", "bc", "c0", "a1", "08", "00"],
         "raw_text" : "<erase><06><1B>クロ‐ンコ‐ドの セ‐ブが かんりょう\nしました。<wait>",
         "alt_text" : "<erase><06><1B>くろ―んこ―どノ せ―ぶガ カンリョウ\nシマシタ。<wait>",
-        "trans_size" : 24,
+        "trans_size" : 0,
         "trans_text" : "The clone has been\nsaved"
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus",
         "string_start" : "0x1c859",
         "method" : 3,
         "start_bytes" : [],
@@ -1497,21 +1488,20 @@
     },
 
     {
-        "string_description" : "",
+        "string_description" : "Name entry and misc game menus ― selected body line, after choosing save",
         "string_start" : "0x1c873",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["13","66","49","00"],
+        "end_bytes" : ["13", "66", "49", "00"],
         "raw_size" : 11,
         "raw" : ["20", "b9", "de", "dd", "bb", "de", "b2", "13", "66", "49", "00"],
         "raw_text" : " げんざい<13>fI",
         "alt_text" : " ゲンザイ<13>fI",
-        "trans_size" : 6,
+        "trans_size" : 0,
         "trans_text" : "Clone "
     },
 
     {
-        "string_description" : "",
         "string_start" : "0x1c87e",
         "method" : 3,
         "start_bytes" : [],
@@ -1519,12 +1509,11 @@
         "raw_size" : 39,
         "raw" : ["20", "ca", "bc", "de", "d2", "b6", "d7", "02", "20", "c2", "c2", "de", "b7", "b6", "d7", "02", "20", "5c", "b8", "db", "b0", "dd", "5c", "bb", "b2", "be", "b2", "02", "20", "b6", "dd", "b7", "ae", "b3", "be", "af", "c3", "b2", "00"],
         "raw_text" : " はじめから\n つづきから\n クロ‐ンさいせい\n かんきぉうせってい",
-        "trans_size" : 30,
+        "trans_size" : 0,
         "trans_text" : " Start\n Retry\n Load\n Settings "
     },
 
     {
-        "string_description" : "",
         "string_start" : "0x1c8a5",
         "method" : 3,
         "start_bytes" : [],
@@ -1532,12 +1521,11 @@
         "raw_size" : 27,
         "raw" : ["20", "5c", "ca", "de", "af", "b8", "b1", "af", "cc", "df", "d2", "d3", "d8", "02", "20", "ba", "b0", "c4", "de", "5c", "c6", "ad", "b3", "d8", "ae", "b8", "00"],
         "raw_text" : " バックアップメモリ\n コ‐ドにゅうりょく",
-        "trans_size" : 20,
+        "trans_size" : 0,
         "trans_text" : " Load Save\n Password"
     },
 
     {
-        "string_description" : "",
         "string_start" : "0x1c8c0",
         "method" : 3,
         "start_bytes" : [],
@@ -1545,12 +1533,11 @@
         "raw_size" : 26,
         "raw" : ["20", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "bf", "b8", "c4", "de", "02", "20", "5c", "bb", "b3", "dd", "c4", "de", "d3", "b0", "c4", "de", "00"],
         "raw_text" : " メッセ‐ジそくど\n サウンドモ‐ド",
-        "trans_size" : 18,
+        "trans_size" : 0,
         "trans_text" : " Dialogue\n Audio  "
     },
 
     {
-        "string_description" : "",
         "string_start" : "0x1c8da",
         "method" : 3,
         "start_bytes" : [],
@@ -1558,12 +1545,11 @@
         "raw_size" : 23,
         "raw" : ["20", "20", "b5", "bf", "b2", "20", "20", "cc", "c2", "b3", "20", "20", "ca", "d4", "b2", "20", "20", "5c", "c0", "b0", "ce", "de", "00"],
         "raw_text" : "  おそい  ふつう  はやい  タ‐ボ",
-        "trans_size" : 22,
+        "trans_size" : 0,
         "trans_text" : "  Slow Med. High Turbo"
     },
 
     {
-        "string_description" : "",
         "string_start" : "0x1c8f1",
         "method" : 3,
         "start_bytes" : [],
@@ -1571,12 +1557,11 @@
         "raw_size" : 14,
         "raw" : ["20", "20", "5c", "bd", "c3", "da", "b5", "20", "20", "d3", "c9", "d7", "d9", "00"],
         "raw_text" : "  ステレオ  モノラル",
-        "trans_size" : 12,
+        "trans_size" : 0,
         "trans_text" : "  Ster. Mono"
     },
 
     {
-        "string_description" : "",
         "string_start" : "0x1c8ff",
         "method" : 3,
         "start_bytes" : [],

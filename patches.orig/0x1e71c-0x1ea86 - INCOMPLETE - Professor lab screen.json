@@ -19,30 +19,30 @@
     },
 
     {
-        "string_description" : "Shipboard menus 2?",
+        "string_description" : "scan of enemy wreckage complete",
         "string_start" : "0x1e71d",
         "method" : 3,
-        "start_bytes" : ["10","34"],
+        "start_bytes" : ["10", "34"],
         "end_bytes" : ["00"],
         "raw_size" : 29,
         "raw" : ["10", "34", "a2", "cc", "de", "dd", "be", "b7", "20", "b6", "dd", "d8", "ae", "b3", "21", "03", "0f", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "d7", "03", "00"],
         "raw_text" : "<PROFESSOR>『ぶんせき かんりょう!\n<0F>の ざんがいから\n",
         "alt_text" : "<PROFESSOR>『ブンセキ カンリョウ!\n<0F>ノ ザンガイカラ\n",
-        "trans_size" : 25,
+        "trans_size" : 0,
         "trans_text" : ":Wreckage scan\ncomplete!\n"
     },
 
     {
-        "string_description" : "Shipboard menus 2?",
+        "string_description" : "i have developed some new technology, lets get it in production now",
         "string_start" : "0x1e73a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["08","00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 34,
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "c0", "c0", "de", "c1", "c6", "20", "be", "b2", "bf", "de", "b3", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nただちに せいぞうに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nタダチニ セイゾウニ トリカカロウ。』<wait>",
-        "trans_size" : 32,
+        "trans_size" : 0,
         "trans_text" : " is now\navailable for us to use!"
     },
 
@@ -56,7 +56,7 @@
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "d3", "bc", "de", "ad", "b0", "d9", "5c", "c9", "20", "c0", "b2", "b7", "ad", "b3", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nモジュ‐ルの たいきゅうりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nもじゅ―るノ タイキュウリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
-        "trans_size" : 66,
+        "trans_size" : 0,
         "trans_text" : " is available.\nIt can boost mecha\ndurability ― lets put it\nto use!"
     },
 
