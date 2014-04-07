@@ -63,6 +63,8 @@ To run a strict match:
 
 I reccomend running level 1 pass, then 2, then 3, so that the largest amount of automatic matches are made first. You should get a good >50% match rating on all of the dialogue strings from the game.
 
+At this point you'll probably want to hand-edit the patch files to fix up the SNES translations, embed control codes etc, to make it fit the PC-Engine original text.
+
 
 ## Applying Patches / Injecting Text
 
