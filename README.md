@@ -59,7 +59,7 @@ You can specifiy pass levels 1, 2 and 3. Level 1 requires the closest match (+80
 
 To run a strict match:
 
-   python mapScript.py -d ./patches/ -o ./patches-processed/ -p 1 -v
+    python mapScript.py -d ./patches/ -o ./patches-processed/ -p 1 -v
 
 I reccomend running level 1 pass, then 2, then 3, so that the largest amount of automatic matches are made first. You should get a good >50% match rating on all of the dialogue strings from the game.
 
