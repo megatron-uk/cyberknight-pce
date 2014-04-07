@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8
 from __future__ import unicode_literals
 """
 This program is free software: you can redistribute it and/or modify
@@ -101,9 +102,27 @@ def squashPCEPatchSegment(raw_text):
 					text = re.sub(ttable[byte_code]["pre_shift"], '', text)
 			except:
 				pass
+		
+		# Remove linebreaks
 		text = text.replace('\n', '')
 		text = text.replace('\\n', '')
+		
+		# Remove spaces
 		text = text.replace(' ', '')
+		
+		# Convert dashed-dash to japanese single japanese dash
+		text = text.replace('‥', '・')
+		
+		# Remove first japanese quotation mark
+		try:
+			text = text.split('「')[1]
+		except:
+			pass
+		try:
+			text = text.split('『')[1]
+		except:
+			pass
+			
 		if len(text) > 1:
 			squashed_pce_strings[h] = text
 			#print "PCE Squashed :", text
@@ -123,7 +142,7 @@ def squashSNESPatchSegment(snes_j_text):
 		# Remove control bytes
 		text = re.sub('{..}', '', snes_j_text)
 		text = re.sub('\n', '', text)
-		
+
 		# Remove non printable characters
 		try:
 			text = re.sub('\n', '', text)
@@ -152,13 +171,27 @@ def squashSNESPatchSegment(snes_j_text):
 				text = re.sub('\x32', '', text.decode('shift-jis'))
 			except:
 				pass
-			
+
 		try:
 			text = re.sub(' ', '', text)
 		except:
 			pass
-	
-		#text = re.sub('\[*\]', '', text)
+		
+		# Remove first Japanese text quote	
+		try:
+			text = text.split('「')[1]
+		except:
+			pass
+		try:
+			text = text.split('『')[1]
+		except:
+			pass
+		
+		try:
+			text = re.sub('ー', '-', text)
+		except:
+			pass
+		
 		if len(text) > 1:
 			squashed_snes_strings[h] = text
 			#print "SNES Squashed :", text
@@ -257,7 +290,7 @@ def mapScript(patchfile, patch, snes_table):
 	if VERBOSE:
 		print "---"
 	for patch_segment in patch["data"]["data"]:
-		if (len(patch_segment["trans_text"]) == 0) and (patch_segment["raw_size"] > 1) and ("snes-e" not in patch_segment.keys()):
+		if (len(patch_segment["trans_text"]) == 0) and (len(patch_segment["raw"]) > 2) and ("snes-e" not in patch_segment.keys()):
 			matched = False
 			snes_text = None
 			if "alt_text" in patch_segment.keys():
@@ -292,6 +325,9 @@ def mapScript(patchfile, patch, snes_table):
 				s1 = squashPCEPatchSegment(patch_segment["raw_text"])
 				for snes_text in snes_table.keys():
 					s2 = squashSNESPatchSegment(snes_text)
+					#try:
+					#sm = difflib.SequenceMatcher(lambda x: x in " \t\n", s1, s2)
+					#except:
 					sm = difflib.SequenceMatcher(None, s1, s2)
 					# Do a quick check
 					r = sm.quick_ratio()
@@ -453,7 +489,12 @@ def write_export(patch, filename):
 		if "snes-e" in b.keys():
 			f.write("        \"snes_size\" : %s,\n" % len(b["snes-e"]))
 			f.write("        \"snes-j\" : \"")
-			for c in b["snes-j"].replace('\n', '\\n').rstrip('\r\n'):
+			for c in b["snes-j"]:
+				try:
+					if c == '\n':
+						c = '\\n'
+				except:
+					pass
 				try:
 					f.write(c)
 				except:
