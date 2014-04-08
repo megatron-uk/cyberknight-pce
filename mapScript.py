@@ -620,6 +620,9 @@ if os.path.isdir(PATCH_DIR_NAME):
 		sys.exit(2)
 	else:
 		print "Patches Found: %s <- OK" % len(PATCH_FILES) 
+		print ""
+		print "Patch Summary"
+		print "============="
 		keys = PATCH_FILES.keys()
 		keys.sort()
 		for d in keys:
@@ -628,17 +631,28 @@ if os.path.isdir(PATCH_DIR_NAME):
 				PATCH_FILES[d]["data"] = json.loads(PATCH_FILES[d]["json"])
 				t = 0
 				sm = 0
+				tiny = 0
 				tot = len(PATCH_FILES[d]["data"]["data"])
 				for b in PATCH_FILES[d]["data"]["data"]:
 					if len(b["trans_text"]) > 0:
 						t += 1
 					if "snes-e" in b.keys():
 						sm += 1
-				print "- %4s Strings %4s Translations %4s SNES matches %4s Missing | %s" % (tot, t, sm, (tot - t - sm), d)
+					if len(b["raw_text"]) < 2:
+						tiny += 1
+				print "- %4s Strings %4s Translations %4s SNES matches %3s Tiny %4s Missing | %s" % (tot, t, sm, tiny, (tot - t - sm - tiny), d)
 			except Exception as e:
 				print traceback.format_exc()
 				print "- %s <- ERROR, not a valid JSON file" % d
 				print e
+		print ""
+		print "Patch Summary Key"
+		print "================="
+		print "Strings      : Total number of text strings in the patch file"
+		print "Translations : How many strings already have we added a full english translation for?"
+		print "SNES Matches : How many strings have matching SNES english text that canbe used as a basis for an english translation?"
+		print "Tiny         : How many strings are sub-2 characters (ie not text)?"
+		print "Missing      : How many strings remain to be translated?"
 else:
 	print "Patch Directory: %s <- ERROR, directory not found!" % PATCH_DIR_NAME
 	sys.exit(2)
