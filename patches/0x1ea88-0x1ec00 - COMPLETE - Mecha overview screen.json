@@ -358,13 +358,13 @@
         "string_description" : "Shipboard menus 3?",
         "string_start" : "0x1eb7e",
         "method" : 3,
-        "start_bytes" : ["0b", "18", "08"],
+        "start_bytes" : ["0b","18","08"],
         "end_bytes" : ["20"],
         "raw_size" : 11,
         "raw" : ["0b", "18", "08", "1d", "04", "9c", "bc", "9d", "bd", "3a", "20"],
         "raw_text" : "<0B><18><wait>EP:",
         "alt_text" : "<0B><18><wait>EP:",
-        "trans_size" : 0,
+        "trans_size" : 28,
         "trans_text" : "<1d><04><9c><bc><9d><bd><3a>"
     },
 

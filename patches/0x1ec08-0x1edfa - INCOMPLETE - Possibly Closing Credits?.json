@@ -1222,6 +1222,10 @@
         "raw" : ["bf", "da", "ca", "20"],
         "raw_text" : "それは",
         "alt_text" : "ソレハ",
+        "snes_size" : 15,
+        "snes-j" : "「それは・・・」",
+        "snes-e" : ": Umm... well. ",
+        "accuracy" : 0.6,
         "trans_size" : 0,
         "trans_text" : ""
     },

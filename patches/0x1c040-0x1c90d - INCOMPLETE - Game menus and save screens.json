@@ -900,7 +900,7 @@
         "raw" : ["b9", "de", "dd", "b7", "c5", "d4", "db", "b3", "c9", "20", "d2", "dd", "c4", "de", "b3", "ca", "d0", "c5", "b2", "be", "de", "08", "00"],
         "raw_text" : "げんきなやろうの めんどうはみないぜ<wait>",
         "alt_text" : "ゲンキナヤロウノ メンドウハミナイゼ<wait>",
-        "snes_size" : 27,
+        "snes_size" : 26,
         "snes-j" : "「げんきなヤツの めんどうは みないよ。」",
         "snes-e" : "That person isn't\ninjured!",
         "accuracy" : 0.742857142857,

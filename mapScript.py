@@ -281,12 +281,16 @@ def mapScript(patchfile, patch, snes_table):
 	t = 0
 	ut = 0
 	mt = 0
+	tiny = 0
 	for patch_segment in patch["data"]["data"]:
 		if (len(patch_segment["trans_text"]) != 0) or (len(patch_segment["raw"]) == 0) or ("snes-e" in patch_segment.keys()):
 			t += 1
 		else:
 			ut += 1
-	print "Attempting map of %s untranslated or unmatched strings" % ut
+		if len(patch_segment["raw_text"]) < 2:
+			tiny += 1
+	print "Skipping %s tiny strings" % tiny
+	print "Attempting map of %s untranslated / unmatched strings" % (ut - tiny)
 	if VERBOSE:
 		print "---"
 	for patch_segment in patch["data"]["data"]:
@@ -388,7 +392,7 @@ def mapScript(patchfile, patch, snes_table):
 	if VERBOSE:
 		print "---"
 	print "Mapping routine found %s matches" % mt
-	print "Mapping routine left %s untranslated" % (ut - mt)
+	print "Mapping routine left %s untranslated" % (ut - mt - tiny)
 	return patch
 	
 ######################################################
@@ -675,13 +679,19 @@ for f in keys:
 
 	t = 0
 	ut = 0
+	tiny = 0
+	tot = len(PATCH_FILES[f]["data"]["data"])
 	for patch_segment in PATCH_FILES[f]["data"]["data"]:
 		if (len(patch_segment["trans_text"]) != 0) or (len(patch_segment["raw"]) == 0) or ("snes-e" in patch_segment.keys()):
 			t += 1
 		else:
 			ut += 1
+		if len(patch_segment["raw_text"]) < 2:
+			tiny += 1
+	print "Total of %s strings" % tot
 	print "Ignoring %s existing translations or SNES matches" % t
-	print "Mapping %s untranslated strings"	% ut
+	print "Skipping %s tiny strings" % tiny
+	print "Mapping %s untranslated strings"	% (ut - tiny)
 	if (os.path.isfile(OUT_DIR_NAME + "/" + f)) and (OVERWRITE == False):
 		print "Skipped - an existing process file was found"
 	else:
