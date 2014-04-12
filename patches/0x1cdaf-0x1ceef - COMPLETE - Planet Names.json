@@ -1,0 +1,648 @@
+{
+"block_description" : "Planet names",
+"block_start" : "0x1cdaf",
+"block_end" : "0x1ceef",
+"insert_method" : 2,
+"data" : [
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdaf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "d7", "ca", "de", "b0", "bd", "de", "00"],
+        "raw_text" : "ラバーズ",
+        "alt_text" : "らば―ず",
+        "trans_size" : 6,
+        "trans_text" : "Lovers"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdb7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "dc", "d9", "c4", "de", "d8", "dd", "b8", "de", "00"],
+        "raw_text" : "ワルドリング",
+        "alt_text" : "わるどりんぐ",
+        "trans_size" : 9,
+        "trans_text" : "WorldRing"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdc1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "d2", "cc", "df", "bc", "af", "c4", "de", "00"],
+        "raw_text" : "メプシッド",
+        "alt_text" : "めぷしっど",
+        "trans_size" : 10,
+        "trans_text" : "Mepushiddo"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdca",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "b1", "d9", "cb", "de", "dd", "00"],
+        "raw_text" : "アルビン",
+        "alt_text" : "おるびん",
+        "trans_size" : 5,
+        "trans_text" : "Alvin"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdd1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "b8", "b0", "b9", "de", "d9", "00"],
+        "raw_text" : "クーゲル",
+        "alt_text" : "く―げる",
+        "trans_size" : 6,
+        "trans_text" : "Kurgel"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdd8",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "b5", "d8", "ce", "de", "b0", "00"],
+        "raw_text" : "オリボー",
+        "alt_text" : "おりぼ―",
+        "trans_size" : 6,
+        "trans_text" : "Oribor"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cddf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "d7", "dd", "ba", "af", "c4", "de", "00"],
+        "raw_text" : "ランコッド",
+        "alt_text" : "らんこっど",
+        "trans_size" : 7,
+        "trans_text" : "Lancard"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cde7",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "d2", "d8", "dd", "b8", "bd", "00"],
+        "raw_text" : "メリンクス",
+        "alt_text" : "めりんくす",
+        "trans_size" : 6,
+        "trans_text" : "Merinx"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdee",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["46", "48", "31", "35", "34", "00"],
+        "raw_text" : "FH154",
+        "alt_text" : "FH154",
+        "trans_size" : 0,
+        "trans_text" : "FH154"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdf4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "c0", "b0", "b7", "dd", "b8", "de", "bd", "00"],
+        "raw_text" : "ターキングス",
+        "alt_text" : "た―きんぐす",
+        "trans_size" : 8,
+        "trans_text" : "Tarkings"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cdfd",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "ca", "de", "b2", "c4", "dd", "00"],
+        "raw_text" : "バイトン",
+        "alt_text" : "ばいとん",
+        "trans_size" : 5,
+        "trans_text" : "Byton"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce04",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "be", "d9", "b2", "c4", "de", "00"],
+        "raw_text" : "セルイド",
+        "alt_text" : "せるいど",
+        "trans_size" : 6,
+        "trans_text" : "Selryd"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce0b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 4,
+        "raw" : ["5c", "cc", "b0", "00"],
+        "raw_text" : "フー",
+        "alt_text" : "ふ―",
+        "trans_size" : 3,
+        "trans_text" : "Hew"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce0f",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "bb", "de", "dd", "c0", "b0", "00"],
+        "raw_text" : "ザンター",
+        "alt_text" : "ざんた―",
+        "trans_size" : 6,
+        "trans_text" : "Zanter"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce16",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 5,
+        "raw" : ["5c", "d6", "b0", "dd", "00"],
+        "raw_text" : "ヨーン",
+        "alt_text" : "よ―ん",
+        "trans_size" : 4,
+        "trans_text" : "Yorn"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce1b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["49", "43", "45", "2d", "35", "00"],
+        "raw_text" : "ICEー5",
+        "alt_text" : "ICEー5",
+        "snes_size" : 5,
+        "snes-j" : "ICEー５",
+        "snes-e" : "ICE-5",
+        "accuracy" : 0.6,
+        "trans_size" : 0,
+        "trans_text" : "ICE-5"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce21",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["53", "67", "72", "41", "5c", "b3", "b4", "bd", "c4", "00"],
+        "raw_text" : "SgrAウエスト",
+        "alt_text" : "SgrAうえすと",
+        "snes_size" : 9,
+        "snes-j" : "SAウェスト",
+        "snes-e" : "SgrA West",
+        "accuracy" : 0.714285714286,
+        "trans_size" : 0,
+        "trans_text" : "SgrA West"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce2b",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "bc", "ac", "cc", "de", "db", "b0", "dd", "00"],
+        "raw_text" : "シャブローン",
+        "alt_text" : "しゃぶろ―ん",
+        "trans_size" : 7,
+        "trans_text" : "Shavron"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce34",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["42", "42", "4c", "31", "37", "00"],
+        "raw_text" : "BBL17",
+        "alt_text" : "BBL17",
+        "snes_size" : 5,
+        "snes-j" : "BBL１７",
+        "snes-e" : "BBL17",
+        "accuracy" : 0.6,
+        "trans_size" : 0,
+        "trans_text" : "BBL17"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce3a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["4c", "57", "33", "31", "37", "34", "00"],
+        "raw_text" : "LW3174",
+        "alt_text" : "LW3174",
+        "trans_size" : 0,
+        "trans_text" : "LW3174"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce41",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "c6", "ad", "b0", "bb", "cf", "db", "dd", "00"],
+        "raw_text" : "ニューサマロン",
+        "alt_text" : "にゅ―さまろん",
+        "trans_size" : 11,
+        "trans_text" : "New Samaron"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce4a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "b6", "de", "dd", "be", "de", "dd", "00"],
+        "raw_text" : "ガンゼン",
+        "alt_text" : "がんぜん",
+        "trans_size" : 6,
+        "trans_text" : "Ganzen"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce52",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "cf", "dd", "bd", "de", "da", "dd", "00"],
+        "raw_text" : "マンズレン",
+        "alt_text" : "まんずれん",
+        "trans_size" : 7,
+        "trans_text" : "Manzlen"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce5a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["54", "4d", "44", "33", "33", "34", "00"],
+        "raw_text" : "TMD334",
+        "alt_text" : "TMD334",
+        "trans_size" : 0,
+        "trans_text" : "TMD334"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce61",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "b6", "b0", "c4", "bd", "00"],
+        "raw_text" : "カートス",
+        "alt_text" : "か―とす",
+        "trans_size" : 6,
+        "trans_text" : "Cartos"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce67",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["5c", "cd", "de", "b2", "b8", "de", "da", "b1", "c4", "de", "00"],
+        "raw_text" : "ベイグレアド",
+        "alt_text" : "べいぐれおど",
+        "trans_size" : 9,
+        "trans_text" : "Belgrande"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce72",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce73",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce74",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce75",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce76",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "cc", "a7", "2d", "dc", "2d", "d9", "c4", "de", "00"],
+        "raw_text" : "ファーワールド",
+        "alt_text" : "ふぁーわーるど",
+        "trans_size" : 8,
+        "trans_text" : "FarWorld"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce80",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "d7", "b0", "cc", "de", "dd", "00"],
+        "raw_text" : "ラーブン",
+        "alt_text" : "ら―ぶん",
+        "trans_size" : 6,
+        "trans_text" : "Rarbun"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce87",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "da", "b2", "d7", "b2", "dd", "00"],
+        "raw_text" : "レイライン",
+        "alt_text" : "れいらいん",
+        "trans_size" : 7,
+        "trans_text" : "Rayline"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce8e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "bc", "b0", "b8", "d7", "b0", "00"],
+        "raw_text" : "シークラー",
+        "alt_text" : "し―くら―",
+        "trans_size" : 6,
+        "trans_text" : "Seecla"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce95",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "bc", "de", "ac", "dd", "bd", "00"],
+        "raw_text" : "ジャンス",
+        "alt_text" : "じゃんす",
+        "trans_size" : 5,
+        "trans_text" : "Janth"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ce9c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "b8", "b1", "bc", "de", "00"],
+        "raw_text" : "クアジ",
+        "alt_text" : "くおじ",
+        "trans_size" : 5,
+        "trans_text" : "Kwaji"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cea2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "bc", "de", "ac", "b0", "be", "de", "d7", "00"],
+        "raw_text" : "ジャーゼラ",
+        "alt_text" : "じゃ―ぜら",
+        "trans_size" : 7,
+        "trans_text" : "Jarzela"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ceab",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 5,
+        "raw" : ["5c", "ca", "d9", "b8", "00"],
+        "raw_text" : "ハルク",
+        "alt_text" : "はるく",
+        "trans_size" : 4,
+        "trans_text" : "Hark"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ceb0",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "b2", "cc", "de", "d7", "af", "c4", "de", "00"],
+        "raw_text" : "イブラッド",
+        "alt_text" : "いぶらっど",
+        "trans_size" : 6,
+        "trans_text" : "Ibrahd"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ceb9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "d3", "dd", "c4", "de", "d9", "c4", "dd", "00"],
+        "raw_text" : "モンドルトン",
+        "alt_text" : "もんどるとん",
+        "trans_size" : 9,
+        "trans_text" : "Mondolton"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cec2",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 8,
+        "raw" : ["5c", "d8", "af", "b8", "d7", "af", "be", "00"],
+        "raw_text" : "リックラッセ",
+        "alt_text" : "りっくらっせ",
+        "trans_size" : 9,
+        "trans_text" : "Rickrasse"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ceca",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "ba", "de", "b0", "c3", "de", "a8", "b8", "00"],
+        "raw_text" : "ゴーディク",
+        "alt_text" : "ご―でぃく",
+        "trans_size" : 6,
+        "trans_text" : "Gordik"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ced3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["5c", "b1", "d9", "ca", "de", "c4", "de", "bd", "00"],
+        "raw_text" : "アルバドス",
+        "alt_text" : "おるばどす",
+        "trans_size" : 7,
+        "trans_text" : "Albados"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cedc",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 7,
+        "raw" : ["5c", "b6", "de", "d7", "b2", "bd", "00"],
+        "raw_text" : "ガライス",
+        "alt_text" : "がらいす",
+        "trans_size" : 6,
+        "trans_text" : "Garais"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cee3",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00", "00", "00", "00"],
+        "raw_size" : 6,
+        "raw" : ["5c", "bd", "d7", "b3", "da", "00"],
+        "raw_text" : "スラウレ",
+        "alt_text" : "すらうれ",
+        "trans_size" : 6,
+        "trans_text" : "Sraule"
+    }
+]}

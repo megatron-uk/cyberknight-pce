@@ -1,0 +1,262 @@
+{
+"block_description" : "Item names",
+"block_start" : "0x1ccbf",
+"block_end" : "0x1cdae",
+"insert_method" : 1,
+"data" : [
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ccbf",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["5c", "bd", "c0", "b0", "a5", "cf", "af", "cc", "df", "00"],
+        "raw_text" : "スター・マップ",
+        "alt_text" : "すた―・まっぷ",
+        "trans_size" : 8,
+        "trans_text" : "Star-Map"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ccc9",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "00"],
+        "raw_text" : "モノポール・コイル",
+        "alt_text" : "ものぽ―る・こいる",
+        "trans_size" : 10,
+        "trans_text" : "Drive Coil"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ccd5",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "cc", "de", "b0", "bd", "c0", "b0", "00"],
+        "raw_text" : "ジャンプ・ブースター",
+        "alt_text" : "じゃんぷ・ぶ―すた―",
+        "trans_size" : 10,
+        "trans_text" : "Jump-Drive"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cce4",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 13,
+        "raw" : ["bc", "dd", "b6", "de", "c0", "5c", "bc", "de", "ac", "dd", "cc", "df", "00"],
+        "raw_text" : "しんがたジャンプ",
+        "alt_text" : "シンガタじゃんぷ",
+        "trans_size" : 12,
+        "trans_text" : "New Jump Eng"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ccf1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 11,
+        "raw" : ["bc", "de", "c4", "de", "b3", "ce", "dd", "d4", "b8", "b7", "00"],
+        "raw_text" : "じどうほんやくき",
+        "alt_text" : "ジドウホンヤクキ",
+        "trans_size" : 13,
+        "trans_text" : "Translator"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1ccfc",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 6,
+        "raw" : ["c1", "ae", "b3", "ba", "b8", "00"],
+        "raw_text" : "ちょうこく",
+        "alt_text" : "チョウコク",
+        "trans_size" : 6,
+        "trans_text" : "Statue"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd02",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 12,
+        "raw" : ["5c", "da", "af", "c4", "de", "a5", "b8", "d8", "bd", "c0", "d9", "00"],
+        "raw_text" : "レッド・クリスタル",
+        "alt_text" : "れっど・くりすたる",
+        "trans_size" : 11,
+        "trans_text" : "Red Crystal"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd0e",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["5c", "ca", "df", "b2", "db", "dc", "b0", "d1", "5c", "c9", "b7", "ca", "de", "00"],
+        "raw_text" : "パイロワームのきば",
+        "alt_text" : "ぱいろわ―むノキバ",
+        "snes_size" : 13,
+        "snes-j" : "パイロワームの きば",
+        "snes-e" : "Pyroworm Fang",
+        "accuracy" : 0.888888888889,
+        "trans_size" : 0,
+        "trans_text" : "Pyrowyrm Fang"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd1c",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 9,
+        "raw" : ["d6", "db", "ba", "cb", "de", "c9", "b3", "c0", "00"],
+        "raw_text" : "よろこびのうた",
+        "alt_text" : "ヨロコビノウタ",
+        "trans_size" : 4,
+        "trans_text" : "Song"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd25",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 21,
+        "raw" : ["5c", "cc", "de", "d7", "af", "b8", "a5", "b8", "de", "db", "b0", "cc", "de", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
+        "raw_text" : "ブラック・グローブのデータ",
+        "alt_text" : "ぶらっく・ぐろ―ぶノで―た",
+        "trans_size" : 16,
+        "trans_text" : "Black Globe Data"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd3a",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 15,
+        "raw" : ["cc", "d9", "b2", "5c", "cb", "de", "c3", "de", "b5", "c3", "de", "a8", "bd", "b8", "00"],
+        "raw_text" : "ふるいビデオディスク",
+        "alt_text" : "フルイびでおでぃすく",
+        "trans_size" : 11,
+        "trans_text" : "Old AV Disc"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd49",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 14,
+        "raw" : ["5c", "47", "b3", "aa", "b0", "cc", "de", "5c", "c2", "b3", "bc", "dd", "b7", "00"],
+        "raw_text" : "Gウェーブつうしんき",
+        "alt_text" : "Gうぇ―ぶツウシンキ",
+        "trans_size" : 11,
+        "trans_text" : "G-Wave Comm"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd57",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 10,
+        "raw" : ["b8", "db", "b2", "5c", "b7", "ad", "b0", "cc", "de", "00"],
+        "raw_text" : "くろいキューブ",
+        "alt_text" : "クロイきゅ―ぶ",
+        "trans_size" : 9,
+        "trans_text" : "BlackCube"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd61",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 16,
+        "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "31", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
+        "raw_text" : "モニュメント1のデータ",
+        "alt_text" : "もにゅめんと1ノで―た",
+        "trans_size" : 10,
+        "trans_text" : "Monument 1"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd71",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 16,
+        "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "32", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
+        "raw_text" : "モニュメント2のデータ",
+        "alt_text" : "もにゅめんと2ノで―た",
+        "trans_size" : 10,
+        "trans_text" : "Monument 2"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd81",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 16,
+        "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "33", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
+        "raw_text" : "モニュメント3のデータ",
+        "alt_text" : "もにゅめんと3ノで―た",
+        "trans_size" : 10,
+        "trans_text" : "Monument 3"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cd91",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 16,
+        "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "34", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
+        "raw_text" : "モニュメント4のデータ",
+        "alt_text" : "もにゅめんと4ノで―た",
+        "trans_size" : 10,
+        "trans_text" : "Monument 4"
+    },
+
+    {
+        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_start" : "0x1cda1",
+        "method" : 3,
+        "start_bytes" : [],
+        "end_bytes" : ["00"],
+        "raw_size" : 1,
+        "raw" : ["00"],
+        "raw_text" : "",
+        "alt_text" : "",
+        "trans_size" : 0,
+        "trans_text" : ""
+    }
+]}

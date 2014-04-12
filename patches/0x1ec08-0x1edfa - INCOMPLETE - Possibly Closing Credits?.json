@@ -970,6 +970,10 @@
         "raw" : ["5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "ca", "20"],
         "raw_text" : "ソ‐ドフィッシュは",
         "alt_text" : "そ―どふぃっしゅハ",
+        "snes_size" : 25,
+        "snes-j" : "MICA「こちら ソードフィッシュ。」",
+        "snes-e" : "Mica: This is Swordfish. ",
+        "accuracy" : 0.636363636364,
         "trans_size" : 0,
         "trans_text" : ""
     },

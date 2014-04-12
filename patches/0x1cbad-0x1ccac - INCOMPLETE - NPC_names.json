@@ -2,7 +2,7 @@
 "block_description" : "NPC character names.",
 "block_start" : "0x1cbad",
 "block_end" : "0x1ccac",
-"insert_method" : 2,
+"insert_method" : 1,
 "data" : [
     {
         "string_description" : "NPC character names.",
@@ -40,7 +40,7 @@
         "raw" : ["5c", "b7", "d8", "00"],
         "raw_text" : "キリ",
         "trans_size" : 4,
-        "trans_text" : "Kiri"
+        "trans_text" : "Kir"
     },
 
     {
@@ -118,7 +118,7 @@
         "raw" : ["4d", "49", "43", "41", "00"],
         "raw_text" : "MICA",
         "trans_size" : 4,
-        "trans_text" : "Mica"
+        "trans_text" : "MICA"
     },
 
     {
@@ -262,7 +262,7 @@
         "raw" : ["5c", "ca", "de", "af", "b8", "b1", "af", "cc", "df", "d2", "d3", "d8", "00"],
         "raw_text" : "バックアップメモリ",
         "trans_size" : 9,
-        "trans_text" : "BackupRAM"
+        "trans_text" : "Backup"
     },
 
     {
@@ -290,7 +290,7 @@
         "raw_text" : "だいとうりょう",
         "alt_text" : "ダイトウリョウ",
         "trans_size" : 9,
-        "trans_text" : "President"
+        "trans_text" : "Pres."
     },
 
     {
@@ -304,7 +304,7 @@
         "raw_text" : "だいとうりょうふじん",
         "alt_text" : "ダイトウリョウフジン",
         "trans_size" : 10,
-        "trans_text" : "First Lady"
+        "trans_text" : "Consort"
     },
 
     {
@@ -412,7 +412,7 @@
         "raw" : ["5c", "bc", "d8", "ba", "dd", "5c", "be", "b2", "cc", "de", "c2", "00"],
         "raw_text" : "シリコンせいぶつ",
         "alt_text" : "しりこんセイブツ",
-        "trans_size" : 7,
+        "trans_size" : 16,
         "trans_text" : "Silicon"
     },
 

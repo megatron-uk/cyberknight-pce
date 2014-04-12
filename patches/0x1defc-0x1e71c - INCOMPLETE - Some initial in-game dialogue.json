@@ -517,7 +517,7 @@
         "raw_text" : "<Doctor>『<pause><14>お・<pause><14>は・<pause><14>よ・ <pause><<07>゜おめざめ いかが?』<wait>",
         "alt_text" : "<Doctor>『<pause><14>オ・<pause><14>ハ・<pause><14>ヨ・ <pause><<07>゜オメザメ イカガ?』<wait>",
         "trans_size" : 42,
-        "trans_text" : ":<04><14>3―<04><14>2―<04><14>1 are you ok?"
+        "trans_text" : ":<04><14>3-<04><14>2-<04><14>1 are you ok?"
     },
 
     {
@@ -531,7 +531,7 @@
         "raw_text" : "<Doctor>『<pause><14>お・<pause><14>は・<pause><14>よ・ <pause><<07>゜おめざめ いかが?』<wait>",
         "alt_text" : "<Doctor>『<pause><14>オ・<pause><14>ハ・<pause><14>ヨ・ <pause><<07>゜オメザメ イカガ?』<wait>",
         "trans_size" : 42,
-        "trans_text" : ":<04><14>3―<04><14>2―<04><14>1 are you ok?"
+        "trans_text" : ":<04><14>3-<04><14>2-<04><14>1 are you ok?"
     },
 
     {
@@ -545,7 +545,7 @@
         "raw_text" : "<Doctor>『<pause><14>お・<pause><14>は・<pause><14>よ・ <pause><<07>゜おめざめ いかが?』<wait>",
         "alt_text" : "<Doctor>『<pause><14>オ・<pause><14>ハ・<pause><14>ヨ・ <pause><<07>゜オメザメ イカガ?』<wait>",
         "trans_size" : 42,
-        "trans_text" : ":<04><14>3―<04><14>2―<04><14>1 are you ok?"
+        "trans_text" : ":<04><14>3-<04><14>2-<04><14>1 are you ok?"
     },
 
     {
@@ -2073,7 +2073,7 @@
         "raw_text" : "<13><kanji>gハンドミサイル<13>:g",
         "alt_text" : "<13><kanji>gはんどみさいる<13>:g",
         "trans_size" : 9,
-        "trans_text" : "Missile―H"
+        "trans_text" : "Missile-H"
     },
 
     {
@@ -2087,7 +2087,7 @@
         "raw_text" : "<13><kanji>gマルチミサイルポッド<13>:g",
         "alt_text" : "<13><kanji>gまるちみさいるぽっど<13>:g",
         "trans_size" : 13,
-        "trans_text" : "M―Pod (Multi)"
+        "trans_text" : "M-Pod (Multi)"
     },
 
     {

@@ -24,7 +24,12 @@ PASS_NUMBER = 1
 FUZZY_LEVELS = {
 	"1" : { 'FUZZY_LIMIT' : 0.70, 'FUZZY_BEST_LIMIT' : 0.79 },
 	"2" : { 'FUZZY_LIMIT' : 0.69, 'FUZZY_BEST_LIMIT' : 0.75 },
-	"3" : { 'FUZZY_LIMIT' : 0.60, 'FUZZY_BEST_LIMIT' : 0.65 }
+	"3" : { 'FUZZY_LIMIT' : 0.60, 'FUZZY_BEST_LIMIT' : 0.65 },
+	"4" : { 'FUZZY_LIMIT' : 0.55, 'FUZZY_BEST_LIMIT' : 0.60 },
+	"5" : { 'FUZZY_LIMIT' : 0.50, 'FUZZY_BEST_LIMIT' : 0.55 },
+	"6" : { 'FUZZY_LIMIT' : 0.45, 'FUZZY_BEST_LIMIT' : 0.50 },
+	"7" : { 'FUZZY_LIMIT' : 0.40, 'FUZZY_BEST_LIMIT' : 0.45 },
+	"8" : { 'FUZZY_LIMIT' : 0.35, 'FUZZY_BEST_LIMIT' : 0.40 }
 }
 # The limit at which best matches are auto selected
 # At lower than this level, the user is prompted
@@ -103,7 +108,7 @@ BYTES = [
 	# just use this one for looking at all strings - not a good way of translating
 	# that are some sections use different delimiters, handy to scan through
 	# looking for possible dialogue though...
-	(METHOD_3, 0x1defc, 0x1e71c , METHOD_SIMPLE, "test", "\x00"),
+	(METHOD_3, 0x1400c, 0x1b8d6 , METHOD_SIMPLE, "test", "\x08"),
 	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
 	
 	# interesting sections of the rom...	

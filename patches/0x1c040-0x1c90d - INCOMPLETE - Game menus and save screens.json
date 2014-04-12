@@ -211,7 +211,7 @@
         "raw_text" : "すすむ",
         "alt_text" : "ススム",
         "trans_size" : 2,
-        "trans_text" : "―>"
+        "trans_text" : "->"
     },
 
     {
@@ -225,7 +225,7 @@
         "raw_text" : "もどす",
         "alt_text" : "モドス",
         "trans_size" : 2,
-        "trans_text" : "<―"
+        "trans_text" : "<-"
     },
 
     {
@@ -853,13 +853,13 @@
         "string_start" : "0x1c3f1",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 20,
         "raw" : ["10", "ff", "ca", "20", "5c", "c4", "de", "b8", "c0", "b0", "bd", "b7", "d9", "5c", "b6", "de", "c5", "b2", "08", "00"],
         "raw_text" : "<10>゜は ドクタ‐スキルがない<wait>",
         "alt_text" : "<10>゜ハ どくた―すきるガナイ<wait>",
         "trans_size" : 17,
-        "trans_text" : "No med. skill<08>"
+        "trans_text" : "No med. skill"
     },
 
     {
@@ -867,13 +867,13 @@
         "string_start" : "0x1c405",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 25,
         "raw" : ["5c", "b7", "ad", "b1", "b7", "af", "c4", "5c", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "c1", "d8", "ae", "b3", "cc", "c9", "b3", "08", "00"],
         "raw_text" : "キュアキットがないので ちりょうふのう<wait>",
         "alt_text" : "きゅおきっとガナイノデ チリョウフノウ<wait>",
         "trans_size" : 23,
-        "trans_text" : "No Medkit available<08>"
+        "trans_text" : "No Medkit available"
     },
 
     {
@@ -881,13 +881,13 @@
         "string_start" : "0x1c41e",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 20,
         "raw" : ["18", "dd", "2d", "22", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "b6", "b2", "cc", "b8", "bc", "c0", "08", "00"],
         "raw_text" : "<18>ん―“ポイント かいふくした<wait>",
         "alt_text" : "<18>ン―“ぽいんと カイフクシタ<wait>",
         "trans_size" : 22,
-        "trans_text" : "<18>pts recovered!<08>"
+        "trans_text" : "<18>pts recovered!"
     },
 
     {

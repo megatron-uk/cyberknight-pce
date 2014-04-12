@@ -29,7 +29,7 @@
         "raw_text" : " ---- --:--:--.--:--\n",
         "alt_text" : " ---- --:--:--.--:--\n",
         "trans_size" : 20,
-        "trans_text" : " ---- --:--:--.--:--"
+        "trans_text" : ""
     },
 
     {
@@ -57,6 +57,6 @@
         "raw_text" : "123456789ABCDEF0123456789ABCDEF<01>",
         "alt_text" : "123456789ABCDEF0123456789ABCDEF<01>",
         "trans_size" : 31,
-        "trans_text" : "123456789ABCDEF0123456789ABCDEF"
+        "trans_text" : ""
     }
 ]}
