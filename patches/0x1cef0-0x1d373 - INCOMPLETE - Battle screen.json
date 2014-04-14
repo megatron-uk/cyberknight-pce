@@ -337,8 +337,7 @@
         "raw_text" : "<06><1B><10>゜<09><pause>は コンバットスキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ こんばっとすきるガ れべる<18>ンー",
         "trans_size" : 17,
-        "trans_text_" : " Combat skill now ",
-	"trans_text" : ""
+        "trans_text" : " Combat skill now "
     },
 
     {
@@ -356,8 +355,7 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level ",
-	"trans_text" : ""
+        "trans_text" : "is now level "
     },
 
     {
@@ -375,8 +373,7 @@
         "snes-e" : " doesn't have\nany mechanic skills!",
         "accuracy" : 0.666666666667,
         "trans_size" : 18,
-        "trans_text" : "Tech skill is now ",
-	"trans_text" : ""
+        "trans_text" : "Tech skill is now "
     },
 
     {
@@ -394,8 +391,7 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level ",
-	"trans_text" : ""
+        "trans_text" : "is now level "
     },
 
     {
@@ -413,8 +409,7 @@
         "snes-e" : " doesn't have\nany medic skills!",
         "accuracy" : 0.666666666667,
         "trans_size" : 18,
-        "trans_text" : "Med. skill is now ",
-	"trans_text" : ""
+        "trans_text" : "Med. skill is now "
     },
 
     {
@@ -432,8 +427,7 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level ",
-	"trans_text" : ""
+        "trans_text" : "is now level "
     },
 
     {
@@ -447,8 +441,7 @@
         "raw_text" : "<06><1B><10>゜<09><pause>は サイエンススキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ さいえんすすきるガ れべる<18>ンー",
         "trans_size" : 18,
-        "trans_text" : "Sci. skill is now ",
-	"trans_text" : ""
+        "trans_text" : "Sci. skill is now "
     },
 
     {
@@ -466,8 +459,7 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level ",
-	"trans_text" : ""
+        "trans_text" : "is now level "
     },
 
     {

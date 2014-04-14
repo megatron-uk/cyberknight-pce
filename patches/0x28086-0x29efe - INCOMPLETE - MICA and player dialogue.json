@@ -8,7 +8,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28086",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4f", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 60,
         "raw" : ["1a", "4f", "10", "30", "a2", "cb", "ae", "b3", "d2", "dd", "b5", "dd", "c4", "de", "20", "31", "30", "30", "30", "20", "df", "43", "20", "b2", "bc", "de", "ae", "b3", "a1", "03", "d6", "b3", "b6", "de", "dd", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "03", "c3", "de", "bd", "a1", "a3", "08", "00"],
@@ -19,14 +19,14 @@
         "snes-e" : "Mica: Surface temp\nis over 1000C. A\nsmall planet \ncovered in magma. ",
         "accuracy" : 0.752688172043,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Surface temp is 1000C.\nSmall planet \ncovered by lava."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x280c2",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4f", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 56,
         "raw" : ["1a", "4f", "10", "30", "a2", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "cb", "ae", "b3", "d2", "dd", "ca", "03", "ba", "b3", "b5", "dd", "c3", "de", "20", "c0", "b2", "b7", "d3", "20", "d0", "bd", "de", "d3", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08", "00"],
@@ -37,14 +37,14 @@
         "snes-e" : "Mica: A small planet. \nThe surface has a\nhigh temperature. \nThere is no water. ",
         "accuracy" : 0.926829268293,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A small planet.\nHigh temperature and\n no water."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x280fa",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4d", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 40,
         "raw" : ["1a", "4d", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
@@ -55,7 +55,7 @@
         "snes-e" : "Mica: A planet covered\nwith toxic gases. ",
         "accuracy" : 0.928571428571,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A planet covered\nwith toxic gases."
     },
 
     {
@@ -76,7 +76,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28153",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4f", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 61,
         "raw" : ["1a", "4f", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "c6", "c0", "20", "b5", "b5", "b7", "bb", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "bc", "b6", "bc", "20", "be", "b2", "d2", "b2", "ca", "20", "bf", "dd", "bb", "de", "b2", "be", "bd", "de", "20", "bb", "dd", "bf", "d3", "03", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
@@ -87,14 +87,14 @@
         "snes-e" : "Mica: Looks similar to\nEarth but no life-\nenergy is detected. \nThere is no oxygen. ",
         "accuracy" : 0.785714285714,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Similar to\nEarth but a dead world.\nThere is no oxygen."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28190",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4f", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 58,
         "raw" : ["1a", "4f", "10", "30", "a2", "bb", "ca", "de", "b8", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b6", "c4", "b3", "c5", "20", "bc", "ae", "b8", "cc", "de", "c2", "bc", "b6", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "c5", "b2", "d6", "b3", "c3", "de", "bd", "a1", "a3", "08", "00"],
@@ -105,14 +105,14 @@
         "snes-e" : "Mica: A desert planet. \nSeems like it's home to\nonly a low-level class\nof creature. ",
         "accuracy" : 0.928571428571,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Desert planet.\nHome to a low-level\n insectoid race."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x281ca",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4d", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 35,
         "raw" : ["1a", "4d", "10", "30", "a2", "bc", "ae", "b3", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "ca", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08", "00"],
@@ -123,14 +123,14 @@
         "snes-e" : "Mica: A small planet. ",
         "accuracy" : 0.92,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A small planet."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x281ed",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4d", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 56,
         "raw" : ["1a", "4d", "10", "30", "a2", "b5", "b5", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "20", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "a4", "bd", "b2", "bf", "c4", "20", "5c", "cd", "d8", "b3", "d1", "5c", "c3", "de", "bd", "a1", "a3", "08", "00"],
@@ -141,14 +141,14 @@
         "snes-e" : "Mica: A large gas giant;\nmainly hydrogen and\nhelium. ",
         "accuracy" : 0.906666666667,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A large gas giant:\nmainly hydrogen and\nhelium."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28225",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4d", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 54,
         "raw" : ["1a", "4d", "10", "30", "a2", "c1", "ad", "b3", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "ba", "b5", "d8", "c9", "20", "c2", "cc", "de", "c3", "de", "c3", "de", "b7", "c0", "20", "dc", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "a3", "08", "00"],
@@ -159,14 +159,14 @@
         "snes-e" : "Mica: A medium-sized gas\ngiant surrounded by a\nring of ice fragments. ",
         "accuracy" : 0.911764705882,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Medium gas giant.\nHas a ring of\nice fragments."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2825b",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4c", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 33,
         "raw" : ["1a", "4c", "10", "30", "a2", "ba", "b6", "de", "c0", "c3", "de", "20", "c3", "b2", "b5", "dd", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a3", "08", "00"],
@@ -177,14 +177,14 @@
         "snes-e" : "Mica: A small gas giant. \nTemperature relatively\nlow. ",
         "accuracy" : 0.918918918919,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A smaller gas giant."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2827c",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4d", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 40,
         "raw" : ["1a", "4d", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
@@ -195,7 +195,7 @@
         "snes-e" : "Mica: Since it's far\nfrom the sun it is\nsurrounded by ice. ",
         "accuracy" : 0.915254237288,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":With no heat\nand enclosed by ice."
     },
 
     {
@@ -272,7 +272,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x282c6",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "48", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "c3", "de", "b7", "d9", "20", "ca", "de", "bc", "ae", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a3", "08", "00"],
@@ -283,14 +283,14 @@
         "snes-e" : "Mica: There is no place\nto land. ",
         "accuracy" : 0.684210526316,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":No place to land."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x282e4",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "48", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 31,
         "raw" : ["1a", "48", "10", "30", "a2", "d8", "b8", "c1", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "c1", "ac", "b8", "d8", "b8", "20", "c3", "de", "b7", "cf", "be", "dd", "a3", "08", "00"],
@@ -301,14 +301,14 @@
         "snes-e" : "Mica: Landing is impossible;\nthere's no place to do so. ",
         "accuracy" : 0.923076923077,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Landing is impossible."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28303",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "48", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "bd", "d9", "20", "d8", "d5", "b3", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
@@ -319,14 +319,14 @@
         "snes-e" : "Mica: We have no reason to\nland there. ",
         "accuracy" : 0.888888888889,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":No reason to land here"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2831f",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "48", "10", "30"],
         "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "20", "cc", "b6", "c9", "b3", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
@@ -337,14 +337,14 @@
         "snes-e" : "Mica: Unable to land\nthere. ",
         "accuracy" : 0.774193548387,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Unable to land\nthere."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2833b",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "51", "10", "30"],
         "end_bytes" : ["08"],
         "raw_size" : 112,
         "raw" : ["1a", "51", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "20", "c6", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "20", "bb", "dd", "bf", "20", "c1", "af", "bf", "20", "c5", "c4", "de", "c3", "de", "a4", "ba", "b7", "ad", "b3", "03", "b6", "c9", "b3", "a1", "cb", "ae", "b3", "d2", "dd", "c9", "20", "36", "30", "5c", "ca", "df", "b0", "be", "dd", "c4", "5c", "ca", "03", "b3", "d0", "c3", "de", "a4", "c0", "b2", "d8", "b8", "c6", "ca", "20", "d3", "d8", "c4", "20", "bf", "b3", "b9", "de", "dd", "b6", "de", "03", "cb", "db", "b6", "de", "af", "c3", "b2", "cf", "bd", "a1", "a3", "08"],
@@ -355,14 +355,14 @@
         "snes-e" : "Mica: The planet seems to\nbe similar to Earth. \nOxygen is present 60%\nof the surface is ocean \nand there are forests and\nplains on the ground. ",
         "accuracy" : 0.885057471264,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":The planet is similar\nto Earth. Atmosphere and\ntemp are OK. There are\noceans and land masses."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x283ab",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "30"],
         "end_bytes" : ["08"],
         "raw_size" : 59,
         "raw" : ["0c", "10", "30", "a2", "b7", "c0", "ca", "dd", "b7", "ad", "b3", "c6", "20", "c1", "b2", "bb", "c5", "20", "c4", "bc", "b6", "de", "b1", "d8", "03", "c6", "dd", "b9", "de", "dd", "c4", "20", "b5", "d3", "dc", "da", "d9", "20", "be", "b2", "d2", "b2", "c0", "b2", "c9", "03", "ca", "dd", "c9", "b3", "b6", "de", "20", "b1", "d8", "cf", "bd", "a3", "08"],
@@ -373,14 +373,14 @@
         "snes-e" : "Mica: There seems to be a\ncity in the north. Human-\nlike life energy detected..",
         "accuracy" : 0.881720430108,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":There is a city to\nthe north. Humanoid life\ndetected."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x283e7",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1b", "01", "1a", "4e", "10", "2d"],
         "end_bytes" : ["08"],
         "raw_size" : 26,
         "raw" : ["1b", "01", "1a", "4e", "10", "2d", "a2", "d0", "c4", "de", "d8", "c9", "ce", "bc", "3b", "3b", "3b", "3b", "b3", "c2", "b8", "bc", "b2", "dc", "a3", "08"],
@@ -391,14 +391,14 @@
         "snes-e" : "Nehjena: A green planet... \nhow beautiful. ",
         "accuracy" : 0.848484848485,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":How beautiful..."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28401",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "52", "10", "29"],
         "end_bytes" : ["08"],
         "raw_size" : 32,
         "raw" : ["1a", "52", "10", "29", "a2", "ba", "c9", "ce", "bc", "c6", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "b6", "de", "20", "b2", "d9", "af", "c3", "c9", "03", "b6", "b2", "3f", "a3", "08"],
@@ -409,14 +409,14 @@
         "snes-e" : "Klein: Are you saying\nthere're aliens on\nthis planet? ",
         "accuracy" : 0.904761904762,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Is there alien life\nhere?"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28421",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1b", "02", "1a", "53", "10", "2b"],
         "end_bytes" : ["08"],
         "raw_size" : 52,
         "raw" : ["1b", "02", "1a", "53", "10", "2b", "a2", "b2", "d4", "a4", "bc", "de", "ae", "b3", "b8", "b3", "b6", "d7", "c9", "20", "b6", "dd", "bf", "b8", "c3", "de", "ca", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "20", "c6", "dd", "b9", "de", "dd", "c9", "d6", "b3", "c0", "de", "a3", "08"],
@@ -427,14 +427,14 @@
         "snes-e" : "Shine: No they seem\nto be humans much\nlike us. ",
         "accuracy" : 0.891891891892,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":No they seem\nto be human, much like us."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28455",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "52", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 33,
         "raw" : ["1a", "52", "10", "2c", "a2", "ba", "dd", "c5", "c4", "ba", "db", "c6", "20", "c6", "dd", "b9", "de", "dd", "b6", "de", "3f", "03", "bc", "dd", "bc", "de", "d7", "da", "c5", "b2", "c5", "a3", "08"],
@@ -445,14 +445,14 @@
         "snes-e" : "Vynd: That's hard to\nbelieve. ",
         "accuracy" : 0.893617021277,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":That's hard to\nbelieve."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28476",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1b", "01", "1a", "55", "10", "2a"],
         "end_bytes" : ["08"],
         "raw_size" : 87,
         "raw" : ["1b", "01", "1a", "55", "10", "2a", "a2", "bf", "b3", "c5", "dd", "bc", "c0", "20", "b3", "c1", "ad", "b3", "be", "dd", "c9", "20", "5c", "b8", "d9", "b0", "5c", "c9", "20", "bc", "bf", "dd", "03", "b6", "d3", "20", "bc", "da", "c5", "b2", "dc", "a1", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "d6", "b3", "c6", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c3", "de", "03", "c4", "ca", "de", "bb", "da", "c0", "c9", "b6", "d3", "3b", "3b", "3b", "3b", "a3", "08"],
@@ -463,28 +463,28 @@
         "snes-e" : "Kiri: Maybe they had a\nproblem with warping \nlike us... ",
         "accuracy" : 0.897637795276,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Maybe they had a\njump-drive problem,\nlike us..."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x284cd",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1b", "01", "1a", "52", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 24,
         "raw" : ["1b", "01", "1a", "52", "10", "2c", "a2", "c5", "dd", "c6", "bc", "c3", "d3", "a4", "5c", "d7", "af", "b7", "b0", "5c", "c0", "de", "a3", "08"],
         "raw_text" : "<1B><extralineofdialoguewindow><1A>R<10>,『なんにしても、ラッキ‐だ』",
         "alt_text" : "<1B><extralineofdialoguewindow><1A>R<10>,『ナンニシテモ、らっき―ダ』",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Hey!! ..."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x284e5",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 50,
         "raw" : ["0c", "10", "2c", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "20", "bc", "ad", "b3", "d8", "c6", "03", "b7", "ae", "b3", "d8", "ae", "b8", "20", "bc", "c3", "b8", "da", "d9", "b6", "d3", "20", "bc", "da", "c5", "b2", "a3", "08"],
@@ -495,14 +495,14 @@
         "snes-e" : "Vynd: Anyway we're in luck. \nThey might help us repair\nthe Jump Drive!",
         "accuracy" : 0.741573033708,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":They might repair\n our Jump-drive!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28517",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["19", "53", "10", "2b"],
         "end_bytes" : ["08"],
         "raw_size" : 56,
         "raw" : ["19", "53", "10", "2b", "a2", "bf", "da", "ca", "20", "c9", "bf", "de", "d0", "b3", "bd", "c0", "de", "c5", "a1", "cc", "de", "dd", "d2", "b2", "c9", "5c", "da", "cd", "de", "d9", "5c", "ca", "03", "c1", "b7", "ad", "b3", "c9", "20", "32", "30", "be", "b2", "b7", "20", "c3", "b2", "c4", "de", "c9", "d6", "b3", "c0", "de", "a3", "08"],
@@ -513,14 +513,14 @@
         "snes-e" : "Shine: I doubt it... \nThey seem to have\nlate 1900s technology. ",
         "accuracy" : 0.864197530864,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Doubtful. They seem\nto have 20th Century tech."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2854f",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4e", "10", "2a"],
         "end_bytes" : ["08"],
         "raw_size" : 21,
         "raw" : ["1a", "4e", "10", "2a", "a2", "b5", "d8", "c3", "d0", "c3", "20", "c0", "bc", "b6", "d2", "c0", "b2", "dc", "c8", "a3", "08"],
@@ -531,14 +531,14 @@
         "snes-e" : "Kiri: We might as\nwell try....",
         "accuracy" : 0.896551724138,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":We should try!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28565",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "e4", "69", "03"],
         "end_bytes" : ["00"],
         "raw_size" : 62,
         "raw" : ["13", "e4", "69", "03", "a2", "d0", "c5", "d0", "ca", "dd", "b7", "ad", "b3", "c6", "20", "b7", "dd", "bf", "de", "b8", "c9", "20", "5c", "c4", "de", "b0", "d1", "5c", "a6", "03", "ca", "af", "b9", "dd", "bc", "cf", "bc", "c0", "a1", "cf", "c0", "de", "20", "b9", "dd", "bf", "de", "b3", "c1", "ad", "b3", "c4", "03", "b5", "d3", "dc", "da", "cf", "bd", "a3", "08", "00"],
@@ -549,7 +549,7 @@
         "snes-e" : "Mica: A dome was found\nunder construction on\nthe southern continent. ",
         "accuracy" : 0.903225806452,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A dome is under\nconstruction on\nthe southern continent."
     },
 
     {
@@ -570,7 +570,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x285a5",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "4e", "10", "29"],
         "end_bytes" : ["08"],
         "raw_size" : 18,
         "raw" : ["1a", "4e", "10", "29", "a2", "5c", "c4", "de", "b0", "d1", "5c", "c0", "de", "af", "c3", "3f", "a3", "08"],
@@ -581,14 +581,14 @@
         "snes-e" : "Klein: A dome? ",
         "accuracy" : 0.75,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A dome?"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x285b7",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "53", "10", "2b"],
         "end_bytes" : ["08"],
         "raw_size" : 40,
         "raw" : ["1a", "53", "10", "2b", "a2", "b3", "d1", "a4", "ba", "c9", "ce", "bc", "c9", "20", "c6", "dd", "b9", "de", "dd", "c9", "20", "c2", "b8", "af", "c0", "d3", "c9", "03", "c3", "de", "ca", "20", "c5", "b2", "d6", "b3", "c0", "de", "a3", "08"],
@@ -599,14 +599,14 @@
         "snes-e" : "Shine: It doesn't seem\nto be man-made... ",
         "accuracy" : 0.842105263158,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ": It doesn't seem\nman-made..."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x285df",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "52", "10", "2a"],
         "end_bytes" : ["08"],
         "raw_size" : 49,
         "raw" : ["1a", "52", "10", "2a", "a2", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "c9", "20", "b2", "af", "c3", "b2", "c0", "20", "c5", "bf", "de", "c9", "03", "5c", "db", "ce", "de", "af", "c4", "5c", "c4", "20", "b6", "dd", "b9", "b2", "20", "b1", "d9", "c9", "c3", "de", "ca", "3f", "a3", "08"],
@@ -617,14 +617,14 @@
         "snes-e" : "Kiri: Maybe it's related\nto those robots the\nPresident mentioned. ",
         "accuracy" : 0.909090909091,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Maybe it's related\nto those robots the\nPresident mentioned."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28610",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "57", "10", "28"],
         "end_bytes" : ["08"],
         "raw_size" : 31,
         "raw" : ["1a", "57", "10", "28", "a2", "bc", "d7", "cd", "de", "c3", "d0", "d9", "20", "cb", "c2", "d6", "b3", "b6", "de", "20", "b1", "d9", "b6", "d3", "03", "bc", "da", "dd", "c5", "a3", "08"],
@@ -635,14 +635,14 @@
         "snes-e" : ": We should\ncheck it out. ",
         "accuracy" : 0.837209302326,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":We should\ncheck it out."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28630",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "53", "10", "2a"],
         "end_bytes" : ["00"],
         "raw_size" : 54,
         "raw" : ["1a", "53", "10", "2a", "a2", "bc", "b6", "bc", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "b6", "de", "03", "ba", "dc", "da", "c3", "d9", "dd", "bc", "de", "ac", "a4", "c4", "de", "ba", "cd", "d3", "20", "b2", "b9", "cf", "be", "dd", "d6", "a3", "08", "00"],
@@ -653,7 +653,7 @@
         "snes-e" : "Vynd: But our Jump Drive's\nbroken... We can't go\nanywhere... ",
         "accuracy" : 0.853333333333,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":The Jump-drive's\nbroken: we can't go\nanywhere!"
     },
 
     {
@@ -674,7 +674,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28668",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "55", "10", "2a"],
         "end_bytes" : ["08"],
         "raw_size" : 86,
         "raw" : ["1a", "55", "10", "2a", "a2", "bf", "b3", "c0", "de", "dc", "21", "04", "3c", "03", "b1", "c9", "20", "b7", "ae", "b3", "bc", "de", "ad", "b6", "de", "20", "b2", "af", "c3", "b2", "c0", "c3", "de", "bc", "ae", "b3", "a1", "03", "b1", "c9", "cf", "c1", "c9", "20", "b7", "c0", "c9", "20", "d3", "d8", "c9", "c5", "b6", "c6", "20", "b2", "d0", "dd", "be", "dd", "03", "5c", "d5", "b0", "db", "ca", "df", "5c", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "de", "20", "b1", "d9", "af", "c3", "a1", "a3", "08"],
@@ -685,14 +685,14 @@
         "snes-e" : "Kiri: Oh I know! That\nprofessor mentioned the\nwreckage of the Europa. ",
         "accuracy" : 0.727272727273,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Oh I know! That\nprofessor mentioned the\nwreckage of the Europa."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x286be",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "53", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 49,
         "raw" : ["1a", "53", "10", "2c", "a2", "d3", "bc", "b6", "bc", "c0", "d7", "20", "bf", "c9", "c5", "b6", "c6", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "03", "ba", "b2", "d9", "5c", "b6", "de", "20", "c9", "ba", "af", "c3", "b2", "d9", "b6", "d3", "bc", "da", "c5", "b2", "21", "a3", "08"],
@@ -703,14 +703,14 @@
         "snes-e" : "Vynd: Yeah! Maybe\nthere's a Monopole Coil\nin the wreckage!",
         "accuracy" : 0.820512820513,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Maybe there's\na Drive Coil in the\nwreckage!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x286ef",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "52", "10", "29"],
         "end_bytes" : ["08"],
         "raw_size" : 54,
         "raw" : ["1a", "52", "10", "29", "a2", "bc", "b6", "bc", "20", "32", "35", "30", "c8", "dd", "d3", "20", "cf", "b4", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "03", "c0", "de", "be", "de", "a1", "5c", "bb", "cb", "de", "5c", "c2", "b2", "c1", "cf", "af", "c3", "d9", "dd", "bc", "de", "ac", "c5", "b2", "b6", "3f", "a3", "08"],
@@ -721,14 +721,14 @@
         "snes-e" : "Klein: But it's 250\nyears old! Wouldn't it\nhave rusted by now? ",
         "accuracy" : 0.8,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":But it's ancient!\nWould it still function now?"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28725",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["19", "53", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 24,
         "raw" : ["19", "53", "10", "2c", "a2", "bc", "d7", "cd", "de", "c3", "d0", "c5", "b9", "d8", "ac", "20", "dc", "b6", "d7", "c5", "b2", "bb", "a3", "08"],
@@ -739,7 +739,7 @@
         "snes-e" : "Vynd: Well we have to try... ",
         "accuracy" : 0.909090909091,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":We have to try..."
     },
 
     {
