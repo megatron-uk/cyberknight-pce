@@ -10,19 +10,19 @@ English language translation status
 
   * Font lookup tables 99% (small number of control bytes and double height character codes unknown)
   * Initial game menus (start/load/save/audio settings) 100%
-  * Introductory cinematics 100%
+  * Introductory cinematics 90% (scrolling intro translated, but broken by expanded main game dialogue)
   * Shipboard menu navigation 100%
   * Weapon names and descriptions 100%
   * Mecha customisation screens 100%
-  * Battle screen menu and text 60% (all menus done, MICA 'analysis' and weapon effects to-do)
+  * Battle screen menu and text 90% (alignment/text length bugs to iron out)
   * Party stats/experience screen 100%
-  * NPC names 100% 
+  * NPC names 95% (3 or 4 names have length issues to resolve)
   * Enemy names 99% (one or two questionable names)
   * Doctor / Medbay dialogue 50%
   * Scientist / Lab dialogue 25%
   * Engineer / Hangar dialogue 50%
-  * Planetary scan details 0%
-  * Main, in-game story text 5% (75% of the first planet, FarWorld, translated)
+  * Planetary scan details 20%
+  * Main, in-game story text 15% (85% of the first planet, FarWorld, translated)
 
 How to use
 ==========
