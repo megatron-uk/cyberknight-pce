@@ -6,6 +6,8 @@ Translation tools and resources for the PC-Engine game Cyber Knight
 Status
 ======
 
+The game menu and initial intro screens are all translated and playable in English. The first game world (FarWorld), all monster names and most NPC names are also translated. The battle screen is mostly in English and all the menus in the game (ship/battle/overworld map) are all translated. The game can be played quite easily, but the game story is only partially done.
+
 English language translation status
 
   * Font lookup tables 99% (small number of control bytes and double height character codes unknown)
