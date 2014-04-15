@@ -316,14 +316,14 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1cfcf",
         "method" : 3,
-        "start_bytes" : ["10","ff","09","04"],
+        "start_bytes" : ["10","ff","09","04","20","17"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["10", "ff", "09", "04", "ca", "20", "17", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "b6", "b8", "c4", "b8", "bc", "c0", "a1", "00"],
         "raw_text" : "<10>゜<09><pause>は <17>ポイント かくとくした。",
         "alt_text" : "<10>゜<09><pause>ハ <17>ぽいんと カクトクシタ。",
         "trans_size" : 17,
-        "trans_text" : " <17> Exp. gained"
+	"trans_text" : " Exp. gained"
     },
 
     {
@@ -331,13 +331,13 @@
         "string_start" : "0x1cfe6",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["5c", "18", "dd", "2d","00"],
         "raw_size" : 32,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "ba", "dd", "ca", "de", "af", "c4", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は コンバットスキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ こんばっとすきるガ れべる<18>ンー",
         "trans_size" : 17,
-        "trans_text" : " Combat skill now "
+        "trans_text" : " Combat skill +"
     },
 
     {
@@ -355,7 +355,7 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level "
+        "trans_text" : "!"
     },
 
     {
@@ -363,17 +363,13 @@
         "string_start" : "0x1d00d",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["5c", "18", "dd", "2d", "00"],
         "raw_size" : 31,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "d2", "b6", "c6", "af", "b8", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は メカニックスキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ めかにっくすきるガ れべる<18>ンー",
-        "snes_size" : 34,
-        "snes-j" : "「は メカニックスキルが ない！」",
-        "snes-e" : " doesn't have\nany mechanic skills!",
-        "accuracy" : 0.666666666667,
         "trans_size" : 18,
-        "trans_text" : "Tech skill is now "
+        "trans_text" : "Tech skill now +"
     },
 
     {
@@ -391,7 +387,7 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level "
+        "trans_text" : "!"
     },
 
     {
@@ -399,7 +395,7 @@
         "string_start" : "0x1d033",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["5c", "18", "dd", "2d", "00"],
         "raw_size" : 32,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "d2", "c3", "de", "a8", "af", "b8", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は メディックスキルが レベル<18>んー",
@@ -409,7 +405,8 @@
         "snes-e" : " doesn't have\nany medic skills!",
         "accuracy" : 0.666666666667,
         "trans_size" : 18,
-        "trans_text" : "Med. skill is now "
+        "trans_text" : "Med. skill now +",
+	"trans_text" : ""
     },
 
     {
@@ -427,7 +424,8 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level "
+        "trans_text" : "is now level ",
+	"trans_text" : "!"
     },
 
     {
@@ -435,13 +433,14 @@
         "string_start" : "0x1d05a",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["5c", "18", "dd", "2d", "00"],
         "raw_size" : 31,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "bb", "b2", "b4", "dd", "bd", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は サイエンススキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ さいえんすすきるガ れべる<18>ンー",
         "trans_size" : 18,
-        "trans_text" : "Sci. skill is now "
+        "trans_text" : "Sci. skill now +",
+	"trans_text" : ""
     },
 
     {
@@ -459,7 +458,7 @@
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
         "trans_size" : 13,
-        "trans_text" : "is now level "
+	"trans_text" : "!"
     },
 
     {
@@ -690,7 +689,7 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d0fa",
         "method" : 3,
-        "start_bytes" : ["0b","07"],
+        "start_bytes" : ["0b","07","ff"],
         "end_bytes" : ["00"],
         "raw_size" : 17,
         "raw" : ["0b", "07", "ff", "1d", "0a", "d1", "f1", "00", "d6", "00", "ff", "d0", "fd", "da", "ee", "20", "00"],
@@ -872,7 +871,7 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d1e5",
         "method" : 3,
-        "start_bytes" : ["0b","02","18"],
+        "start_bytes" : ["0b","02","18","20","10","ff"],
         "end_bytes" : ["00"],
         "raw_size" : 14,
         "raw" : ["0b", "02", "18", "20", "10", "ff", "a6", "20", "c0", "b5", "bc", "c0", "21", "00"],
@@ -890,7 +889,7 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d1f3",
         "method" : 3,
-        "start_bytes" : ["0b","08","17","20","10"],
+        "start_bytes" : ["0b","08","17","20","10","ff"],
         "end_bytes" : ["00"],
         "raw_size" : 18,
         "raw" : ["0b", "08", "17", "20", "10", "ff", "ca", "20", "bc", "dd", "c3", "de", "bc", "cf", "af", "c0", "21", "00"],
@@ -908,7 +907,7 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d205",
         "method" : 3,
-        "start_bytes" : ["0b", "08", "19", "20", "10"],
+        "start_bytes" : ["0b", "08", "19", "20", "10", "ff"],
         "end_bytes" : ["00"],
         "raw_size" : 20,
         "raw" : ["0b", "08", "19", "20", "10", "ff", "ca", "20", "ca", "b6", "b2", "bb", "da", "c3", "bc", "cf", "af", "c0", "21", "00"],
@@ -1254,12 +1253,8 @@
         "raw" : ["0d", "03", "0e", "02", "10", "ff", "ca", "20", "ce", "de", "b3", "b7", "de", "ae", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "a6", "20", "ca", "af", "c0", "a1", "02", "00"],
         "raw_text" : "<pad>\n<0E>\n<10>゜は ぼうぎょフィールドを はった。\n",
         "alt_text" : "<pad>\n<0E>\n<10>゜ハ ボウギョふぃ―るどヲ ハッタ。\n",
-        "snes_size" : 15,
-        "snes-j" : "は ぼうぎょしている。",
-        "snes-e" : " is defending. ",
-        "accuracy" : 0.461538461538,
         "trans_size" : 0,
-        "trans_text" : " is defending"
+        "trans_text" : ""
     },
 
     {
