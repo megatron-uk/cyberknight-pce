@@ -8,24 +8,10 @@
         "string_description" : "Shipboard menus 2?",
         "string_start" : "0x1e71c",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Shipboard menus 2?",
-        "string_start" : "0x1e71d",
-        "method" : 3,
-        "start_bytes" : ["10","34"],
+        "start_bytes" : ["00", "10","34"],
         "end_bytes" : ["00"],
         "raw_size" : 29,
-        "raw" : ["10", "34", "a2", "cc", "de", "dd", "be", "b7", "20", "b6", "dd", "d8", "ae", "b3", "21", "03", "0f", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "d7", "03", "00"],
+        "raw" : ["00", "00", "10", "34", "a2", "cc", "de", "dd", "be", "b7", "20", "b6", "dd", "d8", "ae", "b3", "21", "03", "0f", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "d7", "03", "00"],
         "raw_text" : "<PROFESSOR>『ぶんせき かんりょう!\n<0F>の ざんがいから\n",
         "alt_text" : "<PROFESSOR>『ブンセキ カンリョウ!\n<0F>ノ ザンガイカラ\n",
         "trans_size" : 25,
@@ -43,7 +29,7 @@
         "raw_text" : " を かいはつした。\nただちに せいぞうに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nタダチニ セイゾウニ トリカカロウ。』<wait>",
         "trans_size" : 32,
-        "trans_text" : " is now\navailable for us to use!"
+        "trans_text" : " is now ready\nfor us to use!"
     },
 
     {
@@ -57,7 +43,7 @@
         "raw_text" : " を かいはつした。\nモジュ‐ルの たいきゅうりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nもじゅ―るノ タイキュウリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 66,
-        "trans_text" : " is available.\nIt can boost mecha\ndurability - lets put it\nto use!"
+        "trans_text" : " is now completed.\nIt will boost all Mecha\ndurability ratings."
     },
 
     {
@@ -71,7 +57,7 @@
         "raw_text" : " を かいはつした。\nインパクトへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nいんぱくとヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is available.\nIt will increase Impact weapon\ndamage! "
     },
 
     {
@@ -85,7 +71,7 @@
         "raw_text" : " を かいはつした。\nインパクトへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nいんぱくとヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is ready.\nThis will increase Impact weapon\naccuracy."
     },
 
     {
@@ -99,7 +85,7 @@
         "raw_text" : " を かいはつした。\nレ‐ザ‐へいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nれ―ざ―ヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is now available.\nThis will boost Laser weapon\ndamage! "
     },
 
     {
@@ -113,7 +99,7 @@
         "raw_text" : " を かいはつした。\nレ‐ザ‐へいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nれ―ざ―ヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is ready.\nThis will increase all Laser\nweapons accuracy."
     },
 
     {
@@ -127,7 +113,7 @@
         "raw_text" : " を かいはつした。\nビ‐ムへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nび―むヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is now available.\nThis will boost Beam weapon\ndamage! "
     },
 
     {
@@ -141,7 +127,7 @@
         "raw_text" : " を かいはつした。\nビ‐ムへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nび―むヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is ready.\nThis will increase all Beam\nweapons accuracy."
     },
 
     {
@@ -155,7 +141,7 @@
         "raw_text" : " を かいはつした。\nヒ‐トへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nひ―とヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is now available.\nThis will boost Heat weapon\ndamage!"
     },
 
     {
@@ -169,7 +155,7 @@
         "raw_text" : " を かいはつした。\nヒ‐トへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nひ―とヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is ready.\nThis will increase all Heat\nweapons accuracy."
     },
 
     {
@@ -183,7 +169,7 @@
         "raw_text" : " を かいはつした。\nミサイルへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nみさいるヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is now available.\nThis will boost our\nMissile weapon damage!"
     },
 
     {
@@ -197,7 +183,7 @@
         "raw_text" : " を かいはつした。\nミサイルへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nみさいるヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is ready.\nThis will increase all\nMissile weapon accuracy."
     },
 
     {
@@ -211,6 +197,6 @@
         "raw_text" : " を かいはつした。\nモジュ‐ルの そうこうちを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nもじゅ―るノ ソウコウチヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is now completed.\nThis will upgrade Mecha\nagility."
     }
 ]}
