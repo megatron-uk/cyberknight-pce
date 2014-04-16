@@ -237,26 +237,12 @@
         "string_start" : "0x1cd91",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00"],
         "raw_size" : 16,
         "raw" : ["5c", "d3", "c6", "ad", "d2", "dd", "c4", "34", "5c", "c9", "5c", "c3", "de", "b0", "c0", "00"],
         "raw_text" : "モニュメント4のデータ",
         "alt_text" : "もにゅめんと4ノで―た",
         "trans_size" : 10,
         "trans_text" : "Monument 4"
-    },
-
-    {
-        "string_description" : "Item names, enemy names, battle screen menus",
-        "string_start" : "0x1cda1",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
     }
 ]}

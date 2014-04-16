@@ -23,13 +23,13 @@
         "string_start" : "0x1eb0a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -37,13 +37,13 @@
         "string_start" : "0x1eb0b",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -51,13 +51,13 @@
         "string_start" : "0x1eb0c",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -149,13 +149,13 @@
         "string_start" : "0x1eb6f",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -163,13 +163,13 @@
         "string_start" : "0x1eb70",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -177,13 +177,13 @@
         "string_start" : "0x1eb71",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -191,13 +191,13 @@
         "string_start" : "0x1eb72",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -205,13 +205,13 @@
         "string_start" : "0x1eb73",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -219,13 +219,13 @@
         "string_start" : "0x1eb74",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -233,13 +233,13 @@
         "string_start" : "0x1eb75",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -247,13 +247,13 @@
         "string_start" : "0x1eb76",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -261,13 +261,13 @@
         "string_start" : "0x1eb77",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -275,13 +275,13 @@
         "string_start" : "0x1eb78",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -289,13 +289,13 @@
         "string_start" : "0x1eb79",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -303,13 +303,13 @@
         "string_start" : "0x1eb7a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -317,13 +317,13 @@
         "string_start" : "0x1eb7b",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -331,13 +331,13 @@
         "string_start" : "0x1eb7c",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -345,27 +345,27 @@
         "string_start" : "0x1eb7d",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
         "string_description" : "Shipboard menus 3?",
         "string_start" : "0x1eb7e",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0b", "18", "08"],
         "end_bytes" : ["20"],
         "raw_size" : 11,
         "raw" : ["0b", "18", "08", "1d", "04", "9c", "bc", "9d", "bd", "3a", "20"],
         "raw_text" : "<0B><18><wait>EP:",
         "alt_text" : "<0B><18><wait>EP:",
         "trans_size" : 28,
-        "trans_text" : ""
+        "trans_text" : "EP:"
     },
 
     {
@@ -373,13 +373,13 @@
         "string_start" : "0x1eb89",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -387,13 +387,13 @@
         "string_start" : "0x1eb8a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -429,13 +429,13 @@
         "string_start" : "0x1ebae",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -443,13 +443,13 @@
         "string_start" : "0x1ebaf",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -457,13 +457,13 @@
         "string_start" : "0x1ebb0",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -471,13 +471,13 @@
         "string_start" : "0x1ebb1",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -499,13 +499,13 @@
         "string_start" : "0x1ebc0",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -513,13 +513,13 @@
         "string_start" : "0x1ebc1",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -527,13 +527,13 @@
         "string_start" : "0x1ebc2",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -541,13 +541,13 @@
         "string_start" : "0x1ebc3",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -569,13 +569,13 @@
         "string_start" : "0x1ebd2",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -583,13 +583,13 @@
         "string_start" : "0x1ebd3",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -597,13 +597,13 @@
         "string_start" : "0x1ebd4",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -611,13 +611,13 @@
         "string_start" : "0x1ebd5",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -639,13 +639,13 @@
         "string_start" : "0x1ebe4",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -653,13 +653,13 @@
         "string_start" : "0x1ebe5",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -667,13 +667,13 @@
         "string_start" : "0x1ebe6",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -681,13 +681,13 @@
         "string_start" : "0x1ebe7",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -709,13 +709,13 @@
         "string_start" : "0x1ebf6",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -723,13 +723,13 @@
         "string_start" : "0x1ebf7",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -737,13 +737,13 @@
         "string_start" : "0x1ebf8",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -751,12 +751,12 @@
         "string_start" : "0x1ebf9",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["20"],
+        "end_bytes" : [],
         "raw_size" : 1,
         "raw" : ["20"],
         "raw_text" : "",
         "alt_text" : "",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     }
 ]}

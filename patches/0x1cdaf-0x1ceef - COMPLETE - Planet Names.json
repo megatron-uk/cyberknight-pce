@@ -371,69 +371,13 @@
         "string_start" : "0x1ce67",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00", "00", "00", "00"],
         "raw_size" : 11,
         "raw" : ["5c", "cd", "de", "b2", "b8", "de", "da", "b1", "c4", "de", "00"],
         "raw_text" : "ベイグレアド",
         "alt_text" : "べいぐれおど",
         "trans_size" : 9,
         "trans_text" : "Belgrande"
-    },
-
-    {
-        "string_description" : "Item names, enemy names, battle screen menus",
-        "string_start" : "0x1ce72",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Item names, enemy names, battle screen menus",
-        "string_start" : "0x1ce73",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Item names, enemy names, battle screen menus",
-        "string_start" : "0x1ce74",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Item names, enemy names, battle screen menus",
-        "string_start" : "0x1ce75",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
     },
 
     {

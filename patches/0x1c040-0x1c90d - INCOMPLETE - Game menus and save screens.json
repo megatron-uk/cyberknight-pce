@@ -85,7 +85,7 @@
         "raw_text" : "<11><01> Ok?<01> Y/N<11>",
         "alt_text" : "<11><01> Ok?<01> Y/N<11>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "<11><01> Ok?<01> Y/N<11>"
     },
 
     {
@@ -155,7 +155,7 @@
         "raw_text" : "<0B><15><0B><PC>",
         "alt_text" : "<0B><15><0B><PC>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "<0B><15><0B><PC>"
     },
 
     {
@@ -281,7 +281,7 @@
         "raw_text" : "<0B><05><06>*** Cyber Knight ***<0B><05><wait>***  SOUND TEST  ***<0B><wait><erase>Audio mode :<0B><wait><0E>BGM Req No.:<0B><wait><10>BGM Req No.:<0B><wait><12>EFC Req No.:<0B><wait><14>EFC Req No.:<0B><wait><16>Fade―Out   :",
         "alt_text" : "<0B><05><06>*** Cyber Knight ***<0B><05><wait>***  SOUND TEST  ***<0B><wait><erase>Audio mode :<0B><wait><0E>BGM Req No.:<0B><wait><10>BGM Req No.:<0B><wait><12>EFC Req No.:<0B><wait><14>EFC Req No.:<0B><wait><16>Fade―Out   :",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "<0B><05><06>*** Cyber Knight ***<0B><05><wait>***  SOUND TEST  ***<0B><wait><erase>Audio mode :<0B><wait><0E>BGM Req No.:<0B><wait><10>BGM Req No.:<0B><wait><12>EFC Req No.:<0B><wait><14>EFC Req No.:<0B><wait><16>Fade―Out   :"
     },
 
     {
@@ -295,7 +295,7 @@
         "raw_text" : "<0B><15><erase>Monaural",
         "alt_text" : "<0B><15><erase>Monaural",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "<0B><15><erase>Monaural"
     },
 
     {
