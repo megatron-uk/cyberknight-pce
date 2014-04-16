@@ -581,7 +581,7 @@
         "string_start" : "0x1cee3",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00"],
+        "end_bytes" : ["00", "00", "00", "00", "00", "00"],
         "raw_size" : 6,
         "raw" : ["5c", "bd", "d7", "b3", "da", "00"],
         "raw_text" : "スラウレ",

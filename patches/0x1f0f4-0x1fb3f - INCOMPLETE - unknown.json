@@ -1,7 +1,7 @@
 {
 "block_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
 "block_start" : "0x1f0f4",
-"block_end" : "0x1fcc0",
+"block_end" : "0x1fd90",
 "insert_method" : 2,
 "data" : [
     {
@@ -253,7 +253,7 @@
         "snes-e" : "It's a gaseous life form. ",
         "accuracy" : 0.885714285714,
         "trans_size" : 0,
-        "trans_text" : "It's a gaseous life form."
+        "trans_text" : "It's a gaseous lifeform."
     },
 
     {
@@ -271,7 +271,7 @@
         "snes-e" : "It's a type of plasmatic\nlife form. ",
         "accuracy" : 0.894736842105,
         "trans_size" : 0,
-        "trans_text" : "It's a type of plasmatic\nlife form."
+        "trans_text" : "It's a plasmatic\nlifeform."
     },
 
     {
@@ -307,7 +307,7 @@
         "snes-e" : "It's a silicon-based\nlife form. ",
         "accuracy" : 0.90625,
         "trans_size" : 0,
-        "trans_text" : "It's a silicon-based\nlife form."
+        "trans_text" : "It's a silicon-based\nlifeform."
     },
 
     {
@@ -325,7 +325,7 @@
         "snes-e" : "It's a primitive life form\nsimilar to the amoeba. ",
         "accuracy" : 0.833333333333,
         "trans_size" : 0,
-        "trans_text" : "It's a primitive life form\nsimilar to the amoeba."
+        "trans_text" : "It's a primitive lifeform\nsimilar to the amoeba."
     },
 
     {
@@ -343,7 +343,7 @@
         "snes-e" : "These are the planet's\nindigenous life forms. ",
         "accuracy" : 0.9,
         "trans_size" : 0,
-        "trans_text" : "These are the planet's\nindigenous life forms."
+        "trans_text" : "These are the planet's\nindigenous lifeforms."
     },
 
     {
@@ -571,7 +571,7 @@
         "snes-e" : "I'd say this is the\nboss of this area. ",
         "accuracy" : 0.833333333333,
         "trans_size" : 0,
-        "trans_text" : "I'd say this is the\nboss of this area."
+        "trans_text" : "This must be the boss\nof this area."
     },
 
     {
@@ -589,7 +589,7 @@
         "snes-e" : "There are no humans\nin there. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : "There are no humans\nin there."
+        "trans_text" : "There are no humans\ninside."
     },
 
     {
@@ -661,7 +661,7 @@
         "snes-e" : "It's just sort of wandering\naround. ",
         "accuracy" : 0.88,
         "trans_size" : 0,
-        "trans_text" : "It's just sort of wandering\naround."
+        "trans_text" : "It's just wandering\naimlessly."
     },
 
     {
@@ -679,7 +679,7 @@
         "snes-e" : "Seems like a maritime\nmachine. ",
         "accuracy" : 0.866666666667,
         "trans_size" : 0,
-        "trans_text" : "Seems like a maritime\nmachine."
+        "trans_text" : "Seems like an aquatic\nmachine."
     },
 
     {
@@ -712,10 +712,10 @@
         "alt_text" : "<13>アzれ―ざ―コウゲキニ チュウイシテクダサイ",
         "snes_size" : 35,
         "snes-j" : "    レーザーこうげきに\n    ちゅういしてください。」",
-        "snes-e" : "Watch out for their\nlaser attacks. ",
+        "snes-e" : "Watch out for their\nLaser attacks. ",
         "accuracy" : 0.772727272727,
         "trans_size" : 0,
-        "trans_text" : "Watch out for their\nlaser attacks."
+        "trans_text" : "Watch out for\nLaser attacks."
     },
 
     {
@@ -730,10 +730,10 @@
         "alt_text" : "<13>アzび―むコウゲキニ チュウイシテクダサイ",
         "snes_size" : 34,
         "snes-j" : "    ビームこうげきに ちゅういしてください。」",
-        "snes-e" : "Watch out for their\nbeam attacks. ",
+        "snes-e" : "Watch out for their\nBeam attacks. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
-        "trans_text" : "Watch out for their\nbeam attacks."
+        "trans_text" : "Watch out for\nBeam attacks."
     },
 
     {
@@ -748,10 +748,10 @@
         "alt_text" : "<13>アzひ―とコウゲキニ チュウイシテクダサイ",
         "snes_size" : 34,
         "snes-j" : "    ヒートこうげきに ちゅういしてください。」",
-        "snes-e" : "Watch out for their\nheat attacks. ",
+        "snes-e" : "Watch out for their\nHeat attacks. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
-        "trans_text" : "Watch out for their\nheat attacks."
+        "trans_text" : "Watch out for\nHeat attacks."
     },
 
     {
@@ -766,10 +766,10 @@
         "alt_text" : "<13>アzいんぱくとコウゲキニ チュウイシテクダサイ",
         "snes_size" : 36,
         "snes-j" : "    インパクトこうげきに\n    ちゅういしてください。」",
-        "snes-e" : "Watch out for their\nimpact attacks. ",
+        "snes-e" : "Watch out for their\nImpact attacks. ",
         "accuracy" : 0.869565217391,
         "trans_size" : 0,
-        "trans_text" : "Watch out for their\nimpact attacks."
+        "trans_text" : "Watch out for\nImpact attacks."
     },
 
     {
@@ -1001,7 +1001,7 @@
         "snes-e" : "Please attack each\nenemy individually. ",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : "Please attack each\nenemy individually."
+        "trans_text" : "Attack each enemy\nindividually."
     },
 
     {
@@ -1072,7 +1072,7 @@
         "alt_text" : "<13><0B><gun>び―むヘイキガ ユウコウダト オモイマス",
         "snes_size" : 19,
         "snes-j" : "    ビームへいきが\n    ゆうこうだと おもいます。」",
-        "snes-e" : "Try a beam weapon. ",
+        "snes-e" : "Try a Beam weapon. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
         "trans_text" : "Try a Beam weapon."
@@ -1090,7 +1090,7 @@
         "alt_text" : "<13><0B><gun>ひ―とヘイキガ ユウコウダト オモイマス",
         "snes_size" : 24,
         "snes-j" : "    ヒートへいきが\n    ゆうこうだと おもいます。」",
-        "snes-e" : "Try heat-based attacks. ",
+        "snes-e" : "Try Heat-based attacks. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
         "trans_text" : "Try Heat-based attacks."
@@ -1563,7 +1563,7 @@
         "snes-e" : "Mica: A message from the\ndoctor: Don't depend on\nme too much!",
         "accuracy" : 0.833333333333,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\ndoctor: Don't depend on\nme too much!"
+        "trans_text" : ":A message from the\nDr.: Don't depend on\nme too much!"
     },
 
     {
@@ -1581,7 +1581,7 @@
         "snes-e" : "Mica: Even I make\nmistakes sometimes. ",
         "accuracy" : 0.810810810811,
         "trans_size" : 0,
-        "trans_text" : ":Even I make\nmistakes sometimes."
+        "trans_text" : ":Even I make mistakes\nsometimes."
     },
 
     {
@@ -1617,7 +1617,7 @@
         "snes-e" : "Mica: A message from the\nmechanic: Careful with\nthe modules!",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\nmechanic: Careful with\nthe mechas!"
+        "trans_text" : ":A message from the\nEngineer: Careful with\nthe mechas!"
     },
 
     {
@@ -1635,7 +1635,7 @@
         "snes-e" : "Mica: A message from the\nboss: You'll get a bonus\nwhen we get back!",
         "accuracy" : 0.892857142857,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\nboss: You'll get a bonus\nwhen we get back!"
+        "trans_text" : ":A message from the\nBoss: You'll get a bonus\nwhen we get back!"
     },
 
     {
@@ -1653,7 +1653,7 @@
         "snes-e" : "Mica: A message from the\ndoctor: Your clone is\nready... ",
         "accuracy" : 0.851851851852,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\ndoctor: Your clone is\nready..."
+        "trans_text" : ":A message from the\nDr.: Your clone is\nready..."
     },
 
     {
@@ -1789,7 +1789,7 @@
         "snes-e" : "Mica: Options aren't\nlimitless;conserve them!",
         "accuracy" : 0.925925925926,
         "trans_size" : 0,
-        "trans_text" : ":Options aren't\nlimitless;conserve them!"
+        "trans_text" : ":Options aren't\nlimitless, conserve them!"
     },
 
     {
@@ -1807,7 +1807,7 @@
         "snes-e" : "Mica: A message from the\ncook: Yeah! Dinner!",
         "accuracy" : 0.827586206897,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\ncook: Yeah! Dinner!"
+        "trans_text" : ":A message from the\nChef: Yeah! Dinner!"
     },
 
     {
