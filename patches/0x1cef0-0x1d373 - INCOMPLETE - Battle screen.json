@@ -322,8 +322,8 @@
         "raw" : ["10", "ff", "09", "04", "ca", "20", "17", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "b6", "b8", "c4", "b8", "bc", "c0", "a1", "00"],
         "raw_text" : "<10>゜<09><pause>は <17>ポイント かくとくした。",
         "alt_text" : "<10>゜<09><pause>ハ <17>ぽいんと カクトクシタ。",
-        "trans_size" : 17,
-	"trans_text" : " Exp. gained"
+        "trans_size" : 12,
+        "trans_text" : " Exp. gained"
     },
 
     {
@@ -331,12 +331,12 @@
         "string_start" : "0x1cfe6",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["5c", "18", "dd", "2d","00"],
+        "end_bytes" : ["5c","18","dd","2d","00"],
         "raw_size" : 32,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "ba", "dd", "ca", "de", "af", "c4", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は コンバットスキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ こんばっとすきるガ れべる<18>ンー",
-        "trans_size" : 17,
+        "trans_size" : 15,
         "trans_text" : " Combat skill +"
     },
 
@@ -354,7 +354,7 @@
         "snes-j" : "「は レベル になった。」",
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
-        "trans_size" : 13,
+        "trans_size" : 1,
         "trans_text" : "!"
     },
 
@@ -363,13 +363,13 @@
         "string_start" : "0x1d00d",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["5c", "18", "dd", "2d", "00"],
+        "end_bytes" : ["5c","18","dd","2d","00"],
         "raw_size" : 31,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "d2", "b6", "c6", "af", "b8", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は メカニックスキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ めかにっくすきるガ れべる<18>ンー",
-        "trans_size" : 18,
-        "trans_text" : "Tech skill now +"
+        "trans_size" : 17,
+        "trans_text" : " Tech skill now +"
     },
 
     {
@@ -386,7 +386,7 @@
         "snes-j" : "「は レベル になった。」",
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
-        "trans_size" : 13,
+        "trans_size" : 1,
         "trans_text" : "!"
     },
 
@@ -395,7 +395,7 @@
         "string_start" : "0x1d033",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["5c", "18", "dd", "2d", "00"],
+        "end_bytes" : ["5c","18","dd","2d","00"],
         "raw_size" : 32,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "d2", "c3", "de", "a8", "af", "b8", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は メディックスキルが レベル<18>んー",
@@ -404,9 +404,8 @@
         "snes-j" : "「は メディックスキルが ない！」",
         "snes-e" : " doesn't have\nany medic skills!",
         "accuracy" : 0.666666666667,
-        "trans_size" : 18,
-        "trans_text" : "Med. skill now +",
-	"trans_text" : ""
+        "trans_size" : 0,
+        "trans_text" : " Med. skill now "
     },
 
     {
@@ -423,9 +422,8 @@
         "snes-j" : "「は レベル になった。」",
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
-        "trans_size" : 13,
-        "trans_text" : "is now level ",
-	"trans_text" : "!"
+        "trans_size" : 1,
+        "trans_text" : "!"
     },
 
     {
@@ -433,14 +431,17 @@
         "string_start" : "0x1d05a",
         "method" : 3,
         "start_bytes" : ["06","1b","10","ff","09","04"],
-        "end_bytes" : ["5c", "18", "dd", "2d", "00"],
+        "end_bytes" : ["5c","18","dd","2d","00"],
         "raw_size" : 31,
         "raw" : ["06", "1b", "10", "ff", "09", "04", "ca", "20", "5c", "bb", "b2", "b4", "dd", "bd", "bd", "b7", "d9", "5c", "b6", "de", "20", "5c", "da", "cd", "de", "d9", "5c", "18", "dd", "2d", "00"],
         "raw_text" : "<06><1B><10>゜<09><pause>は サイエンススキルが レベル<18>んー",
         "alt_text" : "<06><1B><10>゜<09><pause>ハ さいえんすすきるガ れべる<18>ンー",
-        "trans_size" : 18,
-        "trans_text" : "Sci. skill now +",
-	"trans_text" : ""
+        "snes_size" : 29,
+        "snes-j" : "「は サイエンス・スキルが SIになった。」",
+        "snes-e" : " 's science skill became SI. ",
+        "accuracy" : 0.571428571429,
+        "trans_size" : 0,
+        "trans_text" : " Sci. skill now "
     },
 
     {
@@ -457,8 +458,8 @@
         "snes-j" : "「は レベル になった。」",
         "snes-e" : " rose to level . ",
         "accuracy" : 0.666666666667,
-        "trans_size" : 13,
-	"trans_text" : "!"
+        "trans_size" : 1,
+        "trans_text" : "!"
     },
 
     {
@@ -704,12 +705,12 @@
         "string_start" : "0x1d10b",
         "method" : 3,
         "start_bytes" : ["0b","02","18"],
-        "end_bytes" : ["18", "c4", "2d", "00"],
+        "end_bytes" : ["18","c4","2d","00"],
         "raw_size" : 15,
         "raw" : ["0b", "02", "18", "5c", "c0", "de", "d2", "b0", "bc", "de", "3a", "18", "c4", "2d", "00"],
         "raw_text" : "<0B>\n<18>ダメージ:<18>トー",
         "alt_text" : "<0B>\n<18>だめ―じ:<18>とー",
-        "trans_size" : 12,
+        "trans_size" : 4,
         "trans_text" : "Dmg:"
     },
 
@@ -732,12 +733,12 @@
         "string_start" : "0x1d11e",
         "method" : 3,
         "start_bytes" : ["0b","0e","17"],
-        "end_bytes" : ["18", "db", "2d", "00"],
+        "end_bytes" : ["18","db","2d","00"],
         "raw_size" : 15,
         "raw" : ["0b", "0e", "17", "5c", "c0", "de", "d2", "b0", "bc", "de", "3a", "18", "db", "2d", "00"],
         "raw_text" : "<0B><0E><17>ダメージ:<18>ロー",
         "alt_text" : "<0B><0E><17>だめ―じ:<18>ろー",
-        "trans_size" : 11,
+        "trans_size" : 4,
         "trans_text" : "Dmg:"
     },
 
@@ -760,12 +761,12 @@
         "string_start" : "0x1d131",
         "method" : 3,
         "start_bytes" : ["0b","0e","19"],
-        "end_bytes" : ["18", "dc", "2d", "00"],
+        "end_bytes" : ["18","dc","2d","00"],
         "raw_size" : 15,
         "raw" : ["0b", "0e", "19", "5c", "c0", "de", "d2", "b0", "bc", "de", "3a", "18", "dc", "2d", "00"],
         "raw_text" : "<0B><0E><19>ダメージ:<18>ワー",
         "alt_text" : "<0B><0E><19>だめ―じ:<18>わー",
-        "trans_size" : 13,
+        "trans_size" : 4,
         "trans_text" : "Dmg:"
     },
 
@@ -881,7 +882,7 @@
         "snes-j" : "を はかいした！",
         "snes-e" : " is destroyed!",
         "accuracy" : 0.428571428571,
-        "trans_size" : 0,
+        "trans_size" : 14,
         "trans_text" : " is destroyed!"
     },
 
@@ -907,7 +908,7 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d205",
         "method" : 3,
-        "start_bytes" : ["0b", "08", "19", "20", "10", "ff"],
+        "start_bytes" : ["0b","08","19","20","10","ff"],
         "end_bytes" : ["00"],
         "raw_size" : 20,
         "raw" : ["0b", "08", "19", "20", "10", "ff", "ca", "20", "ca", "b6", "b2", "bb", "da", "c3", "bc", "cf", "af", "c0", "21", "00"],
@@ -917,7 +918,7 @@
         "snes-j" : "は はかいされた。",
         "snes-e" : " has been destroyed. ",
         "accuracy" : 0.666666666667,
-        "trans_size" : 0,
+        "trans_size" : 14,
         "trans_text" : " is destroyed."
     },
 
@@ -963,8 +964,8 @@
         "snes-j" : "たちは ぜんめつした！",
         "snes-e" : " and his group died... ",
         "accuracy" : 0.9,
-        "trans_size" : 21,
-        "trans_text" : "and his team died...."
+        "trans_size" : 20,
+        "trans_text" : "and his team died..."
     },
 
     {
@@ -981,8 +982,8 @@
         "snes-j" : "たちの さくせんは しっぱいにおわった。",
         "snes-e" : "Mission failed....",
         "accuracy" : 0.918918918919,
-        "trans_size" : 18,
-        "trans_text" : "Mission failed...."
+        "trans_size" : 17,
+        "trans_text" : "Mission Failed..."
     },
 
     {
@@ -1013,7 +1014,7 @@
         "snes-j" : "てきユニットは ぜんめつした！",
         "snes-e" : "The enemy has been\nannihilated. ",
         "accuracy" : 0.928571428571,
-        "trans_size" : 25,
+        "trans_size" : 24,
         "trans_text" : "Enemy has been defeated!"
     },
 
@@ -1081,14 +1082,14 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d2a7",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["10", "ff"],
         "end_bytes" : ["00"],
         "raw_size" : 16,
         "raw" : ["10", "ff", "ca", "20", "ba", "dc", "b8", "c5", "af", "c3", "c6", "b9", "de", "c0", "a1", "00"],
         "raw_text" : "<10>゜は こわくなってにげた。",
         "alt_text" : "<10>゜ハ コワクナッテニゲタ。",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is now level "
     },
 
     {
@@ -1152,16 +1153,16 @@
         "string_start" : "0x1d2d7",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["10", "ff", "02", "00"],
+        "end_bytes" : ["10","ff","02","00"],
         "raw_size" : 22,
         "raw" : ["10", "ff", "b6", "d7", "20", "5c", "c4", "da", "bc", "de", "ac", "b0", "5c", "a6", "20", "ca", "af", "b9", "dd", "a1", "02", "00"],
         "raw_text" : "<10>゜から トレジャーを はっけん。\n",
         "alt_text" : "<10>゜カラ とれじゃ―ヲ ハッケン。\n",
-        "snes_size" : 45,
+        "snes_size" : 43,
         "snes-j" : "のざんがいから\nネオパーツを はっけん。",
         "snes-e" : "You discover Neoparts in\nthe wreckage of\n. ",
         "accuracy" : 0.470588235294,
-        "trans_size" : 0,
+        "trans_size" : 18,
         "trans_text" : "Neoparts found of "
     },
 
@@ -1183,7 +1184,7 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d2f5",
         "method" : 3,
-        "start_bytes" : ["02","0d","02","10", "ff"],
+        "start_bytes" : ["02","0d","02","10","ff"],
         "end_bytes" : ["02","00"],
         "raw_size" : 24,
         "raw" : ["02", "0d", "02", "10", "ff", "ca", "20", "b1", "b2", "c3", "b6", "de", "20", "bc", "dd", "c3", "de", "bc", "cf", "af", "c0", "21", "02", "00"],
@@ -1226,7 +1227,7 @@
         "snes-e" : " is unequipped!",
         "accuracy" : 0.75,
         "trans_size" : 14,
-        "trans_text" : "is unequipped!"
+        "trans_text" : " is unequipped!"
     },
 
     {
@@ -1247,7 +1248,7 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d343",
         "method" : 3,
-        "start_bytes" : ["0d", "03", "0e", "02", "10", "ff"],
+        "start_bytes" : ["0d","03","0e","02","10","ff"],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["0d", "03", "0e", "02", "10", "ff", "ca", "20", "ce", "de", "b3", "b7", "de", "ae", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "a6", "20", "ca", "af", "c0", "a1", "02", "00"],
