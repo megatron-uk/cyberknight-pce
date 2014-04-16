@@ -1,30 +1,17 @@
 {
 "block_description" : "NPC character names.",
 "block_start" : "0x1cbad",
-"block_end" : "0x1ccac",
-"insert_method" : 1,
+"block_end" : "0x1ccad",
+"insert_method" : 2,
 "data" : [
     {
         "string_description" : "NPC character names.",
         "string_start" : "0x1cbad",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "NPC character names.",
-        "string_start" : "0x1cbae",
-        "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00"],
         "end_bytes" : ["00"],
         "raw_size" : 6,
-        "raw" : ["5c", "b8", "da", "b2", "dd", "00"],
+        "raw" : ["00", "5c", "b8", "da", "b2", "dd", "00"],
         "raw_text" : "クレイン",
         "trans_size" : 5,
         "trans_text" : "Klein"
@@ -36,11 +23,11 @@
         "method" : 3,
         "start_bytes" : [],
         "end_bytes" : ["00"],
-        "raw_size" : 4,
+        "raw_size" : 5,
         "raw" : ["5c", "b7", "d8", "00"],
         "raw_text" : "キリ",
         "trans_size" : 4,
-        "trans_text" : "Kir"
+        "trans_text" : "Kira"
     },
 
     {
@@ -74,9 +61,9 @@
         "string_start" : "0x1cbc6",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00", "00"],
         "raw_size" : 7,
-        "raw" : ["5c", "c6", "bc", "de", "b0", "c5", "00"],
+        "raw" : ["5c", "c6", "bc", "de", "b0", "c5", "00", "00", "00"],
         "raw_text" : "ニジ‐ナ",
         "trans_size" : 6,
         "trans_text" : "Nejena"
@@ -84,54 +71,15 @@
 
     {
         "string_description" : "NPC character names.",
-        "string_start" : "0x1cbcd",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "NPC character names.",
-        "string_start" : "0x1cbce",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "NPC character names.",
         "string_start" : "0x1cbcf",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00"],
         "raw_size" : 5,
-        "raw" : ["4d", "49", "43", "41", "00"],
+        "raw" : ["4d", "49", "43", "41", "00", "00"],
         "raw_text" : "MICA",
         "trans_size" : 4,
         "trans_text" : "MICA"
-    },
-
-    {
-        "string_description" : "NPC character names.",
-        "string_start" : "0x1cbd4",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
     },
 
     {
@@ -192,64 +140,12 @@
         "string_start" : "0x1cbfa",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00", "00", "00", "00"],
         "raw_size" : 9,
-        "raw" : ["5c", "b4", "dd", "bc", "de", "c6", "b1", "5c", "00"],
+        "raw" : ["5c", "b4", "dd", "bc", "de", "c6", "b1", "5c", "00", "00", "00", "00", "00"],
         "raw_text" : "エンジニア",
         "trans_size" : 8,
         "trans_text" : "Engineer"
-    },
-
-    {
-        "string_description" : "NPC character names.",
-        "string_start" : "0x1cc03",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "NPC character names.",
-        "string_start" : "0x1cc04",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "NPC character names.",
-        "string_start" : "0x1cc05",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "NPC character names.",
-        "string_start" : "0x1cc06",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
     },
 
     {
@@ -557,7 +453,7 @@
         "string_start" : "0x1cca6",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "00"],
         "raw_size" : 7,
         "raw" : ["5c", "d2", "dd", "c0", "b0", "c5", "00"],
         "raw_text" : "メンタ‐ナ",

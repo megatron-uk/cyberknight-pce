@@ -80,7 +80,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f17b",
         "method" : 3,
-        "start_bytes" : ["13", "9e"],
+        "start_bytes" : ["13", "9e", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "9e", "7a", "ba", "b6", "de", "c0", "c9", "20", "ce", "cd", "b2", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -510,7 +510,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f49e",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "d5", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 24,
         "raw" : ["13", "d5", "7a", "c5", "b6", "c5", "b6", "20", "bd", "ca", "de", "bc", "ba", "b2", "20", "c3", "b7", "c9", "d6", "b3", "c3", "de", "bd", "00"],
@@ -777,165 +777,11 @@
         "string_start" : "0x1f630",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
         "raw_size" : 30,
-        "raw" : ["13", "c2", "7a", "5c", "b8", "bc", "de", "d7", "5c", "c0", "c1", "c9", "20", "ba", "b3", "cc", "de", "c2", "c5", "c9", "b6", "d3", "20", "bc", "da", "cf", "be", "dd", "c8", "00"],
+        "raw" : ["13", "c2", "7a", "5c", "b8", "bc", "de", "d7", "5c", "c0", "c1", "c9", "20", "ba", "b3", "cc", "de", "c2", "c5", "c9", "b6", "d3", "20", "bc", "da", "cf", "be", "dd", "c8", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
         "raw_text" : "<13>つzクジラたちの こうぶつなのかも しれませんね",
         "alt_text" : "<13>ツzくじらタチノ コウブツナノカモ シレマセンネ",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f64e",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f64f",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f650",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f651",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f652",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f653",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f654",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f655",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f656",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f657",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f658",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -958,7 +804,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f66f",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "f9", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "f9", "7a", "b6", "b8", "c4", "b3", "be", "dd", "c6", "20", "d3", "c1", "ba", "cf", "da", "c3", "ca", "20", "b2", "b9", "cf", "be", "dd", "00"],
@@ -972,7 +818,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f688",
         "method" : 3,
-        "start_bytes" : ["13", "f9"],
+        "start_bytes" : ["13", "f9", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "f9", "7a", "bc", "ad", "b3", "c1", "ad", "b3", "ba", "b3", "b9", "de", "b7", "a6", "20", "b6", "b9", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -990,7 +836,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f6a1",
         "method" : 3,
-        "start_bytes" : ["13", "f9"],
+        "start_bytes" : ["13", "f9", "7a"],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "f9", "7a", "ba", "cd", "de", "c2", "c6", "20", "ba", "b3", "b9", "de", "b7", "bc", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -1008,7 +854,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f6b7",
         "method" : 3,
-        "start_bytes" : ["13","0b"],
+        "start_bytes" : ["13","0b", "7b"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "0b", "7b", "5c", "b5", "cc", "df", "bc", "ae", "dd", "5c", "a6", "20", "c2", "b6", "b3", "cd", "de", "b7", "c3", "de", "bd", "00"],
@@ -1050,7 +896,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f704",
         "method" : 3,
-        "start_bytes" : ["13","0b"],
+        "start_bytes" : ["13","0b", "7b"],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
@@ -1100,7 +946,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f75b",
         "method" : 3,
-        "start_bytes" : ["13","0b"],
+        "start_bytes" : ["13","0b", "7b"],
         "end_bytes" : ["00"],
         "raw_size" : 31,
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
@@ -1114,7 +960,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f77a",
         "method" : 3,
-        "start_bytes" : ["13","0b"],
+        "start_bytes" : ["13","0b", "7b"],
         "end_bytes" : ["00"],
         "raw_size" : 24,
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
@@ -1128,7 +974,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f792",
         "method" : 3,
-        "start_bytes" : ["13","0b"],
+        "start_bytes" : ["13","0b","7b"],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "0b", "7b", "5c", "cb", "de", "b0", "d1", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
@@ -1142,7 +988,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f7a9",
         "method" : 3,
-        "start_bytes" : ["13","0b"],
+        "start_bytes" : ["13","0b","7b"],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "0b", "7b", "5c", "cb", "b0", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
@@ -1156,7 +1002,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f7bf",
         "method" : 3,
-        "start_bytes" : ["13","0b"],
+        "start_bytes" : ["13","0b","7b"],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
@@ -1227,294 +1073,15 @@
         "string_start" : "0x1f84a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
         "raw_size" : 23,
-        "raw" : ["13", "f9", "7a", "bc", "ac", "b9", "de", "b7", "be", "dd", "a6", "20", "b5", "ba", "c5", "af", "c3", "b8", "c0", "de", "bb", "b2", "00"],
+        "raw" : ["13", "f9", "7a", "bc", "ac", "b9", "de", "b7", "be", "dd", "a6", "20", "b5", "ba", "c5", "af", "c3", "b8", "c0", "de", "bb", "b2", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
         "raw_text" : "<13>ルzしゃげきせんを おこなってください",
         "alt_text" : "<13>るzシャゲキセンヲ オコナッテクダサイ",
         "trans_size" : 0,
         "trans_text" : ""
     },
 
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f861",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f862",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f863",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f864",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f865",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f866",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f867",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f868",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f869",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f86a",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f86b",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f86c",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f86d",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f86e",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f86f",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f870",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f871",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f872",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f873",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1f874",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
@@ -1797,9 +1364,9 @@
         "string_start" : "0x1fa5e",
         "method" : 3,
         "start_bytes" : ["13", "2e", "7b"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["00", "00", "00", "00"],
         "raw_size" : 42,
-        "raw" : ["13", "2e", "7b", "5c", "ba", "af", "b8", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "b1", "bc", "c0", "c9", "20", "5c", "bd", "c3", "b0", "b7", "5c", "ca", "20", "bf", "b2", "c2", "c3", "de", "b2", "ba", "b3", "21", "00"],
+        "raw" : ["13", "2e", "7b", "5c", "ba", "af", "b8", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "b1", "bc", "c0", "c9", "20", "5c", "bd", "c3", "b0", "b7", "5c", "ca", "20", "bf", "b2", "c2", "c3", "de", "b2", "ba", "b3", "21", "00", "00", "00", "00"],
         "raw_text" : "<13>.<gun>コックより でんごん。\nおしたの ステ‐キは そいつでいこう!",
         "alt_text" : "<13>.<gun>こっくヨリ デンゴン。\nアシタノ すて―きハ ソイツデイコウ!",
         "snes_size" : 44,
@@ -1808,48 +1375,6 @@
         "accuracy" : 0.827586206897,
         "trans_size" : 0,
         "trans_text" : ":A message from the\nChef: Yeah! Dinner!"
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1fa88",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1fa89",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1fa8a",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 1,
-        "raw" : ["00"],
-        "raw_text" : "",
-        "alt_text" : "",
-        "trans_size" : 0,
-        "trans_text" : ""
     },
 
     {
@@ -1973,9 +1498,9 @@
         "string_start" : "0x1fb1c",
         "method" : 3,
         "start_bytes" : ["10","30"],
-        "end_bytes" : ["7d","20","10","00"],
+        "end_bytes" : ["7d","20","10","00", "03", "00"],
         "raw_size" : 16,
-        "raw" : ["10", "30", "a2", "c3", "b2", "bc", "de", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00"],
+        "raw" : ["10", "30", "a2", "c3", "b2", "bc", "de", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00", "03", "00"],
         "raw_text" : "<MICA>『ていじれんらく <chevron> <10>",
         "alt_text" : "<MICA>『テイジレンラク <chevron> <10>",
         "trans_size" : 14,
@@ -1984,43 +1509,15 @@
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1fb2c",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 2,
-        "raw" : ["03", "00"],
-        "raw_text" : "\n",
-        "alt_text" : "\n",
-        "trans_size" : 0,
-        "trans_text" : ""
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1fb2e",
         "method" : 3,
         "start_bytes" : ["10","30"],
-        "end_bytes" : ["7d","20","10","00"],
+        "end_bytes" : ["7d","20","10","00", "03", "00"],
         "raw_size" : 17,
-        "raw" : ["10", "30", "a2", "b7", "dd", "b7", "ad", "b3", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00"],
+        "raw" : ["10", "30", "a2", "b7", "dd", "b7", "ad", "b3", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00", "03", "00"],
         "raw_text" : "<MICA>『きんきゅうれんらく <chevron> <10>",
         "alt_text" : "<MICA>『キンキュウレンラク <chevron> <10>",
         "trans_size" : 19,
         "trans_text" : ":Emergency contact "
-    },
-
-    {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
-        "string_start" : "0x1fb3f",
-        "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
-        "raw_size" : 2,
-        "raw" : ["03", "00"],
-        "raw_text" : "\n",
-        "alt_text" : "\n",
-        "trans_size" : 0,
-        "trans_text" : ""
     }
 ]}
