@@ -680,14 +680,14 @@
         "string_description" : "",
         "string_start" : "0x1c35a",
         "method" : 3,
-        "start_bytes" : ["18"],
+        "start_bytes" : [],
         "end_bytes" : ["08","00"],
         "raw_size" : 21,
         "raw" : ["18", "dd", "2d", "22", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "bc", "ad", "b3", "d8", "4f", "4b", "21", "08", "00"],
         "raw_text" : "<18>ん―“ポイント しゅうりOK!<wait>",
         "alt_text" : "<18>ン―“ぽいんと シュウリOK!<wait>",
         "trans_size" : 13,
-        "trans_text" : "Using Repkit!"
+        "trans_text" : "EP Recovered!"
     },
 
     {
@@ -887,7 +887,7 @@
         "raw_text" : "<18>ん―“ポイント かいふくした<wait>",
         "alt_text" : "<18>ン―“ぽいんと カイフクシタ<wait>",
         "trans_size" : 22,
-        "trans_text" : "<18>pts recovered!"
+        "trans_text" : "LP recovered!"
     },
 
     {

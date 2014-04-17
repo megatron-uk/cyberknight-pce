@@ -8,7 +8,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f0f4",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 47,
         "raw" : ["13", "9e", "7a", "b7", "ae", "c0", "de", "b2", "20", "bc", "b7", "b6", "dd", "5c", "c0", "b2", "cc", "df", "20", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c3", "de", "bd", "a1", "03", "ba", "c9", "cc", "c8", "c9", "20", "c1", "ad", "b3", "bc", "dd", "c3", "de", "bd", "00"],
@@ -19,14 +19,14 @@
         "snes-e" : "A Commander type Berserker\nis in this ship's core. ",
         "accuracy" : 0.828571428571,
         "trans_size" : 0,
-        "trans_text" : "A Commander type Berserker\nis in this ship's core."
+        "trans_text" : "MICA:A Commander type\nBerserker is in this\nship's core."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f123",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 35,
         "raw" : ["13", "9e", "7a", "b5", "b5", "b6", "de", "c0", "c9", "20", "bc", "b7", "b6", "dd", "5c", "c0", "b2", "cc", "df", "5c", "c3", "de", "bd", "a1", "03", "c3", "ba", "de", "dc", "bf", "b3", "c3", "de", "bd", "00"],
@@ -37,14 +37,14 @@
         "snes-e" : "It's enormous!",
         "accuracy" : 0.88,
         "trans_size" : 0,
-        "trans_text" : "It's enormous!"
+        "trans_text" : "MICA:It's enormous!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f146",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 27,
         "raw" : ["13", "9e", "7a", "b5", "b5", "b6", "de", "c0", "c9", "20", "ce", "b3", "b9", "de", "b7", "d6", "b3", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -55,14 +55,14 @@
         "snes-e" : "It's a large-scale\nbombardment machine. ",
         "accuracy" : 0.888888888889,
         "trans_size" : 0,
-        "trans_text" : "It's a large-scale\nbombardment machine."
+        "trans_text" : "MICA:It's a large-scale\nbombardment machine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f161",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 26,
         "raw" : ["13", "9e", "7a", "ba", "b6", "de", "c0", "c9", "20", "bb", "b7", "de", "ae", "b3", "d6", "b3", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -73,14 +73,14 @@
         "snes-e" : "It's a small worker\nmachine. ",
         "accuracy" : 0.882352941176,
         "trans_size" : 0,
-        "trans_text" : "It's a small worker\nmachine."
+        "trans_text" : "MICA:It's a small worker\nmachine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f17b",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "9e", "7a", "ba", "b6", "de", "c0", "c9", "20", "ce", "cd", "b2", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -91,14 +91,14 @@
         "snes-e" : "It's a small infantry\nmachine. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : "It's a small infantry\nmachine."
+        "trans_text" : "MICA:It's a small infantry\nmachine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f191",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 24,
         "raw" : ["13", "9e", "7a", "b5", "b5", "b6", "de", "c0", "20", "d5", "bf", "b3", "d6", "b3", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -109,14 +109,14 @@
         "snes-e" : "It's a large transport\nmachine. ",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : "It's a large transport\nmachine."
+        "trans_text" : "MICA:It's a large transport\nmachine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f1a9",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 43,
         "raw" : ["13", "8b", "7a", "be", "b2", "d2", "b2", "ca", "dd", "c9", "b3", "20", "b1", "d8", "a1", "c6", "dd", "b9", "de", "dd", "a6", "20", "b6", "b2", "bf", "de", "b3", "bc", "c0", "03", "5c", "bb", "b2", "ce", "de", "b0", "b8", "de", "5c", "c3", "de", "bd", "00"],
@@ -127,14 +127,14 @@
         "snes-e" : "Life-energy detected. \nIt's a Cyborg. ",
         "accuracy" : 0.84375,
         "trans_size" : 0,
-        "trans_text" : "Life-energy detected.\nIt's a Cyborg!"
+        "trans_text" : "MICA:Life-energy detected.\nIt's a Cyborg!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f1d4",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 34,
         "raw" : ["13", "8b", "7a", "ca", "de", "b8", "c0", "de", "dd", "a6", "20", "c5", "b2", "bf", "de", "b3", "bc", "c0", "20", "5c", "b6", "d0", "b6", "be", "de", "5c", "20", "cd", "b2", "b7", "c3", "de", "bd", "00"],
@@ -145,14 +145,14 @@
         "snes-e" : "It's a kamikaze weapon \nequipped with bombs.",
         "accuracy" : 0.869565217391,
         "trans_size" : 0,
-        "trans_text" : "It's a kamikaze weapon\nequipped with bombs."
+        "trans_text" : "MICA:It's a kamikaze weapon\nequipped with bombs."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f1f6",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "9e", "7a", "c3", "b2", "bb", "c2", "d6", "b3", "c9", "20", "ba", "b6", "de", "c0", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -163,14 +163,14 @@
         "snes-e" : "It's a small recon\nmachine. ",
         "accuracy" : 0.882352941176,
         "trans_size" : 0,
-        "trans_text" : "It's a small recon\nmachine."
+        "trans_text" : "MICA:It's a small recon\nmachine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f20f",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["13", "9e", "7a", "ca", "de", "b8", "b9", "de", "b7", "d6", "b3", "20", "b5", "b5", "b6", "de", "c0", "20", "cb", "ba", "b3", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -181,14 +181,14 @@
         "snes-e" : "It's a large air-raid\nmachine. ",
         "accuracy" : 0.923076923077,
         "trans_size" : 0,
-        "trans_text" : "It's a large air-raid\nmachine."
+        "trans_text" : "MICA:It's a large air-raid\nmachine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f22d",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 38,
         "raw" : ["13", "8b", "7a", "be", "b2", "cc", "de", "c2", "a6", "20", "5c", "cb", "dd", "c4", "5c", "c6", "bc", "c3", "20", "c2", "b8", "d7", "da", "c0", "20", "5c", "cf", "bc", "dd", "5c", "c9", "03", "d6", "b3", "c3", "de", "bd", "00"],
@@ -199,14 +199,14 @@
         "snes-e" : "It is of biomechanical\nconstruct. ",
         "accuracy" : 0.888888888889,
         "trans_size" : 0,
-        "trans_text" : "It is of biomechanical\nconstruct!"
+        "trans_text" : "MICA:It is of biomechanical\nconstruct!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f253",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 26,
         "raw" : ["13", "9e", "7a", "ba", "b3", "bc", "de", "d6", "b3", "c9", "20", "bb", "b7", "de", "ae", "b3", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -217,14 +217,14 @@
         "snes-e" : "It's an assembly line\nmachine. ",
         "accuracy" : 0.823529411765,
         "trans_size" : 0,
-        "trans_text" : "It's an assembly line\nmachine."
+        "trans_text" : "MICA:It's an assembly line\nmachine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f26d",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 21,
         "raw" : ["13", "9e", "7a", "b6", "b8", "c4", "b3", "be", "dd", "d6", "b3", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -235,14 +235,14 @@
         "snes-e" : "It's a hand-to-hand\nfighting machine. ",
         "accuracy" : 0.866666666667,
         "trans_size" : 0,
-        "trans_text" : "It's a hand-to-hand\nfighting machine."
+        "trans_text" : "MICA:It's a hand-to-hand\nfighting machine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f282",
         "method" : 3,
-        "start_bytes" : ["13", "c2", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 48,
         "raw" : ["13", "c2", "7a", "5c", "b6", "de", "bd", "5c", "bc", "de", "ae", "b3", "20", "be", "b2", "d2", "b2", "c0", "b2", "c3", "de", "bd", "a1", "03", "b5", "d3", "c5", "be", "b2", "cc", "de", "dd", "ca", "20", "5c", "d2", "c0", "dd", "5c", "c4", "20", "5c", "b1", "dd", "d3", "c6", "b1", "00"],
@@ -253,14 +253,14 @@
         "snes-e" : "It's a gaseous life form. ",
         "accuracy" : 0.885714285714,
         "trans_size" : 0,
-        "trans_text" : "It's a gaseous lifeform."
+        "trans_text" : "MICA:It's a gaseous lifeform."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f2b2",
         "method" : 3,
-        "start_bytes" : ["13", "c2", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 27,
         "raw" : ["13", "c2", "7a", "ba", "b3", "b5", "dd", "c9", "20", "5c", "cc", "df", "d7", "bd", "de", "cf", "5c", "be", "b2", "d2", "b2", "c0", "b2", "c3", "de", "bd", "00"],
@@ -271,14 +271,14 @@
         "snes-e" : "It's a type of plasmatic\nlife form. ",
         "accuracy" : 0.894736842105,
         "trans_size" : 0,
-        "trans_text" : "It's a plasmatic\nlifeform."
+        "trans_text" : "MICA:It's a plasmatic\nlifeform."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f2cd",
         "method" : 3,
-        "start_bytes" : ["13", "c2", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 37,
         "raw" : ["13", "c2", "7a", "b7", "ae", "c0", "de", "b2", "c5", "20", "ba", "dd", "c1", "ad", "b3", "c3", "de", "bd", "a1", "03", "b6", "c0", "b2", "b6", "d7", "c3", "de", "20", "b5", "b5", "dc", "da", "c3", "b2", "cf", "bd", "00"],
@@ -289,14 +289,14 @@
         "snes-e" : "It's a large insect. ",
         "accuracy" : 0.9,
         "trans_size" : 0,
-        "trans_text" : "It's a large insect."
+        "trans_text" : "MICA:It's a large insect."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f2f2",
         "method" : 3,
-        "start_bytes" : ["13", "c2", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 43,
         "raw" : ["13", "c2", "7a", "5c", "bc", "d8", "ba", "dd", "5c", "be", "b2", "d2", "b2", "c0", "b2", "c3", "de", "bd", "a1", "03", "b6", "d7", "c0", "de", "ca", "20", "b2", "dc", "c4", "b5", "c5", "bc", "de", "20", "be", "b2", "cc", "de", "dd", "c3", "de", "bd", "00"],
@@ -307,14 +307,14 @@
         "snes-e" : "It's a silicon-based\nlife form. ",
         "accuracy" : 0.90625,
         "trans_size" : 0,
-        "trans_text" : "It's a silicon-based\nlifeform."
+        "trans_text" : "MICA:It's a silicon-based\nlifeform."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f31d",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 34,
         "raw" : ["13", "8b", "7a", "5c", "b1", "d2", "b0", "ca", "de", "5c", "c6", "20", "c6", "c0", "20", "b9", "de", "dd", "bc", "c3", "b7", "c5", "20", "be", "b2", "d2", "b2", "c0", "b2", "03", "c3", "de", "bd", "00"],
@@ -325,14 +325,14 @@
         "snes-e" : "It's a primitive life form\nsimilar to the amoeba. ",
         "accuracy" : 0.833333333333,
         "trans_size" : 0,
-        "trans_text" : "It's a primitive lifeform\nsimilar to the amoeba."
+        "trans_text" : "MICA:It's a primitive lifeform\nsimilar to the amoeba."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f33f",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 27,
         "raw" : ["13", "8b", "7a", "ba", "c9", "dc", "b8", "be", "b2", "c9", "20", "b9", "de", "dd", "bc", "de", "ad", "b3", "be", "b2", "cc", "de", "c2", "c3", "de", "bd", "00"],
@@ -343,14 +343,14 @@
         "snes-e" : "These are the planet's\nindigenous life forms. ",
         "accuracy" : 0.9,
         "trans_size" : 0,
-        "trans_text" : "These are the planet's\nindigenous lifeforms."
+        "trans_text" : "MICA:These are the planet's\nindigenous lifeforms."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f35a",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 31,
         "raw" : ["13", "8b", "7a", "b7", "ae", "b3", "d8", "ad", "b3", "c6", "20", "c6", "c0", "20", "b5", "b5", "b6", "de", "c0", "20", "ca", "c1", "ad", "b3", "d9", "b2", "03", "c3", "de", "bd", "00"],
@@ -361,14 +361,14 @@
         "snes-e" : "This is a large reptile\nsimilar to the dinosaur. ",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : "This is a large reptile\nsimilar to a dinosaur."
+        "trans_text" : "MICA:This is a large reptile\nsimilar to a dinosaur."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f379",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 45,
         "raw" : ["13", "8b", "7a", "ca", "c1", "ad", "b3", "d9", "b2", "b6", "de", "c0", "20", "ba", "b3", "c4", "b3", "be", "b2", "cc", "de", "c2", "a1", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "20", "c3", "bc", "c0", "c9", "d6", "b3", "c3", "de", "bd", "00"],
@@ -379,14 +379,14 @@
         "snes-e" : "A slave of the Berserkers. ",
         "accuracy" : 0.828571428571,
         "trans_size" : 0,
-        "trans_text" : "A slave of the Berserkers."
+        "trans_text" : "MICA:A slave of the Berserkers."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f3a6",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 16,
         "raw" : ["13", "8b", "7a", "b3", "c1", "ad", "b3", "b6", "b2", "bf", "de", "b8", "c3", "de", "bd", "00"],
@@ -397,42 +397,42 @@
         "snes-e" : "They're space pirates. ",
         "accuracy" : 0.833333333333,
         "trans_size" : 0,
-        "trans_text" : "They're space pirates."
+        "trans_text" : "MICA:They're space pirates."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f3b6",
         "method" : 3,
-        "start_bytes" : ["13","9e","7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "9e", "7a", "c9", "b3", "d8", "ae", "b8", "20", "cc", "de", "dd", "be", "b7", "20", "c3", "de", "b7", "cf", "be", "dd", "21", "00"],
         "raw_text" : "<13>セzのうりょく ぶんせき できません!",
         "alt_text" : "<13>セzノウリョク ブンセキ デキマセン!",
         "trans_size" : 26,
-        "trans_text" : "Unable to scan capability!"
+        "trans_text" : "MICA:Unable to scan\ncapability!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f3cd",
         "method" : 3,
-        "start_bytes" : ["13","9e","7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "9e", "7a", "c0", "b2", "bc", "c0", "20", "c3", "b7", "c3", "de", "ca", "20", "b1", "d8", "cf", "be", "dd", "c8", "3b", "3b", "00"],
         "raw_text" : "<13>セzたいした てきでは おりませんね‥‥",
         "alt_text" : "<13>セzタイシタ テキデハ アリマセンネ‥‥",
         "trans_size" : 31,
-        "trans_text" : "I do not detect a high threat.."
+        "trans_text" : "MICA:I do not detect a\nhigh threat.."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f3e4",
         "method" : 3,
-        "start_bytes" : ["13","8b","7a","4d","49","43","41"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 48,
         "raw" : ["13", "8b", "7a", "4d", "49", "43", "41", "5c", "d2", "af", "be", "b0", "bc", "de", "5c", "ca", "20", "54", "45", "53", "54", "c1", "ad", "b3", "c3", "de", "bd", "03", "bc", "dd", "bc", "de", "d9", "c4", "20", "cb", "c4", "de", "b2", "d2", "c6", "20", "b1", "b2", "cf", "bd", "21", "00"],
@@ -446,21 +446,21 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f414",
         "method" : 3,
-        "start_bytes" : ["13","b1","7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 27,
         "raw" : ["13", "b1", "7a", "c3", "b7", "ca", "20", "b7", "ae", "b3", "d8", "ae", "b8", "c5", "20", "cc", "de", "b7", "a6", "20", "d3", "af", "c3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13>おzてきは きょうりょくな ぶきを もっています",
         "alt_text" : "<13>アzテキハ キョウリョクナ ブキヲ モッテイマス",
         "trans_size" : 31,
-        "trans_text" : "The enemy has a powerful attack!"
+        "trans_text" : "MICA:The enemy has a powerful\nattack!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f42f",
         "method" : 3,
-        "start_bytes" : ["13", "b1", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 35,
         "raw" : ["13", "b1", "7a", "c3", "b7", "ca", "20", "b7", "ae", "b3", "d8", "ae", "b8", "c5", "20", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "a6", "03", "bf", "b3", "cb", "de", "bc", "c3", "b2", "cf", "bd", "00"],
@@ -471,7 +471,7 @@
         "snes-e" : "The enemy is equipped\nwith a strong field. ",
         "accuracy" : 0.851851851852,
         "trans_size" : 0,
-        "trans_text" : "The enemy is equipped\nwith a strong field."
+        "trans_text" : "MICA:The enemy is equipped\nwith a strong field."
     },
 
     {
@@ -492,7 +492,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f482",
         "method" : 3,
-        "start_bytes" : ["13", "d5", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["13", "d5", "7a", "b5", "b5", "b7", "b2", "c0", "de", "b9", "c6", "20", "b3", "ba", "de", "b7", "b6", "de", "20", "b5", "bf", "b2", "d6", "b3", "c3", "de", "bd", "00"],
@@ -503,14 +503,14 @@
         "snes-e" : "He's big but slow!",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : "He's big but slow!"
+        "trans_text" : "MICA:He's big but slow!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f49e",
         "method" : 3,
-        "start_bytes" : ["13", "d5", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 24,
         "raw" : ["13", "d5", "7a", "c5", "b6", "c5", "b6", "20", "bd", "ca", "de", "bc", "ba", "b2", "20", "c3", "b7", "c9", "d6", "b3", "c3", "de", "bd", "00"],
@@ -521,14 +521,14 @@
         "snes-e" : "These enemies are quite\nnimble!",
         "accuracy" : 0.888888888889,
         "trans_size" : 0,
-        "trans_text" : "These enemies are quite\nnimble!"
+        "trans_text" : "MICA:These enemies are quite\nnimble!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f4b6",
         "method" : 3,
-        "start_bytes" : ["13", "d5", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "d5", "7a", "b6", "c5", "d8", "20", "c3", "ba", "de", "dc", "b2", "20", "c3", "b7", "c9", "d6", "b3", "c3", "de", "bd", "00"],
@@ -539,7 +539,7 @@
         "snes-e" : "These are fairly tough\nopponents. ",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : "These are fairly tough\nopponents."
+        "trans_text" : "MICA:These are fairly tough\nopponents."
     },
 
     {
@@ -560,7 +560,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f4fc",
         "method" : 3,
-        "start_bytes" : ["13", "9e", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 19,
         "raw" : ["13", "9e", "7a", "ba", "ba", "c9", "20", "5c", "ce", "de", "bd", "5c", "c9", "d6", "b3", "c3", "de", "bd", "00"],
@@ -571,14 +571,14 @@
         "snes-e" : "I'd say this is the\nboss of this area. ",
         "accuracy" : 0.833333333333,
         "trans_size" : 0,
-        "trans_text" : "This must be the boss\nof this area."
+        "trans_text" : "MICA:This must be the boss\nof this area."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f50f",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 18,
         "raw" : ["13", "8b", "7a", "c6", "dd", "b9", "de", "dd", "ca", "20", "c9", "af", "c3", "b2", "cf", "be", "dd", "00"],
@@ -589,14 +589,14 @@
         "snes-e" : "There are no humans\nin there. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : "There are no humans\ninside."
+        "trans_text" : "MICA:There are no humans\ninside."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f521",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 20,
         "raw" : ["13", "8b", "7a", "c3", "b7", "ca", "20", "ce", "c9", "b3", "a6", "20", "ca", "b8", "d6", "b3", "c3", "de", "bd", "00"],
@@ -607,14 +607,14 @@
         "snes-e" : "The enemy can breathe fire. ",
         "accuracy" : 0.8,
         "trans_size" : 0,
-        "trans_text" : "The enemy can breathe fire."
+        "trans_text" : "MICA:The enemy can breathe fire!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f535",
         "method" : 3,
-        "start_bytes" : ["13", "d5", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 36,
         "raw" : ["13", "d5", "7a", "ba", "c9", "b1", "c0", "d8", "a6", "20", "5c", "ca", "df", "c4", "db", "b0", "d9", "5c", "bc", "c3", "b2", "d9", "20", "5c", "cf", "bc", "dd", "5c", "c9", "03", "d6", "b3", "c3", "de", "bd", "00"],
@@ -625,14 +625,14 @@
         "snes-e" : "It's a patrol machine. ",
         "accuracy" : 0.807692307692,
         "trans_size" : 0,
-        "trans_text" : "It's a patrol machine."
+        "trans_text" : "MICA:It's a patrol machine."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f559",
         "method" : 3,
-        "start_bytes" : ["13", "d5", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["13", "d5", "7a", "c5", "b2", "cc", "de", "c9", "20", "5c", "d2", "b6", "5c", "b6", "de", "20", "b8", "d9", "af", "c3", "b2", "d9", "d6", "b3", "c3", "de", "bd", "00"],
@@ -643,14 +643,14 @@
         "snes-e" : "The interior of this mecha\nseems to be out of order. ",
         "accuracy" : 0.894736842105,
         "trans_size" : 0,
-        "trans_text" : "The interior of this mecha\nseems to be out of order."
+        "trans_text" : "MICA:The interior of this mecha\nseems to be out of order."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f575",
         "method" : 3,
-        "start_bytes" : ["13", "d5", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["13", "d5", "7a", "ba", "c9", "20", "b7", "c1", "c9", "c5", "b6", "a6", "20", "b3", "db", "c2", "b7", "cf", "dc", "af", "c3", "b2", "d9", "03", "d6", "b3", "c3", "de", "bd", "00"],
@@ -661,14 +661,14 @@
         "snes-e" : "It's just sort of wandering\naround. ",
         "accuracy" : 0.88,
         "trans_size" : 0,
-        "trans_text" : "It's just wandering\naimlessly."
+        "trans_text" : "MICA:It's just wandering\naimlessly."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f593",
         "method" : 3,
-        "start_bytes" : ["13", "8b", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 21,
         "raw" : ["13", "8b", "7a", "bd", "b2", "c1", "ad", "b3", "d6", "b3", "c9", "20", "5c", "cf", "bc", "dd", "5c", "c3", "de", "bd", "00"],
@@ -679,14 +679,14 @@
         "snes-e" : "Seems like a maritime\nmachine. ",
         "accuracy" : 0.866666666667,
         "trans_size" : 0,
-        "trans_text" : "Seems like an aquatic\nmachine."
+        "trans_text" : "MICA:Seems like an aquatic\nmachine?"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f5a8",
         "method" : 3,
-        "start_bytes" : ["13", "d5", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "d5", "7a", "c0", "b2", "b1", "c0", "d8", "bc", "c3", "b8", "d9", "20", "c2", "d3", "d8", "c3", "de", "bd", "d6", "21", "00"],
@@ -697,14 +697,14 @@
         "snes-e" : "Looks like it's gonna\ntackle you!",
         "accuracy" : 0.8,
         "trans_size" : 0,
-        "trans_text" : "Looks like it's gonna\ntackle you!"
+        "trans_text" : "MICA:Looks like it's gonna\ntackle you!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f5be",
         "method" : 3,
-        "start_bytes" : ["13", "b1", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 29,
         "raw" : ["13", "b1", "7a", "5c", "da", "b0", "bb", "de", "b0", "5c", "ba", "b3", "b9", "de", "b7", "c6", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -715,14 +715,14 @@
         "snes-e" : "Watch out for their\nLaser attacks. ",
         "accuracy" : 0.772727272727,
         "trans_size" : 0,
-        "trans_text" : "Watch out for\nLaser attacks."
+        "trans_text" : "MICA:Watch out for\nLaser attacks!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f5db",
         "method" : 3,
-        "start_bytes" : ["13", "b1", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["13", "b1", "7a", "5c", "cb", "de", "b0", "d1", "5c", "ba", "b3", "b9", "de", "b7", "c6", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -733,14 +733,14 @@
         "snes-e" : "Watch out for their\nBeam attacks. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
-        "trans_text" : "Watch out for\nBeam attacks."
+        "trans_text" : "MICA:Watch out for\nBeam attacks!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f5f7",
         "method" : 3,
-        "start_bytes" : ["13", "b1", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 27,
         "raw" : ["13", "b1", "7a", "5c", "cb", "b0", "c4", "5c", "ba", "b3", "b9", "de", "b7", "c6", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -751,14 +751,14 @@
         "snes-e" : "Watch out for their\nHeat attacks. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
-        "trans_text" : "Watch out for\nHeat attacks."
+        "trans_text" : "MICA:Watch out for\nHeat attacks!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f612",
         "method" : 3,
-        "start_bytes" : ["13", "b1", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["13", "b1", "7a", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "ba", "b3", "b9", "de", "b7", "c6", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -769,7 +769,7 @@
         "snes-e" : "Watch out for their\nImpact attacks. ",
         "accuracy" : 0.869565217391,
         "trans_size" : 0,
-        "trans_text" : "Watch out for\nImpact attacks."
+        "trans_text" : "MICA:Watch out for\nImpact attacks!"
     },
 
     {
@@ -790,35 +790,35 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f659",
         "method" : 3,
-        "start_bytes" : ["13", "f9"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "f9", "7a", "b6", "b8", "c4", "b3", "be", "dd", "a6", "20", "b5", "ba", "c5", "af", "c3", "b8", "c0", "de", "bb", "b2", "00"],
         "raw_text" : "<13>ルzかくとうせんを おこなってください",
         "alt_text" : "<13>るzカクトウセンヲ オコナッテクダサイ",
         "trans_size" : 0,
-        "trans_text" : "Engage in hand-to-hand\ncombat."
+        "trans_text" : "MICA:Engage in hand-to-hand\ncombat."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f66f",
         "method" : 3,
-        "start_bytes" : ["13", "f9", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "f9", "7a", "b6", "b8", "c4", "b3", "be", "dd", "c6", "20", "d3", "c1", "ba", "cf", "da", "c3", "ca", "20", "b2", "b9", "cf", "be", "dd", "00"],
         "raw_text" : "<13>ルzかくとうせんに もちこまれては いけません",
         "alt_text" : "<13>るzカクトウセンニ モチコマレテハ イケマセン",
         "trans_size" : 0,
-        "trans_text" : "Strong melee power,\nengage from a distance!"
+        "trans_text" : "MICA:Strong melee power,\nengage from a distance!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f688",
         "method" : 3,
-        "start_bytes" : ["13", "f9", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "f9", "7a", "bc", "ad", "b3", "c1", "ad", "b3", "ba", "b3", "b9", "de", "b7", "a6", "20", "b6", "b9", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -829,14 +829,14 @@
         "snes-e" : "Please begin a\nconcentrated attack. ",
         "accuracy" : 0.9,
         "trans_size" : 0,
-        "trans_text" : "Please begin a\nconcentrated attack."
+        "trans_text" : "MICA:Please begin a\nconcentrated attack."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f6a1",
         "method" : 3,
-        "start_bytes" : ["13", "f9", "7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "f9", "7a", "ba", "cd", "de", "c2", "c6", "20", "ba", "b3", "b9", "de", "b7", "bc", "c3", "b8", "c0", "de", "bb", "b2", "00"],
@@ -847,70 +847,70 @@
         "snes-e" : "Please attack each\nenemy individually. ",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : "Attack each enemy\nindividually."
+        "trans_text" : "MICA:Attack each enemy\nindividually."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f6b7",
         "method" : 3,
-        "start_bytes" : ["13","0b", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "0b", "7b", "5c", "b5", "cc", "df", "bc", "ae", "dd", "5c", "a6", "20", "c2", "b6", "b3", "cd", "de", "b7", "c3", "de", "bd", "00"],
         "raw_text" : "<13><0B><gun>オプションを つかうべきです",
         "alt_text" : "<13><0B><gun>おぷしょんヲ ツカウベキデス",
         "trans_size" : 33,
-        "trans_text" : "You should use Option attacks"
+        "trans_text" : "MICA:You should use Option attacks"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f6ce",
         "method" : 3,
-        "start_bytes" : ["13","f9","7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "f9", "7a", "c6", "b9", "de", "c0", "ce", "b3", "b6", "de", "20", "b2", "b2", "b6", "d3", "bc", "da", "cf", "be", "dd", "00"],
         "raw_text" : "<13>ルzにげたほうが いいかもしれません",
         "alt_text" : "<13>るzニゲタホウガ イイカモシレマセン",
         "trans_size" : 15,
-        "trans_text" : "You should flee"
+        "trans_text" : "MICA:You should flee!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f6e4",
         "method" : 3,
-        "start_bytes" : ["13","f9","7a"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 32,
         "raw" : ["13", "f9", "7a", "c4", "de", "dd", "c5", "20", "bc", "ad", "c0", "de", "dd", "a6", "20", "c2", "b6", "af", "c3", "d3", "20", "b6", "c3", "d9", "c4", "03", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13>ルzどんな しゅだんを つかっても かてると\nおもいます",
         "alt_text" : "<13>るzドンナ シュダンヲ ツカッテモ カテルト\nオモイマス",
         "trans_size" : 35,
-        "trans_text" : "You need to win,\nno matter the cost"
+        "trans_text" : "MICA:You need to win,\nno matter the cost"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f704",
         "method" : 3,
-        "start_bytes" : ["13","0b", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13><0B><gun>レ‐ザ‐へいきが ゆうこうだと おもいます",
         "alt_text" : "<13><0B><gun>れ―ざ―ヘイキガ ユウコウダト オモイマス",
         "trans_size" : 30,
-        "trans_text" : "Lasers should be effective."
+        "trans_text" : "MICA:Lasers should be effective."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f722",
         "method" : 3,
-        "start_bytes" : ["13", "0b", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 29,
         "raw" : ["13", "0b", "7b", "5c", "cb", "de", "b0", "d1", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
@@ -921,14 +921,14 @@
         "snes-e" : "Try a Beam weapon. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
-        "trans_text" : "Try a Beam weapon."
+        "trans_text" : "MICA:Try a Beam weapon."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f73f",
         "method" : 3,
-        "start_bytes" : ["13", "0b", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["13", "0b", "7b", "5c", "cb", "b0", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
@@ -939,77 +939,77 @@
         "snes-e" : "Try Heat-based attacks. ",
         "accuracy" : 0.85,
         "trans_size" : 0,
-        "trans_text" : "Try Heat-based attacks."
+        "trans_text" : "MICA:Try Heat-based attacks."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f75b",
         "method" : 3,
-        "start_bytes" : ["13","0b", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 31,
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13><0B><gun>インパクトへいきが ゆうこうだと おもいます",
         "alt_text" : "<13><0B><gun>いんぱくとヘイキガ ユウコウダト オモイマス",
         "trans_size" : 31,
-        "trans_text" : "Impact attack should work well."
+        "trans_text" : "MICA:Impact attack should work well."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f77a",
         "method" : 3,
-        "start_bytes" : ["13","0b", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 24,
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>レ‐ザ‐へいきが むこうです!",
         "alt_text" : "<13><0B><gun>れ―ざ―ヘイキガ ムコウデス!",
         "trans_size" : 24,
-        "trans_text" : "Is armed with Laser <7b>"
+        "trans_text" : "MICA:It is armed with Laser\nweaponry."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f792",
         "method" : 3,
-        "start_bytes" : ["13","0b","7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 23,
         "raw" : ["13", "0b", "7b", "5c", "cb", "de", "b0", "d1", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>ビ‐ムへいきが むこうです!",
         "alt_text" : "<13><0B><gun>び―むヘイキガ ムコウデス!",
         "trans_size" : 23,
-        "trans_text" : "Is armed with Beam <7b>"
+        "trans_text" : "MICA:It is armed with Beam\nweaponry."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f7a9",
         "method" : 3,
-        "start_bytes" : ["13","0b","7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "0b", "7b", "5c", "cb", "b0", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>ヒ‐トへいきが むこうです!",
         "alt_text" : "<13><0B><gun>ひ―とヘイキガ ムコウデス!",
         "trans_size" : 23,
-        "trans_text" : "Is armed with Heat <7b>"
+        "trans_text" : "MICA:It is armed with Heat\nweaponry."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f7bf",
         "method" : 3,
-        "start_bytes" : ["13","0b","7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>インパクトへいきが むこうです!",
         "alt_text" : "<13><0B><gun>いんぱくとヘイキガ ムコウデス!",
         "trans_size" : 25,
-        "trans_text" : "Is armed with Impact <7b>"
+        "trans_text" : "MICA: It is armed with Impact\nweaponry."
     },
 
     {
@@ -1101,7 +1101,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f89c",
         "method" : 3,
-        "start_bytes" : ["13", "1c", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 25,
         "raw" : ["13", "1c", "7b", "ca", "d4", "b8", "20", "c1", "b7", "ad", "b3", "c6", "20", "b6", "b4", "d8", "c0", "b2", "d3", "c9", "c3", "de", "bd", "c8", "00"],
@@ -1112,14 +1112,14 @@
         "snes-e" : "Mica: I want to go back\nto Earth... ",
         "accuracy" : 0.947368421053,
         "trans_size" : 0,
-        "trans_text" : ":I want to go back\nto Earth..."
+        "trans_text" : "MICA:I want to go back\nto Earth..."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f8b5",
         "method" : 3,
-        "start_bytes" : ["13", "1c", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 46,
         "raw" : ["13", "1c", "7b", "5c", "c4", "de", "b8", "c0", "b0", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "dc", "c0", "bc", "c9", "20", "b3", "c3", "de", "a6", "20", "bc", "dd", "d6", "b3", "bc", "c3", "ca", "20", "5c", "c0", "de", "d2", "5c", "d6", "00"],
@@ -1130,14 +1130,14 @@
         "snes-e" : "Mica: A message from the\ndoctor: Don't depend on\nme too much!",
         "accuracy" : 0.833333333333,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\nDr.: Don't depend on\nme too much!"
+        "trans_text" : "MICA:A message from the\nDr.: Don't depend on\nme too much!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f8e3",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 26,
         "raw" : ["13", "2e", "7b", "dc", "c0", "bc", "c3", "de", "d3", "20", "cf", "c1", "b6", "de", "b4", "d9", "c4", "b7", "b6", "de", "20", "b1", "d8", "cf", "bd", "00"],
@@ -1148,14 +1148,14 @@
         "snes-e" : "Mica: Even I make\nmistakes sometimes. ",
         "accuracy" : 0.810810810811,
         "trans_size" : 0,
-        "trans_text" : ":Even I make mistakes\nsometimes."
+        "trans_text" : "MICA:Even I make mistakes\nsometimes."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f8fd",
         "method" : 3,
-        "start_bytes" : ["13", "1c", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 29,
         "raw" : ["13", "1c", "7b", "b7", "bd", "de", "c2", "b8", "b6", "d7", "c0", "de", "b6", "de", "20", "b1", "d9", "c9", "b6", "de", "20", "b3", "d7", "d4", "cf", "bc", "b2", "dc", "00"],
@@ -1166,14 +1166,14 @@
         "snes-e" : "Mica: I envy the fact that\nyour body can be injured. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : ":I envy the fact that\nyour body can be injured."
+        "trans_text" : "MICA:I envy the fact that\nyour body can be injured."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f91a",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 41,
         "raw" : ["13", "2e", "7b", "5c", "d2", "b6", "c6", "af", "b8", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "5c", "d3", "bc", "de", "ad", "b0", "d9", "5c", "c0", "de", "b9", "ca", "20", "d3", "c1", "b6", "b4", "da", "21", "00"],
@@ -1184,14 +1184,14 @@
         "snes-e" : "Mica: A message from the\nmechanic: Careful with\nthe modules!",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\nEngineer: Careful with\nthe mechas!"
+        "trans_text" : "MICA:A message from the\nEngineer: Careful with\nthe mechas!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f943",
         "method" : 3,
-        "start_bytes" : ["13", "1c", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 45,
         "raw" : ["13", "1c", "7b", "5c", "ce", "de", "bd", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "c1", "b7", "ad", "b3", "c6", "20", "b6", "b4", "da", "ca", "de", "20", "5c", "ce", "de", "b0", "c5", "bd", "5c", "a6", "20", "ca", "bd", "de", "d1", "00"],
@@ -1202,14 +1202,14 @@
         "snes-e" : "Mica: A message from the\nboss: You'll get a bonus\nwhen we get back!",
         "accuracy" : 0.892857142857,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\nBoss: You'll get a bonus\nwhen we get back!"
+        "trans_text" : "MICA:A message from the\nBoss: You'll get a bonus\nwhen we get back!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f970",
         "method" : 3,
-        "start_bytes" : ["13", "1c", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 42,
         "raw" : ["13", "1c", "7b", "5c", "c4", "de", "b8", "c0", "b0", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "5c", "b8", "db", "b0", "dd", "5c", "c9", "20", "d6", "b3", "b2", "ca", "20", "ca", "de", "dd", "be", "de", "dd", "d6", "00"],
@@ -1220,14 +1220,14 @@
         "snes-e" : "Mica: A message from the\ndoctor: Your clone is\nready... ",
         "accuracy" : 0.851851851852,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\nDr.: Your clone is\nready..."
+        "trans_text" : "MICA:A message from the\nDr.: Your clone is\nready..."
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f99a",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 22,
         "raw" : ["13", "2e", "7b", "ce", "dd", "b7", "a6", "20", "c0", "de", "bc", "c3", "b2", "d9", "c9", "c3", "de", "bd", "b6", "3f", "21", "00"],
@@ -1238,14 +1238,14 @@
         "snes-e" : "Mica: Try harder!",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : ":Try harder!"
+        "trans_text" : "MICA:Try harder!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f9b0",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 20,
         "raw" : ["13", "2e", "7b", "32", "34", "bc", "de", "b6", "dd", "20", "c0", "c0", "b6", "af", "c3", "cf", "bd", "b6", "3f", "00"],
@@ -1256,7 +1256,7 @@
         "snes-e" : "Mica: Hurry it up!",
         "accuracy" : 0.8,
         "trans_size" : 0,
-        "trans_text" : ":Hurry it up!"
+        "trans_text" : "MICA:Hurry it up!"
     },
 
     {
@@ -1277,7 +1277,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f9d5",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 19,
         "raw" : ["13", "2e", "7b", "cf", "ce", "b3", "c2", "b6", "b2", "a6", "20", "d6", "cb", "de", "cf", "bd", "b6", "3f", "00"],
@@ -1288,14 +1288,14 @@
         "snes-e" : "Mica: Call the wizard? ",
         "accuracy" : 0.928571428571,
         "trans_size" : 0,
-        "trans_text" : ":Call the wizard!?"
+        "trans_text" : "MICA:Call the wizard!?"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f9e8",
         "method" : 3,
-        "start_bytes" : ["13", "1c", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 45,
         "raw" : ["13", "1c", "7b", "a2", "bc", "dd", "c3", "de", "bc", "cf", "b3", "c4", "ca", "20", "c5", "bb", "b9", "c5", "b2", "3b", "3b", "a3", "03", "b5", "d4", "3f", "21", "20", "cf", "c0", "de", "20", "cf", "b9", "c3", "c5", "b6", "af", "c0", "c9", "c3", "de", "bd", "c8", "00"],
@@ -1306,7 +1306,7 @@
         "snes-e" : "Mica: I can't watch... ",
         "accuracy" : 0.861111111111,
         "trans_size" : 0,
-        "trans_text" : ":I can't watch..."
+        "trans_text" : "MICA:I can't watch..."
     },
 
     {
@@ -1327,7 +1327,7 @@
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1fa28",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 16,
         "raw" : ["13", "2e", "7b", "b2", "c9", "c1", "a6", "20", "c0", "b2", "be", "c2", "c6", "21", "21", "00"],
@@ -1338,14 +1338,14 @@
         "snes-e" : "Mica: Don't waste your life!",
         "accuracy" : 0.75,
         "trans_size" : 0,
-        "trans_text" : ":Don't waste your life!"
+        "trans_text" : "MICA:Don't waste your life!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1fa38",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00"],
         "raw_size" : 38,
         "raw" : ["13", "2e", "7b", "5c", "b5", "cc", "df", "bc", "ae", "dd", "5c", "ca", "20", "ba", "b3", "b6", "c5", "20", "cc", "de", "b7", "c3", "de", "bd", "a1", "03", "be", "c2", "d4", "b8", "20", "bc", "cf", "bc", "ae", "b3", "a1", "00"],
@@ -1356,14 +1356,14 @@
         "snes-e" : "Mica: Options aren't\nlimitless;conserve them!",
         "accuracy" : 0.925925925926,
         "trans_size" : 0,
-        "trans_text" : ":Options aren't\nlimitless, conserve them!"
+        "trans_text" : "MICA:Options aren't\nlimitless, conserve them!"
     },
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1fa5e",
         "method" : 3,
-        "start_bytes" : ["13", "2e", "7b"],
+        "start_bytes" : [],
         "end_bytes" : ["00", "00", "00", "00"],
         "raw_size" : 42,
         "raw" : ["13", "2e", "7b", "5c", "ba", "af", "b8", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "b1", "bc", "c0", "c9", "20", "5c", "bd", "c3", "b0", "b7", "5c", "ca", "20", "bf", "b2", "c2", "c3", "de", "b2", "ba", "b3", "21", "00", "00", "00", "00"],
@@ -1374,7 +1374,7 @@
         "snes-e" : "Mica: A message from the\ncook: Yeah! Dinner!",
         "accuracy" : 0.827586206897,
         "trans_size" : 0,
-        "trans_text" : ":A message from the\nChef: Yeah! Dinner!"
+        "trans_text" : "MICA:A message from the\nChef: Yeah! Dinner!"
     },
 
     {
