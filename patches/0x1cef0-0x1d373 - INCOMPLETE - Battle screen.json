@@ -22,14 +22,14 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1cf08",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00", "00"],
+        "start_bytes" : ["11", "01"],
+        "end_bytes" : ["52", "65", "61", "64", "79", "3f", "01", "20", "4f", "6b", "20", "20", "4e", "6f", "11", "00", "00"],
         "raw_size" : 19,
         "raw" : ["11", "01", "20", "52", "65", "61", "64", "79", "3f", "01", "20", "4f", "6b", "20", "20", "4e", "6f", "11", "00", "00"],
         "raw_text" : "<11><01> Ready?<01> Ok  No<11>",
         "alt_text" : "<11><01> Ready?<01> Ok  No<11>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " "
     },
 
     {
@@ -120,14 +120,14 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1cf69",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00"],
+        "start_bytes" : ["0d", "06"],
+        "end_bytes" : ["13", "83", "4f", "13", "8f", "4f", "13", "9b", "4f", "13", "a7", "4f", "13", "b3", "4f", "13", "bf", "4f", "00", "00", "00", "00"],
         "raw_size" : 23,
         "raw" : ["0d", "06", "4c", "50", "13", "83", "4f", "13", "8f", "4f", "13", "9b", "4f", "13", "a7", "4f", "13", "b3", "4f", "13", "bf", "4f", "00", "00", "00", "00"],
         "raw_text" : "<pad><06>LP<13>』O<13>ッO<13>サO<13>ぁO<13>うO<13>そO",
         "alt_text" : "<pad><06>LP<13>』O<13>ッO<13>サO<13>ァO<13>ウO<13>ソO",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "LP"
     },
 
     {
@@ -833,6 +833,7 @@
         "raw_text" : "5じをまわったので かれらは かえった。",
         "alt_text" : "5ジヲマワッタノデ カレラハ カエッタ。",
         "trans_size" : 0,
+        "temporary_trans_text" : "Chased them right back\nto 5 o'clock!",
         "trans_text" : ""
     },
 
@@ -840,14 +841,14 @@
         "string_description" : "Battle screen",
         "string_start" : "0x1d27e",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "start_bytes" : ["03", "10", "1f"],
+        "end_bytes" : ["1c", "02", "00"],
         "raw_size" : 24,
         "raw" : ["03", "10", "1f", "a2", "d6", "b0", "bc", "21", "20", "b6", "b4", "af", "c3", "20", "c8", "d9", "bf", "de", "21", "21", "a3", "1c", "02", "00"],
         "raw_text" : "\n<10><1F>『よ―し! かえって ねるぞ!!』<endwait>\n",
         "alt_text" : "\n<10><1F>『ヨーシ! カエッテ ネルゾ!!』<endwait>\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " Yes!! You sent them packing!"
     },
 
     {
@@ -997,13 +998,13 @@
         "string_start" : "0x1d343",
         "method" : 3,
         "start_bytes" : ["0d","03","0e","02","10","ff"],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["02", "00"],
         "raw_size" : 30,
         "raw" : ["0d", "03", "0e", "02", "10", "ff", "ca", "20", "ce", "de", "b3", "b7", "de", "ae", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "a6", "20", "ca", "af", "c0", "a1", "02", "00"],
         "raw_text" : "<pad>\n<0E>\n<10>゜は ぼうぎょフィールドを はった。\n",
         "alt_text" : "<pad>\n<0E>\n<10>゜ハ ボウギョふぃ―るどヲ ハッタ。\n",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " activated Defense Field"
     },
 
     {
