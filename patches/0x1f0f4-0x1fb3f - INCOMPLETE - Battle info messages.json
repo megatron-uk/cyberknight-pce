@@ -1,7 +1,7 @@
 {
 "block_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
 "block_start" : "0x1f0f4",
-"block_end" : "0x1fd90",
+"block_end" : "0x1fef0",
 "insert_method" : 2,
 "data" : [
     {
@@ -783,7 +783,7 @@
         "raw_text" : "<13>つzクジラたちの こうぶつなのかも しれませんね",
         "alt_text" : "<13>ツzくじらタチノ コウブツナノカモ シレマセンネ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:It could be a food\nenjoyed by the Whales."
     },
 
     {
@@ -801,7 +801,7 @@
     },
 
     {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
+        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0 - PARTIAL SENTENCE SHOWN!!!",
         "string_start" : "0x1f66f",
         "method" : 3,
         "start_bytes" : [],
@@ -1023,7 +1023,7 @@
         "raw_text" : "<13>ルz‥‥どう たたかえばいいのか わかりません‥‥",
         "alt_text" : "<13>るz‥‥ドウ タタカエバイイノカ ワカリマセン‥‥",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA: ... I do not know\nif I should fight ..."
     },
 
     {
@@ -1037,7 +1037,7 @@
         "raw_text" : "<13>ルz<07><0A>‥‥‥‥‥‥‥‥‥‥<07><01> ファイトぉ!!",
         "alt_text" : "<13>るz<07><0A>‥‥‥‥‥‥‥‥‥‥<07><01> ふぁいとォ!!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA: ... Fight at <07><01>% !!"
     },
 
     {
@@ -1051,7 +1051,7 @@
         "raw_text" : "<13>ルzこんな ザコは さっさと かたづけて\nしまいましょう",
         "alt_text" : "<13>るzコンナ ざこハ サッサト カタヅケテ\nシマイマショウ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:Let's get this trash\ndisposed of quickly!"
     },
 
     {
@@ -1065,11 +1065,11 @@
         "raw_text" : "<13>ルzぜんりょくで たたかってください",
         "alt_text" : "<13>るzゼンリョクデ タタカッテクダサイ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:You need to use your\nmost powerful attacks."
     },
 
     {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
+        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0 - PARTIAL SENTENCE SHOWN!!!",
         "string_start" : "0x1f84a",
         "method" : 3,
         "start_bytes" : [],
@@ -1079,7 +1079,7 @@
         "raw_text" : "<13>ルzしゃげきせんを おこなってください",
         "alt_text" : "<13>るzシャゲキセンヲ オコナッテクダサイ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:Enagage from a distance,\nuse ranged attacks."
     },
 
 
@@ -1094,7 +1094,7 @@
         "raw_text" : "<13><endwait><gun>コックよりでんごん。\nこんやの ディナ‐は さいこうだ",
         "alt_text" : "<13><endwait><gun>こっくヨリデンゴン。\nコンヤノ でぃな―ハ サイコウダ",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:Message from Chef:\nDinner tonight will be\ngood!"
     },
 
     {
@@ -1270,7 +1270,7 @@
         "raw_text" : "<13>.<gun>よ―し かえってねるぞ!",
         "alt_text" : "<13>.<gun>ヨ‐シ カエッテネルゾ!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:Alright! Back to sleep!"
     },
 
     {
@@ -1320,7 +1320,7 @@
         "raw_text" : "<13>.<gun>ガンガン いこうぜ!",
         "alt_text" : "<13>.<gun>がんがん イコウゼ!",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:Do your very best!!"
     },
 
     {

@@ -166,7 +166,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1413b",
         "method" : 3,
-        "start_bytes" : ["00","1a","1e"],
+        "start_bytes" : ["00","1a","24"],
         "end_bytes" : ["08"],
         "raw_size" : 51,
         "raw" : ["00", "1a", "1e", "5c", "bb", "b2", "ca", "de", "b0", "c5", "b2", "c4", "5c", "c9", "20", "b5", "d3", "c1", "ac", "a6", "20", "c2", "b8", "af", "c0", "d7", "02", "b3", "da", "c3", "b3", "da", "c3", "20", "b5", "b5", "d3", "b3", "b9", "c3", "de", "bd", "dc", "a1", "20", "dc", "af", "ca", "af", "ca", "08"],
@@ -174,10 +174,10 @@
         "alt_text" : "<end><1A><1E>さいば―ないとノ オモチャヲ ツクッタラ\nウレテウレテ オオモウケデスワ。 ワッハッハ",
         "snes_size" : 71,
         "snes-j" : "おとこ「サイバーナイトの おもちゃを\n    つくったら うれてうれて\n    おおもうけですわ。わっはっは。」",
-        "snes-e" : "Man: I'm the maker of\nCyber Knight toys. They're\nmaking tons of profit!",
+        "snes-e" : "Man: I'm the maker of\nCyber Knight toys.\nThey're making me tons of\nprofit!",
         "accuracy" : 0.90243902439,
         "trans_size" : 66,
-        "trans_text" : "I'm the maker of\nCyber Knight toys. They're\nmaking tons of profit!"
+        "trans_text" : "I'm the maker of Cyber\nKnight toys. They're\nmaking me lots of money!"
     },
 
     {
@@ -195,7 +195,7 @@
         "snes-e" : "Man: This planet is\nour home. ",
         "accuracy" : 0.93023255814,
         "trans_size" : 53,
-        "trans_text" : "I don't want to go to Earth,\nthis planet is our home."
+        "trans_text" : "I don't want to go to\nEarth, this is our home."
     },
 
     {
@@ -213,7 +213,7 @@
         "snes-e" : "Man: Sorry about that. ",
         "accuracy" : 0.869565217391,
         "trans_size" : 16,
-        "trans_text" : "Sorry about that"
+        "trans_text" : "Oops, sorry about that."
     },
 
     {
@@ -231,7 +231,7 @@
         "snes-e" : "Woman: Ah! Can I\nhave your autograph!? ",
         "accuracy" : 0.7,
         "trans_size" : 32,
-        "trans_text" : " Ah! Can I\nhave your autograph!?"
+        "trans_text" : "Ahh!\nCan I get your autograph!?"
     },
 
     {
@@ -267,7 +267,7 @@
         "snes-e" : "Woman: Why don't\nyou just live here? ",
         "accuracy" : 0.882352941176,
         "trans_size" : 29,
-        "trans_text" : "Why don't you just\nlive here?"
+        "trans_text" : "Why don't you just live\nhere?"
     },
 
     {
@@ -401,7 +401,7 @@
         "string_start" : "0x1434b",
         "method" : 3,
         "start_bytes" : ["00","00","1a","1e"],
-        "end_bytes" : ["08"],
+        "end_bytes" : ["10", "1f", "08"],
         "raw_size" : 25,
         "raw" : ["00", "00", "1a", "1e", "a2", "b5", "c5", "cf", "b4", "ca", "3f", "04", "3c", "20", "10", "1f", "bb", "dd", "20", "c3", "de", "bd", "b6", "a3", "08"],
         "raw_text" : "<end><end><1A><1E>『おなまえは?<pause>< <10><1F>さん ですか』",
@@ -411,7 +411,7 @@
         "snes-e" : "Man: Your name? \n....oh Mr. . ",
         "accuracy" : 0.709677419355,
         "trans_size" : 29,
-        "trans_text" : "Your name?\n....oh Mr <10><1f>"
+        "trans_text" : "Your name?\n....oh "
     },
 
     {
@@ -522,7 +522,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x143f3",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "20"],
+        "start_bytes" : ["00", "1a", "24"],
         "end_bytes" : ["08"],
         "raw_size" : 20,
         "raw" : ["00", "1a", "20", "a2", "cb", "bb", "bc", "cc", "de", "d8", "c6", "20", "b1", "b8", "bc", "ad", "a6", "3b", "3b", "08"],
@@ -547,7 +547,7 @@
         "snes-e" : ": Oops sorry again heh. ",
         "accuracy" : 0.842105263158,
         "trans_size" : 0,
-        "trans_text" : "\nOW! Don't step on my feet!\n<1a><29><10><1f>Oops, sorry again (hehe)"
+        "trans_text" : "\nOW!\nDon't step on my feet!<1a><1f><10><28>:Oops! Sorry again...\n(giggle)"
     },
 
     {
@@ -601,7 +601,7 @@
         "snes-e" : "President: Our deepest\nthanks. This planet is\nnow truly at peace. ",
         "accuracy" : 0.873563218391,
         "trans_size" : 0,
-        "trans_text" : ":Our deepest thanks.\nThis planet is now truly at peace."
+        "trans_text" : ":Our deepest thanks.\nThis planet is now truly at\npeace."
     },
 
     {
@@ -680,14 +680,14 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x145a6",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "3d", "07", "10"],
         "end_bytes" : ["08"],
         "raw_size" : 48,
         "raw" : ["0c", "10", "3d", "07", "10", "a2", "3b", "3b", "3b", "c0", "c0", "de", "3b", "3b", "3b", "07", "ff", "bb", "b2", "b7", "dd", "20", "da", "dd", "d7", "b8", "b6", "de", "03", "c4", "c0", "de", "b4", "c3", "b2", "d9", "bf", "b3", "c3", "de", "bd", "b6", "de", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<erase><10>=<07><10>『‥‥‥ただ‥‥‥<07>゜さいきん れんらくが\nとだえているそうですが‥‥‥』",
         "alt_text" : "<erase><10>=<07><10>『‥‥‥タダ‥‥‥<07>゜サイキン レンラクガ\nトダエテイルソウデスガ‥‥‥』",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "We've had regular contact with them, but recently "
     },
 
     {
@@ -744,7 +744,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14661",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "1f", "10", "1e"],
+        "start_bytes" : ["00", "1a", "1e", "10", "1e"],
         "end_bytes" : ["08"],
         "raw_size" : 38,
         "raw" : ["00", "1a", "1f", "10", "1e", "a2", "ba", "da", "b6", "de", "20", "5c", "d5", "b0", "db", "ca", "df", "5c", "b6", "a1", "03", "bd", "de", "b2", "cc", "de", "dd", "20", "b1", "da", "ca", "c3", "c3", "cf", "bd", "c8", "a3", "08"],
@@ -773,14 +773,14 @@
         "snes-e" : ": Hey Vynd do\nyour thing. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : ":Vynd, it's up to you now"
+        "trans_text" : ":Vynd, it's up to you"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x146a5",
         "method" : 3,
-        "start_bytes" : ["19", "1f", "10", "2c"],
+        "start_bytes" : ["1a", "24", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 47,
         "raw" : ["19", "1f", "10", "2c", "a2", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "de", "20", "b1", "d9", "c4", "bd", "da", "ca", "de", "03", "5c", "b4", "dd", "bc", "de", "dd", "a5", "d9", "b0", "d1", "5c", "c3", "de", "bc", "ae", "b3", "a1", "a3", "08"],
@@ -791,21 +791,21 @@
         "snes-e" : "Vynd: If there's a\nMonopole-Coil here it'd\nbe in the engine room. ",
         "accuracy" : 0.641975308642,
         "trans_size" : 0,
-        "trans_text" : ":If there's a\nMonopole-Coil here it'd\nbe in the engine room."
+        "trans_text" : ":If there's a\nDrive-Coil here it'd be in\nthe engine room."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x146d4",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 27,
         "raw" : ["0c", "10", "2c", "a2", "5c", "b4", "dd", "bc", "de", "dd", "a5", "d9", "b0", "d1", "5c", "a6", "20", "bb", "b6", "de", "bc", "cf", "bc", "ae", "b3", "a3", "08"],
         "raw_text" : "<erase><10>,『エンジン・ル‐ムを さがしましょう』",
         "alt_text" : "<erase><10>,『えんじん・る―むヲ サガシマショウ』",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":So, we should try and\nfind the engines first."
     },
 
     {
@@ -841,17 +841,17 @@
         "snes-e" : ": This looks like\nthe bridge. ",
         "accuracy" : 0.896551724138,
         "trans_size" : 0,
-        "trans_text" : ":Looks like the bridge."
+        "trans_text" : ":Is this the bridge?"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1472b",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00", "1a", "25", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 72,
-        "raw" : ["00", "1a", "25", "10", "2c", "a2", "b1", "af", "c0", "21", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "c0", "de", "21", "03", "bb", "af", "bf", "b8", "20", "cc", "c8", "c6", "20", "d3", "c1", "b6", "b4", "af", "c3", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "03", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "a6", "20", "bc", "ad", "b3", "d8", "bc", "d6", "b3", "a3", "08"],
+        "raw" : ["00", "1a", "25", "10", "2c", "a2", "b1", "af", "c0", "21", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "c0", "de", "21", "03", "bb", "af", "bf", "b8", "20", "cc", "c8", "c6", "20", "d3", "c1", "b6", "b4", "af", "c3", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "03", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "a6", "20", "bc", "ad", "b3", "d8", "bc", "d6", "b3", "a3", "08", "13", "2f", "6a", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<end><1A>%<10>,『おった! モノポ‐ル・コイルだ!\nさっそく ふねに もちかえって ジャンプ\n・ジェネレ‐タ‐を しゅうりしよう』",
         "alt_text" : "<end><1A>%<10>,『アッタ! ものぽ―る・こいるダ!\nサッソク フネニ モチカエッテ じゃんぷ\n・じぇねれ―た―ヲ シュウリシヨウ』",
         "snes_size" : 70,
@@ -859,46 +859,46 @@
         "snes-e" : "Vynd: Here we go! A\nMonopole Coil! Ok let's get\nthis back to the ship!",
         "accuracy" : 0.815533980583,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Here we go, a Drive\nCoil! Let's get this back to\nthe ship now!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14773",
         "method" : 3,
-        "start_bytes" : [],
-        "end_bytes" : ["08"],
+        "start_bytes" : ["1a", "22"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 25,
-        "raw" : ["13", "2f", "6a", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
-        "raw_text" : "<13>/jモノポ‐ル・コイル を てにいれた!",
-        "alt_text" : "<13>/jものぽ―る・こいる ヲ テニイレタ!",
+        "raw" : ["13", "2f", "6a", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08", "13", "3a", "6a", "00"],
+        "raw_text" : "<13>/jモノポ‐ル・コイル を てにいれた!<13>:j<end>",
+        "alt_text" : "<13>/jものぽ―る・こいる ヲ テニイレタ!<13>:j<end>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "Drive Coil Found!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1478c",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "25", "10", "1f"],
         "end_bytes" : ["08"],
         "raw_size" : 68,
-        "raw" : ["13", "3a", "6a", "00", "1a", "25", "10", "1f", "a2", "ba", "da", "ca", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "c5", "3f", "03", "d6", "b8", "dc", "b6", "d7", "c5", "b2", "c5", "a1", "03", "5c", "b3", "de", "a8", "dd", "c4", "de", "5c", "b6", "de", "20", "b2", "da", "ca", "de", "20", "c5", "c6", "b6", "dc", "b6", "af", "c0", "c9", "c6", "3b", "3b", "a3", "08"],
-        "raw_text" : "<13>:j<end><1A>%<10><1F>『これは モノポ‐ル・コイルかな?\nよくわからないな。\nヴィンドが いれば なにかわかったのに‥‥』",
+        "raw" : ["1a", "25", "10", "1f", "a2", "ba", "da", "ca", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "c5", "3f", "03", "d6", "b8", "dc", "b6", "d7", "c5", "b2", "c5", "a1", "03", "5c", "b3", "de", "a8", "dd", "c4", "de", "5c", "b6", "de", "20", "b2", "da", "ca", "de", "20", "c5", "c6", "b6", "dc", "b6", "af", "c0", "c9", "c6", "3b", "3b", "a3", "08"],
+        "raw_text" : "<1A>%<10><1F>『これは モノポ‐ル・コイルかな?\nよくわからないな。\nヴィンドが いれば なにかわかったのに‥‥』",
         "alt_text" : "<13>:j<end><1A>%<10><1F>『コレハ ものぽ―る・こいるカナ?\nヨクワカラナイナ。\nぃんどガ イレバ ナニカワカッタノニ‥‥』",
         "snes_size" : 53,
         "snes-j" : "「これは モノポール・コイルかな?\n    よくわからないな。\n    ヴィンドが いれば なにかわかったのに・・」",
         "snes-e" : ": Is this a\nMonopole Coil?  I wish Vynd\nwere here... ",
         "accuracy" : 0.913043478261,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Is this a Drive Coil?\nI wish Vynd were here..."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x147d0",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00", "1a", "25", "10", "2c"],
         "end_bytes" : ["08"],
         "raw_size" : 56,
         "raw" : ["00", "1a", "25", "10", "2c", "a2", "c0", "de", "d2", "c0", "de", "21", "20", "ba", "c9", "5c", "ba", "b2", "d9", "5c", "ca", "20", "ba", "dc", "da", "c3", "d9", "21", "03", "c2", "b6", "b2", "d3", "c9", "c6", "20", "c5", "d7", "c5", "b2", "a1", "03", "ce", "b6", "a6", "20", "bb", "b6", "de", "bc", "c3", "d0", "d6", "b3", "a3", "08"],
@@ -909,14 +909,14 @@
         "snes-e" : "Vynd: This coil's broken!",
         "accuracy" : 0.864197530864,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":It's broken!\nThis Drive Coil is useless,\nwe need another."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14808",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00", "1a", "24"],
         "end_bytes" : ["08"],
         "raw_size" : 75,
         "raw" : ["00", "1a", "24", "cc", "d9", "ce", "de", "b9", "c0", "20", "bc", "ac", "bc", "dd", "b6", "de", "20", "b5", "c1", "c3", "b2", "d9", "a1", "02", "b3", "c2", "b8", "bc", "b2", "20", "bc", "de", "ae", "be", "b2", "c4", "20", "5c", "ca", "dd", "bb", "d1", "5c", "c5", "20", "b5", "c4", "ba", "b6", "de", "02", "b3", "c2", "af", "c3", "b2", "d9", "a1", "20", "b3", "d7", "c6", "20", "bc", "de", "b6", "de", "20", "b6", "b2", "c3", "b1", "d9", "a1", "08"],
@@ -927,21 +927,23 @@
         "snes-e" : "There's a dirty old\npicture of a pretty\nwoman and a handsome\nguy. There's writing\non the back. ",
         "accuracy" : 0.920353982301,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "There's a faded old image\nof a pretty woman and a\nhandsome guy. [View]"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14853",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "2d", "0e", "04"],
         "end_bytes" : ["08"],
         "raw_size" : 39,
         "raw" : ["1a", "2d", "0e", "06", "5c", "d9", "c4", "de", "b6", "de", "b0", "5c", "b6", "d7", "02", "20", "20", "20", "20", "5c", "b1", "b2", "d8", "b0", "dd", "5c", "cd", "02", "3b", "3b", "b1", "b2", "a6", "ba", "d2", "c3", "3b", "3b", "08"],
         "raw_text" : "<1A>-<0E><06>ルドガ‐から\n    アイリ‐ンへ\n‥‥おいをこめて‥‥",
         "alt_text" : "<1A>-<0E><06>るどが―カラ\n    おいり―んヘ\n‥‥アイヲコメテ‥‥",
+	"snes-e" : "... From Radgar\n\nTo Eileen, \n\n\n... with love.",
+	"snes-j" : "「ルドガーから\n\n    アイリーンへ\n\n\n\n・・・・あいをこめて」", 
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "... from\nRadgar to\nEileen,\nwith love"
     },
 
     {
@@ -1253,7 +1255,7 @@
         "snes-e" : "Professor: Hey you're\nback! I discovered\nquite a lot!",
         "accuracy" : 0.732673267327,
         "trans_size" : 0,
-        "trans_text" : ":Hey you're back!\nI discovered quite a lot!"
+        "trans_text" : ":Hey you're back!\nI have discovered rather a lot!"
     },
 
     {
@@ -1271,21 +1273,21 @@
         "snes-e" : "Professor: Before fully\ncolonizing FarWorld we\nfound a planet with many\njungles and sent search\nparties to it. ",
         "accuracy" : 0.626666666667,
         "trans_size" : 0,
-        "trans_text" : ":Before colonizing FarWorld\nwe found a planet with many\njungles and sent search parties to it"
+        "trans_text" : ":Before colonizing FarWorld\nEuropa found a planet with many\njungles and sent search parties to it"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14d73",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "3c"],
         "end_bytes" : ["08"],
         "raw_size" : 40,
         "raw" : ["0c", "10", "3c", "a2", "bf", "ba", "c3", "de", "20", "c1", "ae", "b3", "bb", "c9", "c0", "d2", "c6", "20", "5c", "bc", "ac", "c4", "d9", "5c", "a6", "03", "b5", "db", "bc", "c0", "c9", "c0", "de", "bf", "b3", "bc", "de", "ac", "a3", "08"],
         "raw_text" : "<erase><10><『そこで ちょうさのために シャトルを\nおろしたのだそうじゃ』",
         "alt_text" : "<erase><10><『ソコデ チョウサノタメニ しゃとるヲ\nオロシタノダソウジャ』",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":A team was sent down in a\nshuttle to investigate"
     },
 
     {
@@ -1317,28 +1319,28 @@
         "snes-e" : "Professor: They disappeared\nwithout a word... When they\nlater discovered dinosaurs\non the planet they gave\nup the search... ",
         "accuracy" : 0.666666666667,
         "trans_size" : 0,
-        "trans_text" : ":When they later\ndiscovered dinosaurs on\nthe planet they gave up\nthe search..."
+        "trans_text" : ":Later, when dinosaurs\nwere discovered on the\nplanet they gave up the search..."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14e0f",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "3c"],
         "end_bytes" : ["08"],
         "raw_size" : 27,
         "raw" : ["0c", "10", "3c", "a2", "c4", "de", "b3", "bc", "de", "ac", "3f", "04", "1e", "20", "b5", "d3", "bc", "db", "b2", "bc", "de", "ac", "db", "b3", "3f", "a3", "08"],
         "raw_text" : "<erase><10><『どうじゃ?<pause><1E> おもしろいじゃろう?』",
         "alt_text" : "<erase><10><『ドウジャ?<pause><1E> オモシロイジャロウ?』",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Intriguing, wouldn't you say!!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14e2a",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "1f", "10", "1f", "07", "0f"],
         "end_bytes" : ["08"],
         "raw_size" : 45,
         "raw" : ["1a", "1f", "10", "1f", "07", "0f", "a2", "b1", "c9", "b0", "3b", "3b", "3b", "3b", "07", "06", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c6", "c2", "b2", "c3", "ca", "03", "c5", "c6", "b6", "20", "dc", "b6", "d8", "cf", "bc", "c0", "b6", "3f", "a3", "07", "ff", "08"],
@@ -1349,7 +1351,7 @@
         "snes-e" : ": [speed_1E]Um... [speed_FF]Did you find\nout anything about\nMentana yet? ",
         "accuracy" : 0.6,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Did you find\nout anything about\nMentana yet?"
     },
 
     {
@@ -1367,7 +1369,7 @@
         "snes-e" : "Professor: Um well... \nnot exactly. ",
         "accuracy" : 0.867469879518,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Well...<04><1e>\nNot exactly."
     },
 
     {
@@ -1778,7 +1780,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x153f9",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["13", "3a", "6a", "13", "9c", "54", "00", "00", "1a", "23", "10", "1f"],
         "end_bytes" : ["08"],
         "raw_size" : 34,
         "raw" : ["13", "3a", "6a", "13", "9c", "54", "00", "00", "1a", "23", "10", "1f", "a2", "ba", "ba", "b6", "de", "20", "c3", "b7", "c9", "20", "c1", "ad", "b3", "bd", "b3", "cc", "de", "c0", "de", "21", "a3", "08"],
@@ -1789,14 +1791,14 @@
         "snes-e" : ": So this is the core!",
         "accuracy" : 0.774193548387,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":So, this is the core!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1541b",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00", "1a", "25", "10", "1f"],
         "end_bytes" : ["08"],
         "raw_size" : 70,
         "raw" : ["00", "1a", "25", "10", "1f", "a2", "c4", "de", "ba", "b6", "c6", "20", "5c", "db", "ce", "de", "af", "c4", "5c", "c6", "20", "bc", "da", "b2", "a6", "b5", "b8", "af", "c3", "b2", "d9", "03", "c1", "ad", "b3", "bd", "b3", "cc", "de", "b6", "de", "20", "b1", "d9", "ca", "bd", "de", "c0", "de", "a1", "03", "bf", "ba", "a6", "20", "ca", "b6", "b2", "c3", "de", "b7", "da", "ca", "de", "3b", "3b", "3b", "3b", "a3", "08"],
@@ -1807,14 +1809,14 @@
         "snes-e" : ": There must be a core\ncontrol machine. Gotta\ndestroy it... ",
         "accuracy" : 0.895833333333,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":There must be a core\ncontrol machine. We've got\nto destroy it!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x15461",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00", "1a", "1f"],
         "end_bytes" : ["08"],
         "raw_size" : 23,
         "raw" : ["00", "1a", "1f", "c3", "b7", "c9", "20", "c1", "ad", "b3", "bd", "b3", "cc", "de", "a6", "20", "ca", "b6", "b2", "bc", "c0", "21", "08"],
@@ -1825,14 +1827,14 @@
         "snes-e" : "You have destroyed\nthe core!",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "You destroyed the core!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x15478",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "1f"],
         "end_bytes" : ["08"],
         "raw_size" : 35,
         "raw" : ["0c", "10", "1f", "a2", "c6", "dd", "d1", "20", "b6", "dd", "d8", "ae", "b3", "a1", "03", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "c6", "20", "b7", "b6", "dd", "bd", "d9", "a3", "08"],
@@ -1843,14 +1845,14 @@
         "snes-e" : ": Let's return to\nthe Swordfish. ",
         "accuracy" : 0.862745098039,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Let's return to\nthe Swordfish."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1549b",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00", "1b", "00", "1a", "1e", "06", "39", "10", "30", "06", "39"],
         "end_bytes" : ["08"],
         "raw_size" : 29,
         "raw" : ["00", "1b", "00", "1a", "1e", "06", "39", "10", "30", "06", "39", "a2", "ba", "c1", "d7", "20", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "a3", "08"],
@@ -1861,14 +1863,14 @@
         "snes-e" : "Mica: This is Swordfish. ",
         "accuracy" : 0.8,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":This is Swordfish."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x154b8",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["0c", "10", "30"],
         "end_bytes" : ["08"],
         "raw_size" : 42,
         "raw" : ["0c", "10", "30", "a2", "bf", "c9", "5c", "c3", "de", "b0", "c0", "5c", "a6", "20", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "c6", "03", "d3", "c1", "b6", "b4", "af", "c3", "20", "b8", "c0", "de", "bb", "b2", "a1", "a3", "08"],
@@ -1879,14 +1881,14 @@
         "snes-e" : "Mica: Please return with\nthe data immediately. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Please return with\nthe data immediately."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x154e2",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a", "23", "10", "1f"],
         "end_bytes" : ["08"],
         "raw_size" : 26,
         "raw" : ["1a", "23", "10", "1f", "a2", "d8", "ae", "b3", "b6", "b2", "21", "20", "c0", "c0", "de", "c1", "c6", "20", "b7", "b6", "dd", "bd", "d9", "a1", "a3", "08"],
@@ -1897,7 +1899,7 @@
         "snes-e" : ": Roger! Returning\nright away. ",
         "accuracy" : 0.882352941176,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Roger! Returning now."
     },
 
     {
@@ -3648,7 +3650,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1697e",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["00", "1a", "1f", "10", "1f"],
         "end_bytes" : ["08"],
         "raw_size" : 34,
         "raw" : ["00", "1a", "1f", "10", "1f", "a2", "b6", "b2", "bf", "de", "b8", "c9", "20", "ce", "dd", "b7", "ae", "c1", "ca", "20", "c4", "de", "ba", "c6", "03", "b1", "d9", "dd", "c3", "de", "bd", "3f", "a3", "08"],
@@ -3659,14 +3661,14 @@
         "snes-e" : ": Where can I\nfind their base? ",
         "accuracy" : 0.863636363636,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Where can I find\ntheir base?"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x169a0",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["19", "24", "10", "3f"],
         "end_bytes" : ["08"],
         "raw_size" : 34,
         "raw" : ["19", "24", "10", "3f", "a2", "bf", "da", "b6", "de", "dc", "b6", "d7", "dd", "b6", "d7", "20", "b1", "dd", "c0", "d7", "c6", "03", "c0", "c9", "dd", "c3", "de", "cf", "bd", "dd", "d4", "21", "a3", "08"],
@@ -3677,7 +3679,7 @@
         "snes-e" : "Trader: Damned if I\nknow!",
         "accuracy" : 0.84,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : ":Damned if I know!"
     },
 
     {

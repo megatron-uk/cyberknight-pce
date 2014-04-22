@@ -423,6 +423,13 @@ if os.path.isdir(PATCH_DIR_NAME):
 		print "============="
 		keys = PATCH_FILES.keys()
 		keys.sort()
+		total_tot = 0
+		total_t = 0
+		total_sm = 0
+		total_tiny = 0
+		print "---------|------------|------------|-------|---------------"
+		print "  Strings|Translations|SNES matches|Tiny   | Patch Name"
+		print "---------|------------|------------|-------|---------------"
 		for d in keys:
 			try:
 				PATCH_FILES[d]["json"] = open(PATCH_DIR_NAME + "/" + d).read()
@@ -431,18 +438,27 @@ if os.path.isdir(PATCH_DIR_NAME):
 				sm = 0
 				tiny = 0
 				tot = len(PATCH_FILES[d]["data"]["data"])
+				total_tot += tot
 				for b in PATCH_FILES[d]["data"]["data"]:
 					if len(b["trans_text"]) > 0:
 						t += 1
+						total_t += 1
 					if "snes-e" in b.keys():
 						sm += 1
+						total_sm += 1
 					if len(b["raw_text"]) < 2:
 						tiny += 1
-				print "- %4s Strings %4s Translations %4s SNES matches %3s Tiny %4s Missing | %s" % (tot, t, sm, tiny, (tot - t - sm - tiny), d)
+						total_tiny += 1
+				print "- %4s   |%4s /%4s  | %4s /%4s |  %3s  | %s" % (tot, t, tot, sm, tot, tiny, d)
 			except Exception as e:
 				print traceback.format_exc()
 				print "- %s <- ERROR, not a valid JSON file" % d
 				print e
+		print "---------|------------|------------|-------|---------------"
+		print "  Strings|Translations|SNES matches|Tiny   | Patch Name"
+		print "---------|------------|------------|-------|---------------"
+		print "- %4s    %4s / %4s  %4s / %4s    %3s " % (total_tot, total_t, total_tot, total_sm, total_tot, total_tiny)
+
 		print ""
 		print "Patch Summary Key"
 		print "================="
