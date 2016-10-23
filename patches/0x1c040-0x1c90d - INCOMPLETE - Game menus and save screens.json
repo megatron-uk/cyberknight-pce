@@ -78,13 +78,13 @@
         "string_description" : "",
         "string_start" : "0x1c050",
         "method" : 3,
-        "start_bytes" : ["11", "01"],
-        "end_bytes" : ["01", "20", "59", "2f", "4e", "11", "00"],
+        "start_bytes" : ["11","01"],
+        "end_bytes" : ["01","20","59","2f","4e","11","00"],
         "raw_size" : 13,
         "raw" : ["11", "01", "20", "4f", "4b", "3f", "01", "20", "59", "2f", "4e", "11", "00"],
         "raw_text" : "<11><01> Ok?<01> Y/N<11>",
         "alt_text" : "<11><01> Ok?<01> Y/N<11>",
-        "trans_size" : 0,
+        "trans_size" : 4,
         "trans_text" : " Ok?"
     },
 
@@ -294,7 +294,7 @@
         "raw" : ["0b", "15", "0c", "4d", "6f", "6e", "61", "75", "72", "61", "6c", "00"],
         "raw_text" : "<0B><15><erase>Monaural",
         "alt_text" : "<0B><15><erase>Monaural",
-        "trans_size" : 0,
+        "trans_size" : 23,
         "trans_text" : "<0B><15><erase>Monaural"
     },
 
@@ -680,14 +680,14 @@
         "string_description" : "",
         "string_start" : "0x1c35a",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["18"],
         "end_bytes" : ["08","00"],
         "raw_size" : 21,
         "raw" : ["18", "dd", "2d", "22", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "bc", "ad", "b3", "d8", "4f", "4b", "21", "08", "00"],
         "raw_text" : "<18>ん―“ポイント しゅうりOK!<wait>",
         "alt_text" : "<18>ン―“ぽいんと シュウリOK!<wait>",
         "trans_size" : 13,
-        "trans_text" : "EP Recovered!"
+        "trans_text" : "Using Repkit!"
     },
 
     {
@@ -853,12 +853,12 @@
         "string_start" : "0x1c3f1",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["08", "00"],
+        "end_bytes" : ["08","00"],
         "raw_size" : 20,
         "raw" : ["10", "ff", "ca", "20", "5c", "c4", "de", "b8", "c0", "b0", "bd", "b7", "d9", "5c", "b6", "de", "c5", "b2", "08", "00"],
         "raw_text" : "<10>゜は ドクタ‐スキルがない<wait>",
         "alt_text" : "<10>゜ハ どくた―すきるガナイ<wait>",
-        "trans_size" : 17,
+        "trans_size" : 13,
         "trans_text" : "No med. skill"
     },
 
@@ -867,12 +867,12 @@
         "string_start" : "0x1c405",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["08", "00"],
+        "end_bytes" : ["08","00"],
         "raw_size" : 25,
         "raw" : ["5c", "b7", "ad", "b1", "b7", "af", "c4", "5c", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "c1", "d8", "ae", "b3", "cc", "c9", "b3", "08", "00"],
         "raw_text" : "キュアキットがないので ちりょうふのう<wait>",
         "alt_text" : "きゅおきっとガナイノデ チリョウフノウ<wait>",
-        "trans_size" : 23,
+        "trans_size" : 19,
         "trans_text" : "No Medkit available"
     },
 
@@ -881,13 +881,13 @@
         "string_start" : "0x1c41e",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["08", "00"],
+        "end_bytes" : ["08","00"],
         "raw_size" : 20,
         "raw" : ["18", "dd", "2d", "22", "5c", "ce", "df", "b2", "dd", "c4", "5c", "20", "b6", "b2", "cc", "b8", "bc", "c0", "08", "00"],
         "raw_text" : "<18>ん―“ポイント かいふくした<wait>",
         "alt_text" : "<18>ン―“ぽいんと カイフクシタ<wait>",
-        "trans_size" : 22,
-        "trans_text" : "LP recovered!"
+        "trans_size" : 18,
+        "trans_text" : "<18>pts recovered!"
     },
 
     {

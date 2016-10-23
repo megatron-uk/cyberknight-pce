@@ -39,7 +39,7 @@ FUZZY_AUTO_SELECT_LIMIT = 0.8
 OVERWRITE = False
 
 # Additional, verbose output about the process
-VERBOSE = False
+VERBOSE = True
 
 # The byte which determines which translation table to use
 SWITCH_MODE = '5C'

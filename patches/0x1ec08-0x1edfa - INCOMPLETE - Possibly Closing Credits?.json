@@ -14,6 +14,10 @@
         "raw" : ["ca", "c2", "bc", "c0", "a1", "03", "5c", "d0", "bb", "b2", "d9", "5c", "cd", "b2", "b7", "c9", "20"],
         "raw_text" : "はつした。\nミサイルへいきの",
         "alt_text" : "ハツシタ。\nみさいるヘイキノ",
+        "snes_size" : 33,
+        "snes-j" : "「ミサイルへいきの めいちゅうりつを",
+        "snes-e" : "This will boost missile\naccuracy!",
+        "accuracy" : 0.551724137931,
         "trans_size" : 0,
         "trans_text" : ""
     },

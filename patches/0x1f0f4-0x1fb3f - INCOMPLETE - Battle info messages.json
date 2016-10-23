@@ -1,7 +1,7 @@
 {
 "block_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
 "block_start" : "0x1f0f4",
-"block_end" : "0x1fef0",
+"block_end" : "0x1fd90",
 "insert_method" : 2,
 "data" : [
     {
@@ -18,7 +18,7 @@
         "snes-j" : "    きょだい しきかんタイプ バーサーカーです。\n    このふねの ちゅうしんです。」",
         "snes-e" : "A Commander type Berserker\nis in this ship's core. ",
         "accuracy" : 0.828571428571,
-        "trans_size" : 0,
+        "trans_size" : 55,
         "trans_text" : "MICA:A Commander type\nBerserker is in this\nship's core."
     },
 
@@ -36,7 +36,7 @@
         "snes-j" : "    おおがたの しきかんタイプです。\n    てごわそうです。」",
         "snes-e" : "It's enormous!",
         "accuracy" : 0.88,
-        "trans_size" : 0,
+        "trans_size" : 19,
         "trans_text" : "MICA:It's enormous!"
     },
 
@@ -54,7 +54,7 @@
         "snes-j" : "    おおがたの ほうげきよう マシンです。」",
         "snes-e" : "It's a large-scale\nbombardment machine. ",
         "accuracy" : 0.888888888889,
-        "trans_size" : 0,
+        "trans_size" : 44,
         "trans_text" : "MICA:It's a large-scale\nbombardment machine."
     },
 
@@ -72,7 +72,7 @@
         "snes-j" : "    こがたの さぎょうよう マシンです。」",
         "snes-e" : "It's a small worker\nmachine. ",
         "accuracy" : 0.882352941176,
-        "trans_size" : 0,
+        "trans_size" : 33,
         "trans_text" : "MICA:It's a small worker\nmachine."
     },
 
@@ -90,7 +90,7 @@
         "snes-j" : "    こがたの ほへい マシンです。」",
         "snes-e" : "It's a small infantry\nmachine. ",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : "MICA:It's a small infantry\nmachine."
     },
 
@@ -108,7 +108,7 @@
         "snes-j" : "    おおがた ゆそうよう マシンです。」",
         "snes-e" : "It's a large transport\nmachine. ",
         "accuracy" : 0.875,
-        "trans_size" : 0,
+        "trans_size" : 36,
         "trans_text" : "MICA:It's a large transport\nmachine."
     },
 
@@ -126,7 +126,7 @@
         "snes-j" : "    せいめいはんのう あり。\n    にんげんを かいぞうした サイボーグです。」",
         "snes-e" : "Life-energy detected. \nIt's a Cyborg. ",
         "accuracy" : 0.84375,
-        "trans_size" : 0,
+        "trans_size" : 41,
         "trans_text" : "MICA:Life-energy detected.\nIt's a Cyborg!"
     },
 
@@ -144,7 +144,7 @@
         "snes-j" : "    ばくだんを ないぞうした\n    カミカゼへいきです。」",
         "snes-e" : "It's a kamikaze weapon \nequipped with bombs.",
         "accuracy" : 0.869565217391,
-        "trans_size" : 0,
+        "trans_size" : 48,
         "trans_text" : "MICA:It's a kamikaze weapon\nequipped with bombs."
     },
 
@@ -162,7 +162,7 @@
         "snes-j" : "    ていさつようの こがた マシンです。」",
         "snes-e" : "It's a small recon\nmachine. ",
         "accuracy" : 0.882352941176,
-        "trans_size" : 0,
+        "trans_size" : 32,
         "trans_text" : "MICA:It's a small recon\nmachine."
     },
 
@@ -180,7 +180,7 @@
         "snes-j" : "    ばくげきよう おおがた ひこうマシンです」",
         "snes-e" : "It's a large air-raid\nmachine. ",
         "accuracy" : 0.923076923077,
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : "MICA:It's a large air-raid\nmachine."
     },
 
@@ -198,7 +198,7 @@
         "snes-j" : "    せいぶつを ヒントにしてつくられた\n    マシンのようです。」",
         "snes-e" : "It is of biomechanical\nconstruct. ",
         "accuracy" : 0.888888888889,
-        "trans_size" : 0,
+        "trans_size" : 38,
         "trans_text" : "MICA:It is of biomechanical\nconstruct!"
     },
 
@@ -216,7 +216,7 @@
         "snes-j" : "    こうじょうの さぎょう マシンです。」",
         "snes-e" : "It's an assembly line\nmachine. ",
         "accuracy" : 0.823529411765,
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : "MICA:It's an assembly line\nmachine."
     },
 
@@ -234,7 +234,7 @@
         "snes-j" : "    かくとうせんよう マシンです。」",
         "snes-e" : "It's a hand-to-hand\nfighting machine. ",
         "accuracy" : 0.866666666667,
-        "trans_size" : 0,
+        "trans_size" : 42,
         "trans_text" : "MICA:It's a hand-to-hand\nfighting machine."
     },
 
@@ -252,7 +252,7 @@
         "snes-j" : "    ガスじょう せいめいたいです。\n    おもなせいぶんは メタンとアンモニアです。」",
         "snes-e" : "It's a gaseous life form. ",
         "accuracy" : 0.885714285714,
-        "trans_size" : 0,
+        "trans_size" : 29,
         "trans_text" : "MICA:It's a gaseous lifeform."
     },
 
@@ -270,7 +270,7 @@
         "snes-j" : "    こうおんの プラズマせいめいたいです。」 ",
         "snes-e" : "It's a type of plasmatic\nlife form. ",
         "accuracy" : 0.894736842105,
-        "trans_size" : 0,
+        "trans_size" : 31,
         "trans_text" : "MICA:It's a plasmatic\nlifeform."
     },
 
@@ -288,7 +288,7 @@
         "snes-j" : "    きょだいな こんちゅうです。\n    かたい からで おおわれています。」",
         "snes-e" : "It's a large insect. ",
         "accuracy" : 0.9,
-        "trans_size" : 0,
+        "trans_size" : 25,
         "trans_text" : "MICA:It's a large insect."
     },
 
@@ -306,7 +306,7 @@
         "snes-j" : "    シリコンせいめいたいです。\n    からだは いわとおなじ せいぶんです。」",
         "snes-e" : "It's a silicon-based\nlife form. ",
         "accuracy" : 0.90625,
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : "MICA:It's a silicon-based\nlifeform."
     },
 
@@ -324,7 +324,7 @@
         "snes-j" : "    アメーバに にた\n    げんしてきな せいめいたいです。」",
         "snes-e" : "It's a primitive life form\nsimilar to the amoeba. ",
         "accuracy" : 0.833333333333,
-        "trans_size" : 0,
+        "trans_size" : 53,
         "trans_text" : "MICA:It's a primitive lifeform\nsimilar to the amoeba."
     },
 
@@ -342,7 +342,7 @@
         "snes-j" : "    このわくせいの げんじゅうせいぶつです。」",
         "snes-e" : "These are the planet's\nindigenous life forms. ",
         "accuracy" : 0.9,
-        "trans_size" : 0,
+        "trans_size" : 49,
         "trans_text" : "MICA:These are the planet's\nindigenous lifeforms."
     },
 
@@ -360,7 +360,7 @@
         "snes-j" : "    きょうりゅうに にた\n    おおがた はちゅうるいです。」",
         "snes-e" : "This is a large reptile\nsimilar to the dinosaur. ",
         "accuracy" : 0.875,
-        "trans_size" : 0,
+        "trans_size" : 51,
         "trans_text" : "MICA:This is a large reptile\nsimilar to a dinosaur."
     },
 
@@ -378,7 +378,7 @@
         "snes-j" : "    はちゅうるいがた こうとうせいぶつ。\n    バーサーカーの てしたのようです。」",
         "snes-e" : "A slave of the Berserkers. ",
         "accuracy" : 0.828571428571,
-        "trans_size" : 0,
+        "trans_size" : 31,
         "trans_text" : "MICA:A slave of the Berserkers."
     },
 
@@ -396,7 +396,7 @@
         "snes-j" : "    うちゅうかいぞくです。」",
         "snes-e" : "They're space pirates. ",
         "accuracy" : 0.833333333333,
-        "trans_size" : 0,
+        "trans_size" : 27,
         "trans_text" : "MICA:They're space pirates."
     },
 
@@ -410,7 +410,7 @@
         "raw" : ["13", "9e", "7a", "c9", "b3", "d8", "ae", "b8", "20", "cc", "de", "dd", "be", "b7", "20", "c3", "de", "b7", "cf", "be", "dd", "21", "00"],
         "raw_text" : "<13>セzのうりょく ぶんせき できません!",
         "alt_text" : "<13>セzノウリョク ブンセキ デキマセン!",
-        "trans_size" : 26,
+        "trans_size" : 31,
         "trans_text" : "MICA:Unable to scan\ncapability!"
     },
 
@@ -424,7 +424,7 @@
         "raw" : ["13", "9e", "7a", "c0", "b2", "bc", "c0", "20", "c3", "b7", "c3", "de", "ca", "20", "b1", "d8", "cf", "be", "dd", "c8", "3b", "3b", "00"],
         "raw_text" : "<13>セzたいした てきでは おりませんね‥‥",
         "alt_text" : "<13>セzタイシタ テキデハ アリマセンネ‥‥",
-        "trans_size" : 31,
+        "trans_size" : 36,
         "trans_text" : "MICA:I do not detect a\nhigh threat.."
     },
 
@@ -452,7 +452,7 @@
         "raw" : ["13", "b1", "7a", "c3", "b7", "ca", "20", "b7", "ae", "b3", "d8", "ae", "b8", "c5", "20", "cc", "de", "b7", "a6", "20", "d3", "af", "c3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13>おzてきは きょうりょくな ぶきを もっています",
         "alt_text" : "<13>アzテキハ キョウリョクナ ブキヲ モッテイマス",
-        "trans_size" : 31,
+        "trans_size" : 37,
         "trans_text" : "MICA:The enemy has a powerful\nattack!"
     },
 
@@ -470,7 +470,7 @@
         "snes-j" : "    てきは きょうりょくな\n    フィールドを そうびしています。」",
         "snes-e" : "The enemy is equipped\nwith a strong field. ",
         "accuracy" : 0.851851851852,
-        "trans_size" : 0,
+        "trans_size" : 47,
         "trans_text" : "MICA:The enemy is equipped\nwith a strong field."
     },
 
@@ -502,7 +502,7 @@
         "snes-j" : "    おおきいだけに\n    うごきが おそいようです。」",
         "snes-e" : "He's big but slow!",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 23,
         "trans_text" : "MICA:He's big but slow!"
     },
 
@@ -520,7 +520,7 @@
         "snes-j" : "    なかなか すばしこい てきのようです。」",
         "snes-e" : "These enemies are quite\nnimble!",
         "accuracy" : 0.888888888889,
-        "trans_size" : 0,
+        "trans_size" : 36,
         "trans_text" : "MICA:These enemies are quite\nnimble!"
     },
 
@@ -538,7 +538,7 @@
         "snes-j" : "    かなり てごわい てきの ようです。」",
         "snes-e" : "These are fairly tough\nopponents. ",
         "accuracy" : 0.875,
-        "trans_size" : 0,
+        "trans_size" : 38,
         "trans_text" : "MICA:These are fairly tough\nopponents."
     },
 
@@ -570,7 +570,7 @@
         "snes-j" : "    ここの ボスのようです。」",
         "snes-e" : "I'd say this is the\nboss of this area. ",
         "accuracy" : 0.833333333333,
-        "trans_size" : 0,
+        "trans_size" : 40,
         "trans_text" : "MICA:This must be the boss\nof this area."
     },
 
@@ -588,7 +588,7 @@
         "snes-j" : "    にんげんは のっていません。」",
         "snes-e" : "There are no humans\nin there. ",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 32,
         "trans_text" : "MICA:There are no humans\ninside."
     },
 
@@ -606,7 +606,7 @@
         "snes-j" : "    てきは ほのおを はくようです。」",
         "snes-e" : "The enemy can breathe fire. ",
         "accuracy" : 0.8,
-        "trans_size" : 0,
+        "trans_size" : 32,
         "trans_text" : "MICA:The enemy can breathe fire!"
     },
 
@@ -624,7 +624,7 @@
         "snes-j" : "    このあたりを パトロールしている\n    マシンのようです。」",
         "snes-e" : "It's a patrol machine. ",
         "accuracy" : 0.807692307692,
-        "trans_size" : 0,
+        "trans_size" : 27,
         "trans_text" : "MICA:It's a patrol machine."
     },
 
@@ -642,7 +642,7 @@
         "snes-j" : "    ないぶの メカが くるっているようです。」",
         "snes-e" : "The interior of this mecha\nseems to be out of order. ",
         "accuracy" : 0.894736842105,
-        "trans_size" : 0,
+        "trans_size" : 57,
         "trans_text" : "MICA:The interior of this mecha\nseems to be out of order."
     },
 
@@ -660,7 +660,7 @@
         "snes-j" : "    この きちのなかを\n    うろつきまわっているようです。」",
         "snes-e" : "It's just sort of wandering\naround. ",
         "accuracy" : 0.88,
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : "MICA:It's just wandering\naimlessly."
     },
 
@@ -678,7 +678,7 @@
         "snes-j" : "    すいちゅうようの マシンです。」",
         "snes-e" : "Seems like a maritime\nmachine. ",
         "accuracy" : 0.866666666667,
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : "MICA:Seems like an aquatic\nmachine?"
     },
 
@@ -696,7 +696,7 @@
         "snes-j" : "    たいあたりしてくる つもりですよ！」",
         "snes-e" : "Looks like it's gonna\ntackle you!",
         "accuracy" : 0.8,
-        "trans_size" : 0,
+        "trans_size" : 38,
         "trans_text" : "MICA:Looks like it's gonna\ntackle you!"
     },
 
@@ -714,7 +714,7 @@
         "snes-j" : "    レーザーこうげきに\n    ちゅういしてください。」",
         "snes-e" : "Watch out for their\nLaser attacks. ",
         "accuracy" : 0.772727272727,
-        "trans_size" : 0,
+        "trans_size" : 33,
         "trans_text" : "MICA:Watch out for\nLaser attacks!"
     },
 
@@ -732,7 +732,7 @@
         "snes-j" : "    ビームこうげきに ちゅういしてください。」",
         "snes-e" : "Watch out for their\nBeam attacks. ",
         "accuracy" : 0.85,
-        "trans_size" : 0,
+        "trans_size" : 32,
         "trans_text" : "MICA:Watch out for\nBeam attacks!"
     },
 
@@ -750,7 +750,7 @@
         "snes-j" : "    ヒートこうげきに ちゅういしてください。」",
         "snes-e" : "Watch out for their\nHeat attacks. ",
         "accuracy" : 0.85,
-        "trans_size" : 0,
+        "trans_size" : 32,
         "trans_text" : "MICA:Watch out for\nHeat attacks!"
     },
 
@@ -768,7 +768,7 @@
         "snes-j" : "    インパクトこうげきに\n    ちゅういしてください。」",
         "snes-e" : "Watch out for their\nImpact attacks. ",
         "accuracy" : 0.869565217391,
-        "trans_size" : 0,
+        "trans_size" : 34,
         "trans_text" : "MICA:Watch out for\nImpact attacks!"
     },
 
@@ -777,13 +777,17 @@
         "string_start" : "0x1f630",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
+        "end_bytes" : ["00","00","00","00","00","00","00","00","00","00","00","00"],
         "raw_size" : 30,
         "raw" : ["13", "c2", "7a", "5c", "b8", "bc", "de", "d7", "5c", "c0", "c1", "c9", "20", "ba", "b3", "cc", "de", "c2", "c5", "c9", "b6", "d3", "20", "bc", "da", "cf", "be", "dd", "c8", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
         "raw_text" : "<13>つzクジラたちの こうぶつなのかも しれませんね",
         "alt_text" : "<13>ツzくじらタチノ コウブツナノカモ シレマセンネ",
+        "snes_size" : 33,
+        "snes-j" : "    ここの クジラたちの\n    こうぶつのようです。」",
+        "snes-e" : "Seems to be the\nWhales'favorite. ",
+        "accuracy" : 0.5,
         "trans_size" : 0,
-        "trans_text" : "MICA:It could be a food\nenjoyed by the Whales."
+        "trans_text" : ""
     },
 
     {
@@ -796,12 +800,12 @@
         "raw" : ["13", "f9", "7a", "b6", "b8", "c4", "b3", "be", "dd", "a6", "20", "b5", "ba", "c5", "af", "c3", "b8", "c0", "de", "bb", "b2", "00"],
         "raw_text" : "<13>ルzかくとうせんを おこなってください",
         "alt_text" : "<13>るzカクトウセンヲ オコナッテクダサイ",
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : "MICA:Engage in hand-to-hand\ncombat."
     },
 
     {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0 - PARTIAL SENTENCE SHOWN!!!",
+        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f66f",
         "method" : 3,
         "start_bytes" : [],
@@ -810,7 +814,7 @@
         "raw" : ["13", "f9", "7a", "b6", "b8", "c4", "b3", "be", "dd", "c6", "20", "d3", "c1", "ba", "cf", "da", "c3", "ca", "20", "b2", "b9", "cf", "be", "dd", "00"],
         "raw_text" : "<13>ルzかくとうせんに もちこまれては いけません",
         "alt_text" : "<13>るzカクトウセンニ モチコマレテハ イケマセン",
-        "trans_size" : 0,
+        "trans_size" : 48,
         "trans_text" : "MICA:Strong melee power,\nengage from a distance!"
     },
 
@@ -828,7 +832,7 @@
         "snes-j" : "    しゅうちゅうこうげきを かけてください。」",
         "snes-e" : "Please begin a\nconcentrated attack. ",
         "accuracy" : 0.9,
-        "trans_size" : 0,
+        "trans_size" : 40,
         "trans_text" : "MICA:Please begin a\nconcentrated attack."
     },
 
@@ -846,7 +850,7 @@
         "snes-j" : "    こべつに こうげきしてください。」",
         "snes-e" : "Please attack each\nenemy individually. ",
         "accuracy" : 0.875,
-        "trans_size" : 0,
+        "trans_size" : 36,
         "trans_text" : "MICA:Attack each enemy\nindividually."
     },
 
@@ -860,7 +864,7 @@
         "raw" : ["13", "0b", "7b", "5c", "b5", "cc", "df", "bc", "ae", "dd", "5c", "a6", "20", "c2", "b6", "b3", "cd", "de", "b7", "c3", "de", "bd", "00"],
         "raw_text" : "<13><0B><gun>オプションを つかうべきです",
         "alt_text" : "<13><0B><gun>おぷしょんヲ ツカウベキデス",
-        "trans_size" : 33,
+        "trans_size" : 34,
         "trans_text" : "MICA:You should use Option attacks"
     },
 
@@ -874,7 +878,7 @@
         "raw" : ["13", "f9", "7a", "c6", "b9", "de", "c0", "ce", "b3", "b6", "de", "20", "b2", "b2", "b6", "d3", "bc", "da", "cf", "be", "dd", "00"],
         "raw_text" : "<13>ルzにげたほうが いいかもしれません",
         "alt_text" : "<13>るzニゲタホウガ イイカモシレマセン",
-        "trans_size" : 15,
+        "trans_size" : 21,
         "trans_text" : "MICA:You should flee!"
     },
 
@@ -888,7 +892,7 @@
         "raw" : ["13", "f9", "7a", "c4", "de", "dd", "c5", "20", "bc", "ad", "c0", "de", "dd", "a6", "20", "c2", "b6", "af", "c3", "d3", "20", "b6", "c3", "d9", "c4", "03", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13>ルzどんな しゅだんを つかっても かてると\nおもいます",
         "alt_text" : "<13>るzドンナ シュダンヲ ツカッテモ カテルト\nオモイマス",
-        "trans_size" : 35,
+        "trans_size" : 40,
         "trans_text" : "MICA:You need to win,\nno matter the cost"
     },
 
@@ -902,7 +906,7 @@
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13><0B><gun>レ‐ザ‐へいきが ゆうこうだと おもいます",
         "alt_text" : "<13><0B><gun>れ―ざ―ヘイキガ ユウコウダト オモイマス",
-        "trans_size" : 30,
+        "trans_size" : 32,
         "trans_text" : "MICA:Lasers should be effective."
     },
 
@@ -920,7 +924,7 @@
         "snes-j" : "    ビームへいきが\n    ゆうこうだと おもいます。」",
         "snes-e" : "Try a Beam weapon. ",
         "accuracy" : 0.85,
-        "trans_size" : 0,
+        "trans_size" : 23,
         "trans_text" : "MICA:Try a Beam weapon."
     },
 
@@ -938,7 +942,7 @@
         "snes-j" : "    ヒートへいきが\n    ゆうこうだと おもいます。」",
         "snes-e" : "Try Heat-based attacks. ",
         "accuracy" : 0.85,
-        "trans_size" : 0,
+        "trans_size" : 28,
         "trans_text" : "MICA:Try Heat-based attacks."
     },
 
@@ -952,7 +956,7 @@
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d5", "b3", "ba", "b3", "c0", "de", "c4", "20", "b5", "d3", "b2", "cf", "bd", "00"],
         "raw_text" : "<13><0B><gun>インパクトへいきが ゆうこうだと おもいます",
         "alt_text" : "<13><0B><gun>いんぱくとヘイキガ ユウコウダト オモイマス",
-        "trans_size" : 31,
+        "trans_size" : 36,
         "trans_text" : "MICA:Impact attack should work well."
     },
 
@@ -966,7 +970,7 @@
         "raw" : ["13", "0b", "7b", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>レ‐ザ‐へいきが むこうです!",
         "alt_text" : "<13><0B><gun>れ―ざ―ヘイキガ ムコウデス!",
-        "trans_size" : 24,
+        "trans_size" : 37,
         "trans_text" : "MICA:It is armed with Laser\nweaponry."
     },
 
@@ -980,7 +984,7 @@
         "raw" : ["13", "0b", "7b", "5c", "cb", "de", "b0", "d1", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>ビ‐ムへいきが むこうです!",
         "alt_text" : "<13><0B><gun>び―むヘイキガ ムコウデス!",
-        "trans_size" : 23,
+        "trans_size" : 36,
         "trans_text" : "MICA:It is armed with Beam\nweaponry."
     },
 
@@ -994,7 +998,7 @@
         "raw" : ["13", "0b", "7b", "5c", "cb", "b0", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>ヒ‐トへいきが むこうです!",
         "alt_text" : "<13><0B><gun>ひ―とヘイキガ ムコウデス!",
-        "trans_size" : 23,
+        "trans_size" : 36,
         "trans_text" : "MICA:It is armed with Heat\nweaponry."
     },
 
@@ -1008,7 +1012,7 @@
         "raw" : ["13", "0b", "7b", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "b6", "de", "20", "d1", "ba", "b3", "c3", "de", "bd", "21", "00"],
         "raw_text" : "<13><0B><gun>インパクトへいきが むこうです!",
         "alt_text" : "<13><0B><gun>いんぱくとヘイキガ ムコウデス!",
-        "trans_size" : 25,
+        "trans_size" : 39,
         "trans_text" : "MICA: It is armed with Impact\nweaponry."
     },
 
@@ -1023,7 +1027,7 @@
         "raw_text" : "<13>ルz‥‥どう たたかえばいいのか わかりません‥‥",
         "alt_text" : "<13>るz‥‥ドウ タタカエバイイノカ ワカリマセン‥‥",
         "trans_size" : 0,
-        "trans_text" : "MICA: ... I do not know\nif I should fight ..."
+        "trans_text" : ""
     },
 
     {
@@ -1037,7 +1041,7 @@
         "raw_text" : "<13>ルz<07><0A>‥‥‥‥‥‥‥‥‥‥<07><01> ファイトぉ!!",
         "alt_text" : "<13>るz<07><0A>‥‥‥‥‥‥‥‥‥‥<07><01> ふぁいとォ!!",
         "trans_size" : 0,
-        "trans_text" : "MICA: ... Fight at <07><01>% !!"
+        "trans_text" : ""
     },
 
     {
@@ -1051,7 +1055,7 @@
         "raw_text" : "<13>ルzこんな ザコは さっさと かたづけて\nしまいましょう",
         "alt_text" : "<13>るzコンナ ざこハ サッサト カタヅケテ\nシマイマショウ",
         "trans_size" : 0,
-        "trans_text" : "MICA:Let's get this trash\ndisposed of quickly!"
+        "trans_text" : ""
     },
 
     {
@@ -1065,23 +1069,22 @@
         "raw_text" : "<13>ルzぜんりょくで たたかってください",
         "alt_text" : "<13>るzゼンリョクデ タタカッテクダサイ",
         "trans_size" : 0,
-        "trans_text" : "MICA:You need to use your\nmost powerful attacks."
+        "trans_text" : ""
     },
 
     {
-        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0 - PARTIAL SENTENCE SHOWN!!!",
+        "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
         "string_start" : "0x1f84a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
+        "end_bytes" : ["00","00","00","00","00","00","00","00","00","00","00","00","00","00","00","00","00","00","00","00","00"],
         "raw_size" : 23,
         "raw" : ["13", "f9", "7a", "bc", "ac", "b9", "de", "b7", "be", "dd", "a6", "20", "b5", "ba", "c5", "af", "c3", "b8", "c0", "de", "bb", "b2", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00", "00"],
         "raw_text" : "<13>ルzしゃげきせんを おこなってください",
         "alt_text" : "<13>るzシャゲキセンヲ オコナッテクダサイ",
         "trans_size" : 0,
-        "trans_text" : "MICA:Enagage from a distance,\nuse ranged attacks."
+        "trans_text" : ""
     },
-
 
     {
         "string_description" : "Unknown dialogue - uses additional space from 0x1fb41-0x1fcc0",
@@ -1093,8 +1096,12 @@
         "raw" : ["13", "1c", "7b", "5c", "ba", "af", "b8", "5c", "d6", "d8", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "ba", "dd", "d4", "c9", "20", "5c", "c3", "de", "a8", "c5", "b0", "5c", "ca", "20", "bb", "b2", "ba", "b3", "c0", "de", "00"],
         "raw_text" : "<13><endwait><gun>コックよりでんごん。\nこんやの ディナ‐は さいこうだ",
         "alt_text" : "<13><endwait><gun>こっくヨリデンゴン。\nコンヤノ でぃな―ハ サイコウダ",
+        "snes_size" : 44,
+        "snes-j" : "MICA「コックより でんごん。\n    あしたのステーキは そいつでいこう！」",
+        "snes-e" : "Mica: A message from the\ncook: Yeah! Dinner!",
+        "accuracy" : 0.555555555556,
         "trans_size" : 0,
-        "trans_text" : "MICA:Message from Chef:\nDinner tonight will be\ngood!"
+        "trans_text" : ""
     },
 
     {
@@ -1111,7 +1118,7 @@
         "snes-j" : "MICA「はやく ちきゅうにかえりたいものですね。」",
         "snes-e" : "Mica: I want to go back\nto Earth... ",
         "accuracy" : 0.947368421053,
-        "trans_size" : 0,
+        "trans_size" : 34,
         "trans_text" : "MICA:I want to go back\nto Earth..."
     },
 
@@ -1129,7 +1136,7 @@
         "snes-j" : "MICA「ドクターより でんごん。\n    わたしのウデを しんようしてはダメよ。」",
         "snes-e" : "Mica: A message from the\ndoctor: Don't depend on\nme too much!",
         "accuracy" : 0.833333333333,
-        "trans_size" : 0,
+        "trans_size" : 57,
         "trans_text" : "MICA:A message from the\nDr.: Don't depend on\nme too much!"
     },
 
@@ -1147,7 +1154,7 @@
         "snes-j" : "MICA「わたしでも まちがえることが あります。」",
         "snes-e" : "Mica: Even I make\nmistakes sometimes. ",
         "accuracy" : 0.810810810811,
-        "trans_size" : 0,
+        "trans_size" : 36,
         "trans_text" : "MICA:Even I make mistakes\nsometimes."
     },
 
@@ -1165,7 +1172,7 @@
         "snes-j" : "MICA「きずつく からだが あるのが\n    うらやましいわ。」",
         "snes-e" : "Mica: I envy the fact that\nyour body can be injured. ",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 51,
         "trans_text" : "MICA:I envy the fact that\nyour body can be injured."
     },
 
@@ -1183,7 +1190,7 @@
         "snes-j" : "MICA「メカニックより でんごん。\n    モジュールだけは もちかえれ！」",
         "snes-e" : "Mica: A message from the\nmechanic: Careful with\nthe modules!",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 58,
         "trans_text" : "MICA:A message from the\nEngineer: Careful with\nthe mechas!"
     },
 
@@ -1201,7 +1208,7 @@
         "snes-j" : "MICA「ボスより でんごん。\n    ちきゅうにかえれば ボーナスをはずむ。」",
         "snes-e" : "Mica: A message from the\nboss: You'll get a bonus\nwhen we get back!",
         "accuracy" : 0.892857142857,
-        "trans_size" : 0,
+        "trans_size" : 66,
         "trans_text" : "MICA:A message from the\nBoss: You'll get a bonus\nwhen we get back!"
     },
 
@@ -1219,7 +1226,7 @@
         "snes-j" : "MICA「ドクターより でんごん。\n    クローンのよういは ばんぜんよ。」",
         "snes-e" : "Mica: A message from the\ndoctor: Your clone is\nready... ",
         "accuracy" : 0.851851851852,
-        "trans_size" : 0,
+        "trans_size" : 51,
         "trans_text" : "MICA:A message from the\nDr.: Your clone is\nready..."
     },
 
@@ -1237,7 +1244,7 @@
         "snes-j" : "MICA「ほんきを だしているのですか！?」",
         "snes-e" : "Mica: Try harder!",
         "accuracy" : 0.875,
-        "trans_size" : 0,
+        "trans_size" : 16,
         "trans_text" : "MICA:Try harder!"
     },
 
@@ -1255,7 +1262,7 @@
         "snes-j" : "MICA「２４じかん たたかってますか?」",
         "snes-e" : "Mica: Hurry it up!",
         "accuracy" : 0.8,
-        "trans_size" : 0,
+        "trans_size" : 17,
         "trans_text" : "MICA:Hurry it up!"
     },
 
@@ -1270,7 +1277,7 @@
         "raw_text" : "<13>.<gun>よ―し かえってねるぞ!",
         "alt_text" : "<13>.<gun>ヨ‐シ カエッテネルゾ!",
         "trans_size" : 0,
-        "trans_text" : "MICA:Alright! Back to sleep!"
+        "trans_text" : ""
     },
 
     {
@@ -1287,7 +1294,7 @@
         "snes-j" : "MICA「まほうつかいを よびますか?」",
         "snes-e" : "Mica: Call the wizard? ",
         "accuracy" : 0.928571428571,
-        "trans_size" : 0,
+        "trans_size" : 22,
         "trans_text" : "MICA:Call the wizard!?"
     },
 
@@ -1305,7 +1312,7 @@
         "snes-j" : "MICA「しんでしまうとは なさけない・・・\n\n    おや！? まだ まけてなかったのですね。」",
         "snes-e" : "Mica: I can't watch... ",
         "accuracy" : 0.861111111111,
-        "trans_size" : 0,
+        "trans_size" : 21,
         "trans_text" : "MICA:I can't watch..."
     },
 
@@ -1320,7 +1327,7 @@
         "raw_text" : "<13>.<gun>ガンガン いこうぜ!",
         "alt_text" : "<13>.<gun>がんがん イコウゼ!",
         "trans_size" : 0,
-        "trans_text" : "MICA:Do your very best!!"
+        "trans_text" : ""
     },
 
     {
@@ -1337,7 +1344,7 @@
         "snes-j" : "MICA「いのちを たいせつに！！」",
         "snes-e" : "Mica: Don't waste your life!",
         "accuracy" : 0.75,
-        "trans_size" : 0,
+        "trans_size" : 27,
         "trans_text" : "MICA:Don't waste your life!"
     },
 
@@ -1355,7 +1362,7 @@
         "snes-j" : "MICA「オプションは こうかな ぶきです。\n    せつやくしましょう。」",
         "snes-e" : "Mica: Options aren't\nlimitless;conserve them!",
         "accuracy" : 0.925925925926,
-        "trans_size" : 0,
+        "trans_size" : 45,
         "trans_text" : "MICA:Options aren't\nlimitless, conserve them!"
     },
 
@@ -1364,7 +1371,7 @@
         "string_start" : "0x1fa5e",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00"],
+        "end_bytes" : ["00","00","00","00"],
         "raw_size" : 42,
         "raw" : ["13", "2e", "7b", "5c", "ba", "af", "b8", "5c", "d6", "d8", "20", "c3", "de", "dd", "ba", "de", "dd", "a1", "03", "b1", "bc", "c0", "c9", "20", "5c", "bd", "c3", "b0", "b7", "5c", "ca", "20", "bf", "b2", "c2", "c3", "de", "b2", "ba", "b3", "21", "00", "00", "00", "00"],
         "raw_text" : "<13>.<gun>コックより でんごん。\nおしたの ステ‐キは そいつでいこう!",
@@ -1373,7 +1380,7 @@
         "snes-j" : "MICA「コックより でんごん。\n    あしたのステーキは そいつでいこう！」",
         "snes-e" : "Mica: A message from the\ncook: Yeah! Dinner!",
         "accuracy" : 0.827586206897,
-        "trans_size" : 0,
+        "trans_size" : 43,
         "trans_text" : "MICA:A message from the\nChef: Yeah! Dinner!"
     },
 
@@ -1415,7 +1422,7 @@
         "raw" : ["10", "30", "a2", "cd", "b2", "b7", "cc", "de", "dd", "be", "b7", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『へいきぶんせき <chevron> <0F>\n",
         "alt_text" : "<MICA>『ヘイキブンセキ <chevron> <0F>\n",
-        "trans_size" : 6,
+        "trans_size" : 9,
         "trans_text" : ":Weapons "
     },
 
@@ -1429,7 +1436,7 @@
         "raw" : ["10", "30", "a2", "be", "b2", "cc", "de", "dd", "cc", "de", "dd", "be", "b7", "20", "7d", "20", "0f", "03", "00"],
         "raw_text" : "<MICA>『せいぶんぶんせき <chevron> <0F>\n",
         "alt_text" : "<MICA>『セイブンブンセキ <chevron> <0F>\n",
-        "trans_size" : 13,
+        "trans_size" : 8,
         "trans_text" : ":System "
     },
 
@@ -1461,7 +1468,7 @@
         "snes-j" : "MICA「しこうぶんせき  ",
         "snes-e" : "Mica: Thought",
         "accuracy" : 1.0,
-        "trans_size" : 0,
+        "trans_size" : 9,
         "trans_text" : ":Thought "
     },
 
@@ -1498,7 +1505,7 @@
         "string_start" : "0x1fb1c",
         "method" : 3,
         "start_bytes" : ["10","30"],
-        "end_bytes" : ["7d","20","10","00", "03", "00"],
+        "end_bytes" : ["7d","20","10","00","03","00"],
         "raw_size" : 16,
         "raw" : ["10", "30", "a2", "c3", "b2", "bc", "de", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00", "03", "00"],
         "raw_text" : "<MICA>『ていじれんらく <chevron> <10>",
@@ -1512,7 +1519,7 @@
         "string_start" : "0x1fb2e",
         "method" : 3,
         "start_bytes" : ["10","30"],
-        "end_bytes" : ["7d","20","10","00", "03", "00"],
+        "end_bytes" : ["7d","20","10","00","03","00"],
         "raw_size" : 17,
         "raw" : ["10", "30", "a2", "b7", "dd", "b7", "ad", "b3", "da", "dd", "d7", "b8", "20", "7d", "20", "10", "00", "03", "00"],
         "raw_text" : "<MICA>『きんきゅうれんらく <chevron> <10>",

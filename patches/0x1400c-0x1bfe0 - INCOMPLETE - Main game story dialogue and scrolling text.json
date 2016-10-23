@@ -2,7 +2,7 @@
 "block_description" : "Main game dialogue - uses additional space from ",
 "block_start" : "0x1400c",
 "block_end" : "0x1bfe0",
-"insert_method" : 2,
+"insert_method" : 1,
 "data" : [
     {
         "string_description" : "Main game dialogue - uses additional space from ",
@@ -166,7 +166,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1413b",
         "method" : 3,
-        "start_bytes" : ["00","1a","24"],
+        "start_bytes" : ["00","1a","1e"],
         "end_bytes" : ["08"],
         "raw_size" : 51,
         "raw" : ["00", "1a", "1e", "5c", "bb", "b2", "ca", "de", "b0", "c5", "b2", "c4", "5c", "c9", "20", "b5", "d3", "c1", "ac", "a6", "20", "c2", "b8", "af", "c0", "d7", "02", "b3", "da", "c3", "b3", "da", "c3", "20", "b5", "b5", "d3", "b3", "b9", "c3", "de", "bd", "dc", "a1", "20", "dc", "af", "ca", "af", "ca", "08"],
@@ -174,10 +174,10 @@
         "alt_text" : "<end><1A><1E>さいば―ないとノ オモチャヲ ツクッタラ\nウレテウレテ オオモウケデスワ。 ワッハッハ",
         "snes_size" : 71,
         "snes-j" : "おとこ「サイバーナイトの おもちゃを\n    つくったら うれてうれて\n    おおもうけですわ。わっはっは。」",
-        "snes-e" : "Man: I'm the maker of\nCyber Knight toys.\nThey're making me tons of\nprofit!",
+        "snes-e" : "Man: I'm the maker of\nCyber Knight toys. They're\nmaking tons of profit!",
         "accuracy" : 0.90243902439,
         "trans_size" : 66,
-        "trans_text" : "I'm the maker of Cyber\nKnight toys. They're\nmaking me lots of money!"
+        "trans_text" : "I'm the maker of\nCyber Knight toys. They're\nmaking tons of profit!"
     },
 
     {
@@ -195,7 +195,7 @@
         "snes-e" : "Man: This planet is\nour home. ",
         "accuracy" : 0.93023255814,
         "trans_size" : 53,
-        "trans_text" : "I don't want to go to\nEarth, this is our home."
+        "trans_text" : "I don't want to go to Earth,\nthis planet is our home."
     },
 
     {
@@ -213,7 +213,7 @@
         "snes-e" : "Man: Sorry about that. ",
         "accuracy" : 0.869565217391,
         "trans_size" : 16,
-        "trans_text" : "Oops, sorry about that."
+        "trans_text" : "Sorry about that"
     },
 
     {
@@ -231,7 +231,7 @@
         "snes-e" : "Woman: Ah! Can I\nhave your autograph!? ",
         "accuracy" : 0.7,
         "trans_size" : 32,
-        "trans_text" : "Ahh!\nCan I get your autograph!?"
+        "trans_text" : " Ah! Can I\nhave your autograph!?"
     },
 
     {
@@ -267,7 +267,7 @@
         "snes-e" : "Woman: Why don't\nyou just live here? ",
         "accuracy" : 0.882352941176,
         "trans_size" : 29,
-        "trans_text" : "Why don't you just live\nhere?"
+        "trans_text" : "Why don't you just\nlive here?"
     },
 
     {
@@ -302,7 +302,7 @@
         "snes-j" : "もんばん「ただいま きんむちゅうであります。」",
         "snes-e" : "Guard: Sorry for the\nconfusion. ",
         "accuracy" : 0.848484848485,
-        "trans_size" : 23,
+        "trans_size" : 16,
         "trans_text" : "Sorry for before"
     },
 
@@ -320,7 +320,7 @@
         "snes-j" : "きょうじゅ「ひまがあったら\n    だいとうりょうに あうといい。\n    あのおとこは わしの おしえごじゃ。\n    あえるように いっておこう。」",
         "snes-e" : "Professor: You should meet\nwith the President. He's a\nstudent of mine. I'll tell\nhim to let you in. ",
         "accuracy" : 0.6875,
-        "trans_size" : 76,
+        "trans_size" : 73,
         "trans_text" : ":You should meet the\nPresident. He was one of\nmy students. I'll call him."
     },
 
@@ -401,7 +401,7 @@
         "string_start" : "0x1434b",
         "method" : 3,
         "start_bytes" : ["00","00","1a","1e"],
-        "end_bytes" : ["10", "1f", "08"],
+        "end_bytes" : ["08"],
         "raw_size" : 25,
         "raw" : ["00", "00", "1a", "1e", "a2", "b5", "c5", "cf", "b4", "ca", "3f", "04", "3c", "20", "10", "1f", "bb", "dd", "20", "c3", "de", "bd", "b6", "a3", "08"],
         "raw_text" : "<end><end><1A><1E>『おなまえは?<pause>< <10><1F>さん ですか』",
@@ -411,7 +411,7 @@
         "snes-e" : "Man: Your name? \n....oh Mr. . ",
         "accuracy" : 0.709677419355,
         "trans_size" : 29,
-        "trans_text" : "Your name?\n....oh "
+        "trans_text" : "Your name?\n....oh Mr <10><1f>"
     },
 
     {
@@ -490,13 +490,13 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x143be",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "20"],
+        "start_bytes" : ["00","1a","20"],
         "end_bytes" : ["08"],
         "raw_size" : 19,
         "raw" : ["00", "1a", "20", "a2", "c4", "de", "b3", "b6", "20", "b1", "b8", "bc", "ad", "a6", "3b", "3b", "3b", "3b", "08"],
         "raw_text" : "<end><1A> 『どうか おくしゅを‥‥‥‥",
         "alt_text" : "<end><1A> 『ドウカ アクシュヲ‥‥‥‥",
-        "trans_size" : 0,
+        "trans_size" : 24,
         "trans_text" : "How about a\nhandshake..."
     },
 
@@ -514,7 +514,7 @@
         "snes-j" : "「おっと しつれい。」",
         "snes-e" : ": Oops sorry. ",
         "accuracy" : 0.823529411765,
-        "trans_size" : 0,
+        "trans_size" : 49,
         "trans_text" : "<0c>OW!!\nMy fingers!!\n<1a><29><10><1f>:Oh, sorry!"
     },
 
@@ -522,13 +522,13 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x143f3",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "24"],
+        "start_bytes" : ["00","1a","20"],
         "end_bytes" : ["08"],
         "raw_size" : 20,
         "raw" : ["00", "1a", "20", "a2", "cb", "bb", "bc", "cc", "de", "d8", "c6", "20", "b1", "b8", "bc", "ad", "a6", "3b", "3b", "08"],
         "raw_text" : "<end><1A> 『ひさしぶりに おくしゅを‥‥",
         "alt_text" : "<end><1A> 『ヒサシブリニ アクシュヲ‥‥",
-        "trans_size" : 0,
+        "trans_size" : 24,
         "trans_text" : "Hey, its been a while..."
     },
 
@@ -546,15 +546,15 @@
         "snes-j" : "「またまた しつれい。」",
         "snes-e" : ": Oops sorry again heh. ",
         "accuracy" : 0.842105263158,
-        "trans_size" : 0,
-        "trans_text" : "\nOW!\nDon't step on my feet!<1a><1f><10><28>:Oops! Sorry again...\n(giggle)"
+        "trans_size" : 68,
+        "trans_text" : "\nOW! Don't step on my feet!\n<1a><29><10><1f>Oops, sorry again (hehe)"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14428",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "24", "10", "3d"],
+        "start_bytes" : ["00","1a","24","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 59,
         "raw" : ["00", "1a", "24", "10", "3d", "a2", "b2", "cf", "20", "da", "dd", "d7", "b8", "b6", "de", "b1", "af", "c3", "20", "cf", "c0", "20", "c5", "bf", "de", "c9", "03", "5c", "db", "ce", "de", "af", "c4", "5c", "c6", "d6", "d9", "20", "cb", "b6", "de", "b2", "b6", "de", "20", "ca", "af", "be", "b2", "bc", "c0", "03", "bf", "b3", "c3", "de", "bd", "a3", "08"],
@@ -564,7 +564,7 @@
         "snes-j" : "だいとうりょう「いま れんらくがあって\n    また なぞのロボットによる ひがいが\n    はっせいしたそうです。」",
         "snes-e" : "President: That was\nanother victim report... ",
         "accuracy" : 0.886075949367,
-        "trans_size" : 0,
+        "trans_size" : 34,
         "trans_text" : ":That was another\nvictim report..."
     },
 
@@ -572,7 +572,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14463",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 60,
         "raw" : ["0c", "10", "3d", "a2", "dc", "c0", "bc", "c0", "c1", "c9", "20", "b6", "b6", "de", "b8", "d8", "ae", "b8", "c3", "de", "ca", "20", "c4", "de", "b3", "c6", "d3", "03", "c5", "d8", "cf", "be", "dd", "a1", "20", "c4", "de", "b3", "b6", "20", "b1", "b2", "c2", "d7", "a6", "20", "d4", "af", "c2", "b9", "c3", "03", "b8", "c0", "de", "bb", "b2", "21", "a3", "08"],
@@ -582,7 +582,7 @@
         "snes-j" : "だいとうりょう「わたしたちの かがくりょくでは\n    どうにもなりません。\n    どうか あいつらをやっつけてください！」",
         "snes-e" : "President: Please help us\neliminate the robots!",
         "accuracy" : 0.888888888889,
-        "trans_size" : 0,
+        "trans_size" : 39,
         "trans_text" : ":Please help us\neliminate these robots!"
     },
 
@@ -590,7 +590,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1449f",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "24", "10", "3d"],
+        "start_bytes" : ["00","1a","24","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 57,
         "raw" : ["00", "1a", "24", "10", "3d", "a2", "b1", "d8", "b6", "de", "c4", "b3", "a1", "20", "b1", "c5", "c0", "c0", "c1", "c9", "20", "b5", "b6", "b9", "de", "c3", "de", "03", "ba", "c9", "ce", "bc", "ca", "20", "cd", "b2", "dc", "c6", "20", "c5", "d8", "cf", "bc", "c0", "a1", "03", "b6", "dd", "bc", "ac", "b2", "c0", "bc", "cf", "bd", "a3", "08"],
@@ -600,15 +600,15 @@
         "snes-j" : "だいとうりょう「ありがとう。あなたたちのおかげで\n    このほしは へいわに なりました。\n    かんしゃいたします。」",
         "snes-e" : "President: Our deepest\nthanks. This planet is\nnow truly at peace. ",
         "accuracy" : 0.873563218391,
-        "trans_size" : 0,
-        "trans_text" : ":Our deepest thanks.\nThis planet is now truly at\npeace."
+        "trans_size" : 55,
+        "trans_text" : ":Our deepest thanks.\nThis planet is now truly at peace."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x144d8",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 45,
         "raw" : ["0c", "10", "3d", "a2", "b4", "3f", "04", "1e", "20", "ca", "d4", "b8", "20", "c1", "b7", "ad", "b3", "c6", "20", "b6", "b4", "d8", "c0", "b2", "3f", "04", "1e", "03", "bf", "b3", "c3", "de", "bc", "ae", "b3", "2c", "bf", "b3", "c3", "de", "bc", "ae", "b3", "a3", "08"],
@@ -618,7 +618,7 @@
         "snes-j" : "だいとうりょう「えっ[speed_1E]?[speed_FF]\n    はやく ちきゅうに かえりたい?\n    そうでしょう そうでしょう！」",
         "snes-e" : "President: You want to\ngo back to Earth? \nYeah... ",
         "accuracy" : 0.658823529412,
-        "trans_size" : 0,
+        "trans_size" : 40,
         "trans_text" : ":You want to go back\nto Earth? .. yeah.."
     },
 
@@ -626,7 +626,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14505",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 55,
         "raw" : ["0c", "10", "3d", "a2", "bc", "b6", "bc", "a4", "c1", "b7", "ad", "b3", "cf", "c3", "de", "20", "b6", "b4", "da", "d9", "d6", "b3", "c5", "03", "b7", "de", "bc", "de", "ad", "c2", "ca", "20", "bb", "de", "dd", "c8", "dd", "c5", "b6", "de", "d7", "20", "ba", "ba", "c6", "ca", "03", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08"],
@@ -636,7 +636,7 @@
         "snes-j" : "だいとうりょう「しかし ちきゅうまで かえれるような\n    ぎじゅつは ざんねんながら\n    ここには ありません。」",
         "snes-e" : "President: I'm sorry to say\nthat we don't have the\ntechnology to go to Earth\nat the moment... ",
         "accuracy" : 0.89156626506,
-        "trans_size" : 0,
+        "trans_size" : 75,
         "trans_text" : ":I'm sorry to say that\nwe don't have the technology\nto do that ourselves..."
     },
 
@@ -644,7 +644,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1453c",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 74,
         "raw" : ["0c", "10", "3d", "a2", "5c", "c4", "da", "b0", "c0", "de", "b0", "5c", "bf", "de", "b8", "b6", "d7", "20", "b7", "b2", "c0", "ca", "c5", "bc", "c3", "de", "bd", "b6", "de", "03", "5c", "bc", "b0", "b8", "d7", "dd", "5c", "c4", "b2", "b3", "20", "c0", "b6", "b2", "20", "cc", "de", "dd", "d2", "b2", "a6", "20", "d3", "c2", "03", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "b6", "de", "20", "b2", "d9", "bf", "b3", "c3", "de", "bd", "a3", "08"],
@@ -654,7 +654,7 @@
         "snes-j" : "だいとうりょう「トレーダーぞくから きいた\n    はなしですが シークランという\n    たかいぶんめいをもつ\n    エイリアンが いるそうです。」",
         "snes-e" : "President: But I heard\nfrom the Traders about\nan advanced alien race\ncalled Seeclan. ",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 68,
         "trans_text" : ":But I heard from the\nTraders about an alien race\ncalled the Seeclan"
     },
 
@@ -662,7 +662,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14586",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 32,
         "raw" : ["0c", "10", "3d", "a2", "b6", "da", "d7", "c5", "d7", "20", "c5", "dd", "c4", "b6", "20", "bc", "c3", "b8", "da", "d9", "b6", "d3", "03", "bc", "da", "cf", "be", "dd", "c8", "a1", "a3", "08"],
@@ -672,7 +672,7 @@
         "snes-j" : "だいとうりょう「かれらなら\n    なんとかしてくれるかも しれませんね。」",
         "snes-e" : "President: They might be\nable to help you out. ",
         "accuracy" : 0.92,
-        "trans_size" : 0,
+        "trans_size" : 36,
         "trans_text" : ":They might be able\nto help you out."
     },
 
@@ -680,27 +680,27 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x145a6",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d", "07", "10"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 48,
         "raw" : ["0c", "10", "3d", "07", "10", "a2", "3b", "3b", "3b", "c0", "c0", "de", "3b", "3b", "3b", "07", "ff", "bb", "b2", "b7", "dd", "20", "da", "dd", "d7", "b8", "b6", "de", "03", "c4", "c0", "de", "b4", "c3", "b2", "d9", "bf", "b3", "c3", "de", "bd", "b6", "de", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<erase><10>=<07><10>『‥‥‥ただ‥‥‥<07>゜さいきん れんらくが\nとだえているそうですが‥‥‥』",
         "alt_text" : "<erase><10>=<07><10>『‥‥‥タダ‥‥‥<07>゜サイキン レンラクガ\nトダエテイルソウデスガ‥‥‥』",
         "trans_size" : 0,
-        "trans_text" : "We've had regular contact with them, but recently "
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x145d6",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "1e", "10", "3e"],
+        "start_bytes" : ["00","1a","1e","10","3e"],
         "end_bytes" : ["08"],
         "raw_size" : 40,
         "raw" : ["00", "1a", "1e", "10", "3e", "a2", "c0", "de", "b2", "b6", "de", "b8", "c9", "03", "5c", "bf", "ba", "db", "cc", "5c", "b7", "ae", "b3", "bc", "de", "ad", "c6", "20", "b5", "b1", "b2", "c6", "c5", "d8", "cf", "bc", "c3", "3f", "a3", "08"],
         "raw_text" : "<end><1A><1E><10>>『だいがくの\nソコロフきょうじゅに おおいになりまして?』",
         "alt_text" : "<end><1A><1E><10>>『ダイガクノ\nそころふキョウジュニ オアイニナリマシテ?』",
-        "trans_size" : 0,
+        "trans_size" : 28,
         "trans_text" : ":Have you met\nthe professor?"
     },
 
@@ -708,17 +708,17 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x145fe",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3e"],
+        "start_bytes" : ["0c","10","3e"],
         "end_bytes" : ["08"],
         "raw_size" : 46,
         "raw" : ["0c", "10", "3e", "a2", "ba", "c9", "ce", "bc", "31", "ca", "de", "dd", "c9", "20", "c3", "dd", "bb", "b2", "c3", "de", "03", "bc", "ad", "bc", "de", "dd", "c9", "20", "b5", "dd", "bc", "20", "bb", "de", "cf", "bd", "c9", "d6", "a1", "b5", "ce", "ce", "ce", "ce", "a3", "08"],
         "raw_text" : "<erase><10>>『このほし1ばんの てんさいで\nしゅじんの おんし ざますのよ。おほほほほ』",
         "alt_text" : "<erase><10>>『コノホシ1バンノ テンサイデ\nシュジンノ オンシ ザマスノヨ。オホホホホ』",
-        "snes_size" : 105,
+        "snes_size" : 100,
         "snes-j" : "だいとうりょうふじん「だいがくの ソコロフきょうじゅに\n    おあいになりまして?\n    このほし１ばんの てんさいで しゅじんの\n    おんし ざますのよ。おほほほほ。」",
         "snes-e" : "President's wife: Have ya met\nthe professor?  He's the\nbiggest genius on FarWorld \nand I'm his aunt!",
         "accuracy" : 0.632653061224,
-        "trans_size" : 0,
+        "trans_size" : 76,
         "trans_text" : ":He's the biggest\ngenius on FarWorld...<08><0c><10><3e>:...and I'm his\naunt!"
     },
 
@@ -726,7 +726,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1462c",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "24", "10", "3e"],
+        "start_bytes" : ["00","1a","24","10","3e"],
         "end_bytes" : ["08"],
         "raw_size" : 53,
         "raw" : ["00", "1a", "24", "10", "3e", "a2", "b2", "af", "c3", "bc", "cf", "dc", "da", "d9", "dd", "c3", "de", "bd", "c9", "3f", "03", "bb", "cb", "de", "bc", "b2", "c3", "de", "bd", "dc", "a1", "20", "cf", "c0", "b2", "d7", "bc", "c3", "b8", "c0", "de", "bb", "b2", "c8", "3f", "03", "b5", "ce", "ce", "ce", "ce", "a3", "08"],
@@ -736,7 +736,7 @@
         "snes-j" : "だいとうりょうふじん「いってしまわれるんですの?\n    さびしいですわ・・\n    またいらしてくださいね? おほほほほ。」",
         "snes-e" : "President's wife: Are you\ngoing now?  Come back\nsoon!",
         "accuracy" : 0.880952380952,
-        "trans_size" : 0,
+        "trans_size" : 35,
         "trans_text" : ":Are you going now?\nCome back soon!"
     },
 
@@ -744,7 +744,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14661",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "1e", "10", "1e"],
+        "start_bytes" : ["00","1a","1f","10","1e"],
         "end_bytes" : ["08"],
         "raw_size" : 38,
         "raw" : ["00", "1a", "1f", "10", "1e", "a2", "ba", "da", "b6", "de", "20", "5c", "d5", "b0", "db", "ca", "df", "5c", "b6", "a1", "03", "bd", "de", "b2", "cc", "de", "dd", "20", "b1", "da", "ca", "c3", "c3", "cf", "bd", "c8", "a3", "08"],
@@ -754,7 +754,7 @@
         "snes-j" : "「これが ユーロパか。\n    ずいぶん あれはててますね。」",
         "snes-e" : "Kiri: So this is the\nEuropa... what a mess. ",
         "accuracy" : 0.808510638298,
-        "trans_size" : 0,
+        "trans_size" : 41,
         "trans_text" : ":So this is the\nEuropa? ... What a wreck!"
     },
 
@@ -762,7 +762,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14687",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "22", "10", "28"],
+        "start_bytes" : ["00","1a","22","10","28"],
         "end_bytes" : ["08"],
         "raw_size" : 30,
         "raw" : ["00", "1a", "22", "10", "28", "a2", "5c", "b3", "de", "a8", "dd", "c4", "de", "a4", "5c", "b7", "d0", "c9", "20", "c3", "de", "ca", "de", "dd", "c0", "de", "bf", "de", "a3", "08"],
@@ -772,47 +772,47 @@
         "snes-j" : "「ヴィンド きみの でばんだぞ。」",
         "snes-e" : ": Hey Vynd do\nyour thing. ",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
-        "trans_text" : ":Vynd, it's up to you"
+        "trans_size" : 25,
+        "trans_text" : ":Vynd, it's up to you now"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x146a5",
         "method" : 3,
-        "start_bytes" : ["1a", "24", "10", "2c"],
+        "start_bytes" : ["19","1f","10","2c"],
         "end_bytes" : ["08"],
         "raw_size" : 47,
         "raw" : ["19", "1f", "10", "2c", "a2", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "de", "20", "b1", "d9", "c4", "bd", "da", "ca", "de", "03", "5c", "b4", "dd", "bc", "de", "dd", "a5", "d9", "b0", "d1", "5c", "c3", "de", "bc", "ae", "b3", "a1", "a3", "08"],
         "raw_text" : "<19><1F><10>,『モノポ‐ル・コイルが おるとすれば\nエンジン・ル‐ムでしょう。』",
         "alt_text" : "<19><1F><10>,『ものぽ―る・こいるガ アルトスレバ\nえんじん・る―むデショウ。』",
-        "snes_size" : 70,
+        "snes_size" : 66,
         "snes-j" : "ヴィンド「モノポール・コイルが あるとすれば\n    エンジン・ルームでしょう。\n    エンジン・ルームを さがしましょう。」",
         "snes-e" : "Vynd: If there's a\nMonopole-Coil here it'd\nbe in the engine room. ",
         "accuracy" : 0.641975308642,
-        "trans_size" : 0,
-        "trans_text" : ":If there's a\nDrive-Coil here it'd be in\nthe engine room."
+        "trans_size" : 60,
+        "trans_text" : ":If there's a\nMonopole-Coil here it'd\nbe in the engine room."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x146d4",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "2c"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 27,
         "raw" : ["0c", "10", "2c", "a2", "5c", "b4", "dd", "bc", "de", "dd", "a5", "d9", "b0", "d1", "5c", "a6", "20", "bb", "b6", "de", "bc", "cf", "bc", "ae", "b3", "a3", "08"],
         "raw_text" : "<erase><10>,『エンジン・ル‐ムを さがしましょう』",
         "alt_text" : "<erase><10>,『えんじん・る―むヲ サガシマショウ』",
-        "trans_size" : 0,
-        "trans_text" : ":So, we should try and\nfind the engines first."
+        "trans_size" : 26,
+        "trans_text" : ":Where is the engine room?"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x146ef",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "23", "10", "1f"],
+        "start_bytes" : ["00","1a","23","10","1f"],
         "end_bytes" : ["08"],
         "raw_size" : 33,
         "raw" : ["00", "1a", "23", "10", "1f", "a2", "cc", "d9", "b2", "5c", "c0", "b2", "cc", "df", "5c", "c9", "20", "5c", "cb", "de", "c3", "de", "b5", "c3", "de", "af", "b7", "5c", "c0", "de", "c5", "a3", "08"],
@@ -822,7 +822,7 @@
         "snes-j" : "「ふるいタイプの ビデオデッキだな。」",
         "snes-e" : ": It's an old video\ndeck. ",
         "accuracy" : 0.909090909091,
-        "trans_size" : 0,
+        "trans_size" : 21,
         "trans_text" : ":It's an old AV deck."
     },
 
@@ -830,7 +830,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14710",
         "method" : 3,
-        "start_bytes" : ["00", "00", "1a", "23", "10", "1f"],
+        "start_bytes" : ["00","00","1a","23","10","1f"],
         "end_bytes" : ["08"],
         "raw_size" : 27,
         "raw" : ["00", "00", "1a", "23", "10", "1f", "a2", "ba", "c9", "cc", "c8", "c9", "20", "5c", "cc", "de", "d8", "af", "bc", "de", "5c", "d7", "bc", "b2", "c5", "a3", "08"],
@@ -840,65 +840,69 @@
         "snes-j" : "「このふねの ブリッジらしいな。」",
         "snes-e" : ": This looks like\nthe bridge. ",
         "accuracy" : 0.896551724138,
-        "trans_size" : 0,
-        "trans_text" : ":Is this the bridge?"
+        "trans_size" : 23,
+        "trans_text" : ":Looks like the bridge."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1472b",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "25", "10", "2c"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 72,
-        "raw" : ["00", "1a", "25", "10", "2c", "a2", "b1", "af", "c0", "21", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "c0", "de", "21", "03", "bb", "af", "bf", "b8", "20", "cc", "c8", "c6", "20", "d3", "c1", "b6", "b4", "af", "c3", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "03", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "a6", "20", "bc", "ad", "b3", "d8", "bc", "d6", "b3", "a3", "08", "13", "2f", "6a", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
+        "raw" : ["00", "1a", "25", "10", "2c", "a2", "b1", "af", "c0", "21", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "c0", "de", "21", "03", "bb", "af", "bf", "b8", "20", "cc", "c8", "c6", "20", "d3", "c1", "b6", "b4", "af", "c3", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "03", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "a6", "20", "bc", "ad", "b3", "d8", "bc", "d6", "b3", "a3", "08"],
         "raw_text" : "<end><1A>%<10>,『おった! モノポ‐ル・コイルだ!\nさっそく ふねに もちかえって ジャンプ\n・ジェネレ‐タ‐を しゅうりしよう』",
         "alt_text" : "<end><1A>%<10>,『アッタ! ものぽ―る・こいるダ!\nサッソク フネニ モチカエッテ じゃんぷ\n・じぇねれ―た―ヲ シュウリシヨウ』",
         "snes_size" : 70,
         "snes-j" : "ヴィンド「あった！ モノポール・コイルだ！\n    さっそく ふねに もちかえって\n    ジャンプ・ジェネレーターを しゅうりしよう。」",
         "snes-e" : "Vynd: Here we go! A\nMonopole Coil! Ok let's get\nthis back to the ship!",
         "accuracy" : 0.815533980583,
-        "trans_size" : 0,
-        "trans_text" : ":Here we go, a Drive\nCoil! Let's get this back to\nthe ship now!"
+        "trans_size" : 70,
+        "trans_text" : "Vynd: Here we go!\nA Monopole Coil! Ok let's get\nthis back to the ship!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14773",
         "method" : 3,
-        "start_bytes" : ["1a", "22"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : [],
+        "end_bytes" : ["08"],
         "raw_size" : 25,
-        "raw" : ["13", "2f", "6a", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08", "13", "3a", "6a", "00"],
-        "raw_text" : "<13>/jモノポ‐ル・コイル を てにいれた!<13>:j<end>",
-        "alt_text" : "<13>/jものぽ―る・こいる ヲ テニイレタ!<13>:j<end>",
+        "raw" : ["13", "2f", "6a", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
+        "raw_text" : "<13>/jモノポ‐ル・コイル を てにいれた!",
+        "alt_text" : "<13>/jものぽ―る・こいる ヲ テニイレタ!",
+        "snes_size" : 13,
+        "snes-j" : "モノポール・コイル",
+        "snes-e" : "Monopole Coil",
+        "accuracy" : 0.592592592593,
         "trans_size" : 0,
-        "trans_text" : "Drive Coil Found!"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1478c",
         "method" : 3,
-        "start_bytes" : ["1a", "25", "10", "1f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 68,
-        "raw" : ["1a", "25", "10", "1f", "a2", "ba", "da", "ca", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "c5", "3f", "03", "d6", "b8", "dc", "b6", "d7", "c5", "b2", "c5", "a1", "03", "5c", "b3", "de", "a8", "dd", "c4", "de", "5c", "b6", "de", "20", "b2", "da", "ca", "de", "20", "c5", "c6", "b6", "dc", "b6", "af", "c0", "c9", "c6", "3b", "3b", "a3", "08"],
-        "raw_text" : "<1A>%<10><1F>『これは モノポ‐ル・コイルかな?\nよくわからないな。\nヴィンドが いれば なにかわかったのに‥‥』",
+        "raw" : ["13", "3a", "6a", "00", "1a", "25", "10", "1f", "a2", "ba", "da", "ca", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "c5", "3f", "03", "d6", "b8", "dc", "b6", "d7", "c5", "b2", "c5", "a1", "03", "5c", "b3", "de", "a8", "dd", "c4", "de", "5c", "b6", "de", "20", "b2", "da", "ca", "de", "20", "c5", "c6", "b6", "dc", "b6", "af", "c0", "c9", "c6", "3b", "3b", "a3", "08"],
+        "raw_text" : "<13>:j<end><1A>%<10><1F>『これは モノポ‐ル・コイルかな?\nよくわからないな。\nヴィンドが いれば なにかわかったのに‥‥』",
         "alt_text" : "<13>:j<end><1A>%<10><1F>『コレハ ものぽ―る・こいるカナ?\nヨクワカラナイナ。\nぃんどガ イレバ ナニカワカッタノニ‥‥』",
         "snes_size" : 53,
         "snes-j" : "「これは モノポール・コイルかな?\n    よくわからないな。\n    ヴィンドが いれば なにかわかったのに・・」",
         "snes-e" : ": Is this a\nMonopole Coil?  I wish Vynd\nwere here... ",
         "accuracy" : 0.913043478261,
-        "trans_size" : 0,
-        "trans_text" : ":Is this a Drive Coil?\nI wish Vynd were here..."
+        "trans_size" : 51,
+        "trans_text" : ": Is this a\nMonopole Coil? I wish Vynd\nwere here..."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x147d0",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "25", "10", "2c"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 56,
         "raw" : ["00", "1a", "25", "10", "2c", "a2", "c0", "de", "d2", "c0", "de", "21", "20", "ba", "c9", "5c", "ba", "b2", "d9", "5c", "ca", "20", "ba", "dc", "da", "c3", "d9", "21", "03", "c2", "b6", "b2", "d3", "c9", "c6", "20", "c5", "d7", "c5", "b2", "a1", "03", "ce", "b6", "a6", "20", "bb", "b6", "de", "bc", "c3", "d0", "d6", "b3", "a3", "08"],
@@ -908,15 +912,15 @@
         "snes-j" : "ヴィンド「だめだ！ このコイルは こわれてる！\n    つかいものに ならない。\n    ほかを さがしてみよう。」",
         "snes-e" : "Vynd: This coil's broken!",
         "accuracy" : 0.864197530864,
-        "trans_size" : 0,
-        "trans_text" : ":It's broken!\nThis Drive Coil is useless,\nwe need another."
+        "trans_size" : 55,
+        "trans_text" : "Vynd: This Coil is dead...\nWe need to find another one."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14808",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "24"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 75,
         "raw" : ["00", "1a", "24", "cc", "d9", "ce", "de", "b9", "c0", "20", "bc", "ac", "bc", "dd", "b6", "de", "20", "b5", "c1", "c3", "b2", "d9", "a1", "02", "b3", "c2", "b8", "bc", "b2", "20", "bc", "de", "ae", "be", "b2", "c4", "20", "5c", "ca", "dd", "bb", "d1", "5c", "c5", "20", "b5", "c4", "ba", "b6", "de", "02", "b3", "c2", "af", "c3", "b2", "d9", "a1", "20", "b3", "d7", "c6", "20", "bc", "de", "b6", "de", "20", "b6", "b2", "c3", "b1", "d9", "a1", "08"],
@@ -927,30 +931,32 @@
         "snes-e" : "There's a dirty old\npicture of a pretty\nwoman and a handsome\nguy. There's writing\non the back. ",
         "accuracy" : 0.920353982301,
         "trans_size" : 0,
-        "trans_text" : "There's a faded old image\nof a pretty woman and a\nhandsome guy. [View]"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14853",
         "method" : 3,
-        "start_bytes" : ["1a", "2d", "0e", "04"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 39,
         "raw" : ["1a", "2d", "0e", "06", "5c", "d9", "c4", "de", "b6", "de", "b0", "5c", "b6", "d7", "02", "20", "20", "20", "20", "5c", "b1", "b2", "d8", "b0", "dd", "5c", "cd", "02", "3b", "3b", "b1", "b2", "a6", "ba", "d2", "c3", "3b", "3b", "08"],
         "raw_text" : "<1A>-<0E><06>ルドガ‐から\n    アイリ‐ンへ\n‥‥おいをこめて‥‥",
         "alt_text" : "<1A>-<0E><06>るどが―カラ\n    おいり―んヘ\n‥‥アイヲコメテ‥‥",
-	"snes-e" : "... From Radgar\n\nTo Eileen, \n\n\n... with love.",
-	"snes-j" : "「ルドガーから\n\n    アイリーンへ\n\n\n\n・・・・あいをこめて」", 
+        "snes_size" : 45,
+        "snes-j" : "「ルドガーから\n\n    アイリーンへ\n\n\n\n・・・・あいをこめて」",
+        "snes-e" : "... From Radgar\n\nTo Eileen \n\n\n... with love. ",
+        "accuracy" : 0.586206896552,
         "trans_size" : 0,
-        "trans_text" : "... from\nRadgar to\nEileen,\nwith love"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1487a",
         "method" : 3,
-        "start_bytes" : ["00", "00", "1a", "24"],
+        "start_bytes" : ["00","00","1a","24"],
         "end_bytes" : ["08"],
         "raw_size" : 54,
         "raw" : ["00", "00", "1a", "24", "a2", "cf", "c3", "21", "20", "ba", "ba", "ca", "20", "b5", "bf", "da", "b5", "b5", "b8", "d3", "20", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c9", "02", "20", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "20", "b6", "dd", "c3", "b2", "c0", "de", "bf", "de", "21", "a3", "08"],
@@ -960,7 +966,7 @@
         "snes-j" : "もんばん「まて！ ここは おそれおおくも\n    ファーワールドの\n    だいとうりょうかんていだぞ！」",
         "snes-e" : "Guard: Halt! This is the\nPresident's Palace!",
         "accuracy" : 0.815789473684,
-        "trans_size" : 0,
+        "trans_size" : 51,
         "trans_text" : "Stop right there!!\nThis is the Presidential\nPalace!"
     },
 
@@ -978,7 +984,7 @@
         "snes-j" : "もんばん「あやしいやつらだ。\n    かってに とおすわけには いかん！」",
         "snes-e" : "Guard: I cannot allow\nyou to pass!",
         "accuracy" : 0.846153846154,
-        "trans_size" : 0,
+        "trans_size" : 40,
         "trans_text" : "You may not enter without\nauthorisation!"
     },
 
@@ -986,13 +992,13 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x148ce",
         "method" : 3,
-        "start_bytes" : ["1a", "2b", "11", "16", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "11", "06", "00", "1b", "01", "19", "24", "11", "00"],
+        "start_bytes" : ["1a","2b","11","16","06","2f","3b","3b","3b","3b","20","3b","3b","3b","3b","0d","f7","20","20","20","20","20","20","20","20","20","0d","f7","06","2f","3b","3b","3b","3b","20","3b","3b","3b","3b","0d","f7","20","20","20","20","20","20","20","20","20","0d","f7","11","06","00","1b","01","19","24","11","00"],
         "end_bytes" : ["08"],
         "raw_size" : 196,
         "raw" : ["1a", "2b", "11", "16", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "06", "2f", "3b", "3b", "3b", "3b", "20", "3b", "3b", "3b", "3b", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "11", "06", "00", "1b", "01", "19", "24", "11", "00", "a2", "ca", "b2", "a4", "d3", "bc", "d3", "bc", "a1", "20", "c0", "af", "c0", "b2", "cf", "a4", "b1", "d4", "bc", "b2", "d4", "c2", "d7", "a6", "02", "20", "07", "14", "c0", "b2", "ce", "3b", "3b", "3b", "07", "ff", "1a", "2b", "21", "21", "21", "21", "21", "21", "21", "21", "21", "0d", "f7", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0d", "f7", "04", "3c", "1b", "01", "19", "24", "a2", "b4", "3f", "20", "04", "3c", "ba", "b2", "c2", "d7", "a6", "20", "c4", "b5", "bd", "dd", "c3", "de", "bd", "b6", "3f", "02", "04", "14", "20", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "20", "bc", "de", "b7", "bc", "de", "b7", "c9", "20", "ba", "de", "d2", "b2", "da", "b2", "3b", "3b", "3b", "3b", "3f", "02", "04", "0a", "20", "ca", "b2", "a1", "20", "dc", "b6", "d8", "cf", "bc", "c0", "a3", "08"],
         "raw_text" : "<1A>+<11><16><06>/‥‥‥‥ ‥‥‥‥<pad>ラ         <pad>ラ<06>/‥‥‥‥ ‥‥‥‥<pad>ラ         <pad>ラ<11><06><end><1B><extralineofdialoguewindow><19>$<11><end>『はい、もしもし。 たったいま、おやしいやつらを\n <07><14>たいほ‥‥‥<07>゜<1A>+!!!!!!!!!<pad>ラ         <pad>ラ<pause><<1B><extralineofdialoguewindow><19>$『え? <pause><こいつらを とおすんですか?\n<pause><14> だいとうりょう じきじきの ごめいれい‥‥‥‥?\n<pause><0A> はい。 わかりました』",
         "alt_text" : "<1A>+<11><16><06>/‥‥‥‥ ‥‥‥‥<pad>ら         <pad>ら<06>/‥‥‥‥ ‥‥‥‥<pad>ら         <pad>ら<11><06><end><1B><extralineofdialoguewindow><19>$<11><end>『ハイ、モシモシ。 タッタイマ、アヤシイヤツラヲ\n <07><14>タイホ‥‥‥<07>゜<1A>+!!!!!!!!!<pad>ら         <pad>ら<pause><<1B><extralineofdialoguewindow><19>$『エ? <pause><コイツラヲ トオスンデスカ?\n<pause><14> ダイトウリョウ ジキジキノ ゴメイレイ‥‥‥‥?\n<pause><0A> ハイ。 ワカリマシタ』",
-        "trans_size" : 0,
+        "trans_size" : 191,
         "trans_text" : "Yes, hello.\n <07><14> Arrest<3b><3b><3b><07><ff><1a><2b>!!!!!!!!!<0d><f7>         <0d><f7><04><3c><1b><01><19><24>Let them pass??\n<04><14>On Presidential orders!?\n<04><0a>Yes, understood Sir!"
     },
 
@@ -1000,7 +1006,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14992",
         "method" : 3,
-        "start_bytes" : ["00", "0c"],
+        "start_bytes" : ["00","0c"],
         "end_bytes" : ["08"],
         "raw_size" : 114,
         "raw" : ["00", "0c", "a2", "bc", "c2", "da", "b2", "bc", "cf", "bc", "c0", "a1", "c4", "de", "b3", "bf", "de", "20", "b5", "c4", "b5", "d8", "b8", "c0", "de", "bb", "b2", "a1", "02", "20", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "b6", "de", "20", "b5", "cf", "c1", "c3", "de", "bd", "a3", "00", "00", "00", "1a", "24", "10", "3c", "a2", "dc", "bc", "ca", "20", "ba", "c9", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c0", "de", "b2", "b6", "de", "b8", "c9", "03", "5c", "bf", "ba", "db", "cc", "5c", "b7", "ae", "b3", "bc", "de", "ad", "20", "bc", "de", "ac", "a1", "03", "da", "b7", "bc", "a6", "20", "b5", "bc", "b4", "c4", "d9", "c9", "bc", "de", "ac", "a3", "08", "00"],
@@ -1010,7 +1016,7 @@
         "snes-j" : "もんばん「しつれいしました。\n    どうぞ おとおりください。\n    だいとうりょうが おまちです。」",
         "snes-e" : "Guard: Please excuse\nme. The President is\nwaiting for you. ",
         "accuracy" : 0.883116883117,
-        "trans_size" : 0,
+        "trans_size" : 134,
         "trans_text" : "Please excuse me.\nThe President is expecting\nyou.<00><00><00><1a><24><10><3c>:I am Prof. Sokolov\nfrom the University. I teach\nhistory."
     },
 
@@ -1018,7 +1024,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14a04",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 65,
         "raw" : ["0c", "10", "3c", "a2", "dc", "bc", "d7", "c9", "20", "bf", "be", "dd", "ca", "20", "32", "35", "30", "c8", "dd", "cf", "b4", "a4", "03", "ca", "ca", "c5", "d9", "20", "c1", "b7", "ad", "b3", "b6", "d7", "20", "b2", "d0", "dd", "be", "dd", "5c", "20", "d5", "b0", "db", "ca", "df", "5c", "c6", "03", "c9", "af", "c3", "20", "d4", "af", "c3", "b7", "c0", "c9", "bc", "de", "ac", "a3", "08"],
@@ -1028,7 +1034,7 @@
         "snes-j" : "きょうじゅ「わしらの そせんは ２５０ねんまえ\n    ははなる ちきゅうから いみんせん\n    ユーロパにのってやってきたのじゃ。」",
         "snes-e" : "Professor: Our ancestors\nleft the Earth in the\nEuropa 250 years ago. ",
         "accuracy" : 0.84,
-        "trans_size" : 0,
+        "trans_size" : 55,
         "trans_text" : ":Our ancestors left\nEarth in the Europa, 250\nyears ago."
     },
 
@@ -1036,7 +1042,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14a45",
         "method" : 3,
-        "start_bytes" : ["1a", "25", "10", "1e"],
+        "start_bytes" : ["1a","25","10","1e"],
         "end_bytes" : ["08"],
         "raw_size" : 78,
         "raw" : ["1a", "25", "10", "1e", "a2", "5c", "d5", "b0", "db", "ca", "df", "5c", "ca", "a4", "32", "35", "30", "c8", "dd", "cf", "b4", "c6", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c3", "de", "03", "d5", "b8", "b4", "cc", "d2", "b2", "c6", "20", "c5", "af", "c0", "ca", "bd", "de", "3b", "3b", "3b", "3b", "03", "ba", "dd", "c5", "c4", "ba", "db", "c6", "20", "c0", "c4", "de", "d8", "c2", "b2", "c3", "20", "b2", "c0", "c4", "ca", "a3", "08"],
@@ -1046,7 +1052,7 @@
         "snes-j" : "「ユーロパは ２５０ねんまえに\n    ジャンプ・ミスで ゆくえふめいに\n    なったはず・・\n    こんなところに たどりついていたとは。」",
         "snes-e" : "Kiri: I believe the Europa\nwas lost in Jump Miss... ",
         "accuracy" : 0.827586206897,
-        "trans_size" : 0,
+        "trans_size" : 48,
         "trans_text" : ":I thought the Europa\nwas lost in a jump-miss..."
     },
 
@@ -1054,7 +1060,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14a93",
         "method" : 3,
-        "start_bytes" : ["1b", "01", "19", "24", "10", "3c"],
+        "start_bytes" : ["1b","01","19","24","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 68,
         "raw" : ["1b", "01", "19", "24", "10", "3c", "a2", "5c", "d5", "b0", "db", "ca", "df", "5c", "c9", "20", "c1", "ac", "b8", "d8", "b8", "c1", "c3", "dd", "ca", "a4", "ba", "c9", "cf", "c1", "c9", "03", "b7", "c0", "c9", "20", "d3", "d8", "c9", "c5", "b6", "bc", "de", "ac", "a1", "03", "b2", "cf", "d3", "20", "bf", "ba", "c6", "20", "ce", "b3", "c1", "bb", "da", "c0", "cf", "cf", "bc", "de", "ac", "d6", "a3", "08"],
@@ -1064,7 +1070,7 @@
         "snes-j" : "きょうじゅ「ユーロパの ちゃくりくちてんは\n    このまちの きたの もりのなかじゃ。\n    いまも そこに ほうちされたままじゃよ。」",
         "snes-e" : "Professor: It landed in\nthe forest north of town. \nIt should still be there. ",
         "accuracy" : 0.901960784314,
-        "trans_size" : 0,
+        "trans_size" : 66,
         "trans_text" : ":It landed in the\nforest, north of town. Its\nprobably still there."
     },
 
@@ -1072,7 +1078,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14ad7",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 60,
         "raw" : ["0c", "10", "3c", "a2", "d3", "bc", "b6", "bc", "c0", "d7", "a4", "5c", "d5", "b0", "db", "ca", "df", "5c", "c9", "cc", "de", "cb", "dd", "b6", "de", "03", "b7", "d0", "c0", "c1", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "c9", "20", "bc", "ad", "b3", "d8", "c6", "03", "d4", "b8", "c0", "de", "c2", "b6", "d3", "20", "bc", "da", "dd", "c5", "a3", "08"],
@@ -1082,7 +1088,7 @@
         "snes-j" : "きょうじゅ「もしかしたら ユーロパのぶひんが\n    きみたちの うちゅうせんの しゅうりに\n    やくだつかも しれんな。」",
         "snes-e" : "Professor: Perhaps parts\nfrom the Europa might\nbe useful in repairing\nyour ship. ",
         "accuracy" : 0.891304347826,
-        "trans_size" : 0,
+        "trans_size" : 68,
         "trans_text" : ":Perhaps you can use\nsome parts from the Europa\nto repair your ship?"
     },
 
@@ -1090,13 +1096,13 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14b13",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 38,
         "raw" : ["0c", "10", "3c", "a2", "bf", "b3", "c0", "de", "a1", "20", "b7", "d0", "c0", "c1", "c6", "20", "ba", "c9", "5c", "bd", "c0", "b0", "a5", "cf", "af", "cc", "df", "5c", "a6", "03", "b1", "b9", "de", "d6", "b3", "a1", "a3", "08"],
         "raw_text" : "<erase><10><『そうだ。 きみたちに このスタ‐・マップを\nおげよう。』",
         "alt_text" : "<erase><10><『ソウダ。 キミタチニ コノすた―・まっぷヲ\nアゲヨウ。』",
-        "trans_size" : 0,
+        "trans_size" : 31,
         "trans_text" : ":Oh! Here...\ntake this Star Map"
     },
 
@@ -1104,7 +1110,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14b39",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 58,
         "raw" : ["0c", "10", "3c", "a2", "ba", "c9", "ce", "bc", "a6", "20", "c1", "ae", "b8", "c1", "ae", "b8", "b5", "c4", "bd", "de", "da", "d9", "03", "5c", "c4", "da", "b0", "c0", "de", "b0", "5c", "bf", "de", "b8", "20", "c4", "b2", "b3", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "b6", "d7", "03", "b6", "af", "c0", "d3", "c9", "c0", "de", "a3", "08"],
@@ -1114,7 +1120,7 @@
         "snes-j" : "きょうじゅ「そうだ！ きみたちに\n    このスター・マップを あげよう。\n    このほしを ちょくちょくおとずれる\n    トレーダーぞく という\n    エイリアンから かったものだ。」",
         "snes-e" : "Professor: Oh right! Let\nme give you this Star Map. \nI bought this from the\nTraders who visit often\nwith alien goods. ",
         "accuracy" : 0.654867256637,
-        "trans_size" : 0,
+        "trans_size" : 65,
         "trans_text" : ":I got it from an\nalien Trader who often\nvisited this star system"
     },
 
@@ -1122,7 +1128,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14b73",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 68,
         "raw" : ["0c", "10", "3c", "a2", "ba", "c9", "c1", "b6", "b8", "c6", "b1", "d9", "20", "32", "36", "c9", "be", "b2", "b9", "b2", "c9", "03", "c5", "cf", "b4", "c4", "20", "b2", "c1", "a6", "20", "bc", "d9", "bc", "c0", "20", "c1", "bd", "de", "bc", "de", "ac", "d6", "a1", "03", "b7", "d0", "c0", "c1", "c9", "20", "c0", "cb", "de", "c6", "20", "d4", "b8", "c0", "de", "c2", "c0", "de", "db", "b3", "a1", "a3", "08"],
@@ -1132,7 +1138,7 @@
         "snes-j" : "きょうじゅ「このちかくにある ２６のほしの\n    なまえと いちを しるした ちずじゃよ。\n    きみたちの たびに やくだつだろう。」",
         "snes-e" : "Professor: There are 26\nstar systems marked on it. ",
         "accuracy" : 0.823529411765,
-        "trans_size" : 0,
+        "trans_size" : 75,
         "trans_text" : ":The name and position\nof 26 systems are marked.\nI hope you find it useful."
     },
 
@@ -1140,13 +1146,13 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14bb7",
         "method" : 3,
-        "start_bytes" : ["1b", "00", "00", "11", "02", "1a", "29", "07", "01", "06", "1b"],
+        "start_bytes" : ["1b","00","00","11","02","1a","29","07","01","06","1b"],
         "end_bytes" : ["08"],
         "raw_size" : 29,
         "raw" : ["1b", "00", "00", "11", "02", "1a", "29", "07", "01", "06", "1b", "5c", "bd", "c0", "b0", "a5", "cf", "af", "cc", "df", "5c", "a6", "20", "c3", "c6", "b2", "da", "c0", "08"],
         "raw_text" : "<1B><end><end><11>\n<1A>)<07><extralineofdialoguewindow><06><1B>スタ‐・マップを てにいれた",
         "alt_text" : "<1B><end><end><11>\n<1A>)<07><extralineofdialoguewindow><06><1B>すた―・まっぷヲ テニイレタ",
-        "trans_size" : 0,
+        "trans_size" : 15,
         "trans_text" : "Star Map found!"
     },
 
@@ -1154,7 +1160,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14bd4",
         "method" : 3,
-        "start_bytes" : ["1b", "00", "11", "00", "07", "ff", "1a", "1f", "10", "1f"],
+        "start_bytes" : ["1b","00","11","00","07","ff","1a","1f","10","1f"],
         "end_bytes" : ["08"],
         "raw_size" : 42,
         "raw" : ["1b", "00", "11", "00", "07", "ff", "1a", "1f", "10", "1f", "a2", "ba", "da", "ca", "20", "b7", "c1", "ae", "b3", "c5", "d3", "c9", "c0", "de", "a1", "03", "b1", "d8", "b6", "de", "c4", "b3", "20", "ba", "de", "bb", "de", "b2", "cf", "bd", "a3", "08"],
@@ -1164,7 +1170,7 @@
         "snes-j" : "「これは きちょうなものだ。\n    ありがとう ございます。」",
         "snes-e" : ": This is quite\na treasure. Thank you. ",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 43,
         "trans_text" : ":This is very helpful\nProfessor, thank you!"
     },
 
@@ -1172,7 +1178,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14bfe",
         "method" : 3,
-        "start_bytes" : ["00", "00", "1a", "24", "10", "3c"],
+        "start_bytes" : ["00","00","1a","24","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 63,
         "raw" : ["00", "00", "1a", "24", "10", "3c", "a2", "b2", "c0", "de", "b2", "c5", "d9", "20", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "b6", "de", "20", "dc", "bc", "d7", "c9", "20", "bf", "be", "dd", "a6", "03", "ba", "c9", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c6", "20", "d0", "c1", "cb", "de", "b2", "c0", "c4", "b2", "dc", "da", "c3", "b5", "d9", "a3", "08"],
@@ -1182,7 +1188,7 @@
         "snes-j" : "きょうじゅ「いだいなる メンターナが わしらの\n    そせんを このファーワールドに\n    みちびいたと いわれておる。」",
         "snes-e" : "Professor: I heard that\nMentana led our ancestors\nhere. ",
         "accuracy" : 0.85393258427,
-        "trans_size" : 0,
+        "trans_size" : 45,
         "trans_text" : ":I heard that Mentana\nled our ancestors here."
     },
 
@@ -1190,7 +1196,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14c3d",
         "method" : 3,
-        "start_bytes" : ["1a", "23", "10", "1e"],
+        "start_bytes" : ["1a","23","10","1e"],
         "end_bytes" : ["08"],
         "raw_size" : 23,
         "raw" : ["1a", "23", "10", "1e", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c4", "ca", "20", "c5", "dd", "c3", "de", "bd", "3f", "a3", "08"],
@@ -1200,7 +1206,7 @@
         "snes-j" : "「メンターナとは なんです?」",
         "snes-e" : "Kiri: What is Mentana? ",
         "accuracy" : 0.846153846154,
-        "trans_size" : 0,
+        "trans_size" : 17,
         "trans_text" : ":What is Mentana?"
     },
 
@@ -1208,7 +1214,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14c54",
         "method" : 3,
-        "start_bytes" : ["19", "24", "10", "3c"],
+        "start_bytes" : ["19","24","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 52,
         "raw" : ["19", "24", "10", "3c", "a2", "b6", "d0", "c9", "d6", "b3", "c5", "20", "b2", "c0", "de", "b2", "c5", "20", "bf", "dd", "bb", "de", "b2", "c0", "de", "c4", "03", "b2", "dc", "da", "c3", "b5", "d9", "b6", "de", "a4", "c0", "de", "da", "d3", "20", "d0", "c0", "d3", "c9", "ca", "20", "b5", "d7", "dd", "a3", "08"],
@@ -1218,15 +1224,15 @@
         "snes-j" : "きょうじゅ「かみのような いだいな そんざいだと\n    いわれておるが だれも みたものは おらん。」",
         "snes-e" : "Professor: Some kind of god \nsupposedly. Nobody has\nactually seen it. ",
         "accuracy" : 0.918918918919,
-        "trans_size" : 0,
+        "trans_size" : 59,
         "trans_text" : ":Some kind of god \nsupposedly. Nobody has\nactually seen it."
     },
 
     {
-        "string_description" : "Main game dialogue - uses additional space from - possible too long???",
+        "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14c88",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 80,
         "raw" : ["0c", "10", "3c", "a2", "bc", "b6", "bc", "20", "bc", "de", "b6", "dd", "c4", "20", "b8", "b3", "b6", "dd", "a6", "20", "c1", "ae", "b3", "b4", "c2", "bc", "c0", "03", "c1", "b6", "d7", "a6", "20", "d3", "af", "c3", "b2", "c3", "a4", "b7", "bd", "de", "c2", "b2", "c0", "5c", "d5", "b0", "db", "ca", "df", "5c", "a6", "03", "bd", "b8", "b2", "a4", "ba", "c9", "ce", "bc", "cd", "20", "d0", "c1", "cb", "de", "b2", "c3", "b8", "da", "c0", "bf", "b3", "bc", "de", "ac", "a3", "08"],
@@ -1236,7 +1242,7 @@
         "snes-j" : "きょうじゅ「しかし じかんと くうかんを\n    ちょうえつした ちからを もっていて\n    きずついたユーロパを すくい\n    このほしへ みちびいてくれたそうじゃ。」",
         "snes-e" : "Professor: Anyway Mentana\nused a godly timespace\npower to save the Europa \nand led it to this planet. ",
         "accuracy" : 0.897637795276,
-        "trans_size" : 0,
+        "trans_size" : 71,
         "trans_text" : ":Anyway Mentana used a\ngodly power to save the\nEuropa and land it here."
     },
 
@@ -1244,7 +1250,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14cd8",
         "method" : 3,
-        "start_bytes" : ["00", "00", "00", "1a", "24", "10", "3c"],
+        "start_bytes" : ["00","00","00","1a","24","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 75,
         "raw" : ["00", "00", "00", "1a", "24", "10", "3c", "a2", "d4", "b1", "a4", "cf", "c0", "b7", "c0", "c9", "b6", "21", "20", "b1", "da", "b6", "d7", "20", "b2", "db", "b2", "db", "c4", "03", "cc", "d9", "b2", "b7", "db", "b8", "a6", "20", "cb", "af", "b8", "d8", "b6", "b4", "bc", "c3", "20", "b5", "af", "c0", "c9", "bc", "de", "ac", "a1", "03", "b5", "d3", "bc", "db", "b2", "20", "b7", "db", "b8", "b6", "de", "b1", "af", "c0", "bf", "de", "a1", "a3", "08"],
@@ -1254,53 +1260,53 @@
         "snes-j" : "きょうじゅ「やあ またきたのか！\n    あれから いろいろと ふるいきろくを\n    ひっくりかえして おったのじゃ。」",
         "snes-e" : "Professor: Hey you're\nback! I discovered\nquite a lot!",
         "accuracy" : 0.732673267327,
-        "trans_size" : 0,
-        "trans_text" : ":Hey you're back!\nI have discovered rather a lot!"
+        "trans_size" : 43,
+        "trans_text" : ":Hey you're back!\nI discovered quite a lot!"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14d23",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 80,
         "raw" : ["0c", "10", "3c", "a2", "5c", "d5", "b0", "db", "ca", "df", "5c", "b6", "de", "20", "ba", "c9", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c6", "20", "b8", "d9", "cf", "b4", "a4", "03", "5c", "b8", "b0", "b9", "de", "d9", "5c", "be", "b2", "b9", "b2", "c3", "de", "a4", "5c", "bc", "de", "ac", "dd", "b8", "de", "d9", "5c", "c6", "20", "b5", "b5", "dc", "da", "c0", "03", "dc", "b8", "be", "b2", "a6", "20", "ca", "af", "b9", "dd", "bc", "c0", "a1", "a3", "08"],
         "raw_text" : "<erase><10><『ユ‐ロパが このファ‐ワ‐ルドに くるまえ、\nク‐ゲルせいけいで、ジャングルに おおわれた\nわくせいを はっけんした。』",
         "alt_text" : "<erase><10><『ゆ―ろぱガ コノふぁ―わ―るどニ クルマエ、\nく―げるセイケイデ、じゃんぐるニ オオワレタ\nワクセイヲ ハッケンシタ。』",
-        "snes_size" : 117,
+        "snes_size" : 111,
         "snes-j" : "きょうじゅ「おもしろい きろくがあったぞ。\n    ユーロパが このファーワールドに くるまえ\n    クーゲルせいけいで ジャングルにおおわれた\n    わくせいを はっけんし ちょうさのために\n    シャトルを おろしたのだそうじゃ。」",
         "snes-e" : "Professor: Before fully\ncolonizing FarWorld we\nfound a planet with many\njungles and sent search\nparties to it. ",
         "accuracy" : 0.626666666667,
-        "trans_size" : 0,
-        "trans_text" : ":Before colonizing FarWorld\nEuropa found a planet with many\njungles and sent search parties to it"
+        "trans_size" : 93,
+        "trans_text" : ":Before colonizing FarWorld\nwe found a planet with many\njungles and sent search parties to it"
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14d73",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 40,
         "raw" : ["0c", "10", "3c", "a2", "bf", "ba", "c3", "de", "20", "c1", "ae", "b3", "bb", "c9", "c0", "d2", "c6", "20", "5c", "bc", "ac", "c4", "d9", "5c", "a6", "03", "b5", "db", "bc", "c0", "c9", "c0", "de", "bf", "b3", "bc", "de", "ac", "a3", "08"],
         "raw_text" : "<erase><10><『そこで ちょうさのために シャトルを\nおろしたのだそうじゃ』",
         "alt_text" : "<erase><10><『ソコデ チョウサノタメニ しゃとるヲ\nオロシタノダソウジャ』",
         "trans_size" : 0,
-        "trans_text" : ":A team was sent down in a\nshuttle to investigate"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14d9b",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 49,
         "raw" : ["0c", "10", "3c", "a2", "bc", "b6", "bc", "20", "5c", "bc", "ac", "c4", "d9", "5c", "ca", "20", "c2", "b2", "d7", "b8", "3b", "3b", "3b", "3b", "03", "bc", "de", "ae", "b3", "b2", "dd", "ca", "20", "d5", "b8", "b4", "cc", "d2", "b2", "a1", "bc", "b6", "d3", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<erase><10><『しかし シャトルは ついらく‥‥‥‥\nじょういんは ゆくえふめい。しかも‥‥‥‥』",
         "alt_text" : "<erase><10><『シカシ しゃとるハ ツイラク‥‥‥‥\nジョウインハ ユクエフメイ。シカモ‥‥‥‥』",
-        "trans_size" : 0,
+        "trans_size" : 36,
         "trans_text" : ":They disappeared\nwithout a trace..."
     },
 
@@ -1308,50 +1314,50 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14dcc",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : ["0c","10","3c"],
         "end_bytes" : ["08"],
         "raw_size" : 67,
         "raw" : ["0c", "10", "3c", "a2", "bf", "c9", "ce", "bc", "c6", "ca", "20", "b7", "b9", "dd", "c5", "20", "b7", "ae", "b3", "d8", "ad", "b3", "b6", "de", "03", "b3", "bc", "de", "ac", "b3", "bc", "de", "ac", "b2", "d9", "c4", "dc", "b6", "d8", "a4", "5c", "d5", "b0", "db", "ca", "df", "5c", "ca", "03", "c1", "ac", "b8", "d8", "b8", "a6", "20", "b1", "b7", "d7", "d2", "c0", "c9", "bc", "de", "ac", "a3", "08"],
         "raw_text" : "<erase><10><『そのほしには きけんな きょうりゅうが\nうじゃうじゃいるとわかり、ユ‐ロパは\nちゃくりくを おきらめたのじゃ』",
         "alt_text" : "<erase><10><『ソノホシニハ キケンナ キョウリュウガ\nウジャウジャイルトワカリ、ゆ―ろぱハ\nチャクリクヲ アキラメタノジャ』",
-        "snes_size" : 130,
+        "snes_size" : 124,
         "snes-j" : "きょうじゅ「しかし シャトルは ついらく・・\n    じょういんは ゆくえふめい。\n    しかも そのほしには きけんな\n    きょうりゅうが うじゃうじゃいるとわかり\n    ユーロパは ちゃくりくをあきらめたのじゃ。」",
         "snes-e" : "Professor: They disappeared\nwithout a word... When they\nlater discovered dinosaurs\non the planet they gave\nup the search... ",
         "accuracy" : 0.666666666667,
-        "trans_size" : 0,
-        "trans_text" : ":Later, when dinosaurs\nwere discovered on the\nplanet they gave up the search..."
+        "trans_size" : 78,
+        "trans_text" : ":When they later\ndiscovered dinosaurs on\nthe planet they gave up\nthe search..."
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14e0f",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3c"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 27,
         "raw" : ["0c", "10", "3c", "a2", "c4", "de", "b3", "bc", "de", "ac", "3f", "04", "1e", "20", "b5", "d3", "bc", "db", "b2", "bc", "de", "ac", "db", "b3", "3f", "a3", "08"],
         "raw_text" : "<erase><10><『どうじゃ?<pause><1E> おもしろいじゃろう?』",
         "alt_text" : "<erase><10><『ドウジャ?<pause><1E> オモシロイジャロウ?』",
         "trans_size" : 0,
-        "trans_text" : ":Intriguing, wouldn't you say!!"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14e2a",
         "method" : 3,
-        "start_bytes" : ["1a", "1f", "10", "1f", "07", "0f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 45,
         "raw" : ["1a", "1f", "10", "1f", "07", "0f", "a2", "b1", "c9", "b0", "3b", "3b", "3b", "3b", "07", "06", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c6", "c2", "b2", "c3", "ca", "03", "c5", "c6", "b6", "20", "dc", "b6", "d8", "cf", "bc", "c0", "b6", "3f", "a3", "07", "ff", "08"],
         "raw_text" : "<1A><1F><10><1F><07><0F>『おの―‥‥‥‥<07><06>メンタ‐ナについては\nなにか わかりましたか?』<07>゜",
         "alt_text" : "<1A><1F><10><1F><07><0F>『アノ‐‥‥‥‥<07><06>めんた―なニツイテハ\nナニカ ワカリマシタカ?』<07>゜",
-        "snes_size" : 75,
+        "snes_size" : 73,
         "snes-j" : "「[speed_1E]あのー・・・[speed_FF]メンターナに ついては\n    なにか わかりましたか?」",
         "snes-e" : ": [speed_1E]Um... [speed_FF]Did you find\nout anything about\nMentana yet? ",
         "accuracy" : 0.6,
         "trans_size" : 0,
-        "trans_text" : ":Did you find\nout anything about\nMentana yet?"
+        "trans_text" : ""
     },
 
     {
@@ -1369,14 +1375,14 @@
         "snes-e" : "Professor: Um well... \nnot exactly. ",
         "accuracy" : 0.867469879518,
         "trans_size" : 0,
-        "trans_text" : ":Well...<04><1e>\nNot exactly."
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14e89",
         "method" : 3,
-        "start_bytes" : ["00", "00", "00", "1a", "24", "10", "3d"],
+        "start_bytes" : ["00","00","00","1a","24","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 67,
         "raw" : ["00", "00", "00", "1a", "24", "10", "3d", "a2", "d6", "b3", "ba", "bf", "20", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "cd", "a1", "20", "b6", "dd", "b9", "de", "b2", "03", "b2", "c0", "bc", "cf", "bd", "a1", "20", "dc", "c0", "bc", "ca", "20", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "c9", "03", "5c", "db", "b0", "d7", "dd", "c4", "de", "5c", "c3", "de", "bd", "a3", "08"],
@@ -1386,7 +1392,7 @@
         "snes-j" : "だいとうりょう「ようこそ ファーワールドへ。\n    かんげい いたします。\n    わたしは だいとうりょうの ローランドです。」",
         "snes-e" : "President: Welcome to\nFarWorld. I'm President\nRoland. ",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
+        "trans_size" : 43,
         "trans_text" : ":Welcome to FarWorld.\nI'm President Roland."
     },
 
@@ -1394,7 +1400,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14ecc",
         "method" : 3,
-        "start_bytes" : ["1a", "21", "10", "1f"],
+        "start_bytes" : ["1a","21","10","1f"],
         "end_bytes" : ["08"],
         "raw_size" : 27,
         "raw" : ["1a", "21", "10", "1f", "a2", "b1", "c5", "c0", "b6", "de", "c0", "ca", "03", "c1", "b7", "ad", "b3", "bc", "de", "dd", "c3", "de", "bd", "c8", "3f", "a3", "08"],
@@ -1404,7 +1410,7 @@
         "snes-j" : "「あなたがたは ちきゅうじんですね?」",
         "snes-e" : ": Aren't you guys\nfrom Earth? ",
         "accuracy" : 0.882352941176,
-        "trans_size" : 0,
+        "trans_size" : 25,
         "trans_text" : ":Are you\nguys from Earth?"
     },
 
@@ -1412,7 +1418,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14ee7",
         "method" : 3,
-        "start_bytes" : ["19", "24", "10", "3d"],
+        "start_bytes" : ["19","24","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 52,
         "raw" : ["19", "24", "10", "3d", "a2", "bf", "b3", "c3", "de", "bd", "a1", "32", "35", "30", "c8", "dd", "cf", "b4", "c6", "20", "ba", "c9", "ce", "bc", "c6", "03", "cc", "bc", "de", "c1", "ac", "b8", "bc", "c0", "20", "c1", "b7", "ad", "b3", "bc", "de", "dd", "c9", "20", "bc", "bf", "dd", "c3", "de", "bd", "a3", "08"],
@@ -1422,7 +1428,7 @@
         "snes-j" : "だいとうりょう「そうです。２５０ねんまえに\n    このほしに ふじちゃくした\n    ちきゅうじんの しそんです。」",
         "snes-e" : "President: Yes we're the\ndescendants of people\nwho crashed here 250\nyears ago. ",
         "accuracy" : 0.83950617284,
-        "trans_size" : 0,
+        "trans_size" : 68,
         "trans_text" : ":Yes, we're the\ndescendents of those who\ncrashed here 250 years ago."
     },
 
@@ -1430,13 +1436,13 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14f1b",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 41,
         "raw" : ["0c", "10", "3d", "a2", "d3", "dd", "ca", "de", "dd", "b6", "de", "20", "bc", "c2", "da", "b2", "c5", "ba", "c4", "a6", "03", "b2", "c0", "bc", "cf", "bc", "c3", "20", "d3", "b3", "bc", "dc", "b9", "20", "b1", "d8", "cf", "be", "dd", "a3", "08"],
         "raw_text" : "<erase><10>=『もんばんが しつれいなことを\nいたしまして もうしわけ おりません』",
         "alt_text" : "<erase><10>=『モンバンガ シツレイナコトヲ\nイタシマシテ モウシワケ アリマセン』",
-        "trans_size" : 0,
+        "trans_size" : 33,
         "trans_text" : ":Sorry about my\nguards earlier..."
     },
 
@@ -1444,13 +1450,13 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14f44",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 42,
         "raw" : ["0c", "10", "3d", "a2", "b1", "c5", "c0", "b6", "de", "c0", "a6", "20", "5c", "b2", "dd", "cd", "de", "b0", "c0", "de", "b0", "a5", "db", "ce", "de", "af", "c4", "5c", "c4", "03", "cf", "c1", "b6", "de", "b4", "c0", "c9", "c3", "de", "bd", "a3", "08"],
         "raw_text" : "<erase><10>=『おなたがたを インベ‐ダ‐・ロボットと\nまちがえたのです』",
         "alt_text" : "<erase><10>=『アナタガタヲ いんべ―だ―・ろぼっとト\nマチガエタノデス』",
-        "trans_size" : 0,
+        "trans_size" : 68,
         "trans_text" : ":..they thought you\nwere the marauding robots\nthat have been around."
     },
 
@@ -1458,7 +1464,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14f6e",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 78,
         "raw" : ["0c", "10", "3d", "a2", "bb", "b2", "b7", "dd", "20", "ba", "c9", "ce", "bc", "c6", "20", "b1", "d4", "bc", "b2", "5c", "db", "ce", "de", "af", "c4", "5c", "b6", "de", "03", "bc", "ad", "c2", "ce", "de", "c2", "20", "bc", "c3", "b5", "d8", "cf", "bc", "c3", "c5", "a1", "20", "b5", "b5", "be", "de", "b2", "c9", "03", "bc", "de", "ad", "b3", "d0", "dd", "b6", "de", "20", "d5", "b8", "b4", "cc", "d2", "b2", "c6", "20", "c5", "af", "c3", "b2", "cf", "bd", "a3", "08"],
@@ -1468,7 +1474,7 @@
         "snes-j" : "だいとうりょう「さいきん このほしに\n    あやしいロボットが\n    しゅつぼつしておりまして、おおぜいの\n    じゅうみんが ゆくえふめいに なっています。」",
         "snes-e" : "President: There are some\nstrange robots which have\nbeen kidnapping our\ncitizens lately... ",
         "accuracy" : 0.883333333333,
-        "trans_size" : 0,
+        "trans_size" : 60,
         "trans_text" : ":Some of our citizens\nhave been kidnapped by\nthese robots..."
     },
 
@@ -1476,7 +1482,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x14fbc",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 77,
         "raw" : ["0c", "10", "3d", "a2", "ba", "c9", "ce", "bc", "c9", "20", "d0", "c5", "d0", "ca", "dd", "b7", "ad", "b3", "c6", "5c", "db", "ce", "de", "af", "c4", "5c", "c9", "03", "b7", "c1", "b6", "de", "b1", "d9", "c4", "b2", "b3", "20", "b3", "dc", "bb", "d3", "b1", "d8", "cf", "bd", "a1", "dc", "c0", "bc", "c0", "c1", "d3", "03", "b1", "c0", "cf", "a6", "20", "b2", "c0", "d2", "c3", "b2", "d9", "c9", "c3", "de", "bd", "b6", "de", "3b", "3b", "3b", "3b", "a3", "08"],
@@ -1486,7 +1492,7 @@
         "snes-j" : "だいとうりょう「このほしの みなみはんきゅうに\n    ロボットのきちが あるという うわさも\n    あります。わたしたちも あたまを\n    いためているのですが・・」",
         "snes-e" : "President: I heard they\nhave a base on the\nsouthern continent... ugh. ",
         "accuracy" : 0.873015873016,
-        "trans_size" : 0,
+        "trans_size" : 51,
         "trans_text" : ":I hear they have\na base on the\nsouthern continent."
     },
 
@@ -1494,7 +1500,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x15009",
         "method" : 3,
-        "start_bytes" : ["00", "00", "1a", "24", "10", "3d"],
+        "start_bytes" : ["00","00","1a","24","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 37,
         "raw" : ["00", "00", "1a", "24", "10", "3d", "a2", "c4", "de", "b3", "c3", "de", "bd", "3f", "04", "28", "20", "c1", "b7", "ad", "b3", "c6", "ca", "20", "b6", "b4", "da", "bf", "b3", "03", "c3", "de", "bd", "b6", "3f", "a3", "08"],
@@ -1504,7 +1510,7 @@
         "snes-j" : "だいとうりょう「どうです? ちきゅうには\n    かえれそうですか?」",
         "snes-e" : "President: So?  Will you\nbe able to go home? ",
         "accuracy" : 0.888888888889,
-        "trans_size" : 0,
+        "trans_size" : 33,
         "trans_text" : ":So? Will you be\nable to go home?"
     },
 
@@ -1512,7 +1518,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1502e",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "3d"],
+        "start_bytes" : ["0c","10","3d"],
         "end_bytes" : ["08"],
         "raw_size" : 43,
         "raw" : ["0c", "10", "3d", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c9", "20", "c3", "de", "dd", "be", "c2", "c3", "de", "bd", "b6", "a1", "03", "d1", "b6", "bc", "20", "b7", "b2", "c0", "ba", "c4", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "a3", "08"],
@@ -1522,7 +1528,7 @@
         "snes-j" : "だいとうりょう「メンターナの でんせつですが\n    むかし きいたことがあります。」",
         "snes-e" : "President: I heard the\nlegend of Mentana before. ",
         "accuracy" : 0.813559322034,
-        "trans_size" : 0,
+        "trans_size" : 42,
         "trans_text" : ":I have heard the\nlegend of Mentana before"
     },
 
@@ -1780,7 +1786,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x153f9",
         "method" : 3,
-        "start_bytes" : ["13", "3a", "6a", "13", "9c", "54", "00", "00", "1a", "23", "10", "1f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 34,
         "raw" : ["13", "3a", "6a", "13", "9c", "54", "00", "00", "1a", "23", "10", "1f", "a2", "ba", "ba", "b6", "de", "20", "c3", "b7", "c9", "20", "c1", "ad", "b3", "bd", "b3", "cc", "de", "c0", "de", "21", "a3", "08"],
@@ -1791,14 +1797,14 @@
         "snes-e" : ": So this is the core!",
         "accuracy" : 0.774193548387,
         "trans_size" : 0,
-        "trans_text" : ":So, this is the core!"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1541b",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "25", "10", "1f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 70,
         "raw" : ["00", "1a", "25", "10", "1f", "a2", "c4", "de", "ba", "b6", "c6", "20", "5c", "db", "ce", "de", "af", "c4", "5c", "c6", "20", "bc", "da", "b2", "a6", "b5", "b8", "af", "c3", "b2", "d9", "03", "c1", "ad", "b3", "bd", "b3", "cc", "de", "b6", "de", "20", "b1", "d9", "ca", "bd", "de", "c0", "de", "a1", "03", "bf", "ba", "a6", "20", "ca", "b6", "b2", "c3", "de", "b7", "da", "ca", "de", "3b", "3b", "3b", "3b", "a3", "08"],
@@ -1809,14 +1815,14 @@
         "snes-e" : ": There must be a core\ncontrol machine. Gotta\ndestroy it... ",
         "accuracy" : 0.895833333333,
         "trans_size" : 0,
-        "trans_text" : ":There must be a core\ncontrol machine. We've got\nto destroy it!"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x15461",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "1f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 23,
         "raw" : ["00", "1a", "1f", "c3", "b7", "c9", "20", "c1", "ad", "b3", "bd", "b3", "cc", "de", "a6", "20", "ca", "b6", "b2", "bc", "c0", "21", "08"],
@@ -1827,14 +1833,14 @@
         "snes-e" : "You have destroyed\nthe core!",
         "accuracy" : 0.875,
         "trans_size" : 0,
-        "trans_text" : "You destroyed the core!"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x15478",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "1f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 35,
         "raw" : ["0c", "10", "1f", "a2", "c6", "dd", "d1", "20", "b6", "dd", "d8", "ae", "b3", "a1", "03", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "c6", "20", "b7", "b6", "dd", "bd", "d9", "a3", "08"],
@@ -1845,14 +1851,14 @@
         "snes-e" : ": Let's return to\nthe Swordfish. ",
         "accuracy" : 0.862745098039,
         "trans_size" : 0,
-        "trans_text" : ":Let's return to\nthe Swordfish."
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1549b",
         "method" : 3,
-        "start_bytes" : ["00", "1b", "00", "1a", "1e", "06", "39", "10", "30", "06", "39"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 29,
         "raw" : ["00", "1b", "00", "1a", "1e", "06", "39", "10", "30", "06", "39", "a2", "ba", "c1", "d7", "20", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "a3", "08"],
@@ -1863,14 +1869,14 @@
         "snes-e" : "Mica: This is Swordfish. ",
         "accuracy" : 0.8,
         "trans_size" : 0,
-        "trans_text" : ":This is Swordfish."
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x154b8",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "30"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 42,
         "raw" : ["0c", "10", "30", "a2", "bf", "c9", "5c", "c3", "de", "b0", "c0", "5c", "a6", "20", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "c6", "03", "d3", "c1", "b6", "b4", "af", "c3", "20", "b8", "c0", "de", "bb", "b2", "a1", "a3", "08"],
@@ -1881,14 +1887,14 @@
         "snes-e" : "Mica: Please return with\nthe data immediately. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : ":Please return with\nthe data immediately."
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x154e2",
         "method" : 3,
-        "start_bytes" : ["1a", "23", "10", "1f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 26,
         "raw" : ["1a", "23", "10", "1f", "a2", "d8", "ae", "b3", "b6", "b2", "21", "20", "c0", "c0", "de", "c1", "c6", "20", "b7", "b6", "dd", "bd", "d9", "a1", "a3", "08"],
@@ -1899,7 +1905,7 @@
         "snes-e" : ": Roger! Returning\nright away. ",
         "accuracy" : 0.882352941176,
         "trans_size" : 0,
-        "trans_text" : ":Roger! Returning now."
+        "trans_text" : ""
     },
 
     {
@@ -1980,7 +1986,7 @@
         "raw" : ["0c", "10", "3f", "a2", "c4", "c2", "be", "de", "dd", "20", "c4", "de", "ba", "b6", "d7", "c4", "d3", "c5", "b8", "20", "b1", "d7", "dc", "da", "c3", "03", "b1", "af", "c1", "ba", "af", "c1", "c9", "ce", "bc", "c3", "de", "20", "b1", "ca", "de", "da", "c3", "cf", "bd", "dd", "d4", "a1", "03", "dc", "c3", "d7", "c9", "20", "bc", "ae", "b3", "ca", "de", "b2", "20", "b4", "d7", "b2", "d2", "b2", "dc", "b8", "d4", "21", "a3", "08"],
         "raw_text" : "<erase><10>?『とつぜん どこからともなく おらわれて\nおっちこっちのほしで おばれてますんや。\nわてらの しょうばい えらいめいわくや!』",
         "alt_text" : "<erase><10>?『トツゼン ドコカラトモナク アラワレテ\nアッチコッチノホシデ アバレテマスンヤ。\nワテラノ ショウバイ エライメイワクヤ!』",
-        "snes_size" : 89,
+        "snes_size" : 84,
         "snes-j" : "トレーダー「あやしいロボット！ それ しってまっせ！\n    とつぜん どこからともなく あらわれて\n    あっちこっちのほしで あばれてますんや。\n    わてらの しょうばい えらいめいわくや！」",
         "snes-e" : "Trader: Strange robots! I\nknow them man! They've\nbeen messing with planets\nall over!",
         "accuracy" : 0.746268656716,
@@ -2066,7 +2072,7 @@
         "raw" : ["0c", "10", "2d", "a2", "b2", "b7", "c3", "b2", "d9", "d3", "c9", "20", "bd", "cd", "de", "c3", "a6", "20", "d0", "bb", "b6", "b2", "c5", "b8", "03", "ba", "db", "bc", "cf", "b8", "d9", "20", "b1", "b8", "cf", "c9", "d6", "b3", "c5", "20", "bf", "dd", "bb", "de", "b2", "c3", "de", "bd", "a3", "13", "d7", "69", "08"],
         "raw_text" : "<erase><10>-『いきているもの すべてを みさかいなく\nころしまくる おくまのような そんざいです』<13>らi",
         "alt_text" : "<erase><10>-『イキテイルモノ スベテヲ ミサカイナク\nコロシマクル アクマノヨウナ ソンザイデス』<13>ラi",
-        "snes_size" : 83,
+        "snes_size" : 81,
         "snes-j" : "ニジーナ「ちきゅうの でんせつにでてくる\n    くるったせんしです。\n    いきているもの すべてを みさかいなく\n    ころしまくる あくまのような そんざいです。」",
         "snes-e" : "Nehjena: An insane warrior\nfrom Earth. He destroyed\neverything without a care... ",
         "accuracy" : 0.654205607477,
@@ -2162,7 +2168,7 @@
         "raw" : ["0c", "10", "3f", "a2", "bf", "da", "ca", "20", "ba", "c9", "20", "bc", "de", "c4", "de", "b3", "ce", "dd", "d4", "b8", "b7", "c9", "03", "b5", "b6", "b9", "de", "c3", "de", "bd", "dc", "a1", "20", "ba", "da", "bb", "b4", "b1", "da", "ca", "de", "20", "37", "c2", "c9", "ce", "bc", "c9", "03", "ba", "c4", "ca", "de", "b6", "de", "20", "dc", "b6", "d8", "cf", "bd", "c8", "dd", "a3", "08"],
         "raw_text" : "<erase><10>?『それは この じどうほんやくきの\nおかげですわ。 これさえおれば 7つのほしの\nことばが わかりますねん』",
         "alt_text" : "<erase><10>?『ソレハ コノ ジドウホンヤクキノ\nオカゲデスワ。 コレサエアレバ 7ツノホシノ\nコトバガ ワカリマスネン』",
-        "snes_size" : 79,
+        "snes_size" : 74,
         "snes-j" : "トレーダー「なんで あんさんらと ことばが\n    つうじるか やて? それは\n    この じどうほんやくきのおかげですわ。\n    これさえあれば ７つのほしの\n    ことばが わかりますねん。」",
         "snes-e" : "Trader: Why are we\nspeaking English?  We're\nusing Autotranslators \ngeheh. ",
         "accuracy" : 0.704918032787,
@@ -2338,6 +2344,10 @@
         "raw" : ["13", "2f", "6a", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "cc", "de", "b0", "bd", "c0", "b0", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>/jジャンプ・ブ‐スタ‐ を てにいれた!",
         "alt_text" : "<13>/jじゃんぷ・ぶ―すた― ヲ テニイレタ!",
+        "snes_size" : 12,
+        "snes-j" : "ジャンプ・ブースター",
+        "snes-e" : "Jump Booster",
+        "accuracy" : 0.551724137931,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2398,6 +2408,10 @@
         "raw" : ["00", "1a", "1a", "10", "3f", "a2", "bf", "ba", "c9", "20", "b1", "dd", "bb", "dd", "a1", "20", "5c", "cb", "df", "b6", "cb", "df", "b6", "5c", "c9", "03", "bc", "de", "c4", "de", "b3", "ce", "dd", "d4", "b8", "b7", "20", "b2", "d8", "cf", "cd", "dd", "b6", "3f", "a3", "08"],
         "raw_text" : "<end><1A><1A><10>?『そこの おんさん。 ピカピカの\nじどうほんやくき いりまへんか?』",
         "alt_text" : "<end><1A><1A><10>?『ソコノ アンサン。 ぴかぴかノ\nジドウホンヤクキ イリマヘンカ?』",
+        "snes_size" : 125,
+        "snes-j" : "トレーダー「そこの あんさん。\n    ピカピカの じどうほんやくき いりまへんか?\n    クーゲルせいけいの ジャンスの じゅうにんが\n    つくってる きぼりの ちょうこくを\n    もってきてくれたら こうかんしまっせ！」",
+        "snes-e" : "Trader: Hey you! Don't you\nwant this Autotranslator? \nIf you bring me the wood\nstatue from the planet\nJanth I'll trade!",
+        "accuracy" : 0.453781512605,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2466,6 +2480,10 @@
         "raw" : ["13", "2f", "6a", "bc", "de", "c4", "de", "b3", "ce", "dd", "d4", "b8", "b7", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>/jじどうほんやくき を てにいれた!",
         "alt_text" : "<13>/jジドウホンヤクキ ヲ テニイレタ!",
+        "snes_size" : 13,
+        "snes-j" : "じどうほんやくき",
+        "snes-e" : "Autotranslatr",
+        "accuracy" : 0.64,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2526,6 +2544,10 @@
         "raw" : ["00", "1a", "24", "10", "3f", "a2", "b2", "cf", "a4", "d3", "c9", "bd", "ba", "de", "b2", "cc", "de", "b7", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c3", "d9", "03", "bb", "b2", "c1", "ad", "b3", "c3", "de", "bd", "c8", "dd", "a1", "03", "d3", "b3", "c1", "ae", "b2", "20", "cf", "af", "c4", "b8", "dd", "c5", "ca", "da", "a3", "08"],
         "raw_text" : "<end><1A>$<10>?『いま、ものすごいぶきを かいはつしてる\nさいちゅうですねん。\nもうちょい まっとくんなはれ』",
         "alt_text" : "<end><1A>$<10>?『イマ、モノスゴイブキヲ カイハツシテル\nサイチュウデスネン。\nモウチョイ マットクンナハレ』",
+        "snes_size" : 50,
+        "snes-j" : "トレーダー「ものすごい しんへいきが\n    てにはいる よていですねん。\n    もうちょっと まっておくんなはれ。」",
+        "snes-e" : "Trader: I'll be getting\nan incredible weapon\nsoon!",
+        "accuracy" : 0.574712643678,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2576,6 +2598,10 @@
         "raw" : ["13", "2f", "6a", "5c", "c3", "de", "a8", "bd", "b2", "dd", "c3", "b8", "de", "da", "b0", "c0", "b0", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>/jディスインテグレ‐タ‐ を てにいれた!",
         "alt_text" : "<13>/jでぃすいんてぐれ―た― ヲ テニイレタ!",
+        "snes_size" : 12,
+        "snes-j" : "ディスインテグレータ",
+        "snes-e" : "Desintegratr",
+        "accuracy" : 0.6,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2690,7 +2716,7 @@
         "raw" : ["13", "41", "6a", "1a", "2e", "10", "3f", "07", "14", "a2", "b2", "d4", "b0", "a4", "ce", "dd", "cf", "c6", "20", "07", "ff", "b4", "b4", "5c", "d2", "db", "c3", "de", "a8", "5c", "d4", "21", "03", "b6", "dd", "c4", "de", "b3", "bc", "cf", "bc", "c0", "dc", "a1", "04", "3c", "03", "ce", "c5", "a4", "b5", "d4", "b8", "bf", "b8", "c4", "de", "b5", "d8", "20", "bb", "de", "b2", "ce", "b3", "c9", "20", "bc", "de", "ae", "b3", "ce", "b3", "a6", "03", "b5", "b5", "bc", "b4", "20", "bc", "cf", "bc", "ae", "b6", "a3", "08"],
         "raw_text" : "<13>Aj<1A>.<10>?<07><14>『いや―、ほんまに <07>゜ええメロディや!\nかんどうしましたわ。<pause><\nほな、おやくそくどおり ざいほうの じょうほうを\nおおしえ しましょか』",
         "alt_text" : "<13>Aj<1A>.<10>?<07><14>『イヤ‐、ホンマニ <07>゜エエめろでぃヤ!\nカンドウシマシタワ。<pause><\nホナ、オヤクソクドオリ ザイホウノ ジョウホウヲ\nオオシエ シマショカ』",
-        "snes_size" : 125,
+        "snes_size" : 119,
         "snes-j" : "トレーダー[speed_1E]「いやー [speed_FF]ほんまに ええメロディや！\n    かんどうしましたわ[speed_1E]。[speed_FF]\n    おやくそくどおり ざいほうの じょうほうを\n    おおしえしましょう。」",
         "snes-e" : "Trader[speed_1E]: Whoaaa....[speed_FF] damn\nincredible melody! I'm\npretty impressed!\nAnyway  about that\ninformation... ",
         "accuracy" : 0.662251655629,
@@ -2758,7 +2784,7 @@
         "raw" : ["19", "2e", "10", "3f", "a2", "b1", "dd", "bb", "dd", "d7", "d3", "20", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c6", "20", "c8", "b6", "de", "b2", "a6", "03", "b6", "c5", "b4", "c3", "20", "ce", "bc", "b2", "dd", "d4", "af", "c0", "d7", "a4", "03", "ca", "d6", "ab", "20", "34", "c2", "c9", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "5c", "c9", "20", "b7", "db", "b8", "a6", "03", "bf", "db", "b4", "d9", "ba", "c4", "d4", "21", "a3", "08"],
         "raw_text" : "<19>.<10>?『おんさんらも メンタ‐ナに ねがいを\nかなえて ほしいんやったら、\nはよぉ 4つのモニュメントの きろくを\nそろえることや!』",
         "alt_text" : "<19>.<10>?『アンサンラモ めんた―なニ ネガイヲ\nカナエテ ホシインヤッタラ、\nハヨォ 4ツノもにゅめんとノ キロクヲ\nソロエルコトヤ!』",
-        "snes_size" : 76,
+        "snes_size" : 72,
         "snes-j" : "トレーダー「あんさんらも メンターナに\n    ねがいを かなえて ほしいんやったら\n    ４つのモニュメントを さがしなはれ！」",
         "snes-e" : "Trader: If you guys're gonna\nget help from Mentana you\nshould find them!",
         "accuracy" : 0.666666666667,
@@ -2840,7 +2866,7 @@
         "raw" : ["00", "1a", "24", "10", "3f", "a2", "ba", "c9", "cf", "b4", "b6", "d7", "20", "c5", "dd", "c4", "de", "d3", "20", "b6", "b2", "bf", "de", "b8", "c6", "20", "c2", "d0", "c6", "b6", "de", "03", "b5", "bf", "dc", "da", "c3", "20", "d2", "b2", "dc", "b8", "bc", "c3", "d9", "dd", "c3", "de", "bd", "dc", "a1", "a3", "08"],
         "raw_text" : "<end><1A>$<10>?『このまえから なんども かいぞくに つみにが\nおそわれて めいわくしてるんですわ。』",
         "alt_text" : "<end><1A>$<10>?『コノマエカラ ナンドモ カイゾクニ ツミニガ\nオソワレテ メイワクシテルンデスワ。』",
-        "snes_size" : 97,
+        "snes_size" : 92,
         "snes-j" : "トレーダー「このまえから なんども かいぞくに\n    つみにが おそわれて めいわくしてるんですわ。\n    あんたら かいぞくの きちをみつけて\n    あいつらを ぜんめつさせてくれまへんか?」",
         "snes-e" : "Trader: I've been robbed a\ncouple of times by the\npirates. Could you... just\nlike whop 'em? ",
         "accuracy" : 0.626086956522,
@@ -2858,6 +2884,10 @@
         "raw" : ["0c", "10", "3f", "a2", "b1", "dd", "c0", "d7", "20", "b6", "b2", "bf", "de", "b8", "c9", "20", "b7", "c1", "a6", "20", "d0", "c2", "b9", "c3", "03", "b1", "b2", "c2", "d7", "a6", "20", "be", "de", "dd", "d2", "c2", "bb", "be", "c3", "20", "b8", "da", "cf", "cd", "dd", "b6", "3f", "a3", "08"],
         "raw_text" : "<erase><10>?『おんたら かいぞくの きちを みつけて\nおいつらを ぜんめつさせて くれまへんか?』",
         "alt_text" : "<erase><10>?『アンタラ カイゾクノ キチヲ ミツケテ\nアイツラヲ ゼンメツサセテ クレマヘンカ?』",
+        "snes_size" : 92,
+        "snes-j" : "トレーダー「このまえから なんども かいぞくに\n    つみにが おそわれて めいわくしてるんですわ。\n    あんたら かいぞくの きちをみつけて\n    あいつらを ぜんめつさせてくれまへんか?」",
+        "snes-e" : "Trader: I've been robbed a\ncouple of times by the\npirates. Could you... just\nlike whop 'em? ",
+        "accuracy" : 0.59649122807,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3112,6 +3142,10 @@
         "raw" : ["00", "1a", "2a", "10", "3f", "07", "01", "a2", "b1", "b1", "a4", "b2", "bf", "b6", "de", "bc", "21", "a3", "08"],
         "raw_text" : "<end><1A>*<10>?<07><extralineofdialoguewindow>『おお、いそがし!』",
         "alt_text" : "<end><1A>*<10>?<07><extralineofdialoguewindow>『アア、イソガシ!』",
+        "snes_size" : 20,
+        "snes-j" : "トレーダー「ああ いそがし！」",
+        "snes-e" : "Trader: Busy busy!",
+        "accuracy" : 0.470588235294,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3162,7 +3196,7 @@
         "raw" : ["00", "1a", "2d", "11", "02", "07", "0a", "0d", "02", "06", "25", "50", "0e", "06", "06", "25", "b7", "0d", "02", "06", "28", "61", "0e", "fc", "06", "28", "35", "0d", "fc", "06", "28", "44", "0e", "06", "06", "28", "cb", "07", "ff", "1a", "1e", "11", "00", "10", "3f", "a2", "b1", "b6", "dd", "a4", "bc", "de", "c4", "de", "b3", "ce", "dd", "d4", "b8", "b7", "c9", "20", "c1", "ae", "b3", "bc", "b6", "de", "03", "dc", "d9", "b2", "dc", "a1", "04", "1e", "20", "c5", "dd", "b7", "de", "d4", "c5", "b1", "a3", "08"],
         "raw_text" : "<end><1A>-<11>\n<07><0A><pad>\n<06>%P<0E><06><06>%き<pad>\n<06>(a<0E>ワ<06>(5<pad>ワ<06>(D<0E><06><06>(ひ<07>゜<1A><1E><11><end><10>?『おかん、じどうほんやくきの ちょうしが\nわるいわ。<pause><1E> なんぎやなお』",
         "alt_text" : "<end><1A>-<11>\n<07><0A><pad>\n<06>%P<0E><06><06>%キ<pad>\n<06>(a<0E>わ<06>(5<pad>わ<06>(D<0E><06><06>(ヒ<07>゜<1A><1E><11><end><10>?『アカン、ジドウホンヤクキノ チョウシガ\nワルイワ。<pause><1E> ナンギヤナア』",
-        "snes_size" : 77,
+        "snes_size" : 73,
         "snes-j" : "トレーダー[speed_0F]「ピピピ・・ガガガ・・[speed_FF]あかん\n    じどうほんやくきの ちょうしがわるいわ。\n    なんぎやなあ。」",
         "snes-e" : "Trader[speed_0F]: Prprgrh... [speed_FF]\nCrap my Autotranslator's\nbusted. ",
         "accuracy" : 0.619047619048,
@@ -3294,6 +3328,10 @@
         "raw" : ["00", "1a", "1e", "10", "3f", "a2", "b2", "d4", "a7", "a4", "b7", "de", "ae", "b3", "bb", "dd", "20", "b4", "b4", "cc", "de", "b7", "a6", "20", "bf", "db", "b4", "03", "ca", "d8", "cf", "bc", "c0", "c5", "a1", "04", "1e", "20", "b3", "a8", "af", "04", "3c", "b8", "21", "a3", "08"],
         "raw_text" : "<end><1A><1E><10>?『いやぁ、ぎょうさん ええぶきを そろえ\nはりましたな。<pause><1E> うぃっ<pause><く!』",
         "alt_text" : "<end><1A><1E><10>?『イヤァ、ギョウサン エエブキヲ ソロエ\nハリマシタナ。<pause><1E> ウィッ<pause><ク!』",
+        "snes_size" : 77,
+        "snes-j" : "トレーダー「いやぁ ぎょうさん\n    ええ ぶき そろえはりましたな。\n    [speed_0F]ウイッ・・・・[speed_FF]ヒックッ！」",
+        "snes-e" : "Trader: You've collected\nlots of weapons huh. \n[speed_0F]....[speed_FF]hic!",
+        "accuracy" : 0.488888888889,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3322,7 +3360,7 @@
         "raw" : ["00", "1a", "1e", "10", "3f", "a2", "b3", "c1", "c9", "cb", "c4", "20", "c4", "b5", "b8", "c9", "ce", "bc", "c6", "20", "c0", "b6", "d7", "03", "bb", "b6", "de", "bc", "c6", "20", "b2", "af", "c4", "d8", "cf", "dd", "c9", "d4", "a1", "a3", "08"],
         "raw_text" : "<end><1A><1E><10>?『うちのひと とおくのほしに たから\nさがしに いっとりまんのや。』",
         "alt_text" : "<end><1A><1E><10>?『ウチノヒト トオクノホシニ タカラ\nサガシニ イットリマンノヤ。』",
-        "snes_size" : 62,
+        "snes_size" : 60,
         "snes-j" : "トレーダー「うちのひと とおくの ほしに\n    たからさがしに いっとりまんのや。\n    きっと ぎょうさん たからもの\n    もって かえってきまっせ！」",
         "snes-e" : "Trader: My partner went\nfar into space looking\nfor treasure!",
         "accuracy" : 0.629213483146,
@@ -3340,6 +3378,10 @@
         "raw" : ["0c", "10", "3f", "a2", "b7", "af", "c4", "20", "b7", "de", "ae", "b3", "bb", "dd", "20", "c0", "b6", "d7", "d3", "c9", "20", "d3", "af", "c3", "03", "b6", "b4", "af", "c3", "b7", "cf", "af", "be", "21", "a3", "08"],
         "raw_text" : "<erase><10>?『きっと ぎょうさん たからもの もって\nかえってきまっせ!』",
         "alt_text" : "<erase><10>?『キット ギョウサン タカラモノ モッテ\nカエッテキマッセ!』",
+        "snes_size" : 60,
+        "snes-j" : "トレーダー「うちのひと とおくの ほしに\n    たからさがしに いっとりまんのや。\n    きっと ぎょうさん たからもの\n    もって かえってきまっせ！」",
+        "snes-e" : "Trader: My partner went\nfar into space looking\nfor treasure!",
+        "accuracy" : 0.558139534884,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3372,6 +3414,10 @@
         "raw" : ["00", "1a", "29", "10", "1f", "07", "0a", "a2", "cd", "aa", "b0", "3b", "3b", "04", "1e", "c3", "de", "dd", "ce", "df", "b3", "3f", "a3", "08"],
         "raw_text" : "<end><1A>)<10><1F><07><0A>『へぇ―‥‥<pause><1E>でんぽう?』",
         "alt_text" : "<end><1A>)<10><1F><07><0A>『ヘェ‐‥‥<pause><1E>デンポウ?』",
+        "snes_size" : 35,
+        "snes-j" : "[speed_0F]「へぇ・・・でんぽう・・?」[speed_FF]",
+        "snes-e" : ": [speed_0F]Message....? [speed_FF]",
+        "accuracy" : 0.529411764706,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3428,7 +3474,7 @@
         "raw" : ["00", "1a", "1e", "10", "3f", "a2", "c0", "b6", "d7", "bb", "b6", "de", "bc", "c6", "20", "b2", "af", "c4", "d9", "20", "d1", "bd", "ba", "b6", "d7", "03", "c3", "de", "dd", "ce", "df", "b3", "b6", "de", "20", "b7", "c0", "dd", "d4", "21", "a3", "08"],
         "raw_text" : "<end><1A><1E><10>?『たからさがしに いっとる むすこから\nでんぽうが きたんや!』",
         "alt_text" : "<end><1A><1E><10>?『タカラサガシニ イットル ムスコカラ\nデンポウガ キタンヤ!』",
-        "snes_size" : 71,
+        "snes_size" : 69,
         "snes-j" : "トレーダー「FH１５４ちゅう せいけいに\n    たからさがしに いっとる むすこから\n    でんぽうが きたんや！」",
         "snes-e" : "Trader: I got a message\nfrom my son. He's on\nFHI154 treasure hunting!",
         "accuracy" : 0.704225352113,
@@ -3446,6 +3492,10 @@
         "raw" : ["0c", "10", "3f", "a2", "b1", "dd", "bb", "dd", "d7", "b6", "de", "20", "c0", "bd", "b9", "c3", "20", "b8", "da", "ca", "af", "c0", "03", "bf", "b3", "c3", "de", "dd", "c5", "a1", "20", "b5", "b5", "b7", "c6", "21", "a3", "08"],
         "raw_text" : "<erase><10>?『おんさんらが たすけて くれはった\nそうでんな。 おおきに!』",
         "alt_text" : "<erase><10>?『アンサンラガ タスケテ クレハッタ\nソウデンナ。 オオキニ!』",
+        "snes_size" : 73,
+        "snes-j" : "トレーダー「たからさがしに いっとる\n    むすこから でんぽうが きたんや！\n    あんさんらが たすけてくれはったそうでんな。\n    おおきに！！」",
+        "snes-e" : "Trader: I had a report from\nmy son! You guys helped\nhim out eh?  Gracias!",
+        "accuracy" : 0.551724137931,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3650,7 +3700,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1697e",
         "method" : 3,
-        "start_bytes" : ["00", "1a", "1f", "10", "1f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 34,
         "raw" : ["00", "1a", "1f", "10", "1f", "a2", "b6", "b2", "bf", "de", "b8", "c9", "20", "ce", "dd", "b7", "ae", "c1", "ca", "20", "c4", "de", "ba", "c6", "03", "b1", "d9", "dd", "c3", "de", "bd", "3f", "a3", "08"],
@@ -3661,14 +3711,14 @@
         "snes-e" : ": Where can I\nfind their base? ",
         "accuracy" : 0.863636363636,
         "trans_size" : 0,
-        "trans_text" : ":Where can I find\ntheir base?"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x169a0",
         "method" : 3,
-        "start_bytes" : ["19", "24", "10", "3f"],
+        "start_bytes" : [],
         "end_bytes" : ["08"],
         "raw_size" : 34,
         "raw" : ["19", "24", "10", "3f", "a2", "bf", "da", "b6", "de", "dc", "b6", "d7", "dd", "b6", "d7", "20", "b1", "dd", "c0", "d7", "c6", "03", "c0", "c9", "dd", "c3", "de", "cf", "bd", "dd", "d4", "21", "a3", "08"],
@@ -3679,7 +3729,7 @@
         "snes-e" : "Trader: Damned if I\nknow!",
         "accuracy" : 0.84,
         "trans_size" : 0,
-        "trans_text" : ":Damned if I know!"
+        "trans_text" : ""
     },
 
     {
@@ -3738,7 +3788,7 @@
         "raw" : ["19", "24", "10", "3f", "a2", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "21", "04", "1e", "20", "5c", "bf", "c9", "c5", "cf", "b4", "a4", "d6", "db", "bc", "c5", "b1", "a1", "03", "dc", "c3", "d7", "d3", "20", "ba", "dd", "c4", "de", "b6", "d7", "a4", "b1", "b2", "c2", "d7", "a6", "20", "bf", "c9", "c5", "cf", "b4", "c3", "de", "03", "d6", "cc", "de", "ba", "c4", "c6", "20", "bc", "cf", "bd", "dc", "a3", "00", "1a", "28", "10", "3f", "a2", "cf", "b2", "c4", "de", "20", "b5", "b5", "b7", "c6", "21", "a3", "00", "11", "02", "1b", "00", "1a", "1c", "07", "01", "06", "1b", "00", "07", "00", "1b", "01", "11", "00", "00", "11", "06", "1b", "00", "05", "16", "1a", "1c", "07", "02", "50", "4c", "41", "59", "07", "4b", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "07", "ff", "1b", "01", "11", "00", "00", "00", "00", "1a", "2e", "10", "2b", "a2", "ba", "da", "ca", "20", "b1", "b7", "d7", "b6", "c6", "20", "bc", "de", "dd", "ba", "b3", "cc", "de", "c2", "c0", "de", "c5", "a1", "03", "cb", "ae", "b3", "d2", "dd", "c6", "20", "cb", "de", "af", "bc", "d8", "c4", "20", "b7", "ba", "de", "b3", "b6", "de", "20", "b7", "bb", "de", "cf", "da", "03", "c3", "b2", "d9", "a1", "03", "c5", "c6", "b6", "c9", "20", "ce", "b3", "c3", "b2", "bc", "b7", "20", "c9", "d6", "b3", "c0", "de", "b6", "de", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<19>$<10>?『バ‐サ‐カ‐!<pause><1E> そのなまえ、よろしなお。\nわてらも こんどから、おいつらを そのなまえで\nよぶことに しますわ』<end><1A>(<10>?『まいど おおきに!』<end><11>\n<1B><end><1A><endwait><07><extralineofdialoguewindow><06><1B><end><07><end><1B><extralineofdialoguewindow><11><end><end><11><06><1B><end><05><16><1A><endwait><07>\nPLAY<07>K                       <07>゜<1B><extralineofdialoguewindow><11><end><end><end><end><1A>.<10>+『これは おきらかに じんこうぶつだな。\nひょうめんに びっしりと きごうが きざまれ\nている。\nなにかの ほうていしき のようだが‥‥‥‥』",
         "alt_text" : "<19>$<10>?『ば―さ―か―!<pause><1E> ソノナマエ、ヨロシナア。\nワテラモ コンドカラ、アイツラヲ ソノナマエデ\nヨブコトニ シマスワ』<end><1A>(<10>?『マイド オオキニ!』<end><11>\n<1B><end><1A><endwait><07><extralineofdialoguewindow><06><1B><end><07><end><1B><extralineofdialoguewindow><11><end><end><11><06><1B><end><05><16><1A><endwait><07>\nPLAY<07>K                       <07>゜<1B><extralineofdialoguewindow><11><end><end><end><end><1A>.<10>+『コレハ アキラカニ ジンコウブツダナ。\nヒョウメンニ ビッシリト キゴウガ キザマレ\nテイル。\nナニカノ ホウテイシキ ノヨウダガ‥‥‥‥』",
-        "snes_size" : 65,
+        "snes_size" : 61,
         "snes-j" : "トレーダー「バーサーカー[speed_1E]！[speed_FF]\n    そのなまえ よろしなあ。\n    わてらも こんどから あいつらを\n    そのなまえで よぶことにしますわ。」",
         "snes-e" : "Trader: Vercerkar!\nMaybe we'll call those\nrobots that geheh. ",
         "accuracy" : 0.645669291339,
@@ -3882,6 +3932,10 @@
         "raw" : ["13", "22", "6c", "00", "11", "02", "1b", "00", "1a", "1c", "07", "01", "06", "1b", "00", "07", "00", "1b", "01", "11", "00", "00", "00", "1a", "22", "10", "40", "a2", "5c", "cb", "df", "cb", "df", "cb", "df", "3b", "3b", "04", "1e", "07", "0a", "cb", "df", "cb", "df", "3f", "04", "1e", "07", "ff", "20", "cb", "df", "cb", "df", "cb", "df", "a4", "07", "00", "cb", "df", "ad", "b0", "b0", "b0", "a3", "08"],
         "raw_text" : "<13>“l<end><11>\n<1B><end><1A><endwait><07><extralineofdialoguewindow><06><1B><end><07><end><1B><extralineofdialoguewindow><11><end><end><end><1A>“<10>©『ピピピ‥‥<pause><1E><07><0A>ピピ?<pause><1E><07>゜ ピピピ、<07><end>ピュ‐‐‐』",
         "alt_text" : "<13>“l<end><11>\n<1B><end><1A><endwait><07><extralineofdialoguewindow><06><1B><end><07><end><1B><extralineofdialoguewindow><11><end><end><end><1A>“<10>©『ぴぴぴ‥‥<pause><1E><07><0A>ぴぴ?<pause><1E><07>゜ ぴぴぴ、<07><end>ぴゅ―――』",
+        "snes_size" : 53,
+        "snes-j" : "ロボット「ピピピ・・[speed_0F]ピピ? ピピピ [speed_FF]ピュー。」",
+        "snes-e" : "Robot: Prpg... [speed_0F]PP?  pPpP[speed_FF]\nPsrhh. ",
+        "accuracy" : 0.472727272727,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -3896,7 +3950,7 @@
         "raw" : ["00", "1a", "2e", "10", "40", "a2", "b7", "b6", "de", "b2", "a6", "20", "b8", "dc", "b4", "c5", "b2", "c3", "de", "20", "b8", "c0", "de", "bb", "b2", "a1", "03", "dc", "c0", "bc", "ca", "20", "c0", "dd", "c5", "d9", "20", "b6", "dd", "d8", "5c", "db", "ce", "de", "af", "c4", "5c", "c3", "de", "bd", "a1", "03", "be", "dd", "c4", "b3", "c9", "b3", "d8", "ae", "b8", "ca", "20", "b1", "d8", "cf", "be", "dd", "a1", "03", "ba", "de", "bc", "ad", "bc", "de", "dd", "bb", "cf", "c0", "c1", "b6", "de", "20", "c4", "b3", "d0", "dd", "20", "bc", "c3", "b2", "d9", "b1", "b2", "c0", "de", "03", "ba", "c9", "cf", "c1", "a6", "20", "b2", "bc", "de", "bd", "d9", "c9", "b6", "de", "20", "dc", "c0", "bc", "c9", "20", "bc", "ba", "de", "c4", "c3", "de", "bd", "a3", "08"],
         "raw_text" : "<end><1A>.<10>©『きがいを くわえないで ください。\nわたしは たんなる かんりロボットです。\nせんとうのうりょくは おりません。\nごしゅじんさまたちが とうみん しているおいだ\nこのまちを いじするのが わたしの しごとです』",
         "alt_text" : "<end><1A>.<10>©『キガイヲ クワエナイデ クダサイ。\nワタシハ タンナル カンリろぼっとデス。\nセントウノウリョクハ アリマセン。\nゴシュジンサマタチガ トウミン シテイルアイダ\nコノマチヲ イジスルノガ ワタシノ シゴトデス』",
-        "snes_size" : 64,
+        "snes_size" : 62,
         "snes-j" : "ロボット「きがいを くわえないで ください。\n    わたしは たんなる かんりロボットです。\n    せんとうのうりょくは ありません。」",
         "snes-e" : "Robot: Please don't hurt\nme. I'm just an\nadministrator robot. ",
         "accuracy" : 0.662068965517,
@@ -4100,6 +4154,10 @@
         "raw" : ["00", "1a", "24", "10", "40", "a2", "b5", "b5", "a4", "ba", "da", "ca", "20", "5c", "cc", "de", "d7", "af", "b8", "a5", "b8", "de", "db", "b0", "cc", "de", "5c", "c9", "20", "5c", "c3", "de", "b0", "c0", "21", "a3", "08"],
         "raw_text" : "<end><1A>$<10>©『おお、これは ブラック・グロ‐ブの デ‐タ!』",
         "alt_text" : "<end><1A>$<10>©『オオ、コレハ ぶらっく・ぐろ―ぶノ で―た!』",
+        "snes_size" : 16,
+        "snes-j" : "ブラック・グローブのデータ",
+        "snes-e" : "Black Globe Data",
+        "accuracy" : 0.647058823529,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4164,6 +4222,10 @@
         "raw" : ["00", "1a", "1f", "10", "41", "a2", "b1", "b0", "c0", "b0", "b0", "d7", "bc", "b2", "20", "b1", "2d", "bb", "b6", "de", "b8", "d9", "a1", "03", "b7", "ce", "de", "b0", "b0", "c9", "20", "b1", "b0", "bb", "b0", "b6", "de", "21", "a3", "08"],
         "raw_text" : "<end><1A><1F><10>A『お―た――らしい お-さがくる。\nきぼ――の お―さ―が!』",
         "alt_text" : "<end><1A><1F><10>A『ア‐タ‐‐ラシイ ア-サガクル。\nキボ‐‐ノ ア‐サ‐ガ!』",
+        "snes_size" : 44,
+        "snes-j" : "シークラン「あーたーらしーい あーさが くる。\n    きーぼーおの あーさーが！」",
+        "snes-e" : "Seeclan: Our sun is back \nour sunshiiine... ",
+        "accuracy" : 0.526315789474,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4286,6 +4348,10 @@
         "raw" : ["13", "2f", "6a", "5c", "cc", "de", "d7", "af", "b8", "a5", "b8", "de", "db", "b0", "cc", "de", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>/jブラック・グロ‐ブ を てにいれた!",
         "alt_text" : "<13>/jぶらっく・ぐろ―ぶ ヲ テニイレタ!",
+        "snes_size" : 11,
+        "snes-j" : "ブラックグローブ",
+        "snes-e" : "Black Globe",
+        "accuracy" : 0.538461538462,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4318,7 +4384,7 @@
         "raw" : ["00", "1a", "2e", "10", "41", "a2", "b5", "ca", "c5", "bc", "ca", "20", "dc", "b6", "d8", "cf", "bc", "c0", "a1", "04", "3c", "03", "bc", "b6", "bc", "a4", "5c", "c3", "de", "b0", "c0", "5c", "b6", "de", "20", "cc", "bf", "b8", "c3", "de", "bd", "a1", "a3", "08"],
         "raw_text" : "<end><1A>.<10>A『おはなしは わかりました。<pause><\nしかし、デ‐タが ふそくです。』",
         "alt_text" : "<end><1A>.<10>A『オハナシハ ワカリマシタ。<pause><\nシカシ、で―たガ フソクデス。』",
-        "snes_size" : 40,
+        "snes_size" : 37,
         "snes-j" : "シークラン「おはなしは わかりました[speed_1E]。\n[speed_FF]    しかし データが ふそくです。」",
         "snes-e" : "Seeclan: Sorry but I\nneed more data. ",
         "accuracy" : 0.631578947368,
@@ -4404,6 +4470,10 @@
         "raw" : ["13", "2f", "6a", "47", "5c", "b3", "aa", "b0", "cc", "de", "5c", "c2", "b3", "bc", "dd", "b7", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>/jGウェ‐ブつうしんき を てにいれた!",
         "alt_text" : "<13>/jGうぇ―ぶツウシンキ ヲ テニイレタ!",
+        "snes_size" : 11,
+        "snes-j" : "Gウェーブつうしんき",
+        "snes-e" : "G-Wave Comm",
+        "accuracy" : 0.620689655172,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4490,6 +4560,10 @@
         "raw" : ["0c", "10", "42", "07", "06", "02", "a2", "5c", "bd", "d7", "b3", "da", "5c", "c9", "02", "20", "b3", "d0", "c5", "d7", "a4", "02", "20", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c9", "02", "20", "bc", "ae", "b3", "c0", "b2", "a6", "02", "20", "bc", "af", "c3", "b5", "d9", "02", "20", "bc", "de", "ac", "db", "b3", "a3", "08"],
         "raw_text" : "<erase><10>B<07><06>\n『スラウレの\n うみなら、\n メンタ‐ナの\n しょうたいを\n しっておる\n じゃろう』",
         "alt_text" : "<erase><10>B<07><06>\n『すらうれノ\n ウミナラ、\n めんた―なノ\n ショウタイヲ\n シッテオル\n ジャロウ』",
+        "snes_size" : 132,
+        "snes-j" : "ちょうろう「スラウレのうみなら メンターナの\n    しょうたいを しっておるじゃろう。\n    もし テレパシーが つうじないときは\n    ラーブンにでも いけばいいじゃろう。\n    あそこには じょうほうが あつまるからのう。」",
+        "snes-e" : "Mayor: I'm sure it knows\nsomething about Mentana. If\ntelepathy doesn't work \nhead to Rarbun;they have\nmuch information there. ",
+        "accuracy" : 0.464,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4504,6 +4578,10 @@
         "raw" : ["00", "1a", "22", "10", "42", "07", "06", "a2", "b3", "c1", "ad", "b3", "c9", "b2", "b7", "d3", "c9", "ca", "20", "d0", "dd", "c5", "cb", "c4", "c2", "bc", "de", "ac", "a3", "08"],
         "raw_text" : "<end><1A>“<10>B<07><06>『うちゅうのいきものは みんなひとつじゃ』",
         "alt_text" : "<end><1A>“<10>B<07><06>『ウチュウノイキモノハ ミンナヒトツジャ』",
+        "snes_size" : 49,
+        "snes-j" : "ちょうろう「[speed_0A]うちゅうの いきものは\n    みんなひとつじゃ。[speed_FF]」",
+        "snes-e" : "Mayor: [speed_0A]All life in\nthis galaxy is one. ",
+        "accuracy" : 0.590163934426,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4838,6 +4916,10 @@
         "raw" : ["13", "2f", "6a", "c1", "ae", "b3", "ba", "b8", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>/jちょうこくを てにいれた!",
         "alt_text" : "<13>/jチョウコクヲ テニイレタ!",
+        "snes_size" : 10,
+        "snes-j" : "を てにいれた！",
+        "snes-e" : " acquired!",
+        "accuracy" : 0.571428571429,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -4852,7 +4934,7 @@
         "raw" : ["13", "3a", "6a", "07", "ff", "1a", "25", "10", "1f", "a2", "ba", "c9", "20", "c1", "ae", "b3", "ba", "b8", "c9", "20", "b6", "c0", "c1", "ca", "20", "d0", "b5", "ce", "de", "b4", "03", "b6", "de", "b1", "d9", "07", "0f", "3b", "3b", "3b", "3b", "3f", "04", "3c", "07", "ff", "20", "bf", "b3", "c0", "de", "a4", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c6", "b1", "af", "c0", "03", "b2", "d0", "dd", "be", "dd", "5c", "d5", "b0", "db", "ca", "df", "5c", "c0", "de", "21", "a3", "08"],
         "raw_text" : "<13>:j<07>゜<1A>%<10><1F>『この ちょうこくの かたちは みおぼえ\nがおる<07><0F>‥‥‥‥?<pause><<07>゜ そうだ、ファ‐ワ‐ルドにおった\nいみんせんユ‐ロパだ!』",
         "alt_text" : "<13>:j<07>゜<1A>%<10><1F>『コノ チョウコクノ カタチハ ミオボエ\nガアル<07><0F>‥‥‥‥?<pause><<07>゜ ソウダ、ふぁ―わ―るどニアッタ\nイミンセンゆ―ろぱダ!』",
-        "snes_size" : 69,
+        "snes_size" : 67,
         "snes-j" : "「この ちょうこくの かたちは\n    みおぼえがある[speed_0A]・・?\n    [speed_FF]そうだ！ ファーワールドにあった\n    いみんせんユーロパだ！」",
         "snes-e" : ": Hey[speed_0F]....[speed_FF]\nThis looks like the\nEuropa's shuttle!",
         "accuracy" : 0.640625,
@@ -5010,6 +5092,10 @@
         "raw" : ["00", "1a", "22", "10", "44", "a2", "be", "dc", "c6", "c5", "af", "c0", "c5", "a1", "04", "28", "bb", "d7", "ca", "de", "bc", "de", "ac", "21", "a3", "08"],
         "raw_text" : "<end><1A>“<10>D『せわになったな。<pause>(さらばじゃ!』",
         "alt_text" : "<end><1A>“<10>D『セワニナッタナ。<pause>(サラバジャ!』",
+        "snes_size" : 30,
+        "snes-j" : "しゅうちょう「せわになったな[speed_0A]。\n    [speed_FF]さらばじゃ！」",
+        "snes-e" : "Chief: Nice talking\nwith you!",
+        "accuracy" : 0.490566037736,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -5096,6 +5182,10 @@
         "raw" : ["13", "2f", "6a", "5c", "cb", "de", "c3", "de", "b5", "c3", "de", "a8", "bd", "b8", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>/jビデオディスク を てにいれた!",
         "alt_text" : "<13>/jびでおでぃすく ヲ テニイレタ!",
+        "snes_size" : 9,
+        "snes-j" : "ビデオディスク",
+        "snes-e" : "Videodisc",
+        "accuracy" : 0.608695652174,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -5504,6 +5594,10 @@
         "raw" : ["00", "1a", "23", "10", "2c", "a2", "b1", "c4", "ca", "20", "ba", "c9", "5c", "ce", "de", "c0", "dd", "5c", "a6", "20", "b5", "bd", "c0", "de", "b9", "a1", "a3", "08"],
         "raw_text" : "<end><1A>#<10>,『おとは このボタンを おすだけ。』",
         "alt_text" : "<end><1A>#<10>,『アトハ コノぼたんヲ オスダケ。』",
+        "snes_size" : 25,
+        "snes-j" : "ヴィンド「あとは このスイッチを きるだけ！」",
+        "snes-e" : "Vynd: Just switch it off!",
+        "accuracy" : 0.451612903226,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -5518,6 +5612,10 @@
         "raw" : ["13", "d0", "7e", "5c", "ca", "de", "d8", "b1", "b0", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "a5", "bd", "b2", "af", "c1", "20", "4f", "46", "46", "21", "08"],
         "raw_text" : "<13>み<block>バリア‐ジェネレ‐タ‐・スイッチ OFF!",
         "alt_text" : "<13>ミ<block>ばりお―じぇねれ―た―・すいっち OFF!",
+        "snes_size" : 25,
+        "snes-j" : "バリアの スイッチを OFFにした！",
+        "snes-e" : "You disabled the barrier!",
+        "accuracy" : 0.540540540541,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -5964,6 +6062,10 @@
         "raw" : ["0c", "10", "46", "a2", "5c", "ca", "df", "b2", "db", "dc", "b0", "d1", "5c", "c5", "d7", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<erase><10>F『パイロワ‐ムなら‥‥‥‥』",
         "alt_text" : "<erase><10>F『ぱいろわ―むナラ‥‥‥‥』",
+        "snes_size" : 8,
+        "snes-j" : "パイロワーム",
+        "snes-e" : "Pyroworm",
+        "accuracy" : 0.526315789474,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -6174,6 +6276,10 @@
         "raw" : ["00", "1a", "23", "10", "46", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "ca", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<end><1A>#<10>F『メンタ‐ナは‥‥‥‥』",
         "alt_text" : "<end><1A>#<10>F『めんた―なハ‥‥‥‥』",
+        "snes_size" : 7,
+        "snes-j" : "メンターナ",
+        "snes-e" : "Mentana",
+        "accuracy" : 0.5,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -6230,6 +6336,10 @@
         "raw" : ["0c", "10", "46", "a2", "b5", "bf", "d7", "b8", "ca", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<erase><10>F『おそらくは‥‥‥‥』",
         "alt_text" : "<erase><10>F『オソラクハ‥‥‥‥』",
+        "snes_size" : 15,
+        "snes-j" : "「それは・・・」",
+        "snes-e" : ": Umm... well. ",
+        "accuracy" : 0.588235294118,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -6258,6 +6368,10 @@
         "raw" : ["0c", "10", "46", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "b6", "de", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<erase><10>F『メンタ‐ナが‥‥‥‥』",
         "alt_text" : "<erase><10>F『めんた―なガ‥‥‥‥』",
+        "snes_size" : 7,
+        "snes-j" : "メンターナ",
+        "snes-e" : "Mentana",
+        "accuracy" : 0.5,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -6286,6 +6400,10 @@
         "raw" : ["0c", "10", "46", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c9", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<erase><10>F『メンタ‐ナの‥‥‥‥』",
         "alt_text" : "<erase><10>F『めんた―なノ‥‥‥‥』",
+        "snes_size" : 7,
+        "snes-j" : "メンターナ",
+        "snes-e" : "Mentana",
+        "accuracy" : 0.5,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -6360,6 +6478,10 @@
         "raw" : ["13", "a3", "5b", "5c", "ca", "df", "b2", "db", "dc", "b0", "d1", "5c", "c9", "20", "b7", "ca", "de", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>』[パイロワ‐ムの きば を てにいれた!",
         "alt_text" : "<13>』[ぱいろわ―むノ キバ ヲ テニイレタ!",
+        "snes_size" : 13,
+        "snes-j" : "パイロワームの きば",
+        "snes-e" : "Pyroworm Fang",
+        "accuracy" : 0.592592592593,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -6672,7 +6794,7 @@
         "raw" : ["1a", "23", "d5", "b6", "de", "dd", "c0", "de", "20", "be", "b2", "d2", "b2", "ca", "20", "b5", "b2", "ca", "d7", "dc", "da", "c0", "21", "08"],
         "raw_text" : "<1A>#ゆがんだ せいめいは おいはらわれた!",
         "alt_text" : "<1A>#ユガンダ セイメイハ オイハラワレタ!",
-        "snes_size" : 38,
+        "snes_size" : 37,
         "snes-j" : "クジラ「おお！ まものたちは ほろびた！\n    ゆがんだ せいめいは おいはらわれた！」",
         "snes-e" : "Whale: Ohhhhh! The\nmonsters are gone!",
         "accuracy" : 0.615384615385,
@@ -6722,7 +6844,7 @@
         "raw" : ["1a", "1c", "b3", "d0", "ca", "20", "b6", "c2", "c3", "c9", "20", "bc", "bd", "de", "b9", "bb", "a6", "20", "c4", "d8", "d3", "c4", "de", "bc", "c0", "a1", "08"],
         "raw_text" : "<1A><endwait>うみは かつての しずけさを とりもどした。",
         "alt_text" : "<1A><endwait>ウミハ カツテノ シズケサヲ トリモドシタ。",
-        "snes_size" : 54,
+        "snes_size" : 53,
         "snes-j" : "クジラ「うみは かつての しずけさを とりもどした。\n    われらにも みらいが もどってきた。」",
         "snes-e" : "Whale: Our ocean's regained\nits beauty and serenity. ",
         "accuracy" : 0.666666666667,
@@ -6916,6 +7038,10 @@
         "raw" : ["00", "1a", "21", "c1", "ad", "b3", "bd", "b3", "cc", "de", "a6", "20", "ca", "b6", "b2", "bc", "c0", "21", "02", "b7", "c1", "c9", "20", "b7", "c9", "b3", "b6", "de", "20", "c4", "cf", "af", "c0", "21", "08"],
         "raw_text" : "<end><1A>!ちゅうすうぶを はかいした!\nきちの きのうが とまった!",
         "alt_text" : "<end><1A>!チュウスウブヲ ハカイシタ!\nキチノ キノウガ トマッタ!",
+        "snes_size" : 28,
+        "snes-j" : " きちの ちゅうすうぶを はかいした！",
+        "snes-e" : "You have destroyed\nthe core!",
+        "accuracy" : 0.571428571429,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -7408,6 +7534,10 @@
         "raw" : ["00", "1a", "22", "10", "48", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "3f", "04", "1e", "20", "bf", "dd", "c5", "d3", "c9", "20", "b7", "b2", "c0", "ba", "c4", "c8", "b4", "c0", "de", "a3", "08"],
         "raw_text" : "<end><1A>“<10>H『メンタ‐ナ?<pause><1E> そんなもの きいたことねえだ』",
         "alt_text" : "<end><1A>“<10>H『めんた―な?<pause><1E> ソンナモノ キイタコトネエダ』",
+        "snes_size" : 39,
+        "snes-j" : "サソリ「メンターナ[speed_0F]?\n    [speed_FF]そんなもの きいたことねえだ。」",
+        "snes-e" : "Scorpion: Mentana? \nNever heard of it. ",
+        "accuracy" : 0.571428571429,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -7558,6 +7688,10 @@
         "raw" : ["00", "1a", "1f", "10", "1f", "a2", "c5", "dd", "c0", "de", "db", "b3", "20", "ba", "c9", "bf", "b3", "c1", "ca", "3f", "03", "5c", "b3", "de", "a8", "dd", "c4", "de", "5c", "c5", "d7", "20", "c5", "c6", "b6", "20", "dc", "b6", "d9", "c0", "de", "db", "b3", "b6", "3f", "a3", "08"],
         "raw_text" : "<end><1A><1F><10><1F>『なんだろう このそうちは?\nヴィンドなら なにか わかるだろうか?』",
         "alt_text" : "<end><1A><1F><10><1F>『ナンダロウ コノソウチハ?\nぃんどナラ ナニカ ワカルダロウカ?』",
+        "snes_size" : 28,
+        "snes-j" : "「なんだろう このそうちは?」",
+        "snes-e" : ": What's with this\nmachine? ",
+        "accuracy" : 0.558139534884,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -7662,6 +7796,10 @@
         "raw" : ["13", "35", "51", "bc", "dd", "cd", "b2", "b7", "20", "5c", "c8", "b6", "de", "a5", "ce", "de", "b0", "d9", "5c", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>5Qしんへいき ネガ・ボ‐ル を てにいれた!",
         "alt_text" : "<13>5Qシンヘイキ ねが・ぼ―る ヲ テニイレタ!",
+        "snes_size" : 19,
+        "snes-j" : "しんへいき ネガ・ボール",
+        "snes-e" : "New Weapon Negaball",
+        "accuracy" : 0.645161290323,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -8072,6 +8210,10 @@
         "raw" : ["00", "11", "02", "1a", "1a", "a2", "13", "df", "58", "3b", "13", "df", "58", "13", "df", "58", "13", "df", "58", "3b", "13", "df", "58", "02", "11", "00", "20", "d2", "cc", "df", "bc", "af", "c4", "de", "5c", "20", "c0", "de", "b2", "31", "dc", "b8", "be", "b2", "3b", "3b", "3b", "3b", "02", "20", "c0", "de", "b2", "31", "c9", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "3b", "3b", "3b", "5c", "bf", "b3", "bb", "b8", "c1", "ad", "b3", "a3", "08"],
         "raw_text" : "<end><11>\n<1A><1A>『<13DF>X‥<13DF>X<13DF>X<13DF>X‥<13DF>X\n<11><end> めぷしっど ダイ1ワクセイ‥‥‥‥\n ダイ1ノもにゅめんと‥‥‥ソウサクチュウ』",
         "alt_text" : "<end><11>\n<1A><1A>『<13DF>X‥<13DF>X<13DF>X<13DF>X‥<13DF>X\n<11><end> メプシッド だい1わくせい‥‥‥‥\n だい1のモニュメント‥‥‥そうさくちゅう』",
+        "snes_size" : 36,
+        "snes-j" : "「めぷしっど ダイ１ワクセイ・・\nダイ１ノ もにゅめんと・・ソウサクチュウ・・」",
+        "snes-e" : "Mepsede 1 acquire first\nmonument... ",
+        "accuracy" : 0.553571428571,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -8388,6 +8530,10 @@
         "raw" : ["19", "24", "10", "49", "a2", "bf", "b3", "d6", "a1", "31", "30", "c8", "dd", "cf", "b4", "c6", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c3", "de", "03", "ba", "ba", "c6", "20", "c4", "ca", "de", "bb", "da", "c0", "c9", "d6", "a3", "08"],
         "raw_text" : "<19>$<10>I『そうよ。10ねんまえに ジャンプ・ミスで\nここに とばされたのよ』",
         "alt_text" : "<19>$<10>I『ソウヨ。10ネンマエニ じゃんぷ・みすデ\nココニ トバサレタノヨ』",
+        "snes_size" : 58,
+        "snes-j" : "かいぞくボス「１０ねんまえ あるさくせんの とちゅう\n    うちゅうせんの ジャンプ・ミスで\n    ここに とばされたのさ。」",
+        "snes-e" : "Pirate Captain: We got here\nby a Jump Miss ten years\nago. ",
+        "accuracy" : 0.538461538462,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -8434,7 +8580,7 @@
         "raw" : ["0c", "07", "ff", "11", "00", "b6", "b2", "bf", "de", "b8", "ca", "20", "be", "de", "dd", "b2", "dd", "20", "ba", "b3", "cc", "b8", "bc", "c0", "21", "08"],
         "raw_text" : "<erase><07>゜<11><end>かいぞくは ぜんいん こうふくした!",
         "alt_text" : "<erase><07>゜<11><end>カイゾクハ ゼンイン コウフクシタ!",
-        "snes_size" : 48,
+        "snes_size" : 46,
         "snes-j" : "かいぞくの ボスをたおした。\nかいぞくは ぜんいん こうふくした！",
         "snes-e" : "Beat the Captain!\nAll the pirates\nsurrendered!",
         "accuracy" : 0.625,
@@ -8470,7 +8616,7 @@
         "raw" : ["00", "1a", "1e", "10", "49", "a2", "c0", "bd", "b9", "c3", "b8", "da", "21", "04", "3c", "20", "b1", "dd", "c0", "d7", "c9", "20", "bb", "b6", "de", "bc", "c3", "d9", "03", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "5c", "c5", "d7", "20", "ba", "c9", "bc", "c0", "c9", "20", "b6", "b2", "c6", "b1", "d9", "21", "a3", "08"],
         "raw_text" : "<end><1A><1E><10>I『たすけてくれ!<pause>< おんたらの さがしてる\nモニュメントなら このしたの かいにおる!』",
         "alt_text" : "<end><1A><1E><10>I『タスケテクレ!<pause>< アンタラノ サガシテル\nもにゅめんとナラ コノシタノ カイニアル!』",
-        "snes_size" : 62,
+        "snes_size" : 60,
         "snes-j" : "かいぞく「たすけてくれ[speed_0F]！\n    [speed_FF]あんたらの さがしてる モニュメントなら\n    この したのかいにある！」",
         "snes-e" : "Pirate: Help! The monument\nyou're looking for is\ndown there!",
         "accuracy" : 0.646464646465,
@@ -9070,6 +9216,10 @@
         "raw" : ["00", "1a", "2a", "10", "4a", "a2", "5c", "cc", "df", "db", "b8", "de", "d7", "d1", "3b", "3b", "3b", "1c", "01", "0d", "f8", "d9", "b0", "c1", "dd", "3b", "3b", "3b", "3b", "1c", "01", "1a", "2b", "3b", "3b", "3b", "b4", "d7", "b0", "3b", "3b", "3b", "1c", "01", "0d", "ff", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "1c", "01", "1b", "01", "0b", "06", "09", "c3", "de", "ca", "de", "af", "b8", "de", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<end><1A>*<10>J『プログラム‥‥‥<endwait><extralineofdialoguewindow><pad>りル‐チン‥‥‥‥<endwait><extralineofdialoguewindow><1A>+‥‥‥エラ‐‥‥‥<endwait><extralineofdialoguewindow><pad>゜ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <endwait><extralineofdialoguewindow><1B><extralineofdialoguewindow><0B><06><09>デバッグ‥‥‥‥』",
         "alt_text" : "<end><1A>*<10>J『ぷろぐらむ‥‥‥<endwait><extralineofdialoguewindow><pad>リる―ちん‥‥‥‥<endwait><extralineofdialoguewindow><1A>+‥‥‥えら―‥‥‥<endwait><extralineofdialoguewindow><pad>゜ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <pad>゛ <endwait><extralineofdialoguewindow><1B><extralineofdialoguewindow><0B><06><09>でばっぐ‥‥‥‥』",
+        "snes_size" : 42,
+        "snes-j" : "きかい「プログラム・・\n    ルーチン・・エラー・・\n    デバッグ・・」",
+        "snes-e" : "Machine: Program... \nroutine... \ndebug... ",
+        "accuracy" : 0.540540540541,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -9482,7 +9632,7 @@
         "raw" : ["00", "1a", "1e", "10", "4c", "a2", "ce", "b6", "c9", "ce", "bc", "b6", "d7", "20", "b4", "dd", "b8", "de", "dd", "c6", "20", "b7", "c3", "03", "b8", "da", "c0", "c4", "c8", "3f", "04", "1e", "20", "b1", "d8", "b6", "de", "c0", "b2", "21", "a3", "08"],
         "raw_text" : "<end><1A><1E><10>L『ほかのほしから えんぐんに きて\nくれたとね?<pause><1E> おりがたい!』",
         "alt_text" : "<end><1A><1E><10>L『ホカノホシカラ エングンニ キテ\nクレタトネ?<pause><1E> アリガタイ!』",
-        "snes_size" : 45,
+        "snes_size" : 43,
         "snes-j" : "しょうぐん「ほかのほしから\n    えんぐんに きてくれたとね[speed_0F]?\n    [speed_FF]ありがたい！」",
         "snes-e" : "Lord: You came from\nza oza planet to\nhelp? ",
         "accuracy" : 0.615384615385,
@@ -9590,7 +9740,7 @@
         "raw" : ["00", "1a", "22", "10", "4c", "a2", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c4", "de", "d3", "c6", "20", "bc", "a6", "21", "a3", "08"],
         "raw_text" : "<end><1A>“<10>L『バ‐サ‐カ‐どもに しを!』",
         "alt_text" : "<end><1A>“<10>L『ば―さ―か―ドモニ シヲ!』",
-        "snes_size" : 30,
+        "snes_size" : 29,
         "snes-j" : "しょうぐん「バーサーカーどもに しを！」",
         "snes-e" : "Lord: Death to za\nBerserkers!",
         "accuracy" : 0.615384615385,
@@ -9984,7 +10134,7 @@
         "raw" : ["0c", "10", "4d", "a2", "c5", "c6", "3f", "04", "1e", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "20", "ce", "dd", "c0", "b2", "ca", "20", "b1", "dd", "ba", "b8", "03", "be", "b2", "b3", "dd", "c6", "20", "b6", "b8", "da", "c3", "b2", "d9", "c4", "3f", "20", "bf", "b3", "bc", "de", "ac", "af", "c0", "b6", "21", "a3", "08"],
         "raw_text" : "<erase><10>M『なに?<pause><1E> バ‐サ‐カ‐の ほんたいは おんこく\nせいうんに かくれていると? そうじゃったか!』",
         "alt_text" : "<erase><10>M『ナニ?<pause><1E> ば―さ―か―ノ ホンタイハ アンコク\nセイウンニ カクレテイルト? ソウジャッタカ!』",
-        "snes_size" : 74,
+        "snes_size" : 69,
         "snes-j" : "しれいかん「なにっ[speed_0A]?\n    [speed_FF]バーサーカーの ほんたいは\n    あんこくせいうんに かくれていると?\n    そうじゃったかっ！」",
         "snes-e" : "Commander: Hwat?  Zer\ncore is in za Dahk\nHorizon?  Ohhh I get\nit nau!",
         "accuracy" : 0.636363636364,
@@ -10002,6 +10152,10 @@
         "raw" : ["0c", "10", "4d", "a2", "d6", "bc", "20", "5c", "ba", "de", "b0", "c3", "de", "a8", "b8", "5c", "b8", "de", "dd", "20", "b3", "c1", "ad", "b3", "b6", "dd", "c0", "b2", "03", "be", "de", "dd", "b6", "dd", "20", "bc", "ad", "c2", "b9", "de", "b7", "bc", "de", "ac", "21", "a3", "08"],
         "raw_text" : "<erase><10>M『よし ゴ‐ディクぐん うちゅうかんたい\nぜんかん しゅつげきじゃ!』",
         "alt_text" : "<erase><10>M『ヨシ ご―でぃくグン ウチュウカンタイ\nゼンカン シュツゲキジャ!』",
+        "snes_size" : 41,
+        "snes-j" : "しょうぐん「わがゴーディクぐんも\n    うちゅうかんたいの\n    しゅつげきじゅんびを しちょるばい。」",
+        "snes-e" : "Lord: We ah also\npreparing a Space\nAhmy. ",
+        "accuracy" : 0.56338028169,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -10428,6 +10582,10 @@
         "raw" : ["19", "2e", "10", "4e", "a2", "c5", "c6", "3f", "04", "28", "20", "bc", "de", "dd", "ba", "b3", "c0", "b2", "d6", "b3", "b6", "de", "20", "5c", "ba", "dd", "c4", "db", "b0", "d9", "5c", "03", "c3", "de", "b7", "c5", "b8", "c5", "af", "c3", "20", "b6", "da", "d7", "c9", "bc", "bf", "dd", "b6", "de", "20", "d2", "c2", "ce", "de", "b3", "03", "bc", "b6", "b9", "c3", "b2", "d9", "c4", "3f", "04", "28", "03", "bf", "da", "ca", "20", "b2", "b6", "dd", "a1", "20", "dc", "da", "dc", "da", "c9", "20", "c5", "b6", "cf", "a6", "03", "d0", "bd", "c3", "d9", "dc", "b9", "c6", "ca", "20", "b2", "b6", "c5", "b2", "a1", "a3", "08"],
         "raw_text" : "<19>.<10>N『なに?<pause>( じんこうたいようが コントロ‐ル\nできなくなって かれらのしそんが めつぼう\nしかけていると?<pause>(\nそれは いかん。 われわれの なかまを\nみすてるわけには いかない。』",
         "alt_text" : "<19>.<10>N『ナニ?<pause>( ジンコウタイヨウガ こんとろ―る\nデキナクナッテ カレラノシソンガ メツボウ\nシカケテイルト?<pause>(\nソレハ イカン。 ワレワレノ ナカマヲ\nミステルワケニハ イカナイ。』",
+        "snes_size" : 56,
+        "snes-j" : "ガライアン「なに[speed_0A]? [speed_FF]じんこうたいようが\n    コントロールできなくなって\n    かれらのしそんが めつぼうしかけていると?」",
+        "snes-e" : "Garaian: What?  Their\nartificial sun is out\nof control? ",
+        "accuracy" : 0.598639455782,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -10460,6 +10618,10 @@
         "raw" : ["13", "a3", "5b", "5c", "cc", "de", "d7", "af", "b8", "a5", "b8", "de", "db", "b0", "cc", "de", "5c", "c9", "5c", "c3", "de", "b0", "c0", "5c", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08"],
         "raw_text" : "<13>』[ブラック・グロ‐ブのデ‐タを てにいれた!",
         "alt_text" : "<13>』[ぶらっく・ぐろ―ぶノで―たヲ テニイレタ!",
+        "snes_size" : 16,
+        "snes-j" : "ブラック・グローブのデータ",
+        "snes-e" : "Black Globe Data",
+        "accuracy" : 0.628571428571,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -11042,6 +11204,10 @@
         "raw" : ["1b", "00", "1a", "1e", "a2", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<1B><end><1A><1E>『‥‥‥‥』",
         "alt_text" : "<1B><end><1A><1E>『‥‥‥‥』",
+        "snes_size" : 10,
+        "snes-j" : "   「・・・・」",
+        "snes-e" : "    ..... ",
+        "accuracy" : 0.8,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -11056,6 +11222,10 @@
         "raw" : ["1b", "00", "1a", "22", "a2", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<1B><end><1A>“『‥‥‥‥』",
         "alt_text" : "<1B><end><1A>“『‥‥‥‥』",
+        "snes_size" : 10,
+        "snes-j" : "   「・・・・」",
+        "snes-e" : "    ..... ",
+        "accuracy" : 0.8,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -11082,7 +11252,7 @@
         "string_description" : "Main game dialogue - uses additional space from ",
         "string_start" : "0x1b8a5",
         "method" : 3,
-        "start_bytes" : ["1b", "00", "1a", "1f", "10", "1f"],
+        "start_bytes" : ["1b","00","1a","1f","10","1f"],
         "end_bytes" : ["08","11","00"],
         "raw_size" : 38,
         "raw" : ["1b", "00", "1a", "1f", "10", "1f", "a2", "c6", "dd", "d1", "20", "b6", "dd", "d8", "ae", "b3", "a1", "03", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "c6", "20", "b7", "b6", "dd", "bd", "d9", "a3", "08"],
@@ -11092,7 +11262,7 @@
         "snes-j" : "「にんむ かんりょう。\n    ソードフィッシュに きかんする。」",
         "snes-e" : ": Let's return to\nthe Swordfish. ",
         "accuracy" : 0.862745098039,
-        "trans_size" : 0,
+        "trans_size" : 31,
         "trans_text" : ":Let's return to the\nSwordfish."
     },
 

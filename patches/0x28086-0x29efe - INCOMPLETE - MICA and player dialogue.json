@@ -8,8 +8,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28086",
         "method" : 3,
-        "start_bytes" : ["1a", "4f", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4f","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 60,
         "raw" : ["1a", "4f", "10", "30", "a2", "cb", "ae", "b3", "d2", "dd", "b5", "dd", "c4", "de", "20", "31", "30", "30", "30", "20", "df", "43", "20", "b2", "bc", "de", "ae", "b3", "a1", "03", "d6", "b3", "b6", "de", "dd", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "03", "c3", "de", "bd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>O<MICA>『ひょうめんおんど 1000<20DF>C いじょう。\nようがんに おおわれた ちいさな わくせい\nです。』<wait>",
@@ -18,7 +18,7 @@
         "snes-j" : "MICA「ひょうめんおんど\n    １０００どC いじょう。\n    ようがんに おおわれた \n    ちいさな わくせいです。」",
         "snes-e" : "Mica: Surface temp\nis over 1000C. A\nsmall planet \ncovered in magma. ",
         "accuracy" : 0.752688172043,
-        "trans_size" : 0,
+        "trans_size" : 54,
         "trans_text" : ":Surface temp is 1000C.\nSmall planet \ncovered by lava."
     },
 
@@ -26,8 +26,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x280c2",
         "method" : 3,
-        "start_bytes" : ["1a", "4f", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4f","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 56,
         "raw" : ["1a", "4f", "10", "30", "a2", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "cb", "ae", "b3", "d2", "dd", "ca", "03", "ba", "b3", "b5", "dd", "c3", "de", "20", "c0", "b2", "b7", "d3", "20", "d0", "bd", "de", "d3", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>O<MICA>『ちいさな わくせいです。ひょうめんは\nこうおんで たいきも みずも そんざい\nしません。』<wait>",
@@ -36,16 +36,16 @@
         "snes-j" : "MICA「ちいさな わくせいです。\n    ひょうめんは こうおんで\n    たいきも みずも そんざいしません。」",
         "snes-e" : "Mica: A small planet. \nThe surface has a\nhigh temperature. \nThere is no water. ",
         "accuracy" : 0.926829268293,
-        "trans_size" : 0,
-        "trans_text" : ":A small planet.\nHigh temperature and\nno water."
+        "trans_size" : 48,
+        "trans_text" : ":A small planet.\nHigh temperature and\n no water."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x280fa",
         "method" : 3,
-        "start_bytes" : ["1a", "4d", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4d","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 40,
         "raw" : ["1a", "4d", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>M<MICA>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです。』<wait>",
@@ -54,30 +54,30 @@
         "snes-j" : "MICA「ゆうどくの たいきに つつまれた\n    こうおんの わくせいです。」",
         "snes-e" : "Mica: A planet covered\nwith toxic gases. ",
         "accuracy" : 0.928571428571,
-        "trans_size" : 0,
-        "trans_text" : ":Atmosphere is highly\ntoxic."
+        "trans_size" : 35,
+        "trans_text" : ":A planet covered\nwith toxic gases."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28122",
         "method" : 3,
-        "start_bytes" : ["1a", "4d", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4d","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 49,
         "raw" : ["1a", "4d", "10", "30", "a2", "b3", "d0", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c1", "ac", "b8", "d8", "b8", "c3", "de", "b7", "d9", "20", "c4", "ba", "db", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>M<MICA>『うみに おおわれた わくせいです。\nちゃくりくできる ところが おりません。』<wait>",
         "alt_text" : "<1A>M<MICA>『ウミニ オオワレタ ワクセイデス。\nチャクリクデキル トコロガ アリマセン。』<wait>",
-        "trans_size" : 0,
-        "trans_text" : ":An ocean world.\nThere is no place to land."
+        "trans_size" : 44,
+        "trans_text" : ":It is an ocean world.\nWe cannot land there."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28153",
         "method" : 3,
-        "start_bytes" : ["1a", "4f", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4f","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 61,
         "raw" : ["1a", "4f", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "c6", "c0", "20", "b5", "b5", "b7", "bb", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "bc", "b6", "bc", "20", "be", "b2", "d2", "b2", "ca", "20", "bf", "dd", "bb", "de", "b2", "be", "bd", "de", "20", "bb", "dd", "bf", "d3", "03", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>O<MICA>『ちきゅうににた おおきさの わくせいです。\nしかし せいめいは そんざいせず さんそも\nおりません。』<wait>",
@@ -86,7 +86,7 @@
         "snes-j" : "MICA「ちきゅうに にた わくせいですが\n    せいめいは そんざいせず\n    さんそも ありません。」",
         "snes-e" : "Mica: Looks similar to\nEarth but no life-\nenergy is detected. \nThere is no oxygen. ",
         "accuracy" : 0.785714285714,
-        "trans_size" : 0,
+        "trans_size" : 55,
         "trans_text" : ":Similar to\nEarth but a dead world.\nThere is no oxygen."
     },
 
@@ -94,8 +94,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28190",
         "method" : 3,
-        "start_bytes" : ["1a", "4f", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4f","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 58,
         "raw" : ["1a", "4f", "10", "30", "a2", "bb", "ca", "de", "b8", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b6", "c4", "b3", "c5", "20", "bc", "ae", "b8", "cc", "de", "c2", "bc", "b6", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "c5", "b2", "d6", "b3", "c3", "de", "bd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>O<MICA>『さばくに おおわれた わくせいです。\nかとうな しょくぶつしか そんざい\nしないようです。』<wait>",
@@ -104,34 +104,34 @@
         "snes-j" : "MICA「さばくに おおわれた わくせいです。\n    かとうな しょくぶつしか\n    そんざいしない ようです。」",
         "snes-e" : "Mica: A desert planet. \nSeems like it's home to\nonly a low-level class\nof creature. ",
         "accuracy" : 0.928571428571,
-        "trans_size" : 0,
-        "trans_text" : ":Desert planet.\nHome to a low-level\ninsectoid race."
+        "trans_size" : 52,
+        "trans_text" : ":Desert planet.\nHome to a low-level\n insectoid race."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x281ca",
         "method" : 3,
-        "start_bytes" : ["1a", "4d", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4d","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 35,
         "raw" : ["1a", "4d", "10", "30", "a2", "bc", "ae", "b3", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "ca", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>M<MICA>『しょうわくせいです。たいきは そんざい\nしません。』<wait>",
         "alt_text" : "<1A>M<MICA>『ショウワクセイデス。タイキハ ソンザイ\nシマセン。』<wait>",
         "snes_size" : 22,
         "snes-j" : "MICA「しょうわくせいです。\n    たいきは そんざいしません。」",
-        "snes-e" : "Mica: A small planetoid. ",
+        "snes-e" : "Mica: A small planet. ",
         "accuracy" : 0.92,
-        "trans_size" : 0,
-        "trans_text" : ":A small planetoid."
+        "trans_size" : 16,
+        "trans_text" : ":A small planet."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x281ed",
         "method" : 3,
-        "start_bytes" : ["1a", "4d", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4d","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 56,
         "raw" : ["1a", "4d", "10", "30", "a2", "b5", "b5", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "20", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "a4", "bd", "b2", "bf", "c4", "20", "5c", "cd", "d8", "b3", "d1", "5c", "c3", "de", "bd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>M<MICA>『おおがたの ガスわくせいです。 たいきの\nせいぶんは、すいそと ヘリウムです。』<wait>",
@@ -140,16 +140,16 @@
         "snes-j" : "MICA「おおがたの ガスわくせいです。\n    たいきの せいぶんは すいそと\n    ヘリウムです。」",
         "snes-e" : "Mica: A large gas giant;\nmainly hydrogen and\nhelium. ",
         "accuracy" : 0.906666666667,
-        "trans_size" : 0,
-        "trans_text" : ":A large gas giant.\nMainly hydrogen & helium."
+        "trans_size" : 47,
+        "trans_text" : ":A large gas giant:\nmainly hydrogen and\nhelium."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28225",
         "method" : 3,
-        "start_bytes" : ["1a", "4d", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4d","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 54,
         "raw" : ["1a", "4d", "10", "30", "a2", "c1", "ad", "b3", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "ba", "b5", "d8", "c9", "20", "c2", "cc", "de", "c3", "de", "c3", "de", "b7", "c0", "20", "dc", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>M<MICA>『ちゅうがたの ガスわくせいです。\nこおりの つぶでできた わが おります。』<wait>",
@@ -158,16 +158,16 @@
         "snes-j" : "MICA「ちゅうがたの ガスわくせいです。\n    こおりの つぶでできた わが あります。」",
         "snes-e" : "Mica: A medium-sized gas\ngiant surrounded by a\nring of ice fragments. ",
         "accuracy" : 0.911764705882,
-        "trans_size" : 0,
-        "trans_text" : ":Medium gas giant.\nRings made of ice fragments."
+        "trans_size" : 47,
+        "trans_text" : ":Medium gas giant.\nHas a ring of\nice fragments."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2825b",
         "method" : 3,
-        "start_bytes" : ["1a", "4c", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4c","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 33,
         "raw" : ["1a", "4c", "10", "30", "a2", "ba", "b6", "de", "c0", "c3", "de", "20", "c3", "b2", "b5", "dd", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a3", "08", "00"],
         "raw_text" : "<1A>L<MICA>『こがたで ていおんの ガスわくせいです』<wait>",
@@ -176,7 +176,7 @@
         "snes-j" : "MICA「こがたで ていおんの ガスわくせいです。」",
         "snes-e" : "Mica: A small gas giant. \nTemperature relatively\nlow. ",
         "accuracy" : 0.918918918919,
-        "trans_size" : 0,
+        "trans_size" : 21,
         "trans_text" : ":A smaller gas giant."
     },
 
@@ -184,8 +184,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2827c",
         "method" : 3,
-        "start_bytes" : ["1a", "4d", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","4d","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 40,
         "raw" : ["1a", "4d", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>M<MICA>『たいようから とおいため、こおりに\nおおわれた わくせいです。』<wait>",
@@ -194,7 +194,7 @@
         "snes-j" : "MICA「たいようから とおいため\n    こおりに おおわれた わくせいです。」",
         "snes-e" : "Mica: Since it's far\nfrom the sun it is\nsurrounded by ice. ",
         "accuracy" : 0.915254237288,
-        "trans_size" : 0,
+        "trans_size" : 34,
         "trans_text" : ":With no heat\nand enclosed by ice."
     },
 
@@ -258,22 +258,22 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x282a8",
         "method" : 3,
-        "start_bytes" : ["1a", "48", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","48","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["1a", "48", "10", "30", "a2", "ba", "da", "b2", "bc", "de", "ae", "b3", "20", "c1", "b6", "c2", "de", "b8", "c9", "ca", "20", "b7", "b9", "dd", "c3", "de", "bd", "a3", "08", "00"],
         "raw_text" : "<1A>H<MICA>『これいじょう ちかづくのは きけんです』<wait>",
         "alt_text" : "<1A>H<MICA>『コレイジョウ チカヅクノハ キケンデス』<wait>",
-        "trans_size" : 0,
-        "trans_text" : ":It's too dangerous!!"
+        "trans_size" : 25,
+        "trans_text" : ":DANGER!\nDo not approach!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x282c6",
         "method" : 3,
-        "start_bytes" : ["1a", "48", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","48","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 30,
         "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "c3", "de", "b7", "d9", "20", "ca", "de", "bc", "ae", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a3", "08", "00"],
         "raw_text" : "<1A>H<MICA>『ちゃくりくできる ばしょが おりません』<wait>",
@@ -282,7 +282,7 @@
         "snes-j" : "MICA「ちゃくりくできる わくせいが ありません。」",
         "snes-e" : "Mica: There is no place\nto land. ",
         "accuracy" : 0.684210526316,
-        "trans_size" : 0,
+        "trans_size" : 18,
         "trans_text" : ":No place to land."
     },
 
@@ -290,8 +290,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x282e4",
         "method" : 3,
-        "start_bytes" : ["1a", "48", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","48","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 31,
         "raw" : ["1a", "48", "10", "30", "a2", "d8", "b8", "c1", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "c1", "ac", "b8", "d8", "b8", "20", "c3", "de", "b7", "cf", "be", "dd", "a3", "08", "00"],
         "raw_text" : "<1A>H<MICA>『りくちがないので ちゃくりく できません』<wait>",
@@ -300,7 +300,7 @@
         "snes-j" : "MICA「りくちが ないので ちゃくりくできません。」",
         "snes-e" : "Mica: Landing is impossible;\nthere's no place to do so. ",
         "accuracy" : 0.923076923077,
-        "trans_size" : 0,
+        "trans_size" : 23,
         "trans_text" : ":Landing is impossible."
     },
 
@@ -308,8 +308,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28303",
         "method" : 3,
-        "start_bytes" : ["1a", "48", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","48","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "bd", "d9", "20", "d8", "d5", "b3", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>H<MICA>『ちゃくりくする りゆうが おりません。』<wait>",
@@ -318,16 +318,16 @@
         "snes-j" : "MICA「ちゃくりくする りゆうが ありません。」",
         "snes-e" : "Mica: We have no reason to\nland there. ",
         "accuracy" : 0.888888888889,
-        "trans_size" : 0,
-        "trans_text" : ":No reason to land."
+        "trans_size" : 23,
+        "trans_text" : ":No reason to land here"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2831f",
         "method" : 3,
-        "start_bytes" : ["1a", "48", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","48","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 28,
         "raw" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "20", "cc", "b6", "c9", "b3", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08", "00"],
         "raw_text" : "<1A>H<MICA>『ちゃくりく ふかのうな わくせいです。』<wait>",
@@ -336,15 +336,15 @@
         "snes-j" : "MICA「ちゃくりく ふかのうです。」",
         "snes-e" : "Mica: Unable to land\nthere. ",
         "accuracy" : 0.774193548387,
-        "trans_size" : 0,
-        "trans_text" : ":Unable to land there."
+        "trans_size" : 22,
+        "trans_text" : ":Unable to land\nthere."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2833b",
         "method" : 3,
-        "start_bytes" : ["1a", "51", "10", "30"],
+        "start_bytes" : ["1a","51","10","30"],
         "end_bytes" : ["08"],
         "raw_size" : 112,
         "raw" : ["1a", "51", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "20", "c6", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "20", "bb", "dd", "bf", "20", "c1", "af", "bf", "20", "c5", "c4", "de", "c3", "de", "a4", "ba", "b7", "ad", "b3", "03", "b6", "c9", "b3", "a1", "cb", "ae", "b3", "d2", "dd", "c9", "20", "36", "30", "5c", "ca", "df", "b0", "be", "dd", "c4", "5c", "ca", "03", "b3", "d0", "c3", "de", "a4", "c0", "b2", "d8", "b8", "c6", "ca", "20", "d3", "d8", "c4", "20", "bf", "b3", "b9", "de", "dd", "b6", "de", "03", "cb", "db", "b6", "de", "af", "c3", "b2", "cf", "bd", "a1", "a3", "08"],
@@ -354,7 +354,7 @@
         "snes-j" : "MICA「ちきゅうに にた わくせいです。\n    たいきの せいぶんは\n    さんそ ちっそ などで こきゅうかのう。\n    ひょうめんの ６０パーセントは うみで\n    たいりくには もりと そうげんが\n    ひろがっています。」",
         "snes-e" : "Mica: The planet seems to\nbe similar to Earth. \nOxygen is present 60%\nof the surface is ocean \nand there are forests and\nplains on the ground. ",
         "accuracy" : 0.885057471264,
-        "trans_size" : 0,
+        "trans_size" : 94,
         "trans_text" : ":The planet is similar\nto Earth. Atmosphere and\ntemp are OK. There are\noceans and land masses."
     },
 
@@ -362,7 +362,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x283ab",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "30"],
+        "start_bytes" : ["0c","10","30"],
         "end_bytes" : ["08"],
         "raw_size" : 59,
         "raw" : ["0c", "10", "30", "a2", "b7", "c0", "ca", "dd", "b7", "ad", "b3", "c6", "20", "c1", "b2", "bb", "c5", "20", "c4", "bc", "b6", "de", "b1", "d8", "03", "c6", "dd", "b9", "de", "dd", "c4", "20", "b5", "d3", "dc", "da", "d9", "20", "be", "b2", "d2", "b2", "c0", "b2", "c9", "03", "ca", "dd", "c9", "b3", "b6", "de", "20", "b1", "d8", "cf", "bd", "a3", "08"],
@@ -372,7 +372,7 @@
         "snes-j" : "MICA「きたはんきゅうに ちいさな としがあり\n    にんげんとおもわれる せいめいたいの\n    はんのうが あります。」",
         "snes-e" : "Mica: There seems to be a\ncity in the north. Human-\nlike life energy detected..",
         "accuracy" : 0.881720430108,
-        "trans_size" : 0,
+        "trans_size" : 54,
         "trans_text" : ":There is a city to\nthe north. Humanoid life\ndetected."
     },
 
@@ -380,7 +380,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x283e7",
         "method" : 3,
-        "start_bytes" : ["1b", "01", "1a", "4e", "10", "2d"],
+        "start_bytes" : ["1b","01","1a","4e","10","2d"],
         "end_bytes" : ["08"],
         "raw_size" : 26,
         "raw" : ["1b", "01", "1a", "4e", "10", "2d", "a2", "d0", "c4", "de", "d8", "c9", "ce", "bc", "3b", "3b", "3b", "3b", "b3", "c2", "b8", "bc", "b2", "dc", "a3", "08"],
@@ -390,7 +390,7 @@
         "snes-j" : "ニジーナ「みどりのほし・・うつくしいわ。」",
         "snes-e" : "Nehjena: A green planet... \nhow beautiful. ",
         "accuracy" : 0.848484848485,
-        "trans_size" : 0,
+        "trans_size" : 17,
         "trans_text" : ":How beautiful..."
     },
 
@@ -398,7 +398,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28401",
         "method" : 3,
-        "start_bytes" : ["1a", "52", "10", "29"],
+        "start_bytes" : ["1a","52","10","29"],
         "end_bytes" : ["08"],
         "raw_size" : 32,
         "raw" : ["1a", "52", "10", "29", "a2", "ba", "c9", "ce", "bc", "c6", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "b6", "de", "20", "b2", "d9", "af", "c3", "c9", "03", "b6", "b2", "3f", "a3", "08"],
@@ -408,7 +408,7 @@
         "snes-j" : "クレイン「このほしに\n    エイリアンが いるってのかい?」",
         "snes-e" : "Klein: Are you saying\nthere're aliens on\nthis planet? ",
         "accuracy" : 0.904761904762,
-        "trans_size" : 0,
+        "trans_size" : 26,
         "trans_text" : ":Is there alien life\nhere?"
     },
 
@@ -416,7 +416,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28421",
         "method" : 3,
-        "start_bytes" : ["1b", "02", "1a", "53", "10", "2b"],
+        "start_bytes" : ["1b","02","1a","53","10","2b"],
         "end_bytes" : ["08"],
         "raw_size" : 52,
         "raw" : ["1b", "02", "1a", "53", "10", "2b", "a2", "b2", "d4", "a4", "bc", "de", "ae", "b3", "b8", "b3", "b6", "d7", "c9", "20", "b6", "dd", "bf", "b8", "c3", "de", "ca", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "20", "c6", "dd", "b9", "de", "dd", "c9", "d6", "b3", "c0", "de", "a3", "08"],
@@ -426,15 +426,15 @@
         "snes-j" : "シャイン「いや じょうくうからの\n    かんそくでは わたしたちとおなじ\n    にんげんのようだ。」",
         "snes-e" : "Shine: No they seem\nto be humans much\nlike us. ",
         "accuracy" : 0.891891891892,
-        "trans_size" : 0,
-        "trans_text" : ":No they seem to be\nhuman, much like us."
+        "trans_size" : 40,
+        "trans_text" : ":No they seem\nto be human, much like us."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28455",
         "method" : 3,
-        "start_bytes" : ["1a", "52", "10", "2c"],
+        "start_bytes" : ["1a","52","10","2c"],
         "end_bytes" : ["08"],
         "raw_size" : 33,
         "raw" : ["1a", "52", "10", "2c", "a2", "ba", "dd", "c5", "c4", "ba", "db", "c6", "20", "c6", "dd", "b9", "de", "dd", "b6", "de", "3f", "03", "bc", "dd", "bc", "de", "d7", "da", "c5", "b2", "c5", "a3", "08"],
@@ -444,7 +444,7 @@
         "snes-j" : "ヴィンド「こんなところに にんげんが?\n    しんじられないな。」",
         "snes-e" : "Vynd: That's hard to\nbelieve. ",
         "accuracy" : 0.893617021277,
-        "trans_size" : 0,
+        "trans_size" : 24,
         "trans_text" : ":That's hard to\nbelieve."
     },
 
@@ -452,7 +452,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28476",
         "method" : 3,
-        "start_bytes" : ["1b", "01", "1a", "55", "10", "2a"],
+        "start_bytes" : ["1b","01","1a","55","10","2a"],
         "end_bytes" : ["08"],
         "raw_size" : 87,
         "raw" : ["1b", "01", "1a", "55", "10", "2a", "a2", "bf", "b3", "c5", "dd", "bc", "c0", "20", "b3", "c1", "ad", "b3", "be", "dd", "c9", "20", "5c", "b8", "d9", "b0", "5c", "c9", "20", "bc", "bf", "dd", "03", "b6", "d3", "20", "bc", "da", "c5", "b2", "dc", "a1", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "d6", "b3", "c6", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c3", "de", "03", "c4", "ca", "de", "bb", "da", "c0", "c9", "b6", "d3", "3b", "3b", "3b", "3b", "a3", "08"],
@@ -462,21 +462,21 @@
         "snes-j" : "キリ「そうなんした うちゅうせんの クルーの\n    しそんかもしれないわ。\n    わたしたちと おなじように\n    ジャンプ・ミスで とばされたのかも・・」",
         "snes-e" : "Kiri: Maybe they had a\nproblem with warping \nlike us... ",
         "accuracy" : 0.897637795276,
-        "trans_size" : 0,
-        "trans_text" : ":Maybe they had a\njump-drive problem, like\nus..."
+        "trans_size" : 48,
+        "trans_text" : ":Maybe they had a\njump-drive problem,\nlike us..."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x284cd",
         "method" : 3,
-        "start_bytes" : ["1b", "01", "1a", "52", "10", "2c"],
+        "start_bytes" : ["1b","01","1a","52","10","2c"],
         "end_bytes" : ["08"],
         "raw_size" : 24,
         "raw" : ["1b", "01", "1a", "52", "10", "2c", "a2", "c5", "dd", "c6", "bc", "c3", "d3", "a4", "5c", "d7", "af", "b7", "b0", "5c", "c0", "de", "a3", "08"],
         "raw_text" : "<1B><extralineofdialoguewindow><1A>R<10>,『なんにしても、ラッキ‐だ』",
         "alt_text" : "<1B><extralineofdialoguewindow><1A>R<10>,『ナンニシテモ、らっき―ダ』",
-        "trans_size" : 0,
+        "trans_size" : 10,
         "trans_text" : ":Hey!! ..."
     },
 
@@ -484,7 +484,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x284e5",
         "method" : 3,
-        "start_bytes" : ["0c", "10", "2c"],
+        "start_bytes" : ["0c","10","2c"],
         "end_bytes" : ["08"],
         "raw_size" : 50,
         "raw" : ["0c", "10", "2c", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "20", "bc", "ad", "b3", "d8", "c6", "03", "b7", "ae", "b3", "d8", "ae", "b8", "20", "bc", "c3", "b8", "da", "d9", "b6", "d3", "20", "bc", "da", "c5", "b2", "a3", "08"],
@@ -494,15 +494,15 @@
         "snes-j" : "ヴィンド「なんにしても ラッキーだ。\n    ジャンプ・ジェネレーターのしゅうりに\n    きょうりょく してくれるかもしれない。」",
         "snes-e" : "Vynd: Anyway we're in luck. \nThey might help us repair\nthe Jump Drive!",
         "accuracy" : 0.741573033708,
-        "trans_size" : 0,
-        "trans_text" : ":They might repair\nour Jump-drive!"
+        "trans_size" : 35,
+        "trans_text" : ":They might repair\n our Jump-drive!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28517",
         "method" : 3,
-        "start_bytes" : ["19", "53", "10", "2b"],
+        "start_bytes" : ["19","53","10","2b"],
         "end_bytes" : ["08"],
         "raw_size" : 56,
         "raw" : ["19", "53", "10", "2b", "a2", "bf", "da", "ca", "20", "c9", "bf", "de", "d0", "b3", "bd", "c0", "de", "c5", "a1", "cc", "de", "dd", "d2", "b2", "c9", "5c", "da", "cd", "de", "d9", "5c", "ca", "03", "c1", "b7", "ad", "b3", "c9", "20", "32", "30", "be", "b2", "b7", "20", "c3", "b2", "c4", "de", "c9", "d6", "b3", "c0", "de", "a3", "08"],
@@ -512,7 +512,7 @@
         "snes-j" : "シャイン「それは のぞみうすだな。\n    ぶんめいのレベルは ちきゅうの\n    ２０せいき ていどのようだ。」",
         "snes-e" : "Shine: I doubt it... \nThey seem to have\nlate 1900s technology. ",
         "accuracy" : 0.864197530864,
-        "trans_size" : 0,
+        "trans_size" : 47,
         "trans_text" : ":Doubtful. They seem\nto have 20th Century tech."
     },
 
@@ -520,7 +520,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2854f",
         "method" : 3,
-        "start_bytes" : ["1a", "4e", "10", "2a"],
+        "start_bytes" : ["1a","4e","10","2a"],
         "end_bytes" : ["08"],
         "raw_size" : 21,
         "raw" : ["1a", "4e", "10", "2a", "a2", "b5", "d8", "c3", "d0", "c3", "20", "c0", "bc", "b6", "d2", "c0", "b2", "dc", "c8", "a3", "08"],
@@ -530,7 +530,7 @@
         "snes-j" : "キリ「おりてみて たしかめたいわね。」",
         "snes-e" : "Kiri: We might as\nwell try....",
         "accuracy" : 0.896551724138,
-        "trans_size" : 0,
+        "trans_size" : 15,
         "trans_text" : ":We should try!"
     },
 
@@ -538,8 +538,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28565",
         "method" : 3,
-        "start_bytes" : ["13", "e4", "69", "03"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["13","e4","69","03"],
+        "end_bytes" : ["00"],
         "raw_size" : 62,
         "raw" : ["13", "e4", "69", "03", "a2", "d0", "c5", "d0", "ca", "dd", "b7", "ad", "b3", "c6", "20", "b7", "dd", "bf", "de", "b8", "c9", "20", "5c", "c4", "de", "b0", "d1", "5c", "a6", "03", "ca", "af", "b9", "dd", "bc", "cf", "bc", "c0", "a1", "cf", "c0", "de", "20", "b9", "dd", "bf", "de", "b3", "c1", "ad", "b3", "c4", "03", "b5", "d3", "dc", "da", "cf", "bd", "a3", "08", "00"],
         "raw_text" : "<13>トi\n『みなみはんきゅうに きんぞくの ド‐ムを\nはっけんしました。まだ けんぞうちゅうと\nおもわれます』<wait>",
@@ -548,8 +548,8 @@
         "snes-j" : "MICA「みなみはんきゅうに\n    きんぞくのドームを はっけんしました。\n    まだ けんぞうちゅうと おもわれます。」",
         "snes-e" : "Mica: A dome was found\nunder construction on\nthe southern continent. ",
         "accuracy" : 0.903225806452,
-        "trans_size" : 0,
-        "trans_text" : "A dome is under\nconstruction on the\nsouthern continent."
+        "trans_size" : 56,
+        "trans_text" : ":A dome is under\nconstruction on\nthe southern continent."
     },
 
     {
@@ -570,7 +570,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x285a5",
         "method" : 3,
-        "start_bytes" : ["1a", "4e", "10", "29"],
+        "start_bytes" : ["1a","4e","10","29"],
         "end_bytes" : ["08"],
         "raw_size" : 18,
         "raw" : ["1a", "4e", "10", "29", "a2", "5c", "c4", "de", "b0", "d1", "5c", "c0", "de", "af", "c3", "3f", "a3", "08"],
@@ -580,7 +580,7 @@
         "snes-j" : "クレイン「ドームだって?」",
         "snes-e" : "Klein: A dome? ",
         "accuracy" : 0.75,
-        "trans_size" : 0,
+        "trans_size" : 8,
         "trans_text" : ":A dome?"
     },
 
@@ -588,7 +588,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x285b7",
         "method" : 3,
-        "start_bytes" : ["1a", "53", "10", "2b"],
+        "start_bytes" : ["1a","53","10","2b"],
         "end_bytes" : ["08"],
         "raw_size" : 40,
         "raw" : ["1a", "53", "10", "2b", "a2", "b3", "d1", "a4", "ba", "c9", "ce", "bc", "c9", "20", "c6", "dd", "b9", "de", "dd", "c9", "20", "c2", "b8", "af", "c0", "d3", "c9", "03", "c3", "de", "ca", "20", "c5", "b2", "d6", "b3", "c0", "de", "a3", "08"],
@@ -598,15 +598,15 @@
         "snes-j" : "シャイン「うむ。このほしの にんげんが\n    つくったものでは ないようだ。」",
         "snes-e" : "Shine: It doesn't seem\nto be man-made... ",
         "accuracy" : 0.842105263158,
-        "trans_size" : 0,
-        "trans_text" : ":It doesn't seem\nman-made..."
+        "trans_size" : 29,
+        "trans_text" : ": It doesn't seem\nman-made..."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x285df",
         "method" : 3,
-        "start_bytes" : ["1a", "52", "10", "2a"],
+        "start_bytes" : ["1a","52","10","2a"],
         "end_bytes" : ["08"],
         "raw_size" : 49,
         "raw" : ["1a", "52", "10", "2a", "a2", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "c9", "20", "b2", "af", "c3", "b2", "c0", "20", "c5", "bf", "de", "c9", "03", "5c", "db", "ce", "de", "af", "c4", "5c", "c4", "20", "b6", "dd", "b9", "b2", "20", "b1", "d9", "c9", "c3", "de", "ca", "3f", "a3", "08"],
@@ -616,15 +616,15 @@
         "snes-j" : "キリ「だいとうりょうの いっていた\n    なぞのロボットと かんけいあるのでは?」",
         "snes-e" : "Kiri: Maybe it's related\nto those robots the\nPresident mentioned. ",
         "accuracy" : 0.909090909091,
-        "trans_size" : 0,
-        "trans_text" : ":Maybe it's related\nto those weird robots?"
+        "trans_size" : 44,
+        "trans_text" : ":Could this be\nlinked with the\nrobot menace?"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28610",
         "method" : 3,
-        "start_bytes" : ["1a", "57", "10", "28"],
+        "start_bytes" : ["1a","57","10","28"],
         "end_bytes" : ["08"],
         "raw_size" : 31,
         "raw" : ["1a", "57", "10", "28", "a2", "bc", "d7", "cd", "de", "c3", "d0", "d9", "20", "cb", "c2", "d6", "b3", "b6", "de", "20", "b1", "d9", "b6", "d3", "03", "bc", "da", "dd", "c5", "a3", "08"],
@@ -634,16 +634,16 @@
         "snes-j" : "「しらべてみる ひつようが\n    あるかもしれんな。」",
         "snes-e" : ": We should\ncheck it out. ",
         "accuracy" : 0.837209302326,
-        "trans_size" : 0,
-        "trans_text" : ":We should check it out!"
+        "trans_size" : 24,
+        "trans_text" : ":We should\ncheck it out."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28630",
         "method" : 3,
-        "start_bytes" : ["1a", "53", "10", "2a"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","53","10","2a"],
+        "end_bytes" : ["00"],
         "raw_size" : 54,
         "raw" : ["1a", "53", "10", "2a", "a2", "bc", "b6", "bc", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "b6", "de", "03", "ba", "dc", "da", "c3", "d9", "dd", "bc", "de", "ac", "a4", "c4", "de", "ba", "cd", "d3", "20", "b2", "b9", "cf", "be", "dd", "d6", "a3", "08", "00"],
         "raw_text" : "<1A>S<10>*『しかし、ジャンプ・ジェネレ‐タ‐が\nこわれてるんじゃ、どこへも いけませんよ』<wait>",
@@ -652,8 +652,8 @@
         "snes-j" : "ヴィンド「しかし ジャンプ・ジェネレーターが\n    こわれてるんじゃ どこへもいけませんよ。」",
         "snes-e" : "Vynd: But our Jump Drive's\nbroken... We can't go\nanywhere... ",
         "accuracy" : 0.853333333333,
-        "trans_size" : 0,
-        "trans_text" : ":The Jump-drive's\nbroken, we can't jump!"
+        "trans_size" : 47,
+        "trans_text" : ":The Jump-drive's\nbroken: we can't go\nanywhere!"
     },
 
     {
@@ -674,7 +674,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28668",
         "method" : 3,
-        "start_bytes" : ["1a", "55", "10", "2a"],
+        "start_bytes" : ["1a","55","10","2a"],
         "end_bytes" : ["08"],
         "raw_size" : 86,
         "raw" : ["1a", "55", "10", "2a", "a2", "bf", "b3", "c0", "de", "dc", "21", "04", "3c", "03", "b1", "c9", "20", "b7", "ae", "b3", "bc", "de", "ad", "b6", "de", "20", "b2", "af", "c3", "b2", "c0", "c3", "de", "bc", "ae", "b3", "a1", "03", "b1", "c9", "cf", "c1", "c9", "20", "b7", "c0", "c9", "20", "d3", "d8", "c9", "c5", "b6", "c6", "20", "b2", "d0", "dd", "be", "dd", "03", "5c", "d5", "b0", "db", "ca", "df", "5c", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "de", "20", "b1", "d9", "af", "c3", "a1", "a3", "08"],
@@ -684,15 +684,15 @@
         "snes-j" : "キリ「そうだわ[speed_0F]！\n    [speed_FF]あの きょうじゅが いっていたでしょう。\n    あのまちの きたの もりのなかに いみんせん\n    ユーロパの ざんがいが あるって。」",
         "snes-e" : "Kiri: Oh I know! That\nprofessor mentioned the\nwreckage of the Europa. ",
         "accuracy" : 0.727272727273,
-        "trans_size" : 0,
-        "trans_text" : ":Oh I know! The\nprofessor mentioned the\nwreckage of the Europa."
+        "trans_size" : 64,
+        "trans_text" : ":Oh I know! That\nprofessor mentioned the\nwreckage of the Europa."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x286be",
         "method" : 3,
-        "start_bytes" : ["1a", "53", "10", "2c"],
+        "start_bytes" : ["1a","53","10","2c"],
         "end_bytes" : ["08"],
         "raw_size" : 49,
         "raw" : ["1a", "53", "10", "2c", "a2", "d3", "bc", "b6", "bc", "c0", "d7", "20", "bf", "c9", "c5", "b6", "c6", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "03", "ba", "b2", "d9", "5c", "b6", "de", "20", "c9", "ba", "af", "c3", "b2", "d9", "b6", "d3", "bc", "da", "c5", "b2", "21", "a3", "08"],
@@ -702,15 +702,15 @@
         "snes-j" : "ヴィンド「そうか！ もしかしたら\n    そのなかに モノポール・コイルが\n    のこっているかもしれない！」",
         "snes-e" : "Vynd: Yeah! Maybe\nthere's a Monopole Coil\nin the wreckage!",
         "accuracy" : 0.820512820513,
-        "trans_size" : 0,
-        "trans_text" : ":Maybe there's a\nDrive Coil still there!"
+        "trans_size" : 44,
+        "trans_text" : ":Maybe there's\na Drive Coil in the\nwreckage!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x286ef",
         "method" : 3,
-        "start_bytes" : ["1a", "52", "10", "29"],
+        "start_bytes" : ["1a","52","10","29"],
         "end_bytes" : ["08"],
         "raw_size" : 54,
         "raw" : ["1a", "52", "10", "29", "a2", "bc", "b6", "bc", "20", "32", "35", "30", "c8", "dd", "d3", "20", "cf", "b4", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "03", "c0", "de", "be", "de", "a1", "5c", "bb", "cb", "de", "5c", "c2", "b2", "c1", "cf", "af", "c3", "d9", "dd", "bc", "de", "ac", "c5", "b2", "b6", "3f", "a3", "08"],
@@ -720,16 +720,16 @@
         "snes-j" : "クレイン「しかし ２５０ねんも\n    まえの うちゅうせんだぜ。\n    さびついちまってるんじゃないか?」",
         "snes-e" : "Klein: But it's 250\nyears old! Wouldn't it\nhave rusted by now? ",
         "accuracy" : 0.8,
-        "trans_size" : 0,
-        "trans_text" : ":But it's ancient!\nWould it still work now?"
+        "trans_size" : 47,
+        "trans_text" : ":But it's ancient!\nWould it still function now?"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28725",
         "method" : 3,
-        "start_bytes" : ["19", "53", "10", "2c"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["19","53","10","2c"],
+        "end_bytes" : ["08"],
         "raw_size" : 24,
         "raw" : ["19", "53", "10", "2c", "a2", "bc", "d7", "cd", "de", "c3", "d0", "c5", "b9", "d8", "ac", "20", "dc", "b6", "d7", "c5", "b2", "bb", "a3", "08"],
         "raw_text" : "<19>S<10>,『しらべてみなけりゃ わからないさ』",
@@ -738,7 +738,7 @@
         "snes-j" : "ヴィンド「しらべてみなけりゃ わからないさ。」",
         "snes-e" : "Vynd: Well we have to try... ",
         "accuracy" : 0.909090909091,
-        "trans_size" : 0,
+        "trans_size" : 18,
         "trans_text" : ":We have to try..."
     },
 
@@ -746,8 +746,8 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2873e",
         "method" : 3,
-        "start_bytes" : ["1a", "52", "10", "2c"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","52","10","2c"],
+        "end_bytes" : ["00"],
         "raw_size" : 60,
         "raw" : ["1a", "52", "10", "2c", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "bc", "ad", "b3", "d8", "a4", "03", "b6", "dd", "d8", "ae", "b3", "c3", "de", "bd", "a1", "b2", "c2", "c3", "de", "d3", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "c3", "de", "b7", "cf", "bd", "d6", "a3", "08", "00"],
         "raw_text" : "<1A>R<10>,『ジャンプ・ジェネレ‐タ‐のしゅうり、\nかんりょうです。いつでもジャンプできますよ』<wait>",
@@ -756,16 +756,16 @@
         "snes-j" : "ヴィンド「ジャンプ・ジェネレーターの\n    しゅうりかんりょうです。\n    いつでもジャンプできますよ。」",
         "snes-e" : "Vynd: Repairs are\ncomplete. We can\nJump anytime!",
         "accuracy" : 0.857142857143,
-        "trans_size" : 0,
-        "trans_text" : ":Repairs are complete.\nWe can Jump anytime!"
+        "trans_size" : 44,
+        "trans_text" : ": Repairs are\ncomplete. We can\nJump anytime!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2877a",
         "method" : 3,
-        "start_bytes" : ["1a", "51", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","51","10","30"],
+        "end_bytes" : ["00"],
         "raw_size" : 122,
         "raw" : ["1a", "51", "10", "30", "a2", "bc", "ae", "b3", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c0", "b2", "b7", "ca", "20", "bf", "dd", "bb", "de", "b2", "bc", "cf", "be", "dd", "a1", "03", "cb", "ae", "b3", "d2", "dd", "c6", "20", "bc", "de", "dd", "ba", "b3", "c3", "b7", "c5", "20", "5c", "c4", "de", "b0", "d1", "5c", "b6", "de", "03", "b1", "d8", "a4", "b1", "d7", "d5", "d9", "20", "ca", "c1", "ae", "b3", "c9", "20", "c3", "de", "dd", "ca", "df", "b6", "de", "03", "c4", "cb", "de", "b6", "af", "c3", "b2", "cf", "bd", "a1", "ba", "b3", "c4", "de", "c5", "5c", "c3", "b8", "c9", "db", "bc", "de", "b0", "5c", "b6", "de", "03", "bf", "dd", "bb", "de", "b2", "bd", "d9", "d6", "b3", "c3", "de", "bd", "a3", "08", "00"],
         "raw_text" : "<1A>Q<MICA>『しょうわくせいです。\nたいきは そんざいしません。\nひょうめんに じんこうてきな ド‐ムが\nおり、おらゆる はちょうの でんぱが\nとびかっています。こうどなテクノロジ‐が\nそんざいするようです』<wait>",
@@ -774,15 +774,15 @@
         "snes-j" : "MICA「ひょうめんに じんこうてきな\n    ドームがあり あらゆる はちょうのでんぱが\n    とびかっています。こうどなテクノロジーが\n    そんざいするようです。」",
         "snes-e" : "Mica: There are many\nartificial domes on the\nsurface. Advanced\ntechnology exists here... ",
         "accuracy" : 0.738853503185,
-        "trans_size" : 0,
-        "trans_text" : ":There are many\nartificial domes on the\nsurface. Advanced\ntechnology exists here... "
+        "trans_size" : 81,
+        "trans_text" : ": There are many\nartificial domes on the\nsurface. Advanced\ntechnology is present."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x287f4",
         "method" : 3,
-        "start_bytes" : ["1b", "01", "1a", "53", "10", "29"],
+        "start_bytes" : ["1b","01","1a","53","10","29"],
         "end_bytes" : ["08"],
         "raw_size" : 36,
         "raw" : ["1b", "01", "1a", "53", "10", "29", "a2", "ba", "dd", "c4", "de", "ba", "bf", "20", "ce", "dd", "d3", "c9", "c9", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "03", "d7", "bc", "b2", "be", "de", "21", "a3", "08"],
@@ -792,15 +792,15 @@
         "snes-j" : "クレイン「こんどこそ ほんものの\n    エイリアンらしいぜ！」",
         "snes-e" : "Klein: So this\ntime it's really\nalien... ",
         "accuracy" : 0.863636363636,
-        "trans_size" : 0,
-        "trans_text" : ":So this time it's\nnot human!"
+        "trans_size" : 30,
+        "trans_text" : ": Looks\nlike its really\nalien!"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28818",
         "method" : 3,
-        "start_bytes" : ["1a", "54", "10", "2b"],
+        "start_bytes" : ["1a","54","10","2b"],
         "end_bytes" : ["08"],
         "raw_size" : 65,
         "raw" : ["1a", "54", "10", "2b", "a2", "bc", "b6", "d3", "20", "dc", "da", "dc", "da", "bc", "de", "dd", "d9", "b2", "d6", "d8", "20", "bc", "dd", "ce", "df", "bc", "c0", "03", "bc", "ad", "bf", "de", "b8", "c9", "d6", "b3", "c0", "de", "a1", "bc", "dd", "c1", "ae", "b3", "c6", "20", "5c", "ba", "dd", "c0", "b8", "c4", "5c", "03", "bc", "c5", "b8", "c3", "ca", "3b", "3b", "3b", "3b", "a3", "08"],
@@ -810,15 +810,15 @@
         "snes-j" : "シャイン「しかも われわれじんるいより\n    しんぽした しゅぞくのようだ。\n    しんちょうに コンタクトしなくては・・」",
         "snes-e" : "Shine: We have to\napproach them carefully... ",
         "accuracy" : 0.918367346939,
-        "trans_size" : 0,
-        "trans_text" : ":We have to\napproach them carefully..."
+        "trans_size" : 57,
+        "trans_text" : ": They seem to be a human\ntribe. We must be\nvery careful."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28859",
         "method" : 3,
-        "start_bytes" : ["1a", "48", "10", "28"],
+        "start_bytes" : ["1a","48","10","28"],
         "end_bytes" : ["08"],
         "raw_size" : 26,
         "raw" : ["1a", "48", "10", "28", "a2", "c3", "de", "dd", "ca", "df", "ca", "20", "b6", "b2", "c4", "de", "b8", "20", "c3", "de", "b7", "d9", "b6", "3f", "a3", "08"],
@@ -828,15 +828,15 @@
         "snes-j" : "「でんぱは かいどく できるか?」",
         "snes-e" : ": What about hostility? ",
         "accuracy" : 0.928571428571,
-        "trans_size" : 0,
-        "trans_text" : ":What about hostiles?"
+        "trans_size" : 15,
+        "trans_text" : ": Any hostiles?"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28873",
         "method" : 3,
-        "start_bytes" : ["19", "54", "10", "2b"],
+        "start_bytes" : ["19","54","10","2b"],
         "end_bytes" : ["08"],
         "raw_size" : 61,
         "raw" : ["19", "54", "10", "2b", "a2", "dc", "b9", "c9", "dc", "b6", "d7", "c5", "b2", "20", "ba", "c4", "ca", "de", "b6", "de", "20", "c4", "cb", "de", "b6", "af", "c3", "03", "b2", "cf", "bd", "a1", "20", "c1", "b2", "bb", "b2", "b9", "da", "c4", "de", "20", "c6", "b7", "de", "d4", "b6", "c5", "20", "ce", "bc", "c9", "03", "d6", "b3", "c3", "de", "bd", "c8", "a3", "08"],
@@ -846,16 +846,16 @@
         "snes-j" : "シャイン「わけのわからない ことばが\n    とびかっています。\n    ちいさいけれど にぎやかな\n    ほしのようですね。」",
         "snes-e" : "Shine: It seems pretty\nactive. Sounds like a\ngood place. ",
         "accuracy" : 0.901098901099,
-        "trans_size" : 0,
-        "trans_text" : ":It seems pretty\nactive. Seems like a\ngood place."
+        "trans_size" : 44,
+        "trans_text" : ": It looks lively.\nSounds like a good place."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x288b0",
         "method" : 3,
-        "start_bytes" : ["19", "53", "10", "29"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["19","53","10","29"],
+        "end_bytes" : ["08"],
         "raw_size" : 28,
         "raw" : ["19", "53", "10", "29", "a2", "b5", "da", "c0", "c1", "20", "b6", "dd", "b9", "de", "b2", "bc", "c3", "20", "d3", "d7", "b4", "d9", "b6", "c8", "b4", "3f", "a3", "08"],
         "raw_text" : "<19>S<NPCa>『おれたち かんげいして もらえるかねえ?』",
@@ -864,15 +864,15 @@
         "snes-j" : "クレイン「おれたち かんげいして\n    もらえるかねえ?」",
         "snes-e" : "Klein: Are we gonna\nbe... welcomed? ",
         "accuracy" : 0.9,
-        "trans_size" : 0,
-        "trans_text" : ":Will we be<04><1e> welcome?"
+        "trans_size" : 22,
+        "trans_text" : ": Will we be\nwelcomed?"
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x288cd",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a","51","10","30"],
         "end_bytes" : ["00"],
         "raw_size" : 126,
         "raw" : ["1a", "51", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "bc", "c2", "c4", "de", "b6", "de", "20", "c0", "b6", "b8", "20", "dc", "b8", "be", "b2", "be", "de", "dd", "c0", "b2", "b6", "de", "03", "c4", "de", "db", "c7", "cf", "c6", "20", "b5", "b5", "dc", "da", "c3", "b2", "cf", "bd", "a1", "03", "b9", "de", "dd", "bc", "c3", "b7", "c5", "20", "be", "b2", "d2", "b2", "b6", "de", "20", "bf", "dd", "bb", "de", "b2", "bd", "d9", "d6", "b3", "03", "c3", "de", "bd", "b6", "de", "a4", "cc", "de", "dd", "d2", "b2", "ca", "20", "d0", "b1", "c0", "d8", "cf", "be", "dd", "a3", "08", "00"],
@@ -882,16 +882,16 @@
         "snes-j" : "MICA「しつどがたかく わくせいぜんたいが\n    どろぬまに おおわれています。げんしてきな\n    せいめいが そんざいするようですが\n    ぶんめいは みあたりません。」",
         "snes-e" : "Mica: The humidity is so\nhigh that the planet's\nsurrounded by mud. \nLife is present but no\ntechnology seems to exist. ",
         "accuracy" : 0.768292682927,
-        "trans_size" : 0,
-        "trans_text" : ""
+        "trans_size" : 109,
+        "trans_text" : ": The humidity is so\nhigh that the planet's\nsurrounded by mud. \nLife is present but no\ntechnology is visible."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x2894b",
         "method" : 3,
-        "start_bytes" : ["1a", "48", "10", "28"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["1a","48","10","28"],
+        "end_bytes" : ["08"],
         "raw_size" : 22,
         "raw" : ["1a", "48", "10", "28", "a2", "d3", "af", "c4", "b8", "dc", "bc", "b8", "20", "bc", "d7", "cd", "de", "c3", "d0", "db", "a3", "08"],
         "raw_text" : "<1A>H<Player>『もっとくわしく しらべてみろ』",
@@ -900,22 +900,22 @@
         "snes-j" : "「もっとくわしく しらべてみろ。」",
         "snes-e" : ": Keep looking around. ",
         "accuracy" : 0.896551724138,
-        "trans_size" : 0,
-        "trans_text" : ":Keep searching."
+        "trans_size" : 15,
+        "trans_text" : ": Keep looking."
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x28961",
         "method" : 3,
-        "start_bytes" : ["19", "51", "10", "30"],
-        "end_bytes" : ["08", "00"],
+        "start_bytes" : ["19","51","10","30"],
+        "end_bytes" : ["08"],
         "raw_size" : 116,
         "raw" : ["19", "51", "10", "30", "a2", "dc", "b6", "d8", "cf", "bc", "c0", "a3", "03", "13", "bf", "69", "13", "bf", "69", "13", "bf", "69", "42", "30", "35", "2d", "59", "31", "39", "20", "3d", "20", "6d", "25", "74", "72", "69", "02", "10", "30", "a2", "c1", "cb", "ae", "b3", "a6", "20", "b8", "dc", "bc", "b8", "20", "5c", "bd", "b7", "ac", "dd", "5c", "bc", "c0", "c4", "ba", "db", "03", "c0", "b6", "bb", "20", "d4", "b8", "35", "5c", "d2", "b0", "c4", "d9", "5c", "c9", "20", "bc", "de", "dd", "ba", "b3", "cc", "de", "c2", "c4", "03", "b5", "d3", "dc", "da", "d9", "20", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "5c", "a6", "20", "ca", "af", "b9", "dd", "03", "bc", "cf", "bc", "c0", "a3", "08"],
         "raw_text" : "<19>Q<Mica>『わかりました』\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<Mica>『ちひょうを くわしく スキャンしたところ\nたかさ やく5メ‐トルの じんこうぶつと\nおもわれる モニュメントを はっけん\nしました』",
         "alt_text" : "<19>Q<Mica>『ワカリマシタ』\n<13>ソi<13>ソi<13>ソiB05-Y19 = m%tri\n<Mica>『チヒョウヲ クワシク すきゃんシタトコロ\nタカサ ヤク5め―とるノ ジンコウブツト\nオモワレル もにゅめんとヲ ハッケン\nシマシタ』",
         "trans_size" : 0,
-        "trans_text" : ":I found -\n<13><bf>i<13><bf>i<13><bf>iB05-Y19 = m%tri\n<10><30>:I've located some kind\nof monument, five meters\nhigh."
+        "trans_text" : ""
     },
 
     {
@@ -936,7 +936,7 @@
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x289d8",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a","48","10","28"],
         "end_bytes" : ["08"],
         "raw_size" : 20,
         "raw" : ["1a", "48", "10", "28", "a2", "bc", "ad", "b3", "d8", "20", "c3", "de", "b7", "c5", "b2", "c9", "b6", "3f", "a3", "08"],
@@ -947,14 +947,14 @@
         "snes-e" : ": Can't it be\nrepaired? ",
         "accuracy" : 0.916666666667,
         "trans_size" : 0,
-        "trans_text" : ":Can it be fixed?"
+        "trans_text" : ""
     },
 
     {
         "string_description" : "MICA, player, npc text",
         "string_start" : "0x289ec",
         "method" : 3,
-        "start_bytes" : [],
+        "start_bytes" : ["1a","54","10","2c"],
         "end_bytes" : ["08"],
         "raw_size" : 72,
         "raw" : ["1a", "54", "10", "2c", "a2", "5c", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "20", "bc", "dd", "bf", "de", "b3", "cc", "de", "c9", "03", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "de", "20", "ba", "dc", "da", "c3", "d9", "dd", "c3", "de", "bd", "a1", "03", "5c", "bd", "cd", "df", "b1", "5c", "cc", "de", "cb", "dd", "d3", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08"],
@@ -965,7 +965,7 @@
         "snes-e" : "Vynd: Its central\nMonopole Coil is defunct \nand we don't have a spare. ",
         "accuracy" : 0.857142857143,
         "trans_size" : 0,
-        "trans_text" : ":The Drive Coil is\ntrashed. We don't have the spare\nparts to build one."
+        "trans_text" : ""
     },
 
     {
@@ -983,7 +983,7 @@
         "snes-e" : "Klein: We have to get\none somewhere... ",
         "accuracy" : 0.866666666667,
         "trans_size" : 0,
-        "trans_text" : ":We NEED to find one!"
+        "trans_text" : ""
     },
 
     {
@@ -996,6 +996,10 @@
         "raw" : ["1a", "51", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c0", "b2", "b7", "c9", "20", "be", "b2", "cc", "de", "dd", "ca", "20", "bd", "b2", "bf", "c4", "20", "5c", "cd", "d8", "b3", "d1", "a1", "03", "5c", "cb", "ae", "b3", "d2", "dd", "c9", "20", "b5", "dd", "c4", "de", "ca", "20", "5c", "cf", "b2", "c5", "bd", "5c", "32", "30", "30", "df", "43", "03", "c3", "de", "bd", "a3", "08"],
         "raw_text" : "<1A>Q<Mica>『たいようから とおいため、こおりに\nおおわれた わくせいです。\nたいきの せいぶんは すいそと ヘリウム。\nひょうめんの おんどは マイナス20<30DF>C\nです』",
         "alt_text" : "<1A>Q<Mica>『タイヨウカラ トオイタメ、コオリニ\nオオワレタ ワクセイデス。\nタイキノ セイブンハ スイソト へりうむ。\nヒョウメンノ オンドハ まいなす20<30DF>C\nデス』",
+        "snes_size" : 81,
+        "snes-j" : "「たいきの せいぶんは すいそと ヘリウム。\nひょうめんの おんどは\nマイナス２００どCです。」",
+        "snes-e" : "Air composition primarily\nis hydrogen and helium;\naverage surface temp is\n-200C. ",
+        "accuracy" : 0.598290598291,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -1028,7 +1032,7 @@
         "raw" : ["0c", "13", "e4", "69", "10", "30", "a2", "b9", "b2", "ba", "b8", "21", "03", "20", "b9", "b2", "ba", "b8", "21", "03", "dc", "b8", "be", "b2", "c9", "20", "bc", "ad", "b3", "b2", "c6", "20", "bc", "de", "ad", "b3", "d8", "ae", "b8", "c9", "03", "b2", "bc", "de", "ae", "b3", "b1", "d8", "21", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "21", "a3", "08"],
         "raw_text" : "<erase><13>トi<Mica>『けいこく!\n けいこく!\nわくせいの しゅういに じゅうりょくの\nいじょうおり! ちゅういしてください!』",
         "alt_text" : "<erase><13>とi<Mica>『ケイコク!\n ケイコク!\nワクセイノ シュウイニ ジュウリョクノ\nイジョウアリ! チュウイシテクダサイ!』",
-        "snes_size" : 48,
+        "snes_size" : 46,
         "snes-j" : "MICA「わくせいの しゅういに\n    じゅうりょくの いじょうあり！\n    ちゅういしてください！」",
         "snes-e" : "Mica: Gravity problems\non the planet!\nWarning!",
         "accuracy" : 0.744186046512,
@@ -1344,6 +1348,10 @@
         "raw" : ["1a", "51", "10", "30", "a2", "cb", "ae", "b3", "d2", "dd", "b5", "dd", "c4", "de", "20", "38", "30", "30", "df", "43", "20", "b2", "bc", "de", "ae", "b3", "a1", "03", "d6", "b3", "b6", "de", "dd", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "03", "c3", "de", "bd", "a1", "03", "b5", "d8", "d9", "c5", "d7", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "a1", "03", "ba", "b3", "b5", "dd", "c9", "c0", "d2", "20", "c1", "ae", "b3", "bc", "de", "b6", "dd", "c9", "20", "b6", "c2", "c4", "de", "b3", "ca", "03", "b7", "b9", "dd", "c3", "de", "bd", "21", "a3", "08", "00"],
         "raw_text" : "<1A>Q<MICA>『ひょうめんおんど 80<30DF>C いじょう。\nようがんに おおわれた ちいさな わくせい\nです。\nおりるなら ちゅういしてください。\nこうおんのため ちょうじかんの かつどうは\nきけんです!』<wait>",
         "alt_text" : "<1A>Q<MICA>『ヒョウメンオンド 80<30DF>C イジョウ。\nヨウガンニ オオワレタ チイサナ ワクセイ\nデス。\nオリルナラ チュウイシテクダサイ。\nコウオンノタメ チョウジカンノ カツドウハ\nキケンデス!』<wait>",
+        "snes_size" : 70,
+        "snes-j" : "MICA「ひょうめんおんど ８００どC いじょう。\n    ようがんに おおわれた\n    ちいさな わくせいです。」",
+        "snes-e" : "Mica: Temperature is over\n800C. The whole planet\nis covered in magma. ",
+        "accuracy" : 0.542635658915,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -1586,7 +1594,7 @@
         "raw" : ["0c", "13", "e4", "69", "10", "30", "a2", "bc", "ae", "b3", "c0", "b2", "cc", "d2", "b2", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "b6", "de", "03", "dc", "b8", "be", "b2", "c6", "20", "be", "af", "b7", "dd", "bc", "c3", "20", "d5", "b7", "cf", "bd", "a1", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c9", "d3", "c9", "c3", "de", "d3", "20", "5c", "c4", "da", "b0", "c0", "de", "b0", "5c", "bf", "de", "b8", "c9", "03", "d3", "c9", "c3", "de", "d3", "20", "b1", "d8", "cf", "be", "dd", "a3", "08"],
         "raw_text" : "<erase><13>トi<Mica>『しょうたいふめいの うちゅうせんが\nわくせいに せっきんして ゆきます。\nバ‐サ‐カ‐のものでも トレ‐ダ‐ぞくの\nものでも おりません』",
         "alt_text" : "<erase><13>とi<Mica>『ショウタイフメイノ ウチュウセンガ\nワクセイニ セッキンシテ ユキマス。\nば―さ―か―ノモノデモ とれ―だ―ゾクノ\nモノデモ アリマセン』",
-        "snes_size" : 73,
+        "snes_size" : 71,
         "snes-j" : "MICA「うちゅうせんが だい４わくせいに\n    せっきんして ゆきます。\n    バーサーカーのものでも\n    トレーダーぞくのものでも ありません。」",
         "snes-e" : "Mica: Orbiting the fourth\nplanet. It's neither\nBerserker nor Trader....",
         "accuracy" : 0.731707317073,
@@ -2016,6 +2024,10 @@
         "raw" : ["1a", "53", "10", "2b", "a2", "5c", "ba", "cf", "dd", "c0", "de", "b0", "a4", "5c", "dc", "b8", "be", "b2", "c9", "20", "cb", "ae", "b3", "d2", "dd", "c6", "03", "cd", "dd", "b6", "b6", "de", "3b", "3b", "3b", "3b", "a3", "08"],
         "raw_text" : "<1A>S<10>+『コマンダ‐、わくせいの ひょうめんに\nへんかが‥‥‥‥』",
         "alt_text" : "<1A>S<10>+『こまんだ―、ワクセイノ ヒョウメンニ\nヘンカガ‥‥‥‥』",
+        "snes_size" : 56,
+        "snes-j" : "シャイン「コマンダー！\n    わくせいの ひょうめんに へんかが・・\n    うみのなかに しまが うまれています！。」",
+        "snes-e" : "Shine: Commander! An\nisland... is rising from\nthe water!",
+        "accuracy" : 0.583333333333,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2166,6 +2178,10 @@
         "raw" : ["19", "4b", "10", "2b", "a2", "be", "dd", "b6", "dd", "5c", "b8", "d7", "bd", "5c", "b6", "de", "20", "b5", "d6", "bf", "38", "30", "30", "3b", "3b", "3b", "3b", "04", "1e", "03", "ba", "b6", "de", "c0", "5c", "b8", "d7", "bd", "5c", "b6", "de", "32", "30", "30", "30", "3b", "3b", "3b", "3b", "04", "1e", "03", "c1", "ad", "b3", "b5", "b3", "c6", "ca", "20", "b7", "ae", "c0", "de", "b2", "c5", "20", "5c", "cf", "bb", "de", "b0", "a5", "bc", "af", "cc", "df", "5c", "b6", "de", "03", "b2", "cf", "bd", "a3", "08"],
         "raw_text" : "<19>K<10>+『せんかんクラスが およそ800‥‥‥‥<pause><1E>\nこがたクラスが2000‥‥‥‥<pause><1E>\nちゅうおうには きょだいな マザ‐・シップが\nいます』",
         "alt_text" : "<19>K<10>+『センカンくらすガ オヨソ800‥‥‥‥<pause><1E>\nコガタくらすガ2000‥‥‥‥<pause><1E>\nチュウオウニハ キョダイナ まざ―・しっぷガ\nイマス』",
+        "snes_size" : 96,
+        "snes-j" : "シャイン「せんかんクラスが およそ８００[speed_0F]・・\n    [speed_FF]こがたクラスが２０００[speed_0F]・・[speed_FF]ちゅうおうには\n    きょだいな マザー・シップがいます。」",
+        "snes-e" : "Shine: About 800 large\nships... about 2000\nsmaller ones... and\na huge Mothership\nin the middle. ",
+        "accuracy" : 0.593548387097,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2276,6 +2292,10 @@
         "raw" : ["0c", "10", "4d", "a2", "b2", "d6", "b2", "d6", "20", "bb", "b2", "ba", "de", "c9", "20", "b9", "af", "be", "dd", "ca", "de", "b2", "21", "03", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "a6", "20", "b9", "c1", "d7", "bc", "c3", "d4", "d9", "ca", "de", "b2", "21", "a3", "08"],
         "raw_text" : "<erase><10>M『いよいよ さいごの けっせんばい!\nバ‐サ‐カ‐を けちらしてやるばい!』",
         "alt_text" : "<erase><10>M『イヨイヨ サイゴノ ケッセンバイ!\nば―さ―か―ヲ ケチラシテヤルバイ!』",
+        "snes_size" : 86,
+        "snes-j" : "しれいかん「おーいっ！ ちきゅうじんよ\n    きこえちょるか? いよいよ\n    さいごの けっせんばいっ！\n    バーサーカーを けちらしてやるばいっ！」",
+        "snes-e" : "Commander: Hey! You heah\nme?  Finally za last\nbahtle! We gonna kill\nall za Berserkers!",
+        "accuracy" : 0.574468085106,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2290,6 +2310,10 @@
         "raw" : ["0c", "10", "4d", "a2", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c4", "de", "d3", "ca", "20", "5c", "cf", "bb", "de", "b0", "a5", "bc", "af", "cc", "df", "5c", "b6", "d7", "03", "bc", "da", "b2", "a6", "b3", "b9", "c3", "20", "b3", "ba", "de", "b2", "c4", "d9", "ca", "de", "b2", "a1", "a3", "08"],
         "raw_text" : "<erase><10>M『バ‐サ‐カ‐どもは マザ‐・シップから\nしれいをうけて うごいとるばい。』",
         "alt_text" : "<erase><10>M『ば―さ―か―ドモハ まざ―・しっぷカラ\nシレイヲウケテ ウゴイトルバイ。』",
+        "snes_size" : 89,
+        "snes-j" : "しれいかん「バーサーカーどもは マザー・シップから\n    しれいをうけて うごいとるばい。\n    マザー・シップさえ しずめれば\n    こっちのもんばい！」",
+        "snes-e" : "Commander: Zey ahr\ncontrohled by zat big\nMuzahship! Victory is ahrs\nif we sink zat sheep!",
+        "accuracy" : 0.59793814433,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2336,6 +2360,10 @@
         "raw" : ["1a", "57", "10", "4d", "a2", "b3", "c7", "c7", "3b", "3b", "3b", "04", "3c", "c3", "de", "ca", "20", "c4", "de", "b3", "bd", "da", "ca", "de", "20", "d6", "b6", "c4", "3f", "a3", "08"],
         "raw_text" : "<1A>W<10>M『うぬぬ‥‥‥<pause><では どうすれば よかと?』",
         "alt_text" : "<1A>W<10>M『ウヌヌ‥‥‥<pause><デハ ドウスレバ ヨカト?』",
+        "snes_size" : 32,
+        "snes-j" : "しれいかん「[speed_0F]うぬぬ・・[speed_FF]では どうすれば よかと?」",
+        "snes-e" : "Commander: So wot should\nwe do? ",
+        "accuracy" : 0.571428571429,
         "trans_size" : 0,
         "trans_text" : ""
     },
@@ -2386,7 +2414,7 @@
         "raw" : ["19", "57", "10", "4d", "a2", "b5", "b5", "a4", "c0", "b2", "bc", "c0", "20", "ba", "dd", "bc", "de", "ae", "b3", "ca", "de", "b2", "21", "03", "dc", "b6", "af", "c0", "a4", "5c", "bb", "de", "ba", "5c", "c4", "de", "d3", "ca", "20", "dc", "bc", "d7", "b6", "de", "20", "cb", "b7", "b3", "b9", "d9", "21", "a3", "08"],
         "raw_text" : "<19>W<10>M『おお、たいした こんじょうばい!\nわかった、ザコどもは わしらが ひきうける!』",
         "alt_text" : "<19>W<10>M『オオ、タイシタ コンジョウバイ!\nワカッタ、ざこドモハ ワシラガ ヒキウケル!』",
-        "snes_size" : 76,
+        "snes_size" : 72,
         "snes-j" : "しれいかん「おおっ！ たいした こんじょうばいっ！\n    わかった。ザコどもは わしらが\n    ひきうけるっ！ おまんら おもうぞんぶん\n    たたかうがよかっ！」",
         "snes-e" : "Commander: You got GUTS!\nOK we'll take on za crap\naraund the Mothership!",
         "accuracy" : 0.613861386139,

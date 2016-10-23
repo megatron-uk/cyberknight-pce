@@ -61,7 +61,7 @@
         "string_start" : "0x1cbc6",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00"],
+        "end_bytes" : ["00","00","00"],
         "raw_size" : 7,
         "raw" : ["5c", "c6", "bc", "de", "b0", "c5", "00", "00", "00"],
         "raw_text" : "ニジ‐ナ",
@@ -74,7 +74,7 @@
         "string_start" : "0x1cbcf",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00"],
+        "end_bytes" : ["00","00"],
         "raw_size" : 5,
         "raw" : ["4d", "49", "43", "41", "00", "00"],
         "raw_text" : "MICA",
@@ -140,7 +140,7 @@
         "string_start" : "0x1cbfa",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00", "00"],
+        "end_bytes" : ["00","00","00","00","00"],
         "raw_size" : 9,
         "raw" : ["5c", "b4", "dd", "bc", "de", "c6", "b1", "5c", "00", "00", "00", "00", "00"],
         "raw_text" : "エンジニア",
@@ -157,7 +157,7 @@
         "raw_size" : 13,
         "raw" : ["5c", "ca", "de", "af", "b8", "b1", "af", "cc", "df", "d2", "d3", "d8", "00"],
         "raw_text" : "バックアップメモリ",
-        "trans_size" : 9,
+        "trans_size" : 6,
         "trans_text" : "Backup"
     },
 
@@ -185,7 +185,7 @@
         "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "00"],
         "raw_text" : "だいとうりょう",
         "alt_text" : "ダイトウリョウ",
-        "trans_size" : 9,
+        "trans_size" : 5,
         "trans_text" : "Pres."
     },
 
@@ -199,7 +199,7 @@
         "raw" : ["c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "cc", "bc", "de", "dd", "00"],
         "raw_text" : "だいとうりょうふじん",
         "alt_text" : "ダイトウリョウフジン",
-        "trans_size" : 10,
+        "trans_size" : 7,
         "trans_text" : "Consort"
     },
 
@@ -308,7 +308,7 @@
         "raw" : ["5c", "bc", "d8", "ba", "dd", "5c", "be", "b2", "cc", "de", "c2", "00"],
         "raw_text" : "シリコンせいぶつ",
         "alt_text" : "しりこんセイブツ",
-        "trans_size" : 16,
+        "trans_size" : 7,
         "trans_text" : "Silicon"
     },
 
@@ -453,7 +453,7 @@
         "string_start" : "0x1cca6",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "5c", "00"],
+        "end_bytes" : ["5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","5c","00"],
         "raw_size" : 7,
         "raw" : ["5c", "d2", "dd", "c0", "b0", "c5", "00"],
         "raw_text" : "メンタ‐ナ",

@@ -253,6 +253,7 @@ def patch_file(patchfile, patch, romfile):
 	print "- Untranslated Patches : %s" % untranslated_patches
 	print "- Untranslated Bytes   : %s" % untranslated_bytes
 
+	print "----------------------------------------------------------"
 	print ""	
 	return True
 
@@ -465,7 +466,7 @@ if os.path.isdir(PATCH_DIR_NAME):
 		print "Strings      : Total number of text strings in the patch file"
 		print "Translations : How many strings already have we added a full english translation for?"
 		print "SNES Matches : How many strings have matching SNES english text that canbe used as a basis for an english translation?"
-		print "Tiny         : How many strings are sub-2 characters (ie not text)?"
+		print "Tiny         : How many strings are sub-2 characters (ie not text)?" 
 		print "Missing      : How many strings remain to be translated?"
 		print ""
 else:
@@ -486,7 +487,7 @@ for f in keys:
 	print "================="
 	print "Applying %s" % f
 	print "-----------------"
-	patch_file(f, PATCH_FILES[f], FILE) 
+	d = patch_file(f, PATCH_FILES[f], FILE) 
 	
 	print ""
 	

@@ -5,7 +5,7 @@
 "insert_method" : 2,
 "data" : [
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdaf",
         "method" : 3,
         "start_bytes" : [],
@@ -19,7 +19,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdb7",
         "method" : 3,
         "start_bytes" : [],
@@ -33,7 +33,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdc1",
         "method" : 3,
         "start_bytes" : [],
@@ -42,12 +42,12 @@
         "raw" : ["5c", "d2", "cc", "df", "bc", "af", "c4", "de", "00"],
         "raw_text" : "メプシッド",
         "alt_text" : "めぷしっど",
-        "trans_size" : 10,
+        "trans_size" : 7,
         "trans_text" : "Mepsede"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdca",
         "method" : 3,
         "start_bytes" : [],
@@ -61,7 +61,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdd1",
         "method" : 3,
         "start_bytes" : [],
@@ -75,7 +75,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdd8",
         "method" : 3,
         "start_bytes" : [],
@@ -89,7 +89,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cddf",
         "method" : 3,
         "start_bytes" : [],
@@ -103,7 +103,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cde7",
         "method" : 3,
         "start_bytes" : [],
@@ -117,7 +117,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdee",
         "method" : 3,
         "start_bytes" : [],
@@ -126,12 +126,12 @@
         "raw" : ["46", "48", "31", "35", "34", "00"],
         "raw_text" : "FH154",
         "alt_text" : "FH154",
-        "trans_size" : 0,
+        "trans_size" : 5,
         "trans_text" : "FH154"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdf4",
         "method" : 3,
         "start_bytes" : [],
@@ -145,7 +145,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cdfd",
         "method" : 3,
         "start_bytes" : [],
@@ -159,7 +159,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce04",
         "method" : 3,
         "start_bytes" : [],
@@ -173,7 +173,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce0b",
         "method" : 3,
         "start_bytes" : [],
@@ -187,7 +187,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce0f",
         "method" : 3,
         "start_bytes" : [],
@@ -201,7 +201,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce16",
         "method" : 3,
         "start_bytes" : [],
@@ -215,7 +215,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce1b",
         "method" : 3,
         "start_bytes" : [],
@@ -228,12 +228,12 @@
         "snes-j" : "ICEー５",
         "snes-e" : "ICE-5",
         "accuracy" : 0.6,
-        "trans_size" : 0,
+        "trans_size" : 5,
         "trans_text" : "ICE-5"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce21",
         "method" : 3,
         "start_bytes" : [],
@@ -246,12 +246,12 @@
         "snes-j" : "SAウェスト",
         "snes-e" : "SgrA West",
         "accuracy" : 0.714285714286,
-        "trans_size" : 0,
+        "trans_size" : 9,
         "trans_text" : "SgrA West"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce2b",
         "method" : 3,
         "start_bytes" : [],
@@ -265,7 +265,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce34",
         "method" : 3,
         "start_bytes" : [],
@@ -278,12 +278,12 @@
         "snes-j" : "BBL１７",
         "snes-e" : "BBL17",
         "accuracy" : 0.6,
-        "trans_size" : 0,
+        "trans_size" : 5,
         "trans_text" : "BBL17"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce3a",
         "method" : 3,
         "start_bytes" : [],
@@ -292,12 +292,12 @@
         "raw" : ["4c", "57", "33", "31", "37", "34", "00"],
         "raw_text" : "LW3174",
         "alt_text" : "LW3174",
-        "trans_size" : 0,
+        "trans_size" : 6,
         "trans_text" : "LW3174"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce41",
         "method" : 3,
         "start_bytes" : [],
@@ -311,7 +311,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce4a",
         "method" : 3,
         "start_bytes" : [],
@@ -325,7 +325,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce52",
         "method" : 3,
         "start_bytes" : [],
@@ -339,7 +339,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce5a",
         "method" : 3,
         "start_bytes" : [],
@@ -348,12 +348,12 @@
         "raw" : ["54", "4d", "44", "33", "33", "34", "00"],
         "raw_text" : "TMD334",
         "alt_text" : "TMD334",
-        "trans_size" : 0,
+        "trans_size" : 6,
         "trans_text" : "TMD334"
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce61",
         "method" : 3,
         "start_bytes" : [],
@@ -367,11 +367,11 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce67",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00", "00"],
+        "end_bytes" : ["00","00","00","00","00"],
         "raw_size" : 11,
         "raw" : ["5c", "cd", "de", "b2", "b8", "de", "da", "b1", "c4", "de", "00"],
         "raw_text" : "ベイグレアド",
@@ -381,7 +381,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce76",
         "method" : 3,
         "start_bytes" : [],
@@ -395,7 +395,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce80",
         "method" : 3,
         "start_bytes" : [],
@@ -409,7 +409,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce87",
         "method" : 3,
         "start_bytes" : [],
@@ -423,7 +423,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce8e",
         "method" : 3,
         "start_bytes" : [],
@@ -437,7 +437,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce95",
         "method" : 3,
         "start_bytes" : [],
@@ -451,7 +451,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ce9c",
         "method" : 3,
         "start_bytes" : [],
@@ -465,7 +465,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cea2",
         "method" : 3,
         "start_bytes" : [],
@@ -479,7 +479,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ceab",
         "method" : 3,
         "start_bytes" : [],
@@ -493,7 +493,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ceb0",
         "method" : 3,
         "start_bytes" : [],
@@ -507,7 +507,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ceb9",
         "method" : 3,
         "start_bytes" : [],
@@ -521,7 +521,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cec2",
         "method" : 3,
         "start_bytes" : [],
@@ -535,7 +535,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ceca",
         "method" : 3,
         "start_bytes" : [],
@@ -549,7 +549,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1ced3",
         "method" : 3,
         "start_bytes" : [],
@@ -563,7 +563,7 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cedc",
         "method" : 3,
         "start_bytes" : [],
@@ -577,11 +577,11 @@
     },
 
     {
-        "string_description" : "Item names, enemy names, battle screen menus",
+        "string_description" : "Planet names",
         "string_start" : "0x1cee3",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00", "00", "00", "00", "00", "00"],
+        "end_bytes" : ["00","00","00","00","00","00"],
         "raw_size" : 6,
         "raw" : ["5c", "bd", "d7", "b3", "da", "00"],
         "raw_text" : "スラウレ",
