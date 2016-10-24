@@ -14,8 +14,8 @@ Master Bank 0x01, it is always loaded at PCE memory address 0xC000-0xDFFF.
 
 **Table A**
 
-Table A, ROM offset 0x02939, is a table of Asset Bank pointers
-This is a table of which Text Bank to load at any point.
+- Table A, ROM offset 0x02939, is a table of Asset Bank pointers
+- This is a table of which Text Bank to load at any point.
 
 *Data*
 ```
@@ -31,8 +31,8 @@ There are 33 bank load addresses, many of which, as shown, are duplicates.
 
 **Table B**
 
-Table B, ROM offset 0x0295a, type = Script Offset pointers.
-This is a table of offsets into the pointer tables at the start of each asset bank.
+- Table B, ROM offset 0x0295a, type = Script Offset pointers.
+- This is a table of offsets into the pointer tables at the start of each asset bank.
 
 *Data*
 ```
@@ -47,13 +47,13 @@ There are 33 asset chunk pointer offset addresses, one for each of the bank load
 
 ## Asset Banks
 
-The below text banks are always loaded at 0x4000-0x7FFF
+Asset banks contain game script and graphics. They are indexed by a leading table of (a variable number of) pointers in to the bank, followed by data. The below text banks are always loaded at PCE memory address 0x4000-0x7FFF.
 
 ### Bank 0x0A - 0x0B
 
-Text Bank $0A/$0B, ROM offset $14000-$17FFF
-First byte = Bank number = 0x0A
-Second byte = 0x0B = 11 = 10/2 = 5x 2-byte pointers
+- Text Bank $0A/$0B, ROM offset $14000-$17FFF
+- First byte = Bank number = 0x0A
+- Second byte = 0x0B = 11 = 10/2 = 5x 2-byte pointers to data structures.
 
 *Pointer Data*
 ```
@@ -74,9 +74,9 @@ Second byte = 0x0B = 11 = 10/2 = 5x 2-byte pointers
 
 ### Bank 0x0C - 0x0D
 
-Text Bank $0C/$0D, ROM offset $18000-$1BFFF
-First byte = Bank number = 0x0C
-Second byte = 0x19 = 25 = 24/2 = 12x 2-byte pointers
+- Text Bank $0C/$0D, ROM offset $18000-$1BFFF
+- First byte = Bank number = 0x0C
+- Second byte = 0x19 = 25 = 24/2 = 12x 2-byte pointers
 
 *Pointer Data*
 ```
@@ -107,9 +107,9 @@ Position / Value
 
 ### Bank 0x0E - 0x0F
 
-Text Bank $0E/$0F, ROM offset $1C000-$1FFFF
-First byte = Bank number = 0x0E
-Second byte = 0x11 = 17 bytes = 16/2 = 8x 2-byte pointers
+- Text Bank $0E/$0F, ROM offset $1C000-$1FFFF
+- First byte = Bank number = 0x0E
+- Second byte = 0x11 = 17 bytes = 16/2 = 8x 2-byte pointers
 
 *Pointer Data*
 ```
@@ -135,9 +135,9 @@ Position / Value
 
 ### Bank 0x14 - 0x15
 
-Text Bank $14/$15, ROM offset $28000-$2BFFF
-First byte = Bank number = 0x14
-Second byte = 0x93 = 147 bytes = 146/2 = 73x 2-byte pointers (*INCORRECT, only 66 pointers in this table.*)
+- Text Bank $14/$15, ROM offset $28000-$2BFFF
+- First byte = Bank number = 0x14
+- Second byte = 0x93 = 147 bytes = 146/2 = 73x 2-byte pointers (*INCORRECT, only 66 pointers in this table.*)
 
 *Pointer Data*
 ```
