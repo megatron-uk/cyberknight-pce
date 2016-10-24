@@ -1,5 +1,4 @@
 # Cyber Knight Asset Bank Details
-================================
 
 Many of these details are provided by *Elmer* from *PCEngineFX.com* following a discussion (http://www.pcenginefx.com/forums/index.php?topic=16222.165) relating to the issues of English text overflowing in to 'unused' space in the ROM, following insertion of longer script text.
 
@@ -10,11 +9,11 @@ The options were to then fall back to fixed-length strings (which would result i
 Here follows a break down of the text/asset bank system:
 
 ## Master Bank
-==============
 
 Master Bank 0x01, it is always loaded at PCE memory address 0xC000-0xDFFF.
 
-*Table A*
+**Table A**
+
 Table A, ROM offset 0x02939, is a table of Asset Bank pointers
 This is a table of which Text Bank to load at any point.
 
@@ -30,7 +29,8 @@ This is a table of which Text Bank to load at any point.
 There are 33 bank load addresses, many of which, as shown, are duplicates.
 
 
-*Table B*
+**Table B**
+
 Table B, ROM offset 0x0295a, type = Script Offset pointers.
 This is a table of offsets into the pointer tables at the start of each asset bank.
 
@@ -46,12 +46,10 @@ This is a table of offsets into the pointer tables at the start of each asset ba
 There are 33 asset chunk pointer offset addresses, one for each of the bank load entries in Table A.
 
 ## Asset Banks
-==============
 
 The below text banks are always loaded at 0x4000-0x7FFF
 
 ### Bank 0x0A - 0x0B
-====================
 
 Text Bank $0A/$0B, ROM offset $14000-$17FFF
 First byte = Bank number = 0x0A
@@ -75,7 +73,6 @@ Second byte = 0x0B = 11 = 10/2 = 5x 2-byte pointers
 ```
 
 ### Bank 0x0C - 0x0D
-====================
 
 Text Bank $0C/$0D, ROM offset $18000-$1BFFF
 First byte = Bank number = 0x0C
@@ -109,7 +106,6 @@ Position / Value
 ```
 
 ### Bank 0x0E - 0x0F
-====================
 
 Text Bank $0E/$0F, ROM offset $1C000-$1FFFF
 First byte = Bank number = 0x0E
@@ -138,7 +134,6 @@ Position / Value
 ```
 
 ### Bank 0x14 - 0x15
-====================
 
 Text Bank $14/$15, ROM offset $28000-$2BFFF
 First byte = Bank number = 0x14
