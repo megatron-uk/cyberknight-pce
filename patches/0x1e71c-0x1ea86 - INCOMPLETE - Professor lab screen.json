@@ -51,7 +51,7 @@
         "string_start" : "0x1e75c",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 67,
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "d3", "bc", "de", "ad", "b0", "d9", "5c", "c9", "20", "c0", "b2", "b7", "ad", "b3", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nモジュ‐ルの たいきゅうりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
@@ -65,13 +65,13 @@
         "string_start" : "0x1e79f",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 70,
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "c9", "20", "c0", "de", "b9", "de", "b7", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nインパクトへいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nいんぱくとヘイキノ ダゲキリョクヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is available.\nIt can boost Impact\npower - lets put it\nto use!"
     },
 
     {
@@ -79,13 +79,13 @@
         "string_start" : "0x1e7e5",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 69,
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "b2", "dd", "ca", "df", "b8", "c4", "5c", "cd", "b2", "b7", "c9", "20", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nインパクトへいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
         "alt_text" : " ヲ カイハツシタ。\nいんぱくとヘイキノ メイチュウリツヲ おっぷ\nデキルゾ!\nタダチニ ショリニ トリカカロウ。』<wait>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is available.\nIt can boost accuracy\n - lets put it\n to use!"
     },
 
     {
@@ -93,7 +93,7 @@
         "string_start" : "0x1e82a",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 69,
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "c9", "20", "c0", "de", "b9", "de", "b7", "d8", "ae", "b8", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nレ‐ザ‐へいきの だげきりょくを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",
@@ -103,7 +103,7 @@
         "snes-e" : "Let's start processing it\nimmediately!",
         "accuracy" : 0.602739726027,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : " is available.\nIt can boost Laser\npower - lets put it\n to use!"
     },
 
     {
@@ -111,7 +111,7 @@
         "string_start" : "0x1e86f",
         "method" : 3,
         "start_bytes" : [],
-        "end_bytes" : ["00"],
+        "end_bytes" : ["08", "00"],
         "raw_size" : 68,
         "raw" : ["20", "a6", "20", "b6", "b2", "ca", "c2", "bc", "c0", "a1", "03", "5c", "da", "b0", "bb", "de", "b0", "5c", "cd", "b2", "b7", "c9", "20", "d2", "b2", "c1", "ad", "b3", "d8", "c2", "a6", "20", "5c", "b1", "af", "cc", "df", "5c", "03", "c3", "de", "b7", "d9", "bf", "de", "21", "03", "c0", "c0", "de", "c1", "c6", "20", "bc", "ae", "d8", "c6", "20", "c4", "d8", "b6", "b6", "db", "b3", "a1", "a3", "08", "00"],
         "raw_text" : " を かいはつした。\nレ‐ザ‐へいきの めいちゅうりつを アップ\nできるぞ!\nただちに しょりに とりかかろう。』<wait>",

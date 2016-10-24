@@ -29,7 +29,7 @@
         "raw_text" : "<11><01> Ready?<01> Ok  No<11>",
         "alt_text" : "<11><01> Ready?<01> Ok  No<11>",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "<11><01> Ready?<01> Ok  No<11>"
     },
 
     {

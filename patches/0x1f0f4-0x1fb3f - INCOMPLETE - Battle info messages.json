@@ -425,7 +425,7 @@
         "raw_text" : "<13>セzたいした てきでは おりませんね‥‥",
         "alt_text" : "<13>セzタイシタ テキデハ アリマセンネ‥‥",
         "trans_size" : 36,
-        "trans_text" : "MICA:I do not detect a\nhigh threat.."
+        "trans_text" : "MICA:This is not a\nhigh threat.."
     },
 
     {
@@ -787,7 +787,7 @@
         "snes-e" : "Seems to be the\nWhales'favorite. ",
         "accuracy" : 0.5,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA:Seems to be the\nWhales favorite"
     },
 
     {
@@ -833,7 +833,7 @@
         "snes-e" : "Please begin a\nconcentrated attack. ",
         "accuracy" : 0.9,
         "trans_size" : 40,
-        "trans_text" : "MICA:Please begin a\nconcentrated attack."
+        "trans_text" : "MICA:Concentrate your\nattacks."
     },
 
     {
@@ -1027,7 +1027,7 @@
         "raw_text" : "<13>ルz‥‥どう たたかえばいいのか わかりません‥‥",
         "alt_text" : "<13>るz‥‥ドウ タタカエバイイノカ ワカリマセン‥‥",
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA: You are not\nfighting effectively!"
     },
 
     {
@@ -1101,7 +1101,7 @@
         "snes-e" : "Mica: A message from the\ncook: Yeah! Dinner!",
         "accuracy" : 0.555555555556,
         "trans_size" : 0,
-        "trans_text" : ""
+        "trans_text" : "MICA: A message from the\ncook: Yeah! Dinner!"
     },
 
     {
@@ -1137,7 +1137,7 @@
         "snes-e" : "Mica: A message from the\ndoctor: Don't depend on\nme too much!",
         "accuracy" : 0.833333333333,
         "trans_size" : 57,
-        "trans_text" : "MICA:A message from the\nDr.: Don't depend on\nme too much!"
+        "trans_text" : "MICA:A message from the\nDr: Don't depend on\nme too much!"
     },
 
     {
