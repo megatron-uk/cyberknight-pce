@@ -42,7 +42,7 @@ import json
 VERBOSE = False
 OVERWRITE = False
 ROM_NAME = "Cyber Knight (J).pce"
-OUT_NAME = "CyberKnight Assets.json"
+OUT_DIR = "assets/raw"
 
 from CyberKnightAssetBanks import ASSETS, ASSET_LOAD_TABLE, ASSET_OFFSET_TABLE
 from CyberKnightAssetBanks import ASSET_LOAD_TABLE_SIZE, ASSET_OFFSET_TABLE_SIZE
@@ -129,7 +129,13 @@ else:
 	print("Input ROM File: %s <- ERROR, input file not found!" % ROM_NAME)
 	sys.exit(2)
 	
-print("Output File: %s" % OUT_NAME)
+if OVERWRITE is False:
+	if os.path.isdir(OUT_DIR):
+		print("Output Dir: %s <- OK" % OUT_DIR)
+	else:
+		print("Output Dir: %s <- ERROR, Path does not exist" % OUT_DIR)
+		sys.exit(2)
+
 print("")
 
 try:
@@ -139,6 +145,7 @@ except Exception as e:
 
 print("There are %s asset banks defined" % len(ASSET_BANKS))
 for ab in ASSET_BANKS:
+	print("===========================================")
 	print("Bank: %s" % hex(ab))
 	print("---> Contains %s asset pointers" % len(ASSETS["asset_banks"][ab]["assets"].keys()))
 	print("---> Region %s - %s" % (hex(ASSETS["asset_banks"][ab]["asset_bank_rom_start_address"]), hex(ASSETS["asset_banks"][ab]["asset_bank_rom_end_address"])))
@@ -172,6 +179,20 @@ for ab in ASSET_BANKS:
 	# Processed assets now contains a list of assets for this bank that have the 
 	# upper limit address embedded, so we know how big each of them are!
 	#print processed_assets
-	print("")
-	time.sleep(2)
+	print("")	
+	print("Seek to %s" % hex(ASSETS["asset_banks"][ab]["asset_bank_rom_start_address"]))
+	file_rom.seek(ASSETS["asset_banks"][ab]["asset_bank_rom_start_address"], 0)
 	
+	# Write out the asset blocks
+	for asset in processed_assets:
+		if asset["asset_type"] == "text":
+			print("---> Extract script asset %s at %s-%s" % (hex(asset["asset_index"]), hex(asset["asset_rom_pointer_address"]), hex(asset["asset_rom_pointer_address_limit"])))
+			chunk_size = asset["asset_rom_pointer_address_limit"] - asset["asset_rom_pointer_address"]
+			asset_chunk = file_rom.read(chunk_size)
+			file_out = open(OUT_DIR + "/" + hex(ab) + "." + hex(asset["asset_index"]) + ".dat", "w")
+			file_out.write(asset_chunk)
+			file_out.close()
+	print("")
+	
+file_rom.close()
+print("Extracted assets are saved in %s" % OUT_DIR)

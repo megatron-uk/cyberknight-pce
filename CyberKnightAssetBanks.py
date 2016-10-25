@@ -598,7 +598,7 @@ ASSETS = {
 					"asset_index" : 0x79,
 					"asset_rom_pointer_value" : 0x78E4,
 					"asset_rom_pointer_address" : 0x2B8E4,
-					"asset_type" : "text"
+					"asset_type" : ""
 				},
 				0x7B : {
 					"asset_index" : 0x7B,
