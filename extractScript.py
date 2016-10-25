@@ -110,15 +110,14 @@ def translate_double_string(bytes, trans_table_double, alt=False):
 			print "Not a valid double height string"
 		return bytes
 
-def translate_string(byte_sequence, trans_table, trans_table_double, alt=False):
+def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, old_assets = True):
 	"""
 	translate_string - construct the actual text, using multi-byte characters
 	where appropriate, that represent the hex codes found in the rom.
 	e.g. 0x1A 0x5F 0x76 0x61 0x62 0x63 0x64 0x65 0x00 = <control><control>vabcde<end>
 	"""
 
-	if VERBOSE:
-		print hex(byte_sequence["start_pos"])
+	
 					
 	# method1 has two leading control bytes and a null byte as terminator
 	text_key = "text"
@@ -126,31 +125,39 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False):
 	switch_mode = False
 	# Record the start bytes
 	# TO DO!
-	if (byte_sequence["method"] == METHOD_1):
-		offset = METHOD_1_OFFSET
-		trailing_bytes = METHOD_1_TRAILING_BYTES
-		switch_mode = False
+	if old_assets:
+		
+		if VERBOSE:
+			print hex(byte_sequence["start_pos"])
+		
+		if (byte_sequence["method"] == METHOD_1):
+			offset = METHOD_1_OFFSET
+			trailing_bytes = METHOD_1_TRAILING_BYTES
+			switch_mode = False
+		
+		if (byte_sequence["method"] == METHOD_2):
+			offset = METHOD_2_OFFSET
+			trailing_bytes = METHOD_2_TRAILING_BYTES
+			switch_mode = True
+				
+		if (byte_sequence["method"] == METHOD_3):
+			switch_mode = False
+			offset = METHOD_3_OFFSET
+			trailing_bytes = METHOD_3_TRAILING_BYTES
+		
+		if alt:
+			switch_mode = not switch_mode
+			text_key = "alt_text"
 	
-	if (byte_sequence["method"] == METHOD_2):
-		offset = METHOD_2_OFFSET
-		trailing_bytes = METHOD_2_TRAILING_BYTES
-		switch_mode = True
-			
-	if (byte_sequence["method"] == METHOD_3):
-		switch_mode = False
-		offset = METHOD_3_OFFSET
-		trailing_bytes = METHOD_3_TRAILING_BYTES
-	
-	if alt:
-		switch_mode = not switch_mode
-		text_key = "alt_text"
-	
+		if VERBOSE:
+			print ""
+			print "String @ %s (%s bytes)" % (hex(byte_sequence["start_pos"]), len(byte_sequence["bytes"]))
+	else:
+		trailing_bytes = 0
 	
 	byte_sequence[text_key] = []
 	already_i = 0
-	if VERBOSE:
-		print ""
-		print "String @ %s (%s bytes)" % (hex(byte_sequence["start_pos"]), len(byte_sequence["bytes"]))
+	
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
 		#print "Index %s" % i
 		already_decoded = False
@@ -596,148 +603,153 @@ def document_stats(report_stats):
 ########## < Run-time code start here > ##############
 ######################################################
 
-try:
-	opts, args = getopt.getopt(sys.argv[1:], "hvi:t:o:f")
-except getopt.GetoptError as err:
-	print err
-	sys.exit(2)
+def main():
 
-print ""
-print "extractScript.py - Script extractor for Cyber Knight"
-print "----------------"
-print ""
-
-for o, a in opts:
-	if o == "-h":
-		print "A simple tool for extracting text dialogue from the game 'Cyber Knight' for the PC-Engine."
-		print "The tool scans a number of locations within the input ROM file and extracts dialogue strings"
-		print "in one of several known formats."
-		print "The output is then written to a well-formatted JSON file for translation and later insertion."
-		print ""
-		print "Options:"
-		print "-h	Show help text"
-		print "-v	Enable verbose output"
-		print "-i	Input file name (e.g. 'Cyber Knight (J).pce')"
-		print "-t	Translation file name (e.g. 'CyberKnightTranslation.csv')"
-		print "-o	Output file name (e.g. 'Cyber Knight.json')"
-		print "-f	Force overwite of output file even if it already exists"
-		print ""
-		print "Edit config.py to your needs (rom hex locations, string type, etc) and then run the script."
-		print ""
-		print "Example:"
-		print "extractScript.py -i 'Cyber Knight (J).pce' -t 'table.csv' -o 'patches/script.json'"
-		print ""
-		sys.exit(0)
-		
-	if o == "-v":
-		VERBOSE = True
-		
-	if o == "-i":
-		ROM_NAME = a
-
-	if o == "-t":
-		TABLE_NAME = a
-
-	if o == "-o":
-		OUT_NAME = a
-		
-	if o == "-f":
-		OVERWRITE = True
-
-#############################################
-# Print configuration
-#############################################
-
-print "Configuration"
-print "============="
-print "Verbose: %s" % VERBOSE
-print "Over-write: %s" % OVERWRITE
-if os.path.isfile(ROM_NAME):
-	print "Input ROM File: %s <- OK" % ROM_NAME
-else:
-	print "Input ROM File: %s <- ERROR, input file not found!" % ROM_NAME
-	sys.exit(2)
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "hvi:t:o:f")
+	except getopt.GetoptError as err:
+		print err
+		sys.exit(2)
 	
-if os.path.isfile(TABLE_NAME):
-	print "Translation Table File: %s <- OK" % TABLE_NAME
-else:
-	print "Translation Table File: %s <- ERROR, translation table not found!" % TABLE_NAME
-	sys.exit(2)
-
-print "Output File: %s" % OUT_NAME
-print ""
-
-#############################################
-# Loop over defined ranges and extract text
-#############################################
-
-print "Extracting dialogue"
-print "==================="
-print ""
-found_byte_strings = []
-# Sort dialogue ranges by starting address
-SORTED_BYTES = sorted(BYTES, key=lambda t: t[1])
-for byte_range in SORTED_BYTES:
-	data = []
-	cnt = 0
-	print "================="
-	print "Extracting %s-%s" % (hex(byte_range[1]), hex(byte_range[2]))
-	print "-----------------"
-	if byte_range[0] == METHOD_1:
-		print "Extract Method 1 : Insert Method %s" % (byte_range[3])
-		data = {}
-		data["block_description"] = byte_range[4]
-		data["block_start"] = byte_range[1]
-		data["block_end"] = byte_range[2]
-		data["insert_method"] = byte_range[3]
-		data["data"] = method1(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
-		found_byte_strings.append(data)
-	if byte_range[0] == METHOD_2:
-		print "Extract Method 2 : Insert Method %s" % (byte_range[3])
-		data = {}
-		data["block_description"] = byte_range[4]
-		data["block_start"] = byte_range[1]
-		data["block_end"] = byte_range[2]
-		data["insert_method"] = byte_range[3]
-		data["data"] = method2(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
-		found_byte_strings.append(data)
-	if byte_range[0] == METHOD_3:
-		print "Extract Method 3 : Insert Method %s " % (byte_range[3])
-		data = {}
-		data["block_description"] = byte_range[4]
-		data["block_start"] = byte_range[1]
-		data["block_end"] = byte_range[2]
-		data["insert_method"] = byte_range[3]
-		data["end_byte"] = byte_range[5]
-		data["data"] = method3(data["block_start"], data["block_end"], data["insert_method"], data["block_description"], data["end_byte"])
-		found_byte_strings.append(data)
-	print "Total Strings: %s" % len(data["data"])
-	for d in data["data"]:
-		cnt = cnt + d["size"]
-	print "Total Bytes: %s" % cnt
 	print ""
-print "Done"
-if len(SORTED_BYTES) > 0:
+	print "extractScript.py - Script extractor for Cyber Knight"
+	print "----------------"
+	print ""
+	
+	for o, a in opts:
+		if o == "-h":
+			print "A simple tool for extracting text dialogue from the game 'Cyber Knight' for the PC-Engine."
+			print "The tool scans a number of locations within the input ROM file and extracts dialogue strings"
+			print "in one of several known formats."
+			print "The output is then written to a well-formatted JSON file for translation and later insertion."
+			print ""
+			print "Options:"
+			print "-h	Show help text"
+			print "-v	Enable verbose output"
+			print "-i	Input file name (e.g. 'Cyber Knight (J).pce')"
+			print "-t	Translation file name (e.g. 'CyberKnightTranslation.csv')"
+			print "-o	Output file name (e.g. 'Cyber Knight.json')"
+			print "-f	Force overwite of output file even if it already exists"
+			print ""
+			print "Edit config.py to your needs (rom hex locations, string type, etc) and then run the script."
+			print ""
+			print "Example:"
+			print "extractScript.py -i 'Cyber Knight (J).pce' -t 'table.csv' -o 'patches/script.json'"
+			print ""
+			sys.exit(0)
+			
+		if o == "-v":
+			VERBOSE = True
+			
+		if o == "-i":
+			ROM_NAME = a
+	
+		if o == "-t":
+			TABLE_NAME = a
+	
+		if o == "-o":
+			OUT_NAME = a
+			
+		if o == "-f":
+			OVERWRITE = True
+	
 	#############################################
-	# Write strings to document
+	# Print configuration
 	#############################################
 	
-	print "\nWriting Document"
-	print "=================="
-	report_stats = write_export(found_byte_strings)
+	print "Configuration"
+	print "============="
+	print "Verbose: %s" % VERBOSE
+	print "Over-write: %s" % OVERWRITE
+	if os.path.isfile(ROM_NAME):
+		print "Input ROM File: %s <- OK" % ROM_NAME
+	else:
+		print "Input ROM File: %s <- ERROR, input file not found!" % ROM_NAME
+		sys.exit(2)
+		
+	if os.path.isfile(TABLE_NAME):
+		print "Translation Table File: %s <- OK" % TABLE_NAME
+	else:
+		print "Translation Table File: %s <- ERROR, translation table not found!" % TABLE_NAME
+		sys.exit(2)
+	
+	print "Output File: %s" % OUT_NAME
+	print ""
 	
 	#############################################
-	# Show what we found
+	# Loop over defined ranges and extract text
 	#############################################
 	
-	print "\nDocument stats"
-	print "================"
-	document_stats(report_stats)
-	
-	#############################################
-	# Show any missing characters
-	#############################################
-	
-	print "\nMissing data stats"
-	print "===================="
-	missing_stats()
+	print "Extracting dialogue"
+	print "==================="
+	print ""
+	found_byte_strings = []
+	# Sort dialogue ranges by starting address
+	SORTED_BYTES = sorted(BYTES, key=lambda t: t[1])
+	for byte_range in SORTED_BYTES:
+		data = []
+		cnt = 0
+		print "================="
+		print "Extracting %s-%s" % (hex(byte_range[1]), hex(byte_range[2]))
+		print "-----------------"
+		if byte_range[0] == METHOD_1:
+			print "Extract Method 1 : Insert Method %s" % (byte_range[3])
+			data = {}
+			data["block_description"] = byte_range[4]
+			data["block_start"] = byte_range[1]
+			data["block_end"] = byte_range[2]
+			data["insert_method"] = byte_range[3]
+			data["data"] = method1(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
+			found_byte_strings.append(data)
+		if byte_range[0] == METHOD_2:
+			print "Extract Method 2 : Insert Method %s" % (byte_range[3])
+			data = {}
+			data["block_description"] = byte_range[4]
+			data["block_start"] = byte_range[1]
+			data["block_end"] = byte_range[2]
+			data["insert_method"] = byte_range[3]
+			data["data"] = method2(data["block_start"], data["block_end"], data["insert_method"], data["block_description"])
+			found_byte_strings.append(data)
+		if byte_range[0] == METHOD_3:
+			print "Extract Method 3 : Insert Method %s " % (byte_range[3])
+			data = {}
+			data["block_description"] = byte_range[4]
+			data["block_start"] = byte_range[1]
+			data["block_end"] = byte_range[2]
+			data["insert_method"] = byte_range[3]
+			data["end_byte"] = byte_range[5]
+			data["data"] = method3(data["block_start"], data["block_end"], data["insert_method"], data["block_description"], data["end_byte"])
+			found_byte_strings.append(data)
+		print "Total Strings: %s" % len(data["data"])
+		for d in data["data"]:
+			cnt = cnt + d["size"]
+		print "Total Bytes: %s" % cnt
+		print ""
+	print "Done"
+	if len(SORTED_BYTES) > 0:
+		#############################################
+		# Write strings to document
+		#############################################
+		
+		print "\nWriting Document"
+		print "=================="
+		report_stats = write_export(found_byte_strings)
+		
+		#############################################
+		# Show what we found
+		#############################################
+		
+		print "\nDocument stats"
+		print "================"
+		document_stats(report_stats)
+		
+		#############################################
+		# Show any missing characters
+		#############################################
+		
+		print "\nMissing data stats"
+		print "===================="
+		missing_stats()
+
+if __name__ == "main":
+	main()
