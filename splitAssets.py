@@ -51,13 +51,13 @@ except:
 
 VERBOSE = False
 OVERWRITE = False
-INPUT_NAME = "assets/raw/0xa.0x1.dat"
+INPUT_NAME = "assets/raw/0x14.0x83.dat"
 OUT_DIR = "assets/split"
 
 from CyberKnightAssetBanks import ASSETS, ASSET_LOAD_TABLE, ASSET_OFFSET_TABLE
 from CyberKnightAssetBanks import ASSET_LOAD_TABLE_SIZE, ASSET_OFFSET_TABLE_SIZE
 
-from extractScript import translate_string
+from translators import translate_string
 from Table import load_table, load_table_double
 
 ASSET_BANKS = ASSETS["asset_banks"].keys()
@@ -143,55 +143,49 @@ print("Parsing text strings")
 
 ttable = load_table()
 ttable2 = load_table_double()
-string_number = 1
+string_number = 0
 byte_sequence = {
-			"bytes" : [],
-			"encoded_bytes" : [],
-			"text" : "",
-			"alt_text" : "",
-			"start_pos" : 0,
-		}
+	"bytes" : [],
+	"text" : "",
+	"alt_text" : "",
+	"start_pos" : int(data["asset_rom_pointer_address"],16)
+}
 byte_sequences = []
+pos = int(data["asset_rom_pointer_address"],16)
 for byte in data["asset_chunk"]:
-	
-	byte = int(byte,16)
-	if byte != "\x00":
+	pos += 1
+	byte = byte.upper()
+	if byte != "00":
+		# Not an end marker, so add it to the string and loop again
 		byte_sequence["bytes"].append(byte)
-		#byte_sequence["encoded_bytes"].append(str(binascii.hexlify(byte)))
 	else:
-		print("Found a %s length byte sequence" % len(byte_sequence["encoded_bytes"]))
-		
+
+		# Part 1, translate the string and add it to the list
+		string_number += 1
+		print("%3s: %s Found a %s length byte sequence" % (string_number, hex(pos - len(byte_sequence["bytes"])), len(byte_sequence["bytes"])))
 		byte_sequence = translate_string(byte_sequence, ttable, ttable2, False, False)
 		byte_sequence = translate_string(byte_sequence, ttable, ttable2, True, False)
-		print(byte_sequence["text"])
-		
-		split_file = open(INPUT_NAME + ".split/" + str(string_number), "w")
-		for c in byte_sequence["text"]:
-			split_file.write(c)
-		split_file.close()
 		byte_sequences.append(byte_sequence)
-		string_number += 1
-		# Add the end byte
+		
+		# Part 2, add the end byte
 		byte_sequence = {
+			"string_number" : string_number,
 			"bytes" : [byte],
-			#"encoded_bytes" : [str(binascii.hexlify(byte))],
 			"text" : "",
 			"alt_text" : "",
-			"start_pos" : 0,
+			"start_pos" : (pos - len(byte_sequence["bytes"])),
 		}
-		print("Found a 0 length byte sequence")
+		string_number += 1
+		print("%3s: Found a 1 byte end marker" % string_number)
 		byte_sequences.append([byte_sequence])
-		#split_file = open(INPUT_NAME + ".split/" + str(string_number), "w")
-		#for c in byte_sequence["text"]:
-		#	split_file.write(c)
-		#split_file.close()
-		# Create anew byte sequence
+		
+		# Make a new, empty data structure for the next string
 		byte_sequence = {
+			"string_number" : string_number,
 			"bytes" : [],
-			"encoded_bytes" : [],
 			"text" : "",
 			"alt_text" : "",
-			"start_pos" : 0,
+			"start_pos" : pos,
 		}
 		
 print(len(byte_sequences))
