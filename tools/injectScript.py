@@ -36,7 +36,7 @@ import json
 try:
 	import cStringIO as StringIO
 except:
-	print "cStringIO not available"
+	print("cStringIO not available, using StringIO")
 	import StringIO
 
 ######################################################

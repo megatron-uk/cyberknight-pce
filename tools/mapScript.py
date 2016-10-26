@@ -37,16 +37,15 @@ import hashlib
 import re
 try:
 	import simplejson as json
-	#print "Loading simplejson"
 except:
-	print "Warning: Falling back to json"
+	print("Warning: Falling back to json")
 	import json
 import difflib
 
 try:
 	import cStringIO as StringIO
 except:
-	print "cStringIO not available"
+	print("cStringIO not available")
 	import StringIO
 
 ######################################################
@@ -85,11 +84,11 @@ def squashPCEPatchSegment(raw_text):
 	""" Squash a section of japanese PCE text by removing spaces, control codes etc """
 
 	# Does a pre-squashed string already exist?
-	#print "PCE Squashing :",raw_text
+	#print("PCE Squashing :",raw_text
 	h = hashlib.md5(raw_text.encode('utf-8')).hexdigest()
 	if h in squashed_pce_strings.keys():
 		t = squashed_pce_strings[h]
-		#print "PCE Found     :", t
+		#print("PCE Found     :", t
 		return t
 	else:
 	 	# Remove control bytes
@@ -125,18 +124,18 @@ def squashPCEPatchSegment(raw_text):
 			
 		if len(text) > 1:
 			squashed_pce_strings[h] = text
-			#print "PCE Squashed :", text
+			#print("PCE Squashed :", text
 	return text
 
 def squashSNESPatchSegment(snes_j_text):
 	""" Squash a section of japanese SNES text by removing spaces, control codes etc """
 
 	# Does a pre-squashed string already exist?
-	#print "SNES Squashing:", snes_j_text
+	#print("SNES Squashing:", snes_j_text
 	h = hashlib.md5(snes_j_text).hexdigest()
         if h in squashed_snes_strings.keys():
 		t = squashed_snes_strings[h]
-		#print "SNES Found    :", t
+		#print("SNES Found    :", t
 		return t
         else:
 		# Remove control bytes
@@ -194,7 +193,7 @@ def squashSNESPatchSegment(snes_j_text):
 		
 		if len(text) > 1:
 			squashed_snes_strings[h] = text
-			#print "SNES Squashed :", text
+			#print("SNES Squashed :", text
 	return text
 
 
@@ -203,15 +202,15 @@ def selectMatch(patch_segment, possible_matches):
 	""" Display a menu of possible matches """
 	
 	cnt = 0
-	print ""
+	print("")
 	for d in possible_matches:
-		print "%s." % cnt
-		print "    Accuracy   : %.5f" % d["best"]
+		print("%s." % cnt)
+		print("    Accuracy   : %.5f" % d["best"])
 		
 		######################################################
 		# Print out the PCE raw text
 		try:
-			print "    PCE Raw    : %s" % unicode(patch_segment["raw_text"], 'shift-jis').replace('\n', '\\n')
+			print("    PCE Raw    : %s" % unicode(patch_segment["raw_text"], 'shift-jis').replace('\n', '\\n'))
 		except:
 			sys.stdout.write("    PCE Raw    : ")
 			for c in patch_segment["raw_text"].replace('\n', '\\n'):
@@ -226,7 +225,7 @@ def selectMatch(patch_segment, possible_matches):
 			sys.stdout.flush()
 		# Print out the SNES raw text
 		try:
-			print "    SNES Raw   : %s" % d["snes-j"].replace('\n', '\\n')
+			print("    SNES Raw   : %s" % d["snes-j"].replace('\n', '\\n'))
 			sys.stdout.flush()
 		except:
 			sys.stdout.write("    SNES Raw   : ")
@@ -244,28 +243,28 @@ def selectMatch(patch_segment, possible_matches):
 			sys.stdout.flush()
 				
 		######################################################	
-		print ""
-		print "    PCE Squash : %s" % d["pce-squashed"]
-		print "    SNES Squash: %s" % d["snes-squashed"]
+		print("")
+		print("    PCE Squash : %s" % d["pce-squashed"])
+		print("    SNES Squash: %s" % d["snes-squashed"])
 
 		######################################################	
 		# Print out the SNES translation
-		print ""
-		print "    SNES Trans : %s" % d["snes-e"].replace('\n', '\\n')
-		print ""
+		print("")
+		print("    SNES Trans : %s" % d["snes-e"].replace('\n', '\\n'))
+		print("")
 		sys.stdout.flush()
 		cnt += 1
 	
 	# Allow user to choose translation
-	print "Select a choice: "
+	print("Select a choice: ")
 	c = raw_input()
 	try:
 		ci = int(c)
 	except:
-		print "Skipped SNES translation"
+		print("Skipped SNES translation")
 		return False
 	if ci in range(0, cnt):
-		print "Selected SNES translation %s" % ci
+		print("Selected SNES translation %s" % ci)
 		patch_segment["snes-e"] = possible_matches[ci]["snes-e"]
 		patch_segment["snes-j"] = possible_matches[ci]["snes-j"]
 		patch_segment["accuracy"] = possible_matches[ci]["best"]
@@ -273,7 +272,7 @@ def selectMatch(patch_segment, possible_matches):
 		patch_segment["snes_patched"] = 1
 		return True
 	else:
-		print "Skipped SNES translation"
+		print("Skipped SNES translation")
 		return False
 
 def mapScript(patchfile, patch, snes_table):
@@ -289,10 +288,10 @@ def mapScript(patchfile, patch, snes_table):
 			ut += 1
 		if len(patch_segment["raw_text"]) < 2:
 			tiny += 1
-	print "Skipping %s tiny strings" % tiny
-	print "Attempting map of %s untranslated / unmatched strings" % (ut - tiny)
+	print("Skipping %s tiny strings" % tiny)
+	print("Attempting map of %s untranslated / unmatched strings" % (ut - tiny))
 	if VERBOSE:
-		print "---"
+		print("---")
 	for patch_segment in patch["data"]["data"]:
 		if (len(patch_segment["trans_text"]) == 0) and (len(patch_segment["raw"]) > 2) and ("snes-e" not in patch_segment.keys()):
 			matched = False
@@ -318,7 +317,7 @@ def mapScript(patchfile, patch, snes_table):
 						break
 			if matched:
 				if VERBOSE:
-					print "%s - Successfully mapped" % patch_segment["string_start"]
+					print("%s - Successfully mapped" % patch_segment["string_start"])
 				patch_segment["snes"] = { 'snes-e' : snes_table[snes_text], 'snes-j' : snes_text, 'ratio' : 1.0 }
 				patch_segment["snes_patched"] = 1
 				mt += 1
@@ -359,7 +358,7 @@ def mapScript(patchfile, patch, snes_table):
         	                        # Store the single best translation
 					if len(best_matches) == 1:
 						if best_matches[0]["best"] < FUZZY_AUTO_SELECT_LIMIT:
-							print "Warning! Best match not high enough to auto select - confirm below:"
+							print("Warning! Best match not high enough to auto select - confirm below:")
 							patch_number = selectMatch(patch_segment, best_matches)
 							if patch_number:
 								mt += 1
@@ -390,9 +389,9 @@ def mapScript(patchfile, patch, snes_table):
 				# Get highest 3
 				# Prompt for user action
 	if VERBOSE:
-		print "---"
-	print "Mapping routine found %s matches" % mt
-	print "Mapping routine left %s untranslated" % (ut - mt - tiny)
+		print("---")
+	print("Mapping routine found %s matches" % mt)
+	print("Mapping routine left %s untranslated" % (ut - mt - tiny))
 	return patch
 	
 ######################################################
@@ -409,7 +408,7 @@ def write_export(patch, filename):
 		if OVERWRITE:
 			f = open(OUT_DIR_NAME + "/" + filename, "w")
 		else:
-			print "Sorry, refusing to overwrite existing output file. Perhaps use the '-f' flag" 
+			print("Sorry, refusing to overwrite existing output file. Perhaps use the '-f' flag")
 			sys.exit(2)
 	else:
 		f = open(OUT_DIR_NAME + "/" + filename, "w")
@@ -528,7 +527,7 @@ def write_export(patch, filename):
 	f.write("}\n")
 	f.close()
 
-	print "Done"
+	print("Done")
 	return stats
 	
 ######################################################
@@ -538,35 +537,35 @@ def write_export(patch, filename):
 try:
 	opts, args = getopt.getopt(sys.argv[1:], "hvSs:d:o:p:f")
 except getopt.GetoptError as err:
-	print err
+	print(err)
 	sys.exit(2)
 
-print ""
-print "mapScript.py - Map untranslated patches from the PC-Engine CyberKnight to the SNES script"
-print "----------------"
-print ""
+print("")
+print("mapScript.py - Map untranslated patches from the PC-Engine CyberKnight to the SNES script")
+print("----------------")
+print("")
 
 SHOW_SUMMARY = False
 for o, a in opts:
 	if o == "-h":
-		print "A tool which can map sections of untranslated patch files (output generated by extractScript.py)"
-		print "to translated sections from the English SNES translation, writing those translated strings back"
-		print "into the PC-Engine patch files for use in injectScript.py later."
-		print "If translated sections are found, then they are used instead of the SNES translation."
-		print ""
-		print "Options:"
-		print "-h	Show help text"
-		print "-v	Enable verbose output"
-		print "-S	Show summary of patch files only"
-		print "-s	SNES script file name (e.g. 'CyberKnightSNES.csv')"
-		print "-d	Directory containing untranslated/partially translated patches (.json files) (e.g. './patches/')"
-		print "-o	Directory to write the modified translation patches (.json files) (e.g. './patches-processed/')"
-		print "-f	Overwrite existing files (otherwise dry-run)"
-		print "-p	Pass number (1 == strictest matching, 3 == least strict matching)"
-		print ""
-		print "Example:"
-		print "mapScript.py -s 'CyberKnightSNES.csv' -d './patches/' -o './patches-processed/' -p 1"
-		print ""
+		print("A tool which can map sections of untranslated patch files (output generated by extractScript.py)")
+		print("to translated sections from the English SNES translation, writing those translated strings back")
+		print("into the PC-Engine patch files for use in injectScript.py later.")
+		print("If translated sections are found, then they are used instead of the SNES translation.")
+		print("")
+		print("Options:")
+		print("-h	Show help text")
+		print("-v	Enable verbose output")
+		print("-S	Show summary of patch files only")
+		print("-s	SNES script file name (e.g. 'CyberKnightSNES.csv')")
+		print("-d	Directory containing untranslated/partially translated patches (.json files) (e.g. './patches/')")
+		print("-o	Directory to write the modified translation patches (.json files) (e.g. './patches-processed/')")
+		print("-f	Overwrite existing files (otherwise dry-run)")
+		print("-p	Pass number (1 == strictest matching, 3 == least strict matching)")
+		print("")
+		print("Example:")
+		print("mapScript.py -s 'CyberKnightSNES.csv' -d './patches/' -o './patches-processed/' -p 1")
+		print("")
 		sys.exit(0)
 		
 	if o == "-v":
@@ -601,46 +600,46 @@ FUZZY_BEST_LIMIT = FUZZY_LEVELS[str(PASS_NUMBER)]["FUZZY_BEST_LIMIT"]
 # Print configuration
 #############################################
 
-print "Configuration"
-print "============="
-print "Verbose: %s" % VERBOSE
-print "Over-write: %s" % OVERWRITE
-print "Pass Type: %s" % PASS_NUMBER
+print("Configuration")
+print("=============")
+print("Verbose: %s" % VERBOSE)
+print("Over-write: %s" % OVERWRITE)
+print("Pass Type: %s" % PASS_NUMBER)
 	
 if os.path.isfile(SNES_SCRIPT):
-	print "SNES Script File: %s <- OK" % SNES_SCRIPT
+	print("SNES Script File: %s <- OK" % SNES_SCRIPT)
 else:
-	print "SNES Script File: %s <- ERROR, SNES script not found!" % SNES_SCRIPT
+	print("SNES Script File: %s <- ERROR, SNES script not found!" % SNES_SCRIPT)
 	sys.exit(2)
 	
 if os.path.isdir(OUT_DIR_NAME):
-	print "Output Directory: %s <- OK" % OUT_DIR_NAME
+	print("Output Directory: %s <- OK" % OUT_DIR_NAME)
 else:
-	print "Output Directory: %s <- ERROR, directory not found!" % OUT_DIR_NAME
+	print("Output Directory: %s <- ERROR, directory not found!" % OUT_DIR_NAME)
 	sys.exit(2)
 	
 if os.path.isdir(PATCH_DIR_NAME):
-	print "Patch Directory: %s <- OK" % PATCH_DIR_NAME
+	print("Patch Directory: %s <- OK" % PATCH_DIR_NAME)
 	for d in os.listdir(PATCH_DIR_NAME):
 		if os.path.isfile(PATCH_DIR_NAME + "/" + d) and (d.endswith("json")):
 			PATCH_FILES[d] = {}
 	if len(PATCH_FILES.keys()) < 1:
-		print "Patches Found: 0 <- ERROR, no patches found!"
+		print("Patches Found: 0 <- ERROR, no patches found!")
 		sys.exit(2)
 	else:
-		print "Patches Found: %s <- OK" % len(PATCH_FILES) 
-		print ""
-		print "Patch Summary"
-		print "============="
+		print("Patches Found: %s <- OK" % len(PATCH_FILES)) 
+		print("")
+		print("Patch Summary")
+		print("=============")
 		keys = PATCH_FILES.keys()
 		keys.sort()
 		total_tot = 0
 		total_t = 0
 		total_sm = 0
 		total_tiny = 0
-		print "---------|------------|------------|-------|---------------"
-		print "  Strings|Translations|SNES matches|Tiny   | Patch Name"
-		print "---------|------------|------------|-------|---------------"
+		print("---------|------------|------------|-------|---------------")
+		print("  Strings|Translations|SNES matches|Tiny   | Patch Name")
+		print("---------|------------|------------|-------|---------------")
 		for d in keys:
 			try:
 				PATCH_FILES[d]["json"] = open(PATCH_DIR_NAME + "/" + d).read()
@@ -660,45 +659,45 @@ if os.path.isdir(PATCH_DIR_NAME):
 					if len(b["raw_text"]) < 2:
 						tiny += 1
 						total_tiny += 1
-				print "- %4s   |%4s /%4s  | %4s /%4s |  %3s  | %s" % (tot, t, tot, sm, tot, tiny, d)
+				print("- %4s   |%4s /%4s  | %4s /%4s |  %3s  | %s" % (tot, t, tot, sm, tot, tiny, d))
 			except Exception as e:
 				print traceback.format_exc()
-				print "- %s <- ERROR, not a valid JSON file" % d
+				print("- %s <- ERROR, not a valid JSON file" % d)
 				print e
-		print "---------|------------|------------|-------|---------------"
-		print "  Strings|Translations|SNES matches|Tiny   | Patch Name"
-		print "---------|------------|------------|-------|---------------"
-		print "- %4s    %4s / %4s  %4s / %4s    %3s " % (total_tot, total_t, total_tot, total_sm, total_tot, total_tiny)
+		print("---------|------------|------------|-------|---------------")
+		print("  Strings|Translations|SNES matches|Tiny   | Patch Name")
+		print("---------|------------|------------|-------|---------------")
+		print("- %4s    %4s / %4s  %4s / %4s    %3s " % (total_tot, total_t, total_tot, total_sm, total_tot, total_tiny))
 			
-		print ""
-		print "Patch Summary Key"
-		print "================="
-		print "Strings      : Total number of text strings in the patch file"
-		print "Translations : How many strings already have we added a full english translation for?"
-		print "SNES Matches : How many strings have matching SNES english text that canbe used as a basis for an english translation?"
-		print "Tiny         : How many strings are sub-2 characters (ie not text)?"
+		print("")
+		print("Patch Summary Key")
+		print("=================")
+		print("Strings      : Total number of text strings in the patch file")
+		print("Translations : How many strings already have we added a full english translation for?")
+		print("SNES Matches : How many strings have matching SNES english text that canbe used as a basis for an english translation?")
+		print("Tiny         : How many strings are sub-2 characters (ie not text)?")
 		
 		if SHOW_SUMMARY:
 			sys.exit(0)
 else:
-	print "Patch Directory: %s <- ERROR, directory not found!" % PATCH_DIR_NAME
+	print("Patch Directory: %s <- ERROR, directory not found!" % PATCH_DIR_NAME)
 	sys.exit(2)
 
-print ""
+print(""
 
 #################################################
 # Use each patch file in turn
 #################################################
-print "Mapping Untranslated Patches"
-print "============================"
+print("Mapping Untranslated Patches")
+print("============================")
 FILE = StringIO.StringIO()
 keys = PATCH_FILES.keys()
 keys.sort()
 snes_table = load_snes_table(SNES_SCRIPT)
 for f in keys:
-	print ""
-	print "================="
-	print "Mapping %s" % f
+	print("")
+	print("=================")
+	print("Mapping %s" % f)
 
 	t = 0
 	ut = 0
@@ -711,14 +710,14 @@ for f in keys:
 			ut += 1
 		if len(patch_segment["raw_text"]) < 2:
 			tiny += 1
-	print "Total of %s strings" % tot
-	print "Ignoring %s existing translations or SNES matches" % t
-	print "Skipping %s tiny strings" % tiny
-	print "Mapping %s untranslated strings"	% (ut - tiny)
+	print("Total of %s strings" % tot)
+	print("Ignoring %s existing translations or SNES matches" % t)
+	print("Skipping %s tiny strings" % tiny)
+	print("Mapping %s untranslated strings"	% (ut - tiny))
 	if (os.path.isfile(OUT_DIR_NAME + "/" + f)) and (OVERWRITE == False):
-		print "Skipped - an existing process file was found"
+		print("Skipped - an existing process file was found")
 	else:
 		patch = mapScript(f, PATCH_FILES[f], snes_table)
 		write_export(patch, f)
-	print "-----------------"
-	print ""
+	print("-----------------")
+	print("")

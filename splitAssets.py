@@ -32,7 +32,18 @@ import traceback
 import getopt
 import struct
 import binascii
-import json
+try:
+	import simplejson as json
+except:
+	print("Warning: Falling back to json")
+	import json
+import difflib
+
+try:
+	import cStringIO as StringIO
+except:
+	print("cStringIO not available")
+	import StringIO
 
 ######################################################
 ########## < Config starts here > ####################
@@ -109,34 +120,44 @@ if OVERWRITE is False:
 	else:
 		print("Output Dir: %s <- ERROR, Path does not exist" % OUT_DIR)
 		sys.exit(2)
-		
-try:
-	f = open(INPUT_NAME, "ro")
-	if os.path.isdir(INPUT_NAME + ".split"):
-		pass
-	else:
-		os.mkdir(INPUT_NAME + ".split")
-except Exception as e:
-	print(e)
-	sys.exit(2)
-	
-bytes = f.read()
-byte_sequences = []
-byte_sequence = {
-	"bytes" : [],
-	"encoded_bytes" : [],
-	"text" : "",
-	"alt_text" : "",
-	"start_pos" : 0,
-}
+print("")
+
+#########################################################
+# This is the code that parses the binary data and splits
+# the text strings.
+#########################################################
+
+print("Loading asset file %s" % INPUT_NAME)
+file_data = open(INPUT_NAME).read()
+data = json.loads(file_data)
+data["strings"] = []
+print("Asset Bank: %s" % data["bank"])
+print("Asset Index: %s" % data["asset_index"])
+print("Asset Pointer: %s" % data["asset_rom_pointer_address"])
+print("Asset ROM Address: %s-%s" % (data["asset_rom_pointer_address"], data["asset_rom_pointer_address_limit"]))
+print("Asset Size: %s" % data["asset_size"])
+
+# Rebuild the binary
+print("")
+print("Parsing text strings")
+
 ttable = load_table()
 ttable2 = load_table_double()
 string_number = 1
-for b in bytes:
-	byte = struct.unpack('c', b)[0]
+byte_sequence = {
+			"bytes" : [],
+			"encoded_bytes" : [],
+			"text" : "",
+			"alt_text" : "",
+			"start_pos" : 0,
+		}
+byte_sequences = []
+for byte in data["asset_chunk"]:
+	
+	byte = int(byte,16)
 	if byte != "\x00":
 		byte_sequence["bytes"].append(byte)
-		byte_sequence["encoded_bytes"].append(str(binascii.hexlify(byte)))
+		#byte_sequence["encoded_bytes"].append(str(binascii.hexlify(byte)))
 	else:
 		print("Found a %s length byte sequence" % len(byte_sequence["encoded_bytes"]))
 		
@@ -153,17 +174,17 @@ for b in bytes:
 		# Add the end byte
 		byte_sequence = {
 			"bytes" : [byte],
-			"encoded_bytes" : [str(binascii.hexlify(byte))],
+			#"encoded_bytes" : [str(binascii.hexlify(byte))],
 			"text" : "",
 			"alt_text" : "",
 			"start_pos" : 0,
 		}
 		print("Found a 0 length byte sequence")
 		byte_sequences.append([byte_sequence])
-		split_file = open(INPUT_NAME + ".split/" + str(string_number), "w")
-		for c in byte_sequence["text"]:
-			split_file.write(c)
-		split_file.close()
+		#split_file = open(INPUT_NAME + ".split/" + str(string_number), "w")
+		#for c in byte_sequence["text"]:
+		#	split_file.write(c)
+		#split_file.close()
 		# Create anew byte sequence
 		byte_sequence = {
 			"bytes" : [],
@@ -176,4 +197,4 @@ for b in bytes:
 print(len(byte_sequences))
 #byte = struct.unpack('c', f.read(1))[0]
 #new_string
-f.close()
+#f.close()

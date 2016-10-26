@@ -183,14 +183,32 @@ for ab in ASSET_BANKS:
 	print("Seek to %s" % hex(ASSETS["asset_banks"][ab]["asset_bank_rom_start_address"]))
 	file_rom.seek(ASSETS["asset_banks"][ab]["asset_bank_rom_start_address"], 0)
 	
-	# Write out the asset blocks
+	# Write out each of the asset blocks
 	for asset in processed_assets:
+		# Only process text assets
 		if asset["asset_type"] == "text":
 			print("---> Extract script asset %s at %s-%s" % (hex(asset["asset_index"]), hex(asset["asset_rom_pointer_address"]), hex(asset["asset_rom_pointer_address_limit"])))
 			chunk_size = asset["asset_rom_pointer_address_limit"] - asset["asset_rom_pointer_address"]
 			asset_chunk = file_rom.read(chunk_size)
+			
+			# Write out a JSON file of the asset data and metadata that goes with it.
 			file_out = open(OUT_DIR + "/" + hex(ab) + "." + hex(asset["asset_index"]) + ".dat", "w")
-			file_out.write(asset_chunk)
+			file_out.write("{\n")
+			file_out.write("	\"bank\" : \"%s\",\n" % hex(ab))
+			file_out.write("	\"asset_index\" : \"%s\",\n" % hex(asset["asset_index"]))
+			file_out.write("	\"asset_rom_pointer_value\" : \"%s\",\n" % hex(asset["asset_rom_pointer_value"]))
+			file_out.write("	\"asset_rom_pointer_address\" : \"%s\",\n" % hex(asset["asset_rom_pointer_address"]))
+			file_out.write("	\"asset_rom_pointer_address_limit\" : \"%s\",\n" % hex(asset["asset_rom_pointer_address_limit"]))
+			file_out.write("	\"asset_size\" : %s,\n" % (asset["asset_rom_pointer_address_limit"] - asset["asset_rom_pointer_address"]))
+			file_out.write("	\"asset_chunk\" : [")
+			# Split the binary asset data by byte, so that the JSON can store it.
+			for c in asset_chunk:
+				file_out.write("\"")
+				file_out.write(str(binascii.hexlify(c)))
+				file_out.write("\", ")
+			file_out.seek(-2, 1)
+			file_out.write("]\n")
+			file_out.write("}")
 			file_out.close()
 	print("")
 	
