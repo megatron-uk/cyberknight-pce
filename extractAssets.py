@@ -180,8 +180,8 @@ for ab in ASSET_BANKS:
 	# upper limit address embedded, so we know how big each of them are!
 	#print processed_assets
 	print("")	
-	print("Seek to %s" % hex(ASSETS["asset_banks"][ab]["asset_bank_rom_start_address"]))
-	file_rom.seek(ASSETS["asset_banks"][ab]["asset_bank_rom_start_address"], 0)
+	print("Seek to %s for first asset chunk" % hex(lowest_asset["asset_rom_pointer_address"]))
+	file_rom.seek(lowest_asset["asset_rom_pointer_address"], 0)
 	
 	# Write out each of the asset blocks
 	for asset in processed_assets:
@@ -189,6 +189,7 @@ for ab in ASSET_BANKS:
 		if asset["asset_type"] == "text":
 			print("---> Extract script asset %s at %s-%s" % (hex(asset["asset_index"]), hex(asset["asset_rom_pointer_address"]), hex(asset["asset_rom_pointer_address_limit"])))
 			chunk_size = asset["asset_rom_pointer_address_limit"] - asset["asset_rom_pointer_address"]
+			file_rom.seek(asset["asset_rom_pointer_address"], 0)
 			asset_chunk = file_rom.read(chunk_size)
 			
 			# Write out a JSON file of the asset data and metadata that goes with it.
@@ -204,7 +205,7 @@ for ab in ASSET_BANKS:
 			# Split the binary asset data by byte, so that the JSON can store it.
 			for c in asset_chunk:
 				file_out.write("\"")
-				file_out.write(str(binascii.hexlify(c)))
+				file_out.write(str(binascii.hexlify(c)).lower())
 				file_out.write("\", ")
 			file_out.seek(-2, 1)
 			file_out.write("]\n")

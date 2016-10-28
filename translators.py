@@ -56,6 +56,8 @@ from config import METHOD_1, METHOD_2, METHOD_3
 from config import METHOD_1_OFFSET, METHOD_2_OFFSET, METHOD_3_OFFSET
 from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TRAILING_BYTES
 
+VERBOSE = True
+
 ######################################################
 ############ < Code starts here > ####################
 ######################################################
@@ -80,11 +82,12 @@ def translate_double_string(bytes, trans_table_double, alt=False):
 
 			for ch in b_range:
 
-				b += str(binascii.hexlify(ch))
+				#b += str(binascii.hexlify(ch))
+				b += str(ch)
 			if VERBOSE:
 				print "Searching for <%s>" % str(b.upper())
 			# Double height strings are only ever an even number
-			if b.upper() in trans_table_double.keys():
+			if (b.upper() in trans_table_double.keys()):
 				
 				bt = trans_table_double[b.upper()]["pre_shift"]
 				if VERBOSE:
@@ -117,10 +120,13 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 	e.g. 0x1A 0x5F 0x76 0x61 0x62 0x63 0x64 0x65 0x00 = <control><control>vabcde<end>
 	"""
 
-	
+	#VERBOSE = True
 					
 	# method1 has two leading control bytes and a null byte as terminator
-	text_key = "text"
+	if alt:
+		text_key = "alt_text"
+	else:
+		text_key = "text"
 	previous_b = ""
 	switch_mode = False
 	# Record the start bytes
@@ -157,9 +163,10 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 	
 	byte_sequence[text_key] = []
 	already_i = 0
+	kanji_on = False
 	
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
-		#print "Index %s" % i
+		#print "Index %s:%s" % (i, byte_sequence["bytes"][i])
 		already_decoded = False
 		decode_it = False
 		if old_assets:
@@ -178,7 +185,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 				b = b1 + b2
 				already_i = i + 1
 				decode_it = True
-		elif (b1 == PC_NAME) and (b2.upper() in PC_NAMES):
+		elif (b1 == PC_NAME) and ((b2.upper() in PC_NAMES) or (b2.lower() in PC_NAMES)):
 			if i > already_i:
 				if VERBOSE:
 					print "Processing PC name at Index %s" % i
@@ -186,6 +193,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 				already_i = i + 1
 				decode_it = True
 		elif (b1 == KANJI_CODE):
+			byte_sequence[text_key].append("<kanji>")
 			if VERBOSE:
 				print "Processing double height char at Index %s" % i
 			if i > already_i:
@@ -219,13 +227,25 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 		else:
 			if i > already_i:
 				#print "Processing Index %s" % i
-				b = b1		
+				b = b1
+			if i == len(byte_sequence["bytes"]) - 1:
+				b = byte_sequence["bytes"][i - 1]
+			if i == len(byte_sequence["bytes"]):
+				if VERBOSE:
+					print "Processing End byte %s" % i
+				b = b2	
 		bt = ""
+		
 		if ((i > already_i) and (already_decoded == False)) or (decode_it == True):
 			if switch_mode:
-				if b == SWITCH_MODE:
+				if (b.lower() == SWITCH_MODE) or (b.upper() == SWITCH_MODE):
 					switch_mode = False
+					if VERBOSE:
+						print("switch_mode off")
+					#byte_sequence[text_key].append("<font>")
 				else:
+					if VERBOSE:
+						print("looking for post shift char match")
 					if b.upper() in trans_table.keys():
 						bt = trans_table[b.upper()]["post_shift"]
 						byte_sequence[text_key].append(bt)
@@ -234,11 +254,16 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 						byte_sequence[text_key].append("<%s>" % b)
 					if VERBOSE:
-						print "%6s %2s %6s %5s" % (b, i, bt, switch_mode)
+						print "%6s %2s %6s %5s" % (str(b), i, bt, switch_mode)
 			else:
-				if b == SWITCH_MODE:
+				if (b.lower() == SWITCH_MODE) or (b.upper() == SWITCH_MODE):
 					switch_mode = True
+					if VERBOSE:
+						print("switch_mode on")
+					#byte_sequence[text_key].append("<font>")
 				else:
+					if VERBOSE:
+						print("looking for pre shift char match")
 					if b.upper() in trans_table.keys():
 						bt = trans_table[b.upper()]["pre_shift"]
 						byte_sequence[text_key].append(bt)
@@ -247,7 +272,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 						byte_sequence[text_key].append("<%s>" % b)
 					if VERBOSE:
-						print "%6s %2s %6s %5s" % (b, i, bt, switch_mode)
+						print "%6s %2s %6s %5s" % (str(b), i, bt, switch_mode)
 	return byte_sequence
 
 ######################################################

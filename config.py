@@ -39,7 +39,7 @@ FUZZY_AUTO_SELECT_LIMIT = 0.8
 OVERWRITE = False
 
 # Additional, verbose output about the process
-VERBOSE = True
+VERBOSE = False
 
 # The byte which determines which translation table to use
 SWITCH_MODE = '5C'
@@ -56,10 +56,16 @@ DAKUTEN = ["DE", "DF"]
 # What "81" should be converted to
 DAKUTEN_REPLACE = "DE"
 
-# Start byte of a PC/NPC name string
+# Start byte of a PC/NPC name string.. if a byte sequence cotnains these, then
+# we look them up as a composite, rather than an individual btye.
 PC_NAME = "10"
-PC_NAMES = ["28", "29", "2a", "2b", "2c", "30", "34"]
-
+PC_NAMES = [
+	"1E", "1F", 
+	"28", "29", "2a", "2b", "2c", "2d", 
+	"30", "34", "35", "36", "3b", "3c", "3d", "3e", "3f",
+	"40", "41", "42", "45", "46", "47", "48", "49", "4a", "4b", "4c", "4d",
+	"ff"
+]
 
 # Text extraction method
 # Method 1 = 2 control bytes + string + 0x00 as terminator, defaults to switch mode = disabled
