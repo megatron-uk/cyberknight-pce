@@ -67,6 +67,15 @@ PC_NAMES = [
 	"ff"
 ]
 
+DIALOGUE_BOX = "1A"
+DIALOGUE_CODES = [
+	"1A", "1B", "1C", "1D", "1E", "1F", 
+	"2A", "2B", "2C", "2D", "2E", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29",
+	"3A",
+	"4A", "4B", "4C", "4D", "48", "49",
+	"50",
+]
+
 # Text extraction method
 # Method 1 = 2 control bytes + string + 0x00 as terminator, defaults to switch mode = disabled
 # Method 2 = text wrapped in 0x04 and 0x3c bytes, also defaults to switch mode = enabled

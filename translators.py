@@ -49,6 +49,7 @@ from config import ROM_NAME, TABLE_NAME, TABLE_NAME_DOUBLE, OUT_NAME
 from config import OVERWRITE, VERBOSE
 from config import SWITCH_MODE, KANJI_CODE
 from config import DAKUTEN_ALL, DAKUTEN, DAKUTEN_REPLACE, PC_NAME, PC_NAMES
+from config import DIALOGUE_BOX, DIALOGUE_CODES
 
 # Load the definitions of which ranges in the files to examine
 from config import BYTES
@@ -164,7 +165,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 	kanji_on = False
 	
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
-		print("i:%s already_i:%s" % (i, already_i))
+		if VERBOSE:
+			print("i:%s already_i:%s" % (i, already_i))
 		if i <= already_i:
 			if VERBOSE:
 				print("Index %s:%s Skipped" % (i, byte_sequence["bytes"][i]))
@@ -187,7 +189,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 					b2 = byte_sequence["bytes"][i].upper()
 				b = b1
 				
-			print("i:%s b1:%s b2:%s len_b:%s" % (i, b1, b2, b1 + b2))
+			if VERBOSE:
+				print("i:%s b1:%s b2:%s len_b:%s" % (i, b1, b2, b1 + b2))
 				
 			if b2 in DAKUTEN:
 				if i > already_i:
@@ -206,6 +209,15 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 					if VERBOSE:
 						print "Processing PC name <%s> at Index %s" % (b, i)
 						print "Jump to %s" % (already_i)
+			elif (b1 == DIALOGUE_BOX) and ((b2.upper() in DIALOGUE_CODES) or (b2.lower() in DIALOGUE_CODES)):
+				if i > already_i:
+					b = b1 + b2
+					already_i = i + 1
+					decode_it = True
+					if VERBOSE:
+						print "Processing Dialogue box code <%s> at Index %s" % (b, i)
+						print "Jump to %s" % (already_i)
+			
 			elif (b1 == KANJI_CODE):
 				byte_sequence[text_key].append("<kanji>")
 				if VERBOSE:
@@ -243,7 +255,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 				b = b1
 			
 			bt = ""
-			print("i:%s at this point we have <%s>" % (i,b))
+			if VERBOSE:
+				print("i:%s at this point we have <%s>" % (i,b))
 			
 			if (((i >= already_i) and (already_decoded == False)) or (decode_it == True)) and (b != ""):
 				if switch_mode:
@@ -287,7 +300,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 						if VERBOSE:
 							print "byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode)
 						
-	print byte_sequence["bytes"][-1]
+	if VERBOSE:
+		print byte_sequence["bytes"][-1]
 	if len(byte_sequence["bytes"]) > 1:
 		b = byte_sequence["bytes"][-1]
 		if b.upper() in trans_table.keys():
