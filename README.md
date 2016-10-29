@@ -43,6 +43,8 @@ Download the git archive, unpack and drop in "Cyber Knight (J).pce" in to the sa
 
 Run the scripts in sequence: first //extractAssets.py//, then //splitAssets.py//, then //mapScript.py//, now edit the assets by hand before finally running //injectScript.py//.
     
+Eventually, an IPS patch file will be released with all the modifications already patched in. Until then, feel free to use these scripts to edit the game yourself.
+
 Useful Links
 ============
 
