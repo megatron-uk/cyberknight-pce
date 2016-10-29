@@ -71,8 +71,9 @@ def find_next_address(upper_address = None, current_asset = None, assets = []):
 					next_address = lowest_asset_address
 				else:
 					pass
-
-	print("-----> %s: %s - %s [%s bytes]" % (hex(current_asset["asset_index"]), hex(current_asset["asset_rom_pointer_address"]), hex(next_address), (next_address - current_asset["asset_rom_pointer_address"])))
+	
+	if VERBOSE:
+		print("-----> %s: %s - %s [%s bytes]" % (hex(current_asset["asset_index"]), hex(current_asset["asset_rom_pointer_address"]), hex(next_address), (next_address - current_asset["asset_rom_pointer_address"])))
 	return next_address
 
 ######################################################
@@ -90,6 +91,8 @@ print("extractAssets.py - Asset block extractor for Cyber Knight")
 print("----------------")
 print("")
 
+VERBOSE = False
+OVERWRITE = False
 for o, a in opts:
 	if o == "-h":
 		print("A simple tool for extracting asset blockse from the game 'Cyber Knight' for the PC-Engine.")
@@ -165,7 +168,8 @@ for ab in ASSET_BANKS:
 	lowest_asset = ASSETS["asset_banks"][ab]["assets"][lowest_asset_number]
 	asset_sequence.append(lowest_asset)
 	print("---> Starting asset chunk (%s) located at: %s" % (hex(lowest_asset_number), hex(lowest_asset_address)))
-	print("---> Finding next asset sequence")
+	if VERBOSE:
+		print("---> Finding next asset sequence")
 			
 	# For each asset, find the upper limit of the region it can be assumed to use
 	# by finding the start address of the next highest asset in the bank.
@@ -179,8 +183,9 @@ for ab in ASSET_BANKS:
 	# Processed assets now contains a list of assets for this bank that have the 
 	# upper limit address embedded, so we know how big each of them are!
 	#print processed_assets
-	print("")	
-	print("Seek to %s for first asset chunk" % hex(lowest_asset["asset_rom_pointer_address"]))
+	if VERBOSE:
+		print("")	
+		print("Seek to %s for first asset chunk" % hex(lowest_asset["asset_rom_pointer_address"]))
 	file_rom.seek(lowest_asset["asset_rom_pointer_address"], 0)
 	
 	# Write out each of the asset blocks
@@ -193,7 +198,13 @@ for ab in ASSET_BANKS:
 			asset_chunk = file_rom.read(chunk_size)
 			
 			# Write out a JSON file of the asset data and metadata that goes with it.
-			file_out = open(OUT_DIR + "/" + hex(ab) + "." + hex(asset["asset_index"]) + ".dat", "w")
+			# check file
+			new_fname = OUT_DIR + "/" + hex(ab) + "." + hex(asset["asset_index"]) + ".dat"
+			if OVERWRITE is False:
+				if os.path.isfile(new_fname):
+					print("Output File: %s <- Error, output file already exists" % new_fname)
+					sys.exit(2)
+			file_out = open(new_fname, "w")
 			file_out.write("{\n")
 			file_out.write("	\"bank\" : \"%s\",\n" % hex(ab))
 			file_out.write("	\"asset_index\" : \"%s\",\n" % hex(asset["asset_index"]))

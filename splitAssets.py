@@ -52,7 +52,6 @@ except:
 VERBOSE = False
 OVERWRITE = False
 INPUT_DIR = "assets/raw"
-#INPUT_NAME = "0xa.0x1.dat"
 OUT_DIR = "assets/split"
 
 from CyberKnightAssetBanks import ASSETS, ASSET_LOAD_TABLE, ASSET_OFFSET_TABLE
@@ -62,8 +61,6 @@ from translators import translate_string
 from Table import load_table, load_table_double
 
 ASSET_BANKS = ASSETS["asset_banks"].keys()
-
-
 
 ######################################################
 ########## < Run-time code start here > ##############
@@ -80,6 +77,8 @@ print("splitAssets.py - Asset block extractor for Cyber Knight")
 print("----------------")
 print("")
 
+OVERWRITE = False
+VERBOSE = False
 for o, a in opts:
 	if o == "-h":
 		print("A simple tool for splitting text asset blocks from the data files")
@@ -88,7 +87,8 @@ for o, a in opts:
 		print("Options:")
 		print("-h	Show help text")
 		print("-v	Enable verbose output")
-		print("-i	Input file name (e.g. 'assets/raw/0x14.0x83.dat')")
+		print("-i	Input dir name (e.g. 'assets/raw')")
+		print("-o	Output dir name (e.g. 'assets/split')")
 		print("-f	Force overwite of output file even if it already exists")
 		print("")
 		print("Example:")
@@ -100,7 +100,10 @@ for o, a in opts:
 		VERBOSE = True
 		
 	if o == "-i":
-		INPUT_NAME = a
+		INPUT_DIR = a
+		
+	if o == "-o":
+		OUT_DIR = a
 		
 	if o == "-f":
 		OVERWRITE = True
@@ -122,11 +125,6 @@ if OVERWRITE is False:
 		print("Output Dir: %s <- ERROR, Path does not exist" % OUT_DIR)
 		sys.exit(2)		
 		
-	if os.path.isfile(OUT_DIR + INPUT_NAME):
-		print("Output File: %s <- OK" % (OUT_DIR + INPUT_NAME))
-	else:
-		print("Output File: %s <- ERROR, Output file already exists" % (OUT_DIR + INPUT_NAME))
-		sys.exit(2)
 print("")
 
 #########################################################
@@ -137,6 +135,8 @@ print("")
 f_list = os.listdir(INPUT_DIR)
 
 for INPUT_NAME in f_list:
+	print("===============================")
+	print("")
 	print("Loading asset file %s" % INPUT_NAME)
 	file_data = open(INPUT_DIR + "/" + INPUT_NAME).read()
 	data = json.loads(file_data)
@@ -149,7 +149,7 @@ for INPUT_NAME in f_list:
 	
 	# Rebuild the binary
 	print("")
-	print("=============================================")
+	print("---")
 	print("")
 	print("Parsing text strings")
 	
@@ -179,13 +179,15 @@ for INPUT_NAME in f_list:
 			if len(byte_sequence["bytes"]) > 0:
 				string_number += 1
 				byte_sequence["string_number"] = string_number
-				print("%3s: %s Found a %s length byte sequence" % (string_number, hex(pos - len(byte_sequence["bytes"])), len(byte_sequence["bytes"])))
-				byte_sequence = translate_string(byte_sequence = byte_sequence, trans_table = ttable, trans_table_double = ttable2, alt = False, old_assets = False)
+				if VERBOSE:
+					print("%3s: %s Found a %s length byte sequence" % (string_number, hex(pos - len(byte_sequence["bytes"])), len(byte_sequence["bytes"])))
+				byte_sequence = translate_string(byte_sequence = byte_sequence, trans_table = ttable, trans_table_double = ttable2, alt = False, old_assets = False, VERBOSE = VERBOSE)
 				byte_sequences.append(byte_sequence)
 			
 			# Part 2, add the end byte
 			string_number += 1
-			print("%3s: %s End marker" % (string_number, hex(pos)))
+			if VERBOSE:
+				print("%3s: %s End marker" % (string_number, hex(pos)))
 			
 			byte_sequence = {
 				"string_number" : string_number,
@@ -210,9 +212,14 @@ for INPUT_NAME in f_list:
 	print("")
 	print("Found a total of %s strings" % len(byte_sequences))
 	print("")
-	print("=============================================")
+	print("---")
 	print("")
 	print("Writing strings to data file: %s" % (OUT_DIR + "/" + INPUT_NAME))
+	if OVERWRITE is False:
+		if os.path.isfile(OUT_DIR + "/" + INPUT_NAME):
+			print("Output File: %s <- ERROR, Output file already exists" % (OUT_DIR + "/" + INPUT_NAME))
+			sys.exit(2)
+			
 	file_out = open(OUT_DIR + "/" + INPUT_NAME, "w")
 	file_out.write("{\n")
 	file_out.write("	\"bank\" : \"%s\",\n" % data["bank"])

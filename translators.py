@@ -56,8 +56,6 @@ from config import METHOD_1, METHOD_2, METHOD_3
 from config import METHOD_1_OFFSET, METHOD_2_OFFSET, METHOD_3_OFFSET
 from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TRAILING_BYTES
 
-VERBOSE = True
-
 ######################################################
 ############ < Code starts here > ####################
 ######################################################
@@ -113,7 +111,7 @@ def translate_double_string(bytes, trans_table_double, alt=False):
 			print "Not a valid double height string"
 		return bytes
 
-def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, old_assets = True):
+def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, old_assets = True, VERBOSE = VERBOSE):
 	"""
 	translate_string - construct the actual text, using multi-byte characters
 	where appropriate, that represent the hex codes found in the rom.
@@ -160,119 +158,145 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 			print "String @ %s (%s bytes)" % (hex(byte_sequence["start_pos"]), len(byte_sequence["bytes"]))
 	else:
 		trailing_bytes = 0
-	
+			
 	byte_sequence[text_key] = []
 	already_i = 0
 	kanji_on = False
 	
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
-		#print "Index %s:%s" % (i, byte_sequence["bytes"][i])
-		already_decoded = False
-		decode_it = False
-		if old_assets:
-			b1 = str(binascii.hexlify(byte_sequence["bytes"][i-1])).upper()
-		# Don't process dakuten/handakuten
-		# Is the next byte a dakuten/handakuten?
-			b2 = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
-		else:
-			b1 = byte_sequence["bytes"][i-1].upper()
-			b2 = byte_sequence["bytes"][i].upper()
-		if b2 in DAKUTEN:
-			if i > already_i:
-				if VERBOSE:
-					print "Processing composite dakuten char at Index %s" % i
-				# Use a composite byte instead
-				b = b1 + b2
-				already_i = i + 1
-				decode_it = True
-		elif (b1 == PC_NAME) and ((b2.upper() in PC_NAMES) or (b2.lower() in PC_NAMES)):
-			if i > already_i:
-				if VERBOSE:
-					print "Processing PC name at Index %s" % i
-				b = b1 + b2
-				already_i = i + 1
-				decode_it = True
-		elif (b1 == KANJI_CODE):
-			byte_sequence[text_key].append("<kanji>")
+		print("i:%s already_i:%s" % (i, already_i))
+		if i <= already_i:
 			if VERBOSE:
-				print "Processing double height char at Index %s" % i
-			if i > already_i:
-				double_byte_pos = byte_sequence["start_pos"] + i
-				
-				try:
-					if len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]) >= int(b2, 16):
-						if VERBOSE:
-							print "Processing Index %s" % i					
-							print "Double height lookup @ %s (%s %s)" % (hex(double_byte_pos), b1, b2)
-						
-						
-						br = byte_sequence["bytes"][i+1:i+int(b2, 16)+1]
-						
-						already_i = i + int(b2, 16) + 1
-						translated_chars = translate_double_string(br, trans_table_double)
-						for c in translated_chars:
-							byte_sequence[text_key].append(c)
-						already_decoded = True
-						if VERBOSE:
-							print "Jump to %s" % already_i
-					else:
-						if VERBOSE:
-							print "Not a Kanji code @ %s (%s %s, but only %s bytes)" % (hex(double_byte_pos), b1, b2, len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]))
-						decode_it = True
-						b = b1
-				except Exception as e:
-					print traceback.format_exc()
-					print e
-					b = b1
+				print("Index %s:%s Skipped" % (i, byte_sequence["bytes"][i]))
 		else:
-			if i > already_i:
-				#print "Processing Index %s" % i
-				b = b1
-			if i == len(byte_sequence["bytes"]) - 1:
-				b = byte_sequence["bytes"][i - 1]
-			if i == len(byte_sequence["bytes"]):
-				if VERBOSE:
-					print "Processing End byte %s" % i
-				b = b2	
-		bt = ""
-		
-		if ((i > already_i) and (already_decoded == False)) or (decode_it == True):
-			if switch_mode:
-				if (b.lower() == SWITCH_MODE) or (b.upper() == SWITCH_MODE):
-					switch_mode = False
-					if VERBOSE:
-						print("switch_mode off")
-					#byte_sequence[text_key].append("<font>")
-				else:
-					if VERBOSE:
-						print("looking for post shift char match")
-					if b.upper() in trans_table.keys():
-						bt = trans_table[b.upper()]["post_shift"]
-						byte_sequence[text_key].append(bt)
-					else:
-						# warning - byte sequence not in table
-						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
-						byte_sequence[text_key].append("<%s>" % b)
-					if VERBOSE:
-						print "%6s %2s %6s %5s" % (str(b), i, bt, switch_mode)
+			if VERBOSE:
+				print "Index %s:%s" % (i, byte_sequence["bytes"][i])
+			already_decoded = False
+			decode_it = False
+			if old_assets:
+				b1 = str(binascii.hexlify(byte_sequence["bytes"][i-1])).upper()
+			# Don't process dakuten/handakuten
+			# Is the next byte a dakuten/handakuten?
+				b2 = str(binascii.hexlify(byte_sequence["bytes"][i])).upper()
 			else:
-				if (b.lower() == SWITCH_MODE) or (b.upper() == SWITCH_MODE):
-					switch_mode = True
-					if VERBOSE:
-						print("switch_mode on")
-					#byte_sequence[text_key].append("<font>")
+				if (i - 1) < 0:
+					b1 = ""
+					b2 = byte_sequence["bytes"][i].upper()
 				else:
+					b1 = byte_sequence["bytes"][i-1].upper()
+					b2 = byte_sequence["bytes"][i].upper()
+				b = b1
+				
+			print("i:%s b1:%s b2:%s len_b:%s" % (i, b1, b2, b1 + b2))
+				
+			if b2 in DAKUTEN:
+				if i > already_i:
+					# Use a composite byte instead
+					b = b1 + b2
+					already_i = i + 1
+					decode_it = True
 					if VERBOSE:
-						print("looking for pre shift char match")
-					if b.upper() in trans_table.keys():
-						bt = trans_table[b.upper()]["pre_shift"]
-						byte_sequence[text_key].append(bt)
+						print("Processing composite dakuten <%s> at Index %s" % (b, i))
+						print "Jump to %s" % (already_i)
+			elif (b1 == PC_NAME) and ((b2.upper() in PC_NAMES) or (b2.lower() in PC_NAMES)):
+				if i > already_i:
+					b = b1 + b2
+					already_i = i + 1
+					decode_it = True
+					if VERBOSE:
+						print "Processing PC name <%s> at Index %s" % (b, i)
+						print "Jump to %s" % (already_i)
+			elif (b1 == KANJI_CODE):
+				byte_sequence[text_key].append("<kanji>")
+				if VERBOSE:
+					print "Processing double height char at Index %s" % i
+				if i > already_i:
+					double_byte_pos = byte_sequence["start_pos"] + i
+					
+					try:
+						if len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]) >= int(b2, 16):
+							if VERBOSE:
+								print "Processing Index %s" % i					
+								print "Double height lookup @ %s (%s %s)" % (hex(double_byte_pos), b1, b2)
+							
+							br = byte_sequence["bytes"][i+1:i+int(b2, 16)+1]
+							
+							already_i += int(b2, 16) + 1
+							translated_chars = translate_double_string(br, trans_table_double)
+							for c in translated_chars:
+								if VERBOSE:
+									print("Adding double height chars <%s>" % c)
+								byte_sequence[text_key].append(c)
+							already_decoded = True
+							if VERBOSE:
+								print "Jump to %s" % already_i
+						else:
+							if VERBOSE:
+								print "Not a Kanji code @ %s (%s %s, but only %s bytes)" % (hex(double_byte_pos), b1, b2, len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]))
+							decode_it = True
+							b = b1
+					except Exception as e:
+						print traceback.format_exc()
+						print e
+						b = b1
+			else:
+				b = b1
+			
+			bt = ""
+			print("i:%s at this point we have <%s>" % (i,b))
+			
+			if (((i >= already_i) and (already_decoded == False)) or (decode_it == True)) and (b != ""):
+				if switch_mode:
+					if (b.lower() == SWITCH_MODE) or (b.upper() == SWITCH_MODE):
+						switch_mode = False
+						if VERBOSE:
+							print("switch_mode off")
 					else:
-						# warning - byte sequence not in table
-						record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
-						byte_sequence[text_key].append("<%s>" % b)
-					if VERBOSE:
-						print "%6s %2s %6s %5s" % (str(b), i, bt, switch_mode)
+						if VERBOSE:
+							print("looking for post shift char match")
+						if b.upper() in trans_table.keys():
+							bt = trans_table[b.upper()]["post_shift"]
+							if VERBOSE:
+								print("Adding post shift %s" % bt)
+							byte_sequence[text_key].append(bt)
+						else:
+							# warning - byte sequence not in table
+							record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
+							byte_sequence[text_key].append("<%s>" % b)
+						if VERBOSE:
+							print "byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode)
+						
+				else:
+					if (b.lower() == SWITCH_MODE) or (b.upper() == SWITCH_MODE):
+						switch_mode = True
+						if VERBOSE:
+							print("switch_mode on")
+					else:
+						if VERBOSE:
+							print("looking for pre shift char match")
+						if b.upper() in trans_table.keys():
+							bt = trans_table[b.upper()]["pre_shift"]
+							if VERBOSE:
+								print("Adding pre shift %s" % bt)
+							byte_sequence[text_key].append(bt)
+							
+						else:
+							# warning - byte sequence not in table
+							record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
+							byte_sequence[text_key].append("<%s>" % b)
+						if VERBOSE:
+							print "byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode)
+						
+	print byte_sequence["bytes"][-1]
+	if len(byte_sequence["bytes"]) > 1:
+		b = byte_sequence["bytes"][-1]
+		if b.upper() in trans_table.keys():
+			bt = trans_table[b.upper()]["pre_shift"]
+			if VERBOSE:
+				print("Adding pre shift %s" % bt)
+			byte_sequence[text_key].append(bt)
+		else:
+			byte_sequence[text_key].append("<%s>" % b)
 	return byte_sequence
 
 ######################################################
