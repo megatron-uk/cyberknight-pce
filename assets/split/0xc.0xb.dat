@@ -335,7 +335,7 @@
 			"string_size" : 90,
 			"start_pos" : "0x1a2f0",
 			"bytes" : ["1a", "2a", "10", "4a", "a2", "5c", "cc", "df", "db", "b8", "de", "d7", "d1", "3b", "3b", "3b", "1c", "01", "0d", "f8", "d9", "b0", "c1", "dd", "3b", "3b", "3b", "3b", "1c", "01", "1a", "2b", "3b", "3b", "3b", "b4", "d7", "b0", "3b", "3b", "3b", "1c", "01", "0d", "ff", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "1c", "01", "1b", "01", "0b", "06", "09", "c3", "de", "ca", "de", "af", "b8", "de", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><16x1@top_left><NPC_Machine>『プログラム‥‥‥<endwait><addrow><padH>りル‐チン‥‥‥‥<endwait><addrow><newbox><16x1@top_right>‥‥‥エラ‐‥‥‥<endwait><addrow><padH>゜ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <endwait><addrow><1B><addrow><0B><06><09>デバッグ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox><16x1@top_left><NPC_Machine>『プログラム‥‥‥<endwait><addrow><padH>りル‐チン‥‥‥‥<endwait><addrow><newbox><16x1@top_right>‥‥‥エラ‐‥‥‥<endwait><addrow><padH>゜ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <endwait><addrow><closebox><addrow><0B><06><09>デバッグ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,

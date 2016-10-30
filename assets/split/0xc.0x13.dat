@@ -95,7 +95,7 @@
 			"string_size" : 29,
 			"start_pos" : "0x1b28e",
 			"bytes" : ["1a", "23", "10", "1f", "a2", "c3", "de", "ca", "a4", "b1", "c5", "c0", "b6", "de", "20", "5c", "d2", "dd", "c0", "b0", "c5", "3b", "3b", "3b", "3b", "3f", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player?>『では、おなたが メンタ‐ナ‥‥‥‥?』<wait><1B>",
+			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player?>『では、おなたが メンタ‐ナ‥‥‥‥?』<wait><closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : ": So... you're Mentana....? ",
 			"SNES_accuracy" : 0.0,

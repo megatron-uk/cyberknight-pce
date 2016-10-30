@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<a3><08>",
 			"notes" : ""
 		},
 		{
@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Commander: We did it! Look\nat zem za Berserkers ahr\nall running owtta here!\n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred><NPC_Commander>:We did it!\nLook at zem, za Berzerkas\nas all running outta here!<wait>",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -71,11 +71,11 @@
 			"string_size" : 145,
 			"start_pos" : "0x1b624",
 			"bytes" : ["11", "06", "05", "ac", "1a", "24", "10", "50", "a2", "dc", "c0", "bc", "ca", "20", "5c", "b8", "b2", "b0", "dd", "a1", "03", "05", "ac", "5c", "bd", "cd", "de", "c3", "c9", "20", "b7", "b6", "b2", "be", "b2", "d2", "b2", "c0", "b2", "c9", "20", "c1", "ae", "b3", "c3", "dd", "c6", "03", "c0", "c2", "20", "bf", "dd", "bb", "de", "b2", "c3", "de", "b1", "d9", "21", "a3", "08", "0c", "05", "ac", "10", "50", "a2", "b6", "c4", "b3", "c5", "20", "d5", "b3", "b7", "be", "b2", "d2", "b2", "c0", "b2", "c9", "20", "cc", "de", "dd", "bb", "de", "b2", "c3", "de", "03", "ba", "ba", "cf", "c3", "de", "20", "bc", "dd", "c6", "ad", "b3", "bd", "d9", "c4", "ca", "20", "cc", "c4", "c4", "de", "b7", "c5", "21", "a3", "08", "0c", "05", "ac", "10", "50", "a2", "dc", "c0", "bc", "b6", "de", "20", "cb", "c8", "d8", "c2", "cc", "de", "bc", "c3", "d4", "d9", "21", "a3", "08", "11"],
-			"PCE_japanese" : "<11><06><05>ゃ<newbox><26x3@top_centred><10>P『わたしは クイ‐ン。\n<05>ャすべての きかいせいめいたいの ちょうてんに\nたつ そんざいでおる!』<wait><eraserow><05>ゃ<10>P『かとうな ゆうきせいめいたいの ぶんざいで\nここまで しんにゅうするとは ふとどきな!』<wait><eraserow><05>ゃ<10>P『わたしが ひねりつぶしてやる!』<wait><11>",
+			"PCE_japanese" : "<11><06><05>ゃ<newbox><26x3@top_centred><NPC_BerserkerQueen>『わたしは クイ‐ン。\n<05>ャすべての きかいせいめいたいの ちょうてんに\nたつ そんざいでおる!』<wait><eraserow><05>ゃ<10>P『かとうな ゆうきせいめいたいの ぶんざいで\nここまで しんにゅうするとは ふとどきな!』<wait><eraserow><05>ゃ<NPC_BerserkerQueen>『わたしが ひねりつぶしてやる!』<wait><11>",
 			"SNES_japanese" : "バーサーカー「わたしは クィーン。\n    すべての きかいせいめいたいの\n    ちょうてんにたつ そんざいである！」",
-			"SNES_english" : "Berserker: I am the Queen. \nI belong in the highest\nechelon of the galaxy!",
+			"SNES_english" : "Berserker: I am the Queen.\nI belong in the highest\nechelon of the galaxy!",
 			"SNES_accuracy" : 0.804597701149,
-			"PCE_english" : "",
+			"PCE_english" : "<11><06><05>ゃ<newbox><26x4@top_centred><NPC_BerserkerQueen>:I am the Queen!<pause>\nI am the highest being in\nthe Galaxy!\n<pause>Now you all die!!!<wait><11>",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -107,11 +107,11 @@
 			"string_size" : 55,
 			"start_pos" : "0x1b6b7",
 			"bytes" : ["11", "06", "05", "83", "1a", "1f", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "a5", "b8", "b2", "b0", "dd", "5c", "a6", "20", "c0", "b5", "bd", "c4", "a4", "02", "cc", "bc", "b7", "de", "c5", "20", "ba", "b4", "b6", "de", "20", "b1", "c0", "d8", "c6", "20", "cb", "cb", "de", "b2", "c0", "3b", "3b", "3b", "3b", "08", "1b"],
-			"PCE_japanese" : "<11><06><05>』<newbox><24x2@bottom_centred>バ‐サ‐カ‐・クイ‐ンを たおすと、\nふしぎな こえが おたりに ひびいた‥‥‥‥<wait><1B>",
+			"PCE_japanese" : "<11><06><05>』<newbox><24x2@bottom_centred>バ‐サ‐カ‐・クイ‐ンを たおすと、\nふしぎな こえが おたりに ひびいた‥‥‥‥<wait><closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "A strange voice echoed\nwhen the Berserker Queen\ndied. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<11><06><05>』<newbox><24x3@bottom_centred>A strange voice echoed\nwhen the <NPC_BerserkerQueen>\ndied...<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -131,11 +131,11 @@
 			"string_size" : 88,
 			"start_pos" : "0x1b6ef",
 			"bytes" : ["1a", "24", "a2", "d6", "b8", "d4", "af", "c3", "b8", "da", "c0", "3b", "3b", "3b", "3b", "1c", "02", "dc", "c0", "bc", "c9", "5c", "ba", "b1", "5c", "c6", "20", "ca", "cb", "de", "ba", "af", "c3", "b2", "c0", "02", "20", "5c", "ca", "de", "b8", "de", "5c", "b6", "de", "20", "c4", "d8", "c9", "bf", "de", "b6", "da", "c0", "3b", "3b", "3b", "3b", "1c", "02", "02", "20", "b7", "c9", "b3", "b6", "de", "20", "be", "b2", "bc", "de", "ae", "b3", "c6", "20", "d3", "c4", "de", "af", "c0", "3b", "3b", "3b", "3b", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><26x3@top_centred>『よくやってくれた‥‥‥‥<endwait>\nわたしのコアに はびこっていた\n バグが とりのぞかれた‥‥‥‥<endwait>\n\n きのうが せいじょうに もどった‥‥‥‥』<wait><1B>",
+			"PCE_japanese" : "<newbox><26x3@top_centred>『よくやってくれた‥‥‥‥<endwait>\nわたしのコアに はびこっていた\n バグが とりのぞかれた‥‥‥‥<endwait>\n\n きのうが せいじょうに もどった‥‥‥‥』<wait><closebox>",
 			"SNES_japanese" : "「よくやってくれた・・・\nわたしのコアに はびこっていた\nバグが とりのぞかれ・・・\nシステムが せいじょうにもどった・・・」",
 			"SNES_english" : "Good job... the bug is\ngone. The system is\nclean... ",
 			"SNES_accuracy" : 0.842975206612,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred>Well done...<endwait>the bug\nis gone.<endwait> The system is\nclean...<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -155,11 +155,11 @@
 			"string_size" : 59,
 			"start_pos" : "0x1b748",
 			"bytes" : ["1a", "1e", "a2", "c5", "b6", "de", "b8", "20", "cc", "ba", "b3", "c5", "20", "c0", "c0", "b6", "b2", "c3", "de", "b1", "af", "c0", "3b", "3b", "3b", "3b", "1c", "02", "02", "20", "c0", "de", "b6", "de", "a4", "d3", "ca", "d4", "20", "b5", "cf", "b4", "c0", "c1", "c4", "20", "c0", "c0", "b6", "b3", "ba", "c4", "ca", "c5", "b2", "3b", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><24x2@top_centred>『ながく ふこうな たたかいでおった‥‥‥‥<endwait>\n\n だが、もはや おまえたちと たたかうことはない‥』<wait><1B>",
+			"PCE_japanese" : "<newbox><24x2@top_centred>『ながく ふこうな たたかいでおった‥‥‥‥<endwait>\n\n だが、もはや おまえたちと たたかうことはない‥』<wait><closebox>",
 			"SNES_japanese" : "「ながく ふこうな たたかいであった・・\nだが・・・もはや\nおまえたちと たたかうことはない・・・」",
 			"SNES_english" : "It won't happen again. ",
 			"SNES_accuracy" : 0.822222222222,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@top_centred>No more violence...<endwait>\nWe will not fight again.<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -179,7 +179,7 @@
 			"string_size" : 93,
 			"start_pos" : "0x1b784",
 			"bytes" : ["1a", "24", "a2", "bd", "cd", "de", "c3", "ca", "20", "dc", "c0", "bc", "c9", "20", "5c", "ca", "de", "b8", "de", "5c", "b6", "de", "20", "cf", "c8", "b2", "c0", "ba", "c4", "3b", "3b", "3b", "3b", "1c", "02", "02", "20", "bc", "de", "ba", "bc", "dd", "b6", "5c", "bc", "bd", "c3", "d1", "5c", "b6", "de", "20", "ce", "de", "b3", "bf", "b3", "bc", "a4", "d5", "b6", "de", "dd", "c0", "de", "20", "bc", "dd", "b6", "c9", "02", "20", "d0", "c1", "a6", "20", "b1", "d5", "dd", "c3", "de", "b2", "c0", "c9", "c0", "de", "3b", "3b", "3b", "3b", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><26x3@top_centred>『すべては わたしの バグが まねいたこと‥‥‥‥<endwait>\n\n じこしんかシステムが ぼうそうし、ゆがんだ しんかの\n みちを おゆんでいたのだ‥‥‥‥』<wait><1B>",
+			"PCE_japanese" : "<newbox><26x3@top_centred>『すべては わたしの バグが まねいたこと‥‥‥‥<endwait>\n\n じこしんかシステムが ぼうそうし、ゆがんだ しんかの\n みちを おゆんでいたのだ‥‥‥‥』<wait><closebox>",
 			"SNES_japanese" : "「すべては・・・\nわたしの バグが まねいたこと・・\nじこしんかシステムが ぼうそうし\nゆがんだ しんかのみちを\nあゆんでいたのだ・・・」",
 			"SNES_english" : "My evolution system\nwent out of control \nthen proceeded to\nevolve improperly... \n",
 			"SNES_accuracy" : 0.852713178295,
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -203,7 +203,7 @@
 			"string_size" : 89,
 			"start_pos" : "0x1b7e2",
 			"bytes" : ["1a", "24", "a2", "dc", "c0", "bc", "ca", "20", "bc", "de", "cc", "de", "dd", "c9", "c5", "b6", "c6", "20", "b1", "d7", "c0", "c5", "5c", "c3", "de", "ca", "de", "af", "b8", "de", "a5", "bc", "bd", "c3", "d1", "5c", "a6", "02", "20", "b8", "d0", "ba", "dd", "c0", "de", "3b", "3b", "3b", "3b", "1c", "02", "d3", "ca", "d4", "20", "ba", "c9", "d6", "b3", "c5", "20", "ba", "bc", "ae", "b3", "ca", "02", "20", "b5", "ba", "d7", "c5", "b2", "3b", "3b", "3b", "3b", "1c", "02", "d4", "b8", "bf", "b8", "bc", "d6", "b3", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><26x3@top_centred>『わたしは じぶんのなかに おらたなデバッグ・システムを\n くみこんだ‥‥‥‥<endwait>\nもはや このような こしょうは\n おこらない‥‥‥‥<endwait>\nやくそくしよう』<wait><1B>",
+			"PCE_japanese" : "<newbox><26x3@top_centred>『わたしは じぶんのなかに おらたなデバッグ・システムを\n くみこんだ‥‥‥‥<endwait>\nもはや このような こしょうは\n おこらない‥‥‥‥<endwait>\nやくそくしよう』<wait><closebox>",
 			"SNES_japanese" : "「わたしは じぶんのなかに あらたな\nデバッグ・システムを くみこんだ・・・\nもはや このような こしょうは\nおこらない・・・やくそくしよう・・・」",
 			"SNES_english" : "I have inserted an\nauto-debug system\ninto my core... \nThank you... ",
 			"SNES_accuracy" : 0.888888888889,
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -227,7 +227,7 @@
 			"string_size" : 53,
 			"start_pos" : "0x1b83c",
 			"bytes" : ["1a", "24", "a2", "bb", "d7", "ca", "de", "c0", "de", "3b", "3b", "3b", "3b", "02", "20", "ba", "da", "d6", "d8", "cf", "c0", "a4", "cd", "de", "c2", "cd", "de", "c2", "c9", "20", "bc", "dd", "b6", "c9", "d0", "c1", "a6", "02", "20", "b1", "d5", "d1", "c4", "bc", "d6", "b3", "3b", "3b", "3b", "3b", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><26x3@top_centred>『さらばだ‥‥‥‥\n これよりまた、べつべつの しんかのみちを\n おゆむとしよう‥‥‥‥』<wait><1B>",
+			"PCE_japanese" : "<newbox><26x3@top_centred>『さらばだ‥‥‥‥\n これよりまた、べつべつの しんかのみちを\n おゆむとしよう‥‥‥‥』<wait><closebox>",
 			"SNES_japanese" : "「さらばだ・・・\nこれよりまた・・・べつべつの\nしんかのみちを あゆむとしよう・・・・」",
 			"SNES_english" : "From now on....we'll\ncontinue on the true\nway of evolution... ",
 			"SNES_accuracy" : 0.843373493976,
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -251,7 +251,7 @@
 			"string_size" : 10,
 			"start_pos" : "0x1b872",
 			"bytes" : ["1a", "1e", "a2", "3b", "3b", "3b", "3b", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><24x2@top_centred>『‥‥‥‥』<wait><1B>",
+			"PCE_japanese" : "<newbox><24x2@top_centred>『‥‥‥‥』<wait><closebox>",
 			"SNES_japanese" : "   「・・・・」",
 			"SNES_english" : "    ..... ",
 			"SNES_accuracy" : 0.8,
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -275,7 +275,7 @@
 			"string_size" : 10,
 			"start_pos" : "0x1b87d",
 			"bytes" : ["1a", "22", "a2", "3b", "3b", "3b", "3b", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><25x1@middle_centred>『‥‥‥‥』<wait><1B>",
+			"PCE_japanese" : "<newbox><25x1@middle_centred>『‥‥‥‥』<wait><closebox>",
 			"SNES_japanese" : "   「・・・・」",
 			"SNES_english" : "    ..... ",
 			"SNES_accuracy" : 0.8,
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -299,7 +299,7 @@
 			"string_size" : 30,
 			"start_pos" : "0x1b888",
 			"bytes" : ["1a", "23", "11", "04", "10", "1f", "a2", "3b", "3b", "3b", "c4", "de", "b3", "d4", "d7", "20", "b5", "dc", "af", "c0", "d7", "bc", "b2", "c5", "3b", "3b", "3b", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><11><pause><Player?>『‥‥‥どうやら おわったらしいな‥‥‥』<wait><1B>",
+			"PCE_japanese" : "<newbox><25x1@bottom_centred><11><pause><Player?>『‥‥‥どうやら おわったらしいな‥‥‥』<wait><closebox>",
 			"SNES_japanese" : "「・・どうやら おわったらしいな・・」",
 			"SNES_english" : ": ... So this is it... ",
 			"SNES_accuracy" : 0.888888888889,
@@ -315,7 +315,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -351,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]
