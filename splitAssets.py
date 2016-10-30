@@ -233,7 +233,7 @@ for INPUT_NAME in f_list:
 		file_out.write("		{\n")
 		file_out.write("			\"string_number\" : %s,\n" % byte_sequence["string_number"])
 		file_out.write("			\"string_size\" : %s,\n" % len(byte_sequence["bytes"]))
-		file_out.write("			\"start_pos\" : %s,\n" % hex(byte_sequence["start_pos"]))
+		file_out.write("			\"start_pos\" : \"%s\",\n" % hex(byte_sequence["start_pos"]))
 		# Write out the raw byte sequence
 		file_out.write("			\"bytes\" : [")
 		for c in byte_sequence["bytes"]:
@@ -250,6 +250,7 @@ for INPUT_NAME in f_list:
 		file_out.write("\",\n")
 		
 		# Space for SNES translation
+		file_out.write("			\"SNES_japanese\" : \"\",\n")
 		file_out.write("			\"SNES_english\" : \"\",\n")
 		file_out.write("			\"SNES_accuracy\" : 0.0,\n")
 		
@@ -257,11 +258,11 @@ for INPUT_NAME in f_list:
 		file_out.write("			\"PCE_english\" : \"\",\n")
 		
 		# Notes
-		file_out.write("			\"notes\" : \"\",\n")
+		file_out.write("			\"notes\" : \"\"\n")
 		
 		file_out.write("		},\n")
 	file_out.seek(-2, 1)
-	file_out.write("]\n")
+	file_out.write("\n	]\n")
 	file_out.write("}")
 	file_out.close()
 	print("")
