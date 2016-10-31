@@ -476,10 +476,17 @@ def write_export(patch, filename):
 		file_out.write("			\"SNES_accuracy\" : %s,\n" % byte_sequence["SNES_accuracy"])
 		
 		# Space for English translation
-		file_out.write("			\"PCE_english\" : \"\",\n")
+		file_out.write("			\"PCE_english\" : \"")
+		for c in byte_sequence["PCE_english"]:
+			if c == "\r\n":
+				c == "\\n"
+			if c == "\n":
+				c = "\\n"
+			file_out.write(c)
+		file_out.write("\",\n")
 		
 		# Notes
-		file_out.write("			\"notes\" : \"\"\n")
+		file_out.write("			\"notes\" : \"%s\"\n" % byte_sequence["notes"])
 		
 		file_out.write("		},\n")
 	file_out.seek(-2, 1)
