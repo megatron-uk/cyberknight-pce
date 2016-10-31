@@ -183,7 +183,7 @@
 			"SNES_japanese" : "「すべては・・・\nわたしの バグが まねいたこと・・\nじこしんかシステムが ぼうそうし\nゆがんだ しんかのみちを\nあゆんでいたのだ・・・」",
 			"SNES_english" : "My evolution system\nwent out of control \nthen proceeded to\nevolve improperly... \n",
 			"SNES_accuracy" : 0.852713178295,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred>My evolution logic\nwent out of control and\nevolved<pause>.<pause>.<pause>. wrongly.<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "「わたしは じぶんのなかに あらたな\nデバッグ・システムを くみこんだ・・・\nもはや このような こしょうは\nおこらない・・・やくそくしよう・・・」",
 			"SNES_english" : "I have inserted an\nauto-debug system\ninto my core... \nThank you... ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred>I have added an autodebug\nroutine into my core code.\nThis will prevent future..<wait><eraserow>..corruption of my logic.<pause>\nI truly thank you for all\n your efforts.<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "「さらばだ・・・\nこれよりまた・・・べつべつの\nしんかのみちを あゆむとしよう・・・・」",
 			"SNES_english" : "From now on....we'll\ncontinue on the true\nway of evolution... ",
 			"SNES_accuracy" : 0.843373493976,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred>From now on...<pause> we'll\ncontinue on the true path\nto evolution<pause>...<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "   「・・・・」",
 			"SNES_english" : "    ..... ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@top_centred> ..... <wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "   「・・・・」",
 			"SNES_english" : "    ..... ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred> ..... <wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -303,7 +303,7 @@
 			"SNES_japanese" : "「・・どうやら おわったらしいな・・」",
 			"SNES_english" : ": ... So this is it... ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred><11><pause><Player?>: So ...<pause><eraserow><Player?>: ... this is it.<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -327,7 +327,7 @@
 			"SNES_japanese" : "「にんむ かんりょう。\n    ソードフィッシュに きかんする。」",
 			"SNES_english" : ": Let's return to\nthe Swordfish. ",
 			"SNES_accuracy" : 0.862745098039,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x3@bottom_centred><Player?>: Mission Complete!<pause>Let's return to the\nSwordfish<wait><11>",
 			"notes" : ""
 		},
 		{

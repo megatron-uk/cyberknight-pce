@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -27,7 +27,7 @@
 			"SNES_japanese" : "「しまが しずみはじめた！\n    だっしゅつだ！」",
 			"SNES_english" : ": The island's\nstarting to sink!\nLet's get outta\nhere!",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@middle_centred><Player?>: The island<pause>...<pause>\n...<pause>it's sinking!<pause><eraserow><Player?>: Let's get out of\nhere!!!<wait>",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "スラウレ「わたしは わくせいスラウレ。\n    あなたがたと はなしを するために\n    わたしの からだのいちぶを\n    へんかさせて このしまを よういしました。」",
 			"SNES_english" : "Sraule: I am Sraule. I've\nmorphed part of my body to\nan island to communicate\nwith you. ",
 			"SNES_accuracy" : 0.897637795276,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred><05><15><NPC_Sraule>: Welcome.<pause> I am the\nplanet Sraule, this\nisland was created to...<wait><eraserow><NPC_Sraule>:...allow us to\ncommunicate easier.<wait>",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : ": So... you're Mentana....? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred><Player?>: So... <pause>you're Mentana?!<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]
