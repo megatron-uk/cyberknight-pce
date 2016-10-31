@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -27,8 +27,8 @@
 			"SNES_japanese" : "ビッグフット",
 			"SNES_english" : "Bigfoot",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "BigFoot",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 3,
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -51,8 +51,8 @@
 			"SNES_japanese" : "サスカッチ",
 			"SNES_english" : "Sasquatch",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Sasquatch",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 5,
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,8 +75,8 @@
 			"SNES_japanese" : "ウェンディゴ",
 			"SNES_english" : "Wendigo",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Wendigo",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 7,
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -99,8 +99,8 @@
 			"SNES_japanese" : "マンドレイク",
 			"SNES_english" : "Mandrake",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Mandrake",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 9,
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -123,8 +123,8 @@
 			"SNES_japanese" : "アルラウネ",
 			"SNES_english" : "Alraune",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Alraune",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 11,
@@ -135,7 +135,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -147,8 +147,8 @@
 			"SNES_japanese" : "サラマンダー",
 			"SNES_english" : "Salamander",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Salamander",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 13,
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -171,8 +171,8 @@
 			"SNES_japanese" : "タッツェルブルム",
 			"SNES_english" : "Tashblom",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Tatzelwyrm",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 15,
@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -195,8 +195,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "NightGant",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "NiteGaunt",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 17,
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -219,8 +219,8 @@
 			"SNES_japanese" : "デュラハン",
 			"SNES_english" : "Dullahan",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Durahan",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 19,
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -243,8 +243,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Harpy",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 21,
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -267,8 +267,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Yuwocky",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 23,
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -291,8 +291,8 @@
 			"SNES_japanese" : "シムルグ",
 			"SNES_english" : "Simurg",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Gryphon",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 25,
@@ -303,7 +303,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -315,8 +315,8 @@
 			"SNES_japanese" : "グレムリン",
 			"SNES_english" : "Gremlin",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Gremlin",
+			"notes" : "Monster list - small robotic enemy"
 		},
 		{
 			"string_number" : 27,
@@ -327,7 +327,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -339,8 +339,8 @@
 			"SNES_japanese" : "フィフィネラ",
 			"SNES_english" : "Fifinela",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Fifinela",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 29,
@@ -351,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -363,8 +363,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Spangle",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Spangle",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 31,
@@ -375,7 +375,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -387,8 +387,8 @@
 			"SNES_japanese" : "ジャバーウォック",
 			"SNES_english" : "Jabbawock",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Jabbawock",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 33,
@@ -399,7 +399,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -411,8 +411,8 @@
 			"SNES_japanese" : "カトブレパス",
 			"SNES_english" : "Catoblepa",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Catoblepas",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 35,
@@ -423,7 +423,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -435,8 +435,8 @@
 			"SNES_japanese" : "ガンカナー",
 			"SNES_english" : "Guncanner",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Guncanner",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 37,
@@ -447,7 +447,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -459,8 +459,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Sea Orc",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 39,
@@ -471,7 +471,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -483,8 +483,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mellow",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Mellow",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 41,
@@ -495,7 +495,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -507,8 +507,8 @@
 			"SNES_japanese" : "リャナンシー",
 			"SNES_english" : "LiananSea",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Faery",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 43,
@@ -519,7 +519,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -531,8 +531,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Banshee",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Banshee",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 45,
@@ -543,7 +543,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -555,8 +555,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Zaradan",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Zaradan",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 47,
@@ -567,7 +567,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -579,8 +579,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Bahamut",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Bahamut",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 49,
@@ -591,7 +591,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -603,8 +603,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Scylla",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Scylla",
+			"notes" : "Monster list - Medium robot"
 		},
 		{
 			"string_number" : 51,
@@ -615,7 +615,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -627,8 +627,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Chupon",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Typhon",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 53,
@@ -639,7 +639,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -651,8 +651,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Minaton",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Minaton",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 55,
@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -675,8 +675,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Gorgon",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Gorgon",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 57,
@@ -687,7 +687,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -699,8 +699,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Fargolta",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Fagorut",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 59,
@@ -711,7 +711,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -723,8 +723,8 @@
 			"SNES_japanese" : "ファージャルグ",
 			"SNES_english" : "Farjalg",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Farjalg",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 61,
@@ -735,7 +735,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -747,8 +747,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Ganesha",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Ganesha",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 63,
@@ -759,7 +759,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -771,8 +771,8 @@
 			"SNES_japanese" : "チャウグナー",
 			"SNES_english" : "Chaugner",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Chaugnar",
+			"notes" : "Monster list"
 		},
 		{
 			"string_number" : 65,
@@ -783,7 +783,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -795,7 +795,7 @@
 			"SNES_japanese" : "ブラウニー",
 			"SNES_english" : "Brownie",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Brownie",
 			"notes" : ""
 		},
 		{
@@ -807,7 +807,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -819,7 +819,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Clulahorn",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Clurichaun",
 			"notes" : ""
 		},
 		{
@@ -831,7 +831,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -843,7 +843,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Replahorn",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Leprechaun",
 			"notes" : ""
 		},
 		{
@@ -855,7 +855,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -867,7 +867,7 @@
 			"SNES_japanese" : "ラクシャサ",
 			"SNES_english" : "Rahkshasa",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Rakasha",
 			"notes" : ""
 		},
 		{
@@ -879,7 +879,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -891,7 +891,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Jugganaut",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Juggernaut",
 			"notes" : ""
 		},
 		{
@@ -903,7 +903,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -915,7 +915,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Kraken",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Kraken",
 			"notes" : ""
 		},
 		{
@@ -927,7 +927,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -939,7 +939,7 @@
 			"SNES_japanese" : "ガタノソア",
 			"SNES_english" : "Ganosaur",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Ganosaur",
 			"notes" : ""
 		},
 		{
@@ -951,7 +951,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -963,7 +963,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Berzerker Queen",
 			"notes" : ""
 		},
 		{
@@ -975,7 +975,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -987,7 +987,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Gizmo",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Gizmo",
 			"notes" : ""
 		},
 		{
@@ -999,7 +999,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1011,7 +1011,7 @@
 			"SNES_japanese" : "ウィスプ",
 			"SNES_english" : "Wisp",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "Wisp",
 			"notes" : ""
 		},
 		{
@@ -1023,7 +1023,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1035,7 +1035,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Blue Wisp",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Blue Wisp",
 			"notes" : ""
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1059,7 +1059,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "SandCrawl",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "SandCrawl",
 			"notes" : ""
 		},
 		{
@@ -1071,7 +1071,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1083,7 +1083,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "RockCrawl",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "RockCrawl",
 			"notes" : ""
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1107,7 +1107,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Pyroworm",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Pyrowyrm",
 			"notes" : ""
 		},
 		{
@@ -1119,7 +1119,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1131,7 +1131,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Blopp",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Blob",
 			"notes" : ""
 		},
 		{
@@ -1143,7 +1143,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1155,7 +1155,7 @@
 			"SNES_japanese" : "シリコニー",
 			"SNES_english" : "Siliconny",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Siliconi",
 			"notes" : ""
 		},
 		{
@@ -1167,7 +1167,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1179,7 +1179,7 @@
 			"SNES_japanese" : "デビルアイ",
 			"SNES_english" : "Devil Eye",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Devil Eye",
 			"notes" : ""
 		},
 		{
@@ -1191,7 +1191,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1203,7 +1203,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Evil Eye",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Evil Eye",
 			"notes" : ""
 		},
 		{
@@ -1215,7 +1215,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1227,7 +1227,7 @@
 			"SNES_japanese" : "クアドケラトプス",
 			"SNES_english" : "Quadrotops",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "",
+			"PCE_english" : "Quadratops",
 			"notes" : ""
 		},
 		{
@@ -1239,7 +1239,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1251,7 +1251,7 @@
 			"SNES_japanese" : "メガケラトプス",
 			"SNES_english" : "Megatops",
 			"SNES_accuracy" : 0.857142857143,
-			"PCE_english" : "",
+			"PCE_english" : "Megaratops",
 			"notes" : ""
 		},
 		{
@@ -1263,7 +1263,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1275,7 +1275,7 @@
 			"SNES_japanese" : "ダイモザウルス",
 			"SNES_english" : "Dymozaurus",
 			"SNES_accuracy" : 0.857142857143,
-			"PCE_english" : "",
+			"PCE_english" : "Dymosaurus",
 			"notes" : ""
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1299,7 +1299,7 @@
 			"SNES_japanese" : "アラクニザウルス",
 			"SNES_english" : "Arachnsaur",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "",
+			"PCE_english" : "Arachnosaur",
 			"notes" : ""
 		},
 		{
@@ -1311,7 +1311,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1323,7 +1323,7 @@
 			"SNES_japanese" : "レプタントスカウト",
 			"SNES_english" : "Reptant",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "Reptant",
 			"notes" : ""
 		},
 		{
@@ -1335,7 +1335,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1347,7 +1347,7 @@
 			"SNES_japanese" : "レプタントレイバー",
 			"SNES_english" : "R. Raver",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "Rep.Worker",
 			"notes" : ""
 		},
 		{
@@ -1359,7 +1359,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1369,7 +1369,7 @@
 			"bytes" : ["5c", "da", "cc", "df", "c0", "dd", "c4", "db", "b2", "d4", "d9"],
 			"PCE_japanese" : "レプタントロイヤる",
 			"SNES_japanese" : "レプタントロイヤル",
-			"SNES_english" : "R. Royal",
+			"SNES_english" : "Rep.Royal",
 			"SNES_accuracy" : 0.888888888889,
 			"PCE_english" : "",
 			"notes" : ""
@@ -1383,7 +1383,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1395,7 +1395,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Pirate",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Pirate",
 			"notes" : ""
 		},
 		{
@@ -1407,7 +1407,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1417,9 +1417,9 @@
 			"bytes" : ["5c", "ca", "df", "b2", "da", "b0", "c2", "cd", "af", "c4", "de"],
 			"PCE_japanese" : "パイレ‐ツヘッド゛",
 			"SNES_japanese" : "パイレーツヘッド",
-			"SNES_english" : "P. Captain",
+			"SNES_english" : "P.Captain",
 			"SNES_accuracy" : 0.823529411765,
-			"PCE_english" : "",
+			"PCE_english" : "P.Captain",
 			"notes" : ""
 		},
 		{
@@ -1431,7 +1431,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"SNES_japanese" : "パイレーツキング",
 			"SNES_english" : "P. King",
 			"SNES_accuracy" : 0.823529411765,
-			"PCE_english" : "",
+			"PCE_english" : "P.King",
 			"notes" : ""
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1467,7 +1467,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1479,7 +1479,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1491,7 +1491,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1503,7 +1503,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1515,7 +1515,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1527,7 +1527,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1551,7 +1551,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1563,7 +1563,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1575,7 +1575,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1587,7 +1587,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<41>",
 			"notes" : ""
 		},
 		{
@@ -1599,7 +1599,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1611,7 +1611,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<42>",
 			"notes" : ""
 		},
 		{
@@ -1623,7 +1623,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1635,7 +1635,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<43>",
 			"notes" : ""
 		},
 		{
@@ -1647,7 +1647,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1659,7 +1659,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<44>",
 			"notes" : ""
 		},
 		{
@@ -1671,7 +1671,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1683,7 +1683,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<45>",
 			"notes" : ""
 		},
 		{
@@ -1695,7 +1695,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1707,7 +1707,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<46>",
 			"notes" : ""
 		},
 		{
@@ -1719,7 +1719,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1731,7 +1731,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1743,7 +1743,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1755,7 +1755,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<48>",
 			"notes" : ""
 		},
 		{
@@ -1767,7 +1767,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1779,7 +1779,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<49>",
 			"notes" : ""
 		},
 		{
@@ -1791,7 +1791,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]

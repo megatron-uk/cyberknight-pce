@@ -632,7 +632,7 @@ if os.path.isdir(IN_DIR):
 						total_sm += 1
 						#snes_avg = snes_avg / sm
 						snes_avg = snes_avg + b["SNES_accuracy"]
-					if len(b["PCE_japanese"]) < 2:
+					if len(b["bytes"]) < 2:
 						tiny += 1
 						total_tiny += 1
 					if snes_worst < total_snes_worst:
