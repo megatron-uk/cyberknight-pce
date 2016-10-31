@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Y/N ",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<13>+J",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,8 +75,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Abilities",
+			"notes" : "Menu screen configuring player character stats"
 		},
 		{
 			"string_number" : 7,
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -135,7 +135,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -183,8 +183,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<11><addrow> OK?<addrow> Y/N<11>",
+			"notes" : "Confirmation dialogue for the main menu player character stats customisation screen"
 		},
 		{
 			"string_number" : 16,
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -207,55 +207,19 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
 			"string_number" : 18,
-			"string_size" : 13,
+			"string_size" : 20,
 			"start_pos" : "0x1c05e",
-			"bytes" : ["20", "1d", "10", "01", "20", "02", "21", "03", "22", "04", "23", "05", "24"],
-			"PCE_japanese" : " <kanji><kanji><10><addrow> \n!\n“<pause>#<05>$",
+			"bytes" : ["20", "1d", "10", "01", "20", "02", "21", "03", "22", "04", "23", "05", "24", "00", "06", "26", "07", "27", "00"],
+			"PCE_japanese" : " <kanji> 名前入力",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
-		},
-		{
-			"string_number" : 19,
-			"string_size" : 1,
-			"start_pos" : "0x1c06b",
-			"bytes" : ["00"],
-			"PCE_japanese" : "<end>",
-			"SNES_japanese" : "",
-			"SNES_english" : "",
-			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
-		},
-		{
-			"string_number" : 20,
-			"string_size" : 5,
-			"start_pos" : "0x1c06c",
-			"bytes" : ["25", "06", "26", "07", "27"],
-			"PCE_japanese" : "%<06>&<07>'",
-			"SNES_japanese" : "",
-			"SNES_english" : "",
-			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
-		},
-		{
-			"string_number" : 21,
-			"string_size" : 1,
-			"start_pos" : "0x1c071",
-			"bytes" : ["00"],
-			"PCE_japanese" : "<end>",
-			"SNES_japanese" : "",
-			"SNES_english" : "",
-			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Player",
 			"notes" : ""
 		},
 		{
@@ -267,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -279,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Name :",
 			"notes" : ""
 		},
 		{
@@ -291,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -303,7 +267,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><15><0B><Player_Name>",
 			"notes" : ""
 		},
 		{
@@ -315,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -327,7 +291,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "  Sex :\n F    M",
 			"notes" : ""
 		},
 		{
@@ -339,7 +303,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -351,8 +315,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Txt",
+			"notes" : "Changes the text mode on the player name entry screen - katakana, hiragana, english"
 		},
 		{
 			"string_number" : 30,
@@ -363,7 +327,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -375,8 +339,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Del",
+			"notes" : "Delete entered characters when entering the player name."
 		},
 		{
 			"string_number" : 32,
@@ -387,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -399,8 +363,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "->",
+			"notes" : "Move text entry cursor to the right on player name screen"
 		},
 		{
 			"string_number" : 34,
@@ -411,7 +375,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -423,8 +387,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<-",
+			"notes" : "Move text cursor to the left on player name screen."
 		},
 		{
 			"string_number" : 36,
@@ -435,7 +399,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -447,8 +411,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "End",
+			"notes" : "Submit name on player name entry screen."
 		},
 		{
 			"string_number" : 38,
@@ -459,7 +423,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -471,7 +435,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -495,7 +459,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -508,7 +472,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Looks like a sound test menu - it doesnt show by default, this would be neat to see!"
 		},
 		{
 			"string_number" : 43,

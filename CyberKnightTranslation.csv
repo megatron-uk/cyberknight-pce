@@ -36,6 +36,7 @@
 "104B"	"<NPC_Guard>"	"C"	"<NPC_Guard>"	"C"	"Guard"
 "104C"	"<NPC_Lord>"	"C"	"<NPC_Lord>"	"C"	"Lord"
 "104D"	"<NPC_Commander>"	"C"	"<NPC_Commander>"	"C"	"Lord"
+"104F"	"<NPC_Sraule>"	"C"	"<NPC_Sraule>"	"C"
 "1050"	"<NPC_BerserkerQueen>"	"C"	"<NPC_BerserkerQueen>"	"C"	"Berserker Queen"
 "10FF"	"<Name_of_NPC_or_enemy>"	"C"	"<Name_of_NPC_or_enemy>	"C"	"Combat message"
 "1A"	"<newbox>"	"C"	"<newbox>"	"C"	"Code that tells the game to create a dialogue box"
