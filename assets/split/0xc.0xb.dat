@@ -27,7 +27,7 @@
 			"SNES_japanese" : "きかい「わくせいリックラッセに ようこそ。\n    わたしは あなたがた ゆうきせいめいたいと\n    かいわするために とくべつに うまれた\n    ユニットです。」",
 			"SNES_english" : "Machine: Welcome to our\nplanet Rickrasse. We were\nproduced to communicate\nwith living creatures. \n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><24x5@top_centred><NPC_Machine>: Welcome to our\nplanet Rickrasse. We\nwere produced to\ncommunicate with living\norganisms.<wait><newbox><24x2@bottom_centred><Player?>: Did you create\nthe Berserker robots?<wait><19>.<NPC_Machine>: No. They're not\nrobots. ",
+			"PCE_english" : "<newbox><24x5@top_centred><NPC_Machine>: Welcome to our\nplanet, Rickrasse. We\nwere produced to\ncommunicate with living\norganisms.<wait><newbox><24x2@bottom_centred><Player?>: Did you create\nthe Berserker robots?<wait><19>.<NPC_Machine>: No. They're not\nrobots. We evolved from\nthe Silicons of Oribor 1.\nWe are able to think and\nevolve for ourselves.<wait><eraserow><NPC_Machine>: The Berserkers\nused to be like us.<pause>.<pause>.<pause>\nSomething went wrong,\nhowever...<wait><eraserow><NPC_Machine>: We began to scan\nthe thoughts of living\ncreatures. A large error\noccurred.<pause>.<pause>.<pause> That day -<wait>eraserow><NPC_Machine>: - a new type of\nartificial machine life\nwas born.<19>#<NPC_Kiri?>: The Berzerkers, you\nmean?<wait><19>.<NPC_Machine>: Yes.<pause>\nThey continue to evolve\nbased on living\ncreatures.<pause> But they are\ncorrupt, twisted life.<wait>",
 			"notes" : ""
 		},
 		{
@@ -48,10 +48,10 @@
 			"start_pos" : "0x19e6a",
 			"bytes" : ["1a", "24", "10", "4a", "a2", "d3", "ca", "d4", "20", "dc", "da", "dc", "da", "c6", "ca", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "a6", "20", "c4", "d2", "d9", "03", "c1", "b6", "d7", "ca", "20", "b1", "d8", "cf", "be", "dd", "a1", "03", "b1", "c5", "c0", "c0", "c1", "b6", "de", "20", "c0", "d6", "d8", "c3", "de", "bd", "a3", "08", "0c", "10", "4a", "a2", "b6", "da", "d7", "a6", "20", "be", "de", "c2", "d2", "c2", "bc", "a4", "bc", "dd", "b6", "5c", "cc", "df", "db", "b8", "de", "d7", "d1", "5c", "c9", "20", "5c", "ca", "de", "b8", "de", "5c", "a6", "03", "c0", "c0", "de", "bc", "c3", "b8", "c0", "de", "bb", "b2", "a3", "08"],
 			"PCE_japanese" : "<newbox><26x3@top_centred><NPC_Machine>『もはや われわれには バ‐サ‐カ‐を とめる\nちからは おりません。\nおなたたちが たよりです』<wait><eraserow><NPC_Machine>『かれらを ぜつめつし、しんかプログラムの バグを\nただしてください』<wait>",
-			"SNES_japanese" : "きかい「もはや われわれには バーサーカーを\n    とめる ちからは ありません。\n    あなたたちが たよりです。」",
-			"SNES_english" : "Machine: We don't have\nthe power to stop them. \nYou're the only hope. ",
+			"SNES_japanese" : "きかい「もはや われわれには バーサーカーを\n    とめる ちからは ありません。\n    あなたたちが たよりです。」「かれらを ぜつめつさせ しんかプログラムの\n    バグを ただしてください。」",
+			"SNES_english" : "Machine: We don't have\nthe power to stop them. \nYou're the only hope. Eliminate them, \nthen debug their\nevolution program",
 			"SNES_accuracy" : 0.804597701149,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred><NPC_Machine>: We don't have the\npower to stop them.<pause> You\nare the only hope.<wait><eraserow><NPC_Machine>: You must destroy\nthem and then remove the\nsource of the corruption!<wait>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Shine: Why're they looking\nfor the monuments? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@bottom_centred><NPC_Shine>: Why are they\nsearching for the\nmonuments?<wait><newbox><24x5@top_centred><NPC_Machine>: The secret\nof Mentana.<pause>.<pause>.<pause>\nMentana exists in the\nGalactic core and has\npower over time & space.<wait><eraserow><NPC_Machine>: It can create a\nhyperspace gate which\ncan jump 1000 lightyears\nin an instant.<pause>Mentana\nis immensely powerful.<wait><eraserow><NPC_Machine>: The Black Cube\nyou have is the supposed\nG-Wave Origin from the\nrace of Ancients.<wait><eraserow><NPC_Machine>: Before their\nextinction, the Ancients\nspread information about\nit to four planets.<wait><eraserow><NPC_Machine>: With all four\npieces of info you will\nbe able to contact\nand reach Mentana.<wait><eraserow><NPC_Machine>: You must stop\nthe Berzerkers from\ngaining Mentana's power.<pause>\n.<pause>.<pause> with it they could\ndestroy the Galaxy!<wait>",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "きかい「けいかく・・\n    せいさん・・ゆそう・・\n    しょうひ・・」",
 			"SNES_english" : "Machine: Plan....\nrecruit... transport....",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><16x1@top_centred><NPC_Machine>: Plan...<endwait><addrow><padH>Recruit...<endwait><addrow><padH>Transport...<endwait><addrow><padH>Consume...<wait>",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "きかい「はつでん・・\n    エネルギー・・ねんりょう\n    ・・パワー・・」",
 			"SNES_english" : "Machine: Generation... \noil... power... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: Generate...<endwait><addrow><padH>Energy....<endwait><addrow><padH>Fuel....<endwait><addrow><padH>Power...<wait>",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "きかい「はんどうたい・・\n    シリコン・・LSI・・\n    マイクロチップ・・」",
 			"SNES_english" : "Machine: Silicon....\nLSI... microchip....",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: Semiconductor..<endwait><addrow><padH>Silicon...<endwait><addrow><padH>LSI...<endwait><addrow><padH>Microchip...<wait>",
 			"notes" : ""
 		},
 		{
