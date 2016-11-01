@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -24,10 +24,10 @@
 			"start_pos" : "0x19c17",
 			"bytes" : ["1a", "2e", "10", "4a", "a2", "dc", "b8", "be", "b2", "5c", "d8", "af", "b8", "d7", "af", "be", "5c", "c6", "20", "d6", "b3", "ba", "bf", "a1", "20", "dc", "c0", "bc", "ca", "03", "b1", "c5", "c0", "b6", "de", "c0", "20", "d5", "b3", "b7", "be", "b2", "d2", "b2", "c0", "b2", "c4", "20", "b6", "b2", "dc", "bd", "d9", "03", "c0", "d2", "c6", "20", "c4", "b8", "cd", "de", "c2", "c6", "20", "b3", "cf", "da", "c0", "20", "5c", "d5", "c6", "af", "c4", "5c", "c3", "de", "bd", "a3", "08", "1a", "23", "10", "1f", "a2", "b7", "d0", "c0", "c1", "ca", "20", "5c", "db", "ce", "de", "af", "c4", "5c", "b6", "3f", "a3", "08", "19", "2e", "10", "4a", "a2", "b2", "b2", "b4", "a4", "5c", "db", "ce", "de", "af", "c4", "5c", "c3", "de", "ca", "20", "b1", "d8", "cf", "be", "dd", "a1", "03", "dc", "c0", "bc", "c0", "c1", "ca", "20", "5c", "b5", "d8", "ce", "de", "b0", "5c", "20", "c0", "de", "b2", "31", "dc", "b8", "be", "b2", "c9", "03", "5c", "bc", "d8", "ba", "dd", "5c", "be", "b2", "d2", "b2", "c0", "b2", "b6", "d7", "20", "bc", "dd", "b6", "bc", "c0", "20", "b7", "b6", "b2", "03", "be", "b2", "d2", "b2", "c0", "b2", "20", "c5", "c9", "c3", "de", "bd", "a1", "20", "bc", "de", "cc", "de", "dd", "c3", "de", "20", "b6", "dd", "b6", "de", "b4", "03", "c5", "b6", "cf", "a6", "20", "cc", "d4", "bc", "20", "bc", "dd", "b6", "bd", "d9", "ba", "c4", "b6", "de", "20", "c3", "de", "b7", "cf", "bd", "a3", "08", "0c", "10", "4a", "a2", "b1", "c5", "c0", "c0", "c1", "b6", "de", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c4", "d6", "dd", "c3", "de", "b2", "d9", "20", "b7", "b6", "b2", "03", "be", "b2", "d2", "b2", "c0", "b2", "ca", "20", "d3", "c4", "d3", "c4", "20", "dc", "c0", "bc", "c0", "c1", "c9", "20", "c5", "b6", "cf", "03", "c3", "de", "bc", "c0", "a3", "08", "0c", "10", "4a", "a2", "ce", "dd", "d7", "b2", "20", "dc", "c0", "bc", "c0", "c1", "20", "b7", "b6", "b2", "be", "b2", "d2", "b2", "c0", "b2", "c4", "03", "b1", "c5", "c0", "b6", "de", "c0", "20", "d5", "b3", "b7", "be", "b2", "d2", "b2", "c0", "b2", "ca", "a4", "bd", "d1", "be", "b6", "b2", "b6", "de", "03", "cf", "af", "c0", "b8", "20", "c1", "b6", "de", "b2", "cf", "bd", "b6", "d7", "a4", "b1", "d7", "bf", "b2", "c5", "c4", "de", "20", "b5", "b7", "d9", "03", "ca", "bd", "de", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "c3", "de", "bc", "c0", "a3", "08", "0c", "10", "4a", "a2", "bc", "b6", "bc", "20", "bc", "dd", "b6", "5c", "cc", "df", "db", "b8", "de", "d7", "d1", "5c", "c6", "20", "bc", "de", "ad", "b3", "c0", "de", "b2", "c5", "03", "5c", "ca", "de", "b8", "de", "5c", "b6", "de", "20", "ca", "af", "be", "b2", "bc", "a4", "b7", "b6", "b2", "c4", "20", "d5", "b3", "b7", "c0", "b2", "c9", "03", "c4", "b8", "c1", "ae", "b3", "a6", "20", "b1", "dc", "be", "d3", "af", "c0", "20", "b1", "d7", "c0", "c5", "20", "be", "b2", "d2", "b2", "03", "c0", "b2", "b6", "de", "20", "b3", "cf", "da", "c0", "c9", "c3", "de", "bd", "a3", "08", "19", "23", "10", "1e", "a2", "b7", "b6", "b2", "c9", "5c", "d0", "ad", "b0", "c0", "dd", "c4", "20", "5c", "c4", "b2", "b3", "dc", "b9", "c3", "de", "bd", "c8", "3f", "a3", "08", "19", "2e", "10", "4a", "a2", "bf", "da", "b6", "de", "20", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "c5", "c9", "c3", "de", "bd", "a1", "03", "b6", "da", "d7", "ca", "20", "d5", "b3", "b7", "be", "b2", "d2", "b2", "c0", "b2", "a6", "20", "5c", "d3", "c3", "de", "d9", "5c", "c6", "bc", "c3", "03", "cf", "bd", "cf", "bd", "20", "bc", "dd", "b6", "a6", "20", "c2", "c2", "de", "b9", "c3", "b2", "d9", "c9", "c3", "de", "bd", "a3", "08"],
 			"PCE_japanese" : "<newbox><24x5@top_centred><NPC_Machine>『わくせいリックラッセに ようこそ。 わたしは\nおなたがた ゆうきせいめいたいと かいわする\nために とくべつに うまれた ユニットです』<wait><newbox><25x1@bottom_centred><Player?>『きみたちは ロボットか?』<wait><19>.<NPC_Machine>『いいえ、ロボットでは おりません。\nわたしたちは オリボ‐ だい1わくせいの\nシリコンせいめいたいから しんかした きかい\nせいめいたい なのです。 じぶんで かんがえ\nなかまを ふやし しんかすることが できます』<wait><eraserow><NPC_Machine>『おなたたちが バ‐サ‐カ‐とよんでいる きかい\nせいめいたいは もともと わたしたちの なかま\nでした』<wait><eraserow><NPC_Machine>『ほんらい わたしたち きかいせいめいたいと\nおなたがた ゆうきせいめいたいは、すむせかいが\nまったく ちがいますから、おらそいなど おきる\nはずが おりませんでした』<wait><eraserow><NPC_Machine>『しかし しんかプログラムに じゅうだいな\nバグが はっせいし、きかいと ゆうきたいの\nとくちょうを おわせもった おらたな せいめい\nたいが うまれたのです』<wait><19>#<NPC_Kiri?>『きかいのミュ‐タント というわけですね?』<wait><19>.<NPC_Machine>『それが バ‐サ‐カ‐なのです。\nかれらは ゆうきせいめいたいを モデルにして\nますます しんかを つづけているのです』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "きかい「わくせいリックラッセに ようこそ。\n    わたしは あなたがた ゆうきせいめいたいと\n    かいわするために とくべつに うまれた\n    ユニットです。」",
 			"SNES_english" : "Machine: Welcome to our\nplanet Rickrasse. We were\nproduced to communicate\nwith living creatures. \n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x5@top_centred><NPC_Machine>: Welcome to our\nplanet Rickrasse. We\nwere produced to\ncommunicate with living\norganisms.<wait><newbox><24x2@bottom_centred><Player?>: Did you create\nthe Berserker robots?<wait><19>.<NPC_Machine>: No. They're not\nrobots. ",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -135,7 +135,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -144,7 +144,7 @@
 			"start_pos" : "0x1a139",
 			"bytes" : ["1a", "28", "10", "4a", "a2", "b9", "b2", "b6", "b8", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "be", "b2", "bb", "dd", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "d5", "bf", "b3", "3b", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "bc", "ae", "b3", "cb", "3b", "3b", "3b", "3b", "a3", "08"],
 			"PCE_japanese" : "<newbox><16x1@top_centred><NPC_Machine>『けいかく‥‥‥‥<endwait><addrow><padH>リせいさん‥‥‥‥<endwait><addrow><padH>リゆそう‥‥‥‥‥<endwait><addrow><padH>リしょうひ‥‥‥‥』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "きかい「けいかく・・\n    せいさん・・ゆそう・・\n    しょうひ・・」",
 			"SNES_english" : "Machine: Plan....\nrecruit... transport....",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -168,7 +168,7 @@
 			"start_pos" : "0x1a16d",
 			"bytes" : ["1a", "2a", "10", "4a", "a2", "ca", "c2", "c3", "de", "dd", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "5c", "b4", "c8", "d9", "b7", "de", "b0", "5c", "3b", "3b", "3b", "1c", "01", "0d", "f8", "c8", "dd", "d8", "ae", "b3", "3b", "3b", "3b", "1c", "01", "0d", "f8", "5c", "ca", "df", "dc", "b0", "3b", "3b", "3b", "3b", "3b", "a3", "08"],
 			"PCE_japanese" : "<newbox><16x1@top_left><NPC_Machine>『はつでん‥‥‥‥<endwait><addrow><padH>リエネルギ‐‥‥‥<endwait><addrow><padH>リねんりょう‥‥‥<endwait><addrow><padH>リパワ‐‥‥‥‥‥』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "きかい「はつでん・・\n    エネルギー・・ねんりょう\n    ・・パワー・・」",
 			"SNES_english" : "Machine: Generation... \noil... power... ",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -192,7 +192,7 @@
 			"start_pos" : "0x1a1a7",
 			"bytes" : ["1a", "2b", "10", "4a", "a2", "ca", "dd", "c4", "de", "b3", "c0", "b2", "3b", "3b", "1c", "01", "0d", "f8", "5c", "bc", "d8", "ba", "dd", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "4c", "53", "49", "3b", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "cf", "b2", "b8", "db", "c1", "af", "cc", "df", "3b", "a3", "08"],
 			"PCE_japanese" : "<newbox><16x1@top_right><NPC_Machine>『はんどうたい‥‥<endwait><addrow><padH>リシリコン‥‥‥‥<endwait><addrow><padH>りLSI‥‥‥‥‥<endwait><addrow><padH>りマイクロチップ‥』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "きかい「はんどうたい・・\n    シリコン・・LSI・・\n    マイクロチップ・・」",
 			"SNES_english" : "Machine: Silicon....\nLSI... microchip....",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -264,7 +264,7 @@
 			"start_pos" : "0x1a24f",
 			"bytes" : ["1a", "2b", "10", "4a", "a2", "c3", "dd", "c0", "b2", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "dc", "b8", "be", "b2", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "b4", "b2", "be", "b2", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "b7", "c4", "de", "b3", "3b", "3b", "3b", "3b", "3b", "a3", "08"],
 			"PCE_japanese" : "<newbox><16x1@top_right><NPC_Machine>『てんたい‥‥‥‥<endwait><addrow><padH>リわくせい‥‥‥‥<endwait><addrow><padH>リえいせい‥‥‥‥<endwait><addrow><padH>リきどう‥‥‥‥‥』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "きかい「てんたい・・\n    わくせい・・えいせい・・\n    きどう・・」",
 			"SNES_english" : "Machine: Planetarium... \nplanet... \nsatellite....",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -288,7 +288,7 @@
 			"start_pos" : "0x1a284",
 			"bytes" : ["1a", "28", "10", "4a", "a2", "58", "be", "dd", "3b", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f8", "5c", "b6", "de", "dd", "cf", "5c", "be", "dd", "3b", "3b", "3b", "1c", "01", "0d", "f8", "5c", "d0", "ad", "b0", "b5", "dd", "3b", "3b", "3b", "1c", "01", "0d", "f8", "c6", "ad", "b0", "c4", "d8", "c9", "3b", "3b", "a3", "08"],
 			"PCE_japanese" : "<newbox><16x1@top_centred><NPC_Machine>『Xせん‥‥‥‥‥<endwait><addrow><padH>リガンマせん‥‥‥<endwait><addrow><padH>リミュ‐オン‥‥‥<endwait><addrow><padH>りニュ‐トリノ‥‥』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "きかい「Xせん・・\n    ガンマせん・・ミューオン\n    ・・ニュートリノ・・」",
 			"SNES_english" : "Machine: X-ray... \ngamma... \nneutrino....",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
@@ -303,7 +303,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -312,7 +312,7 @@
 			"start_pos" : "0x1a2bc",
 			"bytes" : ["1a", "2a", "10", "4a", "a2", "be", "b2", "d2", "b2", "3b", "1c", "01", "0d", "fb", "b7", "b6", "b2", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f9", "ca", "dd", "bc", "ae", "b8", "3b", "3b", "3b", "3b", "1c", "01", "0d", "f7", "bc", "dd", "b6", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "a3", "08"],
 			"PCE_japanese" : "<newbox><16x1@top_left><NPC_Machine>『せいめい‥<endwait><addrow><padH>ロきかい‥‥‥‥<endwait><addrow><padH>ルはんしょく‥‥‥‥<endwait><addrow><padH>ラしんか‥‥‥‥‥‥‥‥』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "きかい「せいめい・・\n    きかい・・はんしょく・・\n    しんか・・」",
 			"SNES_english" : "Machine: Lives... \nmachines... \nbreed... \nevolve... ",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
@@ -327,7 +327,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -336,8 +336,8 @@
 			"start_pos" : "0x1a2f0",
 			"bytes" : ["1a", "2a", "10", "4a", "a2", "5c", "cc", "df", "db", "b8", "de", "d7", "d1", "3b", "3b", "3b", "1c", "01", "0d", "f8", "d9", "b0", "c1", "dd", "3b", "3b", "3b", "3b", "1c", "01", "1a", "2b", "3b", "3b", "3b", "b4", "d7", "b0", "3b", "3b", "3b", "1c", "01", "0d", "ff", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "0d", "fe", "20", "1c", "01", "1b", "01", "0b", "06", "09", "c3", "de", "ca", "de", "af", "b8", "de", "3b", "3b", "3b", "3b", "a3", "08"],
 			"PCE_japanese" : "<newbox><16x1@top_left><NPC_Machine>『プログラム‥‥‥<endwait><addrow><padH>りル‐チン‥‥‥‥<endwait><addrow><newbox><16x1@top_right>‥‥‥エラ‐‥‥‥<endwait><addrow><padH>゜ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <endwait><addrow><closebox><addrow><0B><06><09>デバッグ‥‥‥‥』<wait>",
-			"SNES_japanese" : "",
-			"SNES_english" : "",
+			"SNES_japanese" : "きかい「プログラム・・\n    ルーチン・・エラー・・\n    デバッグ・・」",
+			"SNES_english" : "Machine: Program... \nroutine... \ndebug... ",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
 			"notes" : ""
@@ -351,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]
