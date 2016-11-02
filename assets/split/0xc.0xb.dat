@@ -123,7 +123,7 @@
 			"SNES_japanese" : "きかい「ありがとう。しんかプログラムは\n    しゅうせいされました。\n    これからも へいわに\n    きょうぞんしてゆきましょう。」",
 			"SNES_english" : "Machine: Thank you. ",
 			"SNES_accuracy" : 0.895238095238,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred><NPC_Machine>: The evolution\ncorruption is now gone.\nThank you!<wait><eraserow><NPC_Machine>: All can now\nco-exist together\nin peace!<wait>",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: Black Cube...<endwait><addrow><padH>G-Wave...<endwait><addrow><padH>Understand...<endwait><addrow><padH>Mentana...<wait>",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "きかい「てんたい・・\n    わくせい・・えいせい・・\n    きどう・・」",
 			"SNES_english" : "Machine: Planetarium... \nplanet... \nsatellite....",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: Planetarium...<endwait><addrow><padH>Planet...<endwait><addrow><padH>Satellite...",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "きかい「Xせん・・\n    ガンマせん・・ミューオン\n    ・・ニュートリノ・・」",
 			"SNES_english" : "Machine: X-ray... \ngamma... \nneutrino....",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: X-Ray...<endwait><addrow><padH>Gamma Ray...<endwait><addrow><padH>Muon...<endwait><addrow><padH>Neutrino...<wait>",
 			"notes" : ""
 		},
 		{
@@ -315,7 +315,7 @@
 			"SNES_japanese" : "きかい「せいめい・・\n    きかい・・はんしょく・・\n    しんか・・」",
 			"SNES_english" : "Machine: Lives... \nmachines... \nbreed... \nevolve... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: Lives...<endwait><addrow><padH>Machines...<endwait><addrow><padH>Breeding...<endwait><addrow><padH>Evolving...<wait>",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "きかい「プログラム・・\n    ルーチン・・エラー・・\n    デバッグ・・」",
 			"SNES_english" : "Machine: Program... \nroutine... \ndebug... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: Code...<endwait><addrow><padH>Subroutine...<endwait><addrow><newbox><24x1@bottom_centred>...Error...<endwait><addrow><padH>゜ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <endwait><addrow><closebox><addrow><0B><06><09>Debug...<wait>",
 			"notes" : ""
 		},
 		{

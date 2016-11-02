@@ -650,7 +650,10 @@ if os.path.isdir(IN_DIR):
 					snes_avg = snes_avg / sm
 				if total_sm > 0:
 					total_snes_avg += snes_avg
-				print("| %4s   |%4s /%4s  | %4s /%4s |      %3.0f |      %3.0f |     %3.0f |   %3s  | %s" % (tot, t, tot, sm, tot, snes_best * 100, snes_worst * 100, snes_avg * 100, tiny, d))
+				if t == tot:
+					print("| %4s   |%4s /%4s  | %4s /%4s |      %3.0f |      %3.0f |     %3.0f |   %3s  | %s COMPLETE" % (tot, t, tot, sm, tot, snes_best * 100, snes_worst * 100, snes_avg * 100, tiny, d))
+				else:
+					print("| %4s   |%4s /%4s  | %4s /%4s |      %3.0f |      %3.0f |     %3.0f |   %3s  | %s" % (tot, t, tot, sm, tot, snes_best * 100, snes_worst * 100, snes_avg * 100, tiny, d))
 			except Exception as e:
 				print traceback.format_exc()
 				print("| %s <- ERROR, not a valid JSON file" % d)

@@ -27,7 +27,7 @@
 			"SNES_japanese" : "「モニュメントが あった！\n    ひょうめんに きざまれた もじを\n    ビデオカメラで きろくしておこう。」",
 			"SNES_english" : ": Found it! Let's\nrecord the codes. ",
 			"SNES_accuracy" : 0.716981132075,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@bottom_centred><Player?>: Found the\nmonument!<pause> Let's record\nthese symbols here.<wait><13>[You record the symbols]<wait><13>ょ[<13>お[",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "「なぞのモニュメントだ。\nきごうのようなものが きざまれている・・。",
 			"SNES_english" : "It's a weird monument. \nStrange things are\nwritten on it... ",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@bottom_centred>Strange symbols are\nwritten on this monument<wait>",
 			"notes" : ""
 		},
 		{
