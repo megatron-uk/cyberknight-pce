@@ -35,11 +35,11 @@
 			"string_size" : 187,
 			"start_pos" : "0x16a71",
 			"bytes" : ["1a", "2e", "10", "2b", "a2", "ba", "da", "ca", "20", "b1", "b7", "d7", "b6", "c6", "20", "bc", "de", "dd", "ba", "b3", "cc", "de", "c2", "c0", "de", "c5", "a1", "03", "cb", "ae", "b3", "d2", "dd", "c6", "20", "cb", "de", "af", "bc", "d8", "c4", "20", "b7", "ba", "de", "b3", "b6", "de", "20", "b7", "bb", "de", "cf", "da", "03", "c3", "b2", "d9", "a1", "03", "c5", "c6", "b6", "c9", "20", "ce", "b3", "c3", "b2", "bc", "b7", "20", "c9", "d6", "b3", "c0", "de", "b6", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "2b", "a2", "bb", "de", "b2", "bc", "c2", "b6", "d7", "20", "b6", "dd", "b6", "de", "b4", "c3", "20", "ba", "b3", "c4", "de", "c5", "03", "5c", "c3", "b8", "c9", "db", "bc", "de", "b0", "5c", "c6", "d6", "af", "c3", "20", "c2", "b8", "d7", "da", "c0", "d3", "c9", "c3", "de", "b1", "d9", "c9", "ca", "03", "c0", "bc", "b6", "c5", "d6", "b3", "c0", "de", "c5", "3b", "3b", "3b", "3b", "04", "3c", "03", "c8", "dd", "c9", "c0", "d2", "c6", "a4", "5c", "cb", "de", "c3", "de", "b5", "b6", "d2", "d7", "5c", "c3", "de", "20", "b7", "db", "b8", "bc", "c3", "b5", "ba", "b3", "a3", "08", "13", "fc", "6b"],
-			"PCE_japanese" : "<newbox><24x5@top_centred><NPC_Shine>『これは おきらかに じんこうぶつだな。\nひょうめんに びっしりと きごうが きざまれ\nている。\nなにかの ほうていしき のようだが‥‥‥‥』<wait><eraserow><NPC_Shine>『ざいしつから かんがえて こうどな\nテクノロジ‐によって つくられたものでおるのは\nたしかなようだな‥‥‥‥<pause><\nねんのために、ビデオカメラで きろくしておこう』<wait><13>ワk",
+			"PCE_japanese" : "<newbox><24x5@top_centred><NPC_Shine>『これは おきらかに じんこうぶつだな。\nひょうめんに びっしりと きごうが きざまれ\nている。\nなにかの ほうていしき のようだが‥‥‥‥』<wait><erasebox><NPC_Shine>『ざいしつから かんがえて こうどな\nテクノロジ‐によって つくられたものでおるのは\nたしかなようだな‥‥‥‥<pause><\nねんのために、ビデオカメラで きろくしておこう』<wait><13>ワk",
 			"SNES_japanese" : "シャイン「これは あきらかに じんこうぶつだな。\n    ひょうめんに びっしりと\n    きごうが きざまれている。\n    なにかの ほうていしきのようだが・・」",
 			"SNES_english" : "Shine: It's gotta be\nartificial. There's\nwriting all over it... Shine: Looks like some really\nhigh-tech stuff... why don't\nwe record it just in case? Took a snapshot of it!",
 			"SNES_accuracy" : 0.903225806452,
-			"PCE_english" : "<newbox><24x5@top_centred><NPC_Shine>: It's got to be\nartificial. There are some\nsort of symbols all over\nit.<wait><eraserow><NPC_Shine>: It looks like some\nreally high end stuff.<pause>\nWhy don't we record it,\njust in case?<pause>\nThere!<pause> Snapshot taken!<wait><13>ワk",
+			"PCE_english" : "<newbox><24x5@top_centred><NPC_Shine>: It's got to be\nartificial. There are some\nsort of symbols all over\nit.<wait><erasebox><NPC_Shine>: It looks like some\nreally high end stuff.<pause>\nWhy don't we record it,\njust in case?<pause>\nThere!<pause> Snapshot taken!<wait><13>ワk",
 			"notes" : ""
 		},
 		{
@@ -59,11 +59,11 @@
 			"string_size" : 109,
 			"start_pos" : "0x16b2d",
 			"bytes" : ["1a", "25", "10", "1f", "a2", "c5", "dd", "c0", "de", "20", "ba", "d8", "ac", "3f", "20", "cb", "ae", "b3", "d2", "dd", "c6", "20", "cb", "de", "af", "bc", "d8", "c4", "03", "b5", "b7", "ae", "b3", "20", "d0", "c0", "b2", "c5", "d3", "c9", "b6", "de", "20", "b7", "bb", "de", "dd", "c3", "de", "b1", "d9", "03", "b9", "c4", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "1f", "a2", "c1", "ae", "b3", "c4", "de", "b2", "b2", "21", "20", "5c", "cb", "de", "c3", "de", "b5", "b6", "d2", "d7", "5c", "b6", "de", "b1", "d9", "b6", "d7", "03", "b7", "c8", "dd", "bb", "c2", "b4", "b2", "20", "bc", "c3", "b5", "ba", "b3", "a3", "08", "13", "fc", "6b"],
-			"PCE_japanese" : "<newbox><26x3@bottom_centred><Player?>『なんだ こりゃ? ひょうめんに びっしりと\nおきょう みたいなものが きざんでおる\nけど‥‥‥‥』<wait><eraserow><Player?>『ちょうどいい! ビデオカメラがおるから\nきねんさつえい しておこう』<wait><13>ワk",
+			"PCE_japanese" : "<newbox><26x3@bottom_centred><Player?>『なんだ こりゃ? ひょうめんに びっしりと\nおきょう みたいなものが きざんでおる\nけど‥‥‥‥』<wait><erasebox><Player?>『ちょうどいい! ビデオカメラがおるから\nきねんさつえい しておこう』<wait><13>ワk",
 			"SNES_japanese" : "{F0}{01}「なんだ こりゃ?\n    ひょうめんに びっしりと\n    おきょう みたいなものが\n    きざんであるけど・・」",
 			"SNES_english" : ": Huh?  There's\nsome weird writing\non the surface... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><26x3@bottom_centred><Player?>: Strange,<pause> there is\nsome wierd writing on the\nsurface...<wait><eraserow><Player?>: Well, we may as\nwell take a scan of it so\nthat we can decode them.<wait><13>ワk",
+			"PCE_english" : "<newbox><26x3@bottom_centred><Player?>: Strange,<pause> there is\nsome wierd writing on the\nsurface...<wait><erasebox><Player?>: Well, we may as\nwell take a scan of it so\nthat we can decode them.<wait><13>ワk",
 			"notes" : ""
 		},
 		{
