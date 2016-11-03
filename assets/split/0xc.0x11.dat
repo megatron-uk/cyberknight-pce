@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "ガライアン「そとの せかいに きょうみはない。」",
 			"SNES_english" : "Garaian: Go away. ",
 			"SNES_accuracy" : 0.903225806452,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><15x2@top_left><NPC_Garaian>: Go\naway!<wait><eraserow><NPC_Garaian>: Not\ninterested.<wait>",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Garaian>: Bored. So bored.<wait>",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "ガライアン「やばんな たたかいは きらいだ。」",
 			"SNES_english" : "Garaian: I hate war. ",
 			"SNES_accuracy" : 0.896551724138,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Garaian>: I hate war.<wait><eraserow><NPC_Garaian>: It's so savage.<wait>",
 			"notes" : ""
 		},
 		{
@@ -135,7 +135,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "ガライアン「ようが すんだら かえれ。」",
 			"SNES_english" : "Garaian: Go away!",
 			"SNES_accuracy" : 0.869565217391,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Garaian>: Go away!<wait><eraserow><NPC_Garaian>: And don't come back!<wait>",
 			"notes" : ""
 		},
 		{
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "ガライアン「われわれは へいわで\n    たいくつな しゅぞく なのじゃ。」",
 			"SNES_english" : "Garaian: We're the most\npeaceful tribe in the\ngalaxy. ",
 			"SNES_accuracy" : 0.901960784314,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x5@top_centred><NPC_Garaian>: We're the most\npeaceful tribe in the\nGalaxy....\n...[sigh]...<wait><eraserow><NPC_Garaian>: But some of us\ncouldn't put up with\nthis peaceful way of life\nanymore and so left.<pause><pause>\nWe miss them...<wait>",
 			"notes" : ""
 		},
 		{
@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x3@bottom_centred><Player?>: We've met them!<wait><eraserow><Player?>: They're in a\nspot of trouble right now.<wait><eraserow><Player?>: Can you help us\nrestore their artificial\nsun?",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -303,7 +303,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]
