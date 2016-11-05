@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Silicon>:<slow><1F> Big Bang...<wait><erasebox><NPC_Silicon>:<slow><1F> Expansion...<wait><erasebox><NPC_Silicon>:<slow><1F> Contraction...<wait><erasebox><NPC_Silicon>:<slow><1F> Horizon...<wait><erasebox><NPC_Silicon>:<slow><1F> Redshift...<wait><erasebox><NPC_Silicon>: [mutter mutter]<pause><newbox><24x2@bottom_centred><NPC_Shine>: Woah.<pause>\nThat sounds like they're<wait><erasebox><NPC_Shine>: trying to express\nsomething important.<wait><newbox><15x2@top_left><Player_Name>: If only\nwe could speak<wait><erasebox><Player_Name>: their\nlanguage.<wait>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred><NPC_Silicon>:<slow><1F> Fluctuation...<wait><erasebox><NPC_Silicon>:<slow><1F> Fractal...<wait><erasebox><NPC_Silicon>:<slow><1F> Fuzzy...<wait><erasebox><NPC_Silicon>:<slow><1F> Holon...<wait><erasebox><NPC_Silicon>:<slow><1F> Entropy...<wait><erasebox><NPC_Silicon>: [grumble grumble]<wait><newbox><15x2@top_left><Player_Name>: What does\nit all mean?<wait>",
 			"notes" : ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Silicon>:<slow><1F> Significant and signified...<wait><erasebox><NPC_Silicon>:<slow><1F> Lung and Pharoah...<wait><erasebox><NPC_Silicon>:<slow><1F> Writing and discourse<wait><erasebox><NPC_Silicon>:<slow><1F> Paranoid and Schizo<wait><erasebox><NPC_Silicon>:<slow><1F> Tree and rhizome<wait><erasebox><NPC_Silicon>:<slow><1F> [mumble mumble]<pause><newbox><24x2@bottom_centred><NPC_Vynd>: What ARE they\ntalking about???<wait>",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred><NPC_Silicon>: Imaginary...<wait><erasebox><NPC_Silicon>: Natural number...<wait><erasebox><NPC_Silicon>: Logarithm<wait><erasebox><NPC_Silicon>: Irrational numbers<wait><erasebox><NPC_Silicon>: Quantum states<wait><erasebox><NPC_Silicon>: [uninteligible]<newbox><15x2@top_left><Player_Name>: Pure math\nVery strange.<wait><erasebox><Player_Name>: Are they\ntrying to learn<wait><erasebox><Player_Name>: about\nus with maths?<wait>",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Silicon>: Meditation,<pause>\n...not disturb.<pause><newbox><24x2@bottom_centred><NPC_Shine>: Err, <Player_Name>",
 			"notes" : ""
 		},
 		{
