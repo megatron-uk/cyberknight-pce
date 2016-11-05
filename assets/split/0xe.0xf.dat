@@ -1679,7 +1679,7 @@
 			"string_size" : 27,
 			"start_pos" : "0x1f7f5",
 			"bytes" : ["13", "f9", "7a", "07", "0a", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "3b", "07", "01", "20", "5c", "cc", "a7", "b2", "c4", "5c", "ab", "21", "21"],
-			"PCE_japanese" : "<13>ルz<07><0A>‥‥‥‥‥‥‥‥‥‥<07><addrow> ファイトぉ!!",
+			"PCE_japanese" : "<13>ルz<slow><0A>‥‥‥‥‥‥‥‥‥‥<slow><addrow> ファイトぉ!!",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,

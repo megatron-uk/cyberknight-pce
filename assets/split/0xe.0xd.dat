@@ -935,7 +935,7 @@
 			"string_size" : 13,
 			"start_pos" : "0x1ee0f",
 			"bytes" : ["0d", "07", "1e", "21", "53", "20", "54", "20", "41", "20", "46", "20", "46"],
-			"PCE_japanese" : "<padH><07><1E>!S T A F F",
+			"PCE_japanese" : "<padH><slow><1E>!S T A F F",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,

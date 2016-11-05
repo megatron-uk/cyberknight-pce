@@ -179,11 +179,11 @@
 			"string_size" : 6,
 			"start_pos" : "0x16c1b",
 			"bytes" : ["1a", "1c", "07", "01", "06", "1b"],
-			"PCE_japanese" : "<newbox><23x1@middle_centred><07><addrow><06><closebox>",
+			"PCE_japanese" : "<newbox><23x1@middle_centred><slow><addrow><06><closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><23x1@middle_centred><07><addrow><06><closebox>",
+			"PCE_english" : "<newbox><23x1@middle_centred><slow><addrow><06><closebox>",
 			"notes" : ""
 		},
 		{

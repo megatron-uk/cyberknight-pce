@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -23,11 +23,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x1801a",
 			"bytes" : ["1a", "20", "07", "0a", "10", "45", "a2", "5c", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "03", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><15x2@top_left><07><0A><NPC_Rock>『ブツブツ‥‥‥\nブツブツ‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox><15x2@top_left><slow><0A><NPC_Rock>『ブツブツ‥‥‥\nブツブツ‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Rock[speed_0F]: Brmmm... [speed_FF]",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><15x2@top_left><slow><0A><NPC_Rock>: Rrrmmm...\nrrrmmm...<wait>",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -47,11 +47,11 @@
 			"string_size" : 30,
 			"start_pos" : "0x18038",
 			"bytes" : ["1a", "22", "07", "0a", "10", "45", "a2", "5c", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@middle_centred><07><0A><NPC_Rock>『ブツブツ‥‥‥‥ブツブツ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox><25x1@middle_centred><slow><0A><NPC_Rock>『ブツブツ‥‥‥‥ブツブツ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Rock[speed_0F]: Brmmm... [speed_FF]",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred><slow><0A><NPC_Rock>: Rrrmmm... rrrmmm...<wait>",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -135,7 +135,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]
