@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -25,9 +25,9 @@
 			"bytes" : ["1a", "4f", "10", "30", "a2", "cb", "ae", "b3", "d2", "dd", "b5", "dd", "c4", "de", "20", "31", "30", "30", "30", "20", "df", "43", "20", "b2", "bc", "de", "ae", "b3", "a1", "03", "d6", "b3", "b6", "de", "dd", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "03", "c3", "de", "bd", "a1", "a3", "08"],
 			"PCE_japanese" : "<newbox><24x3@bottom_centred><NPC_Mica>『ひょうめんおんど 1000゜C いじょう。\nようがんに おおわれた ちいさな わくせい\nです。』<wait>",
 			"SNES_japanese" : "MICA「ひょうめんおんど\n    １０００どC いじょう。\n    ようがんに おおわれた \n    ちいさな わくせいです。」",
-			"SNES_english" : "Mica: Surface temp\nis over 1000C. A\nsmall planet \ncovered in magma. \n",
+			"SNES_english" : "<NPC_Mica>: Surface temp\nis over 1000C. A\nsmall planet \ncovered in magma. \n",
 			"SNES_accuracy" : 0.795454545455,
-			"PCE_english" : "<newbox><24x3@bottom_centred>MICA: Surface temp is\nover 1000C. It is a small\nplanet covered by lava.<wait>",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: Surface temp is\nover 1000C. It is a small\nplanet covered by lava.<wait>",
 			"notes" : "Ship scan results"
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "MICA「ちいさな わくせいです。\n    ひょうめんは こうおんで\n    たいきも みずも そんざいしません。」",
 			"SNES_english" : "Mica: A small planet. \nThe surface has a\nhigh temperature. \nThere is no water. ",
 			"SNES_accuracy" : 0.926829268293,
-			"PCE_english" : "<newbox><24x3@bottom_centred>MICA:A small planet.\nAn hot, dry world with\nno water.<wait>",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: A small planet.\nAn hot, dry world with\nno water.<wait>",
 			"notes" : "Ship scan results"
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "MICA「ゆうどくの たいきに つつまれた\n    こうおんの わくせいです。」",
 			"SNES_english" : "Mica: A planet covered\nwith toxic gases. ",
 			"SNES_accuracy" : 0.928571428571,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: A Toxic world\ncovered in clouds\nof noxious gases.<wait>",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: A planet covered\nin oceans. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: An Ocean world.\nThe planet is covered by\na sea. No landing sites.<wait>",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: Looks similar to\nEarth but no life-\nenergy is detected. \nThere is no oxygen. \n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: Size similar to\nEarth, but no oxygen and\nno life-energy signs.<wait>",
 			"notes" : ""
 		},
 		{
@@ -135,7 +135,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "MICA「しょうわくせいです。\n    たいきは そんざいしません。」",
 			"SNES_english" : "Mica: A small planet. ",
 			"SNES_accuracy" : 0.92,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@bottom_centred><NPC_Mica>: An asteroid.\nNo atmosphere.<wait>",
 			"notes" : ""
 		},
 		{
@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{

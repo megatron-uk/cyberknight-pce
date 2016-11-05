@@ -51,7 +51,7 @@
 			"SNES_japanese" : "きかい「もはや われわれには バーサーカーを\n    とめる ちからは ありません。\n    あなたたちが たよりです。」「かれらを ぜつめつさせ しんかプログラムの\n    バグを ただしてください。」",
 			"SNES_english" : "Machine: We don't have\nthe power to stop them. \nYou're the only hope. Eliminate them, \nthen debug their\nevolution program",
 			"SNES_accuracy" : 0.804597701149,
-			"PCE_english" : "<newbox><26x3@top_centred><NPC_Machine>: We don't have the\npower to stop them.<pause> You\nare the only hope.<wait><erasebox><NPC_Machine>: You must destroy\nthem and then remove the\nsource of the corruption!<wait>",
+			"PCE_english" : "<newbox><26x3@top_centred><NPC_Machine>: We don't have the\npower to stop them.<pause> You\nare the only hope.<wait><erasebox><NPC_Machine>: You must destroy\nthem and then remove the\nsource of the corruption!<pause><newbox><16x1@top_left><Player_Name>: We'll try.<wait>",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "きかい「プログラム・・\n    ルーチン・・エラー・・\n    デバッグ・・」",
 			"SNES_english" : "Machine: Program... \nroutine... \ndebug... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><24x1@top_centred><NPC_Machine>: Code...<endwait><addrow><padH>Subroutine...<endwait><addrow><newbox><24x1@bottom_centred>...Error...<endwait><addrow><padH>゜ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <padH>゛ <endwait><addrow><closebox><addrow><0B><06><09>Debug...<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
