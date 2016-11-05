@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Silicon>: Meditation,<pause>\n...not disturb.<pause><newbox><24x2@bottom_centred><NPC_Shine>: Err, <Player_Name>",
+			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Silicon>: Meditation,<pause>\n...not disturb.<pause><newbox><24x2@bottom_centred><NPC_Shine>: Commander, maybe\nwe shouldn't interrupt?<wait><newbox><15x2@top_left><Player_Name>: Let's\nwait and see.<jumptobox><last_active_plus_1><erasebox><NPC_Silicon>: [mutter mutter]<wait><erasebox><NPC_Silicon>: Pyrowyrm\nbeast...<wait><erasebox><NPC_Silicon>: possession\nscale horn...<wait><erasebox><NPC_Silicon>: lava passage\nwalking...<wait><erasebox><NPC_Silicon>: ...gaining.<jumptobox><last_active><Player_Name>: Ok, I\nthink I get it.<wait><erasebox><Player_Name>: It seems\nwe need to...<wait><erasebox><Player_Name>: Get some-\nthing from a...<wait><erasebox><Player_Name>: Pyrowyrm\nto travel on...<wait><erasebox><Player_Name>: lava.<wait>",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred><NPC_Silicon>: Photon...<wait><erasebox><NPC_Silicon>: Gluon....<wait><erasebox><NPC_Silicon>: Weakbozon...<wait><erasebox><NPC_Silicon>Gravitron...<wait><erasebox><NPC_Silicon>: Hypercharge...<wait><erasebox><NPC_Silicon>: [bzzzzzt]<pause><newbox><24x2@bottom_centred><NPC_Vynd>: Hey, does that\nsounds like phsyics?<wait>",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Silicon>: Life-energy...<wait><erasebox><NPC_Silicon>: Shaped-energy...<wait><erasebox><NPC_Silicon>: Unknown-energy...<wait><erasebox><NPC_Silicon>: <pause>Mentana<pause>.<pause>.<pause>.<wait><erasebox><NPC_Silicon> [gnnnnnnnnk]<wait>",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@bottom_centred><NPC_Silicon>: Mentana...<wait><erasebox><NPC_Silicon>: Creater of all...<wait><erasebox><NPC_Silicon>: Berzerker\nperhaps also...<newbox><24x2@top_centred><NPC_Shine>: Wait!<pause> Did they\njust say that Mentana...<wait><erasebox><NPC_Shine>: ...may have also\ncreated the Berzerkers?!<pause><jumptobox><last_active><erasebox><NPC_Silicon>: Mentana thoughts\n<pause>.<pause>.<pause>.immeasureable<wait><erasebox><NPC_Silicon>: ...impossible\nto understand by us.<wait>",
 			"notes" : ""
 		},
 		{
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred>You defeated a Pyrowyrm!<wait>13><erasebox>[Found the Pyrowyrm Fang]<wait><13>ょ[",
 			"notes" : ""
 		},
 		{
