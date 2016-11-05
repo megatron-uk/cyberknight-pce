@@ -1619,7 +1619,7 @@
 			"string_size" : 23,
 			"start_pos" : "0x1d27e",
 			"bytes" : ["03", "10", "1f", "a2", "d6", "b0", "bc", "21", "20", "b6", "b4", "af", "c3", "20", "c8", "d9", "bf", "de", "21", "21", "a3", "1c", "02"],
-			"PCE_japanese" : "\n<Player?>『よ―し! かえって ねるぞ!!』<endwait>\n",
+			"PCE_japanese" : "\n<Player_Name_alt>『よ―し! かえって ねるぞ!!』<endwait>\n",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,

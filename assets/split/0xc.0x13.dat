@@ -23,11 +23,11 @@
 			"string_size" : 32,
 			"start_pos" : "0x1b1d6",
 			"bytes" : ["1a", "1c", "10", "1f", "a2", "bc", "cf", "b6", "de", "20", "bc", "bd", "de", "d0", "ca", "bc", "de", "d2", "c0", "21", "20", "c0", "de", "af", "bc", "ad", "c2", "c0", "de", "21", "a3", "08"],
-			"PCE_japanese" : "<newbox><23x1@middle_centred><Player?>『しまが しずみはじめた! だっしゅつだ!』<wait>",
+			"PCE_japanese" : "<newbox><23x1@middle_centred><Player_Name_alt>『しまが しずみはじめた! だっしゅつだ!』<wait>",
 			"SNES_japanese" : "「しまが しずみはじめた！\n    だっしゅつだ！」",
 			"SNES_english" : ": The island's\nstarting to sink!\nLet's get outta\nhere!",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "<newbox><24x2@middle_centred><Player?>: The island<pause>...<pause>\n...<pause>it's sinking!<pause><erasebox><Player?>: Let's get out of\nhere!!!<wait>",
+			"PCE_english" : "<newbox><24x2@middle_centred><Player_Name_alt>: The island<pause>...<pause>\n...<pause>it's sinking!<pause><erasebox><Player_Name_alt>: Let's get out of\nhere!!!<wait>",
 			"notes" : ""
 		},
 		{
@@ -95,11 +95,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x1b28e",
 			"bytes" : ["1a", "23", "10", "1f", "a2", "c3", "de", "ca", "a4", "b1", "c5", "c0", "b6", "de", "20", "5c", "d2", "dd", "c0", "b0", "c5", "3b", "3b", "3b", "3b", "3f", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player?>『では、おなたが メンタ‐ナ‥‥‥‥?』<wait><closebox>",
+			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player_Name_alt>『では、おなたが メンタ‐ナ‥‥‥‥?』<wait><closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : ": So... you're Mentana....? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@bottom_centred><Player?>: So... <pause>you're Mentana?!<wait><closebox>",
+			"PCE_english" : "<newbox><25x1@bottom_centred><Player_Name_alt>: So... <pause>you're Mentana?!<wait><closebox>",
 			"notes" : ""
 		},
 		{

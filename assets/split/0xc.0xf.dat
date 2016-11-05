@@ -23,11 +23,11 @@
 			"string_size" : 92,
 			"start_pos" : "0x1ae18",
 			"bytes" : ["1a", "25", "10", "1f", "a2", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "5c", "b6", "de", "20", "b1", "af", "c0", "21", "03", "cb", "ae", "b3", "d2", "dd", "c6", "20", "b7", "bb", "de", "cf", "da", "c0", "20", "d3", "bc", "de", "a6", "20", "5c", "cb", "de", "c3", "de", "b5", "b6", "d2", "d7", "5c", "c3", "de", "03", "b7", "db", "b8", "bc", "c3", "b5", "ba", "b3", "a3", "08", "13", "a3", "5b", "5c", "cb", "de", "c3", "de", "b5", "b6", "d2", "d7", "5c", "c3", "de", "20", "b7", "db", "b8", "bc", "c0", "21", "08", "13", "ae", "5b", "13", "b5", "5b"],
-			"PCE_japanese" : "<newbox><26x3@bottom_centred><Player?>『モニュメントが おった!\nひょうめんに きざまれた もじを ビデオカメラで\nきろくしておこう』<wait><13>』[ビデオカメラで きろくした!<wait><13>ょ[<13>お[",
+			"PCE_japanese" : "<newbox><26x3@bottom_centred><Player_Name_alt>『モニュメントが おった!\nひょうめんに きざまれた もじを ビデオカメラで\nきろくしておこう』<wait><13>』[ビデオカメラで きろくした!<wait><13>ょ[<13>お[",
 			"SNES_japanese" : "「モニュメントが あった！\n    ひょうめんに きざまれた もじを\n    ビデオカメラで きろくしておこう。」",
 			"SNES_english" : ": Found it! Let's\nrecord the codes. ",
 			"SNES_accuracy" : 0.716981132075,
-			"PCE_english" : "<newbox><26x3@bottom_centred><Player?>: Found the\nmonument!<pause> Let's record\nthese symbols here.<wait><13>[You record the symbols]<wait><13>ょ[<13>お[",
+			"PCE_english" : "<newbox><26x3@bottom_centred><Player_Name_alt>: Found the\nmonument!<pause> Let's record\nthese symbols here.<wait><13>[You record the symbols]<wait><13>ょ[<13>お[",
 			"notes" : ""
 		},
 		{

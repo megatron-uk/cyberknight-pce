@@ -23,11 +23,11 @@
 			"string_size" : 24,
 			"start_pos" : "0x1aea3",
 			"bytes" : ["1a", "23", "10", "1f", "a2", "b6", "c5", "d8", "20", "cc", "b6", "b2", "20", "b1", "c5", "c0", "de", "c5", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player?>『かなり ふかい おなだな‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player_Name_alt>『かなり ふかい おなだな‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : ": It's pretty deep... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@bottom_centred><Player?>: It's really deep.<wait>",
+			"PCE_english" : "<newbox><25x1@bottom_centred><Player_Name_alt>: Wow.<pause><pause><erasebox><Player_Name_alt>: It's really deep.<wait>",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Garaian: Hmph outsiders!\n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred><Player_Name_alt>: Greetings!<pause><newbox><16x1@top_centred><NPC_Garaian>: Hmph.<wait><erasebox><NPC_Garaian>: Outsiders.<wait>",
 			"notes" : ""
 		},
 		{
@@ -191,11 +191,11 @@
 			"string_size" : 329,
 			"start_pos" : "0x1afa5",
 			"bytes" : ["1a", "1f", "10", "1f", "a2", "bf", "c9", "cb", "c4", "c0", "c1", "c5", "d7", "20", "b1", "b2", "cf", "bc", "c0", "d6", "21", "a3", "08", "0c", "10", "1f", "a2", "b6", "da", "d7", "ca", "20", "b2", "cf", "20", "bc", "de", "ad", "b3", "c0", "de", "b2", "c5", "20", "5c", "cb", "df", "dd", "c1", "5c", "c6", "03", "b5", "c1", "b2", "af", "c3", "b2", "cf", "bd", "a1", "a3", "08", "0c", "10", "1f", "a2", "bc", "de", "dd", "ba", "b3", "c0", "b2", "d6", "b3", "a6", "20", "cc", "af", "b6", "c2", "bb", "be", "d9", "c0", "d2", "c6", "03", "c1", "b6", "d7", "a6", "20", "b6", "bc", "c3", "20", "b2", "c0", "c0", "de", "b9", "cf", "be", "dd", "b6", "3f", "a3", "08", "19", "2e", "10", "4e", "a2", "c5", "c6", "3f", "04", "28", "20", "bc", "de", "dd", "ba", "b3", "c0", "b2", "d6", "b3", "b6", "de", "20", "5c", "ba", "dd", "c4", "db", "b0", "d9", "5c", "03", "c3", "de", "b7", "c5", "b8", "c5", "af", "c3", "20", "b6", "da", "d7", "c9", "bc", "bf", "dd", "b6", "de", "20", "d2", "c2", "ce", "de", "b3", "03", "bc", "b6", "b9", "c3", "b2", "d9", "c4", "3f", "04", "28", "03", "bf", "da", "ca", "20", "b2", "b6", "dd", "a1", "20", "dc", "da", "dc", "da", "c9", "20", "c5", "b6", "cf", "a6", "03", "d0", "bd", "c3", "d9", "dc", "b9", "c6", "ca", "20", "b2", "b6", "c5", "b2", "a1", "a3", "08", "0c", "10", "4e", "a2", "bc", "de", "ac", "b6", "de", "20", "c0", "c0", "b6", "b2", "c6", "ca", "20", "b7", "ae", "b3", "d8", "ae", "b8", "03", "c3", "de", "b7", "dd", "3b", "3b", "3b", "3b", "04", "1e", "03", "ba", "c9", "20", "5c", "cc", "de", "d7", "af", "b8", "b8", "de", "db", "b0", "cc", "de", "5c", "c9", "5c", "c3", "de", "b0", "c0", "5c", "a6", "20", "d3", "af", "c3", "03", "ca", "d4", "b8", "20", "b6", "b4", "af", "c3", "b8", "c0", "de", "bb", "da", "a3", "08", "13", "a3", "5b", "5c", "cc", "de", "d7", "af", "b8", "a5", "b8", "de", "db", "b0", "cc", "de", "5c", "c9", "5c", "c3", "de", "b0", "c0", "5c", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08", "13", "ae", "5b"],
-			"PCE_japanese" : "<newbox><24x2@bottom_centred><Player?>『そのひとたちなら おいましたよ!』<wait><erasebox><Player?>『かれらは いま じゅうだいな ピンチに\nおちいっています。』<wait><erasebox><Player?>『じんこうたいようを ふっかつさせるために\nちからを かして いただけませんか?』<wait><jumptobox><last_active><NPC_Garaian>『なに?<pause>( じんこうたいようが コントロ‐ル\nできなくなって かれらのしそんが めつぼう\nしかけていると?<pause>(\nそれは いかん。 われわれの なかまを\nみすてるわけには いかない。』<wait><erasebox><NPC_Garaian>『じゃが たたかいには きょうりょく\nできん‥‥‥‥<pause><1E>\nこの ブラックグロ‐ブのデ‐タを もって\nはやく かえってくだされ』<wait><13>』[ブラック・グロ‐ブのデ‐タを てにいれた!<wait><13>ょ[",
+			"PCE_japanese" : "<newbox><24x2@bottom_centred><Player_Name_alt>『そのひとたちなら おいましたよ!』<wait><erasebox><Player_Name_alt>『かれらは いま じゅうだいな ピンチに\nおちいっています。』<wait><erasebox><Player_Name_alt>『じんこうたいようを ふっかつさせるために\nちからを かして いただけませんか?』<wait><jumptobox><last_active><NPC_Garaian>『なに?<pause>( じんこうたいようが コントロ‐ル\nできなくなって かれらのしそんが めつぼう\nしかけていると?<pause>(\nそれは いかん。 われわれの なかまを\nみすてるわけには いかない。』<wait><erasebox><NPC_Garaian>『じゃが たたかいには きょうりょく\nできん‥‥‥‥<pause><1E>\nこの ブラックグロ‐ブのデ‐タを もって\nはやく かえってくだされ』<wait><13>』[ブラック・グロ‐ブのデ‐タを てにいれた!<wait><13>ょ[",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><24x3@bottom_centred><Player?>: We've met them!<wait><erasebox><Player?>: They're in a\nspot of trouble right now.<wait><erasebox><Player?>: Can you help us\nrestore their artificial\nsun?",
+			"PCE_english" : "<newbox><24x3@bottom_centred><Player_Name_alt>: We've met them!<wait><erasebox><Player_Name_alt>: They're in a\nspot of trouble right now.<wait><erasebox><Player_Name_alt>: Can you help us\nrestore their artificial\nsun?<wait><jumptobox><last_active><NPC_Garaian>: What?!!<pause>\nTheir artificial sun is\nout of control?<pause> We won't\nlet them die!<wait><erasebox><NPC_Garaian>: Here.<pause\nThis is a data disc for\nthe Black Globe.\nThis should help you.<wait><13><erasebox>[You got the Black Globe\n Data!]<wait><13>ょ[",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><26x3@top_centred><NPC_Garaian>: We are an\nancient race.<wait><erasebox><NPC_Garaian>: But we won't\nmake war. If you must,\nthen that is up to you.<wait>",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "ガライアン「われわれは この ガライスで\n    えいえんの たいくつを たのしもう。」",
 			"SNES_english" : "Garaian: We're just\ntrying to enjoy life. ",
 			"SNES_accuracy" : 0.915254237288,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@top_centred><NPC_Garaian>: We are trying\nto enjoy a boring life.<pause><newbox><25x1@bottom_centred><Player_Name_alt>: Erm... great!<wait>",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "ガライアン「たいくつは すばらしい！」",
 			"SNES_english" : "Garaian: Being bored's\nfantastic!",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><25x1@bottom_centred><Player_Name_alt>: Hi!<wait><newbox><15x2@top_left><NPC_Garaian>: Being bored\nis fantastic!<pause><jumptobox><last_active><Player_Name_alt>: I<pause>.<pause>.<pause>. suppose it is?<wait>",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Garaian: Gordik's awful. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Garaian>: Gordik is awful.<wait><erasebox><NPC_Garaian>: So are the\nkiller machines.<pause><newbox><24x2@bottom_centred><NPC_Nehjana>: That sounds like\nthe Berzerkers to me...<pause><jumptobox><last_active><NPC_Garaian>: And anyone else\nwith guns or weapons.<wait>",
 			"notes" : ""
 		},
 		{

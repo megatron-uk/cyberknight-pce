@@ -59,11 +59,11 @@
 			"string_size" : 109,
 			"start_pos" : "0x16b2d",
 			"bytes" : ["1a", "25", "10", "1f", "a2", "c5", "dd", "c0", "de", "20", "ba", "d8", "ac", "3f", "20", "cb", "ae", "b3", "d2", "dd", "c6", "20", "cb", "de", "af", "bc", "d8", "c4", "03", "b5", "b7", "ae", "b3", "20", "d0", "c0", "b2", "c5", "d3", "c9", "b6", "de", "20", "b7", "bb", "de", "dd", "c3", "de", "b1", "d9", "03", "b9", "c4", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "1f", "a2", "c1", "ae", "b3", "c4", "de", "b2", "b2", "21", "20", "5c", "cb", "de", "c3", "de", "b5", "b6", "d2", "d7", "5c", "b6", "de", "b1", "d9", "b6", "d7", "03", "b7", "c8", "dd", "bb", "c2", "b4", "b2", "20", "bc", "c3", "b5", "ba", "b3", "a3", "08", "13", "fc", "6b"],
-			"PCE_japanese" : "<newbox><26x3@bottom_centred><Player?>『なんだ こりゃ? ひょうめんに びっしりと\nおきょう みたいなものが きざんでおる\nけど‥‥‥‥』<wait><erasebox><Player?>『ちょうどいい! ビデオカメラがおるから\nきねんさつえい しておこう』<wait><13>ワk",
+			"PCE_japanese" : "<newbox><26x3@bottom_centred><Player_Name_alt>『なんだ こりゃ? ひょうめんに びっしりと\nおきょう みたいなものが きざんでおる\nけど‥‥‥‥』<wait><erasebox><Player_Name_alt>『ちょうどいい! ビデオカメラがおるから\nきねんさつえい しておこう』<wait><13>ワk",
 			"SNES_japanese" : "{F0}{01}「なんだ こりゃ?\n    ひょうめんに びっしりと\n    おきょう みたいなものが\n    きざんであるけど・・」",
 			"SNES_english" : ": Huh?  There's\nsome weird writing\non the surface... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><26x3@bottom_centred><Player?>: Strange,<pause> there is\nsome wierd writing on the\nsurface...<wait><erasebox><Player?>: Well, we may as\nwell take a scan of it so\nthat we can decode them.<wait><13>ワk",
+			"PCE_english" : "<newbox><26x3@bottom_centred><Player_Name_alt>: Strange,<pause> there is\nsome wierd writing on the\nsurface...<wait><erasebox><Player_Name_alt>: Well, we may as\nwell take a scan of it so\nthat we can decode them.<wait><13>ワk",
 			"notes" : ""
 		},
 		{
@@ -107,11 +107,11 @@
 			"string_size" : 53,
 			"start_pos" : "0x16bc6",
 			"bytes" : ["1a", "23", "10", "1f", "a2", "ba", "da", "b6", "de", "20", "5c", "da", "af", "c4", "de", "a5", "b8", "d8", "bd", "c0", "d9", "5c", "b6", "21", "a3", "08", "13", "2f", "6a", "5c", "da", "af", "c4", "de", "a5", "b8", "d8", "bd", "c0", "d9", "5c", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08", "13", "3a", "6a"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player?>『これが レッド・クリスタルか!』<wait><13>/jレッド・クリスタルを てにいれた!<wait><13>:j",
+			"PCE_japanese" : "<newbox><25x1@bottom_centred><Player_Name_alt>『これが レッド・クリスタルか!』<wait><13>/jレッド・クリスタルを てにいれた!<wait><13>:j",
 			"SNES_japanese" : "{F0}{01}「これが レッド・クリスタルか！」",
 			"SNES_english" : "{F0}{01}: So this is Red\nCrystal!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><24x2@bottom_centred><Player?>: So, this is the\nRed Crystal!<wait><13>/jYou received the Red Crystal!<wait><13>:j",
+			"PCE_english" : "<newbox><24x2@bottom_centred><Player_Name_alt>: So, this is the\nRed Crystal!<wait><13>/jYou received the Red Crystal!<wait><13>:j",
 			"notes" : ""
 		},
 		{
