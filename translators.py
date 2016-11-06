@@ -61,6 +61,74 @@ from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TR
 ############ < Code starts here > ####################
 ######################################################
 
+def encode_text(string, trans_table):
+	"""
+	Encode a string using the translation table to set the hex equivalent of the given characters.
+	"""
+	ttable = trans_table
+	encoded_as_hex = []
+	pos = 0
+	i = 0
+	while i < len(string):
+		s = string[i]
+		s_found = False
+		s_code = False
+		s_byte = False
+		# is this a left chevron?
+		if (s == "<"):
+			# yes - this might be a control byte or lookup
+			s_byte = s
+			# is there a matching right chevron?
+			for extra_char in string[i + 1:-1]:
+				s_byte += extra_char
+				
+				if extra_char == ">":
+					s_code = True
+					print s_byte
+					break
+			if s_code:
+				if VERBOSE:
+					print("INFO: Got a control byte: %s" % s_byte)
+				# jump to the end pos within input string
+				i = i + len(s_byte)
+				
+		if (s == "\n"):
+			hex_byte = "02"
+			encoded_as_hex.append(hex_byte.lower().encode('utf8'))
+			s_found = True
+			i += 1
+		else:
+			if s_code:
+				match_s = s_byte#[1:-1]
+				# control codes can be uppercase
+			else:
+				match_s = s
+				# normal text is case sensitive
+
+			# Search for the matching hex code for this character to encode it
+			for hex_byte in ttable.keys():					
+				if (match_s == ttable[hex_byte]["pre_shift"]) or (match_s == ttable[hex_byte]["post_shift"]) or (match_s == hex_byte):
+					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
+					s_found = True
+					i += 1
+					break
+
+			# If we didn't find a control code lookup then just add the literal
+			if ((s_found is False) and (s_code is True)) and (len(s_byte) == 4):
+				if VERBOSE:
+					print("WARNING! No lookup for control byte %s - adding %s" % (s_byte, s_byte[1:-1]))
+				encoded_as_hex.append(s_byte[1:-1].lower().encode('utf8'))
+				s_found = True
+				#i += 1
+				
+			# If we didn't find a character lookup, then... erm... I don't know!
+			if s_found is False:
+				print("WARNING! No lookup for [%s]" % s)
+				i += 1
+		pos += 1
+		
+	return encoded_as_hex
+
 def translate_double_string(bytes, trans_table_double, alt=False):
 	"""
 	translate_double_string - construct the actual text, using multi-byte, double height (aka Kanji ideograms)

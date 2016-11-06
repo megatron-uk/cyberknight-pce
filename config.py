@@ -13,11 +13,24 @@ TABLE_NAME = "CyberKnightTranslation.csv"
 TABLE_NAME_DOUBLE = "CyberKnightKanjiTranslation.csv"
 OUT_NAME = "Script.json"
 # Additional requirements for injectScript/mapScript
+OUT_EXPANDED_NAME = "Cyber Knight (J) Expanded.pce"
 OUT_ROM_NAME = "Cyber Knight (E).pce"
 SNES_SCRIPT = "CyberKnightSNES.csv"
 OUT_DIR_NAME = "./patches-processed/"
 PATCH_DIR_NAME = "./patches/"
 PATCH_EXTENSION = ".json"
+
+# Rom checksum of the commonly available "Cyber Knight (J).pce" file
+ROM_CHECKSUM = "dad257d4984635f70580b10f1ae1b75c"
+
+# Size of the ROM in original state
+ROM_SIZE = 524288
+ROM_BANKS = 64
+BANK_SIZE = 8192
+# PC-Engine games cannot be any bigger than this, other we
+# get in to trouble with needing hardware like the Streetfighter 2 
+# mapper, Arcade Card and other doodads.
+ROM_MAX_SIZE = 1048576
 
 # Default pass level and fuzzy match trigger level
 PASS_NUMBER = 1
@@ -78,6 +91,13 @@ DIALOGUE_CODES = [
 	"70", "71", "72", "73", "74"
 ]
 
+####################################################################
+#
+# NOTE !!!!
+#
+# This following section was used by the original extraction/patching tools found in ./tools/,
+# none of these variables are used by the new asset extractor, mapper or injector code.
+
 # Text extraction method
 # Method 1 = 2 control bytes + string + 0x00 as terminator, defaults to switch mode = disabled
 # Method 2 = text wrapped in 0x04 and 0x3c bytes, also defaults to switch mode = enabled
@@ -126,7 +146,7 @@ BYTES = [
 	# that are some sections use different delimiters, handy to scan through
 	# looking for possible dialogue though...
 	#
-	(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
+	#(METHOD_3, 0x00000, 0x40000, METHOD_SIMPLE, "Full game dump", "\x00"),
 	
 	# interesting sections of the rom...	
 	#(METHOD_3, 0x1400c, 0x1b8cd, METHOD_SIMPLE, "Main game dialogue", "\x00"),
