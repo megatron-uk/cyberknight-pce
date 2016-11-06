@@ -651,7 +651,7 @@
 			"SNES_japanese" : "ヴィンド「ジャンプ・ジェネレーターの\n    しゅうりかんりょうです。\n    いつでもジャンプできますよ。」",
 			"SNES_english" : "Vynd: Repairs are\ncomplete. We can\nJump anytime!",
 			"SNES_accuracy" : 0.857142857143,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><22x2@bottom_left><NPC_Vynd>: Repairs to the\njumpdrive are complete<wait><erasebox><NPC_Vynd>: We can now jump\nat any time.<wait>",
 			"notes" : ""
 		},
 		{
@@ -675,7 +675,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: There are many\nartificial domes on the\nsurface. Advanced\ntechnology exists here... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><22x6@bottom_centred><NPC_Mica>: Large asteroid.<pause>\nNo atmosphere.<pause>\nHowever there are many\nartificial domes on\nthe surface with\nadvanced technology.<wait>",
 			"notes" : ""
 		},
 		{
@@ -699,7 +699,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<closebox><addrow><newbox><22x2@bottom_right><NPC_Klein>: So, this time\nit really IS alien?<wait><newbox><22x3@middle_right><NPC_Shine>: Yes<pause>, and they\nseem to be far more\nadvanced than us.<wait><erasebox><NPC_Shine>: We need to be cautious here.<wait><newbox><24x2@middle_centred><Player_Name>: What about signs\nof communication?<wait><19>T<NPC_Shine>: Although small,\nit seems to be fairly\nactive.<wait><erasebox><NPC_Shine>: It sounds like\nit could be worth a\nlook, Commander.<wait><19>S<NPC_Klein>: Do you think\nwe'll be welcomed?<wait>",
 			"notes" : ""
 		},
 		{
@@ -711,7 +711,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -723,7 +723,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: The humidity is so\nhigh that the planet's\nsurrounded by mud. \nLife is present but no\ntechnology seems to exist. \n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><22x6@bottom_centred><NPC_Mica>: Extremely high\nhumidity.<pause> The planet\nis covered by mud. I\ndetect life, but no\n signs of technology.<wait>",
 			"notes" : ""
 		},
 		{
@@ -735,7 +735,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -747,7 +747,7 @@
 			"SNES_japanese" : "「もっとくわしく しらべてみろ。」",
 			"SNES_english" : ": Keep looking around. ",
 			"SNES_accuracy" : 0.866666666667,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@middle_centred><Player_Name>: Keep scanning.<wait><19>Q<NPC_Mica>: Affirmative.\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<NPC_Mica>: Scan complete.<pause>\nOne structure detected\nmeasuring 5m high - it\nappears to be a type\nof monument.<wait>",
 			"notes" : ""
 		},
 		{
@@ -759,7 +759,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -771,7 +771,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -783,7 +783,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -795,7 +795,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@middle_centred><Player_Name>: Can we repair it?<wait><newbox><22x3@middle_right><NPC_Vynd>: The Singularity\ncoil is destroyed.<pause> We\ndon't have a spare.<wait><newbox><24x2@bottom_centred><NPC_Klein>: We have to find\none<pause>, somehow...<wait>",
 			"notes" : ""
 		},
 		{
@@ -807,7 +807,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -819,7 +819,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><22x6@bottom_centred><NPC_Mica>: At this distance\nfrom the star, the\nsurface temperature is\na constant -200C.<pause>\nAtmosphere is Hydrogen\nand Helium.<wait><erasebox><NPC_Mica>: I found a domed\ncity on the surface.\nHowever<pause>, it seems be\ninactive.<wait><erasebox><13>トi<NPC_Mica>: WARNING!<pause>\nI detect gravity wave\nfluctations.<pause>\nBe careful.<wait>",
 			"notes" : ""
 		},
 		{
@@ -831,7 +831,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -843,7 +843,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -855,7 +855,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -867,7 +867,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@middle_centred><Player_Name>: What is the cause?<wait><newbox><22x5@bottom_centred><NPC_Shine>: A micro Black\nHole of mass 10E^10kg\nand 30um is orbiting\nthe planet.<pause>\nIt seems artificial.<wait><19>H<Player_Name>: Artificial?!<wait><19>P<NPC_Shine>: There's no\nnatural explanation\nfor a micro Black Hole\nof this size.<wait><newbox><22x3@middle_right><NPC_Klein>: That's amazing!\nTechnology that can\ncreate a black hole!<wait>",
 			"notes" : ""
 		},
 		{
@@ -880,7 +880,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "<end>"
 		},
 		{
 			"string_number" : 74,
@@ -904,7 +904,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "<end>"
 		},
 		{
 			"string_number" : 76,
@@ -927,7 +927,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -951,7 +951,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -963,7 +963,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -975,7 +975,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -999,7 +999,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1023,7 +1023,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1071,7 +1071,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1119,7 +1119,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1143,7 +1143,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1167,7 +1167,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1191,7 +1191,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1215,7 +1215,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1239,7 +1239,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1263,7 +1263,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1311,7 +1311,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1335,7 +1335,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1359,7 +1359,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1383,7 +1383,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1407,7 +1407,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1431,7 +1431,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1479,7 +1479,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1503,7 +1503,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1527,7 +1527,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -1551,7 +1551,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1575,7 +1575,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1587,7 +1587,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -1599,7 +1599,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1623,7 +1623,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1647,7 +1647,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1671,7 +1671,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1695,7 +1695,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1719,7 +1719,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1743,7 +1743,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1755,7 +1755,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<08>",
 			"notes" : ""
 		},
 		{
@@ -1767,7 +1767,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1791,7 +1791,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1815,7 +1815,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1839,7 +1839,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1863,7 +1863,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1887,7 +1887,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1911,7 +1911,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1935,7 +1935,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1947,7 +1947,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1971,7 +1971,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1983,7 +1983,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2007,7 +2007,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2019,7 +2019,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2043,7 +2043,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2067,7 +2067,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2079,7 +2079,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2091,7 +2091,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2103,7 +2103,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2127,7 +2127,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2151,7 +2151,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2163,7 +2163,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2187,7 +2187,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2211,7 +2211,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2223,7 +2223,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2247,7 +2247,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2259,7 +2259,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<06>#<pause>(<06>#<pause>(<06>#<pause>(<06>#<pause>(",
 			"notes" : ""
 		},
 		{
@@ -2271,7 +2271,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2283,7 +2283,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "A51-23X<padH>ルA48-61X<padH>ルB50-03X<padH>ルA81-27Y<padH>ル",
 			"notes" : ""
 		},
 		{
@@ -2295,7 +2295,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2307,7 +2307,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<11><0A><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><pause><10><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><06>9<pause><0A><11>",
 			"notes" : ""
 		},
 		{
@@ -2319,7 +2319,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2331,7 +2331,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2343,7 +2343,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "<wait><erasebox><slow>",
 			"notes" : ""
 		},
 		{
@@ -2355,7 +2355,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -2367,7 +2367,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<NPC_Mentana>『<slow>゜",
 			"notes" : ""
 		},
 		{
@@ -2379,7 +2379,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]

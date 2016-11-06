@@ -623,7 +623,7 @@ if os.path.isdir(IN_DIR):
 				tot = len(PATCH_FILES[d]["data"]["strings"])
 				total_tot += tot
 				snes_best = 0
-				snes_worst = 1
+				snes_worst = 1.0
 				snes_avg = 0
 				
 				for b in PATCH_FILES[d]["data"]["strings"]:
@@ -634,15 +634,17 @@ if os.path.isdir(IN_DIR):
 						if b["SNES_accuracy"] >= snes_best:
 							snes_best = b["SNES_accuracy"]
 						if b["SNES_accuracy"] <= snes_worst:
-							snes_worst = b["SNES_accuracy"]
+							if b["SNES_accuracy"] > 0.0:
+								snes_worst = b["SNES_accuracy"]
 						sm += 1
 						total_sm += 1
 						#snes_avg = snes_avg / sm
-						snes_avg = snes_avg + b["SNES_accuracy"]
+						if b["SNES_accuracy"] > 0.0:
+							snes_avg = snes_avg + b["SNES_accuracy"]
 					if len(b["bytes"]) < 2:
 						tiny += 1
 						total_tiny += 1
-					if snes_worst < total_snes_worst:
+					if (snes_worst < total_snes_worst) and (snes_worst > 0):
 						total_snes_worst = snes_worst
 					if snes_best > total_snes_best:
 						total_snes_best = snes_best
