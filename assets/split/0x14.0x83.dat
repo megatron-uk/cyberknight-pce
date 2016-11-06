@@ -51,7 +51,7 @@
 			"SNES_japanese" : "MICA「ちいさな わくせいです。\n    ひょうめんは こうおんで\n    たいきも みずも そんざいしません。」",
 			"SNES_english" : "Mica: A small planet. \nThe surface has a\nhigh temperature. \nThere is no water. ",
 			"SNES_accuracy" : 0.926829268293,
-			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: A small planet.\nAn hot, dry world with\nno water.<wait>",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: A small planet.\nA hot, dry world with\nno water.<wait>",
 			"notes" : "Ship scan results"
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "MICA「さばくに おおわれた わくせいです。\n    かとうな しょくぶつしか\n    そんざいしない ようです。」",
 			"SNES_english" : "Mica: A desert planet. \nSeems like it's home to\nonly a low-level class\nof creature. ",
 			"SNES_accuracy" : 0.928571428571,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: A Desert planet.<pause>\nSeems to be home to\nlow-level lifeforms.\nLanding is possible.<wait>",
 			"notes" : ""
 		},
 		{
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>S",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "MICA「おおがたの ガスわくせいです。\n    たいきの せいぶんは すいそと\n    ヘリウムです。」",
 			"SNES_english" : "Mica: A large gas giant;\nmainly hydrogen and\nhelium. ",
 			"SNES_accuracy" : 0.906666666667,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@bottom_centred><NPC_Mica>: A gas giant.\nMainly Hydrogen + Helium.<wait>",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "MICA「ちゅうがたの ガスわくせいです。\n    こおりの つぶでできた わが あります。」",
 			"SNES_english" : "Mica: A medium-sized gas\ngiant surrounded by a\nring of ice fragments. \n",
 			"SNES_accuracy" : 0.911764705882,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@bottom_centred><NPC_Mica>: Medium gas giant.\nRinged by ice fragments.<wait>",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "MICA「こがたで ていおんの ガスわくせいです。」",
 			"SNES_english" : "Mica: A small gas giant. \nTemperature relatively\nlow. ",
 			"SNES_accuracy" : 0.918918918919,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@bottom_centred><NPC_Mica>: Small gas giant.\nUnremarkable.<wait>",
 			"notes" : ""
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "MICA「たいようから とおいため\n    こおりに おおわれた わくせいです。」",
 			"SNES_english" : "Mica: Since it's far\nfrom the sun it is\nsurrounded by ice. \n",
 			"SNES_accuracy" : 0.915254237288,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x3@bottom_centred><NPC_Mica>: A world far from\nthe local star. Cold\nand encased in ice.<wait>",
 			"notes" : ""
 		},
 		{
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -303,7 +303,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -315,7 +315,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -327,7 +327,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Mica>: Danger<pause>!<pause>!<pause>!\nApproach no closer!<wait>",
 			"notes" : ""
 		},
 		{
@@ -351,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -363,7 +363,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: There is no place\nto land. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@middle_centred><NPC_Mica>: No landing site.<wait>",
 			"notes" : ""
 		},
 		{
@@ -375,7 +375,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -387,7 +387,7 @@
 			"SNES_japanese" : "MICA「りくちが ないので ちゃくりくできません。」",
 			"SNES_english" : "Mica: Landing is impossible;\nthere's no place to do so. ",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Mica>: Descent impossible,\nno landing site.<wait>",
 			"notes" : ""
 		},
 		{
@@ -399,7 +399,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -411,7 +411,7 @@
 			"SNES_japanese" : "MICA「ちゃくりくする りゆうが ありません。」",
 			"SNES_english" : "Mica: We have no reason to\nland there. ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Mica>: We have no reason\nto land on this world.<wait>",
 			"notes" : ""
 		},
 		{
@@ -423,7 +423,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -435,7 +435,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: Unable to land\nthere. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Mica>: Unable to land\nhere.<wait>",
 			"notes" : ""
 		},
 		{
@@ -447,7 +447,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -459,7 +459,7 @@
 			"SNES_japanese" : "MICA「ちきゅうに にた わくせいです。\n    たいきの せいぶんは\n    さんそ ちっそ などで こきゅうかのう。\n    ひょうめんの ６０パーセントは うみで\n    たいりくには もりと そうげんが\n    ひろがっています。」",
 			"SNES_english" : "Mica: The planet seems to\nbe similar to Earth. \nOxygen is present 60%\nof the surface is ocean \nand there are forests and\nplains on the ground. \n",
 			"SNES_accuracy" : 0.885057471264,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><22x6@bottom_centred><NPC_Mica>: This planet is\nsimilar to Earth.\nOxygen and Nitrogen\natmosphere. Surface is\n60% covered by sea.<wait><wait><erasebox><NPC_Mica>: The main\ncontinent is grassland\nand forest. Human-type\nlife and a city\ndetected to the north.<wait>",
 			"notes" : ""
 		},
 		{
@@ -471,7 +471,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -483,7 +483,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<closebox><addrow><newbox><24x1@middle_centred><NPC_Nehjana>: A green world.<pause><erasebox><NPC_Nehjana>: How pretty.<wait><newbox><22x3@bottom_left><NPC_Klein>: Are you saying\nthere are<pause> aliens<pause> on\nthis planet?<wait><closebox>\n<newbox><22x2@bottom_right><NPC_Shine>: No, they seem\nto be human<pause>, like us.<wait><newbox><22x2@bottom_left><NPC_Vynd>: Here?<pause> That's\nhard to believe.<wait><closebox><addrow><newbox><22x4@middle_right><NPC_Kiri>: Perhaps they are\ndescendants of humans\nwho were lost in a\njump-miss, like us.<wait><closebox><addrow><newbox><22x3@bottom_left><NPC_Vynd>: Even so, that's\na lucky coincidence.<wait><erasebox><NPC_Vynd>: They might be\nable to help us repair\n the jumpdrive!<wait><19>S<NPC_Shine>: Sadly not.<pause> They\nseem to have...<wait><erasebox><NPC_Shine>:...technology\nlike 1900's era Earth.<wait><newbox><24x1@middle_centred><NPC_Kiri>: Can't hurt to try...<wait>",
 			"notes" : ""
 		},
 		{
@@ -495,7 +495,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -507,7 +507,7 @@
 			"SNES_japanese" : "MICA「みなみはんきゅうに\n    きんぞくのドームを はっけんしました。\n    まだ けんぞうちゅうと おもわれます。」",
 			"SNES_english" : "Mica: A dome was found\nunder construction on\nthe southern continent. ",
 			"SNES_accuracy" : 0.903225806452,
-			"PCE_english" : "",
+			"PCE_english" : "<13>トi\n: A dome was found\nunder construction on\the south continent.<wait>",
 			"notes" : ""
 		},
 		{
@@ -519,7 +519,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -531,7 +531,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -543,7 +543,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -555,7 +555,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><24x1@middle_centred><NPC_Klein>: A dome?<wait><newbox><22x2@bottom_right><NPC_Shine>: It doesn't seem\nto be man made.<wait><newbox><22x3@bottom_left><NPC_Kiri>: Perhaps it's to\ndo with the robots the\nPresident mentioned?<wait><newbox><24x2@top_centred><Player_Name>: We need to check\nit out.<pause> Let's go!<wait>",
 			"notes" : ""
 		},
 		{
@@ -567,7 +567,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -579,7 +579,7 @@
 			"SNES_japanese" : "ヴィンド「しかし ジャンプ・ジェネレーターが\n    こわれてるんじゃ どこへもいけませんよ。」",
 			"SNES_english" : "Vynd: But our Jump Drive's\nbroken... We can't go\nanywhere... ",
 			"SNES_accuracy" : 0.853333333333,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><22x2@bottom_right><NPC_Kiri>: The jumpdrive is\nbroken. We're stuck.<wait>",
 			"notes" : ""
 		},
 		{
@@ -591,7 +591,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -603,7 +603,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -615,7 +615,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -627,7 +627,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox><22x4@middle_right><NPC_Kiri>: I've got it!<pause> The\nprofessor mentioned the\nwreckage of the Europa.\nThat could help!<wait><newbox><22x2@bottom_right><NPC_Vynd>: Yeah! There\ncould still be a...<wait><erasebox><NPC_Vynd>:...Singularity\ncoil in the wreckage!<wait><newbox><22x2@bottom_left><NPC_Klein>: But it would be\nover 250 year old!<wait><erasebox><NPC_Klein>: Would it still\nbe useable now?<wait><19>S<NPC_Vynd>: We won't know\nuntil we try.<wait>",
 			"notes" : ""
 		},
 		{
@@ -639,7 +639,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -687,7 +687,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
