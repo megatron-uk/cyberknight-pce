@@ -69,28 +69,33 @@ def encode_text(string, trans_table):
 	encoded_as_hex = []
 	pos = 0
 	i = 0
+	print("Encoding %s characters" % len(string))
 	while i < len(string):
+		
 		s = string[i]
 		s_found = False
 		s_code = False
 		s_byte = False
 		# is this a left chevron?
+		print("%s: %s" % (i, s))
+
 		if (s == "<"):
+			#if VERBOSE:
+			print("Possible control byte")
 			# yes - this might be a control byte or lookup
 			s_byte = s
 			# is there a matching right chevron?
-			for extra_char in string[i + 1:-1]:
+			for extra_char in string[i + 1:len(string)]:
 				s_byte += extra_char
-				
+				print s_byte
 				if extra_char == ">":
 					s_code = True
-					print s_byte
 					break
 			if s_code:
-				if VERBOSE:
-					print("INFO: Got a control byte: %s" % s_byte)
+				#if VERBOSE:
+				print("INFO: Got a control byte: %s" % s_byte)
 				# jump to the end pos within input string
-				i = i + len(s_byte)
+				i = i + len(s_byte) - 1
 				
 		if (s == "\n"):
 			hex_byte = "02"
@@ -111,6 +116,8 @@ def encode_text(string, trans_table):
 					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 					s_found = True
 					i += 1
+					if VERBOSE:
+						print("Found control byte [%s] for %s" % (hex_byte.lower(), match_s))
 					break
 
 			# If we didn't find a control code lookup then just add the literal
@@ -119,7 +126,7 @@ def encode_text(string, trans_table):
 					print("WARNING! No lookup for control byte %s - adding %s" % (s_byte, s_byte[1:-1]))
 				encoded_as_hex.append(s_byte[1:-1].lower().encode('utf8'))
 				s_found = True
-				#i += 1
+				i += 1
 				
 			# If we didn't find a character lookup, then... erm... I don't know!
 			if s_found is False:
@@ -127,6 +134,7 @@ def encode_text(string, trans_table):
 				i += 1
 		pos += 1
 		
+	print("Encoded as %s bytes" % len(encoded_as_hex))
 	return encoded_as_hex
 
 def translate_double_string(bytes, trans_table_double, alt=False):

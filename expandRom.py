@@ -52,12 +52,12 @@ from config import ROM_NAME, OUT_EXPANDED_NAME
 from config import ROM_CHECKSUM, ROM_SIZE, ROM_BANKS, BANK_SIZE, ROM_MAX_SIZE
 
 # Translation table loader
-from Table import load_table
+from Table import load_table, load_table_double
 
 from CyberKnightAssetBanks import ASSETS, ASSET_LOAD_TABLE, ASSET_OFFSET_TABLE
 from CyberKnightAssetBanks import ASSET_LOAD_TABLE_SIZE, ASSET_OFFSET_TABLE_SIZE
 
-from translators import encode_text
+from translators import encode_text, translate_string
 
 ######################################################
 ########## < Run-time code start here > ##############
@@ -174,18 +174,43 @@ for bank_number in ASSETS["asset_banks"].keys():
 				PCE_bytes = []
 				PCE_japanese_bytes = 0
 				ttable = load_table()
+				ttable2 = load_table_double()
 				for asset_chunk in asset["strings"]:
+					
 					# Load english text if translated
 					if len(asset_chunk["PCE_english"])>0:
+						print("------------- Translated string (E) ---------------")
+						print("asset_chunk[PCE_english]: %s" % asset_chunk["PCE_english"])
+						print("")
+						
+						# Step 1, encode the text
 						new_bytes = encode_text(string = asset_chunk["PCE_english"], trans_table = ttable)
+						
+						# Step 2, decode the text back again
+						new_asset_chunk = asset_chunk
+						new_asset_chunk["bytes"] = new_bytes
+						new_asset_chunk = translate_string(byte_sequence = new_asset_chunk, trans_table = ttable, trans_table_double = ttable2, alt = False, old_assets = False, VERBOSE = VERBOSE)
+						
+						# Step 3, compare the decoded string to the english text - do they match?
+						s = ""
+						for b in new_asset_chunk["text"]:
+							s += b
+						print("new_asset_chunk[text]: %s" % s)
+						
 						PCE_bytes += new_bytes
 						PCE_japanese_bytes += len(asset_chunk["bytes"])
+						print("----------------------- End -----------------------")
 					else:
+						print("------------- Translated string (J) ---------------")
+						print("asset_chunk[PCE_japanese]: %s" % asset_chunk["PCE_japanese"])
+						print("")
 						# Otherwise load Japanese text
 						new_bytes = asset_chunk["bytes"]
 						PCE_bytes += new_bytes
 						PCE_japanese_bytes += len(asset_chunk["bytes"])
+						print("----------------------- End -----------------------")
 				          
+					print("")
 				#print("-- Japanese bytes length: %s" % PCE_japanese_bytes)
 				#print("-- Converted bytes length: %s" % len(PCE_bytes))
 				asset_required_banks = int(math.ceil(len(PCE_bytes) / (BANK_SIZE * 1.0)))
