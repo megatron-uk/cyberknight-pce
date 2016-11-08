@@ -179,9 +179,9 @@ for bank_number in ASSETS["asset_banks"].keys():
 					
 					# Load english text if translated
 					if len(asset_chunk["PCE_english"])>0:
-						print("------------- Translated string (E) ---------------")
-						print("asset_chunk[PCE_english]: %s" % asset_chunk["PCE_english"])
-						print("")
+						#print("------------- Translated string (E) ---------------")
+						#print("asset_chunk[PCE_english]: %s" % asset_chunk["PCE_english"])
+						#print("")
 						
 						# Step 1, encode the text
 						new_bytes = encode_text(string = asset_chunk["PCE_english"], trans_table = ttable)
@@ -195,22 +195,22 @@ for bank_number in ASSETS["asset_banks"].keys():
 						s = ""
 						for b in new_asset_chunk["text"]:
 							s += b
-						print("new_asset_chunk[text]: %s" % s)
-						
+						#print("new_asset_chunk[text]: %s" % s)
+							
 						PCE_bytes += new_bytes
 						PCE_japanese_bytes += len(asset_chunk["bytes"])
-						print("----------------------- End -----------------------")
+						#print("----------------------- End -----------------------")
 					else:
-						print("------------- Translated string (J) ---------------")
-						print("asset_chunk[PCE_japanese]: %s" % asset_chunk["PCE_japanese"])
-						print("")
+						#print("------------- Translated string (J) ---------------")
+						#print("asset_chunk[PCE_japanese]: %s" % asset_chunk["PCE_japanese"])
+						#print("")
 						# Otherwise load Japanese text
 						new_bytes = asset_chunk["bytes"]
 						PCE_bytes += new_bytes
 						PCE_japanese_bytes += len(asset_chunk["bytes"])
-						print("----------------------- End -----------------------")
+						#print("----------------------- End -----------------------")
 				          
-					print("")
+					#print("")
 				#print("-- Japanese bytes length: %s" % PCE_japanese_bytes)
 				#print("-- Converted bytes length: %s" % len(PCE_bytes))
 				asset_required_banks = int(math.ceil(len(PCE_bytes) / (BANK_SIZE * 1.0)))

@@ -65,11 +65,13 @@ def encode_text(string, trans_table):
 	"""
 	Encode a string using the translation table to set the hex equivalent of the given characters.
 	"""
+	VERBOSE = 0
 	ttable = trans_table
 	encoded_as_hex = []
 	pos = 0
 	i = 0
-	print("Encoding %s characters" % len(string))
+	if VERBOSE:
+		print("Encoding %s characters" % len(string))
 	while i < len(string):
 		
 		s = string[i]
@@ -77,26 +79,27 @@ def encode_text(string, trans_table):
 		s_code = False
 		s_byte = False
 		# is this a left chevron?
-		print("%s: %s" % (i, s))
+		#print("%s: %s" % (i, s))
 
 		if (s == "<"):
 			#if VERBOSE:
-			print("Possible control byte")
+			#print("Possible control byte")
 			# yes - this might be a control byte or lookup
 			s_byte = s
 			# is there a matching right chevron?
 			for extra_char in string[i + 1:len(string)]:
 				s_byte += extra_char
-				print s_byte
+				#print s_byte
 				if extra_char == ">":
 					s_code = True
 					break
 			if s_code:
-				#if VERBOSE:
-				print("INFO: Got a control byte: %s" % s_byte)
+				if VERBOSE:
+					print("INFO: Got a control byte: %s" % s_byte)
 				# jump to the end pos within input string
 				i = i + len(s_byte) - 1
 				
+		print s.encode('utf-8')
 		if (s == "\n"):
 			hex_byte = "02"
 			encoded_as_hex.append(hex_byte.lower().encode('utf8'))
@@ -104,37 +107,53 @@ def encode_text(string, trans_table):
 			i += 1
 		else:
 			if s_code:
-				match_s = s_byte#[1:-1]
+				match_s = s_byte  # e.g. <end> or <34>
+				match_s_raw = s_byte[1:-1].upper() # e.g. 34
 				# control codes can be uppercase
 			else:
 				match_s = s
+				match_s_raw = s
 				# normal text is case sensitive
 
 			# Search for the matching hex code for this character to encode it
+			
 			for hex_byte in ttable.keys():					
-				if (match_s == ttable[hex_byte]["pre_shift"]) or (match_s == ttable[hex_byte]["post_shift"]) or (match_s == hex_byte):
+				if (match_s.encode('utf8') == ttable[hex_byte]["pre_shift"]) or (match_s.encode('utf8') == ttable[hex_byte]["post_shift"]) or (match_s.encode('utf8') == hex_byte):
 					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 					s_found = True
 					i += 1
 					if VERBOSE:
-						print("Found control byte [%s] for %s" % (hex_byte.lower(), match_s))
+						print("Found control code for byte [%s] at index %s for %s" % (hex_byte.lower(), i, match_s))
 					break
+			# Search for a match in column 1 of the table, ie the actual byte code
+			if s_found is False:
+				for hex_byte in ttable.keys():	
+					if (match_s_raw.encode('utf8') == ttable[hex_byte]["byte_code"]):
+						encoded_as_hex.append(hex_byte.lower().encode('utf8'))
+						s_found = True
+						i += 1
+						if VERBOSE:
+							print("Found raw byte code for [%s] at index %s for %s" % (hex_byte.lower(), i, match_s_raw))
+						break
 
 			# If we didn't find a control code lookup then just add the literal
 			if ((s_found is False) and (s_code is True)) and (len(s_byte) == 4):
 				if VERBOSE:
-					print("WARNING! No lookup for control byte %s - adding %s" % (s_byte, s_byte[1:-1]))
+					print("WARNING! No lookup for control byte [%s] at index %s - adding %s" % (s_byte, i, s_byte[1:-1]))
 				encoded_as_hex.append(s_byte[1:-1].lower().encode('utf8'))
 				s_found = True
 				i += 1
 				
 			# If we didn't find a character lookup, then... erm... I don't know!
 			if s_found is False:
-				print("WARNING! No lookup for [%s]" % s)
+				print("WARNING! No lookup for [%s] at index %s" % (s.encode('utf8'), i))
+				print("Full string is: %s" % string.encode('utf8'))
+				print("")
 				i += 1
 		pos += 1
 		
-	print("Encoded as %s bytes" % len(encoded_as_hex))
+	if VERBOSE:
+		print("Encoded as %s bytes" % len(encoded_as_hex))
 	return encoded_as_hex
 
 def translate_double_string(bytes, trans_table_double, alt=False):
@@ -371,7 +390,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 							
 						else:
 							# warning - byte sequence not in table
-							record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
+							if old_assets:
+								record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 							byte_sequence[text_key].append("<%s>" % b)
 						if VERBOSE:
 							print "byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode)
