@@ -90,8 +90,13 @@ def encode_text(string, trans_table):
 			for extra_char in string[i + 1:len(string)]:
 				s_byte += extra_char
 				#print s_byte
+				# A right chevron, so whatever is between the two is a control code
 				if extra_char == ">":
 					s_code = True
+					break
+				# Another left chevron, so this must be a literal left chevron
+				if extra_char == "<":
+					s_code = False
 					break
 			if s_code:
 				if VERBOSE:
@@ -99,7 +104,9 @@ def encode_text(string, trans_table):
 				# jump to the end pos within input string
 				i = i + len(s_byte) - 1
 				
-		print s.encode('utf-8')
+		#print(s.encode('utf-8')
+		#sys.stdout.write(s.encode('utf-8'))
+		#sys.stdout.flush()
 		if (s == "\n"):
 			hex_byte = "02"
 			encoded_as_hex.append(hex_byte.lower().encode('utf8'))
