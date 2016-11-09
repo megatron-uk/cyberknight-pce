@@ -164,6 +164,7 @@ print("Calculating English script size")
 print("-------------------------------")
 TOTAL_PCE_BYTES_SIZE = 0
 TOTAL_ASSET_BANKS = 0
+all_assets = []
 for bank_number in ASSETS["asset_banks"].keys():
 	for asset_number in ASSETS["asset_banks"][bank_number]["assets"].keys():
 		if ASSETS["asset_banks"][bank_number]["assets"][asset_number]["asset_type"] == "text":
@@ -216,6 +217,8 @@ for bank_number in ASSETS["asset_banks"].keys():
 						if VERBOSE:
 							print("----------------------- End -----------------------")
 							print("")
+
+				all_assets.append(asset)
 
 				asset_required_banks = int(math.ceil(PCE_translated_bytes / (BANK_SIZE * 1.0)))
 				TOTAL_ASSET_BANKS += asset_required_banks
@@ -283,7 +286,7 @@ else:
 		new_rom.close()
 		print("Expanded file %s written" % OUT_FILE)
 	except Exception as e:
-		print("Error while expanding file")
+		print("ERROR - Error while expanding file")
 		print(e)
 		sys.exit(2)
 		
@@ -296,8 +299,65 @@ print("")
 #
 # .e.g 0x0c used to have many assets - 0x01 through 0x17 in just one bank. Now 0x0c.0x01 is in its own bank.
 
+
 print("")
 print("Patch Asset Loader Tables")
 print("-------------------------")
 print("")
 # Patch the table low in the rom file with the bank numbers of the patched and injected assets.
+try:
+	print("Reading asset load table at 0x%s-0x%s" % (hex(ASSET_LOAD_TABLE), hex(ASSET_LOAD_TABLE + ASSET_LOAD_TABLE_SIZE)))
+	new_rom = open(OUT_FILE, "rb")
+	new_rom.seek(ASSET_LOAD_TABLE, 0)
+	asset_table_bytes = new_rom.read(ASSET_LOAD_TABLE_SIZE)
+	asset_table = []
+	for byte in asset_table_bytes:
+		asset_table.append(byte)
+	new_rom.close()
+	
+	print("Reading asset pointer table at 0x%s-0x%s" % (hex(ASSET_OFFSET_TABLE), hex(ASSET_OFFSET_TABLE + ASSET_OFFSET_TABLE_SIZE)))
+	new_rom = open(OUT_FILE, "rb")
+	new_rom.seek(ASSET_OFFSET_TABLE, 0)
+	asset_pointer_bytes = new_rom.read(ASSET_OFFSET_TABLE_SIZE)
+	asset_pointer = []
+	for byte in asset_pointer_bytes:
+		asset_pointer.append(byte)
+	new_rom.close()
+except Exception as e:
+	print("ERROR - Error while reading asset tables")
+	print(e)
+	sys.exit(2)
+	
+c = 0
+print("Remapping assets")
+last_original_bank = ROM_SIZE / BANK_SIZE
+next_bank = last_original_bank
+print("Last original bank [%s] located at %s" % (hex(last_original_bank), hex(ROM_SIZE - BANK_SIZE)))
+while c < ASSET_LOAD_TABLE_SIZE:
+	tmp = str(binascii.hexlify(asset_table[c])).lower()
+	if tmp[0] == "0":
+		bank = "0x" + tmp[1]
+	else:
+		bank = "0x" + tmp
+
+	tmp = str(binascii.hexlify(asset_pointer[c])).lower()
+	if tmp[0] == "0":
+		asset = "0x" + tmp[1]
+	else:
+		asset = "0x" + tmp
+	
+	next_bank = next_bank + 1
+	next_location = (next_bank * BANK_SIZE)
+	
+	
+	# Find the matching asset chunk
+	for asset_chunk in all_assets:
+		if (asset_chunk["bank"] == bank) and (asset_chunk["asset_index"] == asset):
+			#print("-- %s.%s" % (asset_chunk["bank"], asset_chunk["asset_index"]))
+			byte_size = 0
+			for string in asset_chunk["strings"]:
+				byte_size += len(string["translated_bytes"])
+			#print("--- Matching asset size = %s bytes" % byte_size)
+			print("- %s.%s - relocating to bank %s at %s" % (bank, asset, hex(next_bank), hex(next_location)))			
+				
+	c += 1

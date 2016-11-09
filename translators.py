@@ -325,8 +325,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 				if VERBOSE:
 					print "Processing double height char at Index %s" % i
 				if i > already_i:
-					double_byte_pos = byte_sequence["start_pos"] + i
-					
+					double_byte_pos = int(byte_sequence["start_pos"], 16) + i
 					try:
 						if len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]) >= int(b2, 16):
 							if VERBOSE:
@@ -376,7 +375,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 							byte_sequence[text_key].append(bt)
 						else:
 							# warning - byte sequence not in table
-							record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
+							if old_assets:
+								record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 							byte_sequence[text_key].append("<%s>" % b)
 						if VERBOSE:
 							print "byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode)
