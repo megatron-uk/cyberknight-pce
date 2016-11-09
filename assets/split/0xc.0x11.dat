@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x3@bottom_centred><Player_Name_alt>: We've met them!<wait><erasebox><Player_Name_alt>: They're in a\nspot of trouble right now.<wait><erasebox><Player_Name_alt>: Can you help us\nrestore their artificial\nsun?<wait><jumptobox_last_active><NPC_Garaian>: What?!!<pause>\nTheir artificial sun is\nout of control?<pause> We won't\nlet them die!<wait><erasebox><NPC_Garaian>: Here.<pause\nThis is a data disc for\nthe Black Globe.\nThis should help you.<wait><13><erasebox>[You got the Black Globe\n Data!]<wait><13>ょ[",
+			"PCE_english" : "<newbox_24x3@bottom_centred><Player_Name_alt>: We've met them!<wait><erasebox><Player_Name_alt>: They're in a\nspot of trouble right now.<wait><erasebox><Player_Name_alt>: Can you help us\nrestore their artificial\nsun?<wait><jumptobox_last_active><NPC_Garaian>: What?!!<pause>\nTheir artificial sun is\nout of control?<pause> We won't\nlet them die!<wait><erasebox><NPC_Garaian>: Here.<pause>\nThis is a data disc for\nthe Black Globe.\nThis should help you.<wait><13><erasebox>[You got the Black Globe\n Data!]<wait><13>ょ[",
 			"notes" : ""
 		},
 		{

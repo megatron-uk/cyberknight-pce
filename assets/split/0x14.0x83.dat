@@ -507,7 +507,7 @@
 			"SNES_japanese" : "MICA「みなみはんきゅうに\n    きんぞくのドームを はっけんしました。\n    まだ けんぞうちゅうと おもわれます。」",
 			"SNES_english" : "Mica: A dome was found\nunder construction on\nthe southern continent. ",
 			"SNES_accuracy" : 0.903225806452,
-			"PCE_english" : "<13>トi\n: A dome was found\nunder construction on\the south continent.<wait>",
+			"PCE_english" : "<13>トi\n: A dome was found\nunder construction on\nthe south continent.<wait>",
 			"notes" : ""
 		},
 		{
