@@ -23,11 +23,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x1801a",
 			"bytes" : ["1a", "20", "07", "0a", "10", "45", "a2", "5c", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "03", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><15x2@top_left><slow><0A><NPC_Rock>『ブツブツ‥‥‥\nブツブツ‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_15x2@top_left><slow><0A><NPC_Rock>『ブツブツ‥‥‥\nブツブツ‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Rock[speed_0F]: Brmmm... [speed_FF]",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><15x2@top_left><slow><0A><NPC_Rock>: Rrrmmm...\nrrrmmm...<wait>",
+			"PCE_english" : "<newbox_15x2@top_left><slow><0A><NPC_Rock>: Rrrmmm...\nrrrmmm...<wait>",
 			"notes" : ""
 		},
 		{
@@ -47,11 +47,11 @@
 			"string_size" : 30,
 			"start_pos" : "0x18038",
 			"bytes" : ["1a", "22", "07", "0a", "10", "45", "a2", "5c", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@middle_centred><slow><0A><NPC_Rock>『ブツブツ‥‥‥‥ブツブツ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@middle_centred><slow><0A><NPC_Rock>『ブツブツ‥‥‥‥ブツブツ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Rock[speed_0F]: Brmmm... [speed_FF]",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@middle_centred><slow><0A><NPC_Rock>: Rrrmmm... rrrmmm...<wait>",
+			"PCE_english" : "<newbox_25x1@middle_centred><slow><0A><NPC_Rock>: Rrrmmm... rrrmmm...<wait>",
 			"notes" : ""
 		},
 		{
@@ -71,11 +71,11 @@
 			"string_size" : 103,
 			"start_pos" : "0x18057",
 			"bytes" : ["1a", "22", "10", "46", "a2", "5c", "cb", "de", "af", "b8", "de", "ca", "de", "dd", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "ce", "de", "b3", "c1", "ae", "b3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "bc", "ad", "b3", "bc", "ad", "b8", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "c1", "cd", "b2", "be", "dd", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "be", "b7", "ce", "b3", "cd", "dd", "b2", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "cc", "de", "c2", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@middle_centred><NPC_Silicon>『ビッグバン‥‥‥‥』<wait><erasebox><NPC_Silicon>『ボウチョウ‥‥‥‥』<wait><erasebox><NPC_Silicon>『シュウシュク‥‥‥‥』<wait><erasebox><NPC_Silicon>『チヘイセン‥‥‥‥』<wait><erasebox><NPC_Silicon>『セキホウヘンイ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@middle_centred><NPC_Silicon>『ビッグバン‥‥‥‥』<wait><erasebox><NPC_Silicon>『ボウチョウ‥‥‥‥』<wait><erasebox><NPC_Silicon>『シュウシュク‥‥‥‥』<wait><erasebox><NPC_Silicon>『チヘイセン‥‥‥‥』<wait><erasebox><NPC_Silicon>『セキホウヘンイ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Silicon>:<slow><1F> Big Bang...<wait><erasebox><NPC_Silicon>:<slow><1F> Expansion...<wait><erasebox><NPC_Silicon>:<slow><1F> Contraction...<wait><erasebox><NPC_Silicon>:<slow><1F> Horizon...<wait><erasebox><NPC_Silicon>:<slow><1F> Redshift...<wait><erasebox><NPC_Silicon>: [mutter mutter]<pause><newbox><24x2@bottom_centred><NPC_Shine>: Woah.<pause>\nThat sounds like they're<wait><erasebox><NPC_Shine>: trying to express\nsomething important.<wait><newbox><15x2@top_left><Player_Name>: If only\nwe could speak<wait><erasebox><Player_Name>: their\nlanguage.<wait>",
+			"PCE_english" : "<newbox_25x1@middle_centred><NPC_Silicon>:<slow><1F> Big Bang...<wait><erasebox><NPC_Silicon>:<slow><1F> Expansion...<wait><erasebox><NPC_Silicon>:<slow><1F> Contraction...<wait><erasebox><NPC_Silicon>:<slow><1F> Horizon...<wait><erasebox><NPC_Silicon>:<slow><1F> Redshift...<wait><erasebox><NPC_Silicon>: [mutter mutter]<pause><newbox_24x2@bottom_centred><NPC_Shine>: Woah.<pause>\nThat sounds like they're<wait><erasebox><NPC_Shine>: trying to express\nsomething important.<wait><newbox_15x2@top_left><Player_Name>: If only\nwe could speak<wait><erasebox><Player_Name>: their\nlanguage.<wait>",
 			"notes" : ""
 		},
 		{
@@ -95,11 +95,11 @@
 			"string_size" : 98,
 			"start_pos" : "0x180bf",
 			"bytes" : ["1a", "23", "10", "46", "a2", "d5", "d7", "b7", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "cc", "d7", "b8", "c0", "d9", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "cc", "a7", "bc", "de", "a8", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "ce", "db", "dd", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "b4", "dd", "c4", "db", "cb", "df", "b0", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "cc", "de", "c2", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><NPC_Silicon>『ゆらぎ‥‥‥‥』<wait><erasebox><NPC_Silicon>『フラクタル‥‥‥‥』<wait><erasebox><NPC_Silicon>『ふぁじぃ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ホロン‥‥‥‥』<wait><erasebox><NPC_Silicon>『えんとろぴ―‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぶつぶつぶつ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@bottom_centred><NPC_Silicon>『ゆらぎ‥‥‥‥』<wait><erasebox><NPC_Silicon>『フラクタル‥‥‥‥』<wait><erasebox><NPC_Silicon>『ふぁじぃ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ホロン‥‥‥‥』<wait><erasebox><NPC_Silicon>『えんとろぴ―‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぶつぶつぶつ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@bottom_centred><NPC_Silicon>:<slow><1F> Fluctuation...<wait><erasebox><NPC_Silicon>:<slow><1F> Fractal...<wait><erasebox><NPC_Silicon>:<slow><1F> Fuzzy...<wait><erasebox><NPC_Silicon>:<slow><1F> Holon...<wait><erasebox><NPC_Silicon>:<slow><1F> Entropy...<wait><erasebox><NPC_Silicon>: [grumble grumble]<wait><newbox><15x2@top_left><Player_Name>: What does\nit all mean?<wait>",
+			"PCE_english" : "<newbox_25x1@bottom_centred><NPC_Silicon>:<slow><1F> Fluctuation...<wait><erasebox><NPC_Silicon>:<slow><1F> Fractal...<wait><erasebox><NPC_Silicon>:<slow><1F> Fuzzy...<wait><erasebox><NPC_Silicon>:<slow><1F> Holon...<wait><erasebox><NPC_Silicon>:<slow><1F> Entropy...<wait><erasebox><NPC_Silicon>: [grumble grumble]<wait><newbox_15x2@top_left><Player_Name>: What does\nit all mean?<wait>",
 			"notes" : ""
 		},
 		{
@@ -119,11 +119,11 @@
 			"string_size" : 138,
 			"start_pos" : "0x18122",
 			"bytes" : ["1a", "22", "10", "46", "a2", "5c", "bc", "c6", "cc", "a8", "b1", "dd", "5c", "c4", "5c", "bc", "c6", "cc", "a8", "b4", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "d7", "dd", "b8", "de", "5c", "c4", "5c", "ca", "df", "db", "b0", "d9", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "b4", "b8", "d8", "c1", "ad", "b0", "d9", "5c", "c4", "5c", "c3", "de", "a8", "bd", "b8", "b0", "d9", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "ca", "df", "d7", "c9", "5c", "c4", "5c", "bd", "b7", "bf", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "c2", "d8", "b0", "5c", "c4", "5c", "d8", "bf", "de", "b0", "d1", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "cc", "de", "c2", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@middle_centred><NPC_Silicon>『シニフィアンとシニフィエ‥‥‥‥』<wait><erasebox><NPC_Silicon>『らんぐトぱろ―る‥‥‥‥』<wait><erasebox><NPC_Silicon>『エクリチュ‐ルとディスク‐ル‥‥』<wait><erasebox><NPC_Silicon>『ぱらのトすきぞ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ツリ‐とリゾ‐ム‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@middle_centred><NPC_Silicon>『シニフィアンとシニフィエ‥‥‥‥』<wait><erasebox><NPC_Silicon>『らんぐトぱろ―る‥‥‥‥』<wait><erasebox><NPC_Silicon>『エクリチュ‐ルとディスク‐ル‥‥』<wait><erasebox><NPC_Silicon>『ぱらのトすきぞ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ツリ‐とリゾ‐ム‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Silicon>:<slow><1F> Significant and signified...<wait><erasebox><NPC_Silicon>:<slow><1F> Lung and Pharoah...<wait><erasebox><NPC_Silicon>:<slow><1F> Writing and discourse<wait><erasebox><NPC_Silicon>:<slow><1F> Paranoid and Schizo<wait><erasebox><NPC_Silicon>:<slow><1F> Tree and rhizome<wait><erasebox><NPC_Silicon>:<slow><1F> [mumble mumble]<pause><newbox><24x2@bottom_centred><NPC_Vynd>: What ARE they\ntalking about???<wait>",
+			"PCE_english" : "<newbox_25x1@middle_centred><NPC_Silicon>:<slow><1F> Significant and signified...<wait><erasebox><NPC_Silicon>:<slow><1F> Lung and Pharoah...<wait><erasebox><NPC_Silicon>:<slow><1F> Writing and discourse<wait><erasebox><NPC_Silicon>:<slow><1F> Paranoid and Schizo<wait><erasebox><NPC_Silicon>:<slow><1F> Tree and rhizome<wait><erasebox><NPC_Silicon>:<slow><1F> [mumble mumble]<pause><newbox_24x2@bottom_centred><NPC_Vynd>: What ARE they\ntalking about???<wait>",
 			"notes" : ""
 		},
 		{
@@ -143,11 +143,11 @@
 			"string_size" : 98,
 			"start_pos" : "0x181ad",
 			"bytes" : ["1a", "23", "10", "46", "a2", "b7", "ae", "bd", "b3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "bc", "be", "de", "dd", "bd", "b3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "c0", "b2", "bd", "b3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "d1", "d8", "bd", "b3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "bd", "b8", "b2", "b0", "bd", "de", "5c", "bd", "b3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "cc", "de", "c2", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><NPC_Silicon>『きょすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『しぜんすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『たいすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『むりすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『スクイ‐ズすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぶつぶつぶつ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@bottom_centred><NPC_Silicon>『きょすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『しぜんすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『たいすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『むりすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『スクイ‐ズすう‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぶつぶつぶつ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@bottom_centred><NPC_Silicon>: Imaginary...<wait><erasebox><NPC_Silicon>: Natural number...<wait><erasebox><NPC_Silicon>: Logarithm<wait><erasebox><NPC_Silicon>: Irrational numbers<wait><erasebox><NPC_Silicon>: Quantum states<wait><erasebox><NPC_Silicon>: [uninteligible]<newbox><15x2@top_left><Player_Name>: Pure math\nVery strange.<wait><erasebox><Player_Name>: Are they\ntrying to learn<wait><erasebox><Player_Name>: about\nus with maths?<wait>",
+			"PCE_english" : "<newbox_25x1@bottom_centred><NPC_Silicon>: Imaginary...<wait><erasebox><NPC_Silicon>: Natural number...<wait><erasebox><NPC_Silicon>: Logarithm<wait><erasebox><NPC_Silicon>: Irrational numbers<wait><erasebox><NPC_Silicon>: Quantum states<wait><erasebox><NPC_Silicon>: [uninteligible]<newbox_15x2@top_left><Player_Name>: Pure math\nVery strange.<wait><erasebox><Player_Name>: Are they\ntrying to learn<wait><erasebox><Player_Name>: about\nus with maths?<wait>",
 			"notes" : ""
 		},
 		{
@@ -167,11 +167,11 @@
 			"string_size" : 107,
 			"start_pos" : "0x18210",
 			"bytes" : ["1a", "22", "10", "46", "a2", "dc", "c0", "bc", "c9", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "d2", "b2", "bf", "b3", "a6", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "bc", "de", "ac", "cf", "bc", "c5", "b2", "c3", "de", "b8", "da", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "ca", "df", "b2", "db", "dc", "b0", "d1", "5c", "c5", "d7", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "d6", "b3", "b6", "de", "dd", "c9", "b2", "b9", "c9", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "d1", "ba", "b3", "c6", "b2", "d9", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@middle_centred><NPC_Silicon>『わたしの‥‥‥‥』<wait><erasebox><NPC_Silicon>『めいそうを‥‥‥‥』<wait><erasebox><NPC_Silicon>『じゃましないでくれ‥‥‥‥』<wait><erasebox><NPC_Silicon>『パイロワ‐ムなら‥‥‥‥』<wait><erasebox><NPC_Silicon>『ようがんのいけの‥‥‥‥』<wait><erasebox><NPC_Silicon>『むこうにいる‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@middle_centred><NPC_Silicon>『わたしの‥‥‥‥』<wait><erasebox><NPC_Silicon>『めいそうを‥‥‥‥』<wait><erasebox><NPC_Silicon>『じゃましないでくれ‥‥‥‥』<wait><erasebox><NPC_Silicon>『パイロワ‐ムなら‥‥‥‥』<wait><erasebox><NPC_Silicon>『ようがんのいけの‥‥‥‥』<wait><erasebox><NPC_Silicon>『むこうにいる‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><24x2@middle_centred><NPC_Silicon>: Meditation,<pause>\n...not disturb.<pause><newbox><24x2@bottom_centred><NPC_Shine>: Commander, maybe\nwe shouldn't interrupt?<wait><newbox><15x2@top_left><Player_Name>: Let's\nwait and see.<jumptobox><last_active_plus_1><erasebox><NPC_Silicon>: [mutter mutter]<wait><erasebox><NPC_Silicon>: Pyrowyrm\nbeast...<wait><erasebox><NPC_Silicon>: possession\nscale horn...<wait><erasebox><NPC_Silicon>: lava passage\nwalking...<wait><erasebox><NPC_Silicon>: ...gaining.<jumptobox><last_active><Player_Name>: Ok, I\nthink I get it.<wait><erasebox><Player_Name>: It seems\nwe need to...<wait><erasebox><Player_Name>: Get some-\nthing from a...<wait><erasebox><Player_Name>: Pyrowyrm\nto travel on...<wait><erasebox><Player_Name>: lava.<wait>",
+			"PCE_english" : "<newbox_24x2@middle_centred><NPC_Silicon>: Meditation,<pause>\n...not disturb.<pause><newbox_24x2@bottom_centred><NPC_Shine>: Commander, maybe\nwe shouldn't interrupt?<wait><newbox_15x2@top_left><Player_Name>: Let's\nwait and see.<jumptobox_last_active_plus_1><erasebox><NPC_Silicon>: [mutter mutter]<wait><erasebox><NPC_Silicon>: Pyrowyrm\nbeast...<wait><erasebox><NPC_Silicon>: possession\nscale horn...<wait><erasebox><NPC_Silicon>: lava passage\nwalking...<wait><erasebox><NPC_Silicon>: ...gaining.<jumptobox_last_active><Player_Name>: Ok, I\nthink I get it.<wait><erasebox><Player_Name>: It seems\nwe need to...<wait><erasebox><Player_Name>: Get some-\nthing from a...<wait><erasebox><Player_Name>: Pyrowyrm\nto travel on...<wait><erasebox><Player_Name>: lava.<wait>",
 			"notes" : ""
 		},
 		{
@@ -191,11 +191,11 @@
 			"string_size" : 112,
 			"start_pos" : "0x1827c",
 			"bytes" : ["1a", "23", "10", "46", "a2", "5c", "cc", "ab", "c4", "dd", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "b8", "de", "d9", "b0", "b5", "dd", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "b3", "a8", "b0", "b8", "ce", "de", "bf", "de", "dd", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "b8", "de", "d7", "cb", "de", "c4", "db", "dd", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "ca", "b2", "ca", "df", "b0", "c1", "ac", "b0", "bc", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "cc", "de", "c2", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><NPC_Silicon>『フォトン‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぐる―おん‥‥‥‥』<wait><erasebox><NPC_Silicon>『ウィ‐クボゾン‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぐらびとろん‥‥‥‥』<wait><erasebox><NPC_Silicon>『ハイパ‐チャ‐ジ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@bottom_centred><NPC_Silicon>『フォトン‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぐる―おん‥‥‥‥』<wait><erasebox><NPC_Silicon>『ウィ‐クボゾン‥‥‥‥』<wait><erasebox><NPC_Silicon>『ぐらびとろん‥‥‥‥』<wait><erasebox><NPC_Silicon>『ハイパ‐チャ‐ジ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@bottom_centred><NPC_Silicon>: Photon...<wait><erasebox><NPC_Silicon>: Gluon....<wait><erasebox><NPC_Silicon>: Weakbozon...<wait><erasebox><NPC_Silicon>Gravitron...<wait><erasebox><NPC_Silicon>: Hypercharge...<wait><erasebox><NPC_Silicon>: [bzzzzzt]<pause><newbox><24x2@bottom_centred><NPC_Vynd>: Hey, does that\nsounds like phsyics?<wait>",
+			"PCE_english" : "<newbox_25x1@bottom_centred><NPC_Silicon>: Photon...<wait><erasebox><NPC_Silicon>: Gluon....<wait><erasebox><NPC_Silicon>: Weakbozon...<wait><erasebox><NPC_Silicon>Gravitron...<wait><erasebox><NPC_Silicon>: Hypercharge...<wait><erasebox><NPC_Silicon>: [bzzzzzt]<pause><newbox_24x2@bottom_centred><NPC_Vynd>: Hey, does that\nsounds like phsyics?<wait>",
 			"notes" : ""
 		},
 		{
@@ -215,11 +215,11 @@
 			"string_size" : 114,
 			"start_pos" : "0x182ed",
 			"bytes" : ["1a", "22", "10", "46", "a2", "d5", "b3", "b7", "be", "b2", "d2", "b2", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "d1", "b7", "be", "b2", "d2", "b2", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "b6", "c0", "c1", "c9", "b1", "d9", "20", "be", "b2", "d2", "b2", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "b6", "c0", "c1", "c9", "c5", "b2", "20", "be", "b2", "d2", "b2", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "bf", "bc", "c3", "5c", "d2", "dd", "c0", "b0", "c5", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "cc", "de", "c2", "cc", "de", "c2", "cc", "de", "c2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@middle_centred><NPC_Silicon>『ゆうきせいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『むきせいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『かたちのおる せいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『かたちのない せいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『そしてメンタ‐ナ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@middle_centred><NPC_Silicon>『ゆうきせいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『むきせいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『かたちのおる せいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『かたちのない せいめい‥‥‥‥』<wait><erasebox><NPC_Silicon>『そしてメンタ‐ナ‥‥‥‥』<wait><erasebox><NPC_Silicon>『ブツブツブツ‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@middle_centred><NPC_Silicon>: Life-energy...<wait><erasebox><NPC_Silicon>: Shaped-energy...<wait><erasebox><NPC_Silicon>: Unknown-energy...<wait><erasebox><NPC_Silicon>: <pause>Mentana<pause>.<pause>.<pause>.<wait><erasebox><NPC_Silicon> [gnnnnnnnnk]<wait>",
+			"PCE_english" : "<newbox_25x1@middle_centred><NPC_Silicon>: Life-energy...<wait><erasebox><NPC_Silicon>: Shaped-energy...<wait><erasebox><NPC_Silicon>: Unknown-energy...<wait><erasebox><NPC_Silicon>: <pause>Mentana<pause>.<pause>.<pause>.<wait><erasebox><NPC_Silicon> [gnnnnnnnnk]<wait>",
 			"notes" : ""
 		},
 		{
@@ -239,11 +239,11 @@
 			"string_size" : 206,
 			"start_pos" : "0x18360",
 			"bytes" : ["1a", "23", "10", "46", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "ca", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "bd", "cd", "de", "c3", "c9", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "be", "b2", "d2", "b2", "c9", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "bf", "b3", "bf", "de", "b3", "bc", "ac", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "b5", "bf", "d7", "b8", "ca", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "ca", "de", "b0", "bb", "b0", "b6", "b0", "5c", "d3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "b6", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "b3", "d0", "c0", "de", "bc", "c0", "c9", "c0", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c9", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "b6", "dd", "b6", "de", "b4", "ca", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "dc", "da", "dc", "da", "c6", "ca", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "46", "a2", "ca", "b6", "d8", "bc", "da", "c5", "b2", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox><25x1@bottom_centred><NPC_Silicon>『メンタ‐ナは‥‥‥‥』<wait><erasebox><NPC_Silicon>『すべての‥‥‥‥』<wait><erasebox><NPC_Silicon>『せいめいの‥‥‥‥』<wait><erasebox><NPC_Silicon>『そうぞうしゃ‥‥‥‥』<wait><erasebox><NPC_Silicon>『おそらくは‥‥‥‥』<wait><erasebox><NPC_Silicon>『バ‐サ‐カ‐も‥‥‥‥』<wait><erasebox><NPC_Silicon>『メンタ‐ナが‥‥‥‥』<wait><erasebox><NPC_Silicon>『うみだしたのだ‥‥‥‥』<wait><erasebox><NPC_Silicon>『メンタ‐ナの‥‥‥‥』<wait><erasebox><NPC_Silicon>『かんがえは‥‥‥‥』<wait><erasebox><NPC_Silicon>『われわれには‥‥‥‥』<wait><erasebox><NPC_Silicon>『はかりしれない‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_25x1@bottom_centred><NPC_Silicon>『メンタ‐ナは‥‥‥‥』<wait><erasebox><NPC_Silicon>『すべての‥‥‥‥』<wait><erasebox><NPC_Silicon>『せいめいの‥‥‥‥』<wait><erasebox><NPC_Silicon>『そうぞうしゃ‥‥‥‥』<wait><erasebox><NPC_Silicon>『おそらくは‥‥‥‥』<wait><erasebox><NPC_Silicon>『バ‐サ‐カ‐も‥‥‥‥』<wait><erasebox><NPC_Silicon>『メンタ‐ナが‥‥‥‥』<wait><erasebox><NPC_Silicon>『うみだしたのだ‥‥‥‥』<wait><erasebox><NPC_Silicon>『メンタ‐ナの‥‥‥‥』<wait><erasebox><NPC_Silicon>『かんがえは‥‥‥‥』<wait><erasebox><NPC_Silicon>『われわれには‥‥‥‥』<wait><erasebox><NPC_Silicon>『はかりしれない‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><24x2@bottom_centred><NPC_Silicon>: Mentana...<wait><erasebox><NPC_Silicon>: Creater of all...<wait><erasebox><NPC_Silicon>: Berzerker\nperhaps also...<newbox><24x2@top_centred><NPC_Shine>: Wait!<pause> Did they\njust say that Mentana...<wait><erasebox><NPC_Shine>: ...may have also\ncreated the Berzerkers?!<pause><jumptobox><last_active><erasebox><NPC_Silicon>: Mentana thoughts\n<pause>.<pause>.<pause>.immeasureable<wait><erasebox><NPC_Silicon>: ...impossible\nto understand by us.<wait>",
+			"PCE_english" : "<newbox_24x2@bottom_centred><NPC_Silicon>: Mentana...<wait><erasebox><NPC_Silicon>: Creater of all...<wait><erasebox><NPC_Silicon>: Berzerker\nperhaps also...<newbox_24x2@top_centred><NPC_Shine>: Wait!<pause> Did they\njust say that Mentana...<wait><erasebox><NPC_Shine>: ...may have also\ncreated the Berzerkers?!<pause><jumptobox_last_active><erasebox><NPC_Silicon>: Mentana thoughts\n<pause>.<pause>.<pause>.immeasureable<wait><erasebox><NPC_Silicon>: ...impossible\nto understand by us.<wait>",
 			"notes" : ""
 		},
 		{
@@ -275,11 +275,11 @@
 			"string_size" : 49,
 			"start_pos" : "0x18430",
 			"bytes" : ["1a", "29", "5c", "ca", "df", "b2", "db", "dc", "b0", "d1", "5c", "a6", "20", "c0", "b5", "bc", "c0", "21", "08", "13", "a3", "5b", "5c", "ca", "df", "b2", "db", "dc", "b0", "d1", "5c", "c9", "20", "b7", "ca", "de", "20", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08", "13", "ae", "5b"],
-			"PCE_japanese" : "<newbox><16x1@bottom_centred>パイロワ‐ムを たおした!<wait><13>』[パイロワ‐ムの きば を てにいれた!<wait><13>ょ[",
+			"PCE_japanese" : "<newbox_16x1@bottom_centred>パイロワ‐ムを たおした!<wait><13>』[パイロワ‐ムの きば を てにいれた!<wait><13>ょ[",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox><25x1@bottom_centred>You defeated a Pyrowyrm!<wait>13><erasebox>[Found the Pyrowyrm Fang]<wait><13>ょ[",
+			"PCE_english" : "<newbox_25x1@bottom_centred>You defeated a Pyrowyrm!<wait>13><erasebox>[Found the Pyrowyrm Fang]<wait><13>ょ[",
 			"notes" : ""
 		},
 		{

@@ -4583,7 +4583,7 @@
 			"string_size" : 96,
 			"start_pos" : "0x1eb34",
 			"bytes" : ["f8", "d5", "f1", "0b", "0f", "12", "1d", "04", "42", "62", "43", "63", "3a", "20", "0b", "0f", "14", "1d", "04", "44", "64", "45", "65", "3a", "20", "0b", "0f", "16", "1d", "04", "46", "66", "47", "67", "3a", "20", "0b", "0e", "18", "1d", "0e", "50", "70", "51", "71", "52", "72", "53", "73", "ce", "ec", "e3", "e4", "dc", "f1", "0b", "0e", "1a", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "0b", "18", "08", "1d", "04", "9c", "bc", "9d", "bd", "3a", "20", "20", "20", "0b", "15", "0b", "1d", "0e", "fc", "f2", "e7", "e9"],
-			"PCE_japanese" : "リゆム<0B><0F><12><kanji>肩<pause>BbCc: <0B><0F><14><kanji>腕<pause>DdEe: <0B><0F><16><kanji>脚<pause>FfGg: <0B><padV><18><kanji>攻撃タイプ<padV>PpQqRrSsほフテトわム<0B><padV><newbox><15x2@top_left>               <0B><18><wait><kanji>EP<pause>シしスす:   <0B><15><0B><kanji><kanji><padV>ワメヌノ",
+			"PCE_japanese" : "リゆム<0B><0F><12><kanji>肩<pause>BbCc: <0B><0F><14><kanji>腕<pause>DdEe: <0B><0F><16><kanji>脚<pause>FfGg: <0B><padV><18><kanji>攻撃タイプ<padV>PpQqRrSsほフテトわム<0B><padV><newbox_15x2@top_left>               <0B><18><wait><kanji>EP<pause>シしスす:   <0B><15><0B><kanji><kanji><padV>ワメヌノ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
