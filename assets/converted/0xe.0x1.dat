@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13>+J",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Abilities",
+			"PCE_english" : "Abilities<padH>-",
 			"notes" : "Menu screen configuring player character stats"
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13><sword>I",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><endwait><padH><11><addrow><18>ん-<11><11>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Player",
+			"PCE_english" : " Player<end><06><26><07><27><end>",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><15><0B><Player_Name>",
+			"PCE_english" : "<0B><15><0B><Player_Name>(",
 			"notes" : ""
 		},
 		{
@@ -471,7 +471,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><05><06>*** Cyber Knight ***<0B><05><wait>***  SOUND TEST  ***<0B><wait><erasebox>Audio mode :<0B><wait><padV>BGM Req No.:<0B><wait><NPC_Mayor>GM Req No.:<0B><wait><12>EFC Req No.:<0B><wait><14>EFC Req No.:<0B><wait><16>Fade-Out   :",
+			"PCE_english" : "",
 			"notes" : "Looks like a sound test menu - it doesnt show by default, this would be neat to see!"
 		},
 		{
@@ -685,9 +685,9 @@
 			"bytes" : ["18", "42", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c", "b7", "af", "c4", "11"],
 			"PCE_japanese" : "<18>B.<13><11><addrow><padH>ン<padV>゜キット<11>",
 			"SNES_japanese" : "",
-			"SNES_english" : "",
+			"SNES_english" : "Kit",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Kit",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -721,9 +721,9 @@
 			"bytes" : ["18", "43", "2e", "13", "11", "01", "0d", "fd", "0e", "ff", "5c", "b7", "af", "c4", "11"],
 			"PCE_japanese" : "<18>C.<13><11><addrow><padH>ン<padV>゜キット<11>",
 			"SNES_japanese" : "",
-			"SNES_english" : "",
+			"SNES_english" : "Kit",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Kit",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -743,7 +743,7 @@
 			"string_size" : 1,
 			"start_pos" : "0x1c1ec",
 			"bytes" : ["11"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<11>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -1079,7 +1079,7 @@
 			"string_size" : 1,
 			"start_pos" : "0x1c2fc",
 			"bytes" : ["d6"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "よ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -1619,7 +1619,7 @@
 			"string_size" : 1,
 			"start_pos" : "0x1c449",
 			"bytes" : ["10"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<10>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -2423,7 +2423,7 @@
 			"string_size" : 1,
 			"start_pos" : "0x1c78c",
 			"bytes" : ["2f"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "/",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -2591,7 +2591,7 @@
 			"string_size" : 1,
 			"start_pos" : "0x1c7ec",
 			"bytes" : ["2f"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "/",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -2667,7 +2667,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><endwait>The clone has been\nsaved.<wait>",
+			"PCE_english" : "<erasebox><06><closebox>The clone has been\nsaved.<wait>",
 			"notes" : ""
 		},
 		{
@@ -2835,7 +2835,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Ster. Mono",
+			"PCE_english" : "  Ster. Mono",
 			"notes" : "2/1 channel sound selection from main game start menu"
 		},
 		{
@@ -2859,8 +2859,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<padH><06>Cyber Knight",
+			"notes" : "Game title as shown at the top of the main game start menu"
 		},
 		{
 			"string_number" : 242,
@@ -3111,7 +3111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -3239,7 +3239,7 @@
 			"string_size" : 1,
 			"start_pos" : "0x1ca2b",
 			"bytes" : ["0b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<0b>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,

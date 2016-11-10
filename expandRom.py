@@ -394,7 +394,7 @@ while c < ASSET_LOAD_TABLE_SIZE:
 			print("--- Seeking to 0x%s" % hex(this_location))
 			new_rom = open(OUT_FILE, "rb+")
 			new_rom.seek(this_location, 0)
-			new_table = [hex(this_bank)[2:4], '04', '40', '00']
+			new_table = [hex(this_bank)[2:4], '03', '40']
 			print("--- Writing new asset table %s" % (new_table))
 			
 			for table_byte in new_table:

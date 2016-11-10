@@ -527,11 +527,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x285a3",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -599,11 +599,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x28666",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -767,11 +767,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x289d6",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -839,11 +839,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x28b2c",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -959,11 +959,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x28e1b",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1439,11 +1439,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x29701",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1535,11 +1535,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x298a2",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1583,11 +1583,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x2998a",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<1b>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1751,11 +1751,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x29c93",
 			"bytes" : ["08"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<08>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
