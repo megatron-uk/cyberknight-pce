@@ -164,9 +164,13 @@ else:
 	print("OK")
 	print("")
 		
-# Find out the size of the new english text
-print("Calculating English script size")
-print("-------------------------------")
+##########################################################
+#
+# Find out the size of the new english text and encode it
+#
+##########################################################
+print("Encoding English script assets")
+print("------------------------------")
 TOTAL_PCE_BYTES_SIZE = 0
 TOTAL_ASSET_BANKS = 0
 all_assets = []
@@ -197,6 +201,7 @@ for bank_number in ASSETS["asset_banks"].keys():
 						# Step 2, decode the text back again
 						asset_chunk["translated_bytes"] = new_bytes
 						new_asset_chunk = asset_chunk
+						# Swap the translated bytes with the original bytes field, as that is what 'translate_string' works on
 						new_asset_chunk["original_bytes"] = new_asset_chunk["bytes"]
 						new_asset_chunk["bytes"] = new_asset_chunk["translated_bytes"]
 						new_asset_chunk = translate_string(byte_sequence = new_asset_chunk, trans_table = ttable, trans_table_double = ttable2, alt = False, old_assets = False, VERBOSE = VERBOSE)
@@ -230,6 +235,7 @@ for bank_number in ASSETS["asset_banks"].keys():
 				asset_required_banks = int(math.ceil(PCE_translated_bytes / (BANK_SIZE * 1.0)))
 				TOTAL_ASSET_BANKS += asset_required_banks
 				TOTAL_PCE_BYTES_SIZE += PCE_translated_bytes
+				asset["required_banks"] = asset_required_banks
 				print("- %s.%s" %  (hex(bank_number), hex(asset_number)))
 				print("-- Translated script == %s == %s bank(s) == %s bytes" % (PCE_translated_bytes, asset_required_banks, asset_required_banks * BANK_SIZE))
 				print("-- Original script == %s == %s bank(s) == %s bytes" % (PCE_original_bytes, asset_required_banks, asset_required_banks * BANK_SIZE))
@@ -260,6 +266,13 @@ else:
 print("Total asset size %s bytes" % TOTAL_PCE_BYTES_SIZE)
 print("Total bank size %s x %s = %s bytes" % (TOTAL_ASSET_BANKS, BANK_SIZE, (TOTAL_ASSET_BANKS * BANK_SIZE)))
 print("Total wasted bytes %s - %s = %s bytes" % ((TOTAL_ASSET_BANKS * BANK_SIZE), TOTAL_PCE_BYTES_SIZE, ((TOTAL_ASSET_BANKS * BANK_SIZE) - TOTAL_PCE_BYTES_SIZE)))
+	
+#####################################################################
+#
+# We now have a list of translated assets, so lets work out how
+# to expand the rom and fit them in.
+#
+######################################################################
 	
 c = False
 if os.path.isfile(OUT_FILE):
@@ -298,18 +311,8 @@ else:
 		sys.exit(2)
 		
 print("")
-print("Injecting Translation")
-print("---------------------")
-print("")
-# Loop over all assets again, and use the newly available 'translated_bytes' attribute. Construct the initial 
-# asset bank table (which should just be one address per table now, as we are using one bank per asset).
-#
-# .e.g 0x0c used to have many assets - 0x01 through 0x17 in just one bank. Now 0x0c.0x01 is in its own bank.
-
-
-print("")
-print("Patch Asset Loader Tables")
-print("-------------------------")
+print("Insert Assets")
+print("-------------")
 print("")
 # Patch the table low in the rom file with the bank numbers of the patched and injected assets.
 try:
@@ -338,33 +341,137 @@ except Exception as e:
 c = 0
 print("Remapping assets")
 last_original_bank = ROM_SIZE / BANK_SIZE
-next_bank = last_original_bank
+next_bank = last_original_bank + 1
+next_location = next_bank * BANK_SIZE
+
+new_asset_table = []
+new_asset_pointer_table = []
+
 print("Last original bank [%s] located at %s" % (hex(last_original_bank), hex(ROM_SIZE - BANK_SIZE)))
 while c < ASSET_LOAD_TABLE_SIZE:
-	tmp = str(binascii.hexlify(asset_table[c])).lower()
-	if tmp[0] == "0":
-		bank = "0x" + tmp[1]
+	assets_written = False
+	tmp_bank = str(binascii.hexlify(asset_table[c])).lower()
+	if tmp_bank[0] == "0":
+		bank = "0x" + tmp_bank[1]
 	else:
-		bank = "0x" + tmp
+		bank = "0x" + tmp_bank
 
 	tmp = str(binascii.hexlify(asset_pointer[c])).lower()
 	if tmp[0] == "0":
-		asset = "0x" + tmp[1]
+		asset_number = "0x" + tmp[1]
 	else:
-		asset = "0x" + tmp
+		asset_number = "0x" + tmp
 	
-	next_bank = next_bank + 1
-	next_location = (next_bank * BANK_SIZE)
-	
+	print("- %s.%s" % (bank, asset_number))
 	
 	# Find the matching asset chunk
-	for asset_chunk in all_assets:
-		if (asset_chunk["bank"] == bank) and (asset_chunk["asset_index"] == asset):
+	for asset in all_assets:
+		if (asset["bank"] == bank) and (asset["asset_index"] == asset_number):
+			this_bank = next_bank
+			this_location = next_location
+			this_index = 0x01
+			
 			#print("-- %s.%s" % (asset_chunk["bank"], asset_chunk["asset_index"]))
 			byte_size = 0
-			for string in asset_chunk["strings"]:
-				byte_size += len(string["translated_bytes"])
-			#print("--- Matching asset size = %s bytes" % byte_size)
-			print("- %s.%s - relocating to bank %s at %s" % (bank, asset, hex(next_bank), hex(next_location)))			
-				
+			translated_bytes = []
+			for string in asset["strings"]:
+				translated_bytes += string["translated_bytes"]
+			byte_size = len(translated_bytes)
+			
+			print("-- %s.%s - relocating to bank %s as asset %s at %s" % (bank, asset_number, hex(this_bank), hex(this_index), hex(this_location)))
+			print("--- Asset size = %s bytes" % byte_size)
+			
+			
+			# The header table for an asset is much simpler than the original one.
+			# The relative address is always 0x4000
+			# byte position 0 = ID of bank (for example, 0x5f)
+			# byte position 1 + 2 = address (in little endian) of the asset block to follow (always 0x4004, as it starts at the 5th byte)
+			# byte position 4 = 0x00
+			# SO, beyond the first byte (which changes per bank number) it will always look like:
+			# 0x5f, 0x04, 0x40, 0x00, data_bytes_start_here
+			# The reference to the asset in the asset pointer table will therefore always be 0x01, as it is the 
+			# first address pair in the asset table.
+			print("--- Seeking to 0x%s" % hex(this_location))
+			new_rom = open(OUT_FILE, "rb+")
+			new_rom.seek(this_location, 0)
+			new_table = [hex(this_bank)[2:4], '04', '40', '00']
+			print("--- Writing new asset table %s" % (new_table))
+			
+			for table_byte in new_table:
+				new_rom.write(binascii.unhexlify(table_byte))
+			
+			# Now write the text asset data
+			print("--- Seeking to 0x%s" % hex(this_location + len(new_table)))
+			new_rom.seek(this_location + len(new_table), 0)
+			print("--- Writing asset data")
+			for text_byte in translated_bytes:
+				new_rom.write(binascii.unhexlify(text_byte))
+			
+			new_rom.close()
+			
+			new_asset_table.append(hex(this_bank))
+			new_asset_pointer_table.append(hex(this_index))
+			
+			# Increment to next bank for the next asset to be inserted
+			next_bank = next_bank + asset["required_banks"]
+			next_location = (next_bank * BANK_SIZE)
+		
+			assets_written = True
 	c += 1
+	
+	if assets_written:
+		print("-- Asset relocated")
+	else:
+		print("-- Reusing existing asset location")
+		new_asset_table.append(bank)
+		new_asset_pointer_table.append(asset_number)
+	print("- Done")
+	print("")
+	
+#########################################################
+#
+# Patch the asset tables to load content from the new
+# locations.
+#
+#########################################################
+print("")
+print("Patch Asset Tables")
+print("------------------")
+print("Original asset table: %s" % asset_table)
+print("")
+print("New asset table: %s" % new_asset_table)
+if (len(asset_table) != len(new_asset_table)) and (len(new_asset_table) != ASSET_LOAD_TABLE_SIZE):
+	print("ERROR! - Asset table sizes do not match!")
+	sys.exit(2)
+else:
+	new_rom = open(OUT_FILE, "rb+")
+	print("Seeking to 0x%s" % hex(ASSET_LOAD_TABLE))
+	new_rom.seek(ASSET_LOAD_TABLE, 0)
+	print("Writing new table")
+	for byte in new_asset_table:
+		new_byte = byte[2:4]
+		if len(new_byte) == 1:
+			new_byte = "0" + new_byte
+		new_rom.write(binascii.unhexlify(new_byte))
+	new_rom.close()
+	print("Done")
+	
+print("")
+print("Original asset pointer table: %s" % asset_pointer)
+print("")
+print("New asset pointer table: %s" % new_asset_pointer_table)
+if (len(asset_pointer) != len(new_asset_pointer_table)) and (len(new_asset_pointer_table) != ASSET_OFFSET_TABLE_SIZE):
+	print("ERROR! - Asset table sizes do not match!")
+	sys.exit(2)
+else:
+	new_rom = open(OUT_FILE, "rb+")
+	print("Seeking to 0x%s" % hex(ASSET_OFFSET_TABLE))
+	new_rom.seek(ASSET_OFFSET_TABLE, 0)
+	print("Writing new table")
+	for byte in new_asset_pointer_table:
+		new_byte = byte[2:4]
+		if len(new_byte) == 1:
+			new_byte = "0" + new_byte
+		new_rom.write(binascii.unhexlify(new_byte))
+	new_rom.close()
+	print("Done")
