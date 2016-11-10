@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><addrow> OK?<addrow> Y/N<11>",
+			"PCE_english" : "",
 			"notes" : "Confirmation dialogue for the main menu player character stats customisation screen"
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Player<end><06><26><07><27><end>",
+			"PCE_english" : "Player",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><15><0B><Player_Name>(",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -363,7 +363,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "->",
+			"PCE_english" : "-->",
 			"notes" : "Move text entry cursor to the right on player name screen"
 		},
 		{
@@ -387,7 +387,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<-",
+			"PCE_english" : "<--",
 			"notes" : "Move text cursor to the left on player name screen."
 		},
 		{
@@ -2788,7 +2788,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : " Dialogue\n Audio ",
-			"notes" : "Main game start menu"
+			"notes" : "Main game start menu - set options for dialogue speed and stereo/mono audio"
 		},
 		{
 			"string_number" : 236,
