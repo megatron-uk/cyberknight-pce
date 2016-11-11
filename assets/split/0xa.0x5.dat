@@ -203,11 +203,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x16c22",
 			"bytes" : ["07"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<slow>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "<slow>",
 			"notes" : ""
 		},
 		{

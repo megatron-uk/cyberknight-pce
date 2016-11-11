@@ -1995,7 +1995,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><16><newbox_23x1@bottom_left>They've surrounded the ship!<pause><<newbox_23x1@bottom_right>Damn pirates!<pause><<erasebox>No! They'll kill us all!<pause><<closebox>",
+			"PCE_english" : "<11><16><newbox_23x1@bottom_left>We're surrounded!<pause><<newbox_23x1@bottom_right>Damn pirates!<pause><<erasebox>No! They'll kill us all!<pause><<closebox>",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2055,7 +2055,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>We just need a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not locked!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<0B><padV><05>JUMP!<pause><<closebox>",
+			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>Just a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not locked!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<0B><padV><05>JUMP!<pause><<closebox>",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2199,7 +2199,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<11><14><newbox_24x1@middle_centred><Player_Name>: Power status?<endwait><06><closebox><addrow><newbox_24x1@middle_centred>Just a second...<endwait>\n<closebox><addrow><newbox_22x2@bottom_right>This is the lab:\n<NPC_Mica> should be online now.<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica><slow><10>I... am... the AI\n<slow><04>system, MICA...!<03><erasebox><NPC_Mica>:I apologise.<pause>\nI suffered slight damage\nduring the attack.<endwait>\n<closebox><addrow><newbox_24x2@top_centred><Player_Name>: Ok. What's our status?<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>: We are within our\ngalaxy. But no exact data\nis available.<endwait>\n<erasebox><NPC_Mica><slow><10>Wait!\n<slow><ff>\nI detect EM waves from a\nplanet!<endwait>\n<closebox><addrow><newbox_24x1@middle_centred><Player_Name>: EM Waves?<endwait>\n<closebox>\n<newbox_22x2@bottom_left>This is engineering:\nPower is now restored.<endwait><wait><11>",
 			"notes" : ""
 		},
 		{

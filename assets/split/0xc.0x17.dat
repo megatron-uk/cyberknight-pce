@@ -1103,11 +1103,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x1bc99",
 			"bytes" : ["0b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<0b>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
-			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"SNES_accuracy" : 0.0,                                        
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{

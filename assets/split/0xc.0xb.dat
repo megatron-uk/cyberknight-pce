@@ -71,11 +71,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x19ed8",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "",
+			"PCE_japanese" : "<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{

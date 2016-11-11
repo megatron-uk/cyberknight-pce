@@ -507,7 +507,7 @@
 			"SNES_japanese" : "MICA「みなみはんきゅうに\n    きんぞくのドームを はっけんしました。\n    まだ けんぞうちゅうと おもわれます。」",
 			"SNES_english" : "Mica: A dome was found\nunder construction on\nthe southern continent. ",
 			"SNES_accuracy" : 0.903225806452,
-			"PCE_english" : "<13>トi\n: A dome was found\nunder construction on\nthe south continent.<wait>",
+			"PCE_english" : "<13>トi\n: A dome was found\nunder construction on\the south continent.<wait>",
 			"notes" : ""
 		},
 		{
@@ -527,11 +527,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x285a3",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -599,11 +599,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x28666",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -767,11 +767,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x289d6",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -839,11 +839,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x28b2c",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -959,11 +959,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x28e1b",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -1439,11 +1439,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x29701",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -1535,11 +1535,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x298a2",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -1583,11 +1583,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x2998a",
 			"bytes" : ["1b"],
-			"PCE_japanese" : "<closebox>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<1b>",
 			"notes" : ""
 		},
 		{
@@ -1751,11 +1751,11 @@
 			"string_size" : 1,
 			"start_pos" : "0x29c93",
 			"bytes" : ["08"],
-			"PCE_japanese" : "<wait>",
+			"PCE_japanese" : "",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<08>",
 			"notes" : ""
 		},
 		{
@@ -1995,7 +1995,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><16><newbox_23x1@bottom_left>We're surrounded!<pause><<newbox_23x1@bottom_right>Damn pirates!<pause><<erasebox>No! They'll kill us all!<pause><<closebox>",
+			"PCE_english" : "<11><16><newbox_23x1@bottom_left>They've surrounded the ship!<pause><<newbox_23x1@bottom_right>Damn pirates!<pause><<erasebox>No! They'll kill us all!<pause><<closebox>",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2055,7 +2055,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>Just a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not locked!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<0B><padV><05>JUMP!<pause><<closebox>",
+			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>We just need a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not locked!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<0B><padV><05>JUMP!<pause><<closebox>",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2199,7 +2199,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><14><newbox_24x1@middle_centred><Player_Name>: Power status?<endwait><06><closebox><addrow><newbox_24x1@middle_centred>Just a second...<endwait>\n<closebox><addrow><newbox_22x2@bottom_right>This is the lab:\n<NPC_Mica> should be online now.<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica><slow><10>I... am... the AI\n<slow><04>system, MICA...!<03><erasebox><NPC_Mica>:I apologise.<pause>\nI suffered slight damage\nduring the attack.<endwait>\n<closebox><addrow><newbox_24x2@top_centred><Player_Name>: Ok. What's our status?<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>: We are within our\ngalaxy. But no exact data\nis available.<endwait>\n<erasebox><NPC_Mica><slow><10>Wait!\n<slow><ff>\nI detect EM waves from a\nplanet!<endwait>\n<closebox><addrow><newbox_24x1@middle_centred><Player_Name>: EM Waves?<endwait>\n<closebox>\n<newbox_22x2@bottom_left>This is engineering:\nPower is now restored.<endwait><wait><11>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
