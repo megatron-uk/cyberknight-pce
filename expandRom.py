@@ -204,12 +204,59 @@ for bank_number in ASSETS["asset_banks"].keys():
 						# Swap the translated bytes with the original bytes field, as that is what 'translate_string' works on
 						new_asset_chunk["original_bytes"] = new_asset_chunk["bytes"]
 						new_asset_chunk["bytes"] = new_asset_chunk["translated_bytes"]
+						new_asset_chunk["text"] = []
 						new_asset_chunk = translate_string(byte_sequence = new_asset_chunk, trans_table = ttable, trans_table_double = ttable2, alt = False, old_assets = False, VERBOSE = VERBOSE)
 
-						# Step 3, compare the decoded string to the english text - do they match?
 						s = ""
 						for b in new_asset_chunk["text"]:
 							s += b
+						s = s.replace('\\n', '\n')
+						# Step 3, compare the decoded string to the english text - do they match?
+						# First test is for length:
+						#matched_length = True
+						#if len(s) != len(asset_chunk["PCE_english"]):
+						#	matched_length = False
+						#	print("------------------")
+						#	print("WARNING!! String length does not match")
+						#	print("Asset data: %s.%s, string number: %s" % (asset["bank"], asset["asset_index"], asset_chunk["string_number"]))
+						#	print("-")
+						#	print("Pre-encoded string:")
+						#	print("@%s@" % asset_chunk["PCE_english"].encode('utf-8'))
+						#	print("-")
+						#	print("Decoded string:")
+						#	print("@%s@" % s)
+						#	print("-")
+						#	print("Pre-encoded size: @%s@" % len(asset_chunk["PCE_english"]))
+						#	print("Decoded size: @%s@" % len(s))
+						#	idx = 0
+						#	for c in s:
+						#		sys.stdout.write("%s" % c)
+							#	idx += 1	
+						#	print("Please fix this error!")
+						#	sys.exit(2)
+						
+						# Second test is for character match:
+						#if matched_length == True:
+						#	matched = True
+						#	processed = ""
+						#	mismatch_pre = ""
+						#	mismatch_post = ""	
+						#	if matched is False:
+						#		print("WARNING!! Strings do not match")
+						#		print("Asset data: %s.%s, string number: %s" % (asset["bank"], asset["asset_index"], asset_chunk["string_number"]))
+						#		print("-")
+						#		print("Pre-encoded string:")
+						#		print("@%s@" % asset_chunk["PCE_english"])
+						#		print("-")
+						#		print("Decoded string:")
+						#		print("@%s@" % s)
+						#		print("-")
+						#		print("Pre-encoded character: @%s@" % mismatch_pre)
+						#		print("Decoded character: @%s@" % mismatch_post)
+						#		print("String match extend: @%s@" % processed)
+						#		print("Please fix this error!")
+						#		sys.exit(2)
+							
 						if SHOW_PROGRESS:
 							print("new_asset_chunk[text]: %s" % s)
 							

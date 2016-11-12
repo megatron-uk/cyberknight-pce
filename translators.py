@@ -269,7 +269,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 	for i in range(0, len(byte_sequence["bytes"]) - trailing_bytes):
 		if VERBOSE:
 			print("i:%s already_i:%s" % (i, already_i))
-		if i <= already_i:
+		if i <= already_i and (len(byte_sequence["bytes"]) > 1):
 			if VERBOSE:
 				print("Index %s:%s Skipped" % (i, byte_sequence["bytes"][i]))
 		else:
@@ -339,7 +339,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 							for c in translated_chars:
 								if VERBOSE:
 									print("Adding double height chars <%s>" % c)
-								byte_sequence[text_key].append(c)
+								byte_sequence[text_key].append(c).encode('utf-8')
 							already_decoded = True
 							if VERBOSE:
 								print "Jump to %s" % already_i
