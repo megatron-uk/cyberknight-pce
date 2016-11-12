@@ -5,6 +5,12 @@
 # Configuration data for extractScript and injectScript
 #
 #########################################################
+import os
+
+try:
+	REVISION = os.popen('git rev-list HEAD --count').readlines()[0]
+except:
+	REVISION = "Undef!"
 
 # Defaults for input, translation and output file name
 # Required for extractScript

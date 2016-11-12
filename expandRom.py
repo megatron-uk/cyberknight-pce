@@ -47,7 +47,7 @@ except:
 ######################################################
 
 # Default values
-from config import VERBOSE
+from config import VERBOSE, REVISION
 from config import ROM_NAME, OUT_EXPANDED_NAME
 from config import ROM_CHECKSUM, ROM_SIZE, ROM_BANKS, BANK_SIZE, ROM_MAX_SIZE
 
@@ -81,6 +81,7 @@ IN_FILE = ROM_NAME
 OUT_FILE = OUT_EXPANDED_NAME
 ASSETS_DIR = "./assets/converted/"
 OVERWRITE = False
+DELIMETER_CHECK = False
 for o, a in opts:
 	if o == "-h":
 		print("A tool which Expand the rom file of the Japanese PC-Engine CyberKnight with")
@@ -186,15 +187,30 @@ for bank_number in ASSETS["asset_banks"].keys():
 				PCE_original_bytes = 0
 				ttable = load_table()
 				ttable2 = load_table_double()
+				original_delimeters = 0
+				translated_delimeters = 0
 				for asset_chunk in asset["strings"]:
+					translated_string_delimeters = 0
+					original_string_delimeters = 0
+					if DELIMETER_CHECK:
+						for b in asset_chunk["bytes"]:
+							if "delimeter_skip" not in asset_chunk.keys():
+								if b == "00":
+									original_delimeters += 1
+									original_string_delimeters += 1
 					PCE_original_bytes += len(asset_chunk["bytes"])
 					# Load english text if translated
 					if len(asset_chunk["PCE_english"])>0:
 						if SHOW_PROGRESS:
 							print("------------- Translated string (E) ---------------")
 							print("asset_chunk[PCE_english]: %s" % (asset_chunk["PCE_english"]).encode('utf-8'))
-							print("")
+							print("")	
 						
+						if "<GIT_REVISION>" in asset_chunk["PCE_english"]:
+							print("Found a Git revision control code - replacing with current Git version")
+							print("Revision: r%s" % REVISION)
+							asset_chunk["PCE_english"] = asset_chunk["PCE_english"].replace('<GIT_REVISION>', REVISION)
+												
 						# Step 1, encode the text
 						new_bytes = encode_text(string = asset_chunk["PCE_english"], trans_table = ttable)
 						
@@ -206,6 +222,11 @@ for bank_number in ASSETS["asset_banks"].keys():
 						new_asset_chunk["bytes"] = new_asset_chunk["translated_bytes"]
 						new_asset_chunk["text"] = []
 						new_asset_chunk = translate_string(byte_sequence = new_asset_chunk, trans_table = ttable, trans_table_double = ttable2, alt = False, old_assets = False, VERBOSE = VERBOSE)
+						if "delimeter_skip" not in asset_chunk.keys():
+							for b in asset_chunk["translated_bytes"]:
+								if b == "00":
+									translated_string_delimeters += 1
+									translated_delimeters += 1
 
 						s = ""
 						for b in new_asset_chunk["text"]:
@@ -262,6 +283,17 @@ for bank_number in ASSETS["asset_banks"].keys():
 							
 						PCE_translated_bytes += len(new_bytes)
 						
+						# Have we got the same amount of <end> bytes?
+						if DELIMETER_CHECK:
+							if original_string_delimeters != translated_string_delimeters:
+								print("WARNING!! String delimeters do not match")
+								print("Asset data: %s.%s, string number: %s" % (asset["bank"], asset["asset_index"], asset_chunk["string_number"]))
+								print("-")
+								print("Original delimeters: %s" % original_string_delimeters)
+								print("Translated delimeters: %s" % translated_string_delimeters)
+								print("Please fix this error!")
+								sys.exit(2)
+						
 						if SHOW_PROGRESS:	
 							print("----------------------- End -----------------------")
 							print("")
@@ -271,6 +303,9 @@ for bank_number in ASSETS["asset_banks"].keys():
 							print("asset_chunk[PCE_japanese]: %s" % asset_chunk["PCE_japanese"])
 							print("")
 						# Otherwise load Japanese text
+						for b in asset_chunk["bytes"]:
+							if b == "00":
+								translated_delimeters += 1
 						asset_chunk["translated_bytes"] = asset_chunk["bytes"]
 						PCE_translated_bytes += len(asset_chunk["bytes"])
 						if SHOW_PROGRESS:
@@ -285,7 +320,9 @@ for bank_number in ASSETS["asset_banks"].keys():
 				asset["required_banks"] = asset_required_banks
 				print("- %s.%s" %  (hex(bank_number), hex(asset_number)))
 				print("-- Translated script == %s == %s bank(s) == %s bytes" % (PCE_translated_bytes, asset_required_banks, asset_required_banks * BANK_SIZE))
+				print("-- Translated delimeters == %s" % translated_delimeters)
 				print("-- Original script == %s == %s bank(s) == %s bytes" % (PCE_original_bytes, asset_required_banks, asset_required_banks * BANK_SIZE))
+				print("-- Original delimeters == %s" % original_delimeters)
 				if asset_required_banks > 2:
 					print("")
 					print("-- WARNING!")

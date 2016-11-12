@@ -1887,8 +1887,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><Player_Name> DNA code?",
-			"notes" : ""
+			"PCE_english" : "<erasebox>Enter the DNA code\nto revive <Player_Name>:",
+			"notes" : "Shown when loading a savegame using the password entry method."
 		},
 		{
 			"string_number" : 171,
@@ -1911,7 +1911,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><endwait> Invalid DNA code!<wait>",
+			"PCE_english" : "<erasebox><06><endwait>Invalid DNA code!\nTry again?<wait>",
 			"notes" : ""
 		},
 		{
@@ -1935,7 +1935,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<erasebox><06><endwait>It is not possible to copy <Player_Name>\nwith this code.<wait>",
 			"notes" : ""
 		},
 		{
@@ -2224,7 +2224,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : ": Revive a\nclone with saved DNA",
-			"notes" : ""
+			"notes" : "Shown in the top box when opening the 'load a saved game' screen."
 		},
 		{
 			"string_number" : 199,
@@ -2547,7 +2547,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Load Save\n Password",
+			"PCE_english" : " Saves\n Passwords",
 			"notes" : "Main game start menu"
 		},
 		{
@@ -2595,8 +2595,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Slow Med. High Turbo",
-			"notes" : "Text box speed from main game start menu"
+			"PCE_english" : "  Slow Med. High Turbo",
+			"notes" : "Text box speed fro main game start menu"
 		},
 		{
 			"string_number" : 238,
@@ -2619,7 +2619,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "  Ster. Mono",
+			"PCE_english" : "  2-Ch. 1-Ch.",
 			"notes" : "2/1 channel sound selection from main game start menu"
 		},
 		{
@@ -2643,7 +2643,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<padH><06>Cyber Knight",
+			"PCE_english" : "    Cyber Knight - r<GIT_REVISION>",
 			"notes" : "Game title as shown at the top of the main game start menu"
 		},
 		{

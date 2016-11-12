@@ -1887,8 +1887,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><Player_Name> DNA code?",
-			"notes" : ""
+			"PCE_english" : "<erasebox>Enter the DNA code\nto revive <Player_Name>:",
+			"notes" : "Shown when loading a savegame using the password entry method."
 		},
 		{
 			"string_number" : 171,
@@ -1911,7 +1911,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><endwait> Invalid DNA code!<wait>",
+			"PCE_english" : "<erasebox><06><endwait>Invalid DNA code!\nTry again?<wait>",
 			"notes" : ""
 		},
 		{
@@ -1935,7 +1935,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<erasebox><06><endwait>It is not possible to copy <Player_Name>\nwith this code.<wait>",
 			"notes" : ""
 		},
 		{
@@ -2224,7 +2224,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : ": Revive a\nclone with saved DNA",
-			"notes" : ""
+			"notes" : "Shown in the top box when opening the 'load a saved game' screen."
 		},
 		{
 			"string_number" : 199,
@@ -2324,15 +2324,15 @@
 		},
 		{
 			"string_number" : 207,
-			"string_size" : 35,
+			"string_size" : 82,
 			"start_pos" : "0x1c78e",
-			"bytes" : ["0d", "06", "1d", "08", "01", "20", "02", "21", "03", "22", "04", "23", "20", "5c", "b8", "db", "b0", "dd", "5c", "bc", "de", "b6", "dd", "28", "4d", "64", "6e", "61", "29", "02", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "31", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "32", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "33", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "34", "13", "66", "49", "00"],
+			"bytes" : ["0d", "06", "1d", "08", "01", "20", "02", "21", "03", "22", "04", "23", "20", "5c", "b8", "db", "b0", "dd", "5c", "bc", "de", "b6", "dd", "28", "4d", "64", "6e", "61", "29", "02", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "31", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "32", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "33", "13", "66", "49", "20", "1d", "06", "ca", "e8", "00", "ff", "da", "ee", "34", "13", "66", "49"],
 			"PCE_japanese" : "<padH><06><kanji>名前“<pause># クロ‐ンじかん(Mdna)\n <kanji><kanji><06>はネ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "Body Cloning(mDNA)\n DNA1<13>fI DNA2<13>fI DNA3<13>fI DNA4<13>fI",
-			"notes" : ""
+			"notes" : "This has multiple embedded end bytes (see the 0x00 bytes in the byte list above), they cause problems when used in addition to ascii, hence i've taken those individual strings out."
 		},
 		{
 			"string_number" : 216,
@@ -2547,7 +2547,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Load Save\n Password",
+			"PCE_english" : " Saves\n Passwords",
 			"notes" : "Main game start menu"
 		},
 		{
@@ -2595,8 +2595,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Slow Med. High Turbo",
-			"notes" : "Text box speed from main game start menu"
+			"PCE_english" : "  Slow Med. High Turbo",
+			"notes" : "Text box speed fro main game start menu"
 		},
 		{
 			"string_number" : 238,
@@ -2619,7 +2619,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "  Ster. Mono",
+			"PCE_english" : "  2-Ch. 1-Ch.",
 			"notes" : "2/1 channel sound selection from main game start menu"
 		},
 		{
@@ -2643,7 +2643,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<padH><06>Cyber Knight",
+			"PCE_english" : "    Cyber Knight - r<GIT_REVISION>",
 			"notes" : "Game title as shown at the top of the main game start menu"
 		},
 		{

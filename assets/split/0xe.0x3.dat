@@ -1036,7 +1036,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "Backup",
-			"notes" : ""
+			"notes" : "<BackupRAM>"
 		},
 		{
 			"string_number" : 87,
