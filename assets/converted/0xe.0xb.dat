@@ -27,20 +27,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Sci1\n Med1\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 3,
 			"string_size" : 1,
 			"start_pos" : "0x1dc96",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 4,
@@ -51,20 +51,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Team1\n Tech1",
 			"notes" : ""
 		},
 		{
 			"string_number" : 5,
 			"string_size" : 1,
 			"start_pos" : "0x1dcb2",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a real delimeter"
 		},
 		{
 			"string_number" : 6,
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "\n",
 			"notes" : ""
 		},
 		{
@@ -88,7 +88,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of first menu block"
 		},
 		{
 			"string_number" : 8,
@@ -99,20 +99,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Med2\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 9,
 			"string_size" : 1,
 			"start_pos" : "0x1dcbd",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 10,
@@ -123,20 +123,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Team2\n Tech2\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 11,
 			"string_size" : 1,
 			"start_pos" : "0x1dcd9",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 12,
@@ -147,20 +147,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Nav2",
 			"notes" : ""
 		},
 		{
 			"string_number" : 13,
 			"string_size" : 1,
 			"start_pos" : "0x1dce3",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a real delimeter"
 		},
 		{
 			"string_number" : 14,
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "\n",
 			"notes" : ""
 		},
 		{
@@ -184,7 +184,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of second menu block"
 		},
 		{
 			"string_number" : 16,
@@ -195,20 +195,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Tech3\n Nav3\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 17,
 			"string_size" : 1,
 			"start_pos" : "0x1dcfe",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 18,
@@ -219,20 +219,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Sci3\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 19,
 			"string_size" : 1,
 			"start_pos" : "0x1dd08",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 20,
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Med3\n",
 			"notes" : ""
 		},
 		{
@@ -256,7 +256,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of 3rd menu block"
 		},
 		{
 			"string_number" : 22,
@@ -267,20 +267,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Tech4\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 23,
 			"string_size" : 1,
 			"start_pos" : "0x1dd1f",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 24,
@@ -291,20 +291,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Nav4\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 25,
 			"string_size" : 1,
 			"start_pos" : "0x1dd29",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 26,
@@ -315,20 +315,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Sci4\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 27,
 			"string_size" : 1,
 			"start_pos" : "0x1dd3d",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 28,
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Med4\n",
 			"notes" : ""
 		},
 		{
@@ -352,7 +352,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of 4th menu block"
 		},
 		{
 			"string_number" : 30,
@@ -363,20 +363,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Nav5\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 31,
 			"string_size" : 1,
 			"start_pos" : "0x1dd4c",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 32,
@@ -387,20 +387,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Sci5\n Med5\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 33,
 			"string_size" : 1,
 			"start_pos" : "0x1dd60",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 34,
@@ -411,7 +411,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Team5\n",
 			"notes" : ""
 		},
 		{
@@ -424,7 +424,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of 5th menu block"
 		},
 		{
 			"string_number" : 36,
@@ -436,7 +436,7 @@
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Start of nav screen menu options"
 		},
 		{
 			"string_number" : 37,

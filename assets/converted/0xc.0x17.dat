@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Report by Commander <Player_Name>,\nship's acting Captain.",
+			"PCE_english" : "Report by Commander <Player_Name>,<end>ship's acting Captain.",
 			"notes" : ""
 		},
 		{
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "the ship sustained heavy\ndamage during the attack.",
+			"PCE_english" : "the ship sustained heavy<end>damage during the attack.",
 			"notes" : ""
 		},
 		{
@@ -351,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "or ordering the use of the",
+			"PCE_english" : "of ordering the use of the",
 			"notes" : ""
 		},
 		{
@@ -399,7 +399,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "We were unable to lock a\ntarget location and a",
+			"PCE_english" : "We were unable to lock a<end>target location and a",
 			"notes" : ""
 		},
 		{
@@ -423,7 +423,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "jump-miss occurred, warping us\nto... I, I don't know where.",
+			"PCE_english" : "jump-miss occurred, taking<end>us to, I, I don't know where.",
 			"notes" : ""
 		},
 		{
@@ -855,7 +855,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Jump Generator",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "but the jumnpdrive",
+			"PCE_english" : "but the jumpdrive",
 			"notes" : ""
 		},
 		{
@@ -1059,7 +1059,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "..if we will ever make it home?",
+			"PCE_english" : "..if we will ever make it<end>home?",
 			"notes" : ""
 		},
 		{

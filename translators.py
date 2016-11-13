@@ -69,6 +69,7 @@ def encode_text(string, trans_table):
 	ttable = trans_table
 	encoded_as_hex = []
 	pos = 0
+	errors = False
 	i = 0
 	if VERBOSE:
 		print("Encoding %s characters" % len(string))
@@ -157,10 +158,13 @@ def encode_text(string, trans_table):
 				print("Full string is: %s" % string.encode('utf8'))
 				print("")
 				i += 1
+				errors = True
 		pos += 1
 		
 	if VERBOSE:
 		print("Encoded as %s bytes" % len(encoded_as_hex))
+	if errors:
+		print("Errors encountered. Encoded bytes: %s" % encoded_as_hex)
 	return encoded_as_hex
 
 def translate_double_string(bytes, trans_table_double, alt=False):

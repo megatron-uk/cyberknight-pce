@@ -483,7 +483,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<closebox><addrow><newbox_24x1@middle_centred><NPC_Nehjana>: A green world.<pause><erasebox><NPC_Nehjana>: How pretty.<wait><newbox_22x3@bottom_left><NPC_Klein>: Are you saying\nthere are<pause> aliens<pause> on\nthis planet?<wait><closebox>\n<newbox_22x2@bottom_right><NPC_Shine>: No, they seem\nto be human<pause>, like us.<wait><newbox_22x2@bottom_left><NPC_Vynd>: Here?<pause> That's\nhard to believe.<wait><closebox><addrow><newbox_22x4@middle_right><NPC_Kiri>: Perhaps they are\ndescendants of humans\nwho were lost in a\njump-miss, like us.<wait><closebox><addrow><newbox_22x3@bottom_left><NPC_Vynd>: Even so, that's\na lucky coincidence.<wait><erasebox><NPC_Vynd>: They might be\nable to help us repair\n the jumpdrive!<wait><19>S<NPC_Shine>: Sadly not.<pause> They\nseem to have...<wait><erasebox><NPC_Shine>:...technology\nlike 1900's era Earth.<wait><newbox_24x1@middle_centred><NPC_Kiri>: Can't hurt to try...<wait>",
+			"PCE_english" : "<closebox><addrow><newbox_24x1@middle_centred><NPC_Nehjana>: A green world.<pause><erasebox><NPC_Nehjana>: How pretty.<wait><newbox_22x3@bottom_left><NPC_Klein>: Are you saying\nthere are <pause> aliens <pause>on\nthis planet?<wait><closebox>\n<newbox_22x2@bottom_right><NPC_Shine>: No, they seem\nto be human<pause>, like us.<wait><newbox_22x2@bottom_left><NPC_Vynd>: Here? <pause> That's hard to\n believe.<wait><closebox><addrow><newbox_22x4@middle_right><NPC_Kiri>: Perhaps they are\ndescendants of humans\nwho were lost in a\njump-miss, like us.<wait><closebox><addrow><newbox_22x3@bottom_left><NPC_Vynd>: Even so, that's\na lucky coincidence.<wait><erasebox><NPC_Vynd>: They might be\nable to help us repair\nthe jumpdrive!<wait><closebox><19>S<NPC_Shine>: Sadly not.<pause> They\nseem to have...<wait><erasebox><NPC_Shine>:...technology\nlike 1900's era Earth.<wait><newbox_24x1@middle_centred><NPC_Kiri>: Can't hurt to try...<wait>",
 			"notes" : ""
 		},
 		{
@@ -2031,7 +2031,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x1@top_centred>There's no way out...<pause><<erasebox>use the jumpdrive!<pause><<newbox_23x1@bottom_right>Commander!<pause><<erasebox>We have no target to jump to...<pause><<erasebox>...we could jump-miss!<pause><<erasebox>...and appear anywhere!<pause><<jumptobox_cinema_last_active_plus_1>We have no choice, we have to jump.<pause><<erasebox>Good luck everyone...<pause><<erasebox>Bring the jumpdrive online!<05><1E><pause><<jumptobox_cinema_last_active>Singularity coils charged<pause><<erasebox>Jumpdrive at max power!<pause><<05>7<jumptobox_cinema_last_active_plus_2>Systems to emergency mode!<pause><",
+			"PCE_english" : "<newbox_24x1@top_centred>There's no way out...<pause><<erasebox>use the jumpdrive!<pause><<newbox_23x1@bottom_right>Commander!<pause><<erasebox>We have no jump target!!!<pause><<newbox_23x1@bottom_left>...we could jump-miss!<pause><<erasebox>...and appear anywhere!<pause><<jumptobox_cinema_last_active_plus_1>We have no choice, do it.<pause><<erasebox>Good luck everyone...<pause><<erasebox>Power up the Jumpdrive!<05><1E><pause><<jumptobox_cinema_last_active>Singularity coils charged<pause><<erasebox>Jumpdrive at max power!<pause><<05>7<jumptobox_cinema_last_active_plus_2>Systems to emergency mode!<pause><",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2055,7 +2055,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>Just a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not locked!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<0B><padV><05>JUMP!<pause><<closebox>",
+			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>Just a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not<pause><<erasebox>locked, target unknown!!!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<erasebox>JUMP!<pause><<closebox>",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2199,7 +2199,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><14><newbox_24x1@middle_centred><Player_Name>: Power status?<endwait><06><closebox><addrow><newbox_24x1@middle_centred>Just a second...<endwait>\n<closebox><addrow><newbox_22x2@bottom_right>This is the lab:\n<NPC_Mica> should be online now.<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica><slow><10>I... am... the AI\n<slow><04>system, MICA...!<03><erasebox><NPC_Mica>:I apologise.<pause>\nI suffered slight damage\nduring the attack.<endwait>\n<closebox><addrow><newbox_24x2@top_centred><Player_Name>: Ok. What's our status?<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>: We are within our\ngalaxy. But no exact data\nis available.<endwait>\n<erasebox><NPC_Mica><slow><10>Wait!\n<slow><ff>\nI detect EM waves from a\nplanet!<endwait>\n<closebox><addrow><newbox_24x1@middle_centred><Player_Name>: EM Waves?<endwait>\n<closebox>\n<newbox_22x2@bottom_left>This is engineering:\nPower is now restored.<endwait><wait><11>",
+			"PCE_english" : "<11><14><newbox_24x1@middle_centred><Player_Name>: Power status?<endwait><06><closebox><addrow><newbox_24x1@middle_centred>Just a second...<endwait>\n<closebox><addrow><newbox_22x2@bottom_right>This is the lab:\n<NPC_Mica> should be online now.<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>: <slow><10>I... am... the AI\n<slow><04>system, MICA...!<pause><<erasebox><NPC_Mica>: I apologise.<pause> I took\nslight damage during the\nattack.<endwait>\n<closebox><addrow><newbox_24x2@top_centred><Player_Name>: Ok. What's our status?\nWhere are we?<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>: We are within our\ngalaxy. But no exact data\nis available.<endwait>\n<erasebox><NPC_Mica>: <slow><10>Wait!\n<slow><ff>I detect EM waves from a\nplanet!<endwait>\n<closebox><addrow><newbox_24x1@middle_centred><Player_Name>: EM Waves?<endwait>\n<closebox>\n<newbox_22x2@bottom_left>This is engineering:\nPower is now restored.<endwait><wait><11>",
 			"notes" : ""
 		},
 		{

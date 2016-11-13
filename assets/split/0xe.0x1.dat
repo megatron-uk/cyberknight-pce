@@ -2331,7 +2331,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Body Cloning(mDNA)\n DNA1<13>fI DNA2<13>fI DNA3<13>fI DNA4<13>fI",
+			"PCE_english" : "<padH><06>Body Cloning(mDNA)\n DNA1<13>fI DNA2<13>fI DNA3<13>fI DNA4<13>fI",
 			"notes" : "This has multiple embedded end bytes (see the 0x00 bytes in the byte list above), they cause problems when used in addition to ascii, hence i've taken those individual strings out."
 		},
 		{
@@ -2979,8 +2979,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "  Str  Int  Dex\n<padV><addrow><09><slow><13>0<40>\n<padV><addrow><NPC_Klein><09><slow><18>ほ=<15><18>や=<15><18>れ=<15>\n<padV><addrow><NPC_Kiri><09><slow><18>ま=<15><18>ゆ=<15><18>ろ=<15>\n<padV><addrow><NPC_Shine><09><slow><18>み=<15><18>よ=<15><18>わ=<15>\n<padV><addrow><NPC_Vynd><09><slow><18>む=<15><18>ら=<15><18>ん=<15>\n<padV><addrow><NPC_Nehjana><09><slow><18>め=<15><18>り=<15>=<15>",
+			"notes" : "Displays the table of str/int/dex points for you and the rest of your team, as when creating a new character at the beginning of a game."
 		},
 		{
 			"string_number" : 270,

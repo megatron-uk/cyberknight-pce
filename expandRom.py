@@ -81,7 +81,7 @@ IN_FILE = ROM_NAME
 OUT_FILE = OUT_EXPANDED_NAME
 ASSETS_DIR = "./assets/converted/"
 OVERWRITE = False
-DELIMETER_CHECK = False
+DELIMETER_CHECK = True
 for o, a in opts:
 	if o == "-h":
 		print("A tool which Expand the rom file of the Japanese PC-Engine CyberKnight with")
@@ -192,12 +192,11 @@ for bank_number in ASSETS["asset_banks"].keys():
 				for asset_chunk in asset["strings"]:
 					translated_string_delimeters = 0
 					original_string_delimeters = 0
-					if DELIMETER_CHECK:
-						for b in asset_chunk["bytes"]:
-							if "delimeter_skip" not in asset_chunk.keys():
-								if b == "00":
-									original_delimeters += 1
-									original_string_delimeters += 1
+					for b in asset_chunk["bytes"]:
+						if "delimeter_skip" not in asset_chunk.keys():
+							if b == "00":
+								original_delimeters += 1
+								original_string_delimeters += 1
 					PCE_original_bytes += len(asset_chunk["bytes"])
 					# Load english text if translated
 					if len(asset_chunk["PCE_english"])>0:
@@ -292,7 +291,7 @@ for bank_number in ASSETS["asset_banks"].keys():
 								print("Original delimeters: %s" % original_string_delimeters)
 								print("Translated delimeters: %s" % translated_string_delimeters)
 								print("Please fix this error!")
-								sys.exit(2)
+								#sys.exit(2)
 						
 						if SHOW_PROGRESS:	
 							print("----------------------- End -----------------------")
@@ -300,7 +299,7 @@ for bank_number in ASSETS["asset_banks"].keys():
 					else:
 						if SHOW_PROGRESS:
 							print("------------- Translated string (J) ---------------")
-							print("asset_chunk[PCE_japanese]: %s" % asset_chunk["PCE_japanese"])
+							print("asset_chunk[PCE_japanese]: %s" % asset_chunk["PCE_japanese"].encode('utf-8'))
 							print("")
 						# Otherwise load Japanese text
 						for b in asset_chunk["bytes"]:
