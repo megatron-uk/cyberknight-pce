@@ -579,7 +579,7 @@
 			"SNES_japanese" : "ヴィンド「しかし ジャンプ・ジェネレーターが\n    こわれてるんじゃ どこへもいけませんよ。」",
 			"SNES_english" : "Vynd: But our Jump Drive's\nbroken... We can't go\nanywhere... ",
 			"SNES_accuracy" : 0.853333333333,
-			"PCE_english" : "<newbox_22x2@bottom_right><NPC_Kiri>: The jumpdrive is\nbroken. We're stuck.<wait>",
+			"PCE_english" : "<newbox_22x2@bottom_right><NPC_Kiri>: The jumpdrive is\nbroken.<pause>> We're stuck here.<wait>",
 			"notes" : ""
 		},
 		{
@@ -795,7 +795,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x1@middle_centred><Player_Name>: Can we repair it?<wait><newbox_22x3@middle_right><NPC_Vynd>: The Singularity\ncoil is destroyed.<pause> We\ndon't have a spare.<wait><newbox_24x2@bottom_centred><NPC_Klein>: We have to find\none<pause>, somehow...<wait>",
+			"PCE_english" : "<newbox_24x1@middle_centred><Player_Name>: Can we repair it?<wait><newbox_22x3@middle_right><NPC_Vynd>: The Singularity coil\nis destroyed.<pause>< We don't\nhave a spare.<wait><newbox_24x2@bottom_centred><NPC_Klein>: We have to find one<pause>>\n...somehow.<wait>",
 			"notes" : ""
 		},
 		{
