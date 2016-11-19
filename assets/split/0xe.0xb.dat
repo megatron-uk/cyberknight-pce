@@ -472,7 +472,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of nav screen menu options whilst in orbit"
 		},
 		{
 			"string_number" : 40,
@@ -519,8 +519,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "End of nav screen menu options whilst on the ground"
 		},
 		{
 			"string_number" : 44,
@@ -544,7 +544,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of science lab menu options"
 		},
 		{
 			"string_number" : 46,
@@ -592,7 +592,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "End of med bay menu options"
 		},
 		{
 			"string_number" : 50,
@@ -634,13 +634,13 @@
 			"string_number" : 53,
 			"string_size" : 1,
 			"start_pos" : "0x1de13",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<font>",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 54,
@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -687,7 +687,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -699,7 +699,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -711,7 +711,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -735,8 +735,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "End of team screen menu options"
 		},
 		{
 			"string_number" : 62,
@@ -747,7 +747,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Fix\n Data\n Mecha\n",
+			"PCE_english" : " Fix\n Data\n Equip\n Mecha\n",
 			"notes" : ""
 		},
 		{
@@ -807,8 +807,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "End of Mecha hangar menu options whilst on ground"
 		},
 		{
 			"string_number" : 68,
@@ -819,20 +819,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Shoot\n Missl",
+			"PCE_english" : " Shoot\n Missl\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 69,
 			"string_size" : 1,
 			"start_pos" : "0x1de91",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 70,
@@ -843,7 +843,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Field\n",
 			"notes" : ""
 		},
 		{
@@ -855,7 +855,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -867,7 +867,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -879,7 +879,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -891,7 +891,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -903,8 +903,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "End of normal battle menu options - shoot/missile/shield"
 		},
 		{
 			"string_number" : 76,
@@ -915,7 +915,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Fix\n Data\n Equip\n Mecha\n Move",
 			"notes" : ""
 		},
 		{
@@ -927,7 +927,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -939,7 +939,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -951,8 +951,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "End of mecha hangar options whilst in space"
 		},
 		{
 			"string_number" : 80,
@@ -963,20 +963,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Save\n",
 			"notes" : ""
 		},
 		{
 			"string_number" : 81,
 			"string_size" : 1,
 			"start_pos" : "0x1dee2",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 82,
@@ -987,7 +987,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " Pass",
 			"notes" : ""
 		},
 		{
@@ -999,8 +999,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "End of med bay savegame menu options"
 		},
 		{
 			"string_number" : 84,
@@ -1035,7 +1035,7 @@
 			"SNES_japanese" : "「かいせき するものは なにも ないぞ！」",
 			"SNES_english" : "There isn't anything\nwe can analyze!",
 			"SNES_accuracy" : 0.882352941176,
-			"PCE_english" : "",
+			"PCE_english" : "<NPC_Professor>: Nothing to analyse.<wait>",
 			"notes" : ""
 		},
 		{
@@ -1059,7 +1059,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "You're all fixed up. \nBe careful!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<NPC_Doctor>: You're fully healed.\nBe careful out there!<wait>",
 			"notes" : ""
 		},
 		{
@@ -1107,7 +1107,7 @@
 			"SNES_japanese" : "「こいのやまいは\nわたしの たんとうじゃないの。」",
 			"SNES_english" : "You don't need my\nhelp right now. ",
 			"SNES_accuracy" : 0.913043478261,
-			"PCE_english" : "",
+			"PCE_english" : "<NPC_Doctor>: You don't seem to\nneed my help right now.<wait>",
 			"notes" : ""
 		},
 		{
@@ -1131,8 +1131,8 @@
 			"SNES_japanese" : "「しゅうり かんりょう。\nもう こわして くれるなよ！」",
 			"SNES_english" : "Repairs are\ncomplete. ",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<NPC_Engineer>: Repairs complete.<pause>>\nYou're good to go!<wait>",
+			"notes" : "This uses a 26x2 dialogue box"
 		},
 		{
 			"string_number" : 95,
@@ -1155,8 +1155,8 @@
 			"SNES_japanese" : "「リペアキット・キュアキットを\nほじゅうしといたぜ。」",
 			"SNES_english" : "I restocked your\nRepair and Cure\nKits too. ",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<erasebox><NPC_Engineer>: Your RepKits and\nMedKits are all restocked too.<wait>",
+			"notes" : "This uses a 26x2 dialogue box"
 		},
 		{
 			"string_number" : 97,
@@ -1827,7 +1827,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1851,7 +1851,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
