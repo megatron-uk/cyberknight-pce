@@ -939,7 +939,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "\n<01>  Skill  Lvl     Exp    Next<09><newline_tab>Combat\n<09><newline_tab>Tech.\n<09><newline_tab>Med. \n<09><newline_tab>Sci.<padH>\n<0e><fa><0d><02>",
+			"PCE_english" : "\n<addrow>  Skill  Lvl     Exp.   Next\n<09>\nCombat\n<09>\nTech.\n<09>\nMed. \n<09>\nSci.<padH>\n<0e><fa><0d><02>",
 			"notes" : "Constructs the rows and columns of the NPC player skills screen."
 		},
 		{
@@ -1667,7 +1667,7 @@
 			"string_size" : 67,
 			"start_pos" : "0x1c4bb",
 			"bytes" : ["0b", "03", "06", "5c", "d8", "cd", "df", "b1", "b7", "af", "c4", "18", "42", "2e", "13", "0b", "03", "08", "5c", "b7", "ad", "b1", "b7", "af", "c4", "18", "43", "2e", "13", "0b", "04", "04", "5c", "20", "b7", "20", "af", "20", "c4", "20", "0b", "12", "05", "20", "b1", "20", "b2", "20", "c3", "20", "d1", "20", "0b", "02", "0b", "20", "c4", "20", "da", "20", "bc", "de", "20", "ac", "20", "b0", "20"],
-			"PCE_japanese" : "<0B><newline_tab><06>リペアキット<18>B.<13><0B>\n<wait>きゅおきっと<18>C.<13><0B><pause><pause> キ ッ ト <0B><12><05> ア イ テ ム <0B>\n<0B> ト レ ジ ャ ‐ ",
+			"PCE_japanese" : "<0B><newline_tab><06>リペアキット<18>B.<13><0B><newline_tab><wait>きゅおきっと<18>C.<13><0B><pause><pause> キ ッ ト <0B><12><05> ア イ テ ム <0B>\n<0B> ト レ ジ ャ ‐ ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
