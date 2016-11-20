@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Abilities<padH>-",
+			"PCE_english" : "Abilities<padH><2D>",
 			"notes" : "Menu screen configuring player character stats. "
 		},
 		{
@@ -935,11 +935,11 @@
 			"string_size" : 77,
 			"start_pos" : "0x1c280",
 			"bytes" : ["02", "01", "20", "20", "1d", "0c", "cd", "eb", "c8", "e6", "d0", "fd", "cf", "f1", "d5", "f1", "c9", "e9", "20", "20", "4c", "56", "20", "20", "20", "20", "20", "45", "58", "50", "20", "20", "20", "20", "4e", "45", "58", "54", "5c", "02", "09", "03", "ba", "dd", "ca", "de", "af", "c4", "02", "09", "03", "d2", "b6", "c6", "af", "b8", "02", "09", "03", "d2", "c3", "de", "a8", "af", "b8", "02", "09", "03", "bb", "b2", "b4", "dd", "bd", "0e", "fa", "0d", "02"],
-			"PCE_japanese" : "\n<addrow>  <kanji>スキルラソクムゆムのノ  LV     EXP    NEXT\n<09>\nコンバット\n<09>\nメカニック\n<09>\nメディック\n<09>\nサイエンス<padV>れ<padH>\n",
+			"PCE_japanese" : "\n<addrow>  <kanji>スキルラソクムゆムのノ  LV     EXP    NEXT\n<09><newline_tab>コンバット\n<09><newline_tab>メカニック\n<09><newline_tab>メディック\n<09><newline_tab>サイエンス<padV>れ<padH>\n",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "\n<01>  Skill  Lvl     Exp    Next\n<09>\nCombat\n<09>\nTech.\n<09>\nMed. \n<09>\nSci.<padH>\n<0e><fa><0d><02>",
+			"PCE_english" : "\n<01>  Skill  Lvl     Exp    Next<09><newline_tab>Combat\n<09><newline_tab>Tech.\n<09><newline_tab>Med. \n<09><newline_tab>Sci.<padH>\n<0e><fa><0d><02>",
 			"notes" : "Constructs the rows and columns of the NPC player skills screen."
 		},
 		{
@@ -1007,11 +1007,11 @@
 			"string_size" : 20,
 			"start_pos" : "0x1c2e7",
 			"bytes" : ["0b", "0f", "05", "1d", "08", "1e", "3e", "1f", "3f", "40", "60", "41", "61", "0b", "03", "12", "1d", "0a", "d1", "f1", "00", "d6", "00", "ff", "d0", "fd", "da", "ee", "0b", "0f", "0d", "1d", "0a", "c6", "e4", "dc", "f1", "cc", "ea", "00", "f8", "d5", "f1", "00"],
-			"PCE_japanese" : "<0B><0F><05>武器<0B>\n<12>フィ―ルド<0b><0f><0d>オプツョソ",
+			"PCE_japanese" : "<0B><0F><05>武器<0B><newline_tab><12>フィ―ルド<0b><0f><0d>オプツョソ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0b><0f><05>Shoot<0b><03><12>Field<0b><0f><0d>Option",
+			"PCE_english" : "<0b><0f><05>Shoot<0b><newline_tab><12>Field<0b><0f><0d>Option",
 			"notes" : "Battle main menu options"
 		},
 		{
@@ -1131,7 +1131,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " points repaired. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<18> points repaired!<wait>",
+			"PCE_english" : "<18><DD><2D> points repaired!<wait>",
 			"notes" : ""
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " points treated. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<18> points healed<wait>",
+			"PCE_english" : "<18><DD><2D> points healed<wait>",
 			"notes" : ""
 		},
 		{
@@ -1667,11 +1667,11 @@
 			"string_size" : 67,
 			"start_pos" : "0x1c4bb",
 			"bytes" : ["0b", "03", "06", "5c", "d8", "cd", "df", "b1", "b7", "af", "c4", "18", "42", "2e", "13", "0b", "03", "08", "5c", "b7", "ad", "b1", "b7", "af", "c4", "18", "43", "2e", "13", "0b", "04", "04", "5c", "20", "b7", "20", "af", "20", "c4", "20", "0b", "12", "05", "20", "b1", "20", "b2", "20", "c3", "20", "d1", "20", "0b", "02", "0b", "20", "c4", "20", "da", "20", "bc", "de", "20", "ac", "20", "b0", "20"],
-			"PCE_japanese" : "<0B>\n<06>リペアキット<18>B.<13><0B>\n<wait>きゅおきっと<18>C.<13><0B><pause><pause> キ ッ ト <0B><12><05> ア イ テ ム <0B>\n<0B> ト レ ジ ャ ‐ ",
+			"PCE_japanese" : "<0B><newline_tab><06>リペアキット<18>B.<13><0B>\n<wait>きゅおきっと<18>C.<13><0B><pause><pause> キ ッ ト <0B><12><05> ア イ テ ム <0B>\n<0B> ト レ ジ ャ ‐ ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><03><06>Repkit<18>B.<13><0B><03><08>Medkit<18>C.<13><0B><02><04>Kits<0B><10><05>Items<0B><02><0B>Stores",
+			"PCE_english" : "<0B><newline_tab><06>Repkit<18>B.<13><0B><newline_tab><08>Medkit<18>C.<13><0B><02><04>Kits<0B><10><05>Items<0B><02><0B>Stores",
 			"notes" : ""
 		},
 		{
