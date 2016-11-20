@@ -1419,7 +1419,7 @@
 			"SNES_japanese" : "は しんでしまった。",
 			"SNES_english" : " died. ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><wait><17> <Name_of_NPC_or_enemy> died!",
 			"notes" : ""
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " has been destroyed. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><wait><19> <Name_of_NPC_or_enemy> has been destroyed",
 			"notes" : ""
 		},
 		{
@@ -1503,7 +1503,7 @@
 			"SNES_japanese" : "たちは ぜんめつした！",
 			"SNES_english" : " and his group died... ",
 			"SNES_accuracy" : 0.9,
-			"PCE_english" : "",
+			"PCE_english" : " and his team died...<endwait>\n<erasebox>\n<10>",
 			"notes" : ""
 		},
 		{
@@ -1527,7 +1527,7 @@
 			"SNES_japanese" : "たちの さくせんは しっぱいにおわった。",
 			"SNES_english" : "Mission failed....",
 			"SNES_accuracy" : 0.918918918919,
-			"PCE_english" : "",
+			"PCE_english" : "Mission failed....<endwait><pause><11>",
 			"notes" : ""
 		},
 		{
@@ -1563,7 +1563,7 @@
 			"SNES_japanese" : "てきユニットは ぜんめつした！",
 			"SNES_english" : "The enemy has been\nannihilated. ",
 			"SNES_accuracy" : 0.928571428571,
-			"PCE_english" : "",
+			"PCE_english" : "<11>\n<newline_tab>Enemy is defeated!<endwait>\n<11>",
 			"notes" : ""
 		},
 		{
@@ -1647,7 +1647,7 @@
 			"SNES_japanese" : "たちは にげられない！！",
 			"SNES_english" : "Can't run!",
 			"SNES_accuracy" : 0.818181818182,
-			"PCE_english" : "",
+			"PCE_english" : "\n<Player_Name> cannot escape!!",
 			"notes" : ""
 		},
 		{
@@ -1671,7 +1671,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<Name_of_NPC_or_enemy> escaped!",
 			"notes" : ""
 		},
 		{

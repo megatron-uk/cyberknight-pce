@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -51,8 +51,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : " Turn\n Skip",
+			"notes" : "Main battle menu options, get a character to take a turn, or skip and pass to enemy."
 		},
 		{
 			"string_number" : 5,
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,8 +75,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<11><addrow> Ready?<addrow> Yes No<11>",
+			"notes" : "Confirmation dialogue in battle menu."
 		},
 		{
 			"string_number" : 7,
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -111,8 +111,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : " Att.\n Def.\n Opt.\n",
+			"notes" : "Choose attack or defend options in battle menu."
 		},
 		{
 			"string_number" : 10,
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -135,8 +135,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : " Equip",
+			"notes" : "Change current equipmnt in battle menu."
 		},
 		{
 			"string_number" : 12,
@@ -159,8 +159,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : " Weapon\n Field",
+			"notes" : "Choose weapons or shield to alter in battle menu equipment sub-menu."
 		},
 		{
 			"string_number" : 14,
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -231,8 +231,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "End of weapon/field sub menu"
 		},
 		{
 			"string_number" : 20,
@@ -495,7 +495,7 @@
 			"SNES_japanese" : "「は ポイントかくとく。」",
 			"SNES_english" : " got  EXP. ",
 			"SNES_accuracy" : 0.869565217391,
-			"PCE_english" : "",
+			"PCE_english" : "<Name_of_NPC_or_enemy><09><pause> <17> Exp. gained",
 			"notes" : ""
 		},
 		{
@@ -519,7 +519,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<06><closebox><Name_of_NPC_or_enemy><09><pause> Combat skill +<18><DD><2D>",
 			"notes" : ""
 		},
 		{
@@ -543,7 +543,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " rose to level . ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " is now level ",
 			"notes" : ""
 		},
 		{
@@ -567,7 +567,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<06><closebox><Name_of_NPC_or_enemy><09><pause> Tech skill +<18><DD><2D>",
 			"notes" : ""
 		},
 		{
@@ -591,7 +591,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " rose to level . ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " is now level ",
 			"notes" : ""
 		},
 		{
@@ -615,7 +615,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<06><closebox><Name_of_NPC_or_enemy><09><pause> Med. skill +<18><DD><2D>",
 			"notes" : ""
 		},
 		{
@@ -639,7 +639,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " rose to level . ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " is now level ",
 			"notes" : ""
 		},
 		{
@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<06><closebox><Name_of_NPC_or_enemy><09><pause> Sci. skill +<18><DD><2D>",
 			"notes" : ""
 		},
 		{
@@ -687,7 +687,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " rose to level . ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " is now level ",
 			"notes" : ""
 		},
 		{
@@ -951,7 +951,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><slow><FF>Attack ",
 			"notes" : ""
 		},
 		{
@@ -975,7 +975,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><slow><FF>Defend ",
 			"notes" : ""
 		},
 		{
@@ -999,7 +999,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><slow><FF>Option ",
 			"notes" : ""
 		},
 		{
@@ -1011,7 +1011,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -1023,7 +1023,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><slow><FF>Field: ",
 			"notes" : ""
 		},
 		{
@@ -1059,7 +1059,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -1071,7 +1071,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -1083,7 +1083,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
@@ -1119,7 +1119,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B>\n<18>Dmg1:<18><C4><2D><pause><20>",
 			"notes" : ""
 		},
 		{
@@ -1167,7 +1167,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><padV><17>Dmg2:<18><DB><2D><pause><20>",
 			"notes" : ""
 		},
 		{
@@ -1215,7 +1215,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><padV><19>Dmg3:<18><DC><2D><pause><20>",
 			"notes" : ""
 		},
 		{
@@ -1263,7 +1263,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<NPC_Mica>:Enemy encountered!\nScanning...",
 			"notes" : ""
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<NPC_Mica>:Enemy scan results",
 			"notes" : ""
 		},
 		{
@@ -1307,11 +1307,11 @@
 			"string_size" : 21,
 			"start_pos" : "0x1d17e",
 			"bytes" : ["03", "5c", "ba", "b0", "c4", "de", "c8", "b0", "d1", "5c", "20", "3a", "20", "10", "ff", "20", "78", "20", "18", "c5", "2d"],
-			"PCE_japanese" : "\nコ‐ドネ‐ム : <Name_of_NPC_or_enemy> x <18>な-",
+			"PCE_japanese" : "<newline_tab>コ‐ドネ‐ム : <Name_of_NPC_or_enemy> x <18>な-",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "\nCodename:<Name_of_NPC_or_enemy> x<18><C5><2D>",
 			"notes" : ""
 		},
 		{
@@ -1419,7 +1419,7 @@
 			"SNES_japanese" : "は しんでしまった。",
 			"SNES_english" : " died. ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><wait><17> <Name_of_NPC_or_enemy> died!",
 			"notes" : ""
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " has been destroyed. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><wait><19> <Name_of_NPC_or_enemy> has been destroyed",
 			"notes" : ""
 		},
 		{
@@ -1475,7 +1475,7 @@
 			"string_size" : 4,
 			"start_pos" : "0x1d21a",
 			"bytes" : ["11", "04", "03", "10"],
-			"PCE_japanese" : "<11><pause>\n<10>",
+			"PCE_japanese" : "<11><pause><newline_tab><10>",
 			"SNES_japanese" : "",
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
@@ -1503,7 +1503,7 @@
 			"SNES_japanese" : "たちは ぜんめつした！",
 			"SNES_english" : " and his group died... ",
 			"SNES_accuracy" : 0.9,
-			"PCE_english" : "",
+			"PCE_english" : " and his team died...<endwait>\n<erasebox>\n<10>",
 			"notes" : ""
 		},
 		{
@@ -1527,7 +1527,7 @@
 			"SNES_japanese" : "たちの さくせんは しっぱいにおわった。",
 			"SNES_english" : "Mission failed....",
 			"SNES_accuracy" : 0.918918918919,
-			"PCE_english" : "",
+			"PCE_english" : "Mission failed....<endwait><pause><11>",
 			"notes" : ""
 		},
 		{
@@ -1559,11 +1559,11 @@
 			"string_size" : 24,
 			"start_pos" : "0x1d24d",
 			"bytes" : ["11", "02", "03", "c3", "b7", "5c", "d5", "c6", "af", "c4", "5c", "ca", "20", "be", "de", "dd", "d2", "c2", "bc", "c0", "21", "1c", "02", "11"],
-			"PCE_japanese" : "<11>\n\nてきユニットは ぜんめつした!<endwait>\n<11>",
+			"PCE_japanese" : "<11>\n<newline_tab>てきユニットは ぜんめつした!<endwait>\n<11>",
 			"SNES_japanese" : "てきユニットは ぜんめつした！",
 			"SNES_english" : "The enemy has been\nannihilated. ",
 			"SNES_accuracy" : 0.928571428571,
-			"PCE_english" : "",
+			"PCE_english" : "<11>\n<newline_tab>Enemy is defeated!<endwait>\n<11>",
 			"notes" : ""
 		},
 		{
@@ -1619,7 +1619,7 @@
 			"string_size" : 23,
 			"start_pos" : "0x1d27e",
 			"bytes" : ["03", "10", "1f", "a2", "d6", "b0", "bc", "21", "20", "b6", "b4", "af", "c3", "20", "c8", "d9", "bf", "de", "21", "21", "a3", "1c", "02"],
-			"PCE_japanese" : "\n<Player_Name_alt>『よ―し! かえって ねるぞ!!』<endwait>\n",
+			"PCE_japanese" : "<newline_tab><Player_Name_alt>『よ―し! かえって ねるぞ!!』<endwait>\n",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -1643,11 +1643,11 @@
 			"string_size" : 16,
 			"start_pos" : "0x1d296",
 			"bytes" : ["03", "10", "28", "c0", "c1", "ca", "20", "c6", "b9", "de", "d7", "da", "c5", "b2", "21", "21"],
-			"PCE_japanese" : "\n<Player_Name>たちは にげられない!!",
+			"PCE_japanese" : "<newline_tab><Player_Name>たちは にげられない!!",
 			"SNES_japanese" : "たちは にげられない！！",
 			"SNES_english" : "Can't run!",
 			"SNES_accuracy" : 0.818181818182,
-			"PCE_english" : "",
+			"PCE_english" : "\n<Player_Name> cannot escape!!",
 			"notes" : ""
 		},
 		{
@@ -1671,7 +1671,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<Name_of_NPC_or_enemy> escaped!",
 			"notes" : ""
 		},
 		{
@@ -1719,7 +1719,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<11><addrow><0B><05><pause>Wreckage<0B><13><05>Items<11>",
 			"notes" : ""
 		},
 		{
@@ -1755,7 +1755,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Parts found of <Name_of_NPC_or_enemy>\n",
 			"notes" : ""
 		},
 		{
@@ -1775,7 +1775,7 @@
 			"string_size" : 7,
 			"start_pos" : "0x1d2ed",
 			"bytes" : ["20", "14", "03", "ff", "09", "0a", "02"],
-			"PCE_japanese" : " <14>\n゜<09><0A>\n",
+			"PCE_japanese" : " <14><newline_tab>゜<09><0A>\n",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -1803,7 +1803,7 @@
 			"SNES_japanese" : "は あいてが しんでしまった。",
 			"SNES_english" : "'s foe was defeated. ",
 			"SNES_accuracy" : 0.846153846154,
-			"PCE_english" : "",
+			"PCE_english" : "\n<padH>\n<Name_of_NPC_or_enemy>'s foe was defeated!\n",
 			"notes" : ""
 		},
 		{
@@ -1823,11 +1823,11 @@
 			"string_size" : 18,
 			"start_pos" : "0x1d30d",
 			"bytes" : ["03", "10", "ff", "ca", "20", "ba", "b3", "b9", "de", "b7", "20", "c3", "de", "b7", "c5", "b2", "21", "02"],
-			"PCE_japanese" : "\n<Name_of_NPC_or_enemy>は こうげき できない!\n",
+			"PCE_japanese" : "<newline_tab><Name_of_NPC_or_enemy>は こうげき できない!\n",
 			"SNES_japanese" : "は こうげきできない！",
 			"SNES_english" : " cannot attack!",
 			"SNES_accuracy" : 0.9,
-			"PCE_english" : "",
+			"PCE_english" : "\n<Name_of_NPC_or_enemy> cannot attack!\n",
 			"notes" : ""
 		},
 		{
@@ -1847,11 +1847,11 @@
 			"string_size" : 15,
 			"start_pos" : "0x1d320",
 			"bytes" : ["03", "10", "ff", "ca", "20", "cc", "de", "b7", "b6", "de", "20", "c5", "b2", "21", "02"],
-			"PCE_japanese" : "\n<Name_of_NPC_or_enemy>は ぶきが ない!\n",
+			"PCE_japanese" : "<newline_tab><Name_of_NPC_or_enemy>は ぶきが ない!\n",
 			"SNES_japanese" : "は ぶきが ない！！",
 			"SNES_english" : " is unequipped!",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "\n<Name_of_NPC_or_enemy> is unequipped!\n",
 			"notes" : ""
 		},
 		{
@@ -1871,11 +1871,11 @@
 			"string_size" : 18,
 			"start_pos" : "0x1d330",
 			"bytes" : ["03", "10", "ff", "ca", "20", "ba", "b3", "b9", "de", "b7", "20", "bc", "af", "ca", "df", "b2", "21", "02"],
-			"PCE_japanese" : "\n<Name_of_NPC_or_enemy>は こうげき しっぱい!\n",
+			"PCE_japanese" : "<newline_tab><Name_of_NPC_or_enemy>は こうげき しっぱい!\n",
 			"SNES_japanese" : "は こうげきしっぱい。",
 			"SNES_english" : " missed. ",
 			"SNES_accuracy" : 0.9,
-			"PCE_english" : "",
+			"PCE_english" : "\n<Name_of_NPC_or_enemy> attack missed.\n",
 			"notes" : ""
 		},
 		{
@@ -1895,11 +1895,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x1d343",
 			"bytes" : ["0d", "03", "0e", "02", "10", "ff", "ca", "20", "ce", "de", "b3", "b7", "de", "ae", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "a6", "20", "ca", "af", "c0", "a1", "02"],
-			"PCE_japanese" : "<padH>\n<padV>\n<Name_of_NPC_or_enemy>は ぼうぎょフィ‐ルドを はった。\n",
+			"PCE_japanese" : "<padH><newline_tab><padV>\n<Name_of_NPC_or_enemy>は ぼうぎょフィ‐ルドを はった。\n",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<padH>\n<padV>\n<Name_of_NPC_or_enemy> uses defense Field\n",
 			"notes" : ""
 		},
 		{
@@ -1919,11 +1919,11 @@
 			"string_size" : 17,
 			"start_pos" : "0x1d361",
 			"bytes" : ["03", "10", "ff", "ca", "20", "ce", "de", "b3", "b7", "de", "ae", "bc", "c3", "b2", "d9", "a1", "02"],
-			"PCE_japanese" : "\n<Name_of_NPC_or_enemy>は ぼうぎょしている。\n",
+			"PCE_japanese" : "<newline_tab><Name_of_NPC_or_enemy>は ぼうぎょしている。\n",
 			"SNES_japanese" : "は ぼうぎょしている。",
 			"SNES_english" : " is defending. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "\n<Name_of_NPC_or_enemy> is defending.\n",
 			"notes" : ""
 		},
 		{

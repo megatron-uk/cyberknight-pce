@@ -292,7 +292,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "  Sex :\n F    M",
-			"notes" : "This doest appear to show anywhere in the game - was it a left-over sex selection option?   Sex :\n F    M"
+			"notes" : "This doest appear to show anywhere in the game - was it a left-over sex selection option?"
 		},
 		{
 			"string_number" : 28,
@@ -2103,7 +2103,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06>/Save file corrupt!<wait>13>RI<erasebox>Do you want to create\na new save file?",
+			"PCE_english" : "<erasebox><06>/Save file corrupt!<wait>13>RI<erasebox>Create a new save file?",
 			"notes" : ""
 		},
 		{
@@ -2283,8 +2283,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Clone <Player_Name><09><0A> <13>",
-			"notes" : ""
+			"PCE_english" : "",
+			"notes" : "Clone <Player_Name><09><0A> <13>"
 		},
 		{
 			"string_number" : 204,
@@ -2547,7 +2547,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Saves\n Passwords",
+			"PCE_english" : " Savegames\n Passwords",
 			"notes" : "Main game start menu"
 		},
 		{

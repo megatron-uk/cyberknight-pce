@@ -839,7 +839,7 @@
 			"string_size" : 2,
 			"start_pos" : "0x1d731",
 			"bytes" : ["09", "03"],
-			"PCE_japanese" : "<09>\n",
+			"PCE_japanese" : "<09><newline_tab>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -1271,11 +1271,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x1d7ea",
 			"bytes" : ["11", "01", "0b", "04", "12", "20", "bb", "de", "b2", "20", "ba", "20", "0b", "11", "03", "20", "5c", "d3", "20", "bc", "de", "ad", "20", "b0", "20", "d9", "5c", "20", "11"],
-			"PCE_japanese" : "<11><addrow><0B><pause><12> ざい こ <0B><11>\n モ ジュ ‐ ル <11>",
+			"PCE_japanese" : "<11><addrow><0B><pause><12> ざい こ <0B><11><newline_tab> モ ジュ ‐ ル <11>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><addrow><0B><pause><12> Armory<0B><11><03> Location<11>",
+			"PCE_english" : "<11><addrow><0B><pause><12> Armory<0B><11><newline_tab> Location<11>",
 			"notes" : ""
 		},
 		{
