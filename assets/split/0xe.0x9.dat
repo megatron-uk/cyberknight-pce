@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Ray Gun",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Laser",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "LaserRifle",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "LaserRifle",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Ray Blade",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "LaserSword",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "PulseLaser",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "PulseLaser",
 			"notes" : ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "HyperLaser",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "HyperLaser",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "プラズマガン",
 			"SNES_english" : "Plasma Gun",
 			"SNES_accuracy" : 0.833333333333,
-			"PCE_english" : "",
+			"PCE_english" : "PlasmaGun",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "プラズマライフル",
 			"SNES_english" : "PlasmRifle",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "",
+			"PCE_english" : "PlasmaRfle",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "プラズマキャノン",
 			"SNES_english" : "PlasmaCann",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "",
+			"PCE_english" : "PlasmaCann",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Heat Gun",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Heat Gun",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "FireBlastr",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "FireBlastr",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "ノヴァフレイム",
 			"SNES_english" : "Nova Flame",
 			"SNES_accuracy" : 0.857142857143,
-			"PCE_english" : "",
+			"PCE_english" : "Nova Flame",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "ハンドバルカン",
 			"SNES_english" : "HandVulcan",
 			"SNES_accuracy" : 0.857142857143,
-			"PCE_english" : "",
+			"PCE_english" : "VulcanGun",
 			"notes" : ""
 		},
 		{
@@ -315,7 +315,7 @@
 			"SNES_japanese" : "ハンドミサイル",
 			"SNES_english" : "HandMissile",
 			"SNES_accuracy" : 0.857142857143,
-			"PCE_english" : "",
+			"PCE_english" : "MissileGun",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "BusterGun",
 			"notes" : ""
 		},
 		{
@@ -363,7 +363,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "SonicBlast",
 			"notes" : ""
 		},
 		{
@@ -387,7 +387,7 @@
 			"SNES_japanese" : "グレネードランチャー",
 			"SNES_english" : "Grenade L. ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Grenade L.",
 			"notes" : ""
 		},
 		{
@@ -411,7 +411,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "NapalmG. L. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Napalm L.",
 			"notes" : ""
 		},
 		{
@@ -435,7 +435,7 @@
 			"SNES_japanese" : "ロケットランチャー",
 			"SNES_english" : "Rocket L. ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "Rocket L.",
 			"notes" : ""
 		},
 		{
@@ -459,7 +459,7 @@
 			"SNES_japanese" : "Lミサイルポッド",
 			"SNES_english" : "LMissilePod",
 			"SNES_accuracy" : 0.823529411765,
-			"PCE_english" : "",
+			"PCE_english" : "M.Pod (S)",
 			"notes" : ""
 		},
 		{
@@ -483,7 +483,7 @@
 			"SNES_japanese" : "Lミサイルポッド",
 			"SNES_english" : "LMissilePod",
 			"SNES_accuracy" : 0.823529411765,
-			"PCE_english" : "",
+			"PCE_english" : "M.Pod (M)",
 			"notes" : ""
 		},
 		{
@@ -507,7 +507,7 @@
 			"SNES_japanese" : "Lミサイルポッド",
 			"SNES_english" : "LMissilePod",
 			"SNES_accuracy" : 0.941176470588,
-			"PCE_english" : "",
+			"PCE_english" : "M.Pod (L)",
 			"notes" : ""
 		},
 		{
@@ -531,7 +531,7 @@
 			"SNES_japanese" : "マルチミサイルポッド",
 			"SNES_english" : "MultiMPod",
 			"SNES_accuracy" : 0.952380952381,
-			"PCE_english" : "",
+			"PCE_english" : "Multi Pod",
 			"notes" : ""
 		},
 		{
@@ -555,7 +555,7 @@
 			"SNES_japanese" : "ディスインテグレータ",
 			"SNES_english" : "Desintegratr",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "D-Gun",
 			"notes" : ""
 		},
 		{
@@ -579,7 +579,7 @@
 			"SNES_japanese" : "アンチプロトンビーム",
 			"SNES_english" : "Antiproton",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "ProtonBeam",
 			"notes" : ""
 		},
 		{
@@ -603,7 +603,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "GammaLaser",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "GammaLaser",
 			"notes" : ""
 		},
 		{
@@ -627,7 +627,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Negaball",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Negaball",
 			"notes" : ""
 		},
 		{
@@ -651,7 +651,7 @@
 			"SNES_japanese" : "マシンガン",
 			"SNES_english" : "Machinegun",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Autogun",
 			"notes" : ""
 		},
 		{
@@ -675,7 +675,7 @@
 			"SNES_japanese" : "インパクトキャノン",
 			"SNES_english" : "ImpactCann",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "Impact Cann",
 			"notes" : ""
 		},
 		{
@@ -699,7 +699,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "MasherClaw",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "ClawSmash",
 			"notes" : ""
 		},
 		{
@@ -723,7 +723,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Acid Spray",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "AcidBlast",
 			"notes" : ""
 		},
 		{
@@ -879,8 +879,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Shd ",
+			"notes" : "Shoulder location on mecha equip screen"
 		},
 		{
 			"string_number" : 74,
@@ -903,8 +903,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Arm ",
+			"notes" : "Arm location on mecha equip screen"
 		},
 		{
 			"string_number" : 76,
@@ -927,8 +927,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Leg ",
+			"notes" : "Leg location on mecha equip screen"
 		},
 		{
 			"string_number" : 78,
@@ -951,7 +951,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "No Field!!",
 			"notes" : ""
 		},
 		{
@@ -975,7 +975,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Wavejammer",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "EM Field",
 			"notes" : ""
 		},
 		{
@@ -999,7 +999,7 @@
 			"SNES_japanese" : "MHDフィールド",
 			"SNES_english" : "MHD Field",
 			"SNES_accuracy" : 0.823529411765,
-			"PCE_english" : "",
+			"PCE_english" : "MHD Field",
 			"notes" : ""
 		},
 		{
@@ -1023,7 +1023,7 @@
 			"SNES_japanese" : "ライトディフレクター",
 			"SNES_english" : "LightShld",
 			"SNES_accuracy" : 0.9,
-			"PCE_english" : "",
+			"PCE_english" : "LaserField",
 			"notes" : ""
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"SNES_japanese" : "ミラーディフレクター",
 			"SNES_english" : "MirrorShld",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "ReflectField",
 			"notes" : ""
 		},
 		{
@@ -1071,7 +1071,7 @@
 			"SNES_japanese" : "エナジーバリア",
 			"SNES_english" : "EnergyShld",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "EnergyField",
 			"notes" : ""
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "InertiaFld",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "MegaField",
 			"notes" : ""
 		},
 		{
@@ -1119,7 +1119,7 @@
 			"SNES_japanese" : "ブラックグローブ",
 			"SNES_english" : "Black Globe",
 			"SNES_accuracy" : 0.823529411765,
-			"PCE_english" : "",
+			"PCE_english" : "Black Glove",
 			"notes" : ""
 		},
 		{
@@ -1239,7 +1239,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<11><addrow><0B><pause><12> Armory<0B><13><05>Equipment<11>",
 			"notes" : ""
 		},
 		{
@@ -1275,7 +1275,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<11><addrow><0B><pause><12> Armory<0B><11><03> Location<11>",
 			"notes" : ""
 		},
 		{
@@ -1311,7 +1311,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<11><addrow><0B><pause><12> Armory<0B><12><05> Location<11>",
 			"notes" : ""
 		},
 		{
@@ -1671,7 +1671,7 @@
 			"SNES_japanese" : "レーザーを はっしゃするピストル",
 			"SNES_english" : "Shoots lasers. ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "A Laser beam pistol",
 			"notes" : ""
 		},
 		{
@@ -1695,7 +1695,7 @@
 			"SNES_japanese" : "レーザーを はっしゃするライフル",
 			"SNES_english" : "Shoots lasers. ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "Heavy Laser rifle",
 			"notes" : ""
 		},
 		{
@@ -1719,7 +1719,7 @@
 			"SNES_japanese" : "レーザーの パワーを けんの かたちにした ぶき",
 			"SNES_english" : "A laser sword. ",
 			"SNES_accuracy" : 0.85,
-			"PCE_english" : "",
+			"PCE_english" : "Powerful energy sword",
 			"notes" : ""
 		},
 		{
@@ -1743,7 +1743,7 @@
 			"SNES_japanese" : "れんぞくはっしゃできる レーザーライフル",
 			"SNES_english" : "Rapid fire laser rifle. ",
 			"SNES_accuracy" : 0.842105263158,
-			"PCE_english" : "",
+			"PCE_english" : "Rapid firing Laser rifle",
 			"notes" : ""
 		},
 		{
@@ -1767,7 +1767,7 @@
 			"SNES_japanese" : "はかいりょくを たかめた レーザーほう",
 			"SNES_english" : "Very strong laser weapon. ",
 			"SNES_accuracy" : 0.882352941176,
-			"PCE_english" : "",
+			"PCE_english" : "Ultimate Laser weaponry",
 			"notes" : ""
 		},
 		{
@@ -1791,7 +1791,7 @@
 			"SNES_japanese" : "こうおんの プラズマを はっしゃするピストル",
 			"SNES_english" : "Fires extremely hot plasma. ",
 			"SNES_accuracy" : 0.95,
-			"PCE_english" : "",
+			"PCE_english" : "Pistol firing a Plasma bolt",
 			"notes" : ""
 		},
 		{
@@ -1815,7 +1815,7 @@
 			"SNES_japanese" : "こうおんの プラズマを はっしゃするピストル",
 			"SNES_english" : "Fires extremely hot plasma. ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "A strong Plasma bolt rifle",
 			"notes" : ""
 		},
 		{
@@ -1839,7 +1839,7 @@
 			"SNES_japanese" : "プラズマの おんどを たかめた ビームほう",
 			"SNES_english" : "A plasma beam weapon. ",
 			"SNES_accuracy" : 0.944444444444,
-			"PCE_english" : "",
+			"PCE_english" : "Powerful heavy Plasma weapon",
 			"notes" : ""
 		},
 		{
@@ -1863,7 +1863,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "A small flamethrower. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Small Flamethrower",
 			"notes" : ""
 		},
 		{
@@ -1887,7 +1887,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Hydrogen based flamethrower. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Gas powered Flamer gun",
 			"notes" : ""
 		},
 		{
@@ -1911,7 +1911,7 @@
 			"SNES_japanese" : "かくゆうごうの ほのおを ほうしゃする",
 			"SNES_english" : "Nuclear-powered flamethrower. ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "Fusion powered Flame weapon",
 			"notes" : ""
 		},
 		{
@@ -1935,7 +1935,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Vulcan autogun",
 			"notes" : ""
 		},
 		{
@@ -1959,7 +1959,7 @@
 			"SNES_japanese" : "こがたの ロケットを はっしゃする じゅう",
 			"SNES_english" : "A small rocket launcher. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Handheld rocket launcher",
 			"notes" : ""
 		},
 		{
@@ -1983,7 +1983,7 @@
 			"SNES_japanese" : "なぐったあいてに でんきショックを あたえる",
 			"SNES_english" : "Shocks on impact. ",
 			"SNES_accuracy" : 0.9,
-			"PCE_english" : "",
+			"PCE_english" : "Electro-shock hand weapon",
 			"notes" : ""
 		},
 		{
@@ -2007,7 +2007,7 @@
 			"SNES_japanese" : "ちょうおんぱを はっしゃする",
 			"SNES_english" : "Emits a large sound wave. ",
 			"SNES_accuracy" : 0.928571428571,
-			"PCE_english" : "",
+			"PCE_english" : "Sound-wave weapon",
 			"notes" : ""
 		},
 		{
@@ -2031,7 +2031,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Releases a small bomb. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Grenade launcher",
 			"notes" : ""
 		},
 		{
@@ -2055,7 +2055,7 @@
 			"SNES_japanese" : "こうおんの ナパームだんを はっしゃする",
 			"SNES_english" : "High-temp napalm. ",
 			"SNES_accuracy" : 0.944444444444,
-			"PCE_english" : "",
+			"PCE_english" : "Napalm launcher",
 			"notes" : ""
 		},
 		{
@@ -2079,7 +2079,7 @@
 			"SNES_japanese" : "こがたの ロケットを はっしゃする じゅう",
 			"SNES_english" : "A small rocket launcher. ",
 			"SNES_accuracy" : 0.810810810811,
-			"PCE_english" : "",
+			"PCE_english" : "Rocket launcher",
 			"notes" : ""
 		},
 		{
@@ -2103,7 +2103,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Small missile launcher. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Small missile launcher",
 			"notes" : ""
 		},
 		{
@@ -2127,7 +2127,7 @@
 			"SNES_japanese" : "おおがたの ミサイルを はっしゃする",
 			"SNES_english" : "Large missile launcher. ",
 			"SNES_accuracy" : 0.848484848485,
-			"PCE_english" : "",
+			"PCE_english" : "Medium missile launcher",
 			"notes" : ""
 		},
 		{
@@ -2151,7 +2151,7 @@
 			"SNES_japanese" : "おおがたの ミサイルを はっしゃする",
 			"SNES_english" : "Large missile launcher. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Large missile launcher",
 			"notes" : ""
 		},
 		{
@@ -2175,7 +2175,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Multiwarhead missile launcher. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Fires multiple warheads",
 			"notes" : ""
 		},
 		{
@@ -2199,7 +2199,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Splits atoms. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Atomic destabaliser",
 			"notes" : ""
 		},
 		{
@@ -2223,7 +2223,7 @@
 			"SNES_japanese" : "すべてを はかいする はんようしほう",
 			"SNES_english" : "Antiproton device. Destroys everything. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Anti-proton device, very powerful.",
 			"notes" : ""
 		},
 		{
@@ -2247,7 +2247,7 @@
 			"SNES_japanese" : "ガンマせんレーザーを はっしゃする ぶき",
 			"SNES_english" : "Shoots gamma rays. ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "Fires Gamma ray pulse",
 			"notes" : ""
 		},
 		{
@@ -2271,7 +2271,7 @@
 			"SNES_japanese" : "ふれた ぶっしつを けしさる ちょうへいき",
 			"SNES_english" : "Godly weapon. Destroys everything. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Alien superweapon",
 			"notes" : ""
 		},
 		{
@@ -2295,7 +2295,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Machine gun",
 			"notes" : ""
 		},
 		{
@@ -2319,7 +2319,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Fires bullets at high speeds. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Large calibre autocanon",
 			"notes" : ""
 		},
 		{
@@ -2343,7 +2343,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Claws made for hand-to-hand. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Power fist for hand-to-hand",
 			"notes" : ""
 		},
 		{
@@ -2367,7 +2367,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Releases a powerful acid. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Powerful Acid-spray attack",
 			"notes" : ""
 		},
 		{
@@ -2403,7 +2403,7 @@
 			"SNES_japanese" : "オプション",
 			"SNES_english" : "Option",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Option",
 			"notes" : ""
 		},
 		{
@@ -2427,7 +2427,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Field",
 			"notes" : ""
 		},
 		{
@@ -2451,7 +2451,7 @@
 			"SNES_japanese" : "インパクト",
 			"SNES_english" : "Impact",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Impact",
 			"notes" : ""
 		},
 		{
@@ -2475,7 +2475,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Laser",
 			"notes" : ""
 		},
 		{
@@ -2499,7 +2499,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Beam",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Beam",
 			"notes" : ""
 		},
 		{
@@ -2523,7 +2523,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Heat",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Heat",
 			"notes" : ""
 		},
 		{
@@ -2595,7 +2595,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Confuses homing signals. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Jam incoming enemy missile",
 			"notes" : ""
 		},
 		{
@@ -2619,7 +2619,7 @@
 			"SNES_japanese" : "でんじはで プラズマを はじきかえす",
 			"SNES_english" : "Reflects plasma. ",
 			"SNES_accuracy" : 0.9375,
-			"PCE_english" : "",
+			"PCE_english" : "Anti-Plasma shield",
 			"notes" : ""
 		},
 		{
@@ -2643,7 +2643,7 @@
 			"SNES_japanese" : "くうかんを ゆがめて レーザーを そらす",
 			"SNES_english" : "A laser evader. ",
 			"SNES_accuracy" : 0.882352941176,
-			"PCE_english" : "",
+			"PCE_english" : "Distort enemy Lasers",
 			"notes" : ""
 		},
 		{
@@ -2667,7 +2667,7 @@
 			"SNES_japanese" : "くうかんを ゆがめて レーザーを はんしゃする",
 			"SNES_english" : "A laser reflector. ",
 			"SNES_accuracy" : 0.9,
-			"PCE_english" : "",
+			"PCE_english" : "Reflect enemy Lasers",
 			"notes" : ""
 		},
 		{
@@ -2691,7 +2691,7 @@
 			"SNES_japanese" : "エネルギーの まくで ミサイルを はかいする",
 			"SNES_english" : "Blocks missiles. ",
 			"SNES_accuracy" : 0.947368421053,
-			"PCE_english" : "",
+			"PCE_english" : "Block incoming missiles",
 			"notes" : ""
 		},
 		{
@@ -2715,7 +2715,7 @@
 			"SNES_japanese" : "かんせいを せいぎょして ミサイルを とめる",
 			"SNES_english" : "Perfect missile protection. ",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Disable all missile guidance",
 			"notes" : ""
 		},
 		{
@@ -2739,7 +2739,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Blocks everything!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Anti-gravity Null field",
 			"notes" : ""
 		},
 		{
@@ -2763,7 +2763,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Ranged",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Shoot",
 			"notes" : ""
 		},
 		{
@@ -2787,7 +2787,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Melee",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "Hand",
 			"notes" : ""
 		},
 		{
@@ -2823,7 +2823,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Missile acc. -90%",
 			"notes" : ""
 		},
 		{
@@ -2847,7 +2847,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Laser acc. -90%",
 			"notes" : ""
 		},
 		{
@@ -2871,7 +2871,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Laser acc. -100%",
 			"notes" : ""
 		},
 		{
@@ -2895,7 +2895,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Laser dam. -90%",
 			"notes" : ""
 		},
 		{
@@ -2919,7 +2919,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Impact dam. -50%",
 			"notes" : ""
 		},
 		{
@@ -2943,7 +2943,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Impact dam. -100%",
 			"notes" : ""
 		},
 		{
@@ -2967,7 +2967,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Laser/Beam/Heat acc. -100%",
 			"notes" : ""
 		},
 		{

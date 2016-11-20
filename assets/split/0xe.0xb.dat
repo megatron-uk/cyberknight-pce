@@ -850,13 +850,13 @@
 			"string_number" : 71,
 			"string_size" : 1,
 			"start_pos" : "0x1de9b",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<font>",
-			"notes" : ""
+			"notes" : "Not a delimiter"
 		},
 		{
 			"string_number" : 72,
@@ -874,13 +874,13 @@
 			"string_number" : 73,
 			"string_size" : 1,
 			"start_pos" : "0x1de9d",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<font>",
-			"notes" : ""
+			"notes" : "Not a delimiter"
 		},
 		{
 			"string_number" : 74,
@@ -922,13 +922,13 @@
 			"string_number" : 77,
 			"string_size" : 1,
 			"start_pos" : "0x1ded0",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<font>",
-			"notes" : ""
+			"notes" : "Not a delimiter"
 		},
 		{
 			"string_number" : 78,
@@ -1031,11 +1031,11 @@
 			"string_size" : 26,
 			"start_pos" : "0x1df1c",
 			"bytes" : ["10", "34", "03", "a2", "b6", "b2", "be", "b7", "20", "bd", "d9", "d3", "c9", "ca", "20", "c5", "c6", "d3", "20", "c5", "b2", "bf", "de", "21", "a3", "08"],
-			"PCE_japanese" : "<NPC_Professor>\n『かいせき するものは なにも ないぞ!』<wait>",
+			"PCE_japanese" : "<NPC_Labguy>\n『かいせき するものは なにも ないぞ!』<wait>",
 			"SNES_japanese" : "「かいせき するものは なにも ないぞ！」",
 			"SNES_english" : "There isn't anything\nwe can analyze!",
 			"SNES_accuracy" : 0.882352941176,
-			"PCE_english" : "<NPC_Professor>: Nothing to analyse.<wait>",
+			"PCE_english" : "<NPC_Labguy>: Nothing to analyse.<pause>>\nFind me some more items.<wait>",
 			"notes" : ""
 		},
 		{
@@ -1083,7 +1083,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<NPC_Doctor>: This is your clone code.",
 			"notes" : ""
 		},
 		{
@@ -1179,8 +1179,8 @@
 			"SNES_japanese" : "「どこも こわれてないぜ。\nチューンは ギンギンだぜ！！」",
 			"SNES_english" : "Everything's in\ngood shape!",
 			"SNES_accuracy" : 0.807692307692,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<NPC_Engineer>: Status is good.\nAll systems show green!<wait>",
+			"notes" : "This uses a 26x2 dialogue box"
 		},
 		{
 			"string_number" : 99,
@@ -1251,8 +1251,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Good luck!!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Good Luck!!<endwait><addrow>",
+			"notes" : "Shown when leaving the Swordfish to start a mission. This is a 18x1 dialogue box!"
 		},
 		{
 			"string_number" : 105,
@@ -3695,7 +3695,7 @@
 			"string_size" : 28,
 			"start_pos" : "0x1e71d",
 			"bytes" : ["10", "34", "a2", "cc", "de", "dd", "be", "b7", "20", "b6", "dd", "d8", "ae", "b3", "21", "03", "0f", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "d7", "03"],
-			"PCE_japanese" : "<NPC_Professor>『ぶんせき かんりょう!\n<0F>の ざんがいから\n",
+			"PCE_japanese" : "<NPC_Labguy>『ぶんせき かんりょう!\n<0F>の ざんがいから\n",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,

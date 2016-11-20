@@ -15,8 +15,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue for Farworld"
 		},
 		{
 			"string_number" : 2,
@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Man: This robot really\nlooks real! Eh? \nIt IS real? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred>Man: This robot really\nlooks real!<pause><1E>\nEh?<pause><1E> It IS real!!!<wait>",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_25x1@bottom_centred>Man: Help!<pause><1E> Kidnapper!<wait>",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Man: We call this\nplanet Farworld. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_15x2@top_left>Man: Welcome to\nFarworld.<wait>",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "おとこ「さいきん へんなロボットのようなやつらが\n    ひとを さらってるんだ。\n    あんたらじゃないのかい?」",
 			"SNES_english" : "Man: Lately people who look\nlike robots have been\nkidnapping people. \n",
 			"SNES_accuracy" : 0.921348314607,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred>Man: Lately robots have\nbeen kidnapping people.<wait><erasebox>Man: You are not one of\nthem<pause>>.<pause>>.<pause>>. are you?<wait>",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -123,20 +123,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred>Woman: Eeek!<pause><1E>\nYou scared me!",
 			"notes" : ""
 		},
 		{
 			"string_number" : 11,
 			"string_size" : 1,
 			"start_pos" : "0x140a7",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<font>",
+			"notes" : "Not a delimiter"
 		},
 		{
 			"string_number" : 12,
@@ -147,20 +147,20 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Woman: Aaah! You\nscared me!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<font>",
 			"notes" : ""
 		},
 		{
 			"string_number" : 13,
 			"string_size" : 1,
 			"start_pos" : "0x140ba",
-			"bytes" : ["00"],
+			"bytes" : [],
 			"PCE_japanese" : "<end>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<font>",
+			"notes" : "Not a delimiter"
 		},
 		{
 			"string_number" : 14,
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<wait>",
 			"notes" : ""
 		},
 		{
@@ -183,7 +183,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Woman: Have you heard of\nthe legendary planet Earth? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred>Woman: Have you heard of\nthe legend of planet\nEarth?<wait><newbox_22x2@bottom_right><Player_Name>: [They know about\nEarth!]<pause>><jumptobox_last_active><erasebox>Woman: I would like to\nvisit it, one day...<wait>",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{

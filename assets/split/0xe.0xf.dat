@@ -15,8 +15,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 2,
@@ -28,7 +28,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 3,
@@ -39,8 +39,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 4,
@@ -52,7 +52,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 5,
@@ -63,8 +63,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 6,
@@ -75,8 +75,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 7,
@@ -88,7 +88,7 @@
 			"SNES_english" : "A Commander type Berserker\nis in this ship's core. ",
 			"SNES_accuracy" : 0.828571428571,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 8,
@@ -99,8 +99,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 9,
@@ -112,7 +112,7 @@
 			"SNES_english" : "It's enormous!",
 			"SNES_accuracy" : 0.88,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 10,
@@ -123,8 +123,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 11,
@@ -136,7 +136,7 @@
 			"SNES_english" : "It's a large-scale\nbombardment machine. ",
 			"SNES_accuracy" : 0.888888888889,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 12,
@@ -147,8 +147,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 13,
@@ -160,7 +160,7 @@
 			"SNES_english" : "It's a small worker\nmachine. ",
 			"SNES_accuracy" : 0.882352941176,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 14,
@@ -171,8 +171,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 15,
@@ -184,7 +184,7 @@
 			"SNES_english" : "It's a small infantry\nmachine. ",
 			"SNES_accuracy" : 0.857142857143,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 16,
@@ -195,8 +195,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 17,
@@ -208,7 +208,7 @@
 			"SNES_english" : "It's a large transport\nmachine. ",
 			"SNES_accuracy" : 0.875,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 18,
@@ -219,8 +219,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 19,
@@ -232,7 +232,7 @@
 			"SNES_english" : "Life-energy detected. \nIt's a Cyborg. ",
 			"SNES_accuracy" : 0.84375,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 20,
@@ -243,8 +243,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 21,
@@ -256,7 +256,7 @@
 			"SNES_english" : "It's a kamikaze weapon \nequipped with bombs.\n",
 			"SNES_accuracy" : 0.869565217391,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 22,
@@ -267,8 +267,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 23,
@@ -280,7 +280,7 @@
 			"SNES_english" : "It's a small recon\nmachine. ",
 			"SNES_accuracy" : 0.882352941176,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 24,
@@ -291,8 +291,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 25,
@@ -304,7 +304,7 @@
 			"SNES_english" : "It's a large air-raid\nmachine. ",
 			"SNES_accuracy" : 0.923076923077,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 26,
@@ -315,8 +315,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 27,
@@ -328,7 +328,7 @@
 			"SNES_english" : "It is of biomechanical\nconstruct. ",
 			"SNES_accuracy" : 0.888888888889,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 28,
@@ -339,8 +339,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 29,
@@ -352,7 +352,7 @@
 			"SNES_english" : "It's an assembly line\nmachine. ",
 			"SNES_accuracy" : 0.823529411765,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 30,
@@ -363,8 +363,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 31,
@@ -376,7 +376,7 @@
 			"SNES_english" : "It's a hand-to-hand\nfighting machine. ",
 			"SNES_accuracy" : 0.866666666667,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 32,
@@ -387,8 +387,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 33,
@@ -400,7 +400,7 @@
 			"SNES_english" : "It's a gaseous life form. ",
 			"SNES_accuracy" : 0.857142857143,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 34,
@@ -411,8 +411,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 35,
@@ -424,7 +424,7 @@
 			"SNES_english" : "It's a type of plasmatic\nlife form. ",
 			"SNES_accuracy" : 0.894736842105,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 36,
@@ -435,8 +435,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 37,
@@ -448,7 +448,7 @@
 			"SNES_english" : "It's a large insect. ",
 			"SNES_accuracy" : 0.9,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 38,
@@ -459,8 +459,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 39,
@@ -472,7 +472,7 @@
 			"SNES_english" : "It's a silicon-based\nlife form. ",
 			"SNES_accuracy" : 0.90625,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 40,
@@ -483,8 +483,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 41,
@@ -496,7 +496,7 @@
 			"SNES_english" : "It's a primitive life form\nsimilar to the amoeba. ",
 			"SNES_accuracy" : 0.833333333333,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 42,
@@ -507,8 +507,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 43,
@@ -520,7 +520,7 @@
 			"SNES_english" : "These are the planet's\nindigenous life forms. ",
 			"SNES_accuracy" : 0.9,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 44,
@@ -531,8 +531,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 45,
@@ -544,7 +544,7 @@
 			"SNES_english" : "This is a large reptile\nsimilar to the dinosaur. ",
 			"SNES_accuracy" : 0.875,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 46,
@@ -555,8 +555,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 47,
@@ -568,7 +568,7 @@
 			"SNES_english" : "A slave of the Berserkers. ",
 			"SNES_accuracy" : 0.828571428571,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 48,
@@ -579,8 +579,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 49,
@@ -592,7 +592,7 @@
 			"SNES_english" : "They're space pirates. ",
 			"SNES_accuracy" : 0.833333333333,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 50,
@@ -603,8 +603,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 51,
@@ -616,7 +616,7 @@
 			"SNES_english" : "Cannot analyze abilities!",
 			"SNES_accuracy" : 0.848484848485,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 52,
@@ -627,8 +627,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 53,
@@ -640,7 +640,7 @@
 			"SNES_english" : "Easy!",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 54,
@@ -651,8 +651,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 55,
@@ -664,7 +664,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 56,
@@ -675,8 +675,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 57,
@@ -688,7 +688,7 @@
 			"SNES_english" : "The enemy has weapons\nwith incredible strength. ",
 			"SNES_accuracy" : 0.863636363636,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 58,
@@ -699,8 +699,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 59,
@@ -712,7 +712,7 @@
 			"SNES_english" : "The enemy is equipped\nwith a strong field. ",
 			"SNES_accuracy" : 0.851851851852,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 60,
@@ -723,8 +723,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 61,
@@ -736,7 +736,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 62,
@@ -747,8 +747,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 63,
@@ -760,7 +760,7 @@
 			"SNES_english" : "He's big but slow!\n",
 			"SNES_accuracy" : 0.857142857143,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 64,
@@ -771,8 +771,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 65,
@@ -784,7 +784,7 @@
 			"SNES_english" : "These enemies are quite\nnimble!",
 			"SNES_accuracy" : 0.888888888889,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 66,
@@ -795,8 +795,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 67,
@@ -808,7 +808,7 @@
 			"SNES_english" : "These are fairly tough\nopponents. ",
 			"SNES_accuracy" : 0.875,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 68,
@@ -819,8 +819,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 69,
@@ -832,7 +832,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 70,
@@ -843,8 +843,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 71,
@@ -856,7 +856,7 @@
 			"SNES_english" : "I'd say this is the\nboss of this area. ",
 			"SNES_accuracy" : 0.833333333333,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 72,
@@ -867,8 +867,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 73,
@@ -880,7 +880,7 @@
 			"SNES_english" : "There are no humans\nin there. ",
 			"SNES_accuracy" : 0.857142857143,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 74,
@@ -891,8 +891,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 75,
@@ -904,7 +904,7 @@
 			"SNES_english" : "The enemy can breathe fire. ",
 			"SNES_accuracy" : 0.8,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 76,
@@ -915,8 +915,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 77,
@@ -928,7 +928,7 @@
 			"SNES_english" : "It's a patrol machine. ",
 			"SNES_accuracy" : 0.807692307692,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 78,
@@ -939,8 +939,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 79,
@@ -952,7 +952,7 @@
 			"SNES_english" : "The interior of this mecha\nseems to be out of order. ",
 			"SNES_accuracy" : 0.894736842105,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 80,
@@ -963,8 +963,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 81,
@@ -976,7 +976,7 @@
 			"SNES_english" : "It's just sort of wandering\naround. ",
 			"SNES_accuracy" : 0.88,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 82,
@@ -987,8 +987,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 83,
@@ -1000,7 +1000,7 @@
 			"SNES_english" : "Seems like a maritime\nmachine. ",
 			"SNES_accuracy" : 0.866666666667,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 84,
@@ -1011,8 +1011,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 85,
@@ -1024,7 +1024,7 @@
 			"SNES_english" : "Looks like it's gonna\ntackle you!",
 			"SNES_accuracy" : 0.8,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 86,
@@ -1035,8 +1035,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 87,
@@ -1048,7 +1048,7 @@
 			"SNES_english" : "Watch out for their\nlaser attacks. ",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 88,
@@ -1059,8 +1059,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 89,
@@ -1072,7 +1072,7 @@
 			"SNES_english" : "Watch out for their\nbeam attacks. ",
 			"SNES_accuracy" : 0.85,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 90,
@@ -1083,8 +1083,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 91,
@@ -1096,7 +1096,7 @@
 			"SNES_english" : "Watch out for their\nheat attacks. ",
 			"SNES_accuracy" : 0.85,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 92,
@@ -1107,8 +1107,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 93,
@@ -1120,7 +1120,7 @@
 			"SNES_english" : "Watch out for their\nimpact attacks. ",
 			"SNES_accuracy" : 0.869565217391,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 94,
@@ -1131,8 +1131,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 95,
@@ -1144,7 +1144,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 96,
@@ -1155,8 +1155,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 97,
@@ -1167,8 +1167,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 98,
@@ -1179,8 +1179,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 99,
@@ -1191,8 +1191,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 100,
@@ -1203,8 +1203,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 101,
@@ -1215,8 +1215,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 102,
@@ -1227,8 +1227,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 103,
@@ -1239,8 +1239,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 104,
@@ -1251,8 +1251,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 105,
@@ -1263,8 +1263,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 106,
@@ -1275,8 +1275,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 107,
@@ -1287,8 +1287,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 108,
@@ -1300,7 +1300,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 109,
@@ -1311,8 +1311,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 110,
@@ -1324,7 +1324,7 @@
 			"SNES_english" : "Melee ability is high. \nEngage from a distance. ",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 111,
@@ -1335,8 +1335,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 112,
@@ -1348,7 +1348,7 @@
 			"SNES_english" : "Please begin a\nconcentrated attack. ",
 			"SNES_accuracy" : 0.9,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 113,
@@ -1359,8 +1359,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 114,
@@ -1372,7 +1372,7 @@
 			"SNES_english" : "Please attack each\nenemy individually. ",
 			"SNES_accuracy" : 0.875,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 115,
@@ -1383,8 +1383,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 116,
@@ -1396,7 +1396,7 @@
 			"SNES_english" : "Option Attack",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 117,
@@ -1407,8 +1407,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 118,
@@ -1420,7 +1420,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 119,
@@ -1431,8 +1431,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 120,
@@ -1444,7 +1444,7 @@
 			"SNES_english" : "It should be pretty\neasy. ",
 			"SNES_accuracy" : 0.88,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 121,
@@ -1455,8 +1455,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 122,
@@ -1468,7 +1468,7 @@
 			"SNES_english" : "Try using lasers. ",
 			"SNES_accuracy" : 0.809523809524,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 123,
@@ -1479,8 +1479,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 124,
@@ -1492,7 +1492,7 @@
 			"SNES_english" : "Try a beam weapon. ",
 			"SNES_accuracy" : 0.85,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 125,
@@ -1503,8 +1503,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 126,
@@ -1516,7 +1516,7 @@
 			"SNES_english" : "Try heat-based attacks. ",
 			"SNES_accuracy" : 0.85,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 127,
@@ -1527,8 +1527,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 128,
@@ -1540,7 +1540,7 @@
 			"SNES_english" : "Try inflicting impact\ndamage. ",
 			"SNES_accuracy" : 0.909090909091,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 129,
@@ -1551,8 +1551,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 130,
@@ -1564,7 +1564,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 131,
@@ -1575,8 +1575,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 132,
@@ -1588,7 +1588,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 133,
@@ -1599,8 +1599,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 134,
@@ -1612,7 +1612,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 135,
@@ -1623,8 +1623,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 136,
@@ -1636,7 +1636,7 @@
 			"SNES_english" : "Try inflicting impact\ndamage. ",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 137,
@@ -1647,8 +1647,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 138,
@@ -1660,7 +1660,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 139,
@@ -1671,8 +1671,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 140,
@@ -1684,7 +1684,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 141,
@@ -1695,8 +1695,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 142,
@@ -1708,7 +1708,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 143,
@@ -1719,8 +1719,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 144,
@@ -1732,7 +1732,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 145,
@@ -1743,8 +1743,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 146,
@@ -1756,7 +1756,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 147,
@@ -1767,8 +1767,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 148,
@@ -1779,8 +1779,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 149,
@@ -1791,8 +1791,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 150,
@@ -1803,8 +1803,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 151,
@@ -1815,8 +1815,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 152,
@@ -1827,8 +1827,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 153,
@@ -1839,8 +1839,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 154,
@@ -1851,8 +1851,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 155,
@@ -1863,8 +1863,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 156,
@@ -1875,8 +1875,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 157,
@@ -1887,8 +1887,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 158,
@@ -1899,8 +1899,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 159,
@@ -1911,8 +1911,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 160,
@@ -1923,8 +1923,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 161,
@@ -1935,8 +1935,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 162,
@@ -1947,8 +1947,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 163,
@@ -1959,8 +1959,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 164,
@@ -1971,8 +1971,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 165,
@@ -1983,8 +1983,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 166,
@@ -1995,8 +1995,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 167,
@@ -2007,8 +2007,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 168,
@@ -2020,7 +2020,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 169,
@@ -2031,8 +2031,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 170,
@@ -2044,7 +2044,7 @@
 			"SNES_english" : "Mica: I want to go back\nto Earth... ",
 			"SNES_accuracy" : 0.947368421053,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 171,
@@ -2055,8 +2055,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 172,
@@ -2068,7 +2068,7 @@
 			"SNES_english" : "Mica: A message from the\ndoctor: Don't depend on\nme too much!",
 			"SNES_accuracy" : 0.833333333333,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 173,
@@ -2079,8 +2079,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 174,
@@ -2092,7 +2092,7 @@
 			"SNES_english" : "Mica: Even I make\nmistakes sometimes. ",
 			"SNES_accuracy" : 0.810810810811,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 175,
@@ -2103,8 +2103,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 176,
@@ -2116,7 +2116,7 @@
 			"SNES_english" : "Mica: I envy the fact that\nyour body can be injured. ",
 			"SNES_accuracy" : 0.857142857143,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 177,
@@ -2127,8 +2127,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 178,
@@ -2140,7 +2140,7 @@
 			"SNES_english" : "Mica: A message from the\nmechanic: Careful with\nthe modules!",
 			"SNES_accuracy" : 0.857142857143,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 179,
@@ -2151,8 +2151,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 180,
@@ -2164,7 +2164,7 @@
 			"SNES_english" : "Mica: A message from the\nboss: You'll get a bonus\nwhen we get back!",
 			"SNES_accuracy" : 0.892857142857,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 181,
@@ -2175,8 +2175,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 182,
@@ -2188,7 +2188,7 @@
 			"SNES_english" : "Mica: A message from the\ndoctor: Your clone is\nready... ",
 			"SNES_accuracy" : 0.851851851852,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 183,
@@ -2199,8 +2199,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 184,
@@ -2212,7 +2212,7 @@
 			"SNES_english" : "Mica: Try harder!",
 			"SNES_accuracy" : 0.875,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 185,
@@ -2223,8 +2223,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 186,
@@ -2236,7 +2236,7 @@
 			"SNES_english" : "Mica: Hurry it up!",
 			"SNES_accuracy" : 0.8,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 187,
@@ -2247,8 +2247,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 188,
@@ -2260,7 +2260,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 189,
@@ -2271,8 +2271,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 190,
@@ -2284,7 +2284,7 @@
 			"SNES_english" : "Mica: Call the wizard? ",
 			"SNES_accuracy" : 0.928571428571,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 191,
@@ -2295,8 +2295,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 192,
@@ -2308,7 +2308,7 @@
 			"SNES_english" : "Mica: I can't watch... ",
 			"SNES_accuracy" : 0.861111111111,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 193,
@@ -2319,8 +2319,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 194,
@@ -2332,7 +2332,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 195,
@@ -2343,8 +2343,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 196,
@@ -2356,7 +2356,7 @@
 			"SNES_english" : "Mica: Don't waste your life!",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 197,
@@ -2367,8 +2367,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 198,
@@ -2380,7 +2380,7 @@
 			"SNES_english" : "Mica: Options aren't\nlimitless;conserve them!",
 			"SNES_accuracy" : 0.925925925926,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 199,
@@ -2391,8 +2391,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 200,
@@ -2404,7 +2404,7 @@
 			"SNES_english" : "Mica: A message from the\ncook: Yeah! Dinner!",
 			"SNES_accuracy" : 0.827586206897,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 201,
@@ -2415,8 +2415,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 202,
@@ -2427,8 +2427,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 203,
@@ -2439,8 +2439,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 204,
@@ -2451,8 +2451,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 205,
@@ -2464,7 +2464,7 @@
 			"SNES_english" : "Mica: Thought",
 			"SNES_accuracy" : 0.8,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 206,
@@ -2475,8 +2475,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 207,
@@ -2488,7 +2488,7 @@
 			"SNES_english" : "Ability analysis",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 208,
@@ -2499,8 +2499,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 209,
@@ -2512,7 +2512,7 @@
 			"SNES_english" : "Mica: Impact",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 210,
@@ -2523,8 +2523,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 211,
@@ -2536,7 +2536,7 @@
 			"SNES_english" : "Mica: Component",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 212,
@@ -2547,8 +2547,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 213,
@@ -2560,7 +2560,7 @@
 			"SNES_english" : "Mica: Thought",
 			"SNES_accuracy" : 0.8,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 214,
@@ -2571,8 +2571,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 215,
@@ -2584,7 +2584,7 @@
 			"SNES_english" : "Mica: Thought",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 216,
@@ -2595,8 +2595,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 217,
@@ -2608,7 +2608,7 @@
 			"SNES_english" : "Mica: Tactics",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 218,
@@ -2619,8 +2619,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 219,
@@ -2632,7 +2632,7 @@
 			"SNES_english" : "Mica: Attack",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 220,
@@ -2643,8 +2643,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 221,
@@ -2656,7 +2656,7 @@
 			"SNES_english" : "Ordinary transmission",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 222,
@@ -2667,8 +2667,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 223,
@@ -2680,7 +2680,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 224,
@@ -2691,8 +2691,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 225,
@@ -2704,7 +2704,7 @@
 			"SNES_english" : "Emergency transmission",
 			"SNES_accuracy" : 1.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 226,
@@ -2715,8 +2715,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 227,
@@ -2728,7 +2728,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "Dialogue from MICA during combat and missions."
 		},
 		{
 			"string_number" : 228,
@@ -2739,8 +2739,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<end>",
+			"notes" : "Dialogue from MICA during combat and missions."
 		}
 	]
 }
