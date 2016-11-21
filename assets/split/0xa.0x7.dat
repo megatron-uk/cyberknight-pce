@@ -376,7 +376,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "<newbox_24x2@middle_centred><NPC_Seeclan>: I've finished!<pause>>\nHere you go...<wait>"
 		},
 		{
 			"string_number" : 32,
@@ -399,7 +399,7 @@
 			"SNES_japanese" : "シークラン「ごぶじを いのっています。」",
 			"SNES_english" : "Seeclan: Good luck!",
 			"SNES_accuracy" : 0.88,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_15x2@top_left><NPC_Seeclan>: Good\nluck to you!<wait>",
 			"notes" : ""
 		},
 		{
@@ -444,10 +444,10 @@
 			"start_pos" : "0x1752f",
 			"bytes" : ["1a", "22", "10", "42", "07", "06", "a2", "b3", "c1", "ad", "b3", "c9", "b2", "b7", "d3", "c9", "ca", "20", "d0", "dd", "c5", "cb", "c4", "c2", "bc", "de", "ac", "a3", "08"],
 			"PCE_japanese" : "<newbox_25x1@middle_centred><NPC_Mayor><slow><06>『うちゅうのいきものは みんなひとつじゃ』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "Mayor: [speed_0A]All life in\nthis galaxy is one",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@middle_centred><NPC_Mayor>:<slow><06> All life in this\nGalaxy is one.<wait>",
 			"notes" : ""
 		},
 		{
@@ -468,10 +468,10 @@
 			"start_pos" : "0x1754d",
 			"bytes" : ["1a", "24", "10", "40", "a2", "b1", "d8", "b6", "de", "c4", "b3", "20", "ba", "de", "bb", "de", "b2", "cf", "bd", "a1", "a3", "08", "0c", "10", "40", "a2", "ba", "da", "b6", "d7", "d3", "20", "ba", "de", "bc", "ad", "bc", "de", "dd", "c0", "c1", "c4", "20", "c4", "d3", "c6", "03", "ba", "c9", "ce", "bc", "a6", "20", "cc", "af", "ba", "b3", "bb", "be", "d9", "20", "c4", "de", "d8", "ae", "b8", "a6", "03", "c2", "c2", "de", "b9", "c3", "d5", "b8", "20", "c2", "d3", "d8", "c3", "de", "bd", "a3", "08"],
 			"PCE_japanese" : "<newbox_26x3@top_centred><NPC_Robot>『おりがとう ございます。』<wait><erasebox><NPC_Robot>『これからも ごしゅじんたちと ともに<newline_tab>このほしを ふっこうさせる どりょくを<newline_tab>つづけてゆく つもりです』<wait>",
-			"SNES_japanese" : "",
+			"SNES_japanese" : "Robot: Thank you. I'll do\nmy best to restore this\nplanet with my master. ",
 			"SNES_english" : "",
-			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"SNES_accuracy" : 0.75,
+			"PCE_english" : "<newbox_26x3@top_centred><NPC_Robot>: Thank you!<pause>> I'll do\nmy best to restore this\nplanet, with my master.<wait>",
 			"notes" : ""
 		},
 		{
@@ -495,7 +495,7 @@
 			"SNES_japanese" : "シークラン「たいくつな とうみんは まっぴらだ！」",
 			"SNES_english" : "Seeclan: Now I got\nsomething to do!",
 			"SNES_accuracy" : 0.810810810811,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred><NPC_Seeclan>: Now I have\nsomething worth doing!<wait>",
 			"notes" : ""
 		},
 		{
