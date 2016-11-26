@@ -99,8 +99,8 @@
 			"SNES_japanese" : "おとこ「さいきん へんなロボットのようなやつらが\n    ひとを さらってるんだ。\n    あんたらじゃないのかい?」",
 			"SNES_english" : "Man: Lately people who look\nlike robots have been\nkidnapping people. \n",
 			"SNES_accuracy" : 0.921348314607,
-			"PCE_english" : "<newbox_24x2@top_centred>Man: Lately robots have\nbeen kidnapping people.<wait><erasebox>Man: You are not one of\nthem<pause>>.<pause>>.<pause>>. are you?<wait>",
-			"notes" : ""
+			"PCE_english" : "",
+			"notes" : "<newbox_24x2@top_centred>Man: Lately robots have\nbeen kidnapping people.<wait><erasebox>Man: You are not one of\nthem<pause>>.<pause>>.<pause>>. are you?<wait>"
 		},
 		{
 			"string_number" : 9,
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Woman: Is that fashion\npopular on your planet? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_20x3@bottom_left>Woman: Is that\nfashion popular\non your planet?<wait>",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Woman: Why not check\nout the University? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@bottom_centred>Woman: Why not check out\nthe University?\nThe Prof. works there.<wait>",
 			"notes" : ""
 		},
 		{
@@ -1527,7 +1527,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : ": So this is the core!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@bottom_centred><Player_Name_alt>: So,<pause>>\nthis is the core!<wait>",
 			"notes" : ""
 		},
 		{

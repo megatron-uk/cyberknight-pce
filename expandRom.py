@@ -468,10 +468,10 @@ while c < ASSET_LOAD_TABLE_SIZE:
 			# The header table for an asset is much simpler than the original one.
 			# The relative address is always 0x4000
 			# byte position 0 = ID of bank (for example, 0x5f)
-			# byte position 1 + 2 = address (in little endian) of the asset block to follow (always 0x4004, as it starts at the 5th byte)
+			# byte position 1 + 2 = address (in little endian) of the asset block to follow (always 0x4003, as it starts at the 4th byte)
 			# byte position 4 = 0x00
 			# SO, beyond the first byte (which changes per bank number) it will always look like:
-			# 0x5f, 0x04, 0x40, 0x00, data_bytes_start_here
+			# 0x5f, 0x03, 0x40, 0x00, data_bytes_start_here
 			# The reference to the asset in the asset pointer table will therefore always be 0x01, as it is the 
 			# first address pair in the asset table.
 			print("--- Seeking to 0x%s" % hex(this_location))
