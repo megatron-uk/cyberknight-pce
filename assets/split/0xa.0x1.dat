@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x2@top_centred>Woman: Eeek!<pause><1E>\nYou scared me!",
+			"PCE_english" : "<newbox_24x2@top_centred>Woman: [Shriek!]<pause><1E>\nYou scared me!",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Woman: Have you heard of\nthe legendary planet Earth? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_26x3@top_centred>Woman: Have you heard of\nthe legend of planet\nEarth?<wait><newbox_22x2@bottom_right><Player_Name>: [They know about\nEarth!]<pause>><jumptobox_last_active><erasebox>Woman: I would like to\nvisit it, one day...<wait>",
+			"PCE_english" : "<newbox_26x3@top_centred>Woman: Have you heard of\nthe legend of planet\nEarth?<wait><newbox_22x2@bottom_right><Player_Name>: You know about\nEarth?<pause>><jumptobox_last_active><erasebox>Woman: Yes, I would like to\nvisit it, one day...<wait>",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Woman: Is that fashion\npopular on your planet? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_20x3@bottom_left>Woman: Is that\nfashion popular\non your planet?<wait>",
+			"PCE_english" : "<newbox_20x3@bottom_left>Woman: Is that fashion\npopular on your\nplanet? [giggle]<wait>",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Man: I should make\nyour adventures into\na movie!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred>Man: I could make a movie\nof your adventures!<wait>",
 			"notes" : ""
 		},
 		{
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "おとこ「サイバーナイトの おもちゃを\n    つくったら うれてうれて\n    おおもうけですわ。わっはっは。」",
 			"SNES_english" : "Man: I'm the maker of\nCyber Knight toys. They're\nmaking tons of profit!",
 			"SNES_accuracy" : 0.90243902439,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred>Man: I make Cyber Knight\ntoys.<pause>> They're making me\nvery rich!<wait>",
 			"notes" : ""
 		},
 		{
@@ -303,7 +303,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -315,7 +315,7 @@
 			"SNES_japanese" : "おとこ「いや ちきゅうに いきたいとは\n    おもいませんね。 このほしが\n    わたしたちの ふるさとですから」",
 			"SNES_english" : "Man: This planet is\nour home. ",
 			"SNES_accuracy" : 0.93023255814,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred>Man: This world is our\nhome. I don't think we\nwould ever want to leave.<wait>",
 			"notes" : ""
 		},
 		{
@@ -327,7 +327,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Man: Sorry about that. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_25x1@middle_centred>Man: Sorry about that.<wait>",
 			"notes" : ""
 		},
 		{
@@ -351,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -363,7 +363,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred>Woman: Can I get your\nautograph please?!",
 			"notes" : ""
 		},
 		{
@@ -375,8 +375,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<font>",
+			"notes" : "Not a delimeter"
 		},
 		{
 			"string_number" : 32,
@@ -399,7 +399,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -411,8 +411,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<newbox_25x1@middle_centred>Woman: Come back soon, ok?<wait>",
+			"notes" : "Also when you have the opportunity come and visit"
 		},
 		{
 			"string_number" : 35,
@@ -423,7 +423,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -435,7 +435,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_25x1@middle_centred>Woman: Why not stay here?<wait>",
 			"notes" : ""
 		},
 		{
@@ -447,7 +447,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -459,7 +459,7 @@
 			"SNES_japanese" : "おんな「メンターナ?\n    さあ なまえは きいたことあるけど・・・\n    よくしらないわ。」",
 			"SNES_english" : "Woman: Mentana?  I really\ndon't know much about it. ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred>Woman: Mentana?<pause><1E> I really\ndon't know much about it.<wait>",
 			"notes" : ""
 		},
 		{
@@ -471,7 +471,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -483,7 +483,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -495,8 +495,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<newbox_24x2@top_centred>Guard: I'm sorry about\nbefore.<pause>> My apologies.<wait>",
+			"notes" : "Guard apologising for earlier blocking entry to president."
 		},
 		{
 			"string_number" : 42,
@@ -507,7 +507,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -519,7 +519,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -531,7 +531,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Professor: You should meet\nwith the President. He's a\nstudent of mine. I'll tell\nhim to let you in. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred><NPC_Professor>: You should meet with\nour President. He was\na student of mine.<wait><erasebox><NPC_Professor>: I'll tell him to\nexpect you.<wait><newbox_24x2@bottom_centred><Player_Name>: Thank you. We\nappreciate all your help.<wait>",
 			"notes" : ""
 		},
 		{
@@ -543,7 +543,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -555,7 +555,7 @@
 			"SNES_japanese" : "きょうじゅ「げんきに けんきゅうを\n    つづけておるよ。\n    わっはっは。」",
 			"SNES_english" : "Professor: Yes I'm\ndoing my job. \n",
 			"SNES_accuracy" : 0.867924528302,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred><NPC_Professor>: Yes?\nI'm busy working.<wait>",
 			"notes" : ""
 		},
 		{
@@ -567,7 +567,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -579,7 +579,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Nehjena: If that Mentana\nreally exists... he might\nhelp us get home!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<closebox><addrow><newbox_26x3@bottom_centred><NPC_Nehjana>: If Mentana exists\nhe might help us\nget home!<wait><newbox_24x2@middle_centred><Player_Name_alt>: Yes,<pause>> but where do\nwe start looking?<wait>",
 			"notes" : ""
 		},
 		{
@@ -591,7 +591,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -603,7 +603,7 @@
 			"SNES_japanese" : "きょうじゅ「なにかあったら またここへきたまえ。\n    それまでに メンターナにかんするきろくを\n    しらべなおしておこう。」",
 			"SNES_english" : "Professor: Visit me again. \nI'll be researching Mentana\nuntil then. ",
 			"SNES_accuracy" : 0.88,
-			"PCE_english" : "",
+			"PCE_english" : "<jumptobox_last_active_plus_1><NPC_Professor>: Visit soon. I'll\nkeep researching Mentana.<wait>",
 			"notes" : ""
 		},
 		{
@@ -615,7 +615,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -627,7 +627,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -639,7 +639,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred>Man: Your name?<pause>< <Player_Name_alt><wait><erasebox>Man: Then Hello,\nMr <Player_Name_alt> my good sir!<wait>",
 			"notes" : ""
 		},
 		{
@@ -651,7 +651,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_16x1@top_left>Man: Welcome!<wait>",
 			"notes" : ""
 		},
 		{
@@ -675,7 +675,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -687,7 +687,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_16x1@top_right>Man: Greetings.<wait>",
 			"notes" : ""
 		},
 		{
@@ -699,7 +699,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -711,7 +711,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_16x1@top_left>Man: Hello.<wait>",
 			"notes" : ""
 		},
 		{
@@ -723,7 +723,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -735,7 +735,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_15x2@top_left>Man: How about\na handshake...<wait><erasebox>Man: Oww!\nMy hand!!!<newbox_16x1@bottom_centred><Player_Name_alt>: Oh, sorry!<wait>",
 			"notes" : ""
 		},
 		{
@@ -747,7 +747,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -759,7 +759,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_15x2@top_left>Man: Hey there!\nHow've you been?<wait><erasebox>Man: Ow! Don't\nstep on my feet!<newbox_25x1@bottom_centred><Player_Name_alt>: Sorry again! [hehe]<wait>",
 			"notes" : ""
 		},
 		{
@@ -771,7 +771,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -783,7 +783,7 @@
 			"SNES_japanese" : "だいとうりょう「いま れんらくがあって\n    また なぞのロボットによる ひがいが\n    はっせいしたそうです。」",
 			"SNES_english" : "President: That was\nanother victim report... ",
 			"SNES_accuracy" : 0.886075949367,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred><NPC_President>: That was another kidnap victim report<wait><erasebox><NPC_President>: Can you help us to eliminate these robots?<wait><newbox_22x2@bottom_left><Player_Name>: Yes.<pause>>\nWe will stop them!<wait>",
 			"notes" : ""
 		},
 		{
@@ -795,7 +795,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -819,7 +819,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -843,7 +843,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -867,7 +867,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -891,7 +891,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -915,7 +915,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -939,7 +939,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -951,7 +951,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -975,7 +975,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -999,7 +999,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1023,7 +1023,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1071,7 +1071,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1083,7 +1083,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1107,7 +1107,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1131,7 +1131,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1155,7 +1155,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1179,7 +1179,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1191,7 +1191,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1203,7 +1203,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1227,7 +1227,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1239,7 +1239,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1263,7 +1263,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1311,7 +1311,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1323,7 +1323,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1347,7 +1347,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1359,7 +1359,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1371,7 +1371,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1381,7 +1381,7 @@
 			"bytes" : ["1a", "24", "10", "3c", "a2", "d4", "b1", "a4", "cf", "c0", "b7", "c0", "c9", "b6", "21", "20", "b1", "da", "b6", "d7", "20", "b2", "db", "b2", "db", "c4", "03", "cc", "d9", "b2", "b7", "db", "b8", "a6", "20", "cb", "af", "b8", "d8", "b6", "b4", "bc", "c3", "20", "b5", "af", "c0", "c9", "bc", "de", "ac", "a1", "03", "b5", "d3", "bc", "db", "b2", "20", "b7", "db", "b8", "b6", "de", "b1", "af", "c0", "bf", "de", "a1", "a3", "08", "0c", "10", "3c", "a2", "5c", "d5", "b0", "db", "ca", "df", "5c", "b6", "de", "20", "ba", "c9", "5c", "cc", "a7", "b0", "dc", "b0", "d9", "c4", "de", "5c", "c6", "20", "b8", "d9", "cf", "b4", "a4", "03", "5c", "b8", "b0", "b9", "de", "d9", "5c", "be", "b2", "b9", "b2", "c3", "de", "a4", "5c", "bc", "de", "ac", "dd", "b8", "de", "d9", "5c", "c6", "20", "b5", "b5", "dc", "da", "c0", "03", "dc", "b8", "be", "b2", "a6", "20", "ca", "af", "b9", "dd", "bc", "c0", "a1", "a3", "08", "0c", "10", "3c", "a2", "bf", "ba", "c3", "de", "20", "c1", "ae", "b3", "bb", "c9", "c0", "d2", "c6", "20", "5c", "bc", "ac", "c4", "d9", "5c", "a6", "03", "b5", "db", "bc", "c0", "c9", "c0", "de", "bf", "b3", "bc", "de", "ac", "a3", "08", "0c", "10", "3c", "a2", "bc", "b6", "bc", "20", "5c", "bc", "ac", "c4", "d9", "5c", "ca", "20", "c2", "b2", "d7", "b8", "3b", "3b", "3b", "3b", "03", "bc", "de", "ae", "b3", "b2", "dd", "ca", "20", "d5", "b8", "b4", "cc", "d2", "b2", "a1", "bc", "b6", "d3", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "3c", "a2", "bf", "c9", "ce", "bc", "c6", "ca", "20", "b7", "b9", "dd", "c5", "20", "b7", "ae", "b3", "d8", "ad", "b3", "b6", "de", "03", "b3", "bc", "de", "ac", "b3", "bc", "de", "ac", "b2", "d9", "c4", "dc", "b6", "d8", "a4", "5c", "d5", "b0", "db", "ca", "df", "5c", "ca", "03", "c1", "ac", "b8", "d8", "b8", "a6", "20", "b1", "b7", "d7", "d2", "c0", "c9", "bc", "de", "ac", "a3", "08", "0c", "10", "3c", "a2", "c4", "de", "b3", "bc", "de", "ac", "3f", "04", "1e", "20", "b5", "d3", "bc", "db", "b2", "bc", "de", "ac", "db", "b3", "3f", "a3", "08", "1a", "1f", "10", "1f", "07", "0f", "a2", "b1", "c9", "b0", "3b", "3b", "3b", "3b", "07", "06", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c6", "c2", "b2", "c3", "ca", "03", "c5", "c6", "b6", "20", "dc", "b6", "d8", "cf", "bc", "c0", "b6", "3f", "a3", "07", "ff", "08", "19", "24", "10", "3c", "a2", "b5", "b5", "a4", "bf", "b3", "bc", "de", "ac", "af", "c0", "a1", "b2", "d4", "a4", "bf", "af", "c1", "c9", "ce", "b3", "ca", "03", "cf", "c0", "de", "20", "c5", "c6", "d3", "20", "dc", "b6", "af", "c4", "d7", "dd", "d6", "a1", "dc", "af", "ca", "af", "ca", "a3", "08"],
 			"PCE_japanese" : "<newbox_26x3@top_centred><NPC_Professor>『やお、またきたのか! おれから いろいろと\nふるいきろくを ひっくりかえして おったのじゃ。\nおもしろい きろくがおったぞ。』<wait><erasebox><NPC_Professor>『ユ‐ロパが このファ‐ワ‐ルドに くるまえ、\nク‐ゲルせいけいで、ジャングルに おおわれた\nわくせいを はっけんした。』<wait><erasebox><NPC_Professor>『そこで ちょうさのために シャトルを\nおろしたのだそうじゃ』<wait><erasebox><NPC_Professor>『しかし シャトルは ついらく‥‥‥‥\nじょういんは ゆくえふめい。しかも‥‥‥‥』<wait><erasebox><NPC_Professor>『そのほしには きけんな きょうりゅうが\nうじゃうじゃいるとわかり、ユ‐ロパは\nちゃくりくを おきらめたのじゃ』<wait><erasebox><NPC_Professor>『どうじゃ?<pause><1E> おもしろいじゃろう?』<wait><newbox_24x2@bottom_centred><Player_Name_alt><slow><0F>『おの―‥‥‥‥<slow><06>メンタ‐ナについては\nなにか わかりましたか?』<slow>゜<wait><jumptobox_last_active_plus_1><NPC_Professor>『おお、そうじゃった。いや、そっちのほうは\nまだ なにも わかっとらんよ。わっはっは』<wait>",
 			"SNES_japanese" : "",
-			"SNES_english" : "Professor: Hey you're\nback! I discovered\nquite a lot!\n",
+			"SNES_english" : "Professor: Hey you're\nback! I discovered\nquite a lot!\n Professor: Before fully\ncolonizing Farworld, we\nfound a planet with many\njungles, and sent search\nparties to it.",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
 			"notes" : ""
@@ -1395,7 +1395,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1407,7 +1407,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1419,7 +1419,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1431,7 +1431,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "President: Welcome to\nFarworld. I'm President\nRoland. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred><NPC_President>: Welcome to\nFarworld.<wait><erasebox><NPC_President>: I'm President\nRoland.<wait><newbox_15x2@bottom_centred><Player_Name_alt>: Are you\nall from Earth?<wait><jumptobox_last_active_plus_1><NPC_President>: Yes, we're the\ndescendants of people who\ncrashed here 250 years ago.<wait><erasebox><NPC_President>: Sorry about my\nguards outside earlier.<wait><erasebox><NPC_President>: They thought you\nwere just some marauding\nrobots.<wait><erasebox><NPC_President>: There have been\nstrange robots kidnapping\nour citizens lately...<wait>",
 			"notes" : ""
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1467,7 +1467,7 @@
 			"SNES_japanese" : "だいとうりょう「どうです? ちきゅうには\n    かえれそうですか?」",
 			"SNES_english" : "President: So?  Will you\nbe able to go home? ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@top_centred><NPC_President>: So,<pause>( will you be\nable to go home?<wait><erasebox><NPC_President>: I heard of the\nlegend of Mentana a long,\nlong time ago.<wait><erasebox><NPC_President>: To meet Mentana\nthey say you need the\nlegendary treasure...<pause><1E><newbox_15x2@bottom_centred><Player_Name_alt>: Legendary\n treasure?<wait><jumptobox_last_active_plus_1><erasebox><NPC_President>: Yes,<pause>> find the\nfour separate 'relics',<pause>> or\nsomething like that...<wait>",
 			"notes" : ""
 		},
 		{
@@ -1479,7 +1479,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1491,8 +1491,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<newbox_26x3@bottom_centred><Player_Name_alt>: We could probably\ntry that video disc we found!<wait><newbox_24x5@top_centred><slow><01>- NEC VidSys v1.04\n- Loading BIOS\n- Optical Drive detected\n- Video decode mode\nERROR: File truncated...<erasebox><slow>゜[The face of a young space\ncaptain appears on the\nmonitor...]<wait><erasebox>Shuttle 201 Emergency\nlog, Captain Radgar\nreporting...<wait><erasebox>The shuttle was almost\ndestroyed in the landing,\nbut the videodisc circuit\nseems to be working...\nI hope the power holds.<wait><erasebox>[The image flickers for\na moment...]<wait><erasebox>Only 20 of us survived,\nour weapons were\ndestroyed.<pause>> We'll have to\nlearn to live like our\nancestors used to...<wait><erasebox>[The image flickers once\nmore. This time the\nyoung captain looks\nvisibly tired...]<wait><erasebox>We're not expecting a\nrescue from the Europa.<pause>>I\nwonder how Eileen is\ndoing? <pause>>Is the baby born\nalready...<pause>> ?<wait><erasebox>[Once again the image\nfades. It takes much\nlonger to stablise this\ntime...]<wait><erasebox>We found a weird monument\nin the jungle. Symbols\nare written on it... I\nwonder who built it...?<wait><erasebox>I'm going to save a\npicture of the monument.<pause>>\nI hope someone will see\nthis<pause>>.<pause>>.<pause>>.<wait><erasebox>[An image of the Monument appears on the monitor]<wait><jumptobox_last_active_plus_?><Player_Name_alt>: Yes!<pause>> Radgar got it\nbefore it was broken!<wait><jumptobox_last_active_plus_?><erasebox>- ERROR: EOF marker\n- Video playback stopped\n[The monitor goes dark]<wait><closebox><jumptobox_last_active_plus_?><erasebox><Player_Name_alt>: Captain Radgar...\nthank you... you did not\ndie in vain.<wait><closebox><newbox_26x1@middle_centred>[You got Monument 2 data!]<wait>",
+			"notes" : ""              
 		},
 		{
 			"string_number" : 125,
@@ -1503,7 +1503,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1515,7 +1515,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1551,7 +1551,7 @@
 			"SNES_japanese" : "「どこかに ロボットに しれいを\n    おくっている ちゅうすうぶが あるはずだ。\n    そこを はかいできれば・・」",
 			"SNES_english" : ": There must be a core\ncontrol machine. Gotta\ndestroy it... ",
 			"SNES_accuracy" : 0.895833333333,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_26x3@bottom_centred><Player_Name_alt>: There has to be a\ncontrol machine.<pause>>\nWe must destroy it!!!<wait>",
 			"notes" : ""
 		},
 		{
@@ -1563,7 +1563,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1573,9 +1573,9 @@
 			"bytes" : ["1a", "1f", "c3", "b7", "c9", "20", "c1", "ad", "b3", "bd", "b3", "cc", "de", "a6", "20", "ca", "b6", "b2", "bc", "c0", "21", "08", "0c", "10", "1f", "a2", "c6", "dd", "d1", "20", "b6", "dd", "d8", "ae", "b3", "a1", "03", "5c", "bf", "b0", "c4", "de", "cc", "a8", "af", "bc", "ad", "5c", "c6", "20", "b7", "b6", "dd", "bd", "d9", "a3", "08"],
 			"PCE_japanese" : "<newbox_24x2@bottom_centred>てきの ちゅうすうぶを はかいした!<wait><erasebox><Player_Name_alt>『にんむ かんりょう。\nソ‐ドフィッシュに きかんする』<wait>",
 			"SNES_japanese" : "「にんむ かんりょう。\n    ソードフィッシュに きかんする。」",
-			"SNES_english" : ": Let's return to\nthe Swordfish. ",
+			"SNES_english" : "You have destroyed\nthe core! <player>: Let's return to\nthe Swordfish. ",
 			"SNES_accuracy" : 0.862745098039,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@bottom_centred>[You destroyed the core!]<wait><erasebox><Player_Name_alt>: Let's return to the\nSwordfish.<wait>",
 			"notes" : ""
 		},
 		{
@@ -1587,7 +1587,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1599,7 +1599,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<closebox>",
 			"notes" : ""
 		},
 		{
@@ -1611,7 +1611,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1623,7 +1623,7 @@
 			"SNES_japanese" : "MICA「こちら ソードフィッシュ。」",
 			"SNES_english" : "Mica: This is Swordfish. ",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_24x2@top_centred><06>9<NPC_Mica><06>9: This is the Swordfish.<wait><erasebox><NPC_Mica>: Please upload your\ndata to the Swordfish.<wait><newbox_25x1@bottom_centred><Player_Name_alt>: OK! Right away!<wait>",
 			"notes" : ""
 		},
 		{
@@ -1635,7 +1635,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		}
 	]
