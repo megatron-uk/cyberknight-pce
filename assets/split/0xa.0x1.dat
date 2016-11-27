@@ -807,8 +807,8 @@
 			"SNES_japanese" : "だいとうりょう「ありがとう。あなたたちのおかげで\n    このほしは へいわに なりました。\n    かんしゃいたします。」",
 			"SNES_english" : "President: Our deepest\nthanks. This planet is\nnow truly at peace. ",
 			"SNES_accuracy" : 0.873563218391,
-			"PCE_english" : "",
-			"notes" : "<newbox_a_26x3@top_centred><NPC_President>: Our deepest thanks. This world is now truly at peace.<wait><erasebox><NPC_President>: Wait,<pause>> you wish to go back to Earth, yes?<wait><erasebox><NPC_President>: I'm sorry that we cannot help at present. Our technology is not as advanced as yours.<wait><erasebox><NPC_President>: But... I heard from the Traders about an advanced alien race called 'Seeclan'.<wait><erasebox><NPC_President>: They may be able to help you out.<wait><erasebox><NPC_President><slow><10>   <slow><FF><wait>"
+			"PCE_english" : "<newbox_a_26x3@top_centred><NPC_President>: Our deepest thanks. This world is now truly at peace.<wait><erasebox><NPC_President>: Wait,<pause>> you wish to go back to Earth, yes?<wait><erasebox><NPC_President>: I'm sorry that we cannot help at present. Our technology is not as advanced as yours.<wait><erasebox><NPC_President>: But... I heard from the Traders about an advanced alien race called 'Seeclan'.<wait><erasebox><NPC_President>: They may be able to help you out.<wait><erasebox><NPC_President><slow><10>STRING NOT TRANSLATED<slow><FF><wait>",
+			"notes" : ""
 		},
 		{
 			"string_number" : 68,
@@ -831,7 +831,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_a_24x5@top_centred><NPC_PresidentsWife>: Have you met the\nProfessor?<pause>> He's got the\nbiggest brain on Farworld\nand he's my nephew!<wait><erasebox><NPC_PresidentsWife>: Oh, are you going\nnow?<pause>>.<pause>>.<pause>>. I'm so lonely,\nwill you please come back\nsoon?\n[She gives <Player_Name> a smile]<wait>",
 			"notes" : ""
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"SNES_japanese" : "もんばん「まて！ ここは おそれおおくも\n    ファーワールドの\n    だいとうりょうかんていだぞ！」",
 			"SNES_english" : "Guard: Halt! This is the\nPresident's Palace!",
 			"SNES_accuracy" : 0.815789473684,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_a_26x3@top_centred>Guard: Halt!\nThis is the Presidential\nPalace!<erasebox>Guard: I cannot allow you to\npass!<wait><newbox_a_16x1@top_right><11><16><06>/‥‥‥‥ ‥‥‥‥<padH>ラ         <padH>ラ<06>/‥‥‥‥ ‥‥‥‥<padH>ラ         <padH>ラ<11><06>",
 			"notes" : ""
 		},
 		{
@@ -1119,7 +1119,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<closebox><addrow><jumptobox_last_active_plus_1><11>",
 			"notes" : ""
 		},
 		{
@@ -1143,7 +1143,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "Calling HQ...\n<slow><FF><newbox_a_16x1@top_right>!!!!!!!!!<padH>ラ         <padH>ラ<pause><<closebox><addrow><jumptobox_last_active_plus_1>Wha?<pause><Let them in?\n<pause><14>by order of the President?\n<pause><0A>Yes sir, right away!<wait>",
 			"notes" : ""
 		},
 		{
@@ -1215,7 +1215,7 @@
 			"SNES_japanese" : "きょうじゅ「わしは このファーワールドだいがくの\n    ソコロフきょうじゅじゃ。\n    れきしを おしえとるのじゃ。」",
 			"SNES_english" : "Professor: I'm Professor\nSokolov of the University. \nI teach history. ",
 			"SNES_accuracy" : 0.876404494382,
-			"PCE_english" : "<newbox_a_26x3@top_centred><NPC_Professor>: Good day.<pause>> I am\n<NPC_Professor> Sokolov.<wait><erasebox><NPC_Professor>: I teach history here\nat the University.<wait><newbox_a_25x1@bottom_centred><Player_Name>: Hello, Professor.<pause><1E><jumptobox_last_active_plus_1><erasebox><NPC_Professor>: Our ancestors left\nEarth in the Europa, many\nyears ago.<wait><newbox_a_26x3@bottom_centred><NPC_Kiri?>: The Europa!<pause>> It was an\nearly jumpdrive ship...<wait><erasebox><NPC_Kiri?>: ...it was thought\nlost in a jump-miss,<pause><1E> over\n250 years ago.<wait><closebox><addrow><jumptobox_last_active_plus_1><NPC_Professor>: It landed in the\nforest, north of town.<pause>>\nIt should still be there.<wait><erasebox><NPC_Professor>: It may still have\nparts that you could use\nto repair your ship?<wait><erasebox><NPC_Professor>: Oh, here!\nTake this Star map.<wait><erasebox><NPC_Professor>: I bought it from the\nTraders who visit often\nwith alien goods.<wait><erasebox><NPC_Professor>: There are 26 star\nsystems marked on it.\n<pause>>I hope it will be of use!",
+			"PCE_english" : "<newbox_a_26x3@top_centred><NPC_Professor>: Good day.<pause>> I am\n<NPC_Professor> Sokolov.<wait><erasebox><NPC_Professor>: I teach history here\nat the University.<wait><newbox_a_25x1@bottom_centred><Player_Name>: Hello, Professor.<pause><1E><jumptobox_last_active_plus_1><erasebox><NPC_Professor>: Our ancestors left\nEarth in the Europa, many\nyears ago.<wait><newbox_a_26x3@bottom_centred><NPC_Kiri?>: The Europa!<pause>> It was an\nearly jumpdrive ship...<wait><erasebox><NPC_Kiri?>: ...it was thought\nlost in a jump-miss,<pause><1E> over\n250 years ago.<wait><closebox><addrow><jumptobox_last_active_plus_1><NPC_Professor>: It landed in the\nforest, north of town.<pause>>\nIt should still be there.<wait><erasebox><NPC_Professor>: It may still have\nparts that you could use\nto repair your ship?<wait><erasebox><NPC_Professor>: Oh, here!\nTake this Star map.<wait><erasebox><NPC_Professor>: I bought it from the\nTraders who visit often\nwith alien goods.<wait><erasebox><NPC_Professor>: There are 26 star\nsystems marked on it.\n<pause>>I hope it will be of use!<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -1251,7 +1251,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11>\n<newbox_a_16x1@bottom_centred><slow><addrow><06><closebox>[StarMap Found!]<wait><closebox>",
+			"PCE_english" : "<11>\n<newbox_a_16x1@bottom_centred><slow><addrow>[StarMap Found!]<wait><closebox>",
 			"notes" : ""
 		},
 		{
@@ -1431,7 +1431,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "President: Welcome to\nFarworld. I'm President\nRoland. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_a_26x3@top_centred><NPC_President>: Welcome to\nFarworld.<wait><erasebox><NPC_President>: I'm President\nRoland.<wait><newbox_a_15x2@bottom_centred><Player_Name_alt>: Are you\nall from Earth?<wait><jumptobox_last_active_plus_1><NPC_President>: Yes, we're the\ndescendants of people who\ncrashed here 250 years ago.<wait><erasebox><NPC_President>: Sorry about my\nguards outside earlier.<wait><erasebox><NPC_President>: They thought you\nwere just some marauding\nrobots.<wait><erasebox><NPC_President>: There have been\nstrange robots kidnapping\nour citizens lately...<wait><newbox_a_15x2@top_left><NPC_Vynd>: Robots?<wait><closebox><wait><jumptobox_last_active_plus_1><erasebox><NPC_President>: Yes, we believe\nthey have a base on the\nsouthern continent.<wait>",
+			"PCE_english" : "<newbox_a_26x3@top_centred><NPC_President>: Welcome to\nFarworld.<wait><erasebox><NPC_President>: I'm President\nRoland.<wait><newbox_a_15x2@bottom_centred><Player_Name_alt>: Are you\nall from Earth?<wait><jumptobox_last_active_plus_1><NPC_President>: Yes, we're the\ndescendants of people who\ncrashed here 250 years ago.<wait><erasebox><NPC_President>: Sorry about my\nguards outside earlier.<wait><erasebox><NPC_President>: They thought you\nwere just some marauding\nrobots.<wait><erasebox><NPC_President>: There have been\nstrange robots kidnapping\nour citizens lately...<wait><newbox_a_23x1@middle_centred><NPC_Vynd>: Robots?<pause>> Really?<pause>><jumptobox_last_active_plus_1><erasebox><NPC_President>: Yes, we believe\nthey have a base on the\nsouthern continent.<wait>",
 			"notes" : ""
 		},
 		{
