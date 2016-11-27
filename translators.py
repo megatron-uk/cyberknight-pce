@@ -61,7 +61,7 @@ from config import METHOD_1_TRAILING_BYTES, METHOD_2_TRAILING_BYTES, METHOD_3_TR
 ############ < Code starts here > ####################
 ######################################################
 
-def encode_text(string, trans_table):
+def encode_text(string, trans_table, string_number = 0):
 	"""
 	Encode a string using the translation table to set the hex equivalent of the given characters.
 	"""
@@ -131,7 +131,7 @@ def encode_text(string, trans_table):
 					s_found = True
 					i += 1
 					if VERBOSE:
-						print("Found control code for byte [%s] at index %s for %s" % (hex_byte.lower(), i, match_s))
+						print("Found control code for byte [%s] at string %s, index %s for %s" % (hex_byte.lower(), string_number, i, match_s))
 					break
 			# Search for a match in column 1 of the table, ie the actual byte code
 			if s_found is False:
@@ -141,20 +141,23 @@ def encode_text(string, trans_table):
 						s_found = True
 						i += 1
 						if VERBOSE:
-							print("Found raw byte code for [%s] at index %s for %s" % (hex_byte.lower(), i, match_s_raw))
+							print("Found raw byte code for [%s] at string %s, index %s for %s" % (hex_byte.lower(), string_number, i, match_s_raw))
 						break
 
 			# If we didn't find a control code lookup then just add the literal
 			if ((s_found is False) and (s_code is True)) and (len(s_byte) == 4):
 				if VERBOSE:
-					print("WARNING! No lookup for control byte [%s] at index %s - adding %s" % (s_byte, i, s_byte[1:-1]))
+					print("WARNING! No lookup for control byte [%s] at string %, index %s - adding %s" % (s_byte, string_number, i, s_byte[1:-1]))
 				encoded_as_hex.append(s_byte[1:-1].lower().encode('utf8'))
 				s_found = True
 				i += 1
 				
 			# If we didn't find a character lookup, then... erm... I don't know!
 			if s_found is False:
-				print("WARNING! No lookup for [%s] at index %s" % (s.encode('utf8'), i))
+				if s_code:
+					print("WARNING! No lookup for [%s] at string %s, index %s" % (s_byte.encode('utf8'), string_number, i))
+				else:
+					print("WARNING! No lookup for [%s] at string %s, index %s" % (s.encode('utf8'), string_number, i))
 				print("Full string is: %s" % string.encode('utf8'))
 				print("")
 				i += 1
@@ -165,6 +168,7 @@ def encode_text(string, trans_table):
 		print("Encoded as %s bytes" % len(encoded_as_hex))
 	if errors:
 		print("Errors encountered. Encoded bytes: %s" % encoded_as_hex)
+		sys.exit(1)
 	return encoded_as_hex
 
 def translate_double_string(bytes, trans_table_double, alt=False):
