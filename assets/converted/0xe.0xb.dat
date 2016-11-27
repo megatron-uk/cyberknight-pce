@@ -1007,11 +1007,11 @@
 			"string_size" : 31,
 			"start_pos" : "0x1defc",
 			"bytes" : ["1a", "5f", "4d", "49", "43", "41", "a2", "bb", "b8", "be", "dd", "5c", "b4", "d8", "b1", "5c", "b6", "d7", "20", "ca", "bd", "de", "da", "c3", "b2", "cf", "bd", "a3", "08", "1b", "01"],
-			"PCE_japanese" : "<newbox_26x1@middle_centred>MICA『さくせんエリアから はずれています』<wait><closebox><addrow>",
+			"PCE_japanese" : "<newbox_b_26x1@middle_centred>MICA『さくせんエリアから はずれています』<wait><closebox><addrow>",
 			"SNES_japanese" : "MICA「さくせんエリアから はずれています。」",
 			"SNES_english" : "Mica: Do not leave the\nmission area. ",
 			"SNES_accuracy" : 0.914285714286,
-			"PCE_english" : "<newbox_26x1@middle_centred><NPC_Mica>: Stay in this area!<wait><closebox><addrow>",
+			"PCE_english" : "<newbox_b_26x1@middle_centred><NPC_Mica>: Stay in this area!<wait><closebox><addrow>",
 			"notes" : ""
 		},
 		{
