@@ -15,8 +15,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Scrolling end game text",
-			"notes" : ""
+			"PCE_english" : "",
+			"notes" : "This asset contains the final credits of the game."
 		},
 		{
 			"string_number" : 2,

@@ -376,7 +376,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "<newbox_24x2@middle_centred><NPC_Seeclan>: I've finished!<pause>>\nHere you go...<wait>"
 		},
 		{
 			"string_number" : 32,
@@ -395,11 +395,11 @@
 			"string_size" : 23,
 			"start_pos" : "0x1741e",
 			"bytes" : ["1a", "20", "10", "41", "a2", "ba", "de", "cc", "de", "bc", "de", "a6", "20", "b2", "c9", "af", "c3", "03", "b2", "cf", "bd", "a3", "08"],
-			"PCE_japanese" : "<newbox_15x2@top_left><NPC_Seeclan>『ごぶじを いのって<newline_tab>います』<wait>",
+			"PCE_japanese" : "<newbox_a_15x2@top_left><NPC_Seeclan>『ごぶじを いのって<newline_tab>います』<wait>",
 			"SNES_japanese" : "シークラン「ごぶじを いのっています。」",
 			"SNES_english" : "Seeclan: Good luck!",
 			"SNES_accuracy" : 0.88,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_a_15x2@top_left><NPC_Seeclan>: Good\nluck to you!<wait>",
 			"notes" : ""
 		},
 		{
@@ -419,7 +419,7 @@
 			"string_size" : 248,
 			"start_pos" : "0x17436",
 			"bytes" : ["1a", "26", "10", "42", "07", "06", "02", "a2", "5c", "d6", "b0", "dd", "5c", "c4", "b2", "b3", "02", "20", "be", "b2", "b9", "b2", "c6", "b1", "d9", "02", "20", "5c", "bd", "b0", "cc", "df", "5c", "c9", "20", "d6", "b3", "c5", "02", "20", "d5", "b3", "b7", "cc", "de", "c2", "c9", "02", "20", "b3", "d0", "c6", "20", "b5", "b5", "dc", "da", "c0", "02", "20", "dc", "b8", "be", "b2", "5c", "bd", "d7", "b3", "da", "5c", "a6", "02", "20", "bc", "af", "c4", "d9", "b6", "c8", "3f", "a3", "08", "07", "06", "02", "a2", "b1", "c9", "ce", "bc", "ca", "02", "20", "b2", "b7", "c3", "b5", "d9", "a1", "a3", "08", "0c", "10", "42", "07", "06", "02", "a2", "b3", "d0", "be", "de", "dd", "c0", "b2", "b6", "de", "02", "20", "c0", "b6", "b2", "20", "c1", "c9", "b3", "a6", "02", "20", "d3", "af", "c0", "20", "b7", "ae", "c0", "de", "b2", "c5", "02", "20", "be", "b2", "d2", "b2", "c0", "b2", "c5", "c9", "02", "20", "bc", "de", "ac", "a1", "02", "20", "c3", "de", "dd", "ca", "df", "c3", "de", "02", "20", "d6", "cb", "de", "b6", "b9", "da", "ca", "de", "02", "20", "ba", "c0", "b4", "c3", "b8", "da", "d9", "02", "20", "ca", "bd", "de", "bc", "de", "ac", "a3", "08", "0c", "10", "42", "07", "06", "02", "a2", "5c", "bd", "d7", "b3", "da", "5c", "c9", "02", "20", "b3", "d0", "c5", "d7", "a4", "02", "20", "5c", "d2", "dd", "c0", "b0", "c5", "5c", "c9", "02", "20", "bc", "ae", "b3", "c0", "b2", "a6", "02", "20", "bc", "af", "c3", "b5", "d9", "02", "20", "bc", "de", "ac", "db", "b3", "a3", "08"],
-			"PCE_japanese" : "<newbox_10x8@middle_left><NPC_Mayor><slow><06>\n『ヨ‐ンという\n せいけいにおる\n ス‐プの ような\n ゆうきぶつの\n うみに おおわれた\n わくせいスラウレを\n しっとるかね?』<wait><slow><06>\n『おのほしは\n いきておる。』<wait><erasebox><NPC_Mayor><slow><06>\n『うみぜんたいが\n たかい ちのうを\n もった きょだいな\n せいめいたいなの\n じゃ。\n でんぱで\n よびかければ\n こたえてくれる\n はずじゃ』<wait><erasebox><NPC_Mayor><slow><06>\n『スラウレの\n うみなら、\n メンタ‐ナの\n しょうたいを\n しっておる\n じゃろう』<wait>",
+			"PCE_japanese" : "<newbox_a_10x8@middle_left><NPC_Mayor><slow><06>\n『ヨ‐ンという\n せいけいにおる\n ス‐プの ような\n ゆうきぶつの\n うみに おおわれた\n わくせいスラウレを\n しっとるかね?』<wait><slow><06>\n『おのほしは\n いきておる。』<wait><erasebox><NPC_Mayor><slow><06>\n『うみぜんたいが\n たかい ちのうを\n もった きょだいな\n せいめいたいなの\n じゃ。\n でんぱで\n よびかければ\n こたえてくれる\n はずじゃ』<wait><erasebox><NPC_Mayor><slow><06>\n『スラウレの\n うみなら、\n メンタ‐ナの\n しょうたいを\n しっておる\n じゃろう』<wait>",
 			"SNES_japanese" : "ちょうろう「ヨーンという せいけいにある\n    スープのような ゆうきぶつの うみに\n    おおわれた わくせいスラウレを\n    しっとるかね?」",
 			"SNES_english" : "Mayor: Do you know a\nplanet called Sraule\nin the Yorn system? ",
 			"SNES_accuracy" : 0.87037037037,
@@ -443,11 +443,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x1752f",
 			"bytes" : ["1a", "22", "10", "42", "07", "06", "a2", "b3", "c1", "ad", "b3", "c9", "b2", "b7", "d3", "c9", "ca", "20", "d0", "dd", "c5", "cb", "c4", "c2", "bc", "de", "ac", "a3", "08"],
-			"PCE_japanese" : "<newbox_25x1@middle_centred><NPC_Mayor><slow><06>『うちゅうのいきものは みんなひとつじゃ』<wait>",
-			"SNES_japanese" : "",
+			"PCE_japanese" : "<newbox_a_25x1@middle_centred><NPC_Mayor><slow><06>『うちゅうのいきものは みんなひとつじゃ』<wait>",
+			"SNES_japanese" : "Mayor: [speed_0A]All life in\nthis galaxy is one",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_a_20x3@bottom_left><NPC_Mayor>:<slow><06> All life in\nthis Galaxy is one.<wait>",
 			"notes" : ""
 		},
 		{
@@ -467,11 +467,11 @@
 			"string_size" : 84,
 			"start_pos" : "0x1754d",
 			"bytes" : ["1a", "24", "10", "40", "a2", "b1", "d8", "b6", "de", "c4", "b3", "20", "ba", "de", "bb", "de", "b2", "cf", "bd", "a1", "a3", "08", "0c", "10", "40", "a2", "ba", "da", "b6", "d7", "d3", "20", "ba", "de", "bc", "ad", "bc", "de", "dd", "c0", "c1", "c4", "20", "c4", "d3", "c6", "03", "ba", "c9", "ce", "bc", "a6", "20", "cc", "af", "ba", "b3", "bb", "be", "d9", "20", "c4", "de", "d8", "ae", "b8", "a6", "03", "c2", "c2", "de", "b9", "c3", "d5", "b8", "20", "c2", "d3", "d8", "c3", "de", "bd", "a3", "08"],
-			"PCE_japanese" : "<newbox_26x3@top_centred><NPC_Robot>『おりがとう ございます。』<wait><erasebox><NPC_Robot>『これからも ごしゅじんたちと ともに<newline_tab>このほしを ふっこうさせる どりょくを<newline_tab>つづけてゆく つもりです』<wait>",
-			"SNES_japanese" : "",
+			"PCE_japanese" : "<newbox_a_26x3@top_centred><NPC_Robot>『おりがとう ございます。』<wait><erasebox><NPC_Robot>『これからも ごしゅじんたちと ともに<newline_tab>このほしを ふっこうさせる どりょくを<newline_tab>つづけてゆく つもりです』<wait>",
+			"SNES_japanese" : "Robot: Thank you. I'll do\nmy best to restore this\nplanet with my master. ",
 			"SNES_english" : "",
-			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"SNES_accuracy" : 0.75,
+			"PCE_english" : "<newbox_a_26x3@top_centred><NPC_Robot>: Thank you!<pause>> I'll do\nmy best to restore this\nplanet, with my master.<wait>",
 			"notes" : ""
 		},
 		{
@@ -491,11 +491,11 @@
 			"string_size" : 30,
 			"start_pos" : "0x175a2",
 			"bytes" : ["1a", "1e", "10", "41", "a2", "b1", "b1", "a4", "c0", "b2", "b8", "c2", "c5", "20", "c4", "b3", "d0", "dd", "ca", "03", "cf", "af", "cb", "df", "d7", "c0", "de", "21", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x2@top_centred><NPC_Seeclan>『おお、たいくつな とうみんは<newline_tab>まっぴらだ!』<wait>",
+			"PCE_japanese" : "<newbox_a_24x2@top_centred><NPC_Seeclan>『おお、たいくつな とうみんは<newline_tab>まっぴらだ!』<wait>",
 			"SNES_japanese" : "シークラン「たいくつな とうみんは まっぴらだ！」",
 			"SNES_english" : "Seeclan: Now I got\nsomething to do!",
 			"SNES_accuracy" : 0.810810810811,
-			"PCE_english" : "",
+			"PCE_english" : "<newbox_a_24x2@top_centred><NPC_Seeclan>: Now I have\nsomething worth doing!<wait>",
 			"notes" : ""
 		},
 		{

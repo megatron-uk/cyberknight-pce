@@ -16,7 +16,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "This asset contains all of the navigation options whilst on the ship, as well as dialogue between the player and the doctor screen and science screen - healing, researching new items, etc."
 		},
 		{
 			"string_number" : 2,

@@ -16,7 +16,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<end>",
-			"notes" : ""
+			"notes" : "This asset contains code for main game menus, ship navigation, save screens and player party screens."
 		},
 		{
 			"string_number" : 2,

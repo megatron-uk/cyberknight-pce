@@ -16,7 +16,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<end>",
-			"notes" : ""
+			"notes" : "This asset contains all of the monster names in the game."
 		},
 		{
 			"string_number" : 2,

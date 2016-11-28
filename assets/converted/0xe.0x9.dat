@@ -16,7 +16,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "This asset contains all of the weapon names and descriptions in the game"
 		},
 		{
 			"string_number" : 2,

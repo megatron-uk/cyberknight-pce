@@ -1095,7 +1095,7 @@
 			"SNES_japanese" : "もんばん「まて！ ここは おそれおおくも\n    ファーワールドの\n    だいとうりょうかんていだぞ！」",
 			"SNES_english" : "Guard: Halt! This is the\nPresident's Palace!",
 			"SNES_accuracy" : 0.815789473684,
-			"PCE_english" : "<newbox_a_26x3@top_centred>Guard: Halt!\nThis is the Presidential\nPalace!<newbox_a_26x3@bottom_centred><NPC_Klein>: Palace?<pause>> Since when\ndoes a President live like\na King? This isn't right.<pause>><newbox_a_23x1@middle_centred><Player_Name>: Steady <NPC_Klein>...<wait><erasebox><Player_Name>: this is not our world.<pause>><jumptobox_last_active_plus_1><erasebox>Guard: I cannot allow you to\npass!<wait><newbox_a_16x1@top_right><11><16><06>/‥‥‥‥ ‥‥‥‥<padH>ラ         <padH>ラ<06>/‥‥‥‥ ‥‥‥‥<padH>ラ         <padH>ラ<11><06>",
+			"PCE_english" : "<newbox_a_26x3@top_centred>Guard: Halt!\nThis is the Presidential\nPalace!<erasebox>Guard: I cannot allow you to\npass!<wait><newbox_a_16x1@top_right><11><16><06>/‥‥‥‥ ‥‥‥‥<padH>ラ         <padH>ラ<06>/‥‥‥‥ ‥‥‥‥<padH>ラ         <padH>ラ<11><06>",
 			"notes" : ""
 		},
 		{
