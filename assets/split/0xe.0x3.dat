@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<13><C2><3D>",
 			"notes" : "This seems to refer to the player character."
 		},
 		{
