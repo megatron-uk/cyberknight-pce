@@ -87,7 +87,7 @@
 			"SNES_japanese" : "    きょだい しきかんタイプ バーサーカーです。\n    このふねの ちゅうしんです。」",
 			"SNES_english" : "A Commander type Berserker\nis in this ship's core. ",
 			"SNES_accuracy" : 0.828571428571,
-			"PCE_english" : "",
+			"PCE_english" : "<13><9E><7A>DANGER: A Commander type\nBerzerker is in the ship core.",
 			"notes" : ""
 		},
 		{
@@ -567,7 +567,7 @@
 			"SNES_japanese" : "    はちゅうるいがた こうとうせいぶつ。\n    バーサーカーの てしたのようです。」",
 			"SNES_english" : "A slave of the Berserkers. ",
 			"SNES_accuracy" : 0.828571428571,
-			"PCE_english" : "",
+			"PCE_english" : "<13><8B><7A>It seems to be a slave\nof the Berzerkers.",
 			"notes" : ""
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"SNES_japanese" : "    どんな しゅだんを つかっても\n    かてるとおもいます。」",
 			"SNES_english" : "It should be pretty\neasy. ",
 			"SNES_accuracy" : 0.88,
-			"PCE_english" : "",
+			"PCE_english" : "<13><F9><7A>It should be fairly easy.",
 			"notes" : ""
 		},
 		{
@@ -1659,7 +1659,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<13><F9><7A>I can offer no strategy\nhere that would help.",
 			"notes" : ""
 		},
 		{
@@ -1683,7 +1683,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<13>ルz<slow><0A>‥‥‥‥‥‥‥‥‥‥<slow><addrow> FIGHT!!!",
 			"notes" : ""
 		},
 		{
@@ -1707,7 +1707,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<13><F9><7A>Let's clean up here quickly",
 			"notes" : ""
 		},
 		{
@@ -1731,7 +1731,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<13><F9><7A>Please engage closely,\nuse hand-to-hand combat.",
 			"notes" : ""
 		},
 		{
@@ -2019,7 +2019,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<13><endwait><gun>Cook says well done!\nDinner tonight will be fab!",
 			"notes" : "Another message from the cook? Not in SNES text."
 		},
 		{
@@ -2307,7 +2307,7 @@
 			"SNES_japanese" : "MICA「しんでしまうとは なさけない・・・\n\n    おや！? まだ まけてなかったのですね。」",
 			"SNES_english" : "Mica: I can't watch... ",
 			"SNES_accuracy" : 0.861111111111,
-			"PCE_english" : "",
+			"PCE_english" : "<13><1C><7B>Is it over yet?\nMy scanners can't bear to watch...",
 			"notes" : ""
 		},
 		{
@@ -2355,7 +2355,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: Don't waste your life!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13>.<gun> Don't waste your life!!",
+			"PCE_english" : "<13>.<gun>Don't waste your life!!",
 			"notes" : ""
 		},
 		{
@@ -2379,7 +2379,7 @@
 			"SNES_japanese" : "MICA「オプションは こうかな ぶきです。\n    せつやくしましょう。」",
 			"SNES_english" : "Mica: Options aren't\nlimitless;conserve them!",
 			"SNES_accuracy" : 0.925925925926,
-			"PCE_english" : "<13>.<gun> Options aren't\nlimitless, conserve them!",
+			"PCE_english" : "<13>.<gun>Options aren't\nlimitless, conserve them!",
 			"notes" : ""
 		},
 		{
@@ -2403,7 +2403,7 @@
 			"SNES_japanese" : "MICA「コックより でんごん。\n    あしたのステーキは そいつでいこう！」",
 			"SNES_english" : "Mica: A message from the\ncook: Yeah! Dinner!",
 			"SNES_accuracy" : 0.827586206897,
-			"PCE_english" : "",
+			"PCE_english" : "<13><2E><gun>A message from cook:\n Dinnertime!",
 			"notes" : ""
 		},
 		{

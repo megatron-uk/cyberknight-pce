@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Turn\n Skip",
+			"PCE_english" : " Turn\n Run!",
 			"notes" : "Main battle menu options, get a character to take a turn, or skip and pass to enemy."
 		},
 		{
@@ -471,7 +471,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "<14><05><closebox>",
 			"notes" : ""
 		},
 		{
@@ -735,8 +735,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<0B><12>゜<Name_of_NPC_or_enemy><09><endwait>",
+			"notes" : "This is the name of the targetted enemy, as selected by a player, and displayed in the bottom status window. e.g. Kira attack >>> GremlinA"
 		},
 		{
 			"string_number" : 62,
@@ -759,8 +759,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "<padH><slow><padV>\n<Name_of_NPC_or_enemy>",
+			"notes" : "Shows the attacker part of a 'attacker vs defender' message"
 		},
 		{
 			"string_number" : 64,
@@ -783,8 +783,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : " vs <Name_of_NPC_or_enemy>",
+			"notes" : "Shows the 'vs defender' part of a 'attacker vs defender' message"
 		},
 		{
 			"string_number" : 66,
@@ -851,11 +851,11 @@
 			"string_size" : 14,
 			"start_pos" : "0x1d09c",
 			"bytes" : ["0b", "02", "1a", "09", "1c", "0b", "02", "18", "09", "1c", "0b", "02", "16", "10"],
-			"PCE_japanese" : "<0B>\n<newbox_09><endwait><0B>\n<18><09><endwait><0B>\n<16><10>",
+			"PCE_japanese" : "<0B>\n<newbox><09><endwait><0B>\n<18><09><endwait><0B>\n<16><10>",
 			"SNES_japanese" : "",
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B>\n<newbox><09><endwait><0B>\n<18><09><endwait><0B>\n<16><10>",
 			"notes" : ""
 		},
 		{
@@ -879,7 +879,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<09><endwait><padH>ヒ",
 			"notes" : ""
 		},
 		{
@@ -899,11 +899,11 @@
 			"string_size" : 14,
 			"start_pos" : "0x1d0b0",
 			"bytes" : ["0b", "02", "1a", "09", "1c", "0b", "02", "18", "10", "01", "09", "1c", "0d", "eb"],
-			"PCE_japanese" : "<0B>\n<newbox_09><endwait><0B>\n<18><10><addrow><09><endwait><padH>ヒ",
+			"PCE_japanese" : "<0B>\n<newbox><09><endwait><0B>\n<18><10><addrow><09><endwait><padH>ヒ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B>\n<newbox><09><endwait><0B>\n<18><10><addrow><09><endwait><padH>ヒ",
 			"notes" : ""
 		},
 		{
@@ -923,11 +923,11 @@
 			"string_size" : 9,
 			"start_pos" : "0x1d0bf",
 			"bytes" : ["0b", "02", "1a", "10", "02", "09", "1c", "0d", "eb"],
-			"PCE_japanese" : "<0B>\n<newbox_10>\n<09><endwait><padH>ヒ",
+			"PCE_japanese" : "<0B>\n<newbox><10>\n<09><endwait><padH>ヒ",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B>\n<newbox><10>\n<09><endwait><padH>ヒ",
 			"notes" : ""
 		},
 		{
@@ -1119,8 +1119,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B>\n<18>Damage: -<18><C4><2D>",
-			"notes" : "Shown immediatly after combat animation - one particular type of damage result. Shows player damage versus an enemy. e.g. Dmg: <dmg_value> <enemy_name>"
+			"PCE_english" : "<0B>\n<18>Hit! -<18><C4><2D>",
+			"notes" : "Shown immediatly after combat animation - one particular type of damage result. Shows player damage versus an enemy. e.g. Dmg: -<dmg_value>HP <enemy_name>"
 		},
 		{
 			"string_number" : 94,
@@ -1139,11 +1139,11 @@
 			"string_size" : 3,
 			"start_pos" : "0x1d11a",
 			"bytes" : ["20", "10", "ff"],
-			"PCE_japanese" : "HP - <Name_of_NPC_or_enemy>",
+			"PCE_japanese" : " <Name_of_NPC_or_enemy>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " HP <Name_of_NPC_or_enemy>",
 			"notes" : ""
 		},
 		{
@@ -1167,7 +1167,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><padV><17><slow><10>Damage: -<18><DB><2D>",
+			"PCE_english" : "<0B><padV><17>Damage! -<18><DB><2D>",
 			"notes" : "Shown immediately after combat animation - a second type of damage result. This shows enemy damage versus a player character."
 		},
 		{
@@ -1187,11 +1187,11 @@
 			"string_size" : 3,
 			"start_pos" : "0x1d12d",
 			"bytes" : ["20", "10", "ff"],
-			"PCE_japanese" : "HP - <Name_of_NPC_or_enemy>",
+			"PCE_japanese" : " <Name_of_NPC_or_enemy>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " HP <Name_of_NPC_or_enemy>",
 			"notes" : ""
 		},
 		{
@@ -1235,11 +1235,11 @@
 			"string_size" : 3,
 			"start_pos" : "0x1d140",
 			"bytes" : ["20", "10", "ff"],
-			"PCE_japanese" : "EP - <Name_of_NPC_or_enemy>",
+			"PCE_japanese" : " <Name_of_NPC_or_enemy>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " EP <Name_of_NPC_or_enemy>",
 			"notes" : ""
 		},
 		{
@@ -1477,9 +1477,9 @@
 			"bytes" : ["11", "04", "03", "10"],
 			"PCE_japanese" : "<11><pause><newline_tab><10>",
 			"SNES_japanese" : "",
-			"SNES_english" : "planet",
-			"SNES_accuracy" : 1.0,
-			"PCE_english" : "",
+			"SNES_english" : "",
+			"SNES_accuracy" : 0.0,
+			"PCE_english" : "<11><pause><newline_tab><10>",
 			"notes" : ""
 		},
 		{
@@ -1779,7 +1779,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : " <14><newline_tab>゜<09><0A>\n",
 			"notes" : ""
 		},
 		{
@@ -1899,7 +1899,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<padH>\n<padV>\n<Name_of_NPC_or_enemy> uses defense Field\n",
+			"PCE_english" : "<padH>\n<padV>\n<Name_of_NPC_or_enemy> using defense Field\n",
 			"notes" : ""
 		},
 		{

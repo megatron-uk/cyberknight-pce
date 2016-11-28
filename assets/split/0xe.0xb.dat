@@ -1407,7 +1407,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><kanji>340B120C530B120E530B12<0B><12><12>M<0B><12><14>X<0B><12><16>M<0B><19><padV><block><block><block><0B><19><10><block><block><block><0B><19><12><block><block><block><0B><19><14><block><block><block><0B><19><16><block><block><0B><0F><newbox>Impact/Lasr/Beam",
 			"notes" : ""
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><kanji>340B120C530B120E530B12<0B><12><12>S<0B><12><14>S<0B><12><16>X<0B><19><padV><block><block><block><0B><19><10><block><block><0B><19><12><block><block><block><0B><19><14><block><block><block><0B><19><16><block><block><0B><0F><newbox>Impact/Beam/Heat",
 			"notes" : ""
 		},
 		{
@@ -1503,7 +1503,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><kanji>340B120C530B120E530B12<0B><12><12>L<0B><12><14>X<0B><12><16>X<0B><19><padV><block><block><0B><19><10><block><0B><19><12><block><block><block><block><block><0B><19><14><block><block><block><block><block><0B><19><16><block><0B><0F><newbox>Impact",
 			"notes" : ""
 		},
 		{
@@ -1547,7 +1547,7 @@
 			"string_size" : 71,
 			"start_pos" : "0x1e1b5",
 			"bytes" : ["0b", "1d", "0b", "35", "0b", "12", "0c", "53", "0b", "12", "0e", "4c", "0b", "12", "12", "4c", "0b", "12", "14", "4c", "0b", "12", "16", "4c", "0b", "19", "0e", "7e", "7e", "7e", "7e", "0b", "19", "10", "7e", "7e", "7e", "7e", "0b", "19", "12", "7e", "0b", "19", "14", "7e", "0b", "19", "16", "7e", "0b", "0f", "1a", "5c", "b2", "dd", "ca", "df", "b8", "c4", "2f", "da", "b0", "bb", "de", "b0", "2f", "cb", "de", "b0", "d1"],
-			"PCE_japanese" : "<0B><kanji>350B120C530B120E4C0B12<0B><12><12>L<0B><12><14>L<0B><12><16>L<0B><19><padV><block><block><block><block><0B><19><10><block><block><block><block><0B><19><12><block><0B><19><14><block><0B><19><16><block><0B><0F><newbox>インパクト/レ‐ザ‐/ビ‐む",
+			"PCE_japanese" : "<0B><kanji>350B120C530B120E4C0B12<0B><12><12>L<0B><12><14>L<0B><12><16>L<0B><19><padV><block><block><block><block><0B><19><10><block><block><block><block><0B><19><12><block><0B><19><14><block><0B><19><16><block><0B><0F><newbox>Impact/Lasr/Beam",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -1599,7 +1599,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<0B><kanji>330B120C4C0B120E4C0B12<0B><12><12>S<0B><12><14>X<0B><12><16>X<0B><19><padV><block><block><block><block><block><0B><19><10><block><block><block><block><block><0B><19><12><block><0B><19><14><block><0B><19><16><block><block><block><block><block><0B><0F><newbox>Impact",
 			"notes" : ""
 		},
 		{
@@ -1743,8 +1743,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : ""
+			"PCE_english" : "Coords : <14><addrow><FF> <09><13>\nJump Coords : ....... ",
+			"notes" : "Shown when setting a destination for the jump drive."
 		},
 		{
 			"string_number" : 146,
@@ -1755,7 +1755,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1779,7 +1779,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1803,7 +1803,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "<end>",
 			"notes" : ""
 		},
 		{
@@ -1812,9 +1812,9 @@
 			"start_pos" : "0x1e301",
 			"bytes" : ["0b", "13", "15", "c0", "de", "b2", "18", "98", "28", "21", "dc", "b8", "be", "b2", "09", "14"],
 			"PCE_japanese" : "<0B><13><15>だい<18>ク(!わくせい<09><14>",
-			"SNES_japanese" : "だいわくせい",
-			"SNES_english" : "Planet ",
-			"SNES_accuracy" : 0.8,
+			"SNES_japanese" : "",
+			"SNES_english" : "",
+			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
 			"notes" : ""
 		},

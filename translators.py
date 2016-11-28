@@ -347,7 +347,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 							for c in translated_chars:
 								if VERBOSE:
 									print("Adding double height chars <%s>" % c)
-								byte_sequence[text_key].append(c).encode('utf-8')
+								byte_sequence[text_key].append(c.encode('utf-8'))
 							already_decoded = True
 							if VERBOSE:
 								print "Jump to %s" % already_i
@@ -359,6 +359,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 					except Exception as e:
 						print traceback.format_exc()
 						print e
+						print("Error in string: %s" % byte_sequence)
+						sys.exit(1)
 						b = b1
 			else:
 				b = b1
