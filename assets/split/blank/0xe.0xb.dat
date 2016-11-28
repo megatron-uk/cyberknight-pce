@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Sci.\n Med.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Team\n Tech",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Med.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Team\n Tech\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Nav.",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Team\n Tech\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Nav.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Sci.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -267,7 +267,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Tech\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Nav.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -315,7 +315,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Sci.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Med.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -363,7 +363,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Nav.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -387,7 +387,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Sci.\n Med.\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -411,7 +411,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Team\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -435,7 +435,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : " Scan\n Land\n SJump\n",
+			"PCE_english" : "",
 			"notes" : "Start of nav screen menu options"
 		},
 		{
@@ -459,7 +459,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " LJump\n Move",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -483,7 +483,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Orbit\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -507,7 +507,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Move",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -519,7 +519,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : "End of nav screen menu options whilst on the ground"
 		},
 		{
@@ -531,7 +531,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Data\n Move",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -555,7 +555,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Heal\n Cloning\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -579,7 +579,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Move",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -603,7 +603,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Stats\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -627,7 +627,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Team\n Move",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -639,7 +639,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : "Not a delimeter"
 		},
 		{
@@ -651,7 +651,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -675,7 +675,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -687,7 +687,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -699,7 +699,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -711,7 +711,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -723,7 +723,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -735,7 +735,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : "End of team screen menu options"
 		},
 		{
@@ -747,7 +747,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Fix\n Data\n Equip\n Mecha\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -795,7 +795,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " World\n Move",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -807,7 +807,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : "End of Mecha hangar menu options whilst on ground"
 		},
 		{
@@ -819,7 +819,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Shoot\n Missl\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -843,7 +843,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Field\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -855,7 +855,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -867,7 +867,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -879,7 +879,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -891,7 +891,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -903,7 +903,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : "End of normal battle menu options - shoot/missile/shield"
 		},
 		{
@@ -915,7 +915,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Fix\n Data\n Equip\n Mecha\n Move",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -927,7 +927,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : "Not a delimiter"
 		},
 		{
@@ -939,7 +939,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<font>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -951,7 +951,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : "End of mecha hangar options whilst in space"
 		},
 		{
@@ -963,7 +963,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Save\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -987,7 +987,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Pass",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -999,7 +999,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : "End of med bay savegame menu options"
 		},
 		{
@@ -1007,11 +1007,11 @@
 			"string_size" : 31,
 			"start_pos" : "0x1defc",
 			"bytes" : ["1a", "5f", "4d", "49", "43", "41", "a2", "bb", "b8", "be", "dd", "5c", "b4", "d8", "b1", "5c", "b6", "d7", "20", "ca", "bd", "de", "da", "c3", "b2", "cf", "bd", "a3", "08", "1b", "01"],
-			"PCE_japanese" : "<newbox_b_26x1@middle_centred>MICA『さくせんエリアから はずれています』<wait><closebox><addrow>",
+			"PCE_japanese" : "<newbox_26x1@middle_centred>MICA『さくせんエリアから はずれています』<wait><closebox><addrow>",
 			"SNES_japanese" : "MICA「さくせんエリアから はずれています。」",
 			"SNES_english" : "Mica: Do not leave the\nmission area. ",
 			"SNES_accuracy" : 0.914285714286,
-			"PCE_english" : "<newbox_b_26x1@middle_centred><NPC_Mica>: Stay in this area!<wait><closebox><addrow>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1035,7 +1035,7 @@
 			"SNES_japanese" : "「かいせき するものは なにも ないぞ！」",
 			"SNES_english" : "There isn't anything\nwe can analyze!",
 			"SNES_accuracy" : 0.882352941176,
-			"PCE_english" : "<NPC_Labguy>: Nothing to analyse.<pause>>\nFind me some more items.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1059,7 +1059,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "You're all fixed up. \nBe careful!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Doctor>: You're fully healed.\nBe careful out there!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1083,7 +1083,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Doctor>: This is your clone code.",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1107,7 +1107,7 @@
 			"SNES_japanese" : "「こいのやまいは\nわたしの たんとうじゃないの。」",
 			"SNES_english" : "You don't need my\nhelp right now. ",
 			"SNES_accuracy" : 0.913043478261,
-			"PCE_english" : "<NPC_Doctor>: You don't seem to\nneed my help right now.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1131,7 +1131,7 @@
 			"SNES_japanese" : "「しゅうり かんりょう。\nもう こわして くれるなよ！」",
 			"SNES_english" : "Repairs are\ncomplete. ",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "<NPC_Engineer>: Work complete.<pause>>\nYou're good to go!<wait>",
+			"PCE_english" : "",
 			"notes" : "This uses a 26x2 dialogue box"
 		},
 		{
@@ -1155,7 +1155,7 @@
 			"SNES_japanese" : "「リペアキット・キュアキットを\nほじゅうしといたぜ。」",
 			"SNES_english" : "I restocked your\nRepair and Cure\nKits too. ",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "<erasebox><NPC_Engineer>: Your RepKits and\nMedKits are all restocked too.<wait>",
+			"PCE_english" : "",
 			"notes" : "This uses a 26x2 dialogue box"
 		},
 		{
@@ -1179,7 +1179,7 @@
 			"SNES_japanese" : "「どこも こわれてないぜ。\nチューンは ギンギンだぜ！！」",
 			"SNES_english" : "Everything's in\ngood shape!",
 			"SNES_accuracy" : 0.807692307692,
-			"PCE_english" : "<NPC_Engineer>: Status is good.\nAll systems show green!<wait>",
+			"PCE_english" : "",
 			"notes" : "This uses a 26x2 dialogue box"
 		},
 		{
@@ -1251,7 +1251,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Good luck!!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Good Luck!!<endwait><addrow>",
+			"PCE_english" : "",
 			"notes" : "Shown when leaving the Swordfish to start a mission. This is a 18x1 dialogue box!"
 		},
 		{
@@ -1299,7 +1299,7 @@
 			"SNES_japanese" : "MICA「おかえりなさい！！\nミッション ごくろうさまでした。」",
 			"SNES_english" : "Mica: Welcome back!!\nYou did quite well!",
 			"SNES_accuracy" : 0.846153846154,
-			"PCE_english" : "<NPC_Mica>: Welcome back!!<pause>> You did\nrather well this time!\n",
+			"PCE_english" : "",
 			"notes" : "Shown in a 27x6 text window on returning to the ship from a mission."
 		},
 		{
@@ -1323,7 +1323,7 @@
 			"SNES_japanese" : "「またしんだの。\nいそいで クローンさいせい するわ。」",
 			"SNES_english" : "Let's generate\na clone. ",
 			"SNES_accuracy" : 0.88,
-			"PCE_english" : "<NPC_Doctor>: Lets generate a clone.",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1347,7 +1347,7 @@
 			"SNES_japanese" : "「つぎは きをつけなさいよ。」",
 			"SNES_english" : "Be careful next\ntime!",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "<erasebox><NPC_Doctor>: Be careful next time!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1827,7 +1827,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1839,7 +1839,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Doctor>: Welcome back, <Player_Name>.<pause>><erasebox><NPC_Doctor>: How are you feeling?<wait>",
+			"PCE_english" : "",
 			"notes" : "Said by the doctor when you load a saved game / clone. Sort of a 'welcome back' message."
 		},
 		{
@@ -1851,7 +1851,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1863,7 +1863,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Doctor>: Welcome back, <Player_Name>.<pause>><erasebox><NPC_Doctor>: How are you feeling?<wait>",
+			"PCE_english" : "",
 			"notes" : "Seems to be a duplicate of the message said when loading a saved game."
 		},
 		{
@@ -1887,7 +1887,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Doctor>: Welcome back, <Player_Name>.<pause>><erasebox><NPC_Doctor>: How are you feeling?<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -4563,7 +4563,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Type: <0B><padV><0A>1H <0B><padV><padV>2H",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{

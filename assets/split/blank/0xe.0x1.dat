@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Y/N ",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13>+J",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Abilities<padH><2D>",
+			"PCE_english" : "",
 			"notes" : "Menu screen configuring player character stats. "
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -135,7 +135,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Player<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Name :",
+			"PCE_english" : "",
 			"notes" : "Player name entry screen."
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -279,7 +279,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -291,7 +291,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "  Sex :\n F    M",
+			"PCE_english" : "",
 			"notes" : "This doest appear to show anywhere in the game - was it a left-over sex selection option?"
 		},
 		{
@@ -303,7 +303,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -315,7 +315,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Txt",
+			"PCE_english" : "",
 			"notes" : "Changes the text mode on the player name entry screen - katakana, hiragana, english"
 		},
 		{
@@ -327,7 +327,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -339,7 +339,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Del",
+			"PCE_english" : "",
 			"notes" : "Delete entered characters when entering the player name."
 		},
 		{
@@ -351,7 +351,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -363,7 +363,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "-->",
+			"PCE_english" : "",
 			"notes" : "Move text entry cursor to the right on player name screen"
 		},
 		{
@@ -375,7 +375,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -387,7 +387,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<--",
+			"PCE_english" : "",
 			"notes" : "Move text cursor to the left on player name screen."
 		},
 		{
@@ -399,7 +399,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -411,7 +411,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "End",
+			"PCE_english" : "",
 			"notes" : "Submit name on player name entry screen."
 		},
 		{
@@ -423,7 +423,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -435,7 +435,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -459,7 +459,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -483,7 +483,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -495,7 +495,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><15><erasebox>Mono",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -507,7 +507,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -519,7 +519,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><15><erasebox>Stereo  ",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -531,7 +531,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -555,7 +555,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -567,7 +567,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><15><12>OFF",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -579,7 +579,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -591,7 +591,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><15><12>ON ",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -603,7 +603,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -615,7 +615,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Player Repair Heal   Items",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -627,7 +627,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -639,7 +639,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Kit",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<18>B.<13><11><addrow><padH>ン<padV>Kit<11>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -651,7 +651,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -663,7 +663,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -675,7 +675,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Kit",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<18>C.<13><11><addrow><padH>Kit<11>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -687,7 +687,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -711,7 +711,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -723,7 +723,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -735,7 +735,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -747,7 +747,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Str:<18>イ(“  Int:<18>ウ(“  Dex:<18>エ(“\n",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -759,7 +759,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -771,7 +771,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Sex:M   Class:",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -783,7 +783,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -795,7 +795,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Sex:F   Class:",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -807,7 +807,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -819,7 +819,7 @@
 			"SNES_japanese" : "コマンダー",
 			"SNES_english" : "Commander",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "Commander",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -831,7 +831,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -843,7 +843,7 @@
 			"SNES_japanese" : "ソルジャー",
 			"SNES_english" : "Soldier",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "Soldier",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -855,7 +855,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -867,7 +867,7 @@
 			"SNES_japanese" : "メカニック",
 			"SNES_english" : "Mechanic",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "Engineer",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -879,7 +879,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -891,7 +891,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Doctor",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Medic",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -903,7 +903,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -915,7 +915,7 @@
 			"SNES_japanese" : "サイエンティスト",
 			"SNES_english" : "Scientist",
 			"SNES_accuracy" : 0.875,
-			"PCE_english" : "Scientist",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -927,7 +927,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -939,7 +939,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "\n<addrow>  Skill  Lvl     Exp.   Next\n<09>\nCombat\n<09>\nTech.\n<09>\nMed. \n<09>\nSci.<padH>\n<0e><fa><0d><02>",
+			"PCE_english" : "",
 			"notes" : "Constructs the rows and columns of the NPC player skills screen."
 		},
 		{
@@ -951,7 +951,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -975,7 +975,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -987,7 +987,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "-- -------/-------",
+			"PCE_english" : "",
 			"notes" : "Shown on the player stats screen when a party member has no experience in a certain skill: combat/tech/med/science."
 		},
 		{
@@ -999,7 +999,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1011,7 +1011,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0b><0f><05>Shoot<0b><newline_tab><12>Field<0b><0f><0d>Option",
+			"PCE_english" : "",
 			"notes" : "Battle main menu options"
 		},
 		{
@@ -1023,7 +1023,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1035,7 +1035,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "Mechanic",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Use Tech.?",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1059,7 +1059,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Use RepKit?",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1071,7 +1071,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1083,7 +1083,7 @@
 			"SNES_japanese" : "「は メカニックスキルが ない！」",
 			"SNES_english" : " doesn't have\nany mechanic skills!",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "<Name_of_NPC_or_enemy> has no repair skill!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1107,7 +1107,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "No RepKits available<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1119,7 +1119,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1131,7 +1131,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " points repaired. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<18><DD><2D> points repaired!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1143,7 +1143,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1155,7 +1155,7 @@
 			"SNES_japanese" : "「そのモジュールは しんぴんと かわらないゼ。」",
 			"SNES_english" : "That module isn't\ndamaged!",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "Not damaged!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1167,7 +1167,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1191,7 +1191,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1215,7 +1215,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1239,7 +1239,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1263,7 +1263,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1287,7 +1287,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1311,7 +1311,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1335,7 +1335,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1347,7 +1347,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1359,7 +1359,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Which Dr.?",
+			"PCE_english" : "",
 			"notes" : "Choose a team member to use a healing item"
 		},
 		{
@@ -1371,7 +1371,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1383,7 +1383,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Healing?",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1395,7 +1395,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1407,7 +1407,7 @@
 			"SNES_japanese" : "「は メディックスキルが ない！」",
 			"SNES_english" : " doesn't have\nany medic skills!",
 			"SNES_accuracy" : 0.64,
-			"PCE_english" : "<Name_of_NPC_or_enemy> is not a medic!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1419,7 +1419,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1431,7 +1431,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "No MedKits available<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1455,7 +1455,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : " points treated. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<18><DD><2D> points healed<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1467,7 +1467,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1479,7 +1479,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "That person isn't\ninjured!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Not injured!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1491,7 +1491,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1515,7 +1515,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1563,7 +1563,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1587,7 +1587,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1611,7 +1611,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1635,7 +1635,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1659,7 +1659,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1671,7 +1671,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B><newline_tab><06>Repkit<18>B.<13><0B><newline_tab><08>Medkit<18>C.<13><0B><02><04>Kits<0B><10><05>Items<0B><02><0B>Stores",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1683,7 +1683,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1707,7 +1707,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1719,7 +1719,7 @@
 			"SNES_japanese" : "「は しんでいる。」",
 			"SNES_english" : " is dead. ",
 			"SNES_accuracy" : 0.933333333333,
-			"PCE_english" : "<Name_of_NPC_or_enemy> is dead.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1731,7 +1731,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1743,7 +1743,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<Player_Name><09><pause> HP:<18>6.<13>/<18><.<13>",
+			"PCE_english" : "",
 			"notes" : "Shows the amount of HP for the player character in the team stats screen."
 		},
 		{
@@ -1755,7 +1755,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1767,7 +1767,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Klein><09><pause> HP:<18>7.<13>/<18>=.<13>",
+			"PCE_english" : "",
 			"notes" : "Shows the amount of HP for NPC_Klein character in the team stats screen."
 		},
 		{
@@ -1779,7 +1779,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1791,7 +1791,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Kiri><09><pause> HP:<18>8.<13>/<18>>.<13>",
+			"PCE_english" : "",
 			"notes" : "Shows the amount of HP for the NPC_Kiri character in the team stats screen."
 		},
 		{
@@ -1803,7 +1803,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1815,7 +1815,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Shine><09><pause> HP:<18>9.<13>/<18>?.<13>",
+			"PCE_english" : "",
 			"notes" : "Shows the amount of HP for the NPC_Shine character in the team stats screen."
 		},
 		{
@@ -1827,7 +1827,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1839,7 +1839,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Vynd><09><pause> HP:<18>:.<13>/<18>©.<13>",
+			"PCE_english" : "",
 			"notes" : "Shows the amount of HP for the NPC_Vynd character in the team stats screen."
 		},
 		{
@@ -1851,7 +1851,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1863,7 +1863,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<NPC_Nehjana><09><pause> HP:<18>‥.<13>/<18>A.<13>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1875,7 +1875,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1887,7 +1887,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox>Enter the DNA code\nto revive <Player_Name>:",
+			"PCE_english" : "",
 			"notes" : "Shown when loading a savegame using the password entry method."
 		},
 		{
@@ -1899,7 +1899,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1911,7 +1911,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><endwait>Invalid DNA code!\nTry again?<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1923,7 +1923,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1935,7 +1935,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><endwait>It is not possible to copy <Player_Name>\nwith this code.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1947,7 +1947,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1959,7 +1959,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><Player_Name>, this is your code.",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1971,7 +1971,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1983,7 +1983,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox>Confirm!",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -1995,7 +1995,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2007,7 +2007,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox>Reviving a clone!",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2019,7 +2019,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2031,7 +2031,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06>/<BackupRAM>: NOT formatted.<wait><erasebox><BackupRAM>: OK to format?",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2043,7 +2043,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2055,7 +2055,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><BackupRAM> NOT useable.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2067,7 +2067,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2079,7 +2079,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06>/<13>Are you sure you\nwant to erase?",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2091,7 +2091,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2103,7 +2103,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06>/Save file corrupt!<wait>13>RI<erasebox>Create a new save file?",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2115,7 +2115,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2127,7 +2127,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06>/<BackupRAM> Not enough space.\nDelete another file?",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2139,7 +2139,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2151,7 +2151,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06>/<BackupRAM> Error!\nBRAM read error!<wait><13>RI",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2163,7 +2163,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2175,7 +2175,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06>/<BackupRAM> Error!\nBRAM write error!<wait><13>RI",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2187,7 +2187,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2199,7 +2199,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><BackupRAM> : Select a\nslot for your clone",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2211,7 +2211,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2223,7 +2223,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<BackupRAM>: Revive a\nclone with saved DNA",
+			"PCE_english" : "",
 			"notes" : "Shown in the top box when opening the 'load a saved game' screen."
 		},
 		{
@@ -2235,7 +2235,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2259,7 +2259,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2271,7 +2271,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2295,7 +2295,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2319,7 +2319,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2331,7 +2331,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<padH><06>Body Cloning(mDNA)\n DNA1<13>fI DNA2<13>fI DNA3<13>fI DNA4<13>fI",
+			"PCE_english" : "",
 			"notes" : "This has multiple embedded end bytes (see the 0x00 bytes in the byte list above), they cause problems when used in addition to ascii, hence i've taken those individual strings out."
 		},
 		{
@@ -2343,7 +2343,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2367,7 +2367,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2391,7 +2391,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2403,7 +2403,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><endwait>The clone will not\nbe revived.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2415,7 +2415,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2427,7 +2427,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><endwait>Clone save was\ncancelled.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2439,7 +2439,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2451,7 +2451,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><06><closebox>The clone has been\nsaved.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2463,7 +2463,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2475,7 +2475,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><BackupRAM> not available!!!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2487,7 +2487,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2499,7 +2499,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "Clone <13>fI",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2511,7 +2511,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2523,7 +2523,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Start\n Retry\n Load\n Settings ",
+			"PCE_english" : "",
 			"notes" : "Main Game start menu"
 		},
 		{
@@ -2535,7 +2535,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2547,7 +2547,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Savegames\n Passwords",
+			"PCE_english" : "",
 			"notes" : "Main game start menu"
 		},
 		{
@@ -2559,7 +2559,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2571,7 +2571,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Dialogue\n Audio ",
+			"PCE_english" : "",
 			"notes" : "Main game start menu - set options for dialogue speed and stereo/mono audio"
 		},
 		{
@@ -2583,7 +2583,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2595,7 +2595,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "  Slow Med. High Turbo",
+			"PCE_english" : "",
 			"notes" : "Text box speed fro main game start menu"
 		},
 		{
@@ -2607,7 +2607,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2619,7 +2619,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "  2-Ch. 1-Ch.",
+			"PCE_english" : "",
 			"notes" : "2/1 channel sound selection from main game start menu"
 		},
 		{
@@ -2631,7 +2631,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2643,7 +2643,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "    Cyber Knight - r<GIT_REVISION>",
+			"PCE_english" : "",
 			"notes" : "Game title as shown at the top of the main game start menu - this .dat file is pre-processed by expandRom.py to embed the actual Git commit number in the above string."
 		},
 		{
@@ -2655,7 +2655,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2667,7 +2667,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2691,7 +2691,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2715,7 +2715,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2739,7 +2739,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2763,7 +2763,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2775,7 +2775,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13><49><44>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2787,7 +2787,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2799,7 +2799,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13><5C><44>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2811,7 +2811,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2823,7 +2823,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13><6F><44>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2835,7 +2835,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2847,7 +2847,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13><82><44>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2859,7 +2859,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2871,7 +2871,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13><95><44>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2883,7 +2883,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2895,7 +2895,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<13><A8><44>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2907,7 +2907,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2919,7 +2919,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2931,7 +2931,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox>Please check <BackupRAM>.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2943,7 +2943,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2955,7 +2955,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " ---- --:--:--.--:--\n",
+			"PCE_english" : "",
 			"notes" : "Shown in the load saved game screen - displayed in empty backup save slots to indicate they are free."
 		},
 		{
@@ -2967,7 +2967,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -2979,7 +2979,6 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english1" : "  Str  Int  Dex\n<padV><addrow><09><slow><13>0<40>\n<padV><addrow><NPC_Klein><09><slow><18>ほ=<15><18>や=<15><18>れ=<15>\n<padV><addrow><NPC_Kiri><09><slow><18>ま=<15><18>ゆ=<15><18>ろ=<15>\n<padV><addrow><NPC_Shine><09><slow><18>み=<15><18>よ=<15><18>わ=<15>\n<padV><addrow><NPC_Vynd><09><slow><18>む=<15><18>ら=<15><18>ん=<15>\n<padV><addrow><NPC_Nehjana><09><slow><18>め=<15><18>り=<15>=<15>",
 			"PCE_english" : "",
 			"notes" : "Displays the table of str/int/dex points for you and the rest of your team, as shown when creating a new character at the beginning of a game."
 		},
@@ -2992,7 +2991,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -3016,7 +3015,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -3028,7 +3027,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -3040,7 +3039,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -3052,7 +3051,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -3076,7 +3075,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		}
 	]

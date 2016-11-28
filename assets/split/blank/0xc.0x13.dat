@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -23,11 +23,11 @@
 			"string_size" : 32,
 			"start_pos" : "0x1b1d6",
 			"bytes" : ["1a", "1c", "10", "1f", "a2", "bc", "cf", "b6", "de", "20", "bc", "bd", "de", "d0", "ca", "bc", "de", "d2", "c0", "21", "20", "c0", "de", "af", "bc", "ad", "c2", "c0", "de", "21", "a3", "08"],
-			"PCE_japanese" : "<newbox_a_23x1@middle_centred><Player_Name_alt>『しまが しずみはじめた! だっしゅつだ!』<wait>",
+			"PCE_japanese" : "<newbox_23x1@middle_centred><Player_Name_alt>『しまが しずみはじめた! だっしゅつだ!』<wait>",
 			"SNES_japanese" : "「しまが しずみはじめた！\n    だっしゅつだ！」",
 			"SNES_english" : ": The island's\nstarting to sink!\nLet's get outta\nhere!",
 			"SNES_accuracy" : 0.8,
-			"PCE_english" : "<newbox_a_24x2@top_centred><Player_Name_alt>: The island<pause>...<pause>\n...<pause>it's sinking!<pause><erasebox><Player_Name_alt>: Let's get out of\nhere!!!<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -47,11 +47,11 @@
 			"string_size" : 148,
 			"start_pos" : "0x1b1f7",
 			"bytes" : ["1a", "24", "05", "15", "10", "4f", "a2", "dc", "c0", "bc", "ca", "20", "dc", "b8", "be", "b2", "5c", "bd", "d7", "b3", "da", "a1", "20", "5c", "b1", "c5", "c0", "b6", "de", "c0", "c4", "03", "ca", "c5", "bc", "a6", "20", "bd", "d9", "c0", "d2", "c6", "a4", "dc", "c0", "bc", "c9", "20", "b6", "d7", "c0", "de", "c9", "b2", "c1", "cc", "de", "a6", "03", "cd", "dd", "b6", "bb", "be", "c3", "20", "ba", "c9", "bc", "cf", "a6", "20", "d6", "b3", "b2", "bc", "cf", "bc", "c0", "a3", "08", "0c", "10", "4f", "a2", "b1", "c5", "c0", "b6", "de", "c0", "b6", "de", "20", "d0", "c3", "b2", "d9", "c9", "ca", "20", "dc", "c0", "bc", "c9", "20", "b6", "d8", "c9", "03", "bd", "b6", "de", "c0", "c3", "de", "bd", "a1", "dc", "c0", "bc", "ca", "20", "c4", "de", "c9", "d6", "b3", "c5", "20", "bd", "b6", "de", "c0", "c6", "c3", "de", "d3", "03", "c5", "da", "d9", "c9", "c3", "de", "bd", "a3", "08"],
-			"PCE_japanese" : "<newbox_a_26x3@top_centred><05><15><NPC_Sraule>『わたしは わくせいスラウレ。 おなたがたと\nはなしを するために、わたしの からだのいちぶを\nへんかさせて このしまを よういしました』<wait><erasebox><NPC_Sraule>『おなたがたが みているのは わたしの かりの\nすがたです。わたしは どのような すがたにでも\nなれるのです』<wait>",
+			"PCE_japanese" : "<newbox_26x3@top_centred><05><15><NPC_Sraule>『わたしは わくせいスラウレ。 おなたがたと\nはなしを するために、わたしの からだのいちぶを\nへんかさせて このしまを よういしました』<wait><erasebox><NPC_Sraule>『おなたがたが みているのは わたしの かりの\nすがたです。わたしは どのような すがたにでも\nなれるのです』<wait>",
 			"SNES_japanese" : "スラウレ「わたしは わくせいスラウレ。\n    あなたがたと はなしを するために\n    わたしの からだのいちぶを\n    へんかさせて このしまを よういしました。」",
 			"SNES_english" : "Sraule: I am Sraule. I've\nmorphed part of my body to\nan island to communicate\nwith you. ",
 			"SNES_accuracy" : 0.897637795276,
-			"PCE_english" : "<newbox_a_26x3@top_centred><05><15><NPC_Sraule>: Welcome.<pause> I am the\nplanet Sraule, this\nisland was created to...<wait><erasebox><NPC_Sraule>:...allow us to\ncommunicate easier.<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -63,7 +63,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<closebox>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -95,11 +95,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x1b28e",
 			"bytes" : ["1a", "23", "10", "1f", "a2", "c3", "de", "ca", "a4", "b1", "c5", "c0", "b6", "de", "20", "5c", "d2", "dd", "c0", "b0", "c5", "3b", "3b", "3b", "3b", "3f", "a3", "08", "1b"],
-			"PCE_japanese" : "<newbox_a_25x1@bottom_centred><Player_Name_alt>『では、おなたが メンタ‐ナ‥‥‥‥?』<wait><closebox>",
+			"PCE_japanese" : "<newbox_25x1@bottom_centred><Player_Name_alt>『では、おなたが メンタ‐ナ‥‥‥‥?』<wait><closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : ": So... you're Mentana....? ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_a_25x1@bottom_centred><Player_Name_alt>: So... <pause>you're Mentana?!<wait><closebox>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -111,7 +111,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		}
 	]

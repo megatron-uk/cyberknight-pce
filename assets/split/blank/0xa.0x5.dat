@@ -15,7 +15,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -27,7 +27,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"SNES_japanese" : "シャイン「これは あきらかに じんこうぶつだな。\n    ひょうめんに びっしりと\n    きごうが きざまれている。\n    なにかの ほうていしきのようだが・・」",
 			"SNES_english" : "Shine: It's gotta be\nartificial. There's\nwriting all over it... Shine: Looks like some really\nhigh-tech stuff... why don't\nwe record it just in case? Took a snapshot of it!",
 			"SNES_accuracy" : 0.903225806452,
-			"PCE_english" : "<newbox_a_24x5@top_centred><NPC_Shine>: It's got to be\nartificial. There are some\nsort of symbols all over\nit.<wait><erasebox><NPC_Shine>: It looks like some\nreally high end stuff.<pause>\nWhy don't we record it,\njust in case?<pause>\nThere!<pause> Snapshot taken!<wait><13>ワk",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -59,11 +59,11 @@
 			"string_size" : 109,
 			"start_pos" : "0x16b2d",
 			"bytes" : ["1a", "25", "10", "1f", "a2", "c5", "dd", "c0", "de", "20", "ba", "d8", "ac", "3f", "20", "cb", "ae", "b3", "d2", "dd", "c6", "20", "cb", "de", "af", "bc", "d8", "c4", "03", "b5", "b7", "ae", "b3", "20", "d0", "c0", "b2", "c5", "d3", "c9", "b6", "de", "20", "b7", "bb", "de", "dd", "c3", "de", "b1", "d9", "03", "b9", "c4", "de", "3b", "3b", "3b", "3b", "a3", "08", "0c", "10", "1f", "a2", "c1", "ae", "b3", "c4", "de", "b2", "b2", "21", "20", "5c", "cb", "de", "c3", "de", "b5", "b6", "d2", "d7", "5c", "b6", "de", "b1", "d9", "b6", "d7", "03", "b7", "c8", "dd", "bb", "c2", "b4", "b2", "20", "bc", "c3", "b5", "ba", "b3", "a3", "08", "13", "fc", "6b"],
-			"PCE_japanese" : "<newbox_a_26x3@bottom_centred><Player_Name_alt>『なんだ こりゃ? ひょうめんに びっしりと\nおきょう みたいなものが きざんでおる\nけど‥‥‥‥』<wait><erasebox><Player_Name_alt>『ちょうどいい! ビデオカメラがおるから\nきねんさつえい しておこう』<wait><13>ワk",
+			"PCE_japanese" : "<newbox_26x3@bottom_centred><Player_Name_alt>『なんだ こりゃ? ひょうめんに びっしりと\nおきょう みたいなものが きざんでおる\nけど‥‥‥‥』<wait><erasebox><Player_Name_alt>『ちょうどいい! ビデオカメラがおるから\nきねんさつえい しておこう』<wait><13>ワk",
 			"SNES_japanese" : "{F0}{01}「なんだ こりゃ?\n    ひょうめんに びっしりと\n    おきょう みたいなものが\n    きざんであるけど・・」",
 			"SNES_english" : ": Huh?  There's\nsome weird writing\non the surface... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_a_26x3@bottom_centred><Player_Name_alt>: Strange,<pause> there is\nsome wierd writing on the\nsurface...<wait><erasebox><Player_Name_alt>: Well, we may as\nwell take a scan of it so\nthat we can decode them.<wait><13>ワk",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -83,11 +83,11 @@
 			"string_size" : 42,
 			"start_pos" : "0x16b9b",
 			"bytes" : ["1a", "2d", "02", "c5", "bf", "de", "c9", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "5c", "c0", "de", "02", "b7", "ba", "de", "b3", "c9", "d6", "b3", "c5", "d3", "c9", "b6", "de", "02", "b7", "bb", "de", "cf", "da", "c3", "b2", "d9", "3b", "3b", "08"],
-			"PCE_japanese" : "<newbox_a_10x5@bottom_right>\nなぞのモニュメントだ\nきごうのようなものが\nきざまれている‥‥<wait>",
+			"PCE_japanese" : "<newbox_10x5@bottom_right>\nなぞのモニュメントだ\nきごうのようなものが\nきざまれている‥‥<wait>",
 			"SNES_japanese" : "「なぞのモニュメントだ。\nきごうのようなものが きざまれている・・。",
 			"SNES_english" : "It's a weird monument. \nStrange things are\nwritten on it... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_a_24x2@bottom_centred>A weird monument with\nunusual symbols...<wait>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -99,7 +99,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -107,11 +107,11 @@
 			"string_size" : 53,
 			"start_pos" : "0x16bc6",
 			"bytes" : ["1a", "23", "10", "1f", "a2", "ba", "da", "b6", "de", "20", "5c", "da", "af", "c4", "de", "a5", "b8", "d8", "bd", "c0", "d9", "5c", "b6", "21", "a3", "08", "13", "2f", "6a", "5c", "da", "af", "c4", "de", "a5", "b8", "d8", "bd", "c0", "d9", "5c", "a6", "20", "c3", "c6", "b2", "da", "c0", "21", "08", "13", "3a", "6a"],
-			"PCE_japanese" : "<newbox_a_25x1@bottom_centred><Player_Name_alt>『これが レッド・クリスタルか!』<wait><13>/jレッド・クリスタルを てにいれた!<wait><13>:j",
+			"PCE_japanese" : "<newbox_25x1@bottom_centred><Player_Name_alt>『これが レッド・クリスタルか!』<wait><13>/jレッド・クリスタルを てにいれた!<wait><13>:j",
 			"SNES_japanese" : "{F0}{01}「これが レッド・クリスタルか！」",
 			"SNES_english" : "{F0}{01}: So this is Red\nCrystal!",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_a_24x2@bottom_centred><Player_Name_alt>: So, this is the\nRed Crystal!<wait><13>/jYou received the Red Crystal!<wait><13>:j",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -135,7 +135,7 @@
 			"SNES_japanese" : " ビデオカメラで きろくした！",
 			"SNES_english" : "Took a snapshot of it!",
 			"SNES_accuracy" : 0.827586206897,
-			"PCE_english" : "<13><17>lTook a snapshot of it!<wait><13>“l",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -147,7 +147,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -159,7 +159,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "<11>\n<closebox>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -171,7 +171,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -179,11 +179,11 @@
 			"string_size" : 6,
 			"start_pos" : "0x16c1b",
 			"bytes" : ["1a", "1c", "07", "01", "06", "1b"],
-			"PCE_japanese" : "<newbox_a_23x1@middle_centred><slow><addrow><06><closebox>",
+			"PCE_japanese" : "<newbox_23x1@middle_centred><slow><addrow><06><closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_a_23x1@middle_centred><slow><addrow><06><closebox>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -195,7 +195,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -207,7 +207,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<slow>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -219,7 +219,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -231,7 +231,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "planet",
 			"SNES_accuracy" : 1.0,
-			"PCE_english" : "<closebox><addrow><11>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -243,7 +243,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		},
 		{
@@ -255,7 +255,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<end>",
+			"PCE_english" : "",
 			"notes" : ""
 		}
 	]

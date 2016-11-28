@@ -23,11 +23,11 @@
 			"string_size" : 59,
 			"start_pos" : "0x28086",
 			"bytes" : ["1a", "4f", "10", "30", "a2", "cb", "ae", "b3", "d2", "dd", "b5", "dd", "c4", "de", "20", "31", "30", "30", "30", "20", "df", "43", "20", "b2", "bc", "de", "ae", "b3", "a1", "03", "d6", "b3", "b6", "de", "dd", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "03", "c3", "de", "bd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x3@bottom_centred><NPC_Mica>『ひょうめんおんど 1000゜C いじょう。\nようがんに おおわれた ちいさな わくせい\nです。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x3@bottom_centred><NPC_Mica>『ひょうめんおんど 1000゜C いじょう。\nようがんに おおわれた ちいさな わくせい\nです。』<wait>",
 			"SNES_japanese" : "MICA「ひょうめんおんど\n    １０００どC いじょう。\n    ようがんに おおわれた \n    ちいさな わくせいです。」",
 			"SNES_english" : "<NPC_Mica>: Surface temp\nis over 1000C. A\nsmall planet \ncovered in magma. \n",
 			"SNES_accuracy" : 0.795454545455,
-			"PCE_english" : "<newbox_24x3@bottom_centred><NPC_Mica>: Surface temp is\nover 1000C. It is a small\nplanet covered by lava.<wait>",
+			"PCE_english" : "<newbox_b_24x3@bottom_centred><NPC_Mica>: Surface temp is\nover 1000C. It is a small\nplanet covered by lava.<wait>",
 			"notes" : "Ship scan results"
 		},
 		{
@@ -47,11 +47,11 @@
 			"string_size" : 55,
 			"start_pos" : "0x280c2",
 			"bytes" : ["1a", "4f", "10", "30", "a2", "c1", "b2", "bb", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "cb", "ae", "b3", "d2", "dd", "ca", "03", "ba", "b3", "b5", "dd", "c3", "de", "20", "c0", "b2", "b7", "d3", "20", "d0", "bd", "de", "d3", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x3@bottom_centred><NPC_Mica>『ちいさな わくせいです。ひょうめんは\nこうおんで たいきも みずも そんざい\nしません。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x3@bottom_centred><NPC_Mica>『ちいさな わくせいです。ひょうめんは\nこうおんで たいきも みずも そんざい\nしません。』<wait>",
 			"SNES_japanese" : "MICA「ちいさな わくせいです。\n    ひょうめんは こうおんで\n    たいきも みずも そんざいしません。」",
 			"SNES_english" : "Mica: A small planet. \nThe surface has a\nhigh temperature. \nThere is no water. ",
 			"SNES_accuracy" : 0.926829268293,
-			"PCE_english" : "<newbox_24x3@bottom_centred><NPC_Mica>: A small planet.\nA hot, dry world with\nno water.<wait>",
+			"PCE_english" : "<newbox_b_24x3@bottom_centred><NPC_Mica>: A small planet.\nA hot, dry world with\nno water.<wait>",
 			"notes" : "Ship scan results"
 		},
 		{
@@ -71,11 +71,11 @@
 			"string_size" : 39,
 			"start_pos" : "0x280fa",
 			"bytes" : ["1a", "4d", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x2@bottom_centred><NPC_Mica>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x2@bottom_centred><NPC_Mica>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです。』<wait>",
 			"SNES_japanese" : "MICA「ゆうどくの たいきに つつまれた\n    こうおんの わくせいです。」",
 			"SNES_english" : "Mica: A planet covered\nwith toxic gases. ",
 			"SNES_accuracy" : 0.928571428571,
-			"PCE_english" : "<newbox_24x3@bottom_centred><NPC_Mica>: A Toxic world\ncovered in clouds\nof noxious gases.<wait>",
+			"PCE_english" : "<newbox_b_24x3@bottom_centred><NPC_Mica>: A Toxic world\ncovered in clouds\nof noxious gases.<wait>",
 			"notes" : ""
 		},
 		{
@@ -95,11 +95,11 @@
 			"string_size" : 48,
 			"start_pos" : "0x28122",
 			"bytes" : ["1a", "4d", "10", "30", "a2", "b3", "d0", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c1", "ac", "b8", "d8", "b8", "c3", "de", "b7", "d9", "20", "c4", "ba", "db", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x2@bottom_centred><NPC_Mica>『うみに おおわれた わくせいです。\nちゃくりくできる ところが おりません。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x2@bottom_centred><NPC_Mica>『うみに おおわれた わくせいです。\nちゃくりくできる ところが おりません。』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: A planet covered\nin oceans. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x3@bottom_centred><NPC_Mica>: An Ocean world.\nThe planet is covered by\na sea. No landing sites.<wait>",
+			"PCE_english" : "<newbox_b_24x3@bottom_centred><NPC_Mica>: An Ocean world.\nThe planet is covered by\na sea. No landing sites.<wait>",
 			"notes" : ""
 		},
 		{
@@ -119,11 +119,11 @@
 			"string_size" : 60,
 			"start_pos" : "0x28153",
 			"bytes" : ["1a", "4f", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "c6", "c0", "20", "b5", "b5", "b7", "bb", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "bc", "b6", "bc", "20", "be", "b2", "d2", "b2", "ca", "20", "bf", "dd", "bb", "de", "b2", "be", "bd", "de", "20", "bb", "dd", "bf", "d3", "03", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x3@bottom_centred><NPC_Mica>『ちきゅうににた おおきさの わくせいです。\nしかし せいめいは そんざいせず さんそも\nおりません。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x3@bottom_centred><NPC_Mica>『ちきゅうににた おおきさの わくせいです。\nしかし せいめいは そんざいせず さんそも\nおりません。』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: Looks similar to\nEarth but no life-\nenergy is detected. \nThere is no oxygen. \n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x3@bottom_centred><NPC_Mica>: Size similar to\nEarth, but no oxygen and\nno life-energy signs.<wait>",
+			"PCE_english" : "<newbox_b_24x3@bottom_centred><NPC_Mica>: Size similar to\nEarth, but no oxygen and\nno life-energy signs.<wait>",
 			"notes" : ""
 		},
 		{
@@ -143,11 +143,11 @@
 			"string_size" : 57,
 			"start_pos" : "0x28190",
 			"bytes" : ["1a", "4f", "10", "30", "a2", "bb", "ca", "de", "b8", "c6", "20", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "b6", "c4", "b3", "c5", "20", "bc", "ae", "b8", "cc", "de", "c2", "bc", "b6", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "c5", "b2", "d6", "b3", "c3", "de", "bd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x3@bottom_centred><NPC_Mica>『さばくに おおわれた わくせいです。\nかとうな しょくぶつしか そんざい\nしないようです。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x3@bottom_centred><NPC_Mica>『さばくに おおわれた わくせいです。\nかとうな しょくぶつしか そんざい\nしないようです。』<wait>",
 			"SNES_japanese" : "MICA「さばくに おおわれた わくせいです。\n    かとうな しょくぶつしか\n    そんざいしない ようです。」",
 			"SNES_english" : "Mica: A desert planet. \nSeems like it's home to\nonly a low-level class\nof creature. ",
 			"SNES_accuracy" : 0.928571428571,
-			"PCE_english" : "<newbox_24x3@bottom_centred><NPC_Mica>: A Desert planet.<pause>\nSeems to be home to\nlow-level lifeforms.\nLanding is possible.<wait>",
+			"PCE_english" : "<newbox_b_24x3@bottom_centred><NPC_Mica>: A Desert planet.<pause>\nSeems to be home to\nlow-level lifeforms.\nLanding is possible.<wait>",
 			"notes" : ""
 		},
 		{
@@ -167,11 +167,11 @@
 			"string_size" : 34,
 			"start_pos" : "0x281ca",
 			"bytes" : ["1a", "4d", "10", "30", "a2", "bc", "ae", "b3", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "ca", "20", "bf", "dd", "bb", "de", "b2", "03", "bc", "cf", "be", "dd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x2@bottom_centred><NPC_Mica>『しょうわくせいです。たいきは そんざい\nしません。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x2@bottom_centred><NPC_Mica>『しょうわくせいです。たいきは そんざい\nしません。』<wait>",
 			"SNES_japanese" : "MICA「しょうわくせいです。\n    たいきは そんざいしません。」",
 			"SNES_english" : "Mica: A small planet. ",
 			"SNES_accuracy" : 0.92,
-			"PCE_english" : "<newbox_24x2@bottom_centred><NPC_Mica>: An asteroid.\nNo atmosphere.<wait>",
+			"PCE_english" : "<newbox_b_24x2@bottom_centred><NPC_Mica>: An asteroid.\nNo atmosphere.<wait>",
 			"notes" : ""
 		},
 		{
@@ -191,11 +191,11 @@
 			"string_size" : 55,
 			"start_pos" : "0x281ed",
 			"bytes" : ["1a", "4d", "10", "30", "a2", "b5", "b5", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "20", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "a4", "bd", "b2", "bf", "c4", "20", "5c", "cd", "d8", "b3", "d1", "5c", "c3", "de", "bd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x2@bottom_centred><NPC_Mica>『おおがたの ガスわくせいです。 たいきの\nせいぶんは、すいそと ヘリウムです。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x2@bottom_centred><NPC_Mica>『おおがたの ガスわくせいです。 たいきの\nせいぶんは、すいそと ヘリウムです。』<wait>",
 			"SNES_japanese" : "MICA「おおがたの ガスわくせいです。\n    たいきの せいぶんは すいそと\n    ヘリウムです。」",
 			"SNES_english" : "Mica: A large gas giant;\nmainly hydrogen and\nhelium. ",
 			"SNES_accuracy" : 0.906666666667,
-			"PCE_english" : "<newbox_24x2@bottom_centred><NPC_Mica>: A gas giant.\nMainly Hydrogen + Helium.<wait>",
+			"PCE_english" : "<newbox_b_24x2@bottom_centred><NPC_Mica>: A gas giant.\nMainly Hydrogen + Helium.<wait>",
 			"notes" : ""
 		},
 		{
@@ -215,11 +215,11 @@
 			"string_size" : 53,
 			"start_pos" : "0x28225",
 			"bytes" : ["1a", "4d", "10", "30", "a2", "c1", "ad", "b3", "b6", "de", "c0", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "ba", "b5", "d8", "c9", "20", "c2", "cc", "de", "c3", "de", "c3", "de", "b7", "c0", "20", "dc", "b6", "de", "20", "b1", "d8", "cf", "bd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x2@bottom_centred><NPC_Mica>『ちゅうがたの ガスわくせいです。\nこおりの つぶでできた わが おります。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x2@bottom_centred><NPC_Mica>『ちゅうがたの ガスわくせいです。\nこおりの つぶでできた わが おります。』<wait>",
 			"SNES_japanese" : "MICA「ちゅうがたの ガスわくせいです。\n    こおりの つぶでできた わが あります。」",
 			"SNES_english" : "Mica: A medium-sized gas\ngiant surrounded by a\nring of ice fragments. \n",
 			"SNES_accuracy" : 0.911764705882,
-			"PCE_english" : "<newbox_24x2@bottom_centred><NPC_Mica>: Medium gas giant.\nRinged by ice fragments.<wait>",
+			"PCE_english" : "<newbox_b_24x2@bottom_centred><NPC_Mica>: Medium gas giant.\nRinged by ice fragments.<wait>",
 			"notes" : ""
 		},
 		{
@@ -239,11 +239,11 @@
 			"string_size" : 32,
 			"start_pos" : "0x2825b",
 			"bytes" : ["1a", "4c", "10", "30", "a2", "ba", "b6", "de", "c0", "c3", "de", "20", "c3", "b2", "b5", "dd", "c9", "20", "5c", "b6", "de", "bd", "5c", "dc", "b8", "be", "b2", "c3", "de", "bd", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@bottom_centred><NPC_Mica>『こがたで ていおんの ガスわくせいです』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@bottom_centred><NPC_Mica>『こがたで ていおんの ガスわくせいです』<wait>",
 			"SNES_japanese" : "MICA「こがたで ていおんの ガスわくせいです。」",
 			"SNES_english" : "Mica: A small gas giant. \nTemperature relatively\nlow. ",
 			"SNES_accuracy" : 0.918918918919,
-			"PCE_english" : "<newbox_24x2@bottom_centred><NPC_Mica>: Small gas giant.\nUnremarkable.<wait>",
+			"PCE_english" : "<newbox_b_24x2@bottom_centred><NPC_Mica>: Small gas giant.\nUnremarkable.<wait>",
 			"notes" : ""
 		},
 		{
@@ -263,11 +263,11 @@
 			"string_size" : 39,
 			"start_pos" : "0x2827c",
 			"bytes" : ["1a", "4d", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x2@bottom_centred><NPC_Mica>『たいようから とおいため、こおりに\nおおわれた わくせいです。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x2@bottom_centred><NPC_Mica>『たいようから とおいため、こおりに\nおおわれた わくせいです。』<wait>",
 			"SNES_japanese" : "MICA「たいようから とおいため\n    こおりに おおわれた わくせいです。」",
 			"SNES_english" : "Mica: Since it's far\nfrom the sun it is\nsurrounded by ice. \n",
 			"SNES_accuracy" : 0.915254237288,
-			"PCE_english" : "<newbox_24x3@bottom_centred><NPC_Mica>: A world far from\nthe local star. Cold\nand encased in ice.<wait>",
+			"PCE_english" : "<newbox_b_24x3@bottom_centred><NPC_Mica>: A world far from\nthe local star. Cold\nand encased in ice.<wait>",
 			"notes" : ""
 		},
 		{
@@ -335,11 +335,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x282a8",
 			"bytes" : ["1a", "48", "10", "30", "a2", "ba", "da", "b2", "bc", "de", "ae", "b3", "20", "c1", "b6", "c2", "de", "b8", "c9", "ca", "20", "b7", "b9", "dd", "c3", "de", "bd", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><NPC_Mica>『これいじょう ちかづくのは きけんです』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><NPC_Mica>『これいじょう ちかづくのは きけんです』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x2@middle_centred><NPC_Mica>: Danger<pause>!<pause>!<pause>!\nApproach no closer!<wait>",
+			"PCE_english" : "<newbox_b_24x2@middle_centred><NPC_Mica>: Danger<pause>!<pause>!<pause>!\nApproach no closer!<wait>",
 			"notes" : ""
 		},
 		{
@@ -359,11 +359,11 @@
 			"string_size" : 29,
 			"start_pos" : "0x282c6",
 			"bytes" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "c3", "de", "b7", "d9", "20", "ca", "de", "bc", "ae", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><NPC_Mica>『ちゃくりくできる ばしょが おりません』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><NPC_Mica>『ちゃくりくできる ばしょが おりません』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: There is no place\nto land. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x1@middle_centred><NPC_Mica>: No landing site.<wait>",
+			"PCE_english" : "<newbox_b_24x1@middle_centred><NPC_Mica>: No landing site.<wait>",
 			"notes" : ""
 		},
 		{
@@ -383,11 +383,11 @@
 			"string_size" : 30,
 			"start_pos" : "0x282e4",
 			"bytes" : ["1a", "48", "10", "30", "a2", "d8", "b8", "c1", "b6", "de", "c5", "b2", "c9", "c3", "de", "20", "c1", "ac", "b8", "d8", "b8", "20", "c3", "de", "b7", "cf", "be", "dd", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><NPC_Mica>『りくちがないので ちゃくりく できません』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><NPC_Mica>『りくちがないので ちゃくりく できません』<wait>",
 			"SNES_japanese" : "MICA「りくちが ないので ちゃくりくできません。」",
 			"SNES_english" : "Mica: Landing is impossible;\nthere's no place to do so. ",
 			"SNES_accuracy" : 0.923076923077,
-			"PCE_english" : "<newbox_24x2@middle_centred><NPC_Mica>: Descent impossible,\nno landing site.<wait>",
+			"PCE_english" : "<newbox_b_24x2@middle_centred><NPC_Mica>: Descent impossible,\nno landing site.<wait>",
 			"notes" : ""
 		},
 		{
@@ -407,11 +407,11 @@
 			"string_size" : 27,
 			"start_pos" : "0x28303",
 			"bytes" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "bd", "d9", "20", "d8", "d5", "b3", "b6", "de", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><NPC_Mica>『ちゃくりくする りゆうが おりません。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><NPC_Mica>『ちゃくりくする りゆうが おりません。』<wait>",
 			"SNES_japanese" : "MICA「ちゃくりくする りゆうが ありません。」",
 			"SNES_english" : "Mica: We have no reason to\nland there. ",
 			"SNES_accuracy" : 0.888888888889,
-			"PCE_english" : "<newbox_24x2@middle_centred><NPC_Mica>: We have no reason\nto land on this world.<wait>",
+			"PCE_english" : "<newbox_b_24x2@middle_centred><NPC_Mica>: We have no reason\nto land on this world.<wait>",
 			"notes" : ""
 		},
 		{
@@ -431,11 +431,11 @@
 			"string_size" : 27,
 			"start_pos" : "0x2831f",
 			"bytes" : ["1a", "48", "10", "30", "a2", "c1", "ac", "b8", "d8", "b8", "20", "cc", "b6", "c9", "b3", "c5", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><NPC_Mica>『ちゃくりく ふかのうな わくせいです。』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><NPC_Mica>『ちゃくりく ふかのうな わくせいです。』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: Unable to land\nthere. ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x2@middle_centred><NPC_Mica>: Unable to land\nhere.<wait>",
+			"PCE_english" : "<newbox_b_24x2@middle_centred><NPC_Mica>: Unable to land\nhere.<wait>",
 			"notes" : ""
 		},
 		{
@@ -455,11 +455,11 @@
 			"string_size" : 171,
 			"start_pos" : "0x2833b",
 			"bytes" : ["1a", "51", "10", "30", "a2", "c1", "b7", "ad", "b3", "c6", "20", "c6", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "c0", "b2", "b7", "c9", "03", "be", "b2", "cc", "de", "dd", "ca", "20", "bb", "dd", "bf", "20", "c1", "af", "bf", "20", "c5", "c4", "de", "c3", "de", "a4", "ba", "b7", "ad", "b3", "03", "b6", "c9", "b3", "a1", "cb", "ae", "b3", "d2", "dd", "c9", "20", "36", "30", "5c", "ca", "df", "b0", "be", "dd", "c4", "5c", "ca", "03", "b3", "d0", "c3", "de", "a4", "c0", "b2", "d8", "b8", "c6", "ca", "20", "d3", "d8", "c4", "20", "bf", "b3", "b9", "de", "dd", "b6", "de", "03", "cb", "db", "b6", "de", "af", "c3", "b2", "cf", "bd", "a1", "a3", "08", "0c", "10", "30", "a2", "b7", "c0", "ca", "dd", "b7", "ad", "b3", "c6", "20", "c1", "b2", "bb", "c5", "20", "c4", "bc", "b6", "de", "b1", "d8", "03", "c6", "dd", "b9", "de", "dd", "c4", "20", "b5", "d3", "dc", "da", "d9", "20", "be", "b2", "d2", "b2", "c0", "b2", "c9", "03", "ca", "dd", "c9", "b3", "b6", "de", "20", "b1", "d8", "cf", "bd", "a3", "08"],
-			"PCE_japanese" : "<newbox_22x6@bottom_centred><NPC_Mica>『ちきゅうに にた わくせいです。たいきの\nせいぶんは さんそ ちっそ などで、こきゅう\nかのう。ひょうめんの 60パ‐セントは\nうみで、たいりくには もりと そうげんが\nひろがっています。』<wait><erasebox><NPC_Mica>『きたはんきゅうに ちいさな としがおり\nにんげんと おもわれる せいめいたいの\nはんのうが おります』<wait>",
+			"PCE_japanese" : "<newbox_b_22x6@bottom_centred><NPC_Mica>『ちきゅうに にた わくせいです。たいきの\nせいぶんは さんそ ちっそ などで、こきゅう\nかのう。ひょうめんの 60パ‐セントは\nうみで、たいりくには もりと そうげんが\nひろがっています。』<wait><erasebox><NPC_Mica>『きたはんきゅうに ちいさな としがおり\nにんげんと おもわれる せいめいたいの\nはんのうが おります』<wait>",
 			"SNES_japanese" : "MICA「ちきゅうに にた わくせいです。\n    たいきの せいぶんは\n    さんそ ちっそ などで こきゅうかのう。\n    ひょうめんの ６０パーセントは うみで\n    たいりくには もりと そうげんが\n    ひろがっています。」",
 			"SNES_english" : "Mica: The planet seems to\nbe similar to Earth. \nOxygen is present 60%\nof the surface is ocean \nand there are forests and\nplains on the ground. \n",
 			"SNES_accuracy" : 0.885057471264,
-			"PCE_english" : "<newbox_22x6@bottom_centred><NPC_Mica>: This planet is\nsimilar to Earth.\nOxygen and Nitrogen\natmosphere. Surface is\n60% covered by sea.<wait><wait><erasebox><NPC_Mica>: The main\ncontinent is grassland\nand forest. Human-type\nlife and a city\ndetected to the north.<wait>",
+			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: This planet is\nsimilar to Earth.\nOxygen and Nitrogen\natmosphere. Surface is\n60% covered by sea.<wait><wait><erasebox><NPC_Mica>: The main\ncontinent is grassland\nand forest. Human-type\nlife and a city\ndetected to the north.<wait>",
 			"notes" : ""
 		},
 		{
@@ -479,11 +479,11 @@
 			"string_size" : 381,
 			"start_pos" : "0x283e7",
 			"bytes" : ["1b", "01", "1a", "4e", "10", "2d", "a2", "d0", "c4", "de", "d8", "c9", "ce", "bc", "3b", "3b", "3b", "3b", "b3", "c2", "b8", "bc", "b2", "dc", "a3", "08", "1a", "52", "10", "29", "a2", "ba", "c9", "ce", "bc", "c6", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "b6", "de", "20", "b2", "d9", "af", "c3", "c9", "03", "b6", "b2", "3f", "a3", "08", "1b", "02", "1a", "53", "10", "2b", "a2", "b2", "d4", "a4", "bc", "de", "ae", "b3", "b8", "b3", "b6", "d7", "c9", "20", "b6", "dd", "bf", "b8", "c3", "de", "ca", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "20", "c6", "dd", "b9", "de", "dd", "c9", "d6", "b3", "c0", "de", "a3", "08", "1a", "52", "10", "2c", "a2", "ba", "dd", "c5", "c4", "ba", "db", "c6", "20", "c6", "dd", "b9", "de", "dd", "b6", "de", "3f", "03", "bc", "dd", "bc", "de", "d7", "da", "c5", "b2", "c5", "a3", "08", "1b", "01", "1a", "55", "10", "2a", "a2", "bf", "b3", "c5", "dd", "bc", "c0", "20", "b3", "c1", "ad", "b3", "be", "dd", "c9", "20", "5c", "b8", "d9", "b0", "5c", "c9", "20", "bc", "bf", "dd", "03", "b6", "d3", "20", "bc", "da", "c5", "b2", "dc", "a1", "03", "dc", "c0", "bc", "c0", "c1", "c4", "20", "b5", "c5", "bc", "de", "d6", "b3", "c6", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c3", "de", "03", "c4", "ca", "de", "bb", "da", "c0", "c9", "b6", "d3", "3b", "3b", "3b", "3b", "a3", "08", "1b", "01", "1a", "52", "10", "2c", "a2", "c5", "dd", "c6", "bc", "c3", "d3", "a4", "5c", "d7", "af", "b7", "b0", "5c", "c0", "de", "a3", "08", "0c", "10", "2c", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "20", "bc", "ad", "b3", "d8", "c6", "03", "b7", "ae", "b3", "d8", "ae", "b8", "20", "bc", "c3", "b8", "da", "d9", "b6", "d3", "20", "bc", "da", "c5", "b2", "a3", "08", "19", "53", "10", "2b", "a2", "bf", "da", "ca", "20", "c9", "bf", "de", "d0", "b3", "bd", "c0", "de", "c5", "a1", "cc", "de", "dd", "d2", "b2", "c9", "5c", "da", "cd", "de", "d9", "5c", "ca", "03", "c1", "b7", "ad", "b3", "c9", "20", "32", "30", "be", "b2", "b7", "20", "c3", "b2", "c4", "de", "c9", "d6", "b3", "c0", "de", "a3", "08", "1a", "4e", "10", "2a", "a2", "b5", "d8", "c3", "d0", "c3", "20", "c0", "bc", "b6", "d2", "c0", "b2", "dc", "c8", "a3", "08"],
-			"PCE_japanese" : "<closebox><addrow><newbox_24x1@middle_centred><NPC_Nehjana>『みどりのほし‥‥‥‥うつくしいわ』<wait><newbox_22x2@bottom_left><NPC_Klein>『このほしに エイリアンが いるっての\nかい?』<wait><closebox>\n<newbox_22x2@bottom_right><NPC_Shine>『いや、じょうくうからの かんそくでは\nわたしたちと おなじ にんげんのようだ』<wait><newbox_22x2@bottom_left><NPC_Vynd>『こんなところに にんげんが?\nしんじられないな』<wait><closebox><addrow><newbox_22x4@middle_right><NPC_Kiri>『そうなんした うちゅうせんの クル‐の しそん\nかも しれないわ。\nわたしたちと おなじように、ジャンプ・ミスで\nとばされたのかも‥‥‥‥』<wait><closebox><addrow><newbox_22x2@bottom_left><NPC_Vynd>『なんにしても、ラッキ‐だ』<wait><erasebox><NPC_Vynd>『ジャンプ・ジェネレ‐タ‐の しゅうりに\nきょうりょく してくれるかも しれない』<wait><jumptobox_last_active_plus_3><NPC_Shine>『それは のぞみうすだな。ぶんめいのレベルは\nちきゅうの 20せいき ていどのようだ』<wait><newbox_24x1@middle_centred><NPC_Kiri>『おりてみて たしかめたいわね』<wait>",
+			"PCE_japanese" : "<closebox><addrow><newbox_b_24x1@middle_centred><NPC_Nehjana>『みどりのほし‥‥‥‥うつくしいわ』<wait><newbox_b_22x2@bottom_left><NPC_Klein>『このほしに エイリアンが いるっての\nかい?』<wait><closebox>\n<newbox_b_22x2@bottom_right><NPC_Shine>『いや、じょうくうからの かんそくでは\nわたしたちと おなじ にんげんのようだ』<wait><newbox_b_22x2@bottom_left><NPC_Vynd>『こんなところに にんげんが?\nしんじられないな』<wait><closebox><addrow><newbox_b_22x4@middle_right><NPC_Kiri>『そうなんした うちゅうせんの クル‐の しそん\nかも しれないわ。\nわたしたちと おなじように、ジャンプ・ミスで\nとばされたのかも‥‥‥‥』<wait><closebox><addrow><newbox_b_22x2@bottom_left><NPC_Vynd>『なんにしても、ラッキ‐だ』<wait><erasebox><NPC_Vynd>『ジャンプ・ジェネレ‐タ‐の しゅうりに\nきょうりょく してくれるかも しれない』<wait><jumptobox_last_active_plus_3><NPC_Shine>『それは のぞみうすだな。ぶんめいのレベルは\nちきゅうの 20せいき ていどのようだ』<wait><newbox_b_24x1@middle_centred><NPC_Kiri>『おりてみて たしかめたいわね』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<closebox><addrow><newbox_24x1@middle_centred><NPC_Nehjana>: A green world.<pause>><erasebox><NPC_Nehjana>: How pretty.<wait><newbox_22x3@bottom_left><NPC_Klein>: Are you saying\nthere are<pause>> aliens <pause>>on\nthis planet?<wait><closebox>\n<newbox_22x2@bottom_right><NPC_Shine>: No, they seem to be\nhuman, just like us.<wait><newbox_22x2@bottom_left><NPC_Vynd>: Here? <pause>>That's hard to\nbelieve.<wait><closebox><addrow><newbox_22x4@middle_right><NPC_Kiri>: Perhaps they are\ndescendants of humans who\nwere lost in a jump-miss,\nlike ourselves?<wait><closebox><addrow><newbox_22x3@bottom_left><NPC_Vynd>: Even so, that's a\nlucky coincidence.<wait><erasebox><NPC_Vynd>: They might be able\nto help us repair the\njumpdrive!<wait><newbox_24x2@top_centred><NPC_Shine>: Sadly not.<pause>> They\nseem to have...<wait><erasebox><NPC_Shine>:...technology\nlike 1900's era Earth.<wait><newbox_24x1@middle_centred><NPC_Kiri>: Can't hurt to try...<wait>",
+			"PCE_english" : "<closebox><addrow><newbox_b_24x1@middle_centred><NPC_Nehjana>: A green world.<pause>><erasebox><NPC_Nehjana>: How pretty.<wait><newbox_b_22x3@bottom_left><NPC_Klein>: Are you saying\nthere are<pause>> aliens <pause>>on\nthis planet?<wait><closebox>\n<newbox_b_22x2@bottom_right><NPC_Shine>: No, they seem to be\nhuman, just like us.<wait><newbox_b_22x2@bottom_left><NPC_Vynd>: Here? <pause>>That's hard to\nbelieve.<wait><closebox><addrow><newbox_b_22x4@middle_right><NPC_Kiri>: Perhaps they are\ndescendants of humans who\nwere lost in a jump-miss,\nlike ourselves?<wait><closebox><addrow><newbox_b_22x3@bottom_left><NPC_Vynd>: Even so, that's a\nlucky coincidence.<wait><erasebox><NPC_Vynd>: They might be able\nto help us repair the\njumpdrive!<wait><newbox_b_24x2@top_centred><NPC_Shine>: Sadly not.<pause>> They\nseem to have...<wait><erasebox><NPC_Shine>:...technology\nlike 1900's era Earth.<wait><newbox_b_24x1@middle_centred><NPC_Kiri>: Can't hurt to try...<wait>",
 			"notes" : ""
 		},
 		{
@@ -551,11 +551,11 @@
 			"string_size" : 138,
 			"start_pos" : "0x285a5",
 			"bytes" : ["1a", "4e", "10", "29", "a2", "5c", "c4", "de", "b0", "d1", "5c", "c0", "de", "af", "c3", "3f", "a3", "08", "1a", "53", "10", "2b", "a2", "b3", "d1", "a4", "ba", "c9", "ce", "bc", "c9", "20", "c6", "dd", "b9", "de", "dd", "c9", "20", "c2", "b8", "af", "c0", "d3", "c9", "03", "c3", "de", "ca", "20", "c5", "b2", "d6", "b3", "c0", "de", "a3", "08", "1a", "52", "10", "2a", "a2", "c0", "de", "b2", "c4", "b3", "d8", "ae", "b3", "c9", "20", "b2", "af", "c3", "b2", "c0", "20", "c5", "bf", "de", "c9", "03", "5c", "db", "ce", "de", "af", "c4", "5c", "c4", "20", "b6", "dd", "b9", "b2", "20", "b1", "d9", "c9", "c3", "de", "ca", "3f", "a3", "08", "1a", "57", "10", "28", "a2", "bc", "d7", "cd", "de", "c3", "d0", "d9", "20", "cb", "c2", "d6", "b3", "b6", "de", "20", "b1", "d9", "b6", "d3", "03", "bc", "da", "dd", "c5", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><NPC_Klein>『ド‐ムだって?』<wait><newbox_22x2@bottom_right><NPC_Shine>『うむ、このほしの にんげんの つくったもの\nでは ないようだ』<wait><newbox_22x2@bottom_left><NPC_Kiri>『だいとうりょうの いっていた なぞの\nロボットと かんけい おるのでは?』<wait><newbox_24x2@top_centred><Player_Name>『しらべてみる ひつようが おるかも\nしれんな』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><NPC_Klein>『ド‐ムだって?』<wait><newbox_b_22x2@bottom_right><NPC_Shine>『うむ、このほしの にんげんの つくったもの\nでは ないようだ』<wait><newbox_b_22x2@bottom_left><NPC_Kiri>『だいとうりょうの いっていた なぞの\nロボットと かんけい おるのでは?』<wait><newbox_b_24x2@top_centred><Player_Name>『しらべてみる ひつようが おるかも\nしれんな』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x1@middle_centred><NPC_Klein>: A dome?<wait><newbox_22x2@bottom_right><NPC_Shine>: It doesn't seem\nto be man made.<wait><newbox_22x3@bottom_left><NPC_Kiri>: Perhaps it's to\ndo with the robots the\nPresident mentioned?<wait><newbox_24x2@top_centred><Player_Name>: We need to check\nit out.<pause> Let's go!<wait>",
+			"PCE_english" : "<newbox_b_24x1@middle_centred><NPC_Klein>: A dome?<wait><newbox_b_22x2@bottom_right><NPC_Shine>: It doesn't seem\nto be man made.<wait><newbox_b_22x3@bottom_left><NPC_Kiri>: Perhaps it's to\ndo with the robots the\nPresident mentioned?<wait><newbox_b_24x2@top_centred><Player_Name>: We need to check\nit out.<pause> Let's go!<wait>",
 			"notes" : ""
 		},
 		{
@@ -575,11 +575,11 @@
 			"string_size" : 53,
 			"start_pos" : "0x28630",
 			"bytes" : ["1a", "53", "10", "2a", "a2", "bc", "b6", "bc", "a4", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "b6", "de", "03", "ba", "dc", "da", "c3", "d9", "dd", "bc", "de", "ac", "a4", "c4", "de", "ba", "cd", "d3", "20", "b2", "b9", "cf", "be", "dd", "d6", "a3", "08"],
-			"PCE_japanese" : "<newbox_22x2@bottom_right><NPC_Kiri>『しかし、ジャンプ・ジェネレ‐タ‐が\nこわれてるんじゃ、どこへも いけませんよ』<wait>",
+			"PCE_japanese" : "<newbox_b_22x2@bottom_right><NPC_Kiri>『しかし、ジャンプ・ジェネレ‐タ‐が\nこわれてるんじゃ、どこへも いけませんよ』<wait>",
 			"SNES_japanese" : "ヴィンド「しかし ジャンプ・ジェネレーターが\n    こわれてるんじゃ どこへもいけませんよ。」",
 			"SNES_english" : "Vynd: But our Jump Drive's\nbroken... We can't go\nanywhere... ",
 			"SNES_accuracy" : 0.853333333333,
-			"PCE_english" : "<newbox_22x2@bottom_right><NPC_Kiri>: The jumpdrive is\nbroken.<pause>> We're stuck here.<wait>",
+			"PCE_english" : "<newbox_b_22x2@bottom_right><NPC_Kiri>: The jumpdrive is\nbroken.<pause>> We're stuck here.<wait>",
 			"notes" : ""
 		},
 		{
@@ -623,11 +623,11 @@
 			"string_size" : 213,
 			"start_pos" : "0x28668",
 			"bytes" : ["1a", "55", "10", "2a", "a2", "bf", "b3", "c0", "de", "dc", "21", "04", "3c", "03", "b1", "c9", "20", "b7", "ae", "b3", "bc", "de", "ad", "b6", "de", "20", "b2", "af", "c3", "b2", "c0", "c3", "de", "bc", "ae", "b3", "a1", "03", "b1", "c9", "cf", "c1", "c9", "20", "b7", "c0", "c9", "20", "d3", "d8", "c9", "c5", "b6", "c6", "20", "b2", "d0", "dd", "be", "dd", "03", "5c", "d5", "b0", "db", "ca", "df", "5c", "c9", "20", "bb", "de", "dd", "b6", "de", "b2", "b6", "de", "20", "b1", "d9", "af", "c3", "a1", "a3", "08", "1a", "53", "10", "2c", "a2", "d3", "bc", "b6", "bc", "c0", "d7", "20", "bf", "c9", "c5", "b6", "c6", "20", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "03", "ba", "b2", "d9", "5c", "b6", "de", "20", "c9", "ba", "af", "c3", "b2", "d9", "b6", "d3", "bc", "da", "c5", "b2", "21", "a3", "08", "1a", "52", "10", "29", "a2", "bc", "b6", "bc", "20", "32", "35", "30", "c8", "dd", "d3", "20", "cf", "b4", "c9", "20", "b3", "c1", "ad", "b3", "be", "dd", "03", "c0", "de", "be", "de", "a1", "5c", "bb", "cb", "de", "5c", "c2", "b2", "c1", "cf", "af", "c3", "d9", "dd", "bc", "de", "ac", "c5", "b2", "b6", "3f", "a3", "08", "19", "53", "10", "2c", "a2", "bc", "d7", "cd", "de", "c3", "d0", "c5", "b9", "d8", "ac", "20", "dc", "b6", "d7", "c5", "b2", "bb", "a3", "08"],
-			"PCE_japanese" : "<newbox_22x4@middle_right><NPC_Kiri>『そうだわ!<pause><\nおの きょうじゅが いっていたでしょう。\nおのまちの きたの もりのなかに いみんせん\nユ‐ロパの ざんがいが おるって。』<wait><newbox_22x2@bottom_right><NPC_Vynd>『もしかしたら そのなかに モノポ‐ル・\nコイルが のこっているかもしれない!』<wait><newbox_22x2@bottom_left><NPC_Klein>『しかし 250ねんも まえの うちゅうせん\nだぜ。サビついちまってるんじゃないか?』<wait><jumptobox_last_active_plus_3><NPC_Vynd>『しらべてみなけりゃ わからないさ』<wait>",
+			"PCE_japanese" : "<newbox_b_22x4@middle_right><NPC_Kiri>『そうだわ!<pause><\nおの きょうじゅが いっていたでしょう。\nおのまちの きたの もりのなかに いみんせん\nユ‐ロパの ざんがいが おるって。』<wait><newbox_b_22x2@bottom_right><NPC_Vynd>『もしかしたら そのなかに モノポ‐ル・\nコイルが のこっているかもしれない!』<wait><newbox_b_22x2@bottom_left><NPC_Klein>『しかし 250ねんも まえの うちゅうせん\nだぜ。サビついちまってるんじゃないか?』<wait><jumptobox_last_active_plus_3><NPC_Vynd>『しらべてみなけりゃ わからないさ』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_22x4@middle_right><NPC_Kiri>: I've got it!<pause> The\nprofessor mentioned the\nwreckage of the Europa.\nThat could help!<wait><newbox_22x2@bottom_right><NPC_Vynd>: Yeah! There\ncould still be a...<wait><erasebox><NPC_Vynd>:...Singularity\ncoil in the wreckage!<wait><newbox_22x2@bottom_left><NPC_Klein>: But it would be\nover 250 year old!<wait><erasebox><NPC_Klein>: Would it still\nbe useable now?<wait><jumptobox_last_active_plus_3><NPC_Vynd>: We won't know\nuntil we try.<wait>",
+			"PCE_english" : "<newbox_b_22x4@middle_right><NPC_Kiri>: I've got it!<pause> The\nprofessor mentioned the\nwreckage of the Europa.\nThat could help!<wait><newbox_b_22x2@bottom_right><NPC_Vynd>: Yeah! There\ncould still be a...<wait><erasebox><NPC_Vynd>:...Singularity\ncoil in the wreckage!<wait><newbox_b_22x2@bottom_left><NPC_Klein>: But it would be\nover 250 year old!<wait><erasebox><NPC_Klein>: Would it still\nbe useable now?<wait><jumptobox_last_active_plus_3><NPC_Vynd>: We won't know\nuntil we try.<wait>",
 			"notes" : ""
 		},
 		{
@@ -647,11 +647,11 @@
 			"string_size" : 59,
 			"start_pos" : "0x2873e",
 			"bytes" : ["1a", "52", "10", "2c", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "bc", "ad", "b3", "d8", "a4", "03", "b6", "dd", "d8", "ae", "b3", "c3", "de", "bd", "a1", "b2", "c2", "c3", "de", "d3", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "c3", "de", "b7", "cf", "bd", "d6", "a3", "08"],
-			"PCE_japanese" : "<newbox_22x2@bottom_left><NPC_Vynd>『ジャンプ・ジェネレ‐タ‐のしゅうり、\nかんりょうです。いつでもジャンプできますよ』<wait>",
+			"PCE_japanese" : "<newbox_b_22x2@bottom_left><NPC_Vynd>『ジャンプ・ジェネレ‐タ‐のしゅうり、\nかんりょうです。いつでもジャンプできますよ』<wait>",
 			"SNES_japanese" : "ヴィンド「ジャンプ・ジェネレーターの\n    しゅうりかんりょうです。\n    いつでもジャンプできますよ。」",
 			"SNES_english" : "Vynd: Repairs are\ncomplete. We can\nJump anytime!",
 			"SNES_accuracy" : 0.857142857143,
-			"PCE_english" : "<newbox_22x2@bottom_left><NPC_Vynd>: Repairs to the\njumpdrive are complete<wait><erasebox><NPC_Vynd>: We can now jump\nat any time.<wait>",
+			"PCE_english" : "<newbox_b_22x2@bottom_left><NPC_Vynd>: Repairs to the\njumpdrive are complete<wait><erasebox><NPC_Vynd>: We can now jump\nat any time.<wait>",
 			"notes" : ""
 		},
 		{
@@ -671,11 +671,11 @@
 			"string_size" : 121,
 			"start_pos" : "0x2877a",
 			"bytes" : ["1a", "51", "10", "30", "a2", "bc", "ae", "b3", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c0", "b2", "b7", "ca", "20", "bf", "dd", "bb", "de", "b2", "bc", "cf", "be", "dd", "a1", "03", "cb", "ae", "b3", "d2", "dd", "c6", "20", "bc", "de", "dd", "ba", "b3", "c3", "b7", "c5", "20", "5c", "c4", "de", "b0", "d1", "5c", "b6", "de", "03", "b1", "d8", "a4", "b1", "d7", "d5", "d9", "20", "ca", "c1", "ae", "b3", "c9", "20", "c3", "de", "dd", "ca", "df", "b6", "de", "03", "c4", "cb", "de", "b6", "af", "c3", "b2", "cf", "bd", "a1", "ba", "b3", "c4", "de", "c5", "5c", "c3", "b8", "c9", "db", "bc", "de", "b0", "5c", "b6", "de", "03", "bf", "dd", "bb", "de", "b2", "bd", "d9", "d6", "b3", "c3", "de", "bd", "a3", "08"],
-			"PCE_japanese" : "<newbox_22x6@bottom_centred><NPC_Mica>『しょうわくせいです。\nたいきは そんざいしません。\nひょうめんに じんこうてきな ド‐ムが\nおり、おらゆる はちょうの でんぱが\nとびかっています。こうどなテクノロジ‐が\nそんざいするようです』<wait>",
+			"PCE_japanese" : "<newbox_b_22x6@bottom_centred><NPC_Mica>『しょうわくせいです。\nたいきは そんざいしません。\nひょうめんに じんこうてきな ド‐ムが\nおり、おらゆる はちょうの でんぱが\nとびかっています。こうどなテクノロジ‐が\nそんざいするようです』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: There are many\nartificial domes on the\nsurface. Advanced\ntechnology exists here... ",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_22x6@bottom_centred><NPC_Mica>: Large asteroid.<pause>\nNo atmosphere.<pause>\nHowever there are many\nartificial domes on\nthe surface with\nadvanced technology.<wait>",
+			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: Large asteroid.<pause>\nNo atmosphere.<pause>\nHowever there are many\nartificial domes on\nthe surface with\nadvanced technology.<wait>",
 			"notes" : ""
 		},
 		{
@@ -695,11 +695,11 @@
 			"string_size" : 216,
 			"start_pos" : "0x287f4",
 			"bytes" : ["1b", "01", "1a", "53", "10", "29", "a2", "ba", "dd", "c4", "de", "ba", "bf", "20", "ce", "dd", "d3", "c9", "c9", "20", "5c", "b4", "b2", "d8", "b1", "dd", "5c", "03", "d7", "bc", "b2", "be", "de", "21", "a3", "08", "1a", "54", "10", "2b", "a2", "bc", "b6", "d3", "20", "dc", "da", "dc", "da", "bc", "de", "dd", "d9", "b2", "d6", "d8", "20", "bc", "dd", "ce", "df", "bc", "c0", "03", "bc", "ad", "bf", "de", "b8", "c9", "d6", "b3", "c0", "de", "a1", "bc", "dd", "c1", "ae", "b3", "c6", "20", "5c", "ba", "dd", "c0", "b8", "c4", "5c", "03", "bc", "c5", "b8", "c3", "ca", "3b", "3b", "3b", "3b", "a3", "08", "1a", "48", "10", "28", "a2", "c3", "de", "dd", "ca", "df", "ca", "20", "b6", "b2", "c4", "de", "b8", "20", "c3", "de", "b7", "d9", "b6", "3f", "a3", "08", "19", "54", "10", "2b", "a2", "dc", "b9", "c9", "dc", "b6", "d7", "c5", "b2", "20", "ba", "c4", "ca", "de", "b6", "de", "20", "c4", "cb", "de", "b6", "af", "c3", "03", "b2", "cf", "bd", "a1", "20", "c1", "b2", "bb", "b2", "b9", "da", "c4", "de", "20", "c6", "b7", "de", "d4", "b6", "c5", "20", "ce", "bc", "c9", "03", "d6", "b3", "c3", "de", "bd", "c8", "a3", "08", "19", "53", "10", "29", "a2", "b5", "da", "c0", "c1", "20", "b6", "dd", "b9", "de", "b2", "bc", "c3", "20", "d3", "d7", "b4", "d9", "b6", "c8", "b4", "3f", "a3", "08"],
-			"PCE_japanese" : "<closebox><addrow><newbox_22x2@bottom_right><NPC_Klein>『こんどこそ ほんものの エイリアン\nらしいぜ!』<wait><newbox_22x3@middle_right><NPC_Shine>『しかも われわれじんるいより しんぽした\nしゅぞくのようだ。しんちょうに コンタクト\nしなくては‥‥‥‥』<wait><newbox_24x1@middle_centred><Player_Name>『でんぱは かいどく できるか?』<wait><19>T<NPC_Shine>『わけのわからない ことばが とびかって\nいます。 ちいさいけれど にぎやかな ほしの\nようですね』<wait><jumptobox_last_active_plus_3><NPC_Klein>『おれたち かんげいして もらえるかねえ?』<wait>",
+			"PCE_japanese" : "<closebox><addrow><newbox_b_22x2@bottom_right><NPC_Klein>『こんどこそ ほんものの エイリアン\nらしいぜ!』<wait><newbox_b_22x3@middle_right><NPC_Shine>『しかも われわれじんるいより しんぽした\nしゅぞくのようだ。しんちょうに コンタクト\nしなくては‥‥‥‥』<wait><newbox_b_24x1@middle_centred><Player_Name>『でんぱは かいどく できるか?』<wait><19>T<NPC_Shine>『わけのわからない ことばが とびかって\nいます。 ちいさいけれど にぎやかな ほしの\nようですね』<wait><jumptobox_last_active_plus_3><NPC_Klein>『おれたち かんげいして もらえるかねえ?』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<closebox><addrow><newbox_22x2@bottom_right><NPC_Klein>: So, this time\nit really IS alien?<wait><newbox_22x3@middle_right><NPC_Shine>: Yes<pause>, and they\nseem to be far more\nadvanced than us.<wait><erasebox><NPC_Shine>: We need to be cautious here.<wait><newbox_24x2@middle_centred><Player_Name>: What about signs\nof communication?<wait><19>T<NPC_Shine>: Although small,\nit seems to be fairly\nactive.<wait><erasebox><NPC_Shine>: It sounds like\nit could be worth a\nlook, Commander.<wait><jumptobox_last_active_plus_3><NPC_Klein>: Do you think\nwe'll be welcomed?<wait>",
+			"PCE_english" : "<closebox><addrow><newbox_b_22x2@bottom_right><NPC_Klein>: So, this time\nit really IS alien?<wait><newbox_b_22x3@middle_right><NPC_Shine>: Yes<pause>, and they\nseem to be far more\nadvanced than us.<wait><erasebox><NPC_Shine>: We need to be cautious here.<wait><newbox_b_24x2@middle_centred><Player_Name>: What about signs\nof communication?<wait><19>T<NPC_Shine>: Although small,\nit seems to be fairly\nactive.<wait><erasebox><NPC_Shine>: It sounds like\nit could be worth a\nlook, Commander.<wait><jumptobox_last_active_plus_3><NPC_Klein>: Do you think\nwe'll be welcomed?<wait>",
 			"notes" : ""
 		},
 		{
@@ -719,11 +719,11 @@
 			"string_size" : 125,
 			"start_pos" : "0x288cd",
 			"bytes" : ["1a", "51", "10", "30", "a2", "d5", "b3", "c4", "de", "b8", "c9", "20", "c0", "b2", "b7", "c6", "20", "c2", "c2", "cf", "da", "c0", "03", "ba", "b3", "b5", "dd", "c9", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "bc", "c2", "c4", "de", "b6", "de", "20", "c0", "b6", "b8", "20", "dc", "b8", "be", "b2", "be", "de", "dd", "c0", "b2", "b6", "de", "03", "c4", "de", "db", "c7", "cf", "c6", "20", "b5", "b5", "dc", "da", "c3", "b2", "cf", "bd", "a1", "03", "b9", "de", "dd", "bc", "c3", "b7", "c5", "20", "be", "b2", "d2", "b2", "b6", "de", "20", "bf", "dd", "bb", "de", "b2", "bd", "d9", "d6", "b3", "03", "c3", "de", "bd", "b6", "de", "a4", "cc", "de", "dd", "d2", "b2", "ca", "20", "d0", "b1", "c0", "d8", "cf", "be", "dd", "a3", "08"],
-			"PCE_japanese" : "<newbox_22x6@bottom_centred><NPC_Mica>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです。\nしつどが たかく わくせいぜんたいが\nどろぬまに おおわれています。\nげんしてきな せいめいが そんざいするよう\nですが、ぶんめいは みおたりません』<wait>",
+			"PCE_japanese" : "<newbox_b_22x6@bottom_centred><NPC_Mica>『ゆうどくの たいきに つつまれた\nこうおんの わくせいです。\nしつどが たかく わくせいぜんたいが\nどろぬまに おおわれています。\nげんしてきな せいめいが そんざいするよう\nですが、ぶんめいは みおたりません』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Mica: The humidity is so\nhigh that the planet's\nsurrounded by mud. \nLife is present but no\ntechnology seems to exist. \n",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_22x6@bottom_centred><NPC_Mica>: Extremely high\nhumidity.<pause> The planet\nis covered by mud. I\ndetect life, but no\n signs of technology.<wait>",
+			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: Extremely high\nhumidity.<pause> The planet\nis covered by mud. I\ndetect life, but no\n signs of technology.<wait>",
 			"notes" : ""
 		},
 		{
@@ -743,11 +743,11 @@
 			"string_size" : 138,
 			"start_pos" : "0x2894b",
 			"bytes" : ["1a", "48", "10", "28", "a2", "d3", "af", "c4", "b8", "dc", "bc", "b8", "20", "bc", "d7", "cd", "de", "c3", "d0", "db", "a3", "08", "19", "51", "10", "30", "a2", "dc", "b6", "d8", "cf", "bc", "c0", "a3", "03", "13", "bf", "69", "13", "bf", "69", "13", "bf", "69", "42", "30", "35", "2d", "59", "31", "39", "20", "3d", "20", "6d", "25", "74", "72", "69", "02", "10", "30", "a2", "c1", "cb", "ae", "b3", "a6", "20", "b8", "dc", "bc", "b8", "20", "5c", "bd", "b7", "ac", "dd", "5c", "bc", "c0", "c4", "ba", "db", "03", "c0", "b6", "bb", "20", "d4", "b8", "35", "5c", "d2", "b0", "c4", "d9", "5c", "c9", "20", "bc", "de", "dd", "ba", "b3", "cc", "de", "c2", "c4", "03", "b5", "d3", "dc", "da", "d9", "20", "5c", "d3", "c6", "ad", "d2", "dd", "c4", "5c", "a6", "20", "ca", "af", "b9", "dd", "03", "bc", "cf", "bc", "c0", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><Player_Name>『もっとくわしく しらべてみろ』<wait><19>Q<NPC_Mica>『わかりました』\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<NPC_Mica>『ちひょうを くわしく スキャンしたところ\nたかさ やく5メ‐トルの じんこうぶつと\nおもわれる モニュメントを はっけん\nしました』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><Player_Name>『もっとくわしく しらべてみろ』<wait><19>Q<NPC_Mica>『わかりました』\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<NPC_Mica>『ちひょうを くわしく スキャンしたところ\nたかさ やく5メ‐トルの じんこうぶつと\nおもわれる モニュメントを はっけん\nしました』<wait>",
 			"SNES_japanese" : "「もっとくわしく しらべてみろ。」",
 			"SNES_english" : ": Keep looking around. ",
 			"SNES_accuracy" : 0.866666666667,
-			"PCE_english" : "<newbox_24x1@middle_centred><Player_Name>: Keep scanning.<wait><19>Q<NPC_Mica>: Affirmative.\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<NPC_Mica>: Scan complete.<pause>\nOne structure detected\nmeasuring 5m high - it\nappears to be a type\nof monument.<wait>",
+			"PCE_english" : "<newbox_b_24x1@middle_centred><Player_Name>: Keep scanning.<wait><19>Q<NPC_Mica>: Affirmative.\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<NPC_Mica>: Scan complete.<pause>\nOne structure detected\nmeasuring 5m high - it\nappears to be a type\nof monument.<wait>",
 			"notes" : ""
 		},
 		{
@@ -791,11 +791,11 @@
 			"string_size" : 117,
 			"start_pos" : "0x289d8",
 			"bytes" : ["1a", "48", "10", "28", "a2", "bc", "ad", "b3", "d8", "20", "c3", "de", "b7", "c5", "b2", "c9", "b6", "3f", "a3", "08", "1a", "54", "10", "2c", "a2", "5c", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c9", "20", "bc", "dd", "bf", "de", "b3", "cc", "de", "c9", "03", "5c", "d3", "c9", "ce", "df", "b0", "d9", "a5", "ba", "b2", "d9", "5c", "b6", "de", "20", "ba", "dc", "da", "c3", "d9", "dd", "c3", "de", "bd", "a1", "03", "5c", "bd", "cd", "df", "b1", "5c", "cc", "de", "cb", "dd", "d3", "20", "b1", "d8", "cf", "be", "dd", "a1", "a3", "08", "1a", "4c", "10", "29", "a2", "c4", "de", "ba", "b6", "c3", "de", "20", "c3", "c6", "b2", "da", "c5", "b2", "c4", "3b", "3b", "3b", "3b", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><Player_Name>『しゅうり できないのか?』<wait><newbox_22x3@middle_right><NPC_Vynd>『ジェネレ‐タ‐の しんぞうぶの\nモノポ‐ル・コイルが こわれてるんです。\nスペアぶひんも おりません。』<wait><newbox_24x1@bottom_centred><NPC_Klein>『どこかで てにいれないと‥‥‥‥』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><Player_Name>『しゅうり できないのか?』<wait><newbox_b_22x3@middle_right><NPC_Vynd>『ジェネレ‐タ‐の しんぞうぶの\nモノポ‐ル・コイルが こわれてるんです。\nスペアぶひんも おりません。』<wait><newbox_b_24x1@bottom_centred><NPC_Klein>『どこかで てにいれないと‥‥‥‥』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x1@middle_centred><Player_Name>: Can we repair it?<wait><newbox_22x3@middle_right><NPC_Vynd>: The Singularity coil\nis destroyed.<pause>< We don't\nhave a spare.<wait><newbox_24x2@bottom_centred><NPC_Klein>: We have to find one<pause>>\n...somehow.<wait>",
+			"PCE_english" : "<newbox_b_24x1@middle_centred><Player_Name>: Can we repair it?<wait><newbox_b_22x3@middle_right><NPC_Vynd>: The Singularity coil\nis destroyed.<pause>< We don't\nhave a spare.<wait><newbox_b_24x2@bottom_centred><NPC_Klein>: We have to find one<pause>>\n...somehow.<wait>",
 			"notes" : ""
 		},
 		{
@@ -815,11 +815,11 @@
 			"string_size" : 221,
 			"start_pos" : "0x28a4e",
 			"bytes" : ["1a", "51", "10", "30", "a2", "c0", "b2", "d6", "b3", "b6", "d7", "20", "c4", "b5", "b2", "c0", "d2", "a4", "ba", "b5", "d8", "c6", "03", "b5", "b5", "dc", "da", "c0", "20", "dc", "b8", "be", "b2", "c3", "de", "bd", "a1", "03", "c0", "b2", "b7", "c9", "20", "be", "b2", "cc", "de", "dd", "ca", "20", "bd", "b2", "bf", "c4", "20", "5c", "cd", "d8", "b3", "d1", "a1", "03", "5c", "cb", "ae", "b3", "d2", "dd", "c9", "20", "b5", "dd", "c4", "de", "ca", "20", "5c", "cf", "b2", "c5", "bd", "5c", "32", "30", "30", "df", "43", "03", "c3", "de", "bd", "a3", "08", "0c", "10", "30", "a2", "dc", "b8", "be", "b2", "c9", "20", "cb", "ae", "b3", "d2", "dd", "c6", "20", "5c", "c4", "de", "b0", "d1", "5c", "a6", "03", "ca", "af", "b9", "dd", "a1", "03", "c4", "bc", "20", "c9", "d6", "b3", "c3", "de", "bd", "b6", "de", "20", "b6", "c2", "c4", "de", "b3", "bc", "c3", "b2", "d9", "03", "d6", "b3", "bd", "ca", "b1", "d8", "cf", "be", "dd", "a3", "08", "0c", "13", "e4", "69", "10", "30", "a2", "b9", "b2", "ba", "b8", "21", "03", "20", "b9", "b2", "ba", "b8", "21", "03", "dc", "b8", "be", "b2", "c9", "20", "bc", "ad", "b3", "b2", "c6", "20", "bc", "de", "ad", "b3", "d8", "ae", "b8", "c9", "03", "b2", "bc", "de", "ae", "b3", "b1", "d8", "21", "20", "c1", "ad", "b3", "b2", "bc", "c3", "b8", "c0", "de", "bb", "b2", "21", "a3", "08"],
-			"PCE_japanese" : "<newbox_22x6@bottom_centred><NPC_Mica>『たいようから とおいため、こおりに\nおおわれた わくせいです。\nたいきの せいぶんは すいそと ヘリウム。\nひょうめんの おんどは マイナス20<30DF>C\nです』<wait><erasebox><NPC_Mica>『わくせいの ひょうめんに ド‐ムを\nはっけん。\nとし のようですが かつどうしている\nようすはおりません』<wait><erasebox><13>トi<NPC_Mica>『けいこく!\n けいこく!\nわくせいの しゅういに じゅうりょくの\nいじょうおり! ちゅういしてください!』<wait>",
+			"PCE_japanese" : "<newbox_b_22x6@bottom_centred><NPC_Mica>『たいようから とおいため、こおりに\nおおわれた わくせいです。\nたいきの せいぶんは すいそと ヘリウム。\nひょうめんの おんどは マイナス20<30DF>C\nです』<wait><erasebox><NPC_Mica>『わくせいの ひょうめんに ド‐ムを\nはっけん。\nとし のようですが かつどうしている\nようすはおりません』<wait><erasebox><13>トi<NPC_Mica>『けいこく!\n けいこく!\nわくせいの しゅういに じゅうりょくの\nいじょうおり! ちゅういしてください!』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_22x6@bottom_centred><NPC_Mica>: At this distance\nfrom the star, the\nsurface temperature is\na constant -200C.<pause>\nAtmosphere is Hydrogen\nand Helium.<wait><erasebox><NPC_Mica>: I found a domed\ncity on the surface.\nHowever<pause>, it seems be\ninactive.<wait><erasebox><13>トi<NPC_Mica>: WARNING!<pause>\nI detect gravity wave\nfluctations.<pause>\nBe careful.<wait>",
+			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: At this distance\nfrom the star, the\nsurface temperature is\na constant -200C.<pause>\nAtmosphere is Hydrogen\nand Helium.<wait><erasebox><NPC_Mica>: I found a domed\ncity on the surface.\nHowever<pause>, it seems be\ninactive.<wait><erasebox><13>トi<NPC_Mica>: WARNING!<pause>\nI detect gravity wave\nfluctations.<pause>\nBe careful.<wait>",
 			"notes" : ""
 		},
 		{
@@ -863,11 +863,11 @@
 			"string_size" : 290,
 			"start_pos" : "0x28b2e",
 			"bytes" : ["1a", "48", "10", "28", "a2", "bc", "de", "ad", "b3", "d8", "ae", "b8", "20", "b2", "bc", "de", "ae", "b3", "c9", "20", "b9", "de", "dd", "b2", "dd", "ca", "3f", "a3", "08", "1a", "50", "10", "2b", "a2", "bc", "c2", "d8", "ae", "b3", "31", "30", "30", "30", "c1", "ae", "b3", "5c", "c4", "dd", "a4", "5c", "c1", "ae", "af", "b9", "b2", "03", "33", "30", "5c", "b5", "dd", "b8", "de", "bd", "c4", "db", "b0", "d1", "5c", "c9", "20", "5c", "cf", "b2", "b8", "db", "a5", "cc", "de", "d7", "af", "b8", "03", "ce", "b0", "d9", "5c", "b6", "de", "20", "dc", "b8", "be", "b2", "c9", "20", "bc", "ad", "b3", "b2", "a6", "20", "cf", "dc", "af", "c3", "03", "b2", "cf", "bd", "a1", "bc", "de", "dd", "ba", "b3", "c3", "b7", "c6", "20", "c2", "b8", "d7", "da", "c0", "d3", "c9", "c9", "03", "d6", "b3", "c3", "de", "bd", "a3", "08", "19", "48", "10", "28", "a2", "bc", "de", "dd", "ba", "b3", "c3", "b7", "c5", "20", "d3", "c9", "c0", "de", "af", "c3", "3f", "a3", "08", "19", "50", "10", "2b", "a2", "bc", "be", "de", "dd", "b6", "b2", "c6", "ca", "a4", "ba", "c9", "5c", "bb", "b2", "bd", "de", "5c", "c9", "20", "5c", "cf", "b2", "b8", "db", "a5", "03", "cc", "de", "d7", "af", "b8", "ce", "b0", "d9", "5c", "ca", "20", "bf", "dd", "bb", "de", "b2", "bc", "c5", "b2", "c9", "c3", "de", "bd", "a3", "08", "1a", "54", "10", "29", "a2", "d1", "bd", "de", "b6", "bc", "b2", "ba", "c4", "ca", "20", "dc", "b6", "d7", "c5", "b2", "b6", "de", "20", "c4", "c6", "b6", "b8", "03", "5c", "cc", "de", "d7", "af", "b8", "ce", "b0", "d9", "5c", "a6", "20", "c2", "b8", "af", "c1", "cf", "b3", "d6", "b3", "c5", "03", "bd", "ba", "de", "b2", "20", "cc", "de", "dd", "d2", "b2", "b6", "de", "20", "b1", "d9", "af", "c3", "ba", "c4", "c0", "de", "c5", "a3", "08"],
-			"PCE_japanese" : "<newbox_24x1@middle_centred><Player_Name>『じゅうりょく いじょうの げんいんは?』<wait><newbox_22x5@bottom_centred><NPC_Shine>『しつりょう1000ちょうトン、ちょっけい\n30オングストロ‐ムの マイクロ・ブラック\nホ‐ルが わくせいの しゅういを まわって\nいます。じんこうてきに つくられたものの\nようです』<wait><19>H<Player_Name>『じんこうてきな ものだって?』<wait><19>P<NPC_Shine>『しぜんかいには、このサイズの マイクロ・\nブラックホ‐ルは そんざいしないのです』<wait><newbox_22x3@middle_right><NPC_Klein>『むずかしいことは わからないが とにかく\nブラックホ‐ルを つくっちまうような\nすごい ぶんめいが おるってことだな』<wait>",
+			"PCE_japanese" : "<newbox_b_24x1@middle_centred><Player_Name>『じゅうりょく いじょうの げんいんは?』<wait><newbox_b_22x5@bottom_centred><NPC_Shine>『しつりょう1000ちょうトン、ちょっけい\n30オングストロ‐ムの マイクロ・ブラック\nホ‐ルが わくせいの しゅういを まわって\nいます。じんこうてきに つくられたものの\nようです』<wait><19>H<Player_Name>『じんこうてきな ものだって?』<wait><19>P<NPC_Shine>『しぜんかいには、このサイズの マイクロ・\nブラックホ‐ルは そんざいしないのです』<wait><newbox_b_22x3@middle_right><NPC_Klein>『むずかしいことは わからないが とにかく\nブラックホ‐ルを つくっちまうような\nすごい ぶんめいが おるってことだな』<wait>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x1@middle_centred><Player_Name>: What is the cause?<wait><newbox_22x5@bottom_centred><NPC_Shine>: A micro Black\nHole of mass 10E^10kg\nand 30um is orbiting\nthe planet.<pause>\nIt seems artificial.<wait><19>H<Player_Name>: Artificial?!<wait><19>P<NPC_Shine>: There's no\nnatural explanation\nfor a micro Black Hole\nof this size.<wait><newbox_22x3@middle_right><NPC_Klein>: That's amazing!\nTechnology that can\ncreate a black hole!<wait>",
+			"PCE_english" : "<newbox_b_24x1@middle_centred><Player_Name>: What is the cause?<wait><newbox_b_22x5@bottom_centred><NPC_Shine>: A micro Black\nHole of mass 10E^10kg\nand 30um is orbiting\nthe planet.<pause>\nIt seems artificial.<wait><19>H<Player_Name>: Artificial?!<wait><19>P<NPC_Shine>: There's no\nnatural explanation\nfor a micro Black Hole\nof this size.<wait><newbox_b_22x3@middle_right><NPC_Klein>: That's amazing!\nTechnology that can\ncreate a black hole!<wait>",
 			"notes" : ""
 		},
 		{
@@ -1919,11 +1919,11 @@
 			"string_size" : 90,
 			"start_pos" : "0x29eff",
 			"bytes" : ["11", "16", "1a", "72", "5c", "c5", "dd", "ca", "de", "b0", "34", "cc", "de", "db", "af", "b8", "5c", "c6", "a4", "5c", "c0", "de", "d2", "b0", "bc", "de", "21", "04", "3c", "0c", "5c", "b7", "b1", "c2", "b6", "de", "20", "bb", "b6", "de", "af", "c3", "b2", "cf", "bd", "21", "04", "3c", "1a", "73", "ba", "c1", "d7", "20", "5c", "d2", "c3", "de", "a8", "b6", "d9", "a5", "d9", "b0", "d1", "21", "04", "3c", "0c", "bc", "bd", "c3", "d1", "5c", "c6", "20", "45", "4d", "50", "5c", "c0", "de", "d2", "b0", "bc", "de", "21", "04", "3c", "1b"],
-			"PCE_japanese" : "<11><16><newbox_23x1@bottom_left>ナンバ‐4ブロックに、ダメ‐ジ!<pause><<erasebox>きおつが さがっています!<pause><<newbox_23x1@bottom_right>こちら メディカル・ル‐ム!<pause><<erasebox>システムに EMPダメ‐ジ!<pause><<closebox>",
+			"PCE_japanese" : "<11><16><newbox_b_23x1@bottom_left>ナンバ‐4ブロックに、ダメ‐ジ!<pause><<erasebox>きおつが さがっています!<pause><<newbox_b_23x1@bottom_right>こちら メディカル・ル‐ム!<pause><<erasebox>システムに EMPダメ‐ジ!<pause><<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><16><newbox_23x1@bottom_left>Damage to section 4!<pause><<erasebox>Power failing!<pause><<newbox_23x1@bottom_right>The Medbay was hit!!<pause><<erasebox>EMP damage to system<pause><<closebox>",
+			"PCE_english" : "<11><16><newbox_b_23x1@bottom_left>Damage to section 4!<pause><<erasebox>Power failing!<pause><<newbox_b_23x1@bottom_right>The Medbay was hit!!<pause><<erasebox>EMP damage to system<pause><<closebox>",
 			"notes" : "First screen of introductory cinema"
 		},
 		{
@@ -1955,11 +1955,11 @@
 			"string_size" : 63,
 			"start_pos" : "0x29f5b",
 			"bytes" : ["11", "16", "1a", "73", "5c", "cc", "de", "d8", "af", "bc", "de", "5c", "c6", "20", "b6", "bb", "b2", "20", "ca", "af", "be", "b2", "21", "04", "3c", "1a", "72", "5c", "ba", "cf", "dd", "c0", "de", "b0", "21", "20", "b7", "ac", "cc", "df", "c3", "dd", "5c", "b6", "de", "3b", "3b", "3b", "3b", "5c", "b7", "ac", "cc", "df", "c3", "dd", "5c", "b6", "de", "21", "04", "3c", "1b"],
-			"PCE_japanese" : "<11><16><newbox_23x1@bottom_right>ブリッジに かさい はっせい!<pause><<newbox_23x1@bottom_left>コマンダ‐! キャプテンが‥‥‥‥キャプテンが!<pause><<closebox>",
+			"PCE_japanese" : "<11><16><newbox_b_23x1@bottom_right>ブリッジに かさい はっせい!<pause><<newbox_b_23x1@bottom_left>コマンダ‐! キャプテンが‥‥‥‥キャプテンが!<pause><<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "Commander! The\ncaptain's... !",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><16><newbox_23x1@bottom_right>Fire on the bridge!<pause><<newbox_23x1@bottom_left>Commander! The Captain...<pause><<closebox>",
+			"PCE_english" : "<11><16><newbox_b_23x1@bottom_right>Fire on the bridge!<pause><<newbox_b_23x1@bottom_left>Commander! The Captain...<pause><<closebox>",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -1991,11 +1991,11 @@
 			"string_size" : 77,
 			"start_pos" : "0x29f9c",
 			"bytes" : ["11", "16", "1a", "72", "bc", "bc", "ae", "b3", "bc", "ac", "20", "c0", "bd", "b3", "21", "20", "ba", "c9", "cf", "cf", "c3", "de", "ca", "20", "be", "de", "dd", "d2", "c2", "c3", "de", "bd", "21", "04", "3c", "1a", "73", "b8", "bf", "a4", "b6", "b2", "bf", "de", "b8", "c4", "de", "d3", "d2", "21", "04", "3c", "0c", "b5", "da", "c0", "c1", "a6", "20", "c5", "cc", "de", "d8", "ba", "de", "db", "bc", "c6", "20", "bd", "d9", "b7", "b6", "21", "04", "3c", "1b"],
-			"PCE_japanese" : "<11><16><newbox_23x1@bottom_left>ししょうしゃ たすう! このままでは ぜんめつです!<pause><<newbox_23x1@bottom_right>くそ、かいぞくどもめ!<pause><<erasebox>おれたちを なぶりごろしに するきか!<pause><<closebox>",
+			"PCE_japanese" : "<11><16><newbox_b_23x1@bottom_left>ししょうしゃ たすう! このままでは ぜんめつです!<pause><<newbox_b_23x1@bottom_right>くそ、かいぞくどもめ!<pause><<erasebox>おれたちを なぶりごろしに するきか!<pause><<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><16><newbox_23x1@bottom_left>We're surrounded!<pause><<newbox_23x1@bottom_right>Damn pirates!<pause><<erasebox>No! They'll kill us all!<pause><<closebox>",
+			"PCE_english" : "<11><16><newbox_b_23x1@bottom_left>We're surrounded!<pause><<newbox_b_23x1@bottom_right>Damn pirates!<pause><<erasebox>No! They'll kill us all!<pause><<closebox>",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2027,11 +2027,11 @@
 			"string_size" : 274,
 			"start_pos" : "0x29feb",
 			"bytes" : ["1a", "71", "ba", "b3", "c5", "af", "c3", "ca", "20", "c0", "de", "af", "bc", "ad", "c2", "bd", "d9", "20", "bc", "b6", "c5", "b2", "a1", "04", "3c", "0c", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "c4", "de", "d7", "b2", "cc", "de", "5c", "a6", "20", "c2", "b6", "b3", "21", "04", "3c", "1a", "73", "bc", "b6", "bc", "a4", "5c", "ba", "cf", "dd", "c0", "de", "b0", "5c", "21", "04", "3c", "0c", "b2", "cf", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "bc", "c0", "d7", "20", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "d0", "bd", "5c", "c9", "b7", "b9", "dd", "b6", "de", "3b", "3b", "04", "3c", "1a", "72", "bf", "b3", "c3", "de", "bd", "21", "20", "b3", "c1", "ad", "b3", "c9", "ca", "c3", "cf", "c3", "de", "20", "cc", "af", "c4", "dd", "c3", "de", "d5", "b8", "b6", "d3", "3f", "04", "3c", "19", "71", "c0", "de", "b6", "de", "20", "ba", "c9", "cf", "cf", "c3", "de", "ca", "20", "d4", "d7", "da", "c3", "bc", "cf", "b3", "a1", "04", "3c", "0c", "d0", "c1", "c9", "20", "b6", "c9", "b3", "be", "b2", "c6", "20", "b6", "b9", "c3", "d0", "d6", "b3", "04", "3c", "0c", "5c", "ca", "df", "dc", "b0", "5c", "a6", "20", "bd", "cd", "de", "c3", "5c", "bc", "de", "ac", "dd", "cc", "df", "a5", "bc", "de", "aa", "c8", "da", "b0", "c0", "b0", "5c", "c6", "cf", "dc", "be", "21", "05", "1e", "04", "3c", "19", "73", "5c", "b4", "c8", "d9", "b7", "de", "b0", "a5", "b9", "de", "b2", "dd", "5c", "20", "4d", "41", "58", "21", "04", "3c", "05", "37", "19", "72", "5c", "b5", "b0", "d9", "a5", "bc", "bd", "c3", "d1", "20", "b4", "cf", "bc", "de", "aa", "dd", "bc", "b0", "a5", "d3", "b0", "c4", "de", "5c", "cd", "21", "04", "3c"],
-			"PCE_japanese" : "<newbox_24x1@top_centred>こうなっては だっしゅつする しかない。<pause><<erasebox>ジャンプ・ドライブを つかう!<pause><<newbox_23x1@bottom_right>しかし、コマンダ‐!<pause><<erasebox>いま ジャンプしたら ジャンプ・ミスのきけんが‥‥<pause><<newbox_23x1@bottom_left>そうです! うちゅうのはてまで ふっとんでゆくかも?<pause><<jumptobox_cinema_last_active_plus_1>だが このままでは やられてしまう。<pause><<erasebox>みちの かのうせいに かけてみよう<pause><<erasebox>パワ‐を すべてジャンプ・ジェネレ‐タ‐にまわせ!<05><1E><pause><<jumptobox_cinema_last_active>エネルギ‐・ゲイン MAX!<pause><<05>7<jumptobox_cinema_last_active_plus_2>オ‐ル・システム エマジェンシ‐・モ‐ドへ!<pause><",
+			"PCE_japanese" : "<newbox_b_24x1@top_centred>こうなっては だっしゅつする しかない。<pause><<erasebox>ジャンプ・ドライブを つかう!<pause><<newbox_b_23x1@bottom_right>しかし、コマンダ‐!<pause><<erasebox>いま ジャンプしたら ジャンプ・ミスのきけんが‥‥<pause><<newbox_b_23x1@bottom_left>そうです! うちゅうのはてまで ふっとんでゆくかも?<pause><<jumptobox_cinema_last_active_plus_1>だが このままでは やられてしまう。<pause><<erasebox>みちの かのうせいに かけてみよう<pause><<erasebox>パワ‐を すべてジャンプ・ジェネレ‐タ‐にまわせ!<05><1E><pause><<jumptobox_cinema_last_active>エネルギ‐・ゲイン MAX!<pause><<05>7<jumptobox_cinema_last_active_plus_2>オ‐ル・システム エマジェンシ‐・モ‐ドへ!<pause><",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_24x1@top_centred>There's no way out...<pause><<erasebox>use the jumpdrive!<pause><<newbox_23x1@bottom_right>Commander!<pause><<erasebox>We have no jump target!!!<pause><<newbox_23x1@bottom_left>...we could jump-miss!<pause><<erasebox>...and appear anywhere!<pause><<jumptobox_cinema_last_active_plus_1>We have no choice, do it.<pause><<erasebox>Good luck everyone...<pause><<erasebox>Power up the Jumpdrive!<05><1E><pause><<jumptobox_cinema_last_active>Singularity coils charged<pause><<erasebox>Jumpdrive at max power!<pause><<05>7<jumptobox_cinema_last_active_plus_2>Systems to emergency mode!<pause><",
+			"PCE_english" : "<newbox_b_24x1@top_centred>There's no way out...<pause><<erasebox>use the jumpdrive!<pause><<newbox_b_23x1@bottom_right>Commander!<pause><<erasebox>We have no jump target!!!<pause><<newbox_b_23x1@bottom_left>...we could jump-miss!<pause><<erasebox>...and appear anywhere!<pause><<jumptobox_cinema_last_active_plus_1>We have no choice, do it.<pause><<erasebox>Good luck everyone...<pause><<erasebox>Power up the Jumpdrive!<05><1E><pause><<jumptobox_cinema_last_active>Singularity coils charged<pause><<erasebox>Jumpdrive at max power!<pause><<05>7<jumptobox_cinema_last_active_plus_2>Systems to emergency mode!<pause><",
 			"notes" : "Introductory cinema"
 		},
 		{
@@ -2051,11 +2051,11 @@
 			"string_size" : 177,
 			"start_pos" : "0x2a0fe",
 			"bytes" : ["19", "73", "ce", "de", "b3", "b7", "de", "ae", "5c", "cc", "a8", "b0", "d9", "c4", "de", "5c", "c9", "20", "5c", "ca", "df", "dc", "b0", "5c", "b6", "de", "20", "b5", "c1", "c3", "b2", "cf", "bd", "21", "04", "3c", "19", "71", "b1", "c4", "20", "31", "30", "cb", "de", "ae", "b3", "c0", "de", "b9", "20", "d3", "c0", "be", "db", "21", "04", "3c", "19", "73", "5c", "bc", "bd", "c3", "d1", "a5", "ba", "dd", "c3", "de", "bc", "ae", "dd", "20", "b5", "da", "dd", "bc", "de", "21", "5c", "04", "3c", "19", "72", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "bb", "de", "cb", "ae", "b3", "a6", "20", "be", "af", "c3", "b2", "c3", "de", "b7", "cf", "be", "dd", "21", "04", "3c", "19", "71", "b6", "cf", "dc", "dd", "21", "20", "b2", "b8", "bf", "de", "21", "1a", "74", "3b", "3b", "3b", "3b", "33", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "32", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "31", "3b", "3b", "3b", "3b", "0c", "3b", "3b", "3b", "3b", "30", "0b", "0e", "05", "5c", "bc", "de", "ac", "dd", "cc", "df", "21", "04", "3c", "1b"],
-			"PCE_japanese" : "<jumptobox_cinema_last_active>ぼうぎょフィ‐ルドの パワ‐が おちています!<pause><<jumptobox_cinema_last_active_plus_1>おと 10びょうだけ もたせろ!<pause><<jumptobox_cinema_last_active>システム・コンデション オレンジ!<pause><<jumptobox_cinema_last_active_plus_2>ジャンプざひょうを せっていできません!<pause><<jumptobox_cinema_last_active_plus_1>かまわん! いくぞ!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<0B><padV><05>ジャンプ!<pause><<closebox>",
+			"PCE_japanese" : "<jumptobox_cinema_last_active>ぼうぎょフィ‐ルドの パワ‐が おちています!<pause><<jumptobox_cinema_last_active_plus_1>おと 10びょうだけ もたせろ!<pause><<jumptobox_cinema_last_active>システム・コンデション オレンジ!<pause><<jumptobox_cinema_last_active_plus_2>ジャンプざひょうを せっていできません!<pause><<jumptobox_cinema_last_active_plus_1>かまわん! いくぞ!<newbox_b_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<0B><padV><05>ジャンプ!<pause><<closebox>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>Just a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not<pause><<erasebox>locked, target unknown!!!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<erasebox>JUMP!<pause><<closebox>",
+			"PCE_english" : "<jumptobox_cinema_last_active>Shields are failing!!<pause><<jumptobox_cinema_last_active_plus_1>Just a few seconds...<pause><<jumptobox_cinema_last_active>System code orange!<pause><<jumptobox_cinema_last_active_plus_2>Jumpdrive coordinates not<pause><<erasebox>locked, target unknown!!!<pause><<jumptobox_cinema_last_active_plus_1>DAMN! Just do it!<newbox_b_9x1@top_right>‥‥‥‥3‥‥‥‥<erasebox>‥‥‥‥2‥‥‥‥<erasebox>‥‥‥‥1‥‥‥‥<erasebox>‥‥‥‥0<erasebox>JUMP!<pause><<closebox>",
 			"notes" : "End of introductory cinema"
 		},
 		{
@@ -2195,11 +2195,11 @@
 			"string_size" : 490,
 			"start_pos" : "0x2a748",
 			"bytes" : ["11", "14", "1a", "48", "10", "28", "a2", "b1", "b6", "d8", "ca", "20", "cf", "c0", "de", "20", "c2", "b6", "c5", "b2", "c9", "b6", "3f", "a3", "1c", "06", "1b", "01", "1a", "4e", "a2", "d3", "b3", "bd", "ba", "bc", "20", "cf", "af", "c3", "b8", "c0", "de", "bb", "b2", "a1", "a3", "1c", "03", "1b", "01", "1a", "53", "a2", "ba", "c1", "d7", "5c", "d7", "ce", "de", "5c", "a1", "4d", "49", "43", "41", "c9", "20", "5c", "cc", "df", "db", "b8", "de", "d7", "d1", "5c", "b6", "de", "20", "be", "b2", "bc", "de", "ae", "b3", "c6", "02", "20", "d3", "c4", "de", "af", "c0", "bf", "de", "a1", "a3", "1c", "03", "1b", "01", "1a", "54", "10", "30", "a2", "06", "39", "6d", "52", "04", "14", "06", "39", "46", "2d", "04", "14", "33", "2c", "38", "04", "1e", "42", "3d", "57", "06", "39", "31", "04", "14", "2f", "68", "34", "2a", "3b", "3b", "3b", "3b", "03", "07", "10", "dc", "c0", "bc", "ca", "20", "07", "0c", "be", "dd", "c4", "b3", "20", "cc", "de", "dd", "be", "07", "09", "b7", "d6", "b3", "03", "bc", "de", "dd", "ba", "b3", "20", "07", "ff", "c1", "c9", "b3", "20", "4d", "49", "43", "41", "3b", "3b", "3b", "04", "1e", "21", "a3", "1c", "03", "0c", "10", "30", "a2", "5c", "bc", "de", "ac", "dd", "cc", "df", "5c", "c9", "5c", "bc", "ae", "af", "b8", "5c", "c3", "de", "20", "bd", "ba", "bc", "20", "5c", "ca", "de", "b8", "de", "5c", "af", "c3", "03", "b2", "c0", "d6", "b3", "c3", "de", "bd", "a1", "03", "ba", "de", "d2", "b2", "dc", "b8", "a6", "20", "b5", "b6", "b9", "bc", "cf", "bc", "c0", "a1", "a3", "1c", "03", "1b", "01", "1a", "57", "10", "28", "a2", "bf", "da", "d6", "d8", "20", "bc", "de", "ae", "b3", "b7", "ae", "b3", "a6", "20", "cc", "de", "dd", "be", "b7", "03", "bc", "c3", "b8", "da", "a1", "a3", "1c", "03", "1b", "01", "1a", "54", "10", "30", "a2", "ba", "ba", "ca", "20", "b7", "de", "dd", "b6", "de", "b9", "b2", "c9", "20", "c1", "ad", "b3", "bc", "dd", "cc", "de", "c9", "03", "d6", "b3", "c3", "de", "bd", "a1", "be", "b2", "b6", "b8", "c5", "20", "b2", "c1", "ca", "20", "5c", "c3", "de", "b0", "c0", "5c", "b6", "de", "03", "c5", "b2", "c9", "c3", "de", "20", "cc", "d2", "b2", "3b", "3b", "a3", "1c", "03", "0c", "10", "30", "07", "01", "a2", "cf", "af", "c3", "b8", "c0", "de", "bb", "b2", "21", "07", "ff", "04", "3c", "03", "c1", "b6", "b8", "c6", "b1", "d9", "20", "dc", "b8", "be", "b2", "b6", "d7", "20", "c3", "de", "dd", "ca", "df", "b6", "de", "03", "c3", "de", "c3", "b2", "cf", "bd", "21", "a3", "1c", "03", "1b", "01", "1a", "48", "10", "28", "a2", "c3", "de", "dd", "ca", "df", "20", "c0", "de", "af", "c3", "3b", "3b", "3b", "3f", "21", "a3", "1c", "03", "1b", "02", "1a", "52", "a2", "ba", "c1", "d7", "20", "bc", "ad", "b3", "d8", "ca", "dd", "a1", "c3", "de", "dd", "b7", "b9", "b2", "c4", "b3", "c9", "20", "ba", "bc", "ae", "b3", "b6", "de", "02", "20", "c5", "b5", "d8", "cf", "bc", "c0", "a1", "b1", "b6", "d8", "b6", "de", "20", "c2", "b7", "cf", "bd", "a1", "a3", "1c", "08", "11"],
-			"PCE_japanese" : "<11><14><newbox_24x1@middle_centred><Player_Name>『おかりは まだ つかないのか?』<endwait><06><closebox><addrow><newbox_24x1@middle_centred>『もうすこし まってください。』<endwait>\n<closebox><addrow><newbox_22x2@bottom_right>『こちらラボ。MICAの プログラムが せいじょうに\n もどったぞ。』<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>『<06>9mR<pause><14><06>9F-<pause><14>3,8<pause><1E>B=W<06>91<pause><14>/h4*‥‥‥‥\n<slow><10>わたしは <slow><erasebox>せんとう ぶんせ<slow><09>きよう\nじんこう <slow>゜ちのう MICA‥‥‥<pause><1E>!』<endwait>\n<erasebox><NPC_Mica>『ジャンプのショックで すこし バグって\nいたようです。\nごめいわくを おかけしました。』<endwait>\n<closebox><addrow><newbox_24x2@top_centred><Player_Name>『それより じょうきょうを ぶんせき\nしてくれ。』<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>『ここは ぎんがけいの ちゅうしんぶの\nようです。せいかくな いちは デ‐タが\nないので ふめい‥‥』<endwait>\n<erasebox><NPC_Mica><slow><addrow>『まってください!<slow>゜<pause><\nちかくにおる わくせいから でんぱが\nでています!』<endwait>\n<closebox><addrow><newbox_24x1@middle_centred><Player_Name>『でんぱ だって‥‥‥?!』<endwait>\n<closebox>\n<newbox_22x2@bottom_left>『こちら しゅうりはん。でんきけいとうの こしょうが\n なおりました。おかりが つきます。』<endwait><wait><11>",
+			"PCE_japanese" : "<11><14><newbox_c_24x1@middle_centred><Player_Name>『おかりは まだ つかないのか?』<endwait><06><closebox><addrow><newbox_c_24x1@middle_centred>『もうすこし まってください。』<endwait>\n<closebox><addrow><newbox_b_22x2@bottom_right>『こちらラボ。MICAの プログラムが せいじょうに\n もどったぞ。』<endwait>\n<closebox><addrow><newbox_b_22x3@middle_right><NPC_Mica>『<06>9mR<pause><14><06>9F-<pause><14>3,8<pause><1E>B=W<06>91<pause><14>/h4*‥‥‥‥\n<slow><10>わたしは <slow><erasebox>せんとう ぶんせ<slow><09>きよう\nじんこう <slow>゜ちのう MICA‥‥‥<pause><1E>!』<endwait>\n<erasebox><NPC_Mica>『ジャンプのショックで すこし バグって\nいたようです。\nごめいわくを おかけしました。』<endwait>\n<closebox><addrow><newbox_b_24x2@top_centred><Player_Name>『それより じょうきょうを ぶんせき\nしてくれ。』<endwait>\n<closebox><addrow><newbox_b_22x3@middle_right><NPC_Mica>『ここは ぎんがけいの ちゅうしんぶの\nようです。せいかくな いちは デ‐タが\nないので ふめい‥‥』<endwait>\n<erasebox><NPC_Mica><slow><addrow>『まってください!<slow>゜<pause><\nちかくにおる わくせいから でんぱが\nでています!』<endwait>\n<closebox><addrow><newbox_b_24x1@middle_centred><Player_Name>『でんぱ だって‥‥‥?!』<endwait>\n<closebox>\n<newbox_b_22x2@bottom_left>『こちら しゅうりはん。でんきけいとうの こしょうが\n なおりました。おかりが つきます。』<endwait><wait><11>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<11><14><newbox_24x1@middle_centred><Player_Name>: Power status?<endwait><06><closebox><addrow><newbox_24x1@middle_centred>Just a second...<endwait>\n<closebox><addrow><newbox_22x2@bottom_right>This is the lab:\n<NPC_Mica> should be online now.<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>: <slow><10>I... am... the AI\n<slow><04>system, MICA...!<pause><<erasebox><NPC_Mica>: I apologise.<pause> I took\nslight damage during the\nattack.<endwait>\n<closebox><addrow><newbox_24x2@top_centred><Player_Name>: Ok. What's our status?\nWhere are we?<endwait>\n<closebox><addrow><newbox_22x3@middle_right><NPC_Mica>: We are within our\ngalaxy. But no exact data\nis available.<endwait>\n<erasebox><NPC_Mica>: <slow><10>Wait!\n<slow><ff>I detect EM waves from a\nplanet!<endwait>\n<closebox><addrow><newbox_24x1@middle_centred><Player_Name>: EM Waves?<endwait>\n<closebox>\n<newbox_22x2@bottom_left>This is engineering:\nPower is now restored.<endwait><wait><11>",
+			"PCE_english" : "<11><14><newbox_c_24x1@middle_centred><Player_Name>: Power status?<endwait><06><closebox><addrow><newbox_c_24x1@middle_centred>Just a second...<endwait>\n<closebox><addrow><newbox_b_22x2@bottom_right>This is the lab:\n<NPC_Mica> should be online now.<endwait>\n<closebox><addrow><newbox_b_22x3@middle_right><NPC_Mica>: <slow><10>I... am... the AI\n<slow><04>system, MICA...!<pause><<erasebox><NPC_Mica>: I apologise.<pause> I took\nslight damage during the\nattack.<endwait>\n<closebox><addrow><newbox_b_24x2@top_centred><Player_Name>: Ok. What's our status?\nWhere are we?<endwait>\n<closebox><addrow><newbox_b_22x3@middle_right><NPC_Mica>: We are within our\ngalaxy. But no exact data\nis available.<endwait>\n<erasebox><NPC_Mica>: <slow><10>Wait!\n<slow><ff>I detect EM waves from a\nplanet!<endwait>\n<closebox><addrow><newbox_b_24x1@middle_centred><Player_Name>: EM Waves?<endwait>\n<closebox>\n<newbox_b_22x2@bottom_left>This is engineering:\nPower is now restored.<endwait><wait><11>",
 			"notes" : "This dialogue segment is shown after the scrolling intro text and before the game-proper begins."
 		},
 		{

@@ -1,0 +1,5 @@
+These files were created with the tool 'splitAssets.py'.
+
+The asset files in this directory are clean extracts. There are NO english strings in any of the data.
+
+Use these files if you want to test a particular asset chunk by loading all the original strings.

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -f assets/converted/*.dat ; cp assets/split/*.dat assets/converted/ && ./expandRom.py -f
