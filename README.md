@@ -42,7 +42,7 @@ THe bulk of the gameplay dialogue that you come across in regular play is done, 
 
 Luckily, the PC-Engine version of Cyber Knight uses uncompressed text and already has a full English character set in the font table, so a lot of what we need is already in place.
 
-Cyber Knight also uses an asset bank system - the text is not in one location in the ROM. A full explanation is is the [Cyber Knight Asset Bank Scheme](documents/CyberKnight Asset Bank Scheme.md) file.
+Cyber Knight also uses an asset bank system - the text is not in one location in the ROM. A full explanation is is the [Cyber Knight Asset Bank Scheme](./documents/CyberKnight Asset Bank Scheme.md) file.
 
 What we needed to do in order to get the Japanese text into data files that we could edit was:
 
