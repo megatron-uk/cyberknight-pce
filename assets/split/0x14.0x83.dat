@@ -459,7 +459,7 @@
 			"SNES_japanese" : "MICA「ちきゅうに にた わくせいです。\n    たいきの せいぶんは\n    さんそ ちっそ などで こきゅうかのう。\n    ひょうめんの ６０パーセントは うみで\n    たいりくには もりと そうげんが\n    ひろがっています。」",
 			"SNES_english" : "Mica: The planet seems to\nbe similar to Earth. \nOxygen is present 60%\nof the surface is ocean \nand there are forests and\nplains on the ground. \n",
 			"SNES_accuracy" : 0.885057471264,
-			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: This planet is\nsimilar to Earth.\nOxygen and Nitrogen\natmosphere. Surface is\n60% covered by sea.<wait><wait><erasebox><NPC_Mica>: The main\ncontinent is grassland\nand forest. Human-type\nlife and a city\ndetected to the north.<wait>",
+			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: This planet is\nsimilar to Earth.\nOxygen and Nitrogen\natmosphere. Surface is\n60% covered by sea.<wait><wait><erasebox><NPC_Mica>: The main\ncontinent is grassland\nand forest. Humanoid\nlifesigns and a city\ndetected to the north.<wait>",
 			"notes" : ""
 		},
 		{
@@ -507,7 +507,7 @@
 			"SNES_japanese" : "MICA「みなみはんきゅうに\n    きんぞくのドームを はっけんしました。\n    まだ けんぞうちゅうと おもわれます。」",
 			"SNES_english" : "Mica: A dome was found\nunder construction on\nthe southern continent. ",
 			"SNES_accuracy" : 0.903225806452,
-			"PCE_english" : "<13>トi\n: A dome was found\nunder construction on\nthe south continent.<wait>",
+			"PCE_english" : "<13><e4>i\n: A dome was found\nunder construction on\nthe south continent.<wait>",
 			"notes" : ""
 		},
 		{
@@ -747,7 +747,7 @@
 			"SNES_japanese" : "「もっとくわしく しらべてみろ。」",
 			"SNES_english" : ": Keep looking around. ",
 			"SNES_accuracy" : 0.866666666667,
-			"PCE_english" : "<newbox_b_24x1@middle_centred><Player_Name>: Keep scanning.<wait><19>Q<NPC_Mica>: Affirmative.\n<13>そi<13>そi<13>そiB05-Y19 = m%tri\n<NPC_Mica>: Scan complete.<pause>\nOne structure detected\nmeasuring 5m high - it\nappears to be a type\nof monument.<wait>",
+			"PCE_english" : "<newbox_b_24x1@middle_centred><Player_Name>: Keep scanning.<wait><19>Q<NPC_Mica>: Affirmative.\n<13><bf>i<13><bf>i<13><bf>iB05-Y19 = m%tri\n<NPC_Mica>: Scan complete.<pause>\nOne structure detected\nmeasuring 5m high - it\nappears to be a type\nof monument.<wait>",
 			"notes" : ""
 		},
 		{
@@ -819,7 +819,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: At this distance\nfrom the star, the\nsurface temperature is\na constant -200C.<pause>\nAtmosphere is Hydrogen\nand Helium.<wait><erasebox><NPC_Mica>: I found a domed\ncity on the surface.\nHowever<pause>, it seems be\ninactive.<wait><erasebox><13>トi<NPC_Mica>: WARNING!<pause>\nI detect gravity wave\nfluctations.<pause>\nBe careful.<wait>",
+			"PCE_english" : "<newbox_b_22x6@bottom_centred><NPC_Mica>: At this distance\nfrom the star, the\nsurface temperature is\na constant -200C.<pause>\nAtmosphere is Hydrogen\nand Helium.<wait><erasebox><NPC_Mica>: I found a domed\ncity on the surface.\nHowever<pause>, it seems be\ninactive.<wait><erasebox><13><e4>i<NPC_Mica>: WARNING!<pause>\nI detect gravity wave\nfluctations.<pause>\nBe careful.<wait>",
 			"notes" : ""
 		},
 		{

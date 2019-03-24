@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mednafen c.pce
+mednafen rom.pce

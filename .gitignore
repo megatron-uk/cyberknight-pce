@@ -1,4 +1,7 @@
 *.py[cod]
+log
+out
+tmp
 
 # C extensions
 *.so
