@@ -6,7 +6,7 @@ Cyber Knight is a sci-fi twist on a traditional console RPG. There is a fair amo
 
 There are a *lot* of battles.
 
-The title was released on both the PC-Engine and the Super Famicom, both exclusively in Japanese. Later, the translation group [http://agtp.romhack.net/project.php?id=ck1](Aeon Genesis) translated it to English for the SNES. No attempts for the PC-Engine existed prior to now.
+The title was released on both the PC-Engine and the Super Famicom, both exclusively in Japanese. Later, the translation group [Aeon Genesis](http://agtp.romhack.net/project.php?id=ck1) translated it to English for the SNES. No attempts for the PC-Engine existed prior to now.
 
 There are differences between SNES and PC-Engine version, in some respects the PC-Engine looks better (higher res menu screens and dialogue), in some the SNES is clearly superior (battle screens and higher colour use). Audio is very subjective - the PCE has really great, stereo PSG music in the best tradition of the console; the SNES has more *realistic* sounds, but I'm not sure if it's actually better.
 
@@ -42,7 +42,7 @@ THe bulk of the gameplay dialogue that you come across in regular play is done, 
 
 Luckily, the PC-Engine version of Cyber Knight uses uncompressed text and already has a full English character set in the font table, so a lot of what we need is already in place.
 
-Cyber Knight also uses an asset bank system - the text is not in one location in the ROM. A full explanation is is the [documents/CyberKnight Asset Bank Scheme.md](CyberKnight Asset Bank Scheme.md) file.
+Cyber Knight also uses an asset bank system - the text is not in one location in the ROM. A full explanation is is the [Cyber Knight Asset Bank Scheme](documents/CyberKnight Asset Bank Scheme.md) file.
 
 What we needed to do in order to get the Japanese text into data files that we could edit was:
 
