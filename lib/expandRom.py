@@ -380,7 +380,7 @@ else:
 		print("Writing original file contents from 0x0-%s [%s bytes]" % (hex(ROM_SIZE), ROM_SIZE))
 		new_rom.write(rom_bytes)
 		bytes_written = 0
-		b = "FF"
+		b = "00"
 		print("Filling with 0x%s from %s-%s [%s bytes]" % (b, hex(ROM_SIZE), hex(ROM_SIZE + (TOTAL_ASSET_BANKS * BANK_SIZE)), (TOTAL_ASSET_BANKS * BANK_SIZE)))
 		new_rom.seek(ROM_SIZE, 0)
 		while bytes_written < (TOTAL_ASSET_BANKS * BANK_SIZE):
@@ -474,19 +474,19 @@ while c < ASSET_LOAD_TABLE_SIZE:
 			# 0x5f, 0x03, 0x40, 0x00, data_bytes_start_here
 			# The reference to the asset in the asset pointer table will therefore always be 0x01, as it is the 
 			# first address pair in the asset table.
-			#print("--- Seeking to 0x%s" % hex(this_location))
+			print("--- Seeking to 0x%s" % hex(this_location))
 			new_rom = open(OUT_FILE, "rb+")
 			new_rom.seek(this_location, 0)
 			new_table = [hex(this_bank)[2:4], '03', '40']
-			#print("--- Writing new asset table %s" % (new_table))
+			print("--- Writing new asset table %s" % (new_table))
 			
 			for table_byte in new_table:
 				new_rom.write(binascii.unhexlify(table_byte))
 			
 			# Now write the text asset data
-			#print("--- Seeking to 0x%s" % hex(this_location + len(new_table)))
+			print("--- Seeking to 0x%s" % hex(this_location + len(new_table)))
 			new_rom.seek(this_location + len(new_table), 0)
-			#print("--- Writing asset data")
+			print("--- Writing asset data")
 			for text_byte in translated_bytes:
 				new_rom.write(binascii.unhexlify(text_byte))
 			

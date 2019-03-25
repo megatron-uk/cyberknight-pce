@@ -28,7 +28,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : " Y/N ",
-			"notes" : ""
+			"notes" : "Used when confirming text entry, such as player name, or allocating stat points."
 		},
 		{
 			"string_number" : 3,
@@ -448,7 +448,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "What the flip is this???"
 		},
 		{
 			"string_number" : 41,
@@ -1319,7 +1319,7 @@
 			"string_size" : 33,
 			"start_pos" : "0x1c3b4",
 			"bytes" : ["11", "01", "0b", "0a", "0a", "20", "20", "0b", "0a", "0c", "20", "20", "0b", "0a", "11", "20", "20", "0b", "0a", "13", "20", "20", "0b", "0a", "18", "20", "20", "0b", "0a", "1a", "20", "20", "11"],
-			"PCE_japanese" : "<11><addrow><0B><0A><0A>  <0B><0A><erasebox>  <0B><0A><11>  <0B><0A><13>  <0B><0A><18>  <0B><0A><newbox_15x2@top_left> <11>",
+			"PCE_japanese" : "<11><addrow><0B><0A><0A>  <0B><0A><erasebox>  <0B><0A><11>  <0B><0A><13>  <0B><0A><18>  <0B><0A><newbox_a_15x2@top_left> <11>",
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
@@ -1936,7 +1936,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<erasebox><06><endwait>It is not possible to copy <Player_Name>\nwith this code.<wait>",
-			"notes" : ""
+			"notes" : "Shown in the medbay save screen when you enter an incorrect save password"
 		},
 		{
 			"string_number" : 175,
@@ -1959,8 +1959,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<erasebox><Player_Name>, this is your code.",
-			"notes" : ""
+			"PCE_english" : "<erasebox><Player_Name>, this is your\nmDNA save code.",
+			"notes" : "Shown in the the medbay when you request a new save password"
 		},
 		{
 			"string_number" : 177,
@@ -2008,7 +2008,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<erasebox>Reviving a clone!",
-			"notes" : ""
+			"notes" : "Shown in the medbay save screen when you select a save slot to load"
 		},
 		{
 			"string_number" : 181,
@@ -2283,8 +2283,8 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
-			"notes" : "Clone <Player_Name><09><0A> <13>"
+			"PCE_english" : "Clone <Player_Name><09><0A> <13>",
+			"notes" : "Appears in the middle box of the save game screen when you select a save slot to load, shows the name of your saved character and the play time."
 		},
 		{
 			"string_number" : 204,
@@ -2332,7 +2332,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "<padH><06>Body Cloning(mDNA)\n DNA1<13>fI DNA2<13>fI DNA3<13>fI DNA4<13>fI",
-			"notes" : "This has multiple embedded end bytes (see the 0x00 bytes in the byte list above), they cause problems when used in addition to ascii, hence i've taken those individual strings out."
+			"notes" : "This has multiple embedded end bytes (see the 0x00 bytes in the byte list above), they cause problems when used in addition to ascii, hence i've taken those individual strings out. The end bytes are actually part of the originl Japanese text which has multiple Kanji double-height Kanji characters - one for each of the 4 rows this text prints on, so ignore any warnings regarding missing end bytes compared to the original."
 		},
 		{
 			"string_number" : 216,
@@ -2547,7 +2547,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : " Savegames\n Passwords",
+			"PCE_english" : " Load save\n Password",
 			"notes" : "Main game start menu"
 		},
 		{
@@ -2619,7 +2619,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "  2-Ch. 1-Ch.",
+			"PCE_english" : "  2-Ch. Mono.",
 			"notes" : "2/1 channel sound selection from main game start menu"
 		},
 		{
@@ -2643,7 +2643,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "    Cyber Knight - r<GIT_REVISION>",
+			"PCE_english" : "<padH><04>Cyber Knight - r<GIT_REVISION>",
 			"notes" : "Game title as shown at the top of the main game start menu - this .dat file is pre-processed by expandRom.py to embed the actual Git commit number in the above string."
 		},
 		{
@@ -2979,8 +2979,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english1" : "  Str  Int  Dex\n<padV><addrow><09><slow><13>0<40>\n<padV><addrow><NPC_Klein><09><slow><18>ほ=<15><18>や=<15><18>れ=<15>\n<padV><addrow><NPC_Kiri><09><slow><18>ま=<15><18>ゆ=<15><18>ろ=<15>\n<padV><addrow><NPC_Shine><09><slow><18>み=<15><18>よ=<15><18>わ=<15>\n<padV><addrow><NPC_Vynd><09><slow><18>む=<15><18>ら=<15><18>ん=<15>\n<padV><addrow><NPC_Nehjana><09><slow><18>め=<15><18>り=<15>=<15>",
-			"PCE_english" : "",
+			"PCE_english" : "  Str  Int  Dex\n<padV><addrow><09><slow><13>0<40>\n<padV><addrow><NPC_Klein><09><slow><18>ほ=<15><18>や=<15><18>れ=<15>\n<padV><addrow><NPC_Kiri><09><slow><18>ま=<15><18>ゆ=<15><18>ろ=<15>\n<padV><addrow><NPC_Shine><09><slow><18>み=<15><18>よ=<15><18>わ=<15>\n<padV><addrow><NPC_Vynd><09><slow><18>む=<15><18>ら=<15><18>ん=<15>\n<padV><addrow><NPC_Nehjana><09><slow><18>め=<15><18>り=<15>=<15>",
 			"notes" : "Displays the table of str/int/dex points for you and the rest of your team, as shown when creating a new character at the beginning of a game."
 		},
 		{
@@ -3004,7 +3003,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "",
+			"PCE_english" : "123456789ABCDEF0123456789ABCDEF<addrow>",
 			"notes" : ""
 		},
 		{
@@ -3028,7 +3027,7 @@
 			"SNES_japanese" : "",
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
-			"PCE_english" : "<0B>",
+			"PCE_english" : "<0b>",
 			"notes" : ""
 		},
 		{
@@ -3065,7 +3064,7 @@
 			"SNES_english" : "",
 			"SNES_accuracy" : 0.0,
 			"PCE_english" : "",
-			"notes" : ""
+			"notes" : "FIXME FIXME!! When this section is injected, it seems to break the save screen"
 		},
 		{
 			"string_number" : 277,
