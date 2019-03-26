@@ -1,4 +1,0 @@
-#!/bin/bash
-
-cp assets/split/*.dat assets/converted
-lib/expandRom.py -f
