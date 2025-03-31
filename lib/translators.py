@@ -83,8 +83,8 @@ def encode_text(string, trans_table, string_number = 0):
 		#print("%s: %s" % (i, s))
 
 		if (s == "<"):
-			#if VERBOSE:
-			#print("Possible control byte")
+			if VERBOSE:
+				print("Possible control byte")
 			# yes - this might be a control byte or lookup
 			s_byte = s
 			# is there a matching right chevron?
@@ -103,6 +103,7 @@ def encode_text(string, trans_table, string_number = 0):
 				if VERBOSE:
 					print("INFO: Got a control byte: %s" % s_byte)
 				# jump to the end pos within input string
+				s_code = True
 				i = i + len(s_byte) - 1
 				
 		#print(s.encode('utf-8')
@@ -115,7 +116,7 @@ def encode_text(string, trans_table, string_number = 0):
 			i += 1
 		else:
 			if s_code:
-				match_s = s_byte  # e.g. <end> or <34>
+				match_s = str(s_byte)  # e.g. <end> or <34>
 				match_s_raw = s_byte[1:-1].upper() # e.g. 34
 				# control codes can be uppercase
 			else:
@@ -125,8 +126,11 @@ def encode_text(string, trans_table, string_number = 0):
 
 			# Search for the matching hex code for this character to encode it
 			
+			#print("%s, %s" % (match_s, match_s_raw))
+			
+			s_found = False
 			for hex_byte in ttable.keys():					
-				if (match_s.encode('utf8') == ttable[hex_byte]["pre_shift"]) or (match_s.encode('utf8') == ttable[hex_byte]["post_shift"]) or (match_s.encode('utf8') == hex_byte):
+				if (match_s == ttable[hex_byte]["pre_shift"]) or (match_s.encode('utf8') == ttable[hex_byte]["post_shift"]) or (match_s.encode('utf8') == hex_byte):
 					encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 					s_found = True
 					i += 1
@@ -136,6 +140,7 @@ def encode_text(string, trans_table, string_number = 0):
 			# Search for a match in column 1 of the table, ie the actual byte code
 			if s_found is False:
 				for hex_byte in ttable.keys():	
+					#print("finding [%s]" % match_s_raw.lower().encode('utf8'))
 					if (match_s_raw.encode('utf8') == ttable[hex_byte]["byte_code"]):
 						encoded_as_hex.append(hex_byte.lower().encode('utf8'))
 						s_found = True
@@ -147,7 +152,7 @@ def encode_text(string, trans_table, string_number = 0):
 			# If we didn't find a control code lookup then just add the literal
 			if ((s_found is False) and (s_code is True)) and (len(s_byte) == 4):
 				if VERBOSE:
-					print("WARNING! No lookup for control byte [%s] at string %, index %s - adding %s" % (s_byte, string_number, i, s_byte[1:-1]))
+					print("WARNING!(a) No lookup for control byte [%s] at string %s, index %s - adding %s" % (s_byte, string_number, i, s_byte[1:-1]))
 				encoded_as_hex.append(s_byte[1:-1].lower().encode('utf8'))
 				s_found = True
 				i += 1
@@ -155,9 +160,9 @@ def encode_text(string, trans_table, string_number = 0):
 			# If we didn't find a character lookup, then... erm... I don't know!
 			if s_found is False:
 				if s_code:
-					print("WARNING! No lookup for [%s] at string %s, index %s" % (s_byte.encode('utf8'), string_number, i))
+					print("WARNING!(b) No lookup for [%s] at string %s, index %s" % (s_byte, string_number, i))
 				else:
-					print("WARNING! No lookup for [%s] at string %s, index %s" % (s.encode('utf8'), string_number, i))
+					print("WARNING!(c) No lookup for [%s] at string %s, index %s" % (s, string_number, i))
 				print("Full string is: %s" % string.encode('utf8'))
 				print("")
 				i += 1
@@ -181,7 +186,7 @@ def translate_double_string(bytes, trans_table_double, alt=False):
 	# Can only work with even string lengths
 	if (len(bytes)%2==0):
 		if VERBOSE:
-			print ""
+			print("")
 		check_bytes = []
 		b_pos_start = 0
 		b_pos_end = 2
@@ -194,13 +199,13 @@ def translate_double_string(bytes, trans_table_double, alt=False):
 				#b += str(binascii.hexlify(ch))
 				b += str(ch)
 			if VERBOSE:
-				print "Searching for <%s>" % str(b.upper())
+				print("Searching for <%s>" % str(b.upper()))
 			# Double height strings are only ever an even number
 			if (b.upper() in trans_table_double.keys()):
 				
 				bt = trans_table_double[b.upper()]["pre_shift"]
 				if VERBOSE:
-					print "Found %s" % bt
+					print("Found %s" % bt)
 				new_bytes.append("%s" % bt)
 				b_pos_start = b_pos_end
 				b_pos_end = b_pos_start + 2
@@ -215,11 +220,11 @@ def translate_double_string(bytes, trans_table_double, alt=False):
 		if len(new_bytes) == 0:
 			new_bytes = bytes
 		if VERBOSE:
-			print "End <%s>" % new_bytes
+			print("End <%s>" % new_bytes)
 		return new_bytes
 	else:
 		if VERBOSE:
-			print "Not a valid double height string"
+			print("Not a valid double height string")
 		return bytes
 
 def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, old_assets = True, VERBOSE = VERBOSE):
@@ -243,7 +248,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 	if old_assets:
 		
 		if VERBOSE:
-			print hex(byte_sequence["start_pos"])
+			print(hex(byte_sequence["start_pos"]))
 		
 		if (byte_sequence["method"] == METHOD_1):
 			offset = METHOD_1_OFFSET
@@ -265,8 +270,8 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 			text_key = "alt_text"
 	
 		if VERBOSE:
-			print ""
-			print "String @ %s (%s bytes)" % (hex(byte_sequence["start_pos"]), len(byte_sequence["bytes"]))
+			print("")
+			print("String @ %s (%s bytes)" % (hex(byte_sequence["start_pos"]), len(byte_sequence["bytes"])))
 	else:
 		trailing_bytes = 0
 			
@@ -282,7 +287,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 				print("Index %s:%s Skipped" % (i, byte_sequence["bytes"][i]))
 		else:
 			if VERBOSE:
-				print "Index %s:%s" % (i, byte_sequence["bytes"][i])
+				print("Index %s:%s" % (i, byte_sequence["bytes"][i]))
 			already_decoded = False
 			decode_it = False
 			if old_assets:
@@ -310,35 +315,35 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 					decode_it = True
 					if VERBOSE:
 						print("Processing composite dakuten <%s> at Index %s" % (b, i))
-						print "Jump to %s" % (already_i)
+						print("Jump to %s" % (already_i))
 			elif (b1 == PC_NAME) and ((b2.upper() in PC_NAMES) or (b2.lower() in PC_NAMES)):
 				if i > already_i:
 					b = b1 + b2
 					already_i = i + 1
 					decode_it = True
 					if VERBOSE:
-						print "Processing PC name <%s> at Index %s" % (b, i)
-						print "Jump to %s" % (already_i)
+						print("Processing PC name <%s> at Index %s" % (b, i))
+						print("Jump to %s" % (already_i))
 			elif (b1 == DIALOGUE_BOX) and ((b2.upper() in DIALOGUE_CODES) or (b2.lower() in DIALOGUE_CODES)):
 				if i > already_i:
 					b = b1 + b2
 					already_i = i + 1
 					decode_it = True
 					if VERBOSE:
-						print "Processing Dialogue box code <%s> at Index %s" % (b, i)
-						print "Jump to %s" % (already_i)
+						print("Processing Dialogue box code <%s> at Index %s" % (b, i))
+						print("Jump to %s" % (already_i))
 			
 			elif (b1 == KANJI_CODE):
 				byte_sequence[text_key].append("<kanji>")
 				if VERBOSE:
-					print "Processing double height char at Index %s" % i
+					print("Processing double height char at Index %s" % i)
 				if i > already_i:
 					double_byte_pos = int(byte_sequence["start_pos"], 16) + i
 					try:
 						if len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]) >= int(b2, 16):
 							if VERBOSE:
-								print "Processing Index %s" % i					
-								print "Double height lookup @ %s (%s %s)" % (hex(double_byte_pos), b1, b2)
+								print("Processing Index %s" % i)					
+								print("Double height lookup @ %s (%s %s)" % (hex(double_byte_pos), b1, b2))
 							
 							br = byte_sequence["bytes"][i+1:i+int(b2, 16)+1]
 							
@@ -350,15 +355,15 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 								byte_sequence[text_key].append(c.encode('utf-8'))
 							already_decoded = True
 							if VERBOSE:
-								print "Jump to %s" % already_i
+								print("Jump to %s" % already_i)
 						else:
 							if VERBOSE:
-								print "Not a Kanji code @ %s (%s %s, but only %s bytes)" % (hex(double_byte_pos), b1, b2, len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1]))
+								print("Not a Kanji code @ %s (%s %s, but only %s bytes)" % (hex(double_byte_pos), b1, b2, len(byte_sequence["bytes"][i+1:i+int(b2, 16)+1])))
 							decode_it = True
 							b = b1
 					except Exception as e:
-						print traceback.format_exc()
-						print e
+						print(traceback.format_exc())
+						print(e)
 						print("Error in string: %s" % byte_sequence)
 						sys.exit(1)
 						b = b1
@@ -389,7 +394,7 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 								record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 							byte_sequence[text_key].append("<%s>" % b)
 						if VERBOSE:
-							print "byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode)
+							print("byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode))
 						
 				else:
 					if (b.lower() == SWITCH_MODE) or (b.upper() == SWITCH_MODE):
@@ -411,10 +416,10 @@ def translate_string(byte_sequence, trans_table, trans_table_double, alt=False, 
 								record_missing(b, MISSING_BYTES, byte_sequence["start_pos"] + i)
 							byte_sequence[text_key].append("<%s>" % b)
 						if VERBOSE:
-							print "byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode)
+							print("byte:%6s i:%2s text:%6s switch:%5s" % (str(b), i, bt, switch_mode))
 						
 	if VERBOSE:
-		print byte_sequence["bytes"][-1]
+		print(byte_sequence["bytes"][-1])
 	if len(byte_sequence["bytes"]) > 1:
 		b = byte_sequence["bytes"][-1]
 		if b.upper() in trans_table.keys():
@@ -446,12 +451,12 @@ def missing_stats():
 	Print details about missing translation bytes.
 	"""
 
-	print "Missing character translations: %s" % len(MISSING_BYTES)
+	print("Missing character translations: %s" % len(MISSING_BYTES))
 	if VERBOSE:
-		print "Character | Occurences"
+		print("Character | Occurences")
 		for b in MISSING_BYTES.keys():
-			print "%9s | %4s " % (b, len(MISSING_BYTES[b]))
-	print "Done"
+			print("%9s | %4s " % (b, len(MISSING_BYTES[b])))
+	print("Done")
 	
 
 ######################################################
@@ -461,6 +466,6 @@ def document_stats(report_stats):
 	Print details about the exported document.
 	"""
 	
-	print "Export filename: %s" % report_stats["filename"]
-	print "Export filesize: %s bytes" % report_stats["filesize"]
-	print "Done"
+	print("Export filename: %s" % report_stats["filename"])
+	print("Export filesize: %s bytes" % report_stats["filesize"])
+	print("Done")

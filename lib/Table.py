@@ -29,9 +29,9 @@ def load_snes_table(snes_name):
 			trans_table[key] = re.sub('{..}','' , value)
 		f.close
 	except Exception as e:
-		print traceback.format_exc()
-		print e
-		print line
+		print(traceback.format_exc())
+		print(e)
+		print(line)
 		sys.exit(2)
 	return trans_table
 
@@ -62,12 +62,13 @@ def load_table():
 			trans_table[byte_code]["post_shift_type"] = columns[4].replace('"', '')
 			if len(columns) > 5:
 				trans_table[byte_code]["notes"] = columns[5].replace('"', '')
+			#print(trans_table[byte_code])
 
 		f.close()
 	except Exception as e:
-		print traceback.format_exc()
-		print e
-		print line
+		print(traceback.format_exc())
+		print(e)
+		print(line)
 		sys.exit(2)
 	return trans_table
 
@@ -100,8 +101,8 @@ def load_table_double():
 
 		f.close()
 	except Exception as e:
-		print traceback.format_exc()
-		print e
-		print line
+		print(traceback.format_exc())
+		print(e)
+		print(line)
 		sys.exit(2)
 	return trans_table

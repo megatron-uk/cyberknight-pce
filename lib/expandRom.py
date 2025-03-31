@@ -37,10 +37,9 @@ except:
 	print("Warning: Falling back to json")
 	import json
 try:
-	import cStringIO as StringIO
+	from io import StringIO
 except:
-	print("cStringIO not available")
-	import StringIO
+	print("io not available")
 	
 ######################################################
 ############ < User configuration > ##################
@@ -297,7 +296,7 @@ for bank_number in ASSETS["asset_banks"].keys():
 						
 					else:
 						if SHOW_PROGRESS:
-                                                    print("UNTRANSLATED %s.%s.%s: %s" % (hex(bank_number), hex(asset_number), asset_chunk["string_number"], asset_chunk["PCE_japanese"].encode('utf-8')))
+							print("UNTRANSLATED %s.%s.%s: %s" % (hex(bank_number), hex(asset_number), asset_chunk["string_number"], asset_chunk["PCE_japanese"].encode('utf-8')))
 							
 						# Otherwise load Japanese text
 						for b in asset_chunk["bytes"]:
