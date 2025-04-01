@@ -182,7 +182,7 @@ for bank_number in ASSETS["asset_banks"].keys():
 				print("")
 				print("#########################################################")
 				print("Calculating asset data for %s.%s" % (hex(bank_number), hex(asset_number)))
-				asset = json.loads(open(ASSETS_DIR + "/" + hex(bank_number) + "." + hex(asset_number) + ".dat").read())
+				asset = json.loads(open(ASSETS_DIR + "/" + hex(bank_number) + "." + hex(asset_number) + ".dat", encoding='utf-8').read())
 				PCE_translated_bytes = 0
 				PCE_original_bytes = 0
 				ttable = load_table()
